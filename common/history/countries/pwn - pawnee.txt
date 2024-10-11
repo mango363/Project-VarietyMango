@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:LKT = {
+	c:PWN = {
 		effect_starting_technology_tier_5_tech = yes
 
 		add_technology_researched = egalitarianism
