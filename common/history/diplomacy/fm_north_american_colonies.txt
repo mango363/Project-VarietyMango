@@ -1,0 +1,9 @@
+DIPLOMACY = {
+	# Four Colonies
+	c:FOU = {
+		create_diplomatic_pact = {
+			country = c:AMC
+			type = guarantee_independence
+		}
+	}
+}

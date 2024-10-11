@@ -105,10 +105,6 @@
 			country = c:NUR
 			type = dominion
 		}
-		create_diplomatic_pact = {
-			country = c:FOU
-			type = dominion
-		}
 	}
 	c:SCO = {
 		create_diplomatic_pact = {
