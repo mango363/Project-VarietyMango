@@ -76,6 +76,7 @@
 	building_banana_plantation = {"european_rural_plantation_01_mesh"}
 	building_vineyard_plantation = {"european_rural_plantation_01_mesh"}
 	building_olive_plantation = {"european_rural_plantation_01_mesh"}
+	building_native_trapping = {"european_rural_plantation_01_mesh"}
 	building_spice_plantation = {"european_rural_plantation_01_mesh"}
 
 	building_manor_house = {"european_rural_manorhouse_01_mesh"}
