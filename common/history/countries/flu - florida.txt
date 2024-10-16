@@ -34,6 +34,10 @@ COUNTRIES = {
 		ig:ig_rural_folk = { 
 			add_ruling_interest_group = yes
 		}
+
+		add_journal_entry = {
+			type = je_na_flu_defend_from_old_powers
+		}
 		
 	}
 }

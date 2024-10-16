@@ -60,5 +60,9 @@ COUNTRIES = {
 		set_variable = {
 			name = idea_amc
 		}
+
+		add_journal_entry = {
+			type = je_na_amc_defend_from_old_powers
+		}
 	}
 }

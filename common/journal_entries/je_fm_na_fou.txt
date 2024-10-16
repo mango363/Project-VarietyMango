@@ -1,0 +1,114 @@
+je_na_fou_western_expansion = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		AND = {
+			owns_entire_state_region = STATE_SOUTH_CAROLINA
+			owns_entire_state_region = STATE_NORTH_CAROLINA
+			owns_entire_state_region = STATE_VIRGINIA
+			owns_entire_state_region = STATE_WEST_VIRGINIA
+		}
+	}
+	fail = {
+		NOR = {
+			has_state_in_state_region = STATE_SOUTH_CAROLINA
+			has_state_in_state_region = STATE_NORTH_CAROLINA
+			has_state_in_state_region = STATE_VIRGINIA
+			has_state_in_state_region = STATE_WEST_VIRGINIA
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_na_fou.1
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = fm_na_fou.2
+		}
+	}
+	should_be_pinned_by_default = no
+}
+
+je_na_fou_defend_from_old_powers = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		c:AMC = {
+			OR = {
+				is_subject = no
+				is_subject_of = c:FOU
+			}
+		}
+		c:FLU = {
+			OR = {
+				is_subject = no
+				is_subject_of = c:FOU
+			}
+		}
+		c:FOU = {
+			is_subject = no
+		}
+	}
+	fail = {
+		OR = {
+			is_subject = yes
+			c:FLU = {
+				AND = {
+					is_subject = yes
+					NOT = {
+						is_subject_of = c:FOU
+					}
+				}
+			}
+			c:AMC = {
+				NOT = {
+					has_journal_entry = je_amc_main
+				}
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_na_fou.3
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = fm_na_fou.4
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_na_fou_establish_new_syddanmark = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		AND = {
+			owns_entire_state_region = STATE_SOUTH_CAROLINA
+			owns_entire_state_region = STATE_NORTH_CAROLINA
+			owns_entire_state_region = STATE_VIRGINIA
+			is_subject = no
+		}
+	}
+	fail = {
+		NOR = {
+			has_state_in_state_region = STATE_SOUTH_CAROLINA
+			has_state_in_state_region = STATE_NORTH_CAROLINA
+			owns_entire_state_region = STATE_VIRGINIA
+			is_subject = yes
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_na_fou.1
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = fm_na_fou.2
+		}
+	}
+	should_be_pinned_by_default = yes
+}

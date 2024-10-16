@@ -868,13 +868,8 @@ STATES = {
 	}
 	s:STATE_GEORGIA = {
 		create_state = {
-			country = c:FOU
-			owned_provinces = { x9BEA44  x13B302 xF0CB48 }
-			state_type = incorporated
-		}
-		create_state = {
 			country = c:FLU
-			owned_provinces = { x40F040 }
+			owned_provinces = { x40F040 x9BEA44  x13B302 xF0CB48 }
 			state_type = incorporated
 		}
 
@@ -909,11 +904,11 @@ STATES = {
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
 		create_state = {
-			country = c:AMC
+			country = c:FOU
 			owned_provinces = { x700080 x44578c }
 		}	
 		
-		add_homeland = cu:dutch_colonial		
+		add_homeland = cu:americano
 	}
 
 	s:STATE_WEST_VIRGINIA = {
@@ -943,10 +938,10 @@ STATES = {
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
-			country = c:AMC
+			country = c:FOU
 			owned_provinces = { x708080 x0E3435 xAEB9F5 xF08000 x16482D x5E6C0F x888194 x576240 x3CC08F }
 		}
-		add_homeland = cu:dutch_colonial
+		add_homeland = cu:americano
 		
 	}
 	s:STATE_DELAWARE = {

@@ -1,7 +1,6 @@
 COUNTRIES = {
 	c:FOU ?= {
 
-
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
@@ -19,5 +18,18 @@ COUNTRIES = {
 		activate_law = law_type:law_professional_army
 		
 		add_taxed_goods = g:grain
+
+		add_journal_entry = {
+			type = je_na_fou_western_expansion
+		}
+
+		add_journal_entry = {
+			type = je_na_fou_defend_from_old_powers
+		}
+
+		add_journal_entry = {
+			type = je_na_fou_establish_new_syddanmark
+		}
+
 	}
 }

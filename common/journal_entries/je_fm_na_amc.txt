@@ -1,0 +1,57 @@
+je_na_amc_defend_from_old_powers = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		c:FLU = {
+			OR = {
+				is_subject = no
+				is_subject_of = c:AMC
+			}
+		}
+		c:FOU = {
+			OR = {
+				is_subject = no
+				is_subject_of = c:AMC
+			}
+		}
+		c:AMC = {
+			is_subject = no
+		}
+	}
+	fail = {
+		OR = {
+			c:FLU = {
+				AND = {
+					is_subject = yes
+					NOT = {
+						is_subject_of = c:AMC
+					}
+				}
+			}
+			c:FOU = {
+				AND = {
+					is_subject = yes
+					NOT = {
+						is_subject_of = c:AMC
+					}
+				}
+			}
+			c:AMC = {
+				NOT = {
+					has_journal_entry = je_amc_main
+				}
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_na_amc.1
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = fm_na_amc.2
+		}
+	}
+	should_be_pinned_by_default = yes
+}
