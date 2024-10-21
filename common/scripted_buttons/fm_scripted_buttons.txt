@@ -1398,7 +1398,7 @@ je_anatolia_int_erz = {
 	}
 }
 
-je_buy_louisiana = {
+je_buy_louisiana_button = {
 	name = "je_buy_louisiana"
 	desc = "je_buy_louisiana_desc"
 	visible = {
@@ -1413,338 +1413,56 @@ je_buy_louisiana = {
 			NOT = {
 				has_modifier = modifier_fru_one
 			}
-			NOT = {
-				has_variable = variable_louisiana
+			c:MCG = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:CAD = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:COM = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
 			}
 		}
 	}
 	effect = {
+		if = {
+			limit = {
+				exists = c:FRU
+				c:LOI = {
+					is_subject_of = c:FRU
+				}
+			}
+			c:FRU = {
+				trigger_event = {
+					id = fm_france.1
+					days = 30
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = c:FRE
+				c:LOI = {
+					is_subject_of = c:FRE
+				}
+			}
+			c:FRE = {
+				trigger_event = {
+					id = fm_france.1
+					days = 30
+				}
+			}
+		}
+
+		# Set variable after we check if it exists
 		set_variable = {
 			name = variable_louisiana
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_france.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_france.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-je_buy_louisiana_amc = {
-	name = "je_buy_louisiana_amc"
-	desc = "je_buy_louisiana_amc_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_amc
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_amc
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_amc.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_amc.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_buy_louisiana_flu = {
-	name = "je_buy_louisiana_flu"
-	desc = "je_buy_louisiana_flu_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_flu
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_flu
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_flu.3
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_flu.3
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_buy_louisiana_mex = {
-	name = "je_buy_louisiana_mex"
-	desc = "je_buy_louisiana_mex_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_mex
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_mex
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_mex.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_mex.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_dakota_tribes_ctf = {
-	name = "je_dakota_tribes_ctf"
-	desc = "je_dakota_tribes_ctf_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:CTF
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.6
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_cru = {
-	name = "je_dakota_tribes_cru"
-	desc = "je_dakota_tribes_cru_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:CRU
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.7
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_sio = {
-	name = "je_dakota_tribes_sio"
-	desc = "je_dakota_tribes_sio_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:SIO
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.8
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_lkt = {
-	name = "je_dakota_tribes_lkt"
-	desc = "je_dakota_tribes_lkt_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:LKT
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.5
-				days = 730
-			}
 		}
 	}
 }

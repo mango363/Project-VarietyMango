@@ -1,0 +1,95 @@
+je_na_one_secure_to_michigan = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	group = je_group_historical_content
+
+	timeout = 1825
+
+	fail = {
+		NOT = {
+			has_state_in_state_region = STATE_INDIANA
+		}
+	}
+	complete = {
+		owns_entire_state_region = STATE_INDIANA
+	}
+	on_fail = {
+		s:STATE_INDIANA = {
+			add_claim = c:SWN
+		}
+	}
+	on_timeout = {
+		s:STATE_INDIANA = {
+			add_claim = ROOT
+		}
+	}
+	on_complete = {
+		add_loyalists = {
+			value = 0.1
+			strata = poor
+		}
+		add_loyalists = {
+			value = 0.1
+			strata = middle
+		}
+		add_loyalists = {
+			value = 0.1
+			strata = rich
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_na_one_secure_the_north = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	group = je_group_historical_content
+
+	timeout = 1825
+
+	complete = {
+		owns_entire_state_region = STATE_WISCONSIN
+	}
+	on_complete = {
+		s:STATE_WISCONSIN = {
+			add_modifier = {
+				name = modifier_na_secure
+				is_decaying = yes
+				months = 25
+			}
+		}
+	}
+	on_timeout = {
+		s:STATE_WISCONSIN = {
+			add_claim = c:DKT
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_na_one_secure_the_south = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	group = je_group_historical_content
+
+	timeout = 1825
+
+	complete = {
+			owns_entire_state_region = STATE_ILLINOIS
+	}
+	on_complete = {
+		s:STATE_ILLINOIS = {
+			add_modifier = {
+				name = modifier_na_secure
+				is_decaying = yes
+				months = 25
+			}
+		}
+	}
+	on_timeout = {
+		trigger_event = {
+			id = fm_na_one.1
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}

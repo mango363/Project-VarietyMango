@@ -1,0 +1,4 @@
+modifier_na_secure = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	state_migration_pull_mult = 0.1
+}

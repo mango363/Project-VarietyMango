@@ -9,39 +9,6 @@ DKT = {
 	capital = STATE_MINNESOTA
 }
 
-LKT = {
-	color = { 13 102 75  }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { na_yankton_yanktonai_dakota na_lakota }
-	capital = STATE_SOUTH_DAKOTA
-}
-
-CTF = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MICHIGAN
-}
-
-CHE = {
-	color = { 13 102 75 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cherokee }
-	capital = STATE_WEST_VIRGINIA
-}
-
 COM = {
 	color = { 13 102 75 }
 
@@ -152,17 +119,6 @@ ATB = {
 	capital = STATE_NORTHWEST_TERRITORIES
 }
 
-TNC = {
-	color = { 103 45 54 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_NORTHWEST_TERRITORIES
-}
-
 CAD = {
 	color = { 54 102 75 }
 
@@ -172,61 +128,6 @@ CAD = {
 
 	cultures = { na_cree_montagnais }
 	capital = STATE_ARKANSAS
-}
-
-KSI = {
-	color = { 13 57 0 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_OKLAHOMA
-}
-
-WCH = {
-	color = { 13 0 75 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_OKLAHOMA
-}
-
-OSG = {
-	color = { 60 102 75 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MISSOURI
-}
-
-KNS = {
-	color = { 30 102 40 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_KANSAS
-}
-
-CWR = {
-	color = { 13 70 60 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MISSOURI
 }
 
 CAH = {
@@ -240,28 +141,6 @@ CAH = {
 	capital = STATE_MISSOURI
 }
 
-QUA = {
-	color = { 13 102 60 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_ARKANSAS
-}
-
-HTT = {
-	color = { 87 35 36 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_GEORGIA
-}
-
 MCG = {
 	color = { 45 35 60 }
 
@@ -271,39 +150,6 @@ MCG = {
 
 	cultures = { na_cree_montagnais }
 	capital = STATE_GEORGIA
-}
-
-ABA = {
-	color = { 130 12 27 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_ALABAMA
-}
-
-COT = {
-	color = { 103 6 60 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MISSISSIPPI
-}
-
-MNM = {
-	color = { 56 4 60 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MICHIGAN
 }
 
 SWN = {
@@ -317,30 +163,8 @@ SWN = {
 	capital = STATE_KENTUCKY
 }
 
-CKS = {
-	color = { 13 8 7 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_TENNESSEE
-}
-
-WIB = {
-	color = { 13 8 60 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_WISCONSIN
-}
-
-MII = {
-	color = { 13 8 60 }
+ONE = {
+	color = { 230 150 200 }
 
 	country_type = unrecognized
 
@@ -350,19 +174,8 @@ MII = {
 	capital = STATE_ILLINOIS
 }
 
-HRN = {
-	color = { 250 8 6 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_ONTARIO
-}
-
-SNC = {
-	color = { 130 80 200 }
+IQS = {
+	color = { 255 230 179 }
 
 	country_type = unrecognized
 
@@ -372,13 +185,3 @@ SNC = {
 	capital = STATE_NEW_YORK
 }
 
-PTF = {
-	color = { 10 13 254 }
-
-	country_type = unrecognized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_MICHIGAN
-}
