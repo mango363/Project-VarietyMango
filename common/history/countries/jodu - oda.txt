@@ -57,6 +57,9 @@
 		set_variable = {
 			name = idea_jap
 		}
+		trigger_event = {
+			id = fm_jae.1
+		}
 		
 	}
 }

@@ -1,0 +1,16 @@
+concept_japthrone = {
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
+	is_loading_tip = yes
+}
+concept_daimyo = {
+	texture = "gfx/interface/icons/law_icons/hereditary_bureaucrats.dds"
+	is_loading_tip = yes
+}
+concept_toki = {
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	is_loading_tip = yes
+}
+concept_empjimmu = {
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
+	is_loading_tip = yes
+}
