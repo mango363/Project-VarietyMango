@@ -1,0 +1,13 @@
+﻿african = {}
+
+east_asian = {}
+
+south_asian = {}
+
+european = {}
+
+arabic = {}
+
+fm_japanese = {}
+
+decentralised_americas = {}

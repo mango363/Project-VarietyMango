@@ -31,12 +31,17 @@ combat_unit_type_irregular_infantry = {
         }
         texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_generic.dds"
     }
-
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
         }
         texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_asian.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/samurai_infantry.dds"
     }
 
     combat_unit_image = {
@@ -93,7 +98,13 @@ combat_unit_type_line_infantry = {
         trigger = { 
             has_culture_graphics = east_asian
         }
-        texture = "gfx/unit_illustrations/unused/unit_battalion_line_infantry_asian.dds"
+        texture = "gfx/unit_illustrations/fm_unit_battalion_line_infantry_asian.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/infantry_east_asian_line.dds"
     }
 
     combat_unit_image = {
@@ -152,6 +163,12 @@ combat_unit_type_skirmish_infantry = {
         }
         texture = "gfx/unit_illustrations/infantry_east_asian_skirmish.dds"
     }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/japanese_skirmish.dds"
+    }
 
     combat_unit_image = {
         trigger = { 
@@ -208,6 +225,12 @@ combat_unit_type_trench_infantry = {
         }
         texture = "gfx/unit_illustrations/infantry_east_asian_trench.dds"
     }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/infantry_east_asian_trench.dds"
+    }
 
     combat_unit_image = {
         trigger = { 
@@ -261,6 +284,12 @@ combat_unit_type_squad_infantry = {
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
+        }
+        texture = "gfx/unit_illustrations/infantry_east_asian_squad.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
         }
         texture = "gfx/unit_illustrations/infantry_east_asian_squad.dds"
     }
@@ -328,6 +357,12 @@ combat_unit_type_mechanized_infantry = {
         }
         texture = "gfx/unit_illustrations/infantry_east_asian_mechanized.dds"
     }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/infantry_east_asian_mechanized.dds"
+    }
 
     combat_unit_image = {
         trigger = { 
@@ -389,6 +424,12 @@ combat_unit_type_cannon_artillery = {
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
+        }
+        texture = "gfx/unit_illustrations/artillery_east_asian_cannon.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
         }
         texture = "gfx/unit_illustrations/artillery_east_asian_cannon.dds"
     }
@@ -460,6 +501,12 @@ combat_unit_type_mobile_artillery = {
         }
         texture = "gfx/unit_illustrations/artillery_east_asian_mobile.dds"
     }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/artillery_east_asian_mobile.dds"
+    }
 
     combat_unit_image = {
         trigger = { 
@@ -525,6 +572,12 @@ combat_unit_type_shrapnel_artillery = {
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
+        }
+        texture = "gfx/unit_illustrations/artillery_east_asian_shrapnel.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
         }
         texture = "gfx/unit_illustrations/artillery_east_asian_shrapnel.dds"
     }
@@ -594,7 +647,13 @@ combat_unit_type_siege_artillery = {
         trigger = { 
             has_culture_graphics = east_asian
         }
-        texture = "gfx/unit_illustrations/unused/unit_battalion_mobile_artillery_asian.dds"
+        texture = "gfx/unit_illustrations/east_asian_siege.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/fm_mobile_artillery_asian.dds"
     }
 
     combat_unit_image = {
@@ -608,7 +667,7 @@ combat_unit_type_siege_artillery = {
         trigger = { 
             has_culture_graphics = african
         }
-        texture = "gfx/unit_illustrations/unused/unit_battalion_mobile_artillery_african.dds"
+        texture = "gfx/unit_illustrations/african_siege_artillery.dds"
     }
 
     combat_unit_image = {
@@ -620,7 +679,7 @@ combat_unit_type_siege_artillery = {
 
     combat_unit_image = {
         # fallback
-        texture = "gfx/unit_illustrations/unused/unit_battalion_mobile_artillery_generic.dds"
+        texture = "gfx/unit_illustrations/generic_siege_artillery.dds"
     }
 }
 
@@ -656,6 +715,13 @@ combat_unit_type_heavy_tank = {
     }
 
 	unlocking_technologies = { mobile_armor }
+
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/fm_japanese_heavy.dds"
+    }
 
     combat_unit_image = {
         texture = "gfx/unit_illustrations/artillery_heavy_tank.dds"
@@ -695,6 +761,12 @@ combat_unit_type_hussars = {
             has_culture_graphics = east_asian
         }
         texture = "gfx/unit_illustrations/cavalry_east_asian_hussar.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/japanese_lancers.dds"
     }
 
     combat_unit_image = {
@@ -760,6 +832,12 @@ combat_unit_type_dragoons = {
         }
         texture = "gfx/unit_illustrations/cavalry_east_asian_dragoon.dds"
     }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
+        }
+        texture = "gfx/unit_illustrations/cavalry_east_asian_dragoon.dds"
+    }
 
     combat_unit_image = {
         trigger = { 
@@ -819,6 +897,12 @@ combat_unit_type_cuirassiers = {
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
+        }
+        texture = "gfx/unit_illustrations/cavalry_east_asian_cuirassier.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
         }
         texture = "gfx/unit_illustrations/cavalry_east_asian_cuirassier.dds"
     }
@@ -884,6 +968,12 @@ combat_unit_type_lancers = {
     combat_unit_image = {
         trigger = { 
             has_culture_graphics = east_asian
+        }
+        texture = "gfx/unit_illustrations/cavalry_east_asian_lancer.dds"
+    }
+    combat_unit_image = {
+        trigger = { 
+            has_culture_graphics = fm_japanese
         }
         texture = "gfx/unit_illustrations/cavalry_east_asian_lancer.dds"
     }

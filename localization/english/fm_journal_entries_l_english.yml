@@ -55,7 +55,7 @@
  je_lom_main_reason:0 "The Lombard League is a de facto federation of three republics, the Milanese Republic, the Republic of Piedmont and the Merchantile republic of Genoa.\nThis great decentralization of power has favored the personal interests of most politicians, to the disadvantage of the people of the confederation.\nThis situation cannot continue, and the ruling class knows that.\nPeople demand change."
 
  je_lom_ita:0 "A Nation for the Italian People"
- je_lom_ita:0 "Centuries of division have greatly fractured the cultures in the italian peninsula, but the feeling of being italian has cemented in the hearts of italian people\nParochialism and personal interests have hindered any type of national unification, but now things have changed.\nIt is now time to unite all italian people under one flag."
+ je_lom_ita_reason:0 "Centuries of division have greatly fractured the cultures in the italian peninsula, but the feeling of being italian has cemented in the hearts of italian people\nParochialism and personal interests have hindered any type of national unification, but now things have changed.\nIt is now time to unite all italian people under one flag."
 
 je_lom_rome:0 "La Questione Romana"
 je_lom_rome_reason:0 "Even though centuries of division have split italian and roman people apart culturally, Rome is still the city that represent the peninsula the most, and thus italian politicians are heavily pushing to conquer it."

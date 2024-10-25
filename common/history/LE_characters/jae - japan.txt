@@ -15,10 +15,10 @@
 		}
 
 	}
-
 	c:SAU = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Narioki
 			last_name = Shimazu
@@ -35,6 +35,7 @@
 	c:CUH = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Takachika
 			last_name = mori
@@ -51,6 +52,7 @@
 	c:TOS = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Toyoshige
 			last_name = Yamauchi
@@ -67,6 +69,7 @@
 	c:KAW = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nariyasu
 			last_name = Maeda
@@ -83,6 +86,7 @@
 	c:SEN = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Narikuni
 			last_name = Date
@@ -99,6 +103,7 @@
 	c:YON = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Narisada
 			last_name = Uesugi
@@ -116,6 +121,7 @@
 	c:WAK = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nariyuki
 			last_name = Tokugawa
@@ -132,6 +138,7 @@
 	c:ODA = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Tadanori
 			last_name = Okubo
@@ -146,6 +153,7 @@
 	c:SAG = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Naomasa
 			last_name = Nabeshina
@@ -164,6 +172,7 @@
 	c:TSU = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = todo
 			last_name = Takayuki
@@ -182,6 +191,7 @@
 	c:NAA = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Tadamasa
 			last_name = Makino
@@ -199,6 +209,7 @@
 	c:JOZ = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Tadafusa
 			last_name = Hayashi
@@ -216,6 +227,7 @@
 	c:AIZ = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Katataka
 			last_name = Matsudaira
@@ -232,6 +244,7 @@
 	c:MAT = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Akihiro
 			last_name = Matsumae
@@ -250,6 +263,7 @@
 	c:HIR = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nobuyuki
 			last_name = Tsugaru
@@ -269,6 +283,7 @@
 	c:MER = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Toshitada
 			last_name = Nanbu
@@ -285,6 +300,7 @@
 	c:KUB = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Yoshihiro
 			last_name = Satake 
@@ -301,6 +317,7 @@
 	c:TOK = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Narimasa
 			last_name = Hachisuka  
@@ -317,6 +334,7 @@
 	c:ODU = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nobukazu
 			last_name = Oda 
@@ -349,6 +367,7 @@
 	c:AWT = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Tadamasa
 			last_name = Inada
@@ -366,6 +385,7 @@
 	c:TAK = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Naotomo
 			last_name = Nagai
@@ -383,6 +403,7 @@
 	c:TKT = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Ienori
 			last_name = Uemura
@@ -399,6 +420,7 @@
 	c:OKA = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Tadamoto
 			last_name = Honda
@@ -417,6 +439,7 @@
 	c:KKW = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Sukemoto
 			last_name = Ota
@@ -436,6 +459,7 @@
 	c:SUN = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Yoshiyori
 			last_name = Imagawa
@@ -453,6 +477,7 @@
 	c:MTO = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nariaki
 			last_name = Tokugawa 
@@ -468,6 +493,7 @@
 	c:UTS = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Kunitsuna
 			last_name = Utsunomiya  
@@ -484,6 +510,7 @@
 	c:NUM = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Yorikatsu
 			last_name = Toki
@@ -501,6 +528,7 @@
 	c:KOF = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Yoshiyasu
 			last_name = Yanagisawa
@@ -518,6 +546,7 @@
 	c:TKA = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Shigeyori
 			last_name = Kanamori
@@ -547,6 +576,7 @@
 		}
 		create_character = {
 			heir = yes
+			is_general= yes
 			historical = yes
 			first_name = Mitsutsune
 			last_name = Matsudaira 
@@ -563,6 +593,7 @@
 	c:GUJ = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Yukinori
 			last_name = Aoyama
@@ -579,6 +610,7 @@
 	c:KAW = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Nariyasu
 			last_name = Maeda 
@@ -595,6 +627,7 @@
 	c:SAB = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Akikatsu
 			last_name = Manabe
@@ -612,6 +645,7 @@
 	c:TWA = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Korekata
 			last_name = Kamei 
@@ -630,6 +664,7 @@
 	c:MTE = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Naritoki
 			last_name = Matsudaira
@@ -647,6 +682,7 @@
 	c:TTT = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Narimichi
 			last_name = Ikeda
@@ -664,6 +700,7 @@
 	c:HHI = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Naritaka
 			last_name = Asano
@@ -681,6 +718,7 @@
 	c:MTY = {
 		create_character = {
 			ruler = yes
+			is_general= yes
 			historical = yes
 			first_name = Katsuyoshi
 			last_name = Matsudaira

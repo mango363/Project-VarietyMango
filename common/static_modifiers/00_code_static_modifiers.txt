@@ -596,6 +596,9 @@ state_turmoil = {
 	state_tax_waste_add = 0.25
 	state_migration_pull_mult = -0.15
 	state_construction_mult = -0.33
+	state_conscription_rate_mult = -0.15
+	building_training_rate_mult = -0.2
+	state_radicals_from_sol_change_mult = 0.25
 }
 
 # Applied if state is above 'high turmoil' threshold
@@ -604,6 +607,9 @@ state_turmoil_high = {
 	state_tax_waste_add = 0.5
 	state_migration_pull_mult = -0.25
 	state_construction_mult = -0.5
+	state_conscription_rate_mult = -0.2
+	building_training_rate_mult = -0.35
+	state_radicals_from_sol_change_mult = 0.4
 }
 
 # Applied if state is above 'extreme turmoil' threshold
@@ -612,6 +618,9 @@ state_turmoil_extreme = {
 	state_tax_waste_add = 0.75
 	state_migration_pull_mult = -0.5
 	state_construction_mult = -0.75
+	state_conscription_rate_mult = -0.4
+	building_training_rate_mult = -0.5
+	state_radicals_from_sol_change_mult = 0.6
 }
 
 # Scales by the amount of debt owed to government owned buildings (ie; government self owned debt)

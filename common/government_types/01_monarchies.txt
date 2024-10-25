@@ -224,28 +224,6 @@ gov_tsardom = {
 		post_change_to_hereditary = yes
 	}
 }
-gov_union_of_crowns = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_PRINCE_ROYAL"
-	female_heir = "RULER_TITLE_PRINCESS_ROYAL"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:EAF
-		c:EAF = ROOT
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
 
 gov_dey = {
 	transfer_of_power = hereditary
@@ -1835,5 +1813,6 @@ gov_constitutional_grand_principality = {
 		post_change_to_hereditary = yes
 	}
 }
+
 
 

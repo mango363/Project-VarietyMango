@@ -22,6 +22,18 @@ on_monthly_pulse = {
 		}
 		every_country = {
 			limit = {
+				any_scope_building = {
+					is_building_type = building_barracks				
+					building_has_goods_shortage = yes
+				}
+			}
+			add_modifier = {
+				name = modifier_shortages
+				months = 1
+			}
+		}
+		every_country = {
+			limit = {
 				is_power_bloc_leader = yes
 			}
 			if = {

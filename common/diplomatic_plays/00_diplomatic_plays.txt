@@ -802,7 +802,7 @@ dp_unify_jugo = {
 
 dp_unify_ethiopia = {
 	war_goal = annex_country
-	
+	mirror_war_goal = yes
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 	
 	selectable_in_lens = {
@@ -836,7 +836,7 @@ dp_unify_ethiopia = {
 }
 dp_unify_india = {
 	war_goal = annex_country
-	
+	mirror_war_goal = yes
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 
 	selectable_in_lens = {
@@ -870,7 +870,7 @@ dp_unify_india = {
 }
 dp_unify_poland = {
 	war_goal = annex_country
-	
+	mirror_war_goal = yes
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 
 	selectable_in_lens = {
@@ -892,6 +892,46 @@ dp_unify_poland = {
 			custom_tooltip = {
 				text = PUL_tt
 				can_form_nation = PUL
+			}
+		}
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_unify_japan = {
+	war_goal = annex_country
+	mirror_war_goal = yes
+	add_infamy_for_starting_initiator_wargoals = no 
+	is_epic = yes
+	texture = "gfx/interface/icons/war_goals/annex_country.dds"
+
+	selectable_in_lens = {
+		can_form_nation = JAE
+	}
+	
+	possible = {
+		NOT = { has_modifier = diplomatic_plays_blocked }
+		NOT = { exists = c:JAE }
+		NOT = { is_country_type = decentralized }
+		NOT = {
+			c:SAU ?= this
+		}
+		is_subject = no 
+		custom_tooltip = {
+			text = JAE_tt
+			can_form_nation = JAE
+		}
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+			aggressive_diplomatic_plays_permitted = yes
+			custom_tooltip = {
+				text = JAE_tt
+				can_form_nation = JAE
 			}
 		}
 	}

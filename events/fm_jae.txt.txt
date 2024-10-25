@@ -1,0 +1,132 @@
+namespace = fm_jae
+fm_jae.1 = { 
+	type = country_event
+	placement = ROOT
+	title = fm_jae.1.t
+	desc = fm_jae.1.d
+	flavor = fm_jae.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/goods_icons/small_arms.dds"
+	trigger = {
+	}
+	immediate = {
+		if = {
+			limit = {
+				c:IPJ ?= this
+			}
+			trigger_event = {
+				id = fm_jae.2
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					c:ODU ?= this
+				}
+				trigger_event = {
+					id = fm_jae.3
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					c:SAU ?= this
+				}
+				trigger_event = {
+					id = fm_jae.4
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOR = {
+						c:SAU ?= this
+						c:ODU ?= this
+						c:IPJ ?= this
+					}
+				}
+				trigger_event = {
+					id = fm_jae.5
+				}
+			}
+		}
+	}
+	option = {
+		name = fm_jae.1.a
+		default_option = yes
+	}
+}
+fm_jae.2 = { #death emp
+	type = country_event
+	placement = ROOT
+	title = fm_jae.2.t
+	desc = fm_jae.2.d
+	flavor = fm_jae.2.f
+	duration = 3
+	event_image = {
+		video = "southamerica_factory_opening"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/topbar/influence_icon.dds"
+	immediate = {
+		ruler = {
+			kill_character = yes
+		}
+	}
+	option = {
+		name = fm_jae.2.a
+		default_option = yes
+	}
+}
+fm_jae.3 = { #oda 
+	type = country_event
+	placement = ROOT
+	title = fm_jae.3.t
+	desc = fm_jae.3.d
+	flavor = fm_jae.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_armored_train"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	immediate = {
+		trigger_event = {
+			id = fm_jae.6
+			days = 10
+		}
+	}
+	option = {
+		name = fm_jae.3.a
+		default_option = yes
+	}
+}
+fm_jae.4 = { #sau
+	type = country_event
+	placement = ROOT
+	title = fm_jae.4.t
+	desc = fm_jae.4.d
+	flavor = fm_jae.4.f
+	duration = 3
+	event_image = {
+		video = "unspecific_armored_train"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	immediate = {
+		trigger_event = {
+			id = fm_jae.7
+			days = 11
+		}
+	}
+	option = {
+		name = fm_jae.4.a
+		default_option = yes
+	}
+}

@@ -453,7 +453,7 @@ malay={
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = south_asian
 }
 
 bornean={

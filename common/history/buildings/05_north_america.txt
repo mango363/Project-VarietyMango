@@ -1359,30 +1359,6 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ILLINOIS = {
-		region_state:AMC = {
-			create_building={
-				building="building_lead_mine"
-				add_ownership={
-					country={
-						country="c:AMC"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
-			}
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					country={
-						country="c:AMC"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-		}
 	}
 	s:STATE_RHODE_ISLAND={
 		region_state:AMC={

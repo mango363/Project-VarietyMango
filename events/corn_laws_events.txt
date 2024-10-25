@@ -88,6 +88,10 @@ corn_laws.2 = {
 			is_agitator = yes
 			interest_group = ig:ig_landowners
 			ideology = ideology_market_liberal
+			save_scope_as = big_man_diddy
+		}
+		scope:big_man_diddy = {
+			set_variable = { name = memento_mori_immunity years = 5 }
 		}
 		add_radicals = {
 			value = medium_radicals

@@ -728,6 +728,24 @@ ai_strategy_default = {
 			}
 			if = {
 				limit = {
+					has_journal_entry = je_zapa
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_MORAVIA
+							state_region = s:STATE_WEST_SLOVAKIA
+							state_region = s:STATE_EAST_SLOVAKIA
+							state_region = s:STATE_POSEN
+							state_region = s:STATE_EAST_PRUSSIA
+							state_region = s:STATE_WEST_PRUSSIA
+							state_region = s:STATE_SILESIA
+						}
+					}
+				}
+				add = 400
+			}
+			if = {
+				limit = {
 					has_journal_entry = je_reclaim_holy
 					scope:target_state = {
 						OR = {
@@ -2737,6 +2755,13 @@ ai_strategy_default = {
 		}
 		if = {
 			limit = {
+				scope:target_country = { country_rank >= rank_value:major_power }
+			}
+			
+			add = 5
+		}
+		if = {
+			limit = {
 				has_journal_entry = je_cth_main
 				scope:target_country = {
 					any_scope_state = {
@@ -2982,35 +3007,7 @@ ai_strategy_default = {
 			}
 			add = 5
 		}
-		
-		# Russia should very aggressively go for the Caucasus if it's still a great power.
-		if = {
-			limit = {
-				exists = c:SAE
-                THIS = c:SAE
-                country_rank = rank_value:great_power
-                OR = {
-                	exists = c:DON
-                	exists = c:AZB
-                }
-				scope:target_country = {
-					NOT = {
-						is_country_type = recognized
-					}
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_KUBAN
-							state_region = s:STATE_DAGESTAN
-							state_region = s:STATE_NORTH_CAUCASUS
-						}
-					}
-				}
-				NOT = {
-					has_global_variable = caucasus_failure_var
-				}
-			}
-			add = 10
-		}
+
 
 		if = {
 			limit = {
@@ -3053,6 +3050,45 @@ ai_strategy_default = {
                             state_region = s:STATE_SANTA_FE
                             state_region = s:STATE_PARANA
                             state_region = s:STATE_RIO_GRANDE_DO_SUL
+                        }
+                    }
+                }
+            }
+            add = 25
+        }
+		if = {
+			limit = {
+				has_journal_entry = je_lom_ita
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+						state_region = s:STATE_PIEDMONT
+						state_region = s:STATE_LOMBARDY
+						state_region = s:STATE_VENETIA
+						state_region = s:STATE_ISTRIA
+						state_region = s:STATE_EMILIA
+						state_region = s:STATE_ROMAGNA
+						state_region = s:STATE_TUSCANY
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+            limit = {
+                has_journal_entry = je_zapa
+                scope:target_country = {
+                    any_scope_state = {
+                        OR = {
+                            state_region = s:STATE_BOHEMIA
+                            state_region = s:STATE_MORAVIA
+							state_region = s:STATE_EAST_PRUSSIA
+                            state_region = s:STATE_WEST_SLOVAKIA
+                            state_region = s:STATE_EAST_SLOVAKIA
+							state_region = s:STATE_POSEN
+                            state_region = s:STATE_WEST_PRUSSIA
+                            state_region = s:STATE_SILESIA
                         }
                     }
                 }

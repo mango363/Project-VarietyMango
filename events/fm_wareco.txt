@@ -1,0 +1,139 @@
+namespace = fm_wareco
+fm_wareco.1 = { 
+	type = country_event
+	placement = ROOT
+	title = fm_wareco.1.t
+	desc = fm_wareco.1.d
+	flavor = fm_wareco.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/goods_icons/small_arms.dds"
+	trigger = {
+	}
+	immediate = {
+		set_variable = {
+			name = vareco
+		}
+		add_modifier = {
+			name = wareco1
+		}
+	}
+	option = {
+		name = fm_wareco.1.a
+		default_option = yes
+		custom_tooltip = {
+			text = warecohelp
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					has_variable = vareco
+				 }
+				 trigger_event = {
+					id = fm_wareco.3
+					days = 65
+				}
+			}
+		}
+	}
+}
+fm_wareco.2 = { #civ eco
+	type = country_event
+	placement = ROOT
+	title = fm_wareco.2.t
+	desc = fm_wareco.2.d
+	flavor = fm_wareco.2.f
+	duration = 3
+	event_image = {
+		video = "southamerica_factory_opening"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/topbar/influence_icon.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_wareco.2.a
+		default_option = yes
+		hidden_effect = {
+		remove_modifier = wareco1
+		remove_modifier = wareco2
+		remove_modifier = wareco3
+		}
+	}
+}
+fm_wareco.3 = { 
+	type = country_event
+	placement = ROOT
+	title = fm_wareco.3.t
+	desc = fm_wareco.3.d
+	flavor = fm_wareco.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_armored_train"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	trigger = {
+		has_variable = vareco
+	}
+	immediate = {
+	}
+	option = {
+		name = fm_wareco.3.a
+		default_option = yes
+		if = {
+			limit = {
+				has_variable = vareco
+			 }
+			remove_modifier = wareco1
+			add_modifier = {
+				name = wareco2
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					has_variable = vareco
+				 }
+				 trigger_event = {
+					id = fm_wareco.4
+					days = 205
+				}
+			}
+		}
+	}
+}
+fm_wareco.4 = { 
+	type = country_event
+	placement = ROOT
+	title = fm_wareco.4.t
+	desc = fm_wareco.4.d
+	flavor = fm_wareco.4.f
+	duration = 3
+	event_image = {
+		video = "unspecific_armored_train"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	trigger = {
+		has_variable = vareco
+	}
+	immediate = {
+	}
+	option = {
+		name = fm_wareco.4.a
+		default_option = yes
+		if = {
+			limit = {
+				has_variable = vareco
+			 }
+			 remove_modifier = wareco2
+			 add_modifier = {
+				name = wareco3
+			}
+		}
+	}
+}

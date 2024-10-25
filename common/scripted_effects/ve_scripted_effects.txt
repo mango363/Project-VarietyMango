@@ -46,6 +46,26 @@
 			has_variable = idea_jap
 		}
 		japanese_ideas = yes
+		
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_pul
+		}
+		polish_ideas = yes
+		
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_japgen
+		}
+		japgenanese_ideas = yes
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_sau
+		}
+		sauanese_ideas = yes
 	}
 	else_if = {
 		limit = {
@@ -106,6 +126,24 @@ cancel_national_idea_mdf = {
 			has_variable = idea_jap
 		}
 		cancel_japanese_ideas = yes
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_pul
+		}
+		cancel_polish_ideas = yes
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_japgen
+		}
+		cancel_japgenanese_ideas = yes
+	}
+	else_if = {
+		limit = {
+			has_variable = idea_sau
+		}
+		cancel_sauanese_ideas = yes
 	}
 	else_if = {
 		limit = {

@@ -665,56 +665,6 @@
 		}
 	}
 	s:STATE_SANTA_CRUZ={
-		region_state:AMZ={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:AMZ"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
-			}
-			create_building={
-				building="building_rice_farm"
-				add_ownership={
-					building={
-						type="building_rice_farm"
-						country="c:AMZ"
-						levels=1
-						region="STATE_SANTA_CRUZ"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_livestock_ranch"
-						country="c:AMZ"
-						levels=1
-						region="STATE_SANTA_CRUZ"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMZ"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 	}
 	s:STATE_LA_PAZ={
 		region_state:GNI={

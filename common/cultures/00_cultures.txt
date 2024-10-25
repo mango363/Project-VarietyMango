@@ -11689,7 +11689,7 @@ japanese={
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = fm_japanese
 }
 
 manchu={
