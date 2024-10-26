@@ -14,3 +14,7 @@ concept_empjimmu = {
 	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
 	is_loading_tip = yes
 }
+concept_taikun = {
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+	is_loading_tip = yes
+}

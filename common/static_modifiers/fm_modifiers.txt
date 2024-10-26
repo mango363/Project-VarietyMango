@@ -974,3 +974,30 @@ wareco3 = {
 	goods_output_aeroplanes_mult = 1
 	state_radicals_from_sol_change_mult = 1
 }
+endofda = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	interest_group_approval_add = -5
+	interest_group_pol_str_mult = -0.5
+	interest_group_pop_attraction_mult = -1.5
+}
+japan_military_rewardfm = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_military_tech_research_speed_mult = 0.15
+}
+
+japan_diplomatic_rewardfm = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_mult = 0.1
+	country_influence_mult = 0.2
+	country_improve_relations_speed_mult = 0.25
+	country_damage_relations_speed_mult = 0.25
+	country_society_tech_research_speed_mult = 0.15
+
+}
+
+japan_production_rewardfm = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_railway_throughput_add = 0.4
+	country_production_tech_research_speed_mult = 0.15
+	building_group_bg_manufacturing_throughput_add = 0.1
+}

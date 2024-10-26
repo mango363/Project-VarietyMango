@@ -50,6 +50,11 @@ fm_jae.1 = {
 					c:SAU ?= this
 					c:ODU ?= this
 					c:IPJ ?= this
+					c:TAK ?= this
+					c:TSU ?= this
+					c:SAB ?= this
+					c:KAW ?= this
+					c:TKT ?= this
 				}
 			}
 			trigger_event = {
@@ -205,6 +210,12 @@ fm_jae.7 = { #sauchaos
 		sr:region_japan = {
 			save_scope_as = japan_region
 		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KYUSHU
+			}
+			save_scope_as = kyushus
+		}
 	}
 	option = {
 		name = fm_jae.7.a
@@ -230,31 +241,103 @@ fm_jae.8 = { #gen sub
 		sr:region_japan = {
 			save_scope_as = japan_region
 		}
-		s:STATE_KYUSHU = {
-			save_scope_as = kyushus
-		}
 	}
 	option = {
-		name = fm_jae.7.a
+		name = fm_jae.8.a
 		default_option = yes
 		change_relations = {
 			country = c:ODU
-			value = -50
+			value = -30
 		}
 		ai_chance = {
 			base = 90
 		}
 	}
 	option = {
-		name = fm_jae.7.a
+		name = fm_jae.8.b
 		c:ODU = {
 			create_diplomatic_pact = {
 				country = root
-				type = tributary
+				type = vassal
 			}
 		}
 		ai_chance = {
 			base = 10
+		}
+	}
+}
+
+fm_jae.9 = { #je in
+	type = country_event
+	placement = ROOT
+	title = fm_jae.9.t
+	desc = fm_jae.9.d
+	flavor = fm_jae.9.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		ig:ig_landowners = {
+			set_interest_group_name = ig_daimyo
+		}
+		set_variable = {
+			name = jaep_var
+			value = 0
+		}
+	}
+	option = {
+		name = fm_jae.9.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_jaep_daimyo
+		}
+		add_journal_entry = {
+			type = je_jaep_army
+		}
+		add_journal_entry = {
+			type = je_jaep_diplomacy
+		}
+		add_journal_entry = {
+			type = je_jaep_economy
+		}
+	}
+}
+
+fm_jae.10 = { #no dai
+	type = country_event
+	placement = ROOT
+	title = fm_jae.10.t
+	desc = fm_jae.10.d
+	flavor = fm_jae.10.f
+	duration = 3
+	event_image = {
+		video = "ep1_printing_press"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+	}
+	option = {
+		name = fm_jae.10.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.5
+			pop_type = academics
+		}
+		ig:ig_landowners = {
+			add_modifier = {
+				name = endofda
+				months = 120
+			}
 		}
 	}
 }

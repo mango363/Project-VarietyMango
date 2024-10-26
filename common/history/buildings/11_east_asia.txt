@@ -4278,6 +4278,17 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:IPJ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
 		}
 		region_state:WAK={
 			create_building={

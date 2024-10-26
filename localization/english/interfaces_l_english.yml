@@ -9468,7 +9468,7 @@
  STATE_HAS_INPUT_SHORTAGES: "#header [concept_input_goods_shortage]#!\n[State.GetName] has [State.GetNumBuildingsAffectedByGoodsShortage|v] [Concept('concept_building', '$concept_buildings$')] that are suffering from an [concept_input_goods_shortage]"
 
  SELECT_OBJECTIVE_MAIN_TITLE:0 "Select a Game Objective"
- SELECT_OBJECTIVE_TITLE:0 "Objectives"
+ SELECT_OBJECTIVE_TITLE:0 "Countries"
  SELECT_OBJECTIVE_TAG_TITLE:0 "Recommended Countries"
  START_GAME_NO_OBJECTIVE_NO_TAG:1 "Play without an Objective and go to Country Selection"
  START_GAME_CHOSEN_OBJECTIVE_NO_TAG:0 "Start Game\n#instruction Select any Country#!"
