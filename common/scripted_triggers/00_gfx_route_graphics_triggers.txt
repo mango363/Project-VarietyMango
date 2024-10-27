@@ -641,7 +641,11 @@ gfx_military_mobilization_culture_is_arabic = {
 
 gfx_military_mobilization_culture_is_east_asian = {
 
-	any_primary_culture = { has_culture_graphics = east_asian }
+	OR = {
+		any_primary_culture = { has_culture_graphics = east_asian }
+		any_primary_culture = { has_culture_graphics = fm_japanese }
+	}
+
 
 }
 
@@ -747,6 +751,16 @@ gfx_military_deploy_culture_is_east_asian = {
 	scope:military_formation = {
 		any_combat_unit = {
 			culture = { has_culture_graphics = east_asian }
+		}
+	}
+
+}
+
+gfx_military_deploy_culture_is_east_asian = {
+
+	scope:military_formation = {
+		any_combat_unit = {
+			culture = { has_culture_graphics = fm_japanese}
 		}
 	}
 

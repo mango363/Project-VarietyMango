@@ -60,7 +60,6 @@ je_cape_fm_two = {
 	}
 	transferable = yes
 	weight = 5000
-	should_be_pinned_by_default = yes
 }
 
 je_suez_fm = {

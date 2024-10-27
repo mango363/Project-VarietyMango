@@ -285,20 +285,23 @@ HLE = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		OR = {
-			c:DKE ?= this
-			c:PUM ?= this
-			c:NED ?= this
-			c:FUN ?= this
-			c:HEN ?= this
-			c:HAM ?= this
-			c:BRE ?= this
-			c:OLD ?= this
-			c:SCM ?= this
-			c:LIP ?= this
-			c:MUN ?= this
-			c:HEN ?= this
-			c:CLN ?= this
+		custom_tooltip = {
+			text = NOTEASTF
+			OR = {
+				c:DKE ?= this
+				c:PUM ?= this
+				c:NED ?= this
+				c:FUN ?= this
+				c:HEN ?= this
+				c:HAM ?= this
+				c:BRE ?= this
+				c:OLD ?= this
+				c:SCM ?= this
+				c:LIP ?= this
+				c:MUN ?= this
+				c:HEN ?= this
+				c:CLN ?= this
+			}
 		}
 		has_technology_researched = pan-nationalism
 	}
@@ -337,6 +340,14 @@ GPO = {
 	use_culture_states = yes
 
 	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+JAE = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.85
 	
 	ai_will_do = { always = yes }
 }

@@ -84,6 +84,7 @@ je_zapa = {
 		owns_entire_state_region = STATE_EAST_PRUSSIA
 		owns_entire_state_region = STATE_WEST_PRUSSIA
 		owns_entire_state_region = STATE_SILESIA
+		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
 		change_tag = ZAP

@@ -3825,3 +3825,29 @@ je_inde_bud = {
 		}
 	}
 }
+je_jae_button = {
+	name = "je_jae_button"
+	desc = "je_jae_button_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = var_samuyes
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = je_var_samuyes_desc
+			set_variable = {
+				name = var_samuyes
+			}
+		}
+	}
+}

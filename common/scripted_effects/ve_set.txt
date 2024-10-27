@@ -535,8 +535,51 @@ set_national_idea = {
 				this = c:BOH
 				this = c:KAR
 				this = c:KOR
-				this = c:JAP
+				this = c:ODU
 				this = c:SAE
+				this = c:WRS
+				this = c:PLK
+				this = c:GAL
+				this = c:KRK
+				this = c:LBL
+				this = c:MZV
+				this = c:SAU
+				this = c:SAG
+				this = c:CUH
+				this = c:TOS
+				this = c:TSU
+				this = c:NAA
+				this = c:JOZ
+				this = c:AIZ
+				this = c:SEN
+				this = c:WAK
+				this = c:ODA
+				this = c:KAW
+				this = c:YON
+				this = c:MAT
+				this = c:HIR
+				this = c:MER
+				this = c:KUB
+				this = c:TOK
+				this = c:AWT
+				this = c:TAK
+				this = c:TKT
+				this = c:OKA
+				this = c:KKW
+				this = c:SUN
+				this = c:MTO
+				this = c:UTS
+				this = c:TWA
+				this = c:MTE
+				this = c:TTT
+				this = c:HHI
+				this = c:MTY
+				this = c:NUM
+				this = c:KOF
+				this = c:TKA
+				this = c:MTS
+				this = c:GUJ
+				this = c:SAB
 
 			}
 		}
@@ -869,8 +912,8 @@ national_idea_traditions = {
 	}
 	else_if = {
 		limit = {
-			exists = c:JAP
-			this = c:JAP
+			exists = c:ODU
+			this = c:ODU
 		}
 		if = {
 			limit = {
@@ -885,6 +928,117 @@ national_idea_traditions = {
 			}
 			add_modifier = {
 				name = jap_idea_tradition_2
+				months = -1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = c:SAU
+			this = c:SAU
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_modifier = sau_idea_tradition_1
+					has_modifier = sau_idea_tradition_2
+				}
+			}
+			add_modifier = {
+				name = sau_idea_tradition_1
+				months = -1
+			}
+			add_modifier = {
+				name = sau_idea_tradition_2
+				months = -1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				AND = { exists = c:WRS this = c:WRS  }
+				AND = { exists = c:KRK this = c:KRK  }
+				AND = { exists = c:GAL this = c:GAL  }
+				AND = { exists = c:LBL this = c:LBL  }
+				AND = { exists = c:MZV this = c:MZV  }
+				AND = { exists = c:PLK this = c:PLK  }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_modifier = pul_idea_tradition_1
+					has_modifier = pul_idea_tradition_2
+				}
+			}
+			add_modifier = {
+				name = pul_idea_tradition_1
+				months = -1
+			}
+			add_modifier = {
+				name = pul_idea_tradition_2
+				months = -1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				AND = { exists = c:SAG this = c:SAG  }
+				AND = { exists = c:CUH this = c:CUH  }
+				AND = { exists = c:TOS this = c:TOS  }
+				AND = { exists = c:TSU this = c:TSU  }
+				AND = { exists = c:NAA this = c:NAA  }
+				AND = { exists = c:JOZ this = c:JOZ  }
+				AND = { exists = c:AIZ this = c:AIZ  }
+				AND = { exists = c:SEN this = c:SEN  }
+				AND = { exists = c:WAK this = c:WAK  }
+				AND = { exists = c:ODA this = c:ODA  }
+				AND = { exists = c:KAW this = c:KAW  }
+				AND = { exists = c:YON this = c:YON  }
+				AND = { exists = c:SAG this = c:SAG  }
+				AND = { exists = c:TSU this = c:TSU  }
+				AND = { exists = c:NAA this = c:NAA  }
+				AND = { exists = c:JOZ this = c:JOZ  }
+				AND = { exists = c:AIZ this = c:AIZ  }
+				AND = { exists = c:MAT this = c:MAT  }
+				AND = { exists = c:HIR this = c:HIR  }
+				AND = { exists = c:MER this = c:MER  }
+				AND = { exists = c:KUB this = c:KUB  }
+				AND = { exists = c:TOK this = c:TOK  }
+				AND = { exists = c:TAK this = c:TAK  }
+				AND = { exists = c:TKT this = c:TKT  }
+				AND = { exists = c:OKA this = c:OKA  }
+				AND = { exists = c:KKW this = c:KKW  }
+				AND = { exists = c:SUN this = c:SUN  }
+				AND = { exists = c:MTO this = c:MTO  }
+				AND = { exists = c:NUM this = c:NUM  }
+				AND = { exists = c:KOF this = c:KOF  }
+				AND = { exists = c:TKA this = c:TKA  }
+				AND = { exists = c:MTS this = c:MTS  }
+				AND = { exists = c:GUJ this = c:GUJ  }
+				AND = { exists = c:SAB this = c:SAB  }
+				AND = { exists = c:TWA this = c:TWA  }
+				AND = { exists = c:MTE this = c:MTE  }
+				AND = { exists = c:TTT this = c:TTT  }
+				AND = { exists = c:HHI this = c:HHI  }
+				AND = { exists = c:MTY this = c:MTY  }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_modifier = japgen_idea_tradition_1
+					has_modifier = japgen_idea_tradition_2
+				}
+			}
+			add_modifier = {
+				name = japgen_idea_tradition_1
+				months = -1
+			}
+			add_modifier = {
+				name = japgen_idea_tradition_2
 				months = -1
 			}
 		}

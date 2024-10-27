@@ -43,7 +43,8 @@ catholic_aspect_6_mdf = {
 
 catholic_aspect_7_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conscription_rate_mult = 0.15
+	state_conscription_rate_mult = 0.05
+	unit_morale_damage_mult = 0.15
 }
 
 catholic_aspect_8_mdf = {
@@ -134,7 +135,7 @@ orthodox_aspect_3_mdf = {
 orthodox_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
 	unit_army_offense_mult = 0.05
-	state_conscription_rate_mult = 0.1
+	state_conscription_rate_mult = 0.05
 }
 
 orthodox_aspect_5_mdf = {
@@ -172,7 +173,7 @@ coptic_aspect_1_mdf = {
 
 coptic_aspect_2_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conscription_rate_mult = 0.15
+	state_conscription_rate_mult = 0.1
 	unit_morale_protection_mult = 0.1
 }
 
@@ -377,7 +378,7 @@ sunni_aspect_1_mdf = {
 
 sunni_aspect_2_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conscription_rate_mult = 0.1
+	state_conscription_rate_mult = 0.05
 	unit_morale_recovery_mult = 0.15
 	unit_offense_mult = 0.05
 }
@@ -726,7 +727,7 @@ animist_aspect_4_mdf = {
 animist_aspect_5_mdf = {
 	icon = gfx/interface/catholic.dds
 	building_training_rate_mult = 0.1
-	state_conscription_rate_mult = 0.1
+	state_conscription_rate_mult = 0.05
 }
 
 animist_aspect_6_mdf = {
@@ -780,7 +781,7 @@ na_wocekiye_aspect_4_mdf = {
 
 na_wocekiye_aspect_5_mdf = {
 	icon = gfx/interface/catholic.dds
-	building_training_rate_mult = 0.1
+	building_training_rate_mult = 0.15
 	state_conscription_rate_mult = 0.1
 }
 

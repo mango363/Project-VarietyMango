@@ -4220,6 +4220,7 @@ country_soldiers_voting_power_add={
 	}
 }
 
+
 unit_combat_unit_type_lancers_offense_mult={
 	decimals=0
 	color=good
@@ -4238,6 +4239,38 @@ unit_combat_unit_type_lancers_defense_mult={
 	}
 }
 
+unit_combat_unit_type_lancers_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_lancers_defense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_defense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 unit_combat_unit_type_dragoons_offense_mult={
 	decimals=0
 	color=good
@@ -4248,6 +4281,147 @@ unit_combat_unit_type_dragoons_offense_mult={
 }
 
 unit_combat_unit_type_dragoons_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_defense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+unit_combat_unit_type_cuirassiers_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_defense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_irregular_infantry_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_irregular_infantry_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cannon_artillery_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_siege_artillery_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_shrapnel_artillery_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mobile_artillery_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_light_tanks_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mechanized_infantry_offense_mult={
 	decimals=0
 	color=good
 	percent=yes

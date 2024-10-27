@@ -1144,9 +1144,9 @@
 				size = 25700
 			}
 		}
-		region_state:JAP = {
+		region_state:MAX = {
 			create_pop = {
-				culture = japanese
+				culture = mexican
 				size = 285234
 			}
 			create_pop = {
@@ -1155,7 +1155,7 @@
 			}
 			create_pop = {
 				culture = na_yuman
-				religion = mahayana
+				religion = catholic
 				size = 2700
 			}
 		}
@@ -1310,13 +1310,21 @@
 				culture = na_blackfoot
 				size = 40000
 			}
+		}
+	}
+	# Yucatan proper: 	417947 in 1830, 420726 in 1840, so averaging out to 419337
+	# Campeche:			64053 in 1830, 72707 in 1840, so averaging out to 68380
+	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
+	# working total number of 548936
+	s:STATE_YUCATAN = {
+		region_state:MAY = {
 			create_pop = {
-				culture = na_stoney
-				size = 10000
+				culture = mexican
+				size = 26764
 			}
 			create_pop = {
-				culture = na_northern_athabaskan
-				size = 3000
+				culture = mayan
+				size = 488804
 			}
 		}
 	}
@@ -1437,20 +1445,27 @@
 				culture = korean
 				size = 500
 			}
+		}
+	}
+	# 121424 in 1830, 138595 in 1840
+	# working total of 130010
+	s:STATE_CHIAPAS = {
+		region_state:MAY = {
 			create_pop = {
-				pop_type = capitalists
-				culture = han
-				size = 250
+				culture = mexican
+				size = 13408
 			}
 			create_pop = {
-				culture = hawaiian
-				religion = mahayana
-				size = 132304
+				culture = mayan
+				size = 91415
 			}
+		}
+	}
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:MAX = {
 			create_pop = {
-				culture = hawaiian
-				religion = animist
-				size = 8500
+				culture = mexican
+				size = 8264
 			}
 			create_pop = {
 				culture = han

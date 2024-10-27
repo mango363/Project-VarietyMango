@@ -156,6 +156,150 @@ ai_strategy_unify_poland = {
 	}
 }
 
+ai_strategy_unify_japan = {
+	icon = "gfx/interface/icons/ai_strategy_icons/subject_strengthen_self.dds"
+	type = diplomatic
+	will_form_power_bloc = {
+		always = no
+	}
+	undesirable_infamy_level = {
+		value = 80
+	}
+	unacceptable_infamy_level = {
+		value = 120
+	}
+	ideological_opinion_effect_mult = 0.5
+	wargoal_maneuvers_fraction = {
+		value = 0.2
+	}
+	diplomatic_play_neutrality = {
+		value = 0
+	}
+	diplomatic_play_boldness = {
+		value = 50
+	}
+	obligation_value = {
+		value = 20
+	}
+	recklessness = {
+		value = 2
+	}
+	aggression = {
+		value = 20
+		if = {
+			limit = {
+				scope:target_country = {
+					can_form_nation = JAE
+				}
+			}
+			add = 20
+		}
+	}
+	building_group_weights = {
+		bg_army = 1.5
+	}
+	state_value = {
+		if = {
+			limit = {
+				scope:target_state = {
+					state_region = {
+						is_homeland = cu:japanese
+					}
+				}
+				can_reach_target_state = yes
+			}
+			add = 100
+		}
+	}
+	wargoal_scores = {
+		annex_country = {
+			if = {
+				limit = {
+					can_reach_target_country = yes
+				}
+				add = 100
+			}
+		}
+	}
+	secret_goal_scores = {
+		befriend = {
+			if = {
+				limit = {
+					NOT = {
+						scope:target_country = {
+							is_subject_of = root
+						}
+					} 
+				}
+				add = 50
+				if = {
+					limit = {
+						can_reach_target_country = no
+					}
+					add = 150
+				}
+			}
+		}
+		conquer = {
+			if = {
+				limit = {
+					NOT = {
+						scope:target_country = {
+							is_subject_of = root
+						}
+					}
+					scope:target_country = {
+						any_scope_state = {
+							OR = {
+								state_region = s:STATE_SHIKOKU
+								state_region = s:STATE_KYUSHU
+								state_region = s:STATE_CHUGOKU
+								state_region = s:STATE_CHUBU
+								state_region = s:STATE_KANSAI
+								state_region = s:STATE_KANTO
+								state_region = s:STATE_TOHOKU
+							}
+						}
+					}
+					can_reach_target_country = yes
+				}
+				add = 100
+			}
+		}
+	}
+	possible = {
+		is_subject = no
+		country_has_primary_culture = cu:japanese
+	}
+	weight = {
+		value = 25
+		add = {
+			value = army_size
+			multiply = 10
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_country_type = unrecognized
+				}
+			}
+			multiply = 10
+		}
+		else_if = {
+			limit = {
+				country_rank = rank_value:unrecognized_major_power
+			}
+			multiply = 5
+		}
+		else_if = {
+			limit = {
+				country_rank = rank_value:unrecognized_regional_power
+			}
+			multiply = 3
+		}
+	}
+}
+
 ai_strategy_unify_ethiopia = {
 	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
 	type = diplomatic

@@ -55,7 +55,7 @@
  je_lom_main_reason:0 "The Lombard League is a de facto federation of three republics, the Milanese Republic, the Republic of Piedmont and the Merchantile republic of Genoa.\nThis great decentralization of power has favored the personal interests of most politicians, to the disadvantage of the people of the confederation.\nThis situation cannot continue, and the ruling class knows that.\nPeople demand change."
 
  je_lom_ita:0 "A Nation for the Italian People"
- je_lom_ita:0 "Centuries of division have greatly fractured the cultures in the italian peninsula, but the feeling of being italian has cemented in the hearts of italian people\nParochialism and personal interests have hindered any type of national unification, but now things have changed.\nIt is now time to unite all italian people under one flag."
+ je_lom_ita_reason:0 "Centuries of division have greatly fractured the cultures in the italian peninsula, but the feeling of being italian has cemented in the hearts of italian people\nParochialism and personal interests have hindered any type of national unification, but now things have changed.\nIt is now time to unite all italian people under one flag."
 
 je_lom_rome:0 "La Questione Romana"
 je_lom_rome_reason:0 "Even though centuries of division have split italian and roman people apart culturally, Rome is still the city that represent the peninsula the most, and thus italian politicians are heavily pushing to conquer it."
@@ -92,7 +92,7 @@ je_venice_mediterranean_reason_r:0 "Gibraltar and the Suez are by far our greate
 
 je_venice_panama:0 "An Impossible Project"
 je_venice_panama_reason:0 "Venetian architects have started fantasizing about a way to connect the Pacific Ocean to the Atlantic Ocean, and it seems like it would be possible to hypothetically build a canal in central america, but we would have to send a mission first and the project itself would be massively expensive;\nOn the other side, building such a canal would give us the monopoly of all the naval trade routes between those two Oceans."
-je_venice_advance:0 "Finishing this Journal Entry will make "Hub of all Trades" JE advance."
+je_venice_advance:0 "Completing this Journal Entry will make "Hub of all Trades" JE advance."
 je_venice_panama_r:0 "Protect the Panama"
 je_venice_panama_reason:0 "The Panama is Venice's Magnum Opus, and considering the absurd amount of money and time we spent for it, even the idea of losing it is inconceivable.\nThe Canal must not fall in other nation's hands."
 
@@ -183,7 +183,7 @@ je_suez_fm_reason:0 "Building a canal that connects the Mediterranean to the Red
 je_suez_fm_two:0 "Protect the Suez"
 je_suez_fm_two_reason:0 "The Suez is by far our greatest asset, hence the idea of losing it is not to be contemplated."
 
-je_korea_advance:0 "Finishing this Journal Entry will make "Questioned Authority" JE advance."
+je_korea_advance:0 "Completing this Journal Entry will make "Questioned Authority" JE advance."
 je_kor_main:0 "Questioned Authority"
 je_kor_main_reason:0 "The authority of the heir is being questioned by the parliament, and the country is currently in a military impasse, with the armed forces refusing to obey any order that comes from the Heir.\nThis situation cannot continue, and therefore the Heir must find a way to restore his authority and impose himself as the legitimate ruler of this nation."
 je_kor_main_goal:0 "The heir has re-established his authority"
@@ -581,8 +581,25 @@ je_bud_main_reason:0 "The Grand Duchy of [ROOT.GetCountry.GetName] has been a va
  je_sop_north_africa_reason:0 "This region, rich in history and diverse in culture, serves as a crucial junction between the Maghreb, the Middle East, and sub-Saharan Africa\nAchieving this unification will enhance political, economic, and military strength, creating a more cohesive and influential entity within the Islamic community."
  je_sop_goal:0 "All four Journal Entries have been completed"
 
- je_pur_advance:0 "Finishing this Journal Entry will make "A New Hegemon" JE advance."
+ je_pur_advance:0 "Completing this Journal Entry will make "A New Hegemon" JE advance."
  je_sae_zoro:0 "The Great Rebellion"
  je_sae_zoro_reason:0 "The rebellion has started, we must reach the capital at all costs to depose the false emperor and ensure the survival of Zoroastrianism in the Empire"
  je_zoro:0 "Reclaiming the Adur Gushnap"
  je_zoro_reason:0 "The Adur Gushnap is one of the Three Most Sacred Fires, and its value for us is inestimable.\nFor too long this Fire Temple has not been under our protection, and thus it is mandatory for the Empire to reclaim it at all costs."
+
+ yessamu:0 "The Emperor has chosen to preserve the Samurai class"
+ je_jaep_main:0 "Modernizing Japan"
+ je_jaep_main_reason:0 "#V With Japan's unification achieved, the focus now shifts to the critical process of modernization, which must include the abolition of the [concept_daimyo] system to prevent regional fragmentation.\nDisbanding feudal structures will promote national unity and facilitate the establishment of centralized governance.\nTo further this agenda, the new government will need to implement reforms across various sectors, such as education, infrastructure, and industry, ensuring that citizens feel a sense of belonging and loyalty to a modern [GetCulture('japanese').GetName] identity rather than to individual domains. This comprehensive approach will lay the groundwork for a prosperous and cohesive nation.#!"
+ je_jaep_main_goal:0 "Complete 3 Japan [Concept('concept_journal_entry', '$concept_journal_entries$')]"
+ je_jaep_economy:0 "Japan: Industrialize Japan"
+ je_jaep_economy_reason:0 "#V Japan must modernize its industry to compete with nations that seek to control and exploit us."
+ je_jaep_army:0 "Japan: Retire the Samurai"
+ je_jaep_army_reason:0 "#V The Samurai are our ancient feudal-hereditary warrior caste.\nFor centuries they have fought for us and commanded our armies.\nBut in the centuries of relative peace we have enjoyed, they have forgotten the ways of war and have become a burden to the state."
+ je_jaep_diplomacy:0 "Japan: End Sakoku"
+ je_jaep_diplomacy_reason:0 "#V Japan has isolated itself for centuries to resist foreign influence, but it is now time to open ourselves to the world.\nOur goal, however, is not only to open Japan but to establish our nation as a [concept_great_power] on the world stage."
+ je_jaep_daimyo:0 "Japan: Abolish the Daimyō System"
+ je_jaep_daimyo_reason:0 "#V The [concept_daimyo] system in Japan is a feudal structure where regional lords, known as [concept_daimyo], held significant power and controlled vast lands, governing their territories with considerable autonomy.\nEach [concept_daimyo] maintain their own army of samurai, collect taxes and enforce laws, leading to a fragmented political landscape marked by rivalries and shifting allegiances.\nThis system created divisions among the population, undermine centralized authority, and make it challenging for a unified national government to emerge.\nAbolishing the [concept_daimyo] system is crucial for establishing a cohesive nation-state, as it would eliminate feudal loyalties that could lead to regionalism and conflict, promote a single national identity, and facilitate the development of a centralized and modern governance structure that can effectively address the needs of all citizens."
+ je_jae_button:0 "Preserve the Samurai Class"
+ je_jae_button_desc:0 ""
+ je_var_samuyes_desc:0 "Choosing this option will #P automatically complete#! the JE, but it will #N lock you out#! from removing the [GetIdeology('ideology_bakufu').GetName] ideology from the [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant|l] [concept_interest_group] for the rest of the game."
+ progressjapmod:0 "Completing this Journal Entry will make the "#V Modernizing Japan#!" JE advance."

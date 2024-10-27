@@ -75,7 +75,7 @@ ai_strategy_default = {
 		
 		if = { # Donghak Rebellion - Japanese Behaviours - Pro-Government
 			limit = {
-				c:JAP ?= this
+				c:JAE ?= this
 				has_journal_entry = je_korean_rebellion
 				has_variable = sided_with_korean_gov
 				scope:country = {
@@ -91,7 +91,7 @@ ai_strategy_default = {
 
 		if = { # Donghak Rebellion - Japanese Behaviours - Anti-Government
 			limit = {
-				c:JAP ?= this
+				c:JAE ?= this
 				has_journal_entry = je_korean_rebellion
 				has_variable = sided_with_korean_rebels
 				scope:country = {
@@ -168,8 +168,8 @@ ai_strategy_default = {
 		
 		if = { # Isolationist Japan should tend to back down against market opening plays
 			limit = {
-				exists = c:JAP
-				this = c:JAP
+				exists = c:JAE
+				this = c:JAE
 				has_law = law_type:law_isolationism 
 				scope:diplomatic_play = { 
 					OR = {
@@ -721,6 +721,24 @@ ai_strategy_default = {
 							state_region = s:STATE_BEIRA
 							state_region = s:STATE_ALENTEJO
 							state_region = s:STATE_ESTREMADURA
+						}
+					}
+				}
+				add = 400
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_zapa
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_MORAVIA
+							state_region = s:STATE_WEST_SLOVAKIA
+							state_region = s:STATE_EAST_SLOVAKIA
+							state_region = s:STATE_POSEN
+							state_region = s:STATE_EAST_PRUSSIA
+							state_region = s:STATE_WEST_PRUSSIA
+							state_region = s:STATE_SILESIA
 						}
 					}
 				}
@@ -2737,6 +2755,13 @@ ai_strategy_default = {
 		}
 		if = {
 			limit = {
+				scope:target_country = { country_rank >= rank_value:major_power }
+			}
+			
+			add = 5
+		}
+		if = {
+			limit = {
 				has_journal_entry = je_cth_main
 				scope:target_country = {
 					any_scope_state = {
@@ -2982,35 +3007,7 @@ ai_strategy_default = {
 			}
 			add = 5
 		}
-		
-		# Russia should very aggressively go for the Caucasus if it's still a great power.
-		if = {
-			limit = {
-				exists = c:SAE
-                THIS = c:SAE
-                country_rank = rank_value:great_power
-                OR = {
-                	exists = c:DON
-                	exists = c:AZB
-                }
-				scope:target_country = {
-					NOT = {
-						is_country_type = recognized
-					}
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_KUBAN
-							state_region = s:STATE_DAGESTAN
-							state_region = s:STATE_NORTH_CAUCASUS
-						}
-					}
-				}
-				NOT = {
-					has_global_variable = caucasus_failure_var
-				}
-			}
-			add = 10
-		}
+
 
 		if = {
 			limit = {
@@ -3053,6 +3050,45 @@ ai_strategy_default = {
                             state_region = s:STATE_SANTA_FE
                             state_region = s:STATE_PARANA
                             state_region = s:STATE_RIO_GRANDE_DO_SUL
+                        }
+                    }
+                }
+            }
+            add = 25
+        }
+		if = {
+			limit = {
+				has_journal_entry = je_lom_ita
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+						state_region = s:STATE_PIEDMONT
+						state_region = s:STATE_LOMBARDY
+						state_region = s:STATE_VENETIA
+						state_region = s:STATE_ISTRIA
+						state_region = s:STATE_EMILIA
+						state_region = s:STATE_ROMAGNA
+						state_region = s:STATE_TUSCANY
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+            limit = {
+                has_journal_entry = je_zapa
+                scope:target_country = {
+                    any_scope_state = {
+                        OR = {
+                            state_region = s:STATE_BOHEMIA
+                            state_region = s:STATE_MORAVIA
+							state_region = s:STATE_EAST_PRUSSIA
+                            state_region = s:STATE_WEST_SLOVAKIA
+                            state_region = s:STATE_EAST_SLOVAKIA
+							state_region = s:STATE_POSEN
+                            state_region = s:STATE_WEST_PRUSSIA
+                            state_region = s:STATE_SILESIA
                         }
                     }
                 }
@@ -3144,7 +3180,7 @@ ai_strategy_default = {
 		if = {
 			limit = {
 				has_global_variable = sino_japanese_war
-				c:JAP ?= this
+				c:JAE ?= this
 				scope:target_country = {
 					country_has_primary_culture = cu:korean
 					overlord = {
@@ -3160,7 +3196,7 @@ ai_strategy_default = {
 		if = {
 			limit = {
 				has_global_variable = sino_japanese_war
-				c:JAP ?= this
+				c:JAE ?= this
 				scope:target_country = {
 					OR = {
 						country_has_primary_culture = cu:han
@@ -3918,8 +3954,8 @@ ai_strategy_default = {
 		region_japan = {	
 			if = {
 				limit = {
-					exists = c:JAP
-					c:JAP = { has_law = law_type:law_isolationism }
+					exists = c:JAE
+					c:JAE = { has_law = law_type:law_isolationism }
 					NOT = { country_rank = rank_value:great_power }
 				}
 				add = -50

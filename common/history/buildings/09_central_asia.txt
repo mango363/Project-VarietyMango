@@ -159,7 +159,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SAE"
+						country="c:AZB"
 						levels=9
 						region="STATE_AZERBAIJAN"
 					}
@@ -172,7 +172,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SAE"
+						country="c:AZB"
 						levels=5
 						region="STATE_AZERBAIJAN"
 					}

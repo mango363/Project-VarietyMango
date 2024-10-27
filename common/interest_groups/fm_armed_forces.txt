@@ -5,7 +5,6 @@
 	index = 0
 
 	ideologies = {
-		ideology_nationalist
 		ideology_jingoist
 		ideology_loyalist
 		ideology_patriotic
@@ -85,7 +84,6 @@
 				country_has_primary_culture = cu:na_santee_dakota
 			}
 			ig:ig_armed_forces = {
-				remove_ideology = ideology_nationalist
 				remove_ideology = ideology_jingoist
 				add_ideology = ideology_indian
 			}
