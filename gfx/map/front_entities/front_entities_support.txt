@@ -171,7 +171,23 @@ military_support_nativeamerican_flamethrower_diorama_entity = {
 	}
 }
 
+military_support_nativeamerican_flamethrower_diorama_entity = {
+	entity = "military_support_nativeamerican_flamethrower_entity"
 
+	group = "flamethrower"
+
+	trigger = {
+		scope:attacker = yes
+
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+
+		scope:military_formation = {
+			has_mobilization_option = mobilization_option:mobilization_option_flamethrowers
+		}
+	}
+}
 
 ### Machinegunner ###
 
@@ -301,7 +317,23 @@ military_support_nativeamerican_machinegunner_diorama_entity = {
 	}
 }
 
+military_support_nativeamerican_machinegunner_diorama_entity = {
+	entity = "military_support_nativeamerican_machinegunner_entity"
 
+	group = "machinegunner"
+
+	trigger = {
+		scope:attacker = no
+
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+
+		scope:military_formation = {
+			has_mobilization_option = mobilization_option:mobilization_option_machinegunners
+		}
+	}
+}
 
 ### Chemical Warfare ###
 

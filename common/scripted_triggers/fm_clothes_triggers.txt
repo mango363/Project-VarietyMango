@@ -243,6 +243,7 @@ japanese_imperial_clothes_trigger = {
 					}
 				}
 			}
+			culture = cu:jagera
 		}
 	}
 }
@@ -791,22 +792,6 @@ navy_traits_trigger = {
 	}
 }
 
-#Pop 
-east_asian_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-		NOR = {
-			culture = cu:yakut
-			culture = cu:siberian
-		}
-		culture = {
-			OR = {
-				has_discrimination_trait = east_asian_heritage
-				has_discrimination_trait = north_asian_heritage
-			}
-		}
-	}
-}
 
 central_asian_clothes_pop_trigger = {
 	exists = scope:pop
@@ -841,6 +826,22 @@ arabic_clothes_pop_trigger = {
 	}
 }
 
+east_asian_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		NOR = {
+			culture = cu:yakut
+			culture = cu:siberian
+		}
+		culture = {
+			or = {
+				has_discrimination_trait = east_asian_heritage
+				has_discrimination_trait = north_asian_heritage
+			}
+		}
+	}
+}
+
 indigenous_oceanic_clothes_trigger = {
 	OR = {
 		AND = {
@@ -861,6 +862,7 @@ indigenous_oceanic_clothes_trigger = {
 		}
 	}
 }
+
 
 circumpolar_clothes_pop_trigger = {
 	exists = scope:pop
@@ -985,6 +987,7 @@ japanese_clothes_pop_trigger = {
 		OR = {
 			culture = cu:japanese
 			culture = cu:ainu
+			culture = cu:jagera
 		}
 	}
 }
@@ -995,6 +998,7 @@ japanese_clothes_trigger = {
 		OR = {
 			culture = cu:japanese
 			culture = cu:ainu
+			culture = cu:jagera
 		}
 	}
 }

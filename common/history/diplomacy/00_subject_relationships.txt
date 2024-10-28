@@ -55,6 +55,16 @@
 			type = dominion
 		}
 	}
+	c:SAU ?= {
+		create_diplomatic_pact = {
+			country = c:KIJ
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:WUN
+			type = protectorate
+		}
+	}
 	c:TOR ?= {
 		create_diplomatic_pact = {
 			country = c:AZB

@@ -110,6 +110,19 @@ military_infantry_eastasian_general_diorama_entity = {
 	}
 }
 
+military_infantry_eastasian_general_diorama_entity = {
+	entity = "military_infantry_african_general_entity"
+
+	group = "general"
+	
+	trigger = {
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+	}
+}
+
 
 #################################################
 ###       			South Asian     		  ###

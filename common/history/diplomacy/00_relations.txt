@@ -327,4 +327,20 @@
 		set_relations = { country = c:GUJ value = 80 }
 		set_relations = { country = c:SAB value = 80 }
 	}
+	c:KNA ?= {
+		set_relations = { country = c:KAU value = 50 }
+		set_relations = { country = c:NAW value = 50 }
+	}
+	c:YAG ?= {
+		set_relations = { country = c:KNA value = -50 }
+		set_relations = { country = c:KAU value = -50 }
+		set_relations = { country = c:NAW value = -50 }
+		set_relations = { country = c:MRN value = -10 }
+		set_relations = { country = c:WTI value = -10 }
+		set_relations = { country = c:NNG value = -10 }
+		set_relations = { country = c:WAT value = -10 }
+		set_relations = { country = c:KIJ value = -15 }
+		set_relations = { country = c:WUN value = -10 }
+		set_relations = { country = c:SAU value = -25 }
+	}
 }

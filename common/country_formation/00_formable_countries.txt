@@ -365,6 +365,39 @@ PIN = {
 	}
 }
 
+
+MKY = {
+	STATES = {
+		STATE_QUEENSLAND
+		STATE_NEW_SOUTH_WALES
+		STATE_VICTORIA
+		STATE_SOUTH_AUSTRALIA
+		STATE_WESTERN_AUSTRALIA
+		STATE_NORTHERN_TERRITORY
+		STATE_TASMANIA
+		STATE_SOUTH_ISLAND
+		STATE_NORTH_ISLAND
+		STATE_KANAK
+		STATE_VANUATU
+		STATE_FIJI
+		STATE_TONGA
+		STATE_SOLOMON_ISLANDS
+		STATE_BOUGAINVILLE
+		STATE_FIJI
+		STATE_WESTERN_NEW_GUINEA
+		STATE_EASTERN_NEW_GUINEA
+		STATE_CELEBES
+		STATE_SUNDA_ISLANDS
+		STATE_EAST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_WEST_JAVA
+	}
+
+	required_states_fraction = 0.9
+	
+	ai_will_do = { always = yes }
+}
+
 GAR = {
 	STATES = {
 		STATE_ARMENIA
@@ -522,17 +555,6 @@ CAN = {
 	}
 }
 
-AST = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
 
 PUL = {
 	states = {

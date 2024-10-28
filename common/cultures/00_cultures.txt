@@ -12757,7 +12757,629 @@ aborigine={ # Aboriginal
 	ethnicities = {
 		1 = polynesian
 	}
-	graphics = decentralised_americas
+	graphics = fm_aboriginal_australian
+}
+
+wunambal={ # Aboriginal
+	color= { 122 158 196 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian nor_wor }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+gija={ # Aboriginal
+	color= { 50 91 135 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian gija_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+wadjari={ # Aboriginal
+	color= { 29 150 81 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+nyungar={ # Aboriginal
+	color= { 10 128 32 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+wati={ # Aboriginal
+	color= { 87 161 101 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+ngandatha={ # Aboriginal
+	color= { 26 156 51 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+nauo={ # Aboriginal
+	color= { 110 35 47 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian thura_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+kaurna={ # Aboriginal
+	color= { 176 9 36 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian thura_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+gunaikurnai={ # Aboriginal
+	color= { 34 44 112 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian gaanay_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
+}
+
+jagera={ # Aboriginal
+	color= { 186 94 7 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage aboriginal_australian yuggera_speaker }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = fm_aboriginal_australian
 }
 
 zapotec={

@@ -1777,12 +1777,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1793,7 +1793,7 @@ BUILDINGS={
 				building="building_sugar_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1804,7 +1804,7 @@ BUILDINGS={
 				building="building_rice_farm"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1815,7 +1815,7 @@ BUILDINGS={
 				building="building_banana_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1826,7 +1826,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1837,7 +1837,7 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1848,7 +1848,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}

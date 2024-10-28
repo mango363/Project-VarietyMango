@@ -11547,7 +11547,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -11692,7 +11692,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -11837,7 +11837,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -11982,7 +11982,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -12127,7 +12127,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -12272,7 +12272,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -12416,7 +12416,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -12561,7 +12561,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {
@@ -12706,7 +12706,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_national_ideas/wingedh.dds"
-    fontsize = 50
+    fontsize = 320
   }
 }
 texticon = {

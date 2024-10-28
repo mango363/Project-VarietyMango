@@ -943,7 +943,7 @@
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				pop_type = clergy
 				culture = japanese
@@ -966,17 +966,12 @@
 			}
 			create_pop = {
 				culture = hawaiian
-				religion = mahayana
 				size = 132304
 			}
 			create_pop = {
 				culture = hawaiian
 				religion = animist
 				size = 8500
-			}
-			create_pop = {
-				culture = han
-				size = 50000
 			}
 		}
 	}

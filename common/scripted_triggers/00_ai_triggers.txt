@@ -335,8 +335,8 @@ has_je_subjugation_reason = {
 			country_rank = rank_value:great_power
 			navy_size >= 25
 			scope:target_country = { 
-				exists = c:JAP
-				this = c:JAP		
+				exists = c:JAE
+				this = c:JAE		
 				has_law = law_type:law_isolationism
 				gdp >= 5000000
 			} 		

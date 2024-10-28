@@ -563,3 +563,43 @@ military_infantry_nativeamerican_skirmish_diorama_entity = {
 		scope:combat_unit_type = unit_type:combat_unit_type_skirmish_infantry
 	}
 }
+
+
+military_infantry_nativeamerican_irregular_diorama_entity = {
+	entity = "military_infantry_nativeamerican_irregular_entity"
+
+	group = "infantry"
+	
+	trigger = {
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+	}
+}
+
+military_infantry_nativeamerican_line_diorama_entity = {
+	entity = "military_infantry_nativeamerican_line_entity"
+
+	group = "infantry"
+	
+	trigger = {
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_line_infantry
+	}
+}
+
+military_infantry_nativeamerican_skirmish_diorama_entity = {
+	entity = "military_infantry_nativeamerican_skirmish_entity"
+
+	group = "infantry"
+	
+	trigger = {
+		scope:culture = {
+			has_culture_graphics = fm_aboriginal_australian
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_skirmish_infantry
+	}
+}

@@ -492,3 +492,64 @@ military_cavalry_nativeamerican_lancer_diorama_entity = {
 		scope:combat_unit_type = unit_type:combat_unit_type_lancers
 	}
 }
+
+military_cavalry_nativeamerican_hussar_diorama_entity = {
+	entity = "military_cavalry_nativeamerican_hussar_entity"
+
+	group = "cavalry"
+	
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_culture_graphics = fm_aboriginal_australian
+			}
+		}
+
+		scope:combat_unit_type = unit_type:combat_unit_type_hussars
+	}
+}
+
+military_cavalry_nativeamerican_dragoon_diorama_entity = {
+	entity = "military_cavalry_nativeamerican_dragoon_entity"
+
+	group = "cavalry"
+	
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_culture_graphics = fm_aboriginal_australian
+			}
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_dragoons
+	}
+}
+
+military_cavalry_nativeamerican_cuirassier_diorama_entity = {
+	entity = "military_cavalry_nativeamerican_cuirassier_entity"
+
+	group = "cavalry"
+	
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_culture_graphics = fm_aboriginal_australian
+			}
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_cuirassiers
+	}
+}
+
+military_cavalry_nativeamerican_lancer_diorama_entity = {
+	entity = "military_cavalry_nativeamerican_lancer_entity"
+
+	group = "cavalry"
+	
+	trigger = {
+		scope:culture = {
+			OR = {
+				has_culture_graphics = fm_aboriginal_australian
+			}
+		}
+		scope:combat_unit_type = unit_type:combat_unit_type_lancers
+	}
+}

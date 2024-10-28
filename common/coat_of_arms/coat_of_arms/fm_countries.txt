@@ -5463,6 +5463,20 @@ BIZ = {
 	}		
 }
 
+YAG = {
+	pattern = "pattern_border_of_2_double.dds"
+	color1 = { 153 113 2 }
+	color2 = "white"
+	color3 = { 153 113 2 }
+
+
+	colored_emblem = {
+		texture = "ce_star_09.dds"
+		color1 = "white"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}	
+}
+
 BOZ = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -19066,6 +19080,35 @@ PIN = {
 		texture = "te_coa_PIN.dds"
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
+}
+
+MKY = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	color3 = "red"
+	
+	colored_emblem = {
+		texture = "ce_star_07.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.33 0.33 } position = { 0.25 0.75 } }
+		instance = { scale = { 0.17 0.17 } position = { 0.743 0.181 } }
+		instance = { scale = { 0.17 0.17 } position = { 0.15 0.2 } }
+		instance = { scale = { 0.17 0.17 } position = { 0.861 0.37 } }
+		instance = { scale = { 0.20 0.20 } position = { 0.743 0.849 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.1 0.1 } position = { 0.8 0.543 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_09.dds"
+		color1 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}	
 }
 
 GAR = {

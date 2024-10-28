@@ -990,12 +990,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_WESTERN_NEW_GUINEA = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_building={
 				building="building_banana_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1006,7 +1006,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1016,12 +1016,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_MOLUCCAS = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1032,7 +1032,7 @@ BUILDINGS={
 				building="building_tobacco_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1043,7 +1043,7 @@ BUILDINGS={
 				building="building_dye_plantation"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1051,21 +1051,10 @@ BUILDINGS={
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
@@ -1396,49 +1385,38 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_WEST_MICRONESIA = {
-		region_state:JAP = {
+	s:STATE_WEST_MICRONESIA={
+		region_state:SAU={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
-	s:STATE_EAST_MICRONESIA = {
-		region_state:JAP = {
+	s:STATE_EAST_MICRONESIA={
+		region_state:SAU={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:SAU"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
-	s:STATE_SOLOMON_ISLANDS = {
-		region_state:JAP = {
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+	s:STATE_SOLOMON_ISLANDS={
+		region_state:BLA={
 		}
 	}
 	s:STATE_NAURU = {
@@ -1461,67 +1439,53 @@ BUILDINGS={
 		region_state:HLA = {
 		}
 	}
-	s:STATE_TAHITI = {
-		region_state:JAP = {
-			create_building={
-				building="building_easter_island_heads"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+	s:STATE_TAHITI={
+		region_state:PLY={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					country={
-						country="c:JAP"
+					building={
+						type="building_manor_house"
+						country="c:PLY"
 						levels=1
+						region="STATE_TAHITI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
-						country="c:JAP"
+					building={
+						type="building_fishing_wharf"
+						country="c:PLY"
 						levels=1
+						region="STATE_TAHITI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
-		}
-	}
-	s:STATE_TONGA = {
-		region_state:JAP = {
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:JAP"
+						country="c:PLY"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				activate_production_methods={ "pm_anchorage" }
+			}			
+			create_building={
+				building= "building_easter_island_heads"
+				level = 1
 			}
+		}
+	}
+	s:STATE_TONGA={
+		region_state:TNG={
 		}
 	}
 }
