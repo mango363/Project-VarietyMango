@@ -15,11 +15,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_ECUADOR"
 					}
 				}
 				reserves=1
@@ -160,11 +158,9 @@
 			create_building={
 				building="building_shipyards"
 				add_ownership={
-					building={
-						type="building_shipyards"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_ZULIA"
 					}
 				}
 				reserves=1
@@ -229,11 +225,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:VNA"
+					country={
+						country="c:CUL"
 						levels=1
-						region="STATE_MIRANDA"
 					}
 				}
 				reserves=1
@@ -275,11 +269,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:VNA"
 						levels=4
-						region="STATE_MIRANDA"
 					}
 				}
 				reserves=1
@@ -329,11 +321,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:VNA"
 						levels=1
-						region="STATE_BOLIVAR"
 					}
 				}
 				reserves=1
@@ -368,11 +358,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:VNA"
 						levels=4
-						region="STATE_BOLIVAR"
 					}
 				}
 				reserves=1
@@ -409,11 +397,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CUL"
+					country={
+						country="c:VNA"
 						levels=2
-						region="STATE_ANTIOQUIA"
 					}
 				}
 				reserves=1
@@ -448,11 +434,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_ANTIOQUIA"
 					}
 				}
 				reserves=1
@@ -461,11 +445,9 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					building={
-						type="building_iron_mine"
+					country={
 						country="c:CUL"
 						levels=2
-						region="STATE_ANTIOQUIA"
 					}
 				}
 				reserves=1
@@ -474,17 +456,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:CUL"
-						levels=2
-						region="STATE_ANTIOQUIA"
-					}
-					building={
-						type="building_financial_district"
-						country="c:CUL"
-						levels=1
-						region="STATE_ANTIOQUIA"
+						levels=3
 					}
 				}
 				reserves=1
@@ -524,11 +498,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_CUNDINAMARCA"
 					}
 				}
 				reserves=1
@@ -563,11 +535,9 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					building={
-						type="building_rice_farm"
+					country={
 						country="c:CUL"
 						levels=2
-						region="STATE_CUNDINAMARCA"
 					}
 				}
 				reserves=1
@@ -589,11 +559,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_CUNDINAMARCA"
 					}
 					building={
 						type="building_financial_district"
@@ -638,11 +606,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:CUL"
 						levels=2
-						region="STATE_CAUCA"
 					}
 				}
 				reserves=1
@@ -690,11 +656,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_CAJAMARCA"
 					}
 				}
 				reserves=1
@@ -703,11 +667,9 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					building={
-						type="building_livestock_ranch"
+					country={
 						country="c:CUL"
 						levels=1
-						region="STATE_CAJAMARCA"
 					}
 				}
 				reserves=1
@@ -800,11 +762,9 @@
 						levels=1
 						region="STATE_URUGUAY"
 					}
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_BUENOS_AIRES"
 					}
 				}
 				reserves=1
@@ -813,11 +773,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:AGA"
 						levels=5
-						region="STATE_URUGUAY"
 					}
 				}
 				reserves=1
@@ -953,11 +911,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_BUENOS_AIRES"
 					}
 				}
 				subsidized=yes
@@ -980,11 +936,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_BUENOS_AIRES"
 					}
 				}
 				reserves=1
@@ -1085,11 +1039,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_LA_PAMPA"
 					}
 				}
 				reserves=1
@@ -1130,11 +1082,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:AGA"
 						levels=3
-						region="STATE_SANTA_FE"
 					}
 					building={
 						type="building_financial_district"
@@ -1149,11 +1099,9 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					building={
-						type="building_livestock_ranch"
+					country={
 						country="c:AGA"
 						levels=5
-						region="STATE_SANTA_FE"
 					}
 				}
 				reserves=1
@@ -1179,11 +1127,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:AGA"
 						levels=10
-						region="STATE_CORRIENTES"
 					}
 				}
 				reserves=1
@@ -1278,11 +1224,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_SANTIAGO"
 					}
 				}
 				reserves=1
@@ -1315,11 +1259,9 @@
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
-					building={
-						type="building_wheat_farm"
+					country={
 						country="c:AGA"
 						levels=2
-						region="STATE_SANTIAGO"
 					}
 				}
 				reserves=1
@@ -1369,11 +1311,9 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					building={
-						type="building_livestock_ranch"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_LOS_RIOS"
 					}
 				}
 				reserves=1
@@ -1425,11 +1365,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:AGA"
 						levels=1
-						region="STATE_ARAUCANIA"
 					}
 				}
 				reserves=1
@@ -1583,11 +1521,9 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					building={
-						type="building_rice_farm"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_GOIAS"
 					}
 				}
 				reserves=1
@@ -1686,11 +1622,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_PARANA"
 					}
 				}
 				reserves=1
@@ -1716,11 +1650,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:PNI"
 						levels=1
-						region="STATE_SANTA_CATARINA"
 					}
 				}
 				reserves=1
@@ -1852,11 +1784,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_MINAS_GERAIS"
 					}
 				}
 				reserves=1
@@ -1889,11 +1819,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_MINAS_GERAIS"
 					}
 					building={
 						type="building_financial_district"
@@ -1921,11 +1849,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_MINAS_GERAIS"
 					}
 					building={
 						type="building_manor_house"
@@ -2003,11 +1929,9 @@
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
-					building={
-						type="building_furniture_manufacturies"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_RIO_DE_JANEIRO"
 					}
 				}
 				reserves=1
@@ -2029,11 +1953,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_RIO_DE_JANEIRO"
 					}
 				}
 				reserves=1
@@ -2068,11 +1990,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=4
-						region="STATE_RIO_DE_JANEIRO"
 					}
 					building={
 						type="building_manor_house"
@@ -2087,11 +2007,9 @@
 			create_building={
 				building="building_banana_plantation"
 				add_ownership={
-					building={
-						type="building_banana_plantation"
+					country={
 						country="c:BRZ"
 						levels=3
-						region="STATE_RIO_DE_JANEIRO"
 					}
 				}
 				reserves=1
@@ -2126,11 +2044,9 @@
 			create_building={
 				building="building_shipyards"
 				add_ownership={
-					building={
-						type="building_shipyards"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_BAHIA"
 					}
 				}
 				reserves=1
@@ -2176,11 +2092,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_BAHIA"
 					}
 					building={
 						type="building_manor_house"
@@ -2208,11 +2122,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_BAHIA"
 					}
 					building={
 						type="building_financial_district"
@@ -2227,11 +2139,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BRZ"
-						levels=2
-						region="STATE_BAHIA"
+						levels=1
 					}
 				}
 				reserves=1
@@ -2262,11 +2172,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_BAHIA"
 					}
 				}
 				reserves=1
@@ -2279,11 +2187,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_RIO_GRANDE_DO_NORTE"
 					}
 				}
 				reserves=1
@@ -2305,11 +2211,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_RIO_GRANDE_DO_NORTE"
 					}
 				}
 				reserves=1
@@ -2335,11 +2239,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_CEARA"
 					}
 				}
 				reserves=1
@@ -2361,11 +2263,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_CEARA"
 					}
 				}
 				reserves=1
@@ -2408,11 +2308,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_PARAIBA"
 					}
 				}
 				reserves=1
@@ -2434,11 +2332,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=1
-						region="STATE_PARAIBA"
 					}
 				}
 				reserves=1
@@ -2462,11 +2358,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BRZ"
 						levels=3
-						region="STATE_PERNAMBUCO"
 					}
 				}
 				reserves=1
@@ -2501,11 +2395,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:BRZ"
 						levels=2
-						region="STATE_PERNAMBUCO"
 					}
 					building={
 						type="building_manor_house"

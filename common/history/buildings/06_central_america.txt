@@ -4,11 +4,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:NVS"
 						levels=1
-						region="STATE_SAN_SALVADOR"
 					}
 				}
 				reserves=1
@@ -45,11 +43,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:MAY"
 						levels=2
-						region="STATE_GUATEMALA"
 					}
 				}
 				reserves=1
@@ -75,11 +71,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					building={
-						type="building_maize_farm"
+					country={
 						country="c:NVS"
 						levels=1
-						region="STATE_HONDURAS"
 					}
 				}
 				reserves=1
@@ -88,11 +82,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:NVS"
 						levels=1
-						region="STATE_HONDURAS"
 					}
 				}
 				reserves=1
@@ -196,11 +188,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:NVS"
 						levels=1
-						region="STATE_PANAMA"
 					}
 				}
 				reserves=1
@@ -263,11 +253,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:HAE"
 						levels=1
-						region="STATE_HAITI"
 					}
 				}
 				reserves=1
@@ -276,11 +264,9 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					building={
-						type="building_rice_farm"
+					country={
 						country="c:HAE"
 						levels=1
-						region="STATE_HAITI"
 					}
 				}
 				reserves=1
@@ -341,11 +327,9 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					building={
-						type="building_rice_farm"
+					country={
 						country="c:HAE"
 						levels=1
-						region="STATE_SANTO_DOMINGO"
 					}
 				}
 				reserves=1

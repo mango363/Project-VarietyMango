@@ -54,11 +54,9 @@ BUILDINGS={
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
-					building={
-						type="building_arms_industry"
+					country={
 						country="c:OMA"
 						levels=1
-						region="STATE_OMAN"
 					}
 				}
 				reserves=1
@@ -67,11 +65,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:OMA"
 						levels=2
-						region="STATE_OMAN"
 					}
 				}
 				reserves=1
@@ -80,11 +76,9 @@ BUILDINGS={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:OMA"
 						levels=5
-						region="STATE_OMAN"
 					}
 				}
 				reserves=1
@@ -371,11 +365,9 @@ BUILDINGS={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:EGE"
 						levels=1
-						region="STATE_SYRIA"
 					}
 					building={
 						type="building_financial_district"
@@ -455,11 +447,9 @@ BUILDINGS={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:SIU"
 						levels=1
-						region="STATE_SYRIA"
 					}
 					building={
 						type="building_financial_district"
@@ -640,11 +630,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:SAE"
 						levels=1
-						region="STATE_BAGHDAD"
 					}
 				}
 				reserves=1
@@ -733,11 +721,9 @@ BUILDINGS={
 			create_building={
 				building="building_paper_mills"
 				add_ownership={
-					building={
-						type="building_paper_mills"
+					country={
 						country="c:SAE"
 						levels=3
-						region="STATE_BAGHDAD"
 					}
 				}
 				reserves=1
@@ -1079,11 +1065,9 @@ BUILDINGS={
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					building={
-						type="building_iron_mine"
+					country={
 						country="c:SAE"
 						levels=3
-						region="STATE_ISFAHAN"
 					}
 					building={
 						type="building_financial_district"
@@ -2153,11 +2137,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:TOR"
 						levels=3
-						region="STATE_ANKARA"
 					}
 				}
 				reserves=1

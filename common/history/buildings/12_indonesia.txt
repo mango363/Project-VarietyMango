@@ -859,11 +859,9 @@ BUILDINGS={
 			create_building={
 				building="building_sulfur_mine"
 				add_ownership={
-					building={
-						type="building_sulfur_mine"
+					country={
 						country="c:NED"
 						levels=1
-						region="STATE_HOLLAND"
 					}
 				}
 				reserves=1
@@ -1133,11 +1131,9 @@ BUILDINGS={
 			create_building={
 				building="building_sulfur_mine"
 				add_ownership={
-					building={
-						type="building_sulfur_mine"
+					country={
 						country="c:NED"
 						levels=1
-						region="STATE_HOLLAND"
 					}
 				}
 				reserves=1
@@ -1457,11 +1453,9 @@ BUILDINGS={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:PLY"
 						levels=1
-						region="STATE_TAHITI"
 					}
 				}
 				reserves=1

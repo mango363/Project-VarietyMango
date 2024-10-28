@@ -177,11 +177,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:MNP"
 						levels=1
-						region="STATE_NORTH_BENGAL"
 					}
 				}
 				reserves=1
@@ -399,11 +397,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:JAI"
 						levels=2
-						region="STATE_DELHI"
 					}
 				}
 				subsidized=yes
@@ -584,11 +580,9 @@ BUILDINGS={
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
-					building={
-						type="building_furniture_manufacturies"
+					country={
 						country="c:BER"
 						levels=2
-						region="STATE_GUJARAT"
 					}
 				}
 				reserves=1
@@ -608,11 +602,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BER"
 						levels=2
-						region="STATE_GUJARAT"
 					}
 				}
 				reserves=1
@@ -621,11 +613,9 @@ BUILDINGS={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BER"
 						levels=3
-						region="STATE_GUJARAT"
 					}
 				}
 				reserves=1
@@ -673,11 +663,9 @@ BUILDINGS={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:KUT"
 						levels=1
-						region="STATE_GUJARAT"
 					}
 				}
 				reserves=1
@@ -1008,11 +996,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:PAN"
 						levels=2
-						region="STATE_PUNJAB"
 					}
 				}
 				subsidized=yes
@@ -1231,11 +1217,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:NAG"
 						levels=2
-						region="STATE_NAGPUR"
 					}
 				}
 				reserves=1
@@ -1294,11 +1278,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BAS"
-						levels=1
-						region="STATE_NAGPUR"
+						levels=2
 					}
 				}
 				reserves=1
@@ -1318,11 +1300,9 @@ BUILDINGS={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:BAS"
 						levels=2
-						region="STATE_NAGPUR"
 					}
 					building={
 						type="building_financial_district"
@@ -1337,11 +1317,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:BAS"
 						levels=2
-						region="STATE_NAGPUR"
 					}
 				}
 				reserves=1
@@ -1730,11 +1708,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:JAI"
 						levels=1
-						region="STATE_RAJPUTANA"
 					}
 				}
 				reserves=1
@@ -2068,11 +2044,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:MYS"
 						levels=5
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2081,11 +2055,9 @@ BUILDINGS={
 			create_building={
 				building="building_glassworks"
 				add_ownership={
-					building={
-						type="building_glassworks"
+					country={
 						country="c:MYS"
 						levels=2
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2146,11 +2118,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:MYS"
 						levels=1
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2172,11 +2142,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BAS"
 						levels=1
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2185,11 +2153,9 @@ BUILDINGS={
 			create_building={
 				building="building_glassworks"
 				add_ownership={
-					building={
-						type="building_glassworks"
+					country={
 						country="c:BAS"
 						levels=1
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2269,11 +2235,9 @@ BUILDINGS={
 						levels=2
 						region="STATE_ORISSA"
 					}
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:ORI"
 						levels=1
-						region="STATE_ORISSA"
 					}
 				}
 				reserves=1
@@ -2282,11 +2246,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:ORI"
 						levels=5
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2295,11 +2257,9 @@ BUILDINGS={
 			create_building={
 				building="building_glassworks"
 				add_ownership={
-					building={
-						type="building_glassworks"
+					country={
 						country="c:ORI"
 						levels=2
-						region="STATE_CIRCARS"
 					}
 				}
 				reserves=1
@@ -2364,11 +2324,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:MYS"
 						levels=1
-						region="STATE_MYSORE"
 					}
 				}
 				reserves=1
@@ -2377,11 +2335,9 @@ BUILDINGS={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:MYS"
 						levels=3
-						region="STATE_MYSORE"
 					}
 					building={
 						type="building_financial_district"
@@ -2572,11 +2528,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:TRA"
 						levels=1
-						region="STATE_MADRAS"
 					}
 				}
 				reserves=1
@@ -2659,11 +2613,9 @@ BUILDINGS={
 			create_building={
 				building="building_paper_mills"
 				add_ownership={
-					building={
-						type="building_paper_mills"
+					country={
 						country="c:TRA"
 						levels=4
-						region="STATE_MADRAS"
 					}
 				}
 				reserves=1
@@ -2672,11 +2624,9 @@ BUILDINGS={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:TRA"
 						levels=3
-						region="STATE_MADRAS"
 					}
 				}
 				reserves=1
@@ -2774,11 +2724,9 @@ BUILDINGS={
 			create_building={
 				building="building_dye_plantation"
 				add_ownership={
-					building={
-						type="building_dye_plantation"
+					country={
 						country="c:HYD"
 						levels=1
-						region="STATE_HYDERABAD"
 					}
 				}
 				reserves=1
@@ -2787,11 +2735,9 @@ BUILDINGS={
 			create_building={
 				building="building_glassworks"
 				add_ownership={
-					building={
-						type="building_glassworks"
+					country={
 						country="c:HYD"
 						levels=3
-						region="STATE_HYDERABAD"
 					}
 				}
 				reserves=1
@@ -2886,11 +2832,9 @@ BUILDINGS={
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:BER"
 						levels=1
-						region="STATE_BOMBAY"
 					}
 				}
 				reserves=1
@@ -2910,11 +2854,9 @@ BUILDINGS={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:BER"
 						levels=4
-						region="STATE_BOMBAY"
 					}
 				}
 				reserves=1
@@ -2947,11 +2889,9 @@ BUILDINGS={
 			create_building={
 				building="building_shipyards"
 				add_ownership={
-					building={
-						type="building_shipyards"
+					country={
 						country="c:BER"
 						levels=1
-						region="STATE_BOMBAY"
 					}
 				}
 				reserves=1
@@ -2973,11 +2913,9 @@ BUILDINGS={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:BER"
 						levels=3
-						region="STATE_BOMBAY"
 					}
 				}
 				reserves=1

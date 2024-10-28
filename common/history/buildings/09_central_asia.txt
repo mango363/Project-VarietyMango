@@ -241,11 +241,9 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					building={
-						type="building_tooling_workshops"
+					country={
 						country="c:POC"
 						levels=1
-						region="STATE_SAMARA"
 					}
 				}
 				reserves=1
@@ -254,11 +252,9 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					building={
-						type="building_iron_mine"
+					country={
 						country="c:POC"
 						levels=2
-						region="STATE_SAMARA"
 					}
 				}
 				reserves=1
@@ -623,11 +619,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:KAN"
 						levels=1
-						region="STATE_KANDAHAR"
 					}
 				}
 				reserves=1
@@ -781,11 +775,9 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					building={
-						type="building_textile_mills"
+					country={
 						country="c:HER"
 						levels=1
-						region="STATE_HERAT"
 					}
 				}
 				reserves=1
@@ -892,11 +884,9 @@
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
-					building={
-						type="building_furniture_manufacturies"
+					country={
 						country="c:KAB"
 						levels=1
-						region="STATE_KABUL"
 					}
 				}
 				reserves=1
@@ -905,11 +895,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					building={
-						type="building_logging_camp"
+					country={
 						country="c:KAB"
 						levels=1
-						region="STATE_KABUL"
 					}
 				}
 				reserves=1
@@ -985,11 +973,9 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					building={
-						type="building_fishing_wharf"
+					country={
 						country="c:MAK"
 						levels=1
-						region="STATE_BALUCHISTAN"
 					}
 				}
 				reserves=1

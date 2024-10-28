@@ -1460,4 +1460,21 @@
 			}
 		}
 	}
+	c:DAI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "Dai Nam Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TONKIN
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ANNAM
+				count = 15
+			}
+		}
+	}
 }
