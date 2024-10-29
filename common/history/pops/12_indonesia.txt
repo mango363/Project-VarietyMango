@@ -450,10 +450,14 @@
 				size = 351996
 			}
 		}
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				culture = moluccan
 				size = 20404
+			}
+			create_pop = {
+				culture = japanese
+				size = 404
 			}
 			create_pop = {
 				culture = melanesian
@@ -467,20 +471,23 @@
 		}
 	}
 	s:STATE_MOLUCCAS = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				culture = moluccan
 				size = 196508
 			}
 			create_pop = {
+				culture = japanese
+				size = 6508
+			}
+			create_pop = {
 				culture = moluccan
-				religion = animist
+				religion = mahayana
 				size = 79213
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = moluccan
-				religion = animist
 				size = 35676
 			}
 			create_pop = {
@@ -518,7 +525,7 @@
 				size = 8378
 			}
 		}
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				culture = moluccan
 				size = 1000
@@ -736,7 +743,7 @@
 		}
 	}
 	s:STATE_EAST_MICRONESIA = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				culture = micronesian
 				size = 23840
@@ -753,14 +760,14 @@
 	}
 
 	s:STATE_WEST_MICRONESIA = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				culture = micronesian
 				size = 23840
 			}
 			create_pop = {
 				culture = japanese
-				size = 104
+				size = 24
 			}
 			create_pop = {
 				culture = polynesian
@@ -769,7 +776,7 @@
 		}
 	}
 	s:STATE_SOLOMON_ISLANDS = {
-		region_state:JAP = {
+		region_state:BLA = {
 			create_pop = {
 				culture = melanesian
 				size = 52400
@@ -822,9 +829,9 @@
 			}
 		}
 	}
-
+	
 	s:STATE_TAHITI = {
-		region_state:JAP = {
+		region_state:PLY = {
 			create_pop = {
 				culture = polynesian
 				size = 169004
@@ -835,7 +842,7 @@
 				size = 160
 			}
 			create_pop = {
-				culture = burgundian
+				culture = french
 				religion = catholic
 				size = 400
 			}
@@ -843,7 +850,7 @@
 	}
 
 	s:STATE_TONGA = {
-		region_state:JAP = {
+		region_state:TNG = {
 			create_pop = {
 				culture = polynesian
 				size = 40000

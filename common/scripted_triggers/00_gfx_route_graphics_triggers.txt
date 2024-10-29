@@ -644,6 +644,7 @@ gfx_military_mobilization_culture_is_east_asian = {
 	OR = {
 		any_primary_culture = { has_culture_graphics = east_asian }
 		any_primary_culture = { has_culture_graphics = fm_japanese }
+		any_primary_culture = { has_culture_graphics = fm_aboriginal_australian }
 	}
 
 

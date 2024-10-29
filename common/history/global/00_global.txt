@@ -178,11 +178,6 @@ GLOBAL = {
 		}
 	}
 
-	c:JAP ?= {
-		add_radicals = {
-			value = 0.1
-		}
-	}
 
 
 	c:LLO ?= {

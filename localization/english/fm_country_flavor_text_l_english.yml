@@ -50,4 +50,3 @@ pm_spice_conservation:0 "Conservation with Spices"
  building_group_bg_spice_plantation_throughput_add:0 "Spices farm [concept_throughput]"
  building_group_bg_spice_plantation_throughput_add_desc:0 "A bonus or penalty to both input and output of spices farms"
 
-

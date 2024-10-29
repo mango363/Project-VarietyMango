@@ -432,21 +432,6 @@ PRU = {
 	ai_will_do = { always = no }
 }
 
-JAP = {
-	use_culture_states = yes
-	
-	required_num_states = 3
-
-	ai_will_do = { always = no }	
-}
-
-RUS = {
-	use_culture_states = yes
-	
-	required_num_states = 5
-
-	ai_will_do = { always = no }	
-}
 
 CHI = {
 	use_culture_states = yes
@@ -564,13 +549,6 @@ CAT = {
 	ai_will_do = { always = no }
 }
 
-SPA = {
-	use_culture_states = yes
-	
-	required_num_states = 2
-
-	ai_will_do = { always = no }
-}
 
 FRM = {
 	provinces = { x11C0A0 }
@@ -806,11 +784,6 @@ MLT = {
 	ai_will_do = { always = no }
 }
 
-FLA = {
-	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
 
 NNV = {
 	use_culture_states = yes

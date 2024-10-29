@@ -75,6 +75,22 @@
 		}
 		texture = "gfx/unit_illustrations/unused/unit_battalion_line_infantry_asian.dds"
 	}
+	combat_unit_image = {
+		trigger = {
+			AND = {
+				building = {
+					OR = {
+						has_active_production_method = pm_general_training
+						has_active_production_method = pm_advanced_tactics_training
+					}
+				}	
+				culture = {
+					has_culture_graphics = fm_aboriginal_australian
+				}
+			}
+		}
+		texture = "gfx/unit_illustrations/unused/unit_battalion_line_infantry_african.dds"
+	}
 	
 	combat_unit_image = {
 		trigger = {
@@ -162,6 +178,19 @@
 			}
 		}
 		texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_asian.dds"
+	}
+	combat_unit_image = {
+		trigger = {
+			AND = {
+				building = {
+					has_active_production_method = pm_no_organization
+				}
+				culture = {
+					has_culture_graphics = fm_aboriginal_australian
+				}
+			}
+		}
+		texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_african.dds"
 	}
 
 	combat_unit_image = {
@@ -288,6 +317,23 @@ combat_unit_conscript = {
 		}
 		texture = "gfx/unit_illustrations/unused/unit_battalion_line_infantry_asian.dds"
 	}
+	combat_unit_image = {
+		trigger = {
+			AND = {
+				building = {
+					OR = {
+						has_active_production_method = pm_general_training_conscription
+						has_active_production_method = pm_advanced_tactics_training_conscription
+					}
+				}
+				
+				culture = {
+					has_culture_graphics = fm_aboriginal_australian
+				}
+			}
+		}
+		texture = "gfx/unit_illustrations/unused/unit_battalion_line_infantry_african.dds"
+	}
 	
 	combat_unit_image = {
 		trigger = {
@@ -375,6 +421,20 @@ combat_unit_conscript = {
 			}
 		}
 		texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_asian.dds"
+	}
+
+	combat_unit_image = {
+		trigger = {
+			AND = {
+				building = {
+					has_active_production_method = pm_no_organization_conscription
+				}	
+				culture = {
+					has_culture_graphics = fm_aboriginal_australian
+				}
+			}
+		}
+		texture = "gfx/unit_illustrations/unused/unit_battalion_irregular_infantry_african.dds"
 	}
 	
 	

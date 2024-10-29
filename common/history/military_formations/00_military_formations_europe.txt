@@ -54,11 +54,11 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TOLEDO
-				count = 20
+				count = 25
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_TOLEDO
+				state_region = s:STATE_CASTILE
 				count = 20
 			}
 			save_scope_as = dutch_army
@@ -93,24 +93,6 @@
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_STYRIA
 				count = 5
-			}
-		}
-	}
-	c:HAK = {
-		## Hadsid
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_north_africa
-			name = "Hafsid Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CONSTANTINE
-				count = 30
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_ALGIERS
-				count = 30
 			}
 		}
 	}
@@ -436,7 +418,35 @@
 				state_region = s:STATE_TRANSDANUBIA
 				count = 15
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BEKES
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BANAT
+				count = 15
+			}
 			save_scope_as = 1st_hungarian_army
+		}
+	}
+
+	c:MOL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_danubia
+			name = "1st Moldovan Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOLDAVIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_BESSARABIA
+				count = 5
+			}
 		}
 	}
 
@@ -455,11 +465,28 @@
 				state_region = s:STATE_UMBRIA
 				count = 5
 			}
+		}
+	}
+	c:NEA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Armata Reale di Napoli"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CAMPANIA
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_APULIA
+				count = 15
+			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				service_type = conscript
-				state_region = s:STATE_ABRUZZO
-				count = 15
+				state_region = s:STATE_CALABRIA
+				count = 10
 			}
 		}
 	}
@@ -508,11 +535,11 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_occitania
-			name = "Toulouse Army"
+			name = "Toulouse Ducal Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LANGUEDOC
-				count = 5
+				count = 10
 			}
 		}
 		create_military_formation = {
@@ -535,7 +562,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_france
-			name = "Poitiers Army"
+			name = "Poitiers Ducal Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_POITOU
@@ -545,7 +572,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_france
-			name = "Poitiers Navy"
+			name = "Poitiers Ducal Navy"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_POITOU
@@ -593,7 +620,22 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CROATIA
-				count = 20
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SLAVONIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SLOVENIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ISTRIA
+				count = 5
 			}
 			save_scope_as = 1st_croat_army
 		}
@@ -647,7 +689,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_WALLONIA
-				count = 9
+				count = 10
 			}
 		}
 		create_military_formation = {
@@ -818,18 +860,78 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland
-			name = "Polish Calvary"
+			name = "Winged Hussars"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GREATER_POLAND
 				count = 10
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
+				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_GREATER_POLAND
 				count = 10
 			}
 			save_scope_as = poland_army
+		}
+	}
+	c:PLK = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Plockian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MAZOVIA
+				count = 20
+			}
+		}
+	}
+	c:MZV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Mazovian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MAZOVIA
+				count = 20
+			}
+		}
+	}
+	c:LBL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Lublin Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LESSER_POLAND
+				count = 20
+			}
+		}
+	}
+	c:KRK = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Krakowian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WEST_GALICIA
+				count = 20
+			}
+		}
+	}
+	c:GAL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Galician Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EAST_GALICIA
+				count = 20
+			}
 		}
 	}
 	c:BOH = {
@@ -1262,6 +1364,440 @@
 				count = 21
 			}
 			save_scope_as = saratov_army
+		}
+	}
+	c:WLS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "Welsh Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WALES
+				count = 5
+			}
+		}
+	}
+	c:IRE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_sea_coast
+			name = "Irish Royal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LEINSTER
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MUNSTER
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ULSTER
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CONNAUGHT
+				count = 10
+			}
+		}
+	}
+	c:PRI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "Provencal Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_PROVENCE
+				count = 25
+			}
+		}
+	}
+	c:BOU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "Bourbon Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUYENNE
+				count = 10
+			}
+		}
+	}
+	c:DCQ = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "Aquitaine Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AQUITAINE
+				count = 15
+			}
+		}
+	}
+	c:NUR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Normandy Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORMANDY
+				count = 25
+			}
+		}
+	}
+	c:STA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Strasbourg Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ALSACE_LORRAINE
+				count = 10
+			}
+		}
+	}
+	c:ANJ = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Anjou Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MAINE_ANJOU
+				count = 15
+			}
+		}
+	}
+	c:BRI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Brittany Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRITTANY
+				count = 25
+			}
+		}
+	}
+	c:ORL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "Orleans Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ORLEANS
+				count = 15
+			}
+		}
+	}
+	c:SAV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "Savoy Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAVOY
+				count = 15
+			}
+		}
+	}
+	c:MUN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Munster Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTPHALIA
+				count = 10
+			}
+		}
+	}
+	c:SAA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Saarbrücken Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RHINELAND
+				count = 5
+			}
+		}
+	}
+	c:CLN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Cologne Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTH_RHINE
+				count = 10
+			}
+		}
+	}
+	c:WUR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_germany
+			name = "Wurttembergian Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WURTTEMBERG
+				count = 5
+			}
+		}
+	}
+	c:BAD = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_germany
+			name = "Baden Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BADEN
+				count = 5
+			}
+		}
+	}
+	c:COB = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Saxe-Coburg-Gotha Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAXONY
+				count = 2
+			}
+		}
+	}
+	c:MEI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Saxe-Meiningen Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAXONY
+				count = 2
+			}
+		}
+	}
+	c:SCW = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Schwarzburger Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAXONY
+				count = 3
+			}
+		}
+	}
+	c:WEI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Saxe-Weimar Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAXONY
+				count = 4
+			}
+		}
+	}
+	c:OLD = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Oldemburg Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HANNOVER
+				count = 5
+			}
+		}
+	}
+	c:BRE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Bremen Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ELBE
+				count = 3
+			}
+		}
+	}
+	c:HAM = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "Hamburg Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ELBE
+				count = 3
+			}
+		}
+	}
+	c:KAA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Ejército Real"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VALENCIA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ARAGON
+				count = 20
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_iberia
+			name = "Armada Real"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_VALENCIA
+				count = 10
+			}
+		}
+	}
+	c:CAT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Catalan Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CATALONIA
+				count = 15
+			}
+		}
+	}
+	c:NAV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Navarran Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NAVARRA
+				count = 10
+			}
+		}
+	}
+	c:GRA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = "Granada Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ANDALUSIA
+				count = 20
+			}
+		}
+	}
+	c:BUS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "Hercegovina Republican Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BOSNIA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DALMATIA
+				count = 2
+			}
+		}
+	}
+	c:MON = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Montenegrin Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MONTENEGRO
+				count = 10
+			}
+		}
+	}
+	c:SER = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Serbian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTHERN_SERBIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SOUTHERN_SERBIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SKOPIA
+				count = 5
+			}
+		}
+	}
+	c:ALB = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Albanian Ducal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ALBANIA
+				count = 15
+			}
+		}
+	}
+	c:EPY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Army of Epirus"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ATTICA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THESSALIA
+				count = 5
+			}
 		}
 	}
 }

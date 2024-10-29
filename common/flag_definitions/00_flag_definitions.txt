@@ -1621,6 +1621,15 @@ BIZ = { # Byzantium
 	}
 }
 
+YAG = { 
+	flag_definition = {
+		coa = YAG
+		allow_overlord_canton = yes
+		subject_canton = YAG
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+
 CAL = { # California
 	flag_definition = {
 		coa = CAL 
@@ -6539,6 +6548,14 @@ JAE = { # Japan
 			coa_def_fascist_flag_trigger = yes
 		}
 	}	
+}
+
+MKY = { # Makarr-yindi
+	flag_definition = {	
+		coa = MKY
+		subject_canton = MKY
+		priority = 10
+	}
 }
 
 GAR = { # Greater Armenia

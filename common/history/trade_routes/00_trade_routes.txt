@@ -382,6 +382,12 @@
 			target = c:GRA.market
 		}	
 		create_trade_route = {
+			goods = manowars
+			level = 3
+			direction = import
+			target = c:GRA.market
+		}	
+		create_trade_route = {
 			goods = sugar
 			level = 3
 			direction = import

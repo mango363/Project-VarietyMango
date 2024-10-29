@@ -1045,6 +1045,42 @@ language_accepted = {
 			}
 		}
 		AND = {
+			culture = { has_discrimination_trait = yuggera_speaker }
+			owner = {
+				any_primary_culture = { has_discrimination_trait = yuggera_speaker }
+			}
+		}
+		AND = {
+			culture = { has_discrimination_trait = nor_wor }
+			owner = {
+				any_primary_culture = { has_discrimination_trait = nor_wor }
+			}
+		}
+		AND = {
+			culture = { has_discrimination_trait = gija_speaker }
+			owner = {
+				any_primary_culture = { has_discrimination_trait = gija_speaker }
+			}
+		}
+		AND = {
+			culture = { has_discrimination_trait = nyungar_speaker }
+			owner = {
+				any_primary_culture = { has_discrimination_trait = nyungar_speaker }
+			}
+		}
+		AND = {
+			culture = { has_discrimination_trait = thura_speaker }
+			owner = {
+				any_primary_culture = { has_discrimination_trait = thura_speaker }
+			}
+			AND = {
+				culture = { has_discrimination_trait = gaanay_speaker }
+				owner = {
+					any_primary_culture = { has_discrimination_trait = gaanay_speaker }
+				}
+			}
+		}
+		AND = {
 			culture = { has_discrimination_trait = arab_speaking }
 			owner = {
 				any_primary_culture = { has_discrimination_trait = arab_speaking }

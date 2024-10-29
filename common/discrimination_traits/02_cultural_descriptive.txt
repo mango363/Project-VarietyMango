@@ -31,6 +31,24 @@ german_speaking = {
 italophone = {
 }
 
+yuggera_speaker = {
+}
+
+nor_wor = {
+}
+
+gija_speaker = {
+}
+
+nyungar_speaker = {
+}
+
+thura_speaker = {
+}
+
+gaanay_speaker = {
+}
+
 slavic = {
 }
 

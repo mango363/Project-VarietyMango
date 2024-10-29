@@ -1079,6 +1079,16 @@ ZAP = {
 	capital = STATE_ARMENIA
 }
 
+MKY = {
+	color = { 191 87 2}
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { jagera }
+	capital = STATE_QUEENSLAND
+}
+
 GAR = {
 	color = { 189 115 4 }
 
@@ -2840,6 +2850,17 @@ BIZ = {
 	
 	cultures = { greco_roman }	
 	capital = STATE_EASTERN_THRACE
+}
+
+YAG = {
+	color = { 140 65 4 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { jagera }	
+	capital = STATE_QUEENSLAND
 }
 
 ICL = {

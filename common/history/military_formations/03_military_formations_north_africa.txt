@@ -175,4 +175,73 @@
 			}
 		}
 	}
+	c:DFR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_nile_basin
+			name = "Darfur Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_DARFUR
+				count = 10
+			}
+		}
+	}
+	c:BYR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = "Kanem Bornu Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BORNU
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WADDAI
+				count = 15
+			}
+		}
+	}
+	c:MUR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Marinid Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FEZ
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MARRAKECH
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_AL_RIF
+				count = 5
+			}
+		}
+	}
+	c:HAK = {
+		## Hadsid
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Hafsid Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CONSTANTINE
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ALGIERS
+				count = 30
+			}
+		}
+	}
 }

@@ -1,36 +1,27 @@
 ﻿POPS = {
 	s:STATE_NEW_SOUTH_WALES = {
-		region_state:JAP = {
+		region_state:YAG = {
 			create_pop = {
-				culture = aborigine
-				size = 63200
+				culture = gunaikurnai
+				size = 363200
 			}
 			create_pop = {
-				culture = aborigine
-				religion = mahayana
-				size = 1200
-			}
-			create_pop = {
-				culture = japanese
-				size = 12384
+				culture = jagera
+				size = 1400384
 			}
 		}
 	}
 	s:STATE_VICTORIA = {
-		region_state:MRN = {
+		region_state:KNA = {
 			create_pop = {
-				culture = aborigine
-				size = 51118
-			}
-			create_pop = {
-				culture = cu:japanese
-				size = 676
+				culture = gunaikurnai
+				size = 1291118
 			}
 		}
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:WTI = {
+		region_state:TOM = {
 			create_pop = {
 				culture = aborigine
 				size = 22208
@@ -38,96 +29,125 @@
 		}
 	}
 	s:STATE_QUEENSLAND = {
-		region_state:JAP = {
+		region_state:YAG = {
 			create_pop = {
-				culture = aborigine
-				religion = mahayana
-				size = 9200
-			}
-			create_pop = {
-				culture = japanese
-				size = 64000
+				culture = jagera
+				size = 2294000
 			}
 		}
 	}
 	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:JAP = {
+		region_state:YAG = {	
 			create_pop = {
-				culture = japanese
-				size = 10500
-			}		
+				culture = jagera
+				size = 30598
+			}
 			create_pop = {
-				culture = aborigine
-				size = 18000
+				culture = nauo
+				size = 18054
+			}
+			create_pop = {
+				culture = kaurna
+				size = 16054
 			}
 		}
-		region_state:KAU = {
+		region_state:KAU = {		
 			create_pop = {
-				culture = japanese
-				size = 300
-			}		
-			create_pop = {
-				culture = aborigine
-				size = 51000
+				culture = kaurna
+				size = 91000
 			}
 		}
 		region_state:WTI = {
 			create_pop = {
-				culture = aborigine
+				culture = wati
 				size = 4000
+			}
+		}
+		region_state:NAW = {
+			create_pop = {
+				culture = nauo
+				size = 351000
 			}
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:JAP = {
+		region_state:WUN = {
 			create_pop = {
-				culture = aborigine
-				size = 18600 # Pops previously allocated to Noongar: 21100.
+				culture = wunambal
+				size = 210600 
 			}
+		}
+		region_state:WAT = {
 			create_pop = {
-				culture = cu:japanese
-				size = 3004
+				culture = wadjari
+				size = 748600 
 			}
 		}
 		region_state:NNG = {
 			create_pop = {
-				culture = aborigine
-				size = 21100
+				culture = nyungar
+				size = 331100
 			}
 		}
 		region_state:WTI = {
 			create_pop = {
-				culture = aborigine
-				size = 4044
+				culture = wati
+				size = 104044
 			}
 		}
 		region_state:MRN = {
 			create_pop = {
-				culture = aborigine
-				size = 2000
+				culture = ngandatha
+				size = 42000
+			}
+		}
+		region_state:KIJ = {
+			create_pop = {
+				culture = gija
+				size = 153000
 			}
 		}
 	}
 	s:STATE_NORTHERN_TERRITORY = {
-		region_state:JAP = {
+		region_state:YAG = {
 			create_pop = {
-				culture = japanese
-				size = 91804
+				culture = jagera
+				size = 691804
 			}
 			create_pop = {
-				culture = aborigine
-				religion = mahayana
-				size = 1904
+				culture = gija
+				size = 30504
 			}
 			create_pop = {
-				culture = aborigine
-				size = 3504
+				culture = wati
+				size = 1145
 			}
 		}
 		region_state:WTI = {
 			create_pop = {
-				culture = aborigine
-				size = 2804
+				culture = wati
+				size = 12804
+			}
+		}
+		region_state:SAU = {
+			create_pop = {
+				culture = gija
+				religion = mahayana
+				size = 12804
+			}
+			create_pop = {
+				culture = gija
+				size = 268040
+			}
+			create_pop = {
+				culture = japanese
+				size = 64039
+			}
+		}
+		region_state:KIJ = {
+			create_pop = {
+				culture = gija
+				size = 682804
 			}
 		}
 	}
@@ -135,7 +155,7 @@
 		region_state:UNT = {
 			create_pop = {
 				culture = maori
-				religion = protestant
+				religion = mahayana
 				size = 30000
 			}
 			create_pop = {

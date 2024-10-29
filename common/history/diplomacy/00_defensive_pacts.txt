@@ -29,4 +29,20 @@
 			type = defensive_pact
 		}	
 	}
+	c:KNA ?= {
+		create_diplomatic_pact = {
+			country = c:KAU          
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:NAW          
+			type = defensive_pact
+		}	
+	}
+	c:KAU ?= {
+		create_diplomatic_pact = {
+			country = c:NAW          
+			type = defensive_pact
+		}	
+	}
 }

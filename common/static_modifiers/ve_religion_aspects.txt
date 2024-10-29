@@ -696,8 +696,9 @@ sikh_aspect_8_mdf = {
 
 animist_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/animist.dds
-	state_loyalists_from_sol_change_accepted_religion_mult = 0.05
-	building_training_rate_mult = 0.075
+	country_infamy_generation_mult = -0.1
+	state_pop_qualifications_mult = 0.1
+	building_training_rate_mult = 0.1
 }
 
 animist_aspect_1_mdf = {

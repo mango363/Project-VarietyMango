@@ -48,6 +48,16 @@
 			}
 		}
 		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Yoshihiro Port Garrison"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTHERN_TERRITORY
+				count = 5
+			}
+		}
+		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_japan
 			name = "Shimazu Clan Navy"
@@ -65,7 +75,7 @@
 	}
 	c:SAG = {
 		create_military_formation = {
-			type = fleet
+			type = army
 			hq_region = sr:region_japan
 			name = "Naomasa Clan Army"
 			combat_unit = {
@@ -1262,6 +1272,208 @@
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_CHUGOKU
 				count = 3
+			}
+		}
+	}
+	c:YAG = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "1st Legion"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NEW_SOUTH_WALES
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_NORTHERN_TERRITORY
+				count = 5
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "2nd Legion"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_QUEENSLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:KIJ = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Kija Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_NORTHERN_TERRITORY
+				count = 5
+			}
+		}
+	}
+	c:WUN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Wunanbul Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:WTI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Wati Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NORTHERN_TERRITORY
+				count = 10
+			}
+		}
+	}
+	c:KNA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Kurnai Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VICTORIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_VICTORIA
+				count = 5
+			}
+		}
+	}
+	c:KAU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Kaurna Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 3
+			}
+		}
+	}
+	c:NAW = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Nawu Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SOUTH_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:MRN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Mirning Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:NNG = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Noongar Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:WAT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Watjarri Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_WESTERN_AUSTRALIA
+				count = 5
+			}
+		}
+	}
+	c:DAI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "Dai Nam Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TONKIN
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ANNAM
+				count = 15
 			}
 		}
 	}
