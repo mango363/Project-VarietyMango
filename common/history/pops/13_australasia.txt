@@ -54,7 +54,7 @@
 		region_state:KAU = {		
 			create_pop = {
 				culture = kaurna
-				size = 91000
+				size = 591000
 			}
 		}
 		region_state:WTI = {
@@ -66,7 +66,7 @@
 		region_state:NAW = {
 			create_pop = {
 				culture = nauo
-				size = 351000
+				size = 751000
 			}
 		}
 	}
@@ -86,25 +86,25 @@
 		region_state:NNG = {
 			create_pop = {
 				culture = nyungar
-				size = 331100
+				size = 431100
 			}
 		}
 		region_state:WTI = {
 			create_pop = {
 				culture = wati
-				size = 104044
+				size = 304044
 			}
 		}
 		region_state:MRN = {
 			create_pop = {
 				culture = ngandatha
-				size = 42000
+				size = 152000
 			}
 		}
 		region_state:KIJ = {
 			create_pop = {
 				culture = gija
-				size = 153000
+				size = 243000
 			}
 		}
 	}

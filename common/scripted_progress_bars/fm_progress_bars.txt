@@ -10,3 +10,42 @@ sassanid_civ_war_progress_bar = {
 	max_value = 8
 
  }
+yag_progress_bar = {
+	name = "yag_progress_bar"
+	desc = "yag_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_technology_researched = standing_army 
+			}
+			add = {
+				value = -5
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					is_enacting_law = law_type:law_autocracy
+					is_enacting_law = law_type:law_single_party_state
+					is_enacting_law = law_type:law_landed_voting
+					is_enacting_law = law_type:law_wealth_voting
+					is_enacting_law = law_type:law_anarchy
+					is_enacting_law = law_type:law_census_voting
+					is_enacting_law = law_type:law_universal_suffrage
+					is_enacting_law = law_type:law_technocracy
+				}
+			}
+			add = {
+				value = -45
+			}
+		}
+	}
+
+	start_value = 210
+	min_value = 0
+	max_value = 500
+
+ }

@@ -1,0 +1,124 @@
+je_yag_main = {
+	icon = "gfx/interface/icons/yagsenate.dds"
+	group = je_group_internal_affairs
+	scripted_progress_bar = yag_progress_bar
+	scripted_button = je_yag_1
+	scripted_button = je_yag_2
+	scripted_button = je_yag_3
+	scripted_button = je_yag_4
+	complete = {
+		NOT = {
+			has_law = law_type:law_oligarchy
+		}
+	}
+	on_complete = {
+		if = {
+			limit = { 
+				has_modifier = diplomatic_plays_blocked
+			}
+		}
+		remove_modifier = diplomatic_plays_blocked
+	}
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = yag_pr_7
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 350
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_6
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 300
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_5
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 250
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_4
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 200
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_3
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 150
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_2
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 100
+					}
+				}
+			}
+			triggered_desc = {
+				desc = yag_pr_1
+				trigger = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" <= 100
+					}
+				}
+			}
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		random_events = {
+			50 = 0
+			10 = fm_yag.5
+			10 = fm_yag.6
+			10 = fm_yag.7
+			10 = fm_yag.8
+			10 = fm_yag.9
+			10 = fm_yag.10
+			10 = fm_yag.11
+		}
+		effect = {
+			if = {
+				limit = { 
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" <= 100
+					}
+					NOT = {
+						has_modifier = diplomatic_plays_blocked
+					}
+				}
+				add_modifier = {
+					name = diplomatic_plays_blocked
+				}
+			}
+			if = {
+				limit = { 
+					has_modifier = diplomatic_plays_blocked
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" > 100
+					}
+				}
+				remove_modifier = {
+					name = diplomatic_plays_blocked
+				}
+			}
+		}
+	}
+	
+}

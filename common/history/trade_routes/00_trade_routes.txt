@@ -35,6 +35,100 @@
 			target = c:DKE.market
 		}	
 	}
+	c:KNA ?= {
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:KAU.market
+		}		
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:YAG.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = export
+			target = c:KAU.market
+		}
+	}
+	c:KAU ?= {
+		create_trade_route = {
+			goods = wood
+			level = 2
+			direction = export
+			target = c:NAW.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 2
+			direction = import
+			target = c:KNA.market
+		}	
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			target = c:NAW.market
+		}	
+		create_trade_route = {
+			goods = wood
+			level = 2
+			direction = import
+			target = c:KNA.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 6
+			direction = import
+			target = c:NAW.market
+		}	
+	}
+	c:NAW ?= {
+		create_trade_route = {
+			goods = wood
+			level = 2
+			direction = import
+			target = c:MRN.market
+		}	
+		create_trade_route = {
+			goods = hardwood
+			level = 2
+			direction = import
+			target = c:YAG.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:YAG.market
+		}
+	}
+	c:MRN ?= {
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:NNG.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:NNG.market
+		}	
+	}
+	c:WAT ?= {
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:NNG.market
+		}
+	}
 	c:ZUR ?= {
 		create_trade_route = {
 			goods = coal

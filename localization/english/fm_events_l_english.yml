@@ -980,7 +980,7 @@
   fm_sae.10.t:0 "A New Religious Tax"
   fm_sae.10.d:0 "The more conservative members of the parliament have been trying to push an unfair religious tax against the muslim minority in the empire, and due to the recent conversion of the emperor and the rise of resentment against islam, they have managed to gather\nenough support to pass the bill"
   fm_sae.10.f:0 "The Emperor stands at a pivotal crossroads, confronted with the weighty implications of sanctioning the proposed religious tax against the Muslim minority.\nEndorsing the tax would likely exacerbate religious tensions and deepen divisions within the Empire, undermining the principles of unity and tolerance that he seeks to uphold, especially following his recent conversion to [GetReligion('sunni').GetName] Islam.\nConversely, rejecting the proposal could alienate conservative factions in Parliament, threatening his political alliances and stability."
-  fm_sae.10.a:0 "Veto the bill"
+  fm_sae.10.a:0 "[concept_veto] the bill"
   fm_sae.10.b:0 "Sign the bill"
   fm_sae.11.t:0 "The Road to Acceptance"
   fm_sae.11.d:0 "The murshid of Ctesifonte's proposal to adopt a more relaxed religious law aims to promote harmony between [GetReligion('sunni').GetName] Muslims and Zoroastrians, acknowledging the need for coexistence in an increasingly diverse empire"
@@ -1261,3 +1261,6 @@
  suspected_insurrectionist:0 "Suspected Insurrectionist"
  sakoku_violated:0 "Sakoku Violated"
  diplomatic_flexibility:0 "Diplomatic Flexibility"
+
+ concept_veto:0 "Veto"
+ concept_veto_desc:0 "An official power or right to reject a decision or proposal made by a lawmaking body."

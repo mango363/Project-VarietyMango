@@ -2240,6 +2240,14 @@ on_capitulation = {
 			days = 1825
 			value = yes
 		}
+		if = {
+			limit = {
+				has_journal_entry = je_yag_main
+			}
+			je:je_yag_main = {
+				add_progress = { value = -50 name = yag_progress_bar }
+			}
+		}
 	}
 }
 
@@ -3576,6 +3584,14 @@ on_wargoal_enforced = {
 			set_variable = {
 				name = enforced_wargoal_on_enemy
 				days = 90
+			}
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_yag_main
+			}
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
 			}
 		}
 		set_variable = {

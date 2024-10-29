@@ -4133,3 +4133,106 @@ je_jae_button = {
 		}
 	}
 }
+
+je_yag_1 = {
+	name = "je_yag_1"
+	desc = "je_yag_1_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		NOT = {
+			has_modifier = yagmod1
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = yagmod1
+			months = 25
+		}
+		je:je_yag_main = {
+			add_progress = { value = 50 name = yag_progress_bar }
+		}
+	}
+}
+je_yag_2 = {
+	name = "je_yag_2"
+	desc = "je_yag_2_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = var_samuyes
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = je_var_samuyes_desc
+			set_variable = {
+				name = var_samuyes
+			}
+		}
+	}
+}
+je_yag_3 = {
+	name = "je_yag_3"
+	desc = "je_yag_3_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = var_samuyes
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = je_var_samuyes_desc
+			set_variable = {
+				name = var_samuyes
+			}
+		}
+	}
+}
+je_yag_4 = {
+	name = "je_yag_4"
+	desc = "je_yag_4_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = var_samuyes
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = je_var_samuyes_desc
+			set_variable = {
+				name = var_samuyes
+			}
+		}
+	}
+}
