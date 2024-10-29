@@ -9,116 +9,6 @@ DKT = {
 	capital = STATE_MINNESOTA
 }
 
-COM = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_comanche na_chickasaw_choctaw }
-	capital = STATE_TEXAS
-}
-
-UTE = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_paiute }
-	capital = STATE_UTAH
-}
-
-NVJ = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_colorado_numic na_paiute }
-	capital = STATE_ARIZONA
-}
-
-HOK = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_yuman }
-	capital = STATE_CALIFORNIA
-}
-
-BNN = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_paiute na_shapwailutan na_lakota }
-	capital = STATE_IDAHO
-}
-
-NZP = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_paiute na_shapwailutan na_lakota }
-	capital = STATE_IDAHO
-}
-
-CRU = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_ONTARIO
-}
-
-SIO = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_SASKATCHEWAN
-}
-
-SAO = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_BRITISH_COLUMBIA
-}
-
-ATB = {
-	color = { 13 102 75 }
-
-	country_type = decentralized
-
-	tier = kingdom
-
-	cultures = { na_cree_montagnais }
-	capital = STATE_NORTHWEST_TERRITORIES
-}
-
 CAD = {
 	color = { 54 102 75 }
 
@@ -185,3 +75,92 @@ IQS = {
 	capital = STATE_NEW_YORK
 }
 
+AT1 = {
+	color = { 230 70 70 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_NEW_MEXICO
+}
+
+SSH = {
+	color = { 113 45 151 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_NEVADA
+}
+
+BFT = {
+	color = { 50 40 30 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_NEVADA
+}
+
+YMN = {
+	color = { 130 140 90 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_NEVADA
+}
+
+SIS = {
+	color = { 136 60 45 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_WASHINGTON
+}
+
+# Decentralized
+
+CRU = {
+	color = { 13 102 75 }
+
+	country_type = decentralized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_ONTARIO
+}
+
+IUT = {
+	color = { 13 102 75 }
+
+	country_type = decentralized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+ATB = {
+	color = { 13 102 75 }
+
+	country_type = decentralized
+
+	tier = kingdom
+
+	cultures = { na_cree_montagnais }
+	capital = STATE_BRITISH_COLUMBIA
+}
