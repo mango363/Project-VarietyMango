@@ -1,34 +1,75 @@
 ﻿l_english:
  CAD: "Caddo"
  CAD_ADJ: "Caddoan"
+
  CAH: "Great Cahokia"
  CAH_ADJ: "Cahokian"
+
  DKT: "Dakota Nation"
  DKT_ADJ: "Dakotan"
+ LOB: "Libertalia"
+ LOB_ADJ: "Libertalian"
+
  ONE: "Oneota"
  ONE_ADJ: "Oneotan"
+
  SWN: "Shawnee"
  SWN_ADJ: "Shawnee"
+
  MCG: "Muscogee Confederation"
  MCG_ADJ: "Muscogeen"
+
  HRN: "Huron"
  HRN_ADJ: "Huron"
+
  SNC: "Seneca"
  SNC_ADJ: "Senecan"
+
  IQS: "Iroquois Confederacy"
  IQS_ADJ: "Iroquois"
+
  SSH: "Numic League"
  SSH_ADJ: "Numic"
- AT1: "Great Athabaskan Plains"
+
+ AT1: "Athabaskan Plains"
  AT1_ADJ: "Athabaskan"
+
  BFT: "Blackfoot"
  BFT_ADJ: "Blackfoot"
+
  YMN: "Yuman"
  YMN_ADJ: "Yuman"
+
  SIS: "Salishan Union"
  SIS_ADJ: "Salish"
+
+ # Decentralized
  IUT: "Inuit"
  IUT_ADJ: "Inuit"
 
+ CRU: "Cree"
+ CRU_ADJ: "Cree"
+
+ ATB: "Athabaskan"
+ ATB_ADJ: "Athabaskan"
+
+
+ # Colonies
+ FOU: "Four Colonies"
+ FOU_ADJ: "Four Colonies"
  FOU_NEW_SYDDANMARK: "New Syddanmark"
  FOU_NEW_SYDDANMARK_ADJ: "New Syddanmark"
+
+ AMC: "American Federation"
+ AMC_ADJ: "American"
+ dyn_AMC: "New Holland"
+ dyn_AMC_mon: "Amerikanska Kungariket"
+
+ FLU: "Florida"
+ FLU_ADJ: "Floridian"
+
+ LOI: "Louisiana"
+ LOI_ADJ: "French"
+
+# GRV: "Gran Venezia"
+# GRV_ADJ: "Venezian"

@@ -18,7 +18,6 @@
  HAK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Al-Andalus\n ·Maghreb\n ·Pan-Islamic Empire#!"
  VEN_FLAVOR_TEXT:0 "The decline of Venice has started centuries ago, and ever since she reached her peak in the middle ages, the former queen of the mediterranean has only known defeat in war.\nAfter losing the independence wars against her colonies in the new world, the vast possessions of Venice have been reduced to a few ports and colonies scattered around the world.\nWith the rapid spread of industrialization, a second chance was given to Venice, but the road to glory is paved with difficulties."
  MAX_FLAVOR_TEXT:0 "Mexico has recently gained its independence from Castile after a long war against it.\nThe nation is still recovering from the war, but at least it is now independent.\nWhat does the future hold for the people of Mexico?"
- FLU_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Gran Venezia#!"
  AGA_FLAVOR_TEXT:0 "Argentea was the last country in the New World to gain independence from Venice, but that does not mean they had it easy.\nMore than fifty thousands people died for their freedom, but at last Argentea was freed.\nThe people of this country are now able to build their future with their own hands."
  VNA_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Gran Venezia#!"
  YUE_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Wu\n ·China#!"
@@ -35,7 +34,6 @@
  ZHI_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Wei\n ·Han\n ·Wu\n ·China#!"
  SHA_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Wei\n ·Han\n ·Wu\n ·China#!"
  NCL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Wei\n ·Han\n ·Wu\n ·China#!"
- AMC_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·American Federation#!"
  TOR_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Empire of Rûm\n ·Karāmāni Empire\n ·Pan-Islamic Empire#!"
  CTH_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Phoenicia#!"
  KAA_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Spain\n ·Al-Andalus\n ·Iberia\n ·Aragon-Occitania\n ·Frankia#!"
@@ -260,14 +258,8 @@
  
  # Poland
  KRA_FLAVOR_TEXT:1 "The legacy of the Polish people rests heavily on the shoulders of the Free State of Krakow, distrusted by its constituting powers and occupied by Austria. Can a new Polish state rise from the ashes once again?"
-  
-  # North America
- QUE_FLAVOR_TEXT:0 "Once the colony of New France, Lower Canada has fallen under British rule. Tensions between the predominantly French population and the colonial government threaten to escalate in the near future, with little chance of peaceful resolution. Will Quebec win its freedom?"
- ONT_FLAVOR_TEXT:0 "Emboldened by rising tensions in Lower Canada, the people of Upper Canada prepare to resist the colonial government. Will Ontario win its freedom?"
- HBC_FLAVOR_TEXT:0 "The Hudson Bay Company is prepared to protect its monopoly on the fur trade by any means necessary. Agreements are made and broken with the First Nations as the Company sees fit, with little regard to any motive but profit. Will ruthlessness be enough to safeguard the Company?"
- NBS_FLAVOR_TEXT:0 "The colony of New Brunswick is establishing a thriving shipbuilding industry, with colonists arriving from Scotland and Ireland to work with timber. Will New Brunswick lead a united Canada?"
- ORG_FLAVOR_TEXT:0 "Currently under relatively autonomous administration, both the Hudson Bay Company and the US government have set their eyes on the disputed Columbia district. Will either power succeed, or will an independent Oregon emerge?"
- TEX_FLAVOR_TEXT:0 "The newly declared Republic of Texas fights a seemingly impossible war against its Mexican overlords. Will a miracle save the Lone Star State?"
+
+ # Caribbean
  HAI_FLAVOR_TEXT:0 "Under Jean-Pierre Boyer, Haiti has come to rule over all of Hispaniola. Can this nation of former slaves achieve liberty, or is Haiti doomed to despotism?"
  CUB_FLAVOR_TEXT:0 "Cuban relations with their Spanish overlords have become strained. Calls for representation in the Spanish parliament and resistance to the abolition of slavery have met with hostility from Madrid. Is a Cuban revolution inevitable?"
   
@@ -358,7 +350,7 @@
  KOR_FLAVOR_TEXT:0 "Korea under the Joseon dynasty looks inward, consumed by its factional politics. Will changing times force Korea to consider the outside world?"
  NOR_FLAVOR_TEXT:0 "Norway has spent centuries under Danish and Swedish rule, but now dreams of sovereignty. What will it take for Norway to win its independence?"
  FIN_FLAVOR_TEXT:0 "Finland has thus far enjoyed relative autonomy under the Russian Empire. But the whims of the Tsars are fickle; how will Russian rule shape Finland?"
-  
+
   #South and Central America
  UCA_FLAVOR_TEXT:0 "The Federal Republic consists of provinces which would largely prefer to be independent. Can Central America hold together?"
  CLM_FLAVOR_TEXT:0 "With the dissolution of Gran Colombia in 1830, New Granada stands alone and divided between its liberal and conservative factions. Will Colombia achieve greatness once more?"
@@ -469,10 +461,6 @@
  IRC_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  NZP_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  ABS_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- DKT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- LKT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- NVJ_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- COM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  PAT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  BNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  BST_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
