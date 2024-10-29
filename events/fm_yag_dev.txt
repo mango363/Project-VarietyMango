@@ -1,0 +1,37 @@
+namespace = fm_yag_dev
+
+fm_yag_dev.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_yag_dev.1.t
+	desc = fm_yag_dev.1.d
+	flavor = fm_yag_dev.1.f
+	duration = 1
+	hidden = yes
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	option = {
+		name = fm_yag_dev.1.a
+	}
+
+	immediate = {
+		if = {
+			limit = { 
+				scope:journal_entry = { 
+					"scripted_bar_progress(yag_progress_bar)" <= 100
+				}
+				NOT = {
+					has_modifier = diplomatic_plays_blocked
+				}
+			}
+			add_modifier = {
+				name = diplomatic_plays_blocked
+			}
+		}
+	}
+
+}

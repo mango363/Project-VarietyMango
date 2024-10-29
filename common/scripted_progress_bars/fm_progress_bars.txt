@@ -39,7 +39,7 @@ yag_progress_bar = {
 				}
 			}
 			add = {
-				value = -45
+				value = -40
 			}
 		}
 	}
@@ -47,5 +47,161 @@ yag_progress_bar = {
 	start_value = 210
 	min_value = 0
 	max_value = 500
+
+ }
+
+ yag_kau_progress_bar = {
+	name = "yag_kau_progress_bar"
+	desc = "yag_kau_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 35
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_thura_progress_bar = {
+	name = "yag_thura_progress_bar"
+	desc = "yag_thura_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 15
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_nuy_progress_bar = {
+	name = "yag_nuy_progress_bar"
+	desc = "yag_nuy_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 5
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_nor_progress_bar = {
+	name = "yag_nor_progress_bar"
+	desc = "yag_nor_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 25
+	min_value = 0
+	max_value = 200
 
  }

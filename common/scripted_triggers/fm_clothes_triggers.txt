@@ -1,15 +1,15 @@
 ﻿british_empire_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		exists = c:BIM
+		exists = c:EAF
 		exists = home_country
 		home_country = {
 			OR = {
 				AND = {
-					c:BIM = this
+					c:EAF = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:BIM
+				is_subject_of = c:EAF
 			}
 		}
 	}
@@ -18,14 +18,14 @@
 british_empire_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:BIM
+		exists = c:EAF
 		home_country = {
 			OR = {
 				AND = {
-					c:BIM = this
+					c:EAF = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:BIM
+				is_subject_of = c:EAF
 			}
 		}
 	}
@@ -34,14 +34,14 @@ british_empire_clothes_pop_trigger = {
 british_empire_clothes_p_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:BIM
+		exists = c:EAF
 		home_country = {
 			OR = {
 				AND = {
-					c:BIM = this
+					c:EAF = this
 					is_subject = yes					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:BIM
+				is_subject_of = c:EAF
 			}
 		}
 	}
@@ -50,15 +50,15 @@ british_empire_clothes_p_trigger = {
 french_empire_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		exists = c:FIM
+		exists = c:FRE
 		exists = home_country
 		home_country = {
 			OR = {
 				AND = {
-					c:FIM = this
+					c:FRE = this
 					is_subject = no					# preventing uniform conflicts if FRA becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:FIM
+				is_subject_of = c:FRE
 			}
 		}
 	}
@@ -67,14 +67,14 @@ french_empire_clothes_trigger = {
 french_empire_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:FIM
+		exists = c:FRE
 		home_country = {
 			OR = {
 				AND = {
-					c:FIM = this
+					c:FRE = this
 					is_subject = no					# preventing uniform conflicts if FRA becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:FIM
+				is_subject_of = c:FRE
 			}
 		}
 	}
@@ -261,8 +261,8 @@ chinese_imperial_clothes_trigger = {
 				has_discrimination_trait = han_chinese
 			}
 			AND = {
-				exists = c:CHI
-				home_country = c:CHI
+				exists = c:CHU
+				home_country = c:CHU
 			}
 		}
 	}
@@ -600,11 +600,23 @@ siamese_clothes_trigger = {
 american_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		exists = home_country
-		home_country = {
-			exists = c:AMC
-			c:AMC = this
-			is_subject = no
+		OR = {
+			AND = {
+				exists = home_country
+				home_country = {
+				exists = c:AMC
+				c:AMC = this
+				is_subject = no
+				}
+			}
+			AND = {
+				exists = home_country
+				home_country = {
+				exists = c:FOU
+				c:FOU = this
+				is_subject = no
+				}
+			}
 		}
 	}
 }
@@ -612,10 +624,21 @@ american_clothes_trigger = {
 american_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		home_country = {
-			exists = c:AMC
-			c:AMC = this
-			is_subject = no
+		OR = {
+			AND = {
+				home_country = {
+					exists = c:FOU
+					c:FOU = this
+					is_subject = no
+				}
+			}
+			AND = {
+				home_country = {
+					exists = c:AMC
+					c:AMC = this
+					is_subject = no
+				}
+			}
 		}
 	}
 }

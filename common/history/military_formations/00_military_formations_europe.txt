@@ -743,7 +743,7 @@
 	c:LLO = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_italy
+			hq_region = sr:region_south_germany
 			name = "Prima Divisione Lombarda"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -759,7 +759,7 @@
 		}
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_italy
+			hq_region = sr:region_south_germany
 			name = "Marina Lombarda"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1077,7 +1077,7 @@
 		## Venetia
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_italy
+			hq_region = sr:region_south_germany
 			name = "Esercito della Serenissima"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1088,7 +1088,7 @@
 		}
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_italy
+			hq_region = sr:region_south_germany
 			name = "Marina della Serenissima"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1504,7 +1504,7 @@
 	c:SAV = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_occitania
+			hq_region = sr:region_south_germany
 			name = "Savoy Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry

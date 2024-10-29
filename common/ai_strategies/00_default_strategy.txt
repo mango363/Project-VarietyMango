@@ -184,8 +184,8 @@ ai_strategy_default = {
 		if = { #Taiping should never surrender against China.
 			limit = {
 				c:TPG ?= THIS
-				exists = c:CHI
-				is_diplomatic_play_enemy_of = c:CHI
+				exists = c:CHU
+				is_diplomatic_play_enemy_of = c:CHU
 			}
 			add = 1000
 		}

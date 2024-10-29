@@ -319,16 +319,6 @@ dev.2 = {
 				value = 0.5
 			}
 		}
-		c:TUR = {
-			trigger_event = {
-				id = dev.7
-			}
-		}
-		c:EGY = {
-			trigger_event = {
-				id = dev.7
-			}
-		}
 	}
 }
 

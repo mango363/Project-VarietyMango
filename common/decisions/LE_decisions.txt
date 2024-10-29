@@ -15,14 +15,14 @@
 		owns_entire_state_region = STATE_LOWER_EGYPT
 		owns_entire_state_region = STATE_MATRUH
 		any_scope_state = {
-			count >= 13
+			count >= 14
 			AND = {
 				region = sr:region_balkans
 				owner = ROOT
 			}
 		}
 		any_scope_state = {
-			count >= 7
+			count >= 6
 			AND = {
 				region = sr:region_anatolia
 				owner = ROOT
@@ -95,7 +95,7 @@ revive_the_carolingian_empire = {
 			}
 		}
 		any_scope_state = {
-			count >= 9
+			count >= 14
 			AND = {
 				region = sr:region_south_germany
 				owner = ROOT
@@ -116,14 +116,14 @@ revive_the_carolingian_empire = {
 			}
 		}
 		any_scope_state = {
-			count >= 9
+			count >= 4
 			AND = {
 				region = sr:region_italy
 				owner = ROOT
 			}
 		}
 		any_scope_state = {
-			count >= 6
+			count >= 5
 			AND = {
 				region = sr:region_occitania
 				owner = ROOT
@@ -466,3 +466,4 @@ dec_stateof = {
 		base = 0
 	}
 }
+

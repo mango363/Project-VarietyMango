@@ -112,11 +112,11 @@
 		region_state:YAG = {
 			create_pop = {
 				culture = jagera
-				size = 691804
+				size = 591804
 			}
 			create_pop = {
 				culture = gija
-				size = 30504
+				size = 130504
 			}
 			create_pop = {
 				culture = wati

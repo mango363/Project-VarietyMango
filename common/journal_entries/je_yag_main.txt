@@ -12,12 +12,39 @@ je_yag_main = {
 		}
 	}
 	on_complete = {
+		trigger_event = {
+			id = fm_yag.2
+		}
 		if = {
 			limit = { 
 				has_modifier = diplomatic_plays_blocked
 			}
+			remove_modifier = diplomatic_plays_blocked
 		}
-		remove_modifier = diplomatic_plays_blocked
+		if = {
+			limit = { 
+				has_modifier = mod_yag_1
+			}
+			remove_modifier = mod_yag_1
+		}
+		if = {
+			limit = { 
+				has_modifier = mod_yag_2
+			}
+			remove_modifier = mod_yag_2
+		}
+		if = {
+			limit = { 
+				has_modifier = mod_yag_3
+			}
+			remove_modifier = mod_yag_3
+		}
+		if = {
+			limit = { 
+				has_modifier = mod_yag_4
+			}
+			remove_modifier = mod_yag_4
+		}
 	}
 	status_desc = {
 		first_valid = {
@@ -85,39 +112,19 @@ je_yag_main = {
 	on_monthly_pulse = {
 		random_events = {
 			50 = 0
-			10 = fm_yag.5
-			10 = fm_yag.6
 			10 = fm_yag.7
 			10 = fm_yag.8
 			10 = fm_yag.9
 			10 = fm_yag.10
 			10 = fm_yag.11
-		}
-		effect = {
-			if = {
-				limit = { 
-					scope:journal_entry = { 
-						"scripted_bar_progress(yag_progress_bar)" <= 100
-					}
-					NOT = {
-						has_modifier = diplomatic_plays_blocked
-					}
-				}
-				add_modifier = {
-					name = diplomatic_plays_blocked
-				}
-			}
-			if = {
-				limit = { 
-					has_modifier = diplomatic_plays_blocked
-					scope:journal_entry = { 
-						"scripted_bar_progress(yag_progress_bar)" > 100
-					}
-				}
-				remove_modifier = {
-					name = diplomatic_plays_blocked
-				}
-			}
+			10 = fm_yag.12
+			10 = fm_yag.13
+		}		
+	}
+	on_weekly_pulse = {
+		events = {
+			fm_yag_dev.1
+			yag_dev.2
 		}
 	}
 	

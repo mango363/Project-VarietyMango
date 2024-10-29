@@ -207,7 +207,7 @@ je_restore_the_ce = {
 			}
 		}
 		any_scope_state = {
-			count >= 9
+			count >= 14
 			AND = {
 				region = sr:region_south_germany
 				owner = ROOT
@@ -228,14 +228,14 @@ je_restore_the_ce = {
 			}
 		}
 		any_scope_state = {
-			count >= 9
+			count >= 5
 			AND = {
 				region = sr:region_italy
 				owner = ROOT
 			}
 		}
 		any_scope_state = {
-			count >= 6
+			count >= 5
 			AND = {
 				region = sr:region_occitania
 				owner = ROOT
