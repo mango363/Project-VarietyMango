@@ -8688,7 +8688,7 @@ berber={ # Amazigh
 		Zohra
 	}
 	male_noble_first_names= {
-		Abū 
+		Abu
 	}	
 	noble_last_names = {
 		el_Krim
