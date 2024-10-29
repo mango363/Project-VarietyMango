@@ -32,7 +32,7 @@ fm_france.1 = {
 					has_variable = variable_louisiana
 				}
 			}
-			c:MCG = {
+			c:CAD = {
 				trigger_event = fm_na_cad.1
 			}
 		}
@@ -43,7 +43,7 @@ fm_france.1 = {
 					has_variable = variable_louisiana
 				}
 			}
-			c:MCG = {
+			c:AT1 = {
 				trigger_event = fm_na_at1.1
 			}
 		}
@@ -75,13 +75,13 @@ fm_france.1 = {
 		}
 		else_if = {
 			limit = {
-				exists = c:COM
-				c:COM = {
+				exists = c:AT1
+				c:AT1 = {
 					has_variable = variable_louisiana
 				}
 			}
-			c:COM = {
-				trigger_event = fm_na_com.2
+			c:AT1 = {
+				trigger_event = fm_na_at1.2
 			}
 		}
 
