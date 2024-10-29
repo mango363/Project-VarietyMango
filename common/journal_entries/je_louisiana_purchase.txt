@@ -6,7 +6,7 @@ je_buy_louisiana = {
 		OR = {
 			c:MCG ?= THIS
 			c:CAD ?= THIS
-			c:COM ?= THIS
+			c:AT1 ?= THIS
 		}
 	}
 	scripted_button = je_buy_louisiana_button

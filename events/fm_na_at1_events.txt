@@ -1,5 +1,5 @@
-namespace = fm_na_com
-fm_na_com.1 = {
+namespace = fm_na_at1
+fm_na_at1.1 = {
 	type = country_event
 	placement = ROOT
 	title = fm_dakota.2.t
@@ -46,7 +46,7 @@ fm_na_com.1 = {
 	}
 }
 
-fm_na_com.2 = {
+fm_na_at1.2 = {
 	type = country_event
 	placement = ROOT
 	title = fm_dakota.3.t

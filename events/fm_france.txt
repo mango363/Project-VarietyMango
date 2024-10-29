@@ -38,13 +38,13 @@ fm_france.1 = {
 		}
 		else_if = {
 			limit = {
-				exists = c:COM
-				c:COM = {
+				exists = c:AT1
+				c:AT1 = {
 					has_variable = variable_louisiana
 				}
 			}
 			c:MCG = {
-				trigger_event = fm_na_com.1
+				trigger_event = fm_na_at1.1
 			}
 		}
 	}
