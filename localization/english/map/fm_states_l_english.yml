@@ -35,8 +35,6 @@
  STATE_SANTIAGO:0 "San Giacomo"
  STATE_LOS_RIOS:0 "Gran Delta"
  STATE_PUERTO_RICO:0 "Porto Ricco"
- STATE_MONTANA:0 "North Lakota"
- STATE_WYOMING:0 "South Lakota"
  STATE_CALIFORNIA:0 "Lands of the East"
  STATE_WASHINGTON:0 "Nimíipuu"
  STATE_OREGON:0 "West Pannakwati"

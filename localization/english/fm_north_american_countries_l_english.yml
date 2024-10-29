@@ -25,8 +25,8 @@
  SNC: "Seneca"
  SNC_ADJ: "Senecan"
 
- IQS: "Iroquois Confederacy"
- IQS_ADJ: "Iroquois"
+ IQS: "Haudenosaunee"
+ IQS_ADJ: "Haudenosaunee"
 
  SSH: "Numic League"
  SSH_ADJ: "Numic"
@@ -50,8 +50,8 @@
  CRU: "Cree"
  CRU_ADJ: "Cree"
 
- ATB: "Athabaskan"
- ATB_ADJ: "Athabaskan"
+ AT2: "Athabaskan"
+ AT2_ADJ: "Athabaskan"
 
 
  # Colonies

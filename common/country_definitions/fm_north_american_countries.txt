@@ -5,7 +5,11 @@ DKT = {
 
 	tier = kingdom
 
-	cultures = { na_santee_dakota na_yankton_yanktonai_dakota na_lakota }
+	cultures = {
+		na_santee_dakota
+		na_yankton_yanktonai_dakota
+		na_lakota
+	}
 	capital = STATE_MINNESOTA
 }
 
@@ -16,7 +20,7 @@ CAD = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = { na_caddoan }
 	capital = STATE_ARKANSAS
 }
 
@@ -27,7 +31,10 @@ CAH = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = {
+		na_caddoan
+		na_kansa_osage
+	}
 	capital = STATE_MISSOURI
 }
 
@@ -38,7 +45,11 @@ MCG = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = {
+		na_chickasaw_choctaw
+		na_muscogee
+		na_apalachee
+	}
 	capital = STATE_GEORGIA
 }
 
@@ -49,7 +60,7 @@ SWN = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = { na_eastern_algonquian }
 	capital = STATE_KENTUCKY
 }
 
@@ -60,7 +71,10 @@ ONE = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = {
+		na_miami_illinois
+		na_chiwere_winnebago
+	}
 	capital = STATE_ILLINOIS
 }
 
@@ -71,7 +85,11 @@ IQS = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = {
+		na_cherokee
+		na_tuscarora_nottoway
+		na_haudenosaunee
+	}
 	capital = STATE_NEW_YORK
 }
 
@@ -82,7 +100,10 @@ AT1 = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = {
+		na_pacific_athabaskan
+		navajo
+	}
 	capital = STATE_NEW_MEXICO
 }
 
@@ -93,8 +114,12 @@ SSH = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
-	capital = STATE_NEVADA
+	cultures = {
+		na_shoshone
+		na_paiute
+		na_colorado_numic
+	}
+	capital = STATE_UTAH
 }
 
 BFT = {
@@ -104,8 +129,8 @@ BFT = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
-	capital = STATE_NEVADA
+	cultures = { na_blackfoot }
+	capital = STATE_MONTANA
 }
 
 YMN = {
@@ -115,8 +140,8 @@ YMN = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
-	capital = STATE_NEVADA
+	cultures = { na_yuman }
+	capital = STATE_BAJA_CALIFORNIA
 }
 
 SIS = {
@@ -126,7 +151,7 @@ SIS = {
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = { na_salishan }
 	capital = STATE_WASHINGTON
 }
 
@@ -144,23 +169,49 @@ CRU = {
 }
 
 IUT = {
-	color = { 13 102 75 }
+	color = { 130 102 75 }
 
 	country_type = decentralized
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = { inuit }
 	capital = STATE_NORTHWEST_TERRITORIES
 }
 
-ATB = {
-	color = { 13 102 75 }
+AT2 = {
+	color = { 88 105 137 }
 
 	country_type = decentralized
 
 	tier = kingdom
 
-	cultures = { na_cree_montagnais }
+	cultures = { na_northern_athabaskan }
 	capital = STATE_BRITISH_COLUMBIA
+}
+
+# Colonies
+
+LOI = {
+	color = { 16 12 130 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { french }
+
+	capital = STATE_LOUISIANA
+}
+
+FOU = {
+	color = { 168 164 34 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_NORTH_CAROLINA
 }
