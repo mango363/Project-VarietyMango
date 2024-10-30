@@ -1106,56 +1106,7 @@ on_spreading_technology = {
 # scope:initiator = Initiator of the play
 # scope:target = Target of the play
 on_diplomatic_play_started = {
-	effect = {
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_germany
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = GER
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_italy
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = ITA
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_scandinavia
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = SCA
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-	}
+
 }
 
 # Root = Character

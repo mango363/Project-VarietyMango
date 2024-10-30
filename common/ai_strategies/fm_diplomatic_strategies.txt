@@ -185,7 +185,7 @@ ai_strategy_unify_japan = {
 		value = 2
 	}
 	aggression = {
-		value = 20
+		value = 10
 		if = {
 			limit = {
 				scope:target_country = {

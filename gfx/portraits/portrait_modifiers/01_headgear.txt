@@ -299,7 +299,7 @@ headgear = {
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = PER_reza_pahlavi
@@ -323,7 +323,7 @@ headgear = {
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     age > 12
@@ -952,7 +952,7 @@ headgear = {
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 british_empire_clothes_pop_trigger = yes
                 officers_clothes_pop_trigger = yes
@@ -967,7 +967,7 @@ headgear = {
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 british_empire_clothes_trigger = yes
 
@@ -1062,8 +1062,8 @@ headgear = {
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
-                has_dlc_feature = voice_of_the_people_content
+                
+
 
                 french_empire_clothes_pop_trigger = yes
                 officers_clothes_pop_trigger = yes
@@ -1169,7 +1169,7 @@ headgear = {
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 russian_empire_clothes_pop_trigger = yes
                 OR = {
@@ -1194,7 +1194,7 @@ headgear = {
             modifier = {
                 add = 15000
 
-                has_dlc_feature = ep1_cosmetics # the hat isn't DLC material but it doesn't make sense without DLC outfits
+                 # the hat isn't DLC material but it doesn't make sense without DLC outfits
 
                 c:RUS ?= {
                     has_technology_researched = bolt_action_rifles
@@ -2290,7 +2290,7 @@ headgear = {
             modifier = {
                 add = 5000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     scope:pop ?= {
@@ -2334,7 +2334,7 @@ headgear = {
             modifier = {
                 add = 5000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -2351,7 +2351,7 @@ headgear = {
             modifier = {
                 add = 5000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:pop ?= {
                     owner ?= {
@@ -2370,7 +2370,7 @@ headgear = {
             modifier = {
                 add = 5000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 c:PER ?= {
                     NOT = { has_technology_researched = bolt_action_rifles }
@@ -2410,7 +2410,7 @@ headgear = {
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_role = agitator
@@ -2438,7 +2438,7 @@ headgear = {
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes

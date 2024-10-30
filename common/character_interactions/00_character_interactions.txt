@@ -104,7 +104,6 @@ grant_leadership_to_agitator = {
 	clicksound = "event:/SFX/DLC/1.3_ip1/UI/agitator_promote"
 
 	potential = {
-		has_dlc_feature = agitators
 		has_role = agitator
 		owner = scope:actor
 	}
@@ -184,7 +183,6 @@ grant_command_to_agitator = {
 	clicksound = "event:/SFX/UI/Military/command_grant"
 
 	potential = {
-		has_dlc_feature = agitators
 		has_role = agitator
 		NOT = { has_role = general }
 		NOT = { has_role = admiral }
@@ -299,7 +297,7 @@ abdicate_monarch = {
 	clicksound = "event:/SFX/UI/Military/command_grant"
 
 	potential = {
-		has_dlc_feature = voice_of_the_people_content
+
 		owner = scope:actor
 		is_ruler = yes
 		owner = {
@@ -807,7 +805,7 @@ invite_exile = {
 			if = {
 				limit = {
 					has_variable = mazzini_var
-					has_dlc_feature = voice_of_the_people_content
+
 				}
 				scope:actor ?= {
 					trigger_event = { id = historical_agitators.7 days = 3 }
@@ -816,7 +814,7 @@ invite_exile = {
 			if = {
 				limit = {
 					has_variable = garibaldi_var
-					has_dlc_feature = voice_of_the_people_content
+
 				}
 				set_variable = {
 					name = garibaldi_cooldown_var

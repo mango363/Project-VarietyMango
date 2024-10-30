@@ -772,7 +772,6 @@ building_power_bloc_statue = {
 		owner = {
 			is_in_power_bloc = yes
 		}
-		has_dlc_feature = power_bloc_features
 	}
 
 	ai_value = {

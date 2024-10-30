@@ -138,7 +138,7 @@ lobby_proposal.1 = { # Pro-Lobby Demand
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_player = yes
 		any_political_lobby = {
 			is_political_lobby_type = lobby_pro_country
@@ -293,7 +293,7 @@ lobby_proposal.2 = { # Anti-Lobby Demand
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_player = yes
 		any_political_lobby = {
 			is_political_lobby_type = lobby_anti_country
@@ -392,7 +392,7 @@ lobby_proposal.3 = { # Pro-Lobby Opportunity
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_player = yes
 		any_political_lobby = {
 			is_political_lobby_type = lobby_pro_country
@@ -546,7 +546,7 @@ lobby_proposal.4 = { # Anti-Lobby Opportunity
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_player = yes
 		any_political_lobby = {
 			is_political_lobby_type = lobby_anti_country
@@ -743,7 +743,7 @@ lobby_events.1 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		NOT = {
 			has_law = law_type:law_council_republic
@@ -999,7 +999,7 @@ lobby_events.2 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			is_marginal = no
@@ -1166,7 +1166,7 @@ lobby_events.3 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			OR = {
@@ -1316,7 +1316,7 @@ lobby_events.4 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_political_lobby = {
 			save_temporary_scope_as = temp_lobby
@@ -1469,7 +1469,7 @@ lobby_events.5 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			OR = {
@@ -1666,7 +1666,7 @@ lobby_events.6 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_political_lobby = {
 			is_political_lobby_type = lobby_pro_country
@@ -1796,7 +1796,7 @@ lobby_events.7 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			law_stance = {
@@ -2004,7 +2004,7 @@ lobby_events.8 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_active_party = {
 			any_member = {
@@ -2141,7 +2141,7 @@ lobby_events.9 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			OR = {
@@ -2511,7 +2511,7 @@ lobby_events.10 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		is_country_type = unrecognized
 		any_interest_group = {
@@ -2744,7 +2744,7 @@ lobby_events.11 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		is_country_type = recognized
 		country_is_in_europe = yes
@@ -3053,7 +3053,7 @@ lobby_events.12 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			is_interest_group_type = ig_intelligentsia
@@ -3361,7 +3361,7 @@ lobby_events.13 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_political_lobby = {
 			any_lobby_member = {
@@ -3480,7 +3480,7 @@ lobby_events.14 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			OR = {
@@ -3764,7 +3764,7 @@ lobby_events.15 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			is_marginal = no
@@ -3965,7 +3965,7 @@ lobby_events.16 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_political_lobby = {
 			is_political_lobby_type = lobby_pro_country
@@ -4068,7 +4068,7 @@ lobby_events.17 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_political_lobby = {
 			any_lobby_member = {
@@ -4153,7 +4153,7 @@ lobby_events.18 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			OR = {
@@ -4380,7 +4380,7 @@ lobby_events.19 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		is_country_type = unrecognized
 		any_interest_group = {
@@ -4699,7 +4699,7 @@ lobby_events.20 = {
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		has_dlc_feature = lobbies
+		
 		is_revolutionary = no
 		any_interest_group = {
 			any_political_lobby = {
