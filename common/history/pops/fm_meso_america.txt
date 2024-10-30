@@ -124,18 +124,14 @@ POPS = {
 	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
 	# working total number of 548936
 	s:STATE_YUCATAN = {
-		region_state:MAX = {
+		region_state:MAY = {
 			create_pop = {
 				culture = mexican
-				size = 226764
+				size = 26764
 			}
 			create_pop = {
 				culture = mayan
-				size = 388804
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1400
+				size = 488804
 			}
 		}
 	}
