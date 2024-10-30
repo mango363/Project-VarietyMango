@@ -27,12 +27,6 @@
 			type = guarantee_independence
 		}
 	}
-	c:PUR ?= {
-		create_diplomatic_pact = {
-			country = c:AGA
-			type = guarantee_independence
-		}
-	}
 	c:CAS ?= {
 		create_diplomatic_pact = {
 			country = c:PUP

@@ -96,8 +96,8 @@
 	}
 	c:PUR ?= {
 		create_diplomatic_pact = {
-			country = c:BRZ
-			type = protectorate
+			country = c:NIA
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:EIC

@@ -14,7 +14,7 @@ je_por_main = {
 		}
 	}
 	on_fail = {
-		c:BRZ = {
+		c:NIA = {
 			make_independent = yes
 		}
 		c:EIC = {
@@ -34,7 +34,7 @@ je_por_main = {
 		effect = {
 			if = {
 				limit = {
-					c:BRZ = {
+					c:NIA = {
 						is_subject_of = c:PUR
 						liberty_desire >= 50
 					}
@@ -59,7 +59,7 @@ je_por_main = {
 			if = {
 				limit = {
 					any_scope_state = {
-						state_region = s:STATE_NORTH_ANGOLA
+						state_region = s:STATE_PARA
 						turmoil >= 0.3
 					}
 				}
@@ -71,7 +71,31 @@ je_por_main = {
 			if = {
 				limit = {
 					any_scope_state = {
-						state_region = s:STATE_SOUTH_ANGOLA
+						state_region = s:STATE_GOIAS
+						turmoil >= 0.3
+					}
+				}
+				change_variable = {
+					name = fm_por_progress
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_MARANHAO
+						turmoil >= 0.3
+					}
+				}
+				change_variable = {
+					name = fm_por_progress
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_GAMBIA
 						turmoil >= 0.3
 					}
 				}

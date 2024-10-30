@@ -1389,6 +1389,19 @@ BUILDINGS={
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:PUR"
+						levels=3
+						region="STATE_ESTREMADURA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_spice_plantation"
 				add_ownership={
 					country={
@@ -1472,7 +1485,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:EIC"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1

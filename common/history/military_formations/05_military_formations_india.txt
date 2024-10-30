@@ -157,6 +157,38 @@
 			}
 		}
 	}
+	c:NIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_zanj
+			name = "Niassa Company Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOCAMBIQUE
+				count = 5
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_zanj
+			name = "Niassa Company Navy"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_MOCAMBIQUE
+				count = 10
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_congo
+			name = "2nd Niassa Company Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTH_ANGOLA
+				count = 5
+			}
+		}
+	}
 	c:VOC = {
 		create_military_formation = {
 			type = army

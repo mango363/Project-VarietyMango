@@ -16249,7 +16249,7 @@ colombian={
 platinean={
 	color=rgb{ 88 99 133 }
 	religion = catholic
-	traits = { hispanophone european_heritage }
+	traits = { hispanophone american_settler european_heritage }
 	male_common_first_names={
 		Agustin Antonio Atanasio
 		Baltasar Bartolome Bernardino Bernardo
@@ -16417,7 +16417,7 @@ americano={
 argentino={
 	color= { 89 41 117 }
 	religion = catholic
-	traits = { italophone european_heritage }
+	traits = { italophone american_settler european_heritage }
 	
 	obsessions = {
 		wine

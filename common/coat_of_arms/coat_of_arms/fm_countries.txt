@@ -20212,6 +20212,16 @@ EIC= { # Portugal
 
 }
 
+NIA= { # Portugal
+	pattern = "pattern_solid.tga"
+	color1 = {219 227 195}
+
+	textured_emblem = {
+		texture = "te_coa_moz.dds"
+		instance = { scale = { 0.6 0.6 } position = { 0.7 0.5 } }
+	}
+}
+
 PUR = { # Portugal
 	pattern = "pattern_solid.tga"
 	color1 = "white"

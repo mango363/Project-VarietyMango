@@ -671,6 +671,17 @@ EIC = {
 	capital = STATE_SOUTH_BENGAL
 }
 
+NIA = {
+	color = { 194 222 175}
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { portuguese }
+	capital = STATE_MOCAMBIQUE
+}
+
 
 PUR = {
 	color = { 24 77 158 }
@@ -2712,7 +2723,7 @@ BRZ = {
 	
 	country_type = colonial
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { brazilian }
 	capital = STATE_RIO_DE_JANEIRO
@@ -2781,7 +2792,7 @@ URU = {
 	
 	tier = principality
 	
-	cultures = { argentino }
+	cultures = { platinean }
 	capital = STATE_URUGUAY
 	is_named_from_capital = yes
 }
@@ -3894,7 +3905,7 @@ PNI = {
 	
 	tier = principality
 	
-	cultures = { sulista }
+	cultures = { brazilian }
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
@@ -4735,7 +4746,7 @@ PAU = {
 	
 	tier = principality
 	
-	cultures = { paulista }
+	cultures = { brazilian }
 	capital = STATE_SAO_PAULO
 }
 
@@ -4746,7 +4757,7 @@ EQT = {
 	
 	tier = principality
 	
-	cultures = { nordestino }
+	cultures = { brazilian }
 	capital = STATE_PERNAMBUCO
 }
 
@@ -4757,7 +4768,7 @@ CTR = {
 	
 	tier = principality
 	
-	cultures = { sulista }
+	cultures = { brazilian }
 	capital = STATE_SANTA_CATARINA
 }
 
@@ -4779,7 +4790,7 @@ BHI = {
 	
 	tier = principality
 	
-	cultures = { nordestino }
+	cultures = { brazilian }
 	capital = STATE_BAHIA
 }
 

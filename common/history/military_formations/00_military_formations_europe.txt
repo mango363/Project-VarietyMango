@@ -189,11 +189,11 @@
 		}
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_congo
-			name = "Divisao Congo"
+			hq_region = sr:region_brazil
+			name = "Divisao Pará"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SOUTH_ANGOLA
+				state_region = s:STATE_PARA
 				count = 5
 			}
 		}

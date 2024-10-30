@@ -1,5 +1,93 @@
 ﻿MILITARY_FORMATIONS = {
-	c:BRZ = {
+	c:FLU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Esercito di Difesa" 
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FLORIDA
+				count = 15
+			}
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_FLORIDA
+				count = 15
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_dixie
+			name = "Flotta della Repubblica"
+
+			combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_FLORIDA
+				count = 5
+			}
+		}
+	}
+
+	c:AGA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			name = "Ejército Argentino" 
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BUENOS_AIRES
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TUCUMAN
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_URUGUAY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SANTA_FE
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_BUENOS_AIRES
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CHACO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_RIO_NEGRO
+				count = 5
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_la_plata
+			name = "Armada Argentina"
+
+			combat_unit = { # Nothing the size of a frigate
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BUENOS_AIRES
+				count = 10
+			}
+		}
+
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_brazil
@@ -102,133 +190,8 @@
 			}
 		}
 	}
-	c:FLU = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_dixie
-			name = "Esercito di Difesa" 
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_FLORIDA
-				count = 15
-			}
 
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_FLORIDA
-				count = 15
-			}
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_dixie
-			name = "Flotta della Repubblica"
-
-			combat_unit = { 
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_FLORIDA
-				count = 5
-			}
-		}
-	}
-
-	c:AGA = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-			name = "Ejército Argentino" 
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BUENOS_AIRES
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TUCUMAN
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_URUGUAY
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SANTA_FE
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_BUENOS_AIRES
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_CHACO
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_RIO_NEGRO
-				count = 5
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_la_plata
-			name = "Armada Argentina"
-
-			combat_unit = { # Nothing the size of a frigate
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_BUENOS_AIRES
-				count = 10
-			}
-		}
-	}
-
-	c:PRA = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			name = "Exército Cabano"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PARA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PARA
-				count = 7
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_AMAZONAS
-				count = 4
-			}
-			save_scope_as = firstarmypra
-		}
-
-		create_character = {
-			template = PRA_Manuel_Lopes
-			first_name = Manuel
-			commander_rank = commander_rank_1
-			save_scope_as = pra_general_gen
-		}
-
-		scope:pra_general_gen = {
-			transfer_to_formation = scope:firstarmypra
-		}
-	}
 
 	c:PNI = {
 		create_military_formation = {
@@ -360,20 +323,6 @@
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GUAYANA
 				count = 10
-			}
-		}
-	}
-
-	c:PRG = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-			name = "Ejército Paraguayo"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BAJO_PARAGUAY
-				count = 5
 			}
 		}
 	}

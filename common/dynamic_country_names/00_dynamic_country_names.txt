@@ -1631,6 +1631,21 @@ EIC = {
 	}
 }
 
+NIA = {
+	dynamic_country_name = {
+		name = colonial_admin_nia
+		adjective = PUR_ADJ
+		priority = 100
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				c:NIA ?= this
+				is_subject = yes
+			}
+		}
+	}
+}
+
 KOC = {
 	dynamic_country_name = {
 		name = colonial_admin_kor
@@ -2251,7 +2266,7 @@ PUR = {
 				has_law = law_type:law_monarchy
 			}
 			OR = {
-				c:BRZ ?= {
+				c:NIA ?= {
 					is_subject_of = scope:actor
 				}
 				c:EIC ?= {
@@ -2272,7 +2287,7 @@ GPO = {
 				has_law = law_type:law_monarchy
 			}
 			OR = {
-				c:BRZ ?= {
+				c:NIA ?= {
 					is_subject_of = scope:actor
 				}
 				c:EIC ?= {

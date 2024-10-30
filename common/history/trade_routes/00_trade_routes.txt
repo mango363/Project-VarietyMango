@@ -319,21 +319,6 @@
 		}
 	}
 	
-	# Grao-Para
-	c:PRA ?= {		
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}			
-	}		
 
 
 	# Piratini

@@ -503,13 +503,7 @@ CUL = {
 	ai_will_do = { always = yes }
 }
 
-BRZ = {
-	use_culture_states = yes
 
-	required_states_fraction = 0.8
-	
-	ai_will_do = { always = yes }
-}
 
 MAX = {
 	use_culture_states = yes

@@ -66,10 +66,7 @@
 		add_declared_interest = region_senegal
 		add_declared_interest = region_danubia
 	}
-	c:BRZ ?= {
-		add_declared_interest = region_andes
-		add_declared_interest = region_gran_colombia
-	}		
+		
 	c:AMC ?= {
 		add_declared_interest = region_canada
 		add_declared_interest = region_great_plains

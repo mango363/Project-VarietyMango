@@ -478,6 +478,7 @@ STATE_URUGUAY = {
         bg_logging = 9
         bg_fishing = 6
         bg_whaling = 2
+        bg_iron_mining = 2
     }
     resource = {
         type = "bg_oil_extraction"

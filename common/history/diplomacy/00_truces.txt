@@ -1,9 +1,15 @@
 ﻿
-DIPLOMACY = {
+DIPLOMACY = {	
 	c:EGE= {
 		create_bidirectional_truce = {
 			country = c:TOR
-			months = 10
+			months = 45
+		}
+	}	
+	c:EGE= {
+		create_bidirectional_truce = {
+			country = c:SAE
+			months = 26
 		}
 	}	
 }
@@ -49,6 +55,15 @@ DIPLOMACY = {
 		create_bidirectional_truce = {
 			country = c:MCH
 			months = 17
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:AGA= {
+		create_bidirectional_truce = {
+			country = c:PUR
+			months = 40
 		}
 	}	
 }

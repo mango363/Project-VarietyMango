@@ -22,15 +22,7 @@ GLOBAL = {
 		}
 	}
 
-	c:BRZ ?= {
-		set_variable = {
-			name = pedropoints
-			value = 5
-		}
-		add_radicals = {
-			value = 0.10
-		}
-	}
+
 	
 	c:HAE = {
 		add_treasury = {
