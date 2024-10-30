@@ -182,6 +182,17 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_citrus_orchards" }
 			}
 			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:YAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={

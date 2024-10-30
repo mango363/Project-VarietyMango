@@ -82,6 +82,10 @@ fm_yag.3 = { #Kaurna
 			remove_homeland = cu:gunaikurnai
 			add_homeland = cu:jagera
 		}
+		s:STATE_NEW_SOUTH_WALES = {
+			remove_homeland = cu:gunaikurnai
+			add_homeland = cu:jagera
+		}
 	}
 }
 
@@ -274,7 +278,7 @@ fm_yag.6 = {
 	}
 }
 
-# Foreign Railway Engineers
+# demands
 fm_yag.7 = {
 	type = country_event
 	placement = root
@@ -284,214 +288,139 @@ fm_yag.7 = {
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	event_image = {
-		video = "unspecific_trains"
+		video = "unspecific_politicians_arguing"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		NOT = { has_variable = foreign_railway_engineers_event }
-		can_research = railways
-		NOT = { has_technology_researched = railways }
-		any_country = {
-			country_rank = rank_value:great_power
-			has_technology_researched = railways
-			NOT = { has_war_with = root }
-			relations:root > 0
+		any_scope_state = {
+			count >= 0
+			AND = {
+				region = sr:region_oceania
+				owner = c:SAU
+			}
+		}
+		NOT = {
+			has_variable = yag_demands_event
 		}
 	}
 
 	immediate = {
-		set_variable = foreign_railway_engineers_event
-		random_country = {
-			limit = {
-				country_rank = rank_value:great_power
-				has_technology_researched = railways
-				NOT = { has_war_with = root }
-				relations:root > 0
-			}
-			save_scope_as = railway_engineer_country_1
-		}
-		if = {
-			limit = {
-				any_country = {
-					country_rank = rank_value:great_power
-					has_technology_researched = railways
-					NOT = { has_war_with = root }
-					relations:root > 0
-					NOT = { this = scope:railway_engineer_country_1 }
-				}
-			}
-			random_country = {
-				limit = {
-					country_rank = rank_value:great_power
-					has_technology_researched = railways
-					NOT = { has_war_with = root }
-					relations:root > 0
-					NOT = { this = scope:railway_engineer_country_1 }
-				}
-				save_scope_as = railway_engineer_country_2
-			}
-		}
-		if = {
-			limit = {
-				exists = scope:railway_engineer_country_2
-				any_country = {
-					country_rank = rank_value:great_power
-					has_technology_researched = railways
-					NOT = { has_war_with = root }
-					relations:root > 0
-					NOT = { this = scope:railway_engineer_country_1 }
-					NOT = { this = scope:railway_engineer_country_2 }
-				}
-			}
-			random_country = {
-				limit = {
-					country_rank = rank_value:great_power
-					has_technology_researched = railways
-					NOT = { has_war_with = root }
-					relations:root > 0
-					NOT = { this = scope:railway_engineer_country_1 }
-					NOT = { this = scope:railway_engineer_country_2 }
-				}
-				save_scope_as = railway_engineer_country_3
-			}
-		}
+		set_variable = yag_demands_event
 	}
 
 	option = {
 		name = fm_yag.7.a
-		change_relations = {
-			country = scope:railway_engineer_country_1
-			value = 10
+		c:SAU = {
+			create_diplomatic_catalyst = {  
+				type = catalyst_event_negative
+				target = c:YAG
+			}
 		}
-		add_technology_progress = {
-			technology = railways
-			progress = 3500
+		change_relations = {
+			country = c:SAU
+			value = -20
+		}
+		s:STATE_NORTHERN_TERRITORY = {
+			add_claim = root
+		}
+		add_journal_entry = {
+			type = je_yag_sec
 		}
 	}
 
 	option = {
 		name = fm_yag.7.b
-
-		trigger = {
-			exists = scope:railway_engineer_country_2
+		custom_tooltip = {
+			text = var_small_app
+			je:je_yag_main = {
+				add_progress = { value = -15 name = yag_progress_bar }
+			}
 		}
 		change_relations = {
-			country = scope:railway_engineer_country_2
-			value = 10
-		}
-		add_technology_progress = {
-			technology = railways
-			progress = 3500
-		}
-	}
-
-	option = {
-		name = fm_yag.7.c
-
-		trigger = {
-			exists = scope:railway_engineer_country_3
+			country = c:WTI
+			value = -10
 		}
 		change_relations = {
-			country = scope:railway_engineer_country_3
-			value = 10
+			country = c:MRN
+			value = -10
 		}
-		add_technology_progress = {
-			technology = railways
-			progress = 3500
+		change_relations = {
+			country = c:NNG
+			value = -10
+		}
+		change_relations = {
+			country = c:WAT
+			value = -10
+		}
+		s:STATE_WESTERN_AUSTRALIA = {
+			add_claim = root
 		}
 	}
 
-	option = {
-		name = fm_yag.7.e
-		default_option = yes
-
-		add_modifier = {
-			name = railway_our_way
-			months = long_modifier_time
-		}
-	}
 }
 
-# Military Railways
+# Matter of int
 fm_yag.8 = {
 	type = country_event
-	placement = scope:military_railway_state
+	placement = root
 	title = fm_yag.8.t
 	desc = fm_yag.8.d
 	flavor = fm_yag.8.f
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	icon = "gfx/interface/icons/politics_icons/radicalized.dds"
 
 	event_image = {
-		video = "unspecific_armored_train"
+		video = "asia_farmers_market"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		has_technology_researched = railways
-		any_scope_state = {
-			has_building = building_barracks
-			NOT = { has_building = building_railway }
-		}
-		NOT = { has_modifier = retained_railway_control }
+		owns_entire_state_region = STATE_NEW_SOUTH_WALES
+		NOT = { has_variable = intyua_event }
 	}
 
 	immediate = {
-		random_scope_state = {
-			limit = {
-				has_building = building_barracks
-				NOT = { has_building = building_railway }
-			}
-			save_scope_as = military_railway_state
-		}
-		ig:ig_armed_forces = {
-			save_scope_as = armed_forces_ig
-		}
+		set_variable = intyua_event
 	}
+
 
 	option = {
 		name = fm_yag.8.a
-		scope:military_railway_state = {
-			create_building = {
-				building = building_railway
-				level = 1
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
 			}
 		}
-		ig:ig_armed_forces = {
-			add_modifier = {
-				name = railway_priority
-				months = long_modifier_time
-			}
-		}
+		activate_law = law_type:law_racial_segregation
 	}
 
 	option = {
 		name = fm_yag.8.b
 		default_option = yes
 
-		add_modifier = {
-			name = retained_railway_control
-			months = long_modifier_time
-		}
-
-		ig:ig_armed_forces = {
-			add_modifier = {
-				name = refused_railway_priority
-				months = normal_modifier_time
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 10 name = yag_progress_bar }
 			}
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:gunaikurnai
 		}
 	}
 }
 
-# Samurai Sword-carrying Privileges
+# appalto
 fm_yag.9 = {
 	type = country_event
 	placement = root
@@ -501,146 +430,141 @@ fm_yag.9 = {
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/invention_icons/bessemer_process.dds"
 
 	event_image = {
-		video = "asia_westerners_arriving"
+		video = "southamerica_factory_opening"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		NOT = { has_variable = samurai_sword_privileges_event }
+		NOT = { has_variable = appalot_event }
 	}
 
 	immediate = {
-		set_variable = samurai_sword_privileges_event
+		set_variable = appalot_event
 	}
 
 	option = {
 		name = fm_yag.9.a
-		add_radicals = {
-			pop_type = officers
-			culture = cu:japanese
-			value = large_radicals
-		}
-		add_radicals = {
-			pop_type = soldiers
-			culture = cu:japanese
-			value = large_radicals
-		}
-		ig:ig_armed_forces = {
-			add_modifier = {
-				name = revoked_sword_rights
-				months = long_modifier_time
+		custom_tooltip = {
+			text = var_large_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 70 name = yag_progress_bar }
 			}
+		}
+		add_modifier = {
+			name = mod_yag_5
+			months = 12
 		}
 	}
 
 	option = {
 		name = fm_yag.9.b
-		add_radicals = {
-			pop_type = officers
-			culture = cu:japanese
-			value = large_radicals
-		}
-		add_radicals = {
-			pop_type = soldiers
-			culture = cu:japanese
-			value = large_radicals
-		}
 		add_loyalists = {
 			strata = rich
-			value = medium_radicals
+			value = 0.3
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.1
 		}
 	}
 
-	option = {
-		name = fm_yag.9.c
-		default_option = yes
-
-		ig:ig_armed_forces = {
-			add_modifier = {
-				name = retained_sword_rights
-				months = normal_modifier_time
-			}
-		}
-	}
 }
 
-# Shi-gakkō
+# slavery
 fm_yag.10 = {
 	type = country_event
-	placement = s:STATE_KYUSHU.region_state:JAE
 	title = fm_yag.10.t
 	desc = fm_yag.10.d
 	flavor = fm_yag.10.f
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/invention_icons/egalitarianism.dds"
 
 	event_image = {
-		video = "asia_westerners_arriving"
+		video = "ep1_donghak_rebellion"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		NOT = { has_variable = shi_gakko_event }
-		exists = s:STATE_KYUSHU.region_state:JAE
-		s:STATE_KYUSHU.region_state:JAE = {
-			has_building = building_barracks
-		}
-		ig:ig_armed_forces = {
-			ig_approval <= unhappy
-		}
+		NOT = { has_variable = slavyua_event }
 	}
 
 	immediate = {
-		set_variable = shi_gakko_event
-		s:STATE_KYUSHU.region_state:JAE = {
-			save_scope_as = kyushu_state
-		}
-		ig:ig_armed_forces = {
-			leader = { save_scope_as = armed_forces_leader }
+		set_variable = slavyua_event
+		ig:ig_intelligentsia = {
+			leader = { save_scope_as = int_leader }
 		}
 	}
 
 	option = {
 		name = fm_yag.10.a
-		s:STATE_KYUSHU.region_state:JAE = {
-			add_modifier = {
-				name = shi_gakko
-				months = normal_modifier_time
+		default_option = yes
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
 			}
-			add_radicals_in_state = {
-				pop_type = soldiers
-				value = medium_radicals
-			}
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = clerks
+		}
+		add_radicals = {
+			value = 0.25
+			pop_type = academics
 		}
 	}
 
 	option = {
 		name = fm_yag.10.b
-		default_option = yes
 
-		ig:ig_armed_forces = {
-			add_modifier = {
-				name = shut_down_military_academies
-				months = long_modifier_time
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
 			}
-			leader = {
-				add_modifier = {
-					name = suspected_insurrectionist
-					months = long_modifier_time
-				}
+		}
+		activate_law = law_type:law_legacy_slavery
+		add_loyalists = {
+			value = 0.2
+			pop_type = clerks
+		}
+		add_loyalists = {
+			value = 0.25
+			pop_type = academics
+		}
+	}
+	option = {
+		name = fm_yag.10.c
+		custom_tooltip = {
+			text = var_great_app
+			je:je_yag_main = {
+				add_progress = { value = -80 name = yag_progress_bar }
 			}
+		}
+		activate_law = law_type:law_slavery_banned
+		add_loyalists = {
+			value = 0.5
+			pop_type = clerks
+		}
+		add_loyalists = {
+			value = 0.8
+			pop_type = academics
+		}
+		add_loyalists = {
+			value = 0.2
+			strata = poor
 		}
 	}
 }
 
-# 
+# harvest
 fm_yag.11 = {
 	type = country_event
 	placement = root
@@ -650,110 +574,62 @@ fm_yag.11 = {
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	event_image = {
-		video = "asia_westerners_arriving"
+		video = "asia_dead_cattle_poor_harvest"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		NOT = { has_variable = japan_port_incident }
-		has_law = law_type:law_isolationism
-		any_scope_state = {
-			has_port = yes
-		}
-		any_country = {
-			country_rank = rank_value:great_power
-			has_interest_marker_in_region = root.capital.region
-			NOR = {
-				has_subject_relation_with = root
-				is_in_customs_union_with = root
-			}
-		}
+		NOT = { has_variable = harvest_event }
 	}
 
 	immediate = {
-		set_variable = {
-			name = japan_port_incident
-			years = 4
-		}
-		random_scope_state = {
-			limit = { has_port = yes }
-			save_scope_as = infringed_port_state
-		}
-		random_country = {
-			limit = {
-				country_rank = rank_value:great_power
-				has_interest_marker_in_region = root.capital.region
-				NOR = {
-					has_subject_relation_with = root
-					is_in_customs_union_with = root
-				}
-			}
-			save_scope_as = infringing_country
-		}
-
-		if = {
-			limit = {
-				any_country = {
-					country_rank = rank_value:great_power
-					has_interest_marker_in_region = root.capital.region
-					relations:root >= 2
-					NOT = { this = scope:infringing_country }
-					NOT = { is_owed_obligation_by = root }
-				}
-			}
-			random_country = {
-				limit = {
-					country_rank = rank_value:great_power
-					has_interest_marker_in_region = root.capital.region
-					relations:root >= 2
-					NOT = { this = scope:infringing_country }
-					NOT = { is_owed_obligation_by = root }
-				}
-				save_scope_as = assistance_country
-			}
-		}
+		set_variable = harvest_event
 	}
 
 	option = {
 		name = fm_yag.11.a
-		change_relations = {
-			country = scope:infringing_country
-			value = -20
+		default_option = yes
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
+			}
 		}
-		scope:infringed_port_state.state_region = {
-			add_devastation = 25
+		add_loyalists = {
+			value = 0.1
+			pop_type = peasants
+		}
+		add_modifier = {
+			name = mod_yag_6
+			months = 13
 		}
 	}
 
 	option = {
 		name = fm_yag.11.b
-		default_option = yes
 
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
+			}
+		}
+		add_radicals = {
+			value = 0.3
+			pop_type = peasants
+		}
 		add_modifier = {
-			name = sakoku_violated
-			months = long_modifier_time
-		}
-	}
-
-	option = {
-		name = fm_yag.11.c
-
-		trigger = {
-			exists = scope:assistance_country
-		}
-
-		set_owes_obligation_to = {
-			country = scope:assistance_country
-			setting = yes
+			name = mod_yag_7
+			months = 13
 		}
 	}
 }
 
-# 
+# factory
 fm_yag.12 = {
 	type = country_event
 	placement = root
@@ -763,84 +639,49 @@ fm_yag.12 = {
 
 	duration = 3
 
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	event_image = {
-		video = "asia_confucianism_shinto"
+		video = "asia_factory_accident"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	trigger = {
-		NOT = { has_variable = japan_sakoku_article }
+		NOT = { has_variable = factoryua_event }
 	}
 
 	immediate = {
-		set_variable = japan_sakoku_article
+		set_variable = factoryua_event
 	}
 
 	option = {
 		name = fm_yag.12.a
-		if = {
-			limit = { exists = c:CHU }
-			change_relations = {
-				country = c:CHU
-				value = -20
+		default_option = yes
+		custom_tooltip = {
+			text = var_moderate_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 35 name = yag_progress_bar }
 			}
 		}
-		if = {
-			limit = { exists = c:KOR }
-			change_relations = {
-				country = c:KOR
-				value = -20
-			}
-		}
-		if = {
-			limit = { exists = c:USA }
-			change_relations = {
-				country = c:USA
-				value = 30
-			}
-		}
-		every_country = {
-			limit = {
-				country_rank = rank_value:great_power
-				country_is_in_europe = yes
-				has_interest_marker_in_region = root.capital.region
-			}
-			change_relations = {
-				country = root
-				value = 30
-			}
+		add_modifier = {
+			name = mod_yag_8
+			months = 13
 		}
 	}
 
 	option = {
 		name = fm_yag.12.b
-		if = {
-			limit = { exists = c:CHU }
-			change_relations = {
-				country = c:CHU
-				value = 15
+
+		custom_tooltip = {
+			text = var_small_app
+			je:je_yag_main = {
+				add_progress = { value = -10 name = yag_progress_bar }
 			}
 		}
-		if = {
-			limit = { exists = c:KOR }
-			change_relations = {
-				country = c:KOR
-				value = 15
-			}
+		add_radicals = {
+			value = 0.1
+			pop_type = peasants
 		}
-	}
-
-	option = {
-		name = fm_yag.12.c
-		default_option = yes
-
-		add_modifier = {
-			name = diplomatic_flexibility
-			months = normal_modifier_time
-		}
-
 	}
 }

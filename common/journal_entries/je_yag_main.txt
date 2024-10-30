@@ -111,14 +111,13 @@ je_yag_main = {
 
 	on_monthly_pulse = {
 		random_events = {
-			50 = 0
-			10 = fm_yag.7
+			70 = 0
+			50 = fm_yag.7
 			10 = fm_yag.8
 			10 = fm_yag.9
 			10 = fm_yag.10
 			10 = fm_yag.11
 			10 = fm_yag.12
-			10 = fm_yag.13
 		}		
 	}
 	on_weekly_pulse = {

@@ -3,11 +3,16 @@
 		region_state:YAG = {
 			create_pop = {
 				culture = gunaikurnai
-				size = 363200
+				size = 393200
+			}
+			create_pop = {
+				culture = gunaikurnai
+				size = 55087
+				pop_type = slaves
 			}
 			create_pop = {
 				culture = jagera
-				size = 1400384
+				size = 1300384
 			}
 		}
 	}
@@ -32,7 +37,17 @@
 		region_state:YAG = {
 			create_pop = {
 				culture = jagera
-				size = 2294000
+				size = 2210000
+			}
+			create_pop = {
+				culture = jagera
+				size = 34000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = gunaikurnai
+				size = 65087
+				pop_type = slaves
 			}
 		}
 	}
@@ -49,6 +64,16 @@
 			create_pop = {
 				culture = kaurna
 				size = 16054
+			}
+			create_pop = {
+				culture = nauo
+				size = 2188
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = kaurna
+				size = 1245
+				pop_type = slaves
 			}
 		}
 		region_state:KAU = {		
@@ -112,7 +137,7 @@
 		region_state:YAG = {
 			create_pop = {
 				culture = jagera
-				size = 591804
+				size = 571804
 			}
 			create_pop = {
 				culture = gija
@@ -121,6 +146,16 @@
 			create_pop = {
 				culture = wati
 				size = 1145
+			}
+			create_pop = {
+				culture = wati
+				size = 200
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = gija
+				size = 23299
+				pop_type = slaves
 			}
 		}
 		region_state:WTI = {
