@@ -1917,7 +1917,7 @@ on_country_formed = {
 			limit = {
 				OR = {
 					c:BRZ ?= ROOT
-					c:USA ?= ROOT
+					c:GPO ?= ROOT
 					c:SAF ?= ROOT
 				}
 			}

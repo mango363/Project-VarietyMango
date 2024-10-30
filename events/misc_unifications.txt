@@ -322,7 +322,7 @@ formation.6 = {
 			triggered_desc = {
 				desc = formation.6.f2
 				trigger = {
-					c:USA ?= THIS
+					c:GPO ?= THIS
 				}
 			}
 			triggered_desc = {
@@ -351,7 +351,7 @@ formation.6 = {
 				NOT = { has_global_variable = has_formed_brz }
 			}
 			AND = {
-				c:USA ?= THIS
+				c:GPO ?= THIS
 				NOT = { has_global_variable = has_formed_usa }
 			}
 			AND = {
@@ -370,7 +370,7 @@ formation.6 = {
 		}
 		else_if = {
 			limit = {
-				c:USA ?= THIS
+				c:GPO ?= THIS
 			}
 			set_global_variable = has_formed_usa
 		}
@@ -1074,7 +1074,7 @@ formation.17 = {
 			c:URA ?= THIS
 			c:UNL ?= THIS
 			c:RHU ?= THIS
-			c:UUU ?= THIS
+			c:GPO ?= THIS
 		}
 	}
 
