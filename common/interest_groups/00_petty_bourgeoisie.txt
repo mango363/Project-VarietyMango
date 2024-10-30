@@ -25,7 +25,7 @@
 		ig:ig_petty_bourgeoisie = {
 			if = {
 				limit = {
-					owner = { c:SWE ?= this}
+					owner = { c:SWU ?= this}
 				}
 				set_ig_trait = ig_trait:ig_trait_xenophobia
 				set_ig_trait = ig_trait:ig_trait_bergsbrukens_valdistrikten
@@ -33,7 +33,7 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:TUR ?= this }
+					owner = { c:TOR ?= this }
 				}
 						set_ig_trait = ig_trait:ig_trait_xenophobia
 						set_ig_trait = ig_trait:ig_trait_effendi

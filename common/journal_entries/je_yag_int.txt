@@ -1,0 +1,241 @@
+je_yag_int_kau = {
+	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_VICTORIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		NOT = {
+			exists = c:KNA
+		}
+	}
+	possible = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_VICTORIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		NOT = {
+			exists = c:KNA
+		}
+	}
+	scripted_button = je_yag_int_kau_b
+	scripted_progress_bar = yag_kau_progress_bar
+	complete = {
+		custom_tooltip = {
+			text = integration_yag
+			has_variable = var_int_kau
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_yag.3
+		}
+	}
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_kau_progress_bar)" >= 200
+					}
+				 }
+				 set_variable = {
+					name = var_int_kau
+				}
+			}
+		}
+	}
+}
+
+je_yag_int_thura = {
+	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_VICTORIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		NOT = {
+			exists = c:KAU
+		}
+		NOT = {
+			exists = c:NAW
+		}
+	}
+	possible = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_VICTORIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		NOT = {
+			exists = c:KAU
+		}
+		NOT = {
+			exists = c:NAW
+		}
+	}
+	scripted_button = je_yag_int_thura_b
+	scripted_progress_bar = yag_thura_progress_bar
+	complete = {
+		custom_tooltip = {
+			text = integration_yag
+			has_variable = var_int_thura
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_yag.4
+		}
+	}
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_thura_progress_bar)" >= 200
+					}
+				 }
+				 set_variable = {
+					name = var_int_thura
+				}
+			}
+		}
+	}
+}
+
+je_yag_int_nuy = {
+	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+		NOT = {
+			exists = c:WTI
+		}
+		NOT = {
+			exists = c:MRN
+		}
+		NOT = {
+			exists = c:NNG
+		}
+		NOT = {
+			exists = c:WAT
+		}
+	}
+	possible = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+		NOT = {
+			exists = c:WTI
+		}
+		NOT = {
+			exists = c:MRN
+		}
+		NOT = {
+			exists = c:NNG
+		}
+		NOT = {
+			exists = c:WAT
+		}
+	}
+	scripted_button = je_yag_int_nuy_b
+	scripted_progress_bar = yag_nuy_progress_bar
+	complete = {
+		custom_tooltip = {
+			text = integration_yag
+			has_variable = var_int_nuy
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_yag.5
+		}
+	}
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_nuy_progress_bar)" >= 200
+					}
+				 }
+				 set_variable = {
+					name = var_int_nuy
+				}
+			}
+		}
+	}
+}
+
+je_yag_int_nor = {
+	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+		NOT = {
+			exists = c:KIJ
+		}
+		NOT = {
+			exists = c:WUN
+		}
+	}
+	possible = {
+		exists = c:YAG
+		c:YAG ?= THIS
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+		NOT = {
+			exists = c:KIJ
+		}
+		NOT = {
+			exists = c:WUN
+		}
+	}
+	scripted_button = je_yag_int_nor_b
+	scripted_progress_bar = yag_nor_progress_bar
+	complete = {
+		custom_tooltip = {
+			text = integration_yag
+			has_variable = var_int_nor
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_yag.6
+		}
+	}
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_nor_progress_bar)" >= 200
+					}
+				 }
+				 set_variable = {
+					name = var_int_nor
+				}
+			}
+		}
+	}
+}

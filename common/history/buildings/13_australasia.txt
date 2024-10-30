@@ -10,7 +10,7 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -33,17 +33,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					country={
-						country="c:YAG"
-						levels=8
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -124,6 +113,58 @@ BUILDINGS={
 		}
 	}
 	s:STATE_VICTORIA = {
+		region_state:KNA = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:KNA"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:KNA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:KNA"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_privately_owned" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:YAG"
+						levels=1
+						region="STATE_QUEENSLAND"
+					}
+					country={
+						country="c:KNA"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
+			}
+		}
 	}
 	s:STATE_TASMANIA = {
 	}
@@ -138,7 +179,18 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_citrus_orchards" }
+			}
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:YAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -246,7 +298,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YAG"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -268,6 +320,126 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 		}
+		region_state:KAU = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:KAU"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_no_secondary" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:KAU"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_privately_owned" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:KAU"
+						levels=1
+						region="STATE_SOUTH_AUSTRALIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:KAU"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+		}
+		region_state:NAW = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:NAW"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_no_secondary" }
+			}
+			create_building={
+				building="building_artillery_foundries"
+				add_ownership={
+					country={
+						country="c:NAW"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:NAW"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_privately_owned" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NAW"
+						levels=1
+						region="STATE_SOUTH_AUSTRALIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:NAW"
+						levels=1
+						region="STATE_SOUTH_AUSTRALIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:NAW"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
 		region_state:WTI = {
@@ -276,6 +448,139 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:WTI"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+		}
+		region_state:MRN = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:MRN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:MRN"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_no_secondary" }
+			}
+		}
+		region_state:NNG = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:NNG"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_no_secondary" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:NNG"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:NNG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:NNG"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_privately_owned" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NNG"
+						levels=2
+						region="STATE_WESTERN_AUSTRALIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						country="c:NNG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+		}
+		region_state:WAT = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WAT"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+		}
+		region_state:WUN = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WUN"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+		}
+		region_state:KIJ = {
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:KIJ"
 						levels=5
 					}
 				}
@@ -350,6 +655,34 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:KIJ = {
+			create_building={
+				building="building_whaling_station"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:SAU"
+						levels=1
+						region="STATE_NORTHERN_TERRITORY"
+					}
+				}
+				reserves=1
+				activate_production_methods={  "pm_unrefrigerated" "pm_wooden_whaling_ships" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:SAU"
+						levels=1
+						region="STATE_NORTHERN_TERRITORY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 		}
 	}

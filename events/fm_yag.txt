@@ -1,0 +1,687 @@
+﻿namespace = fm_yag
+
+fm_yag.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_yag.1.t
+	desc = fm_yag.1.d
+	flavor = fm_yag.1.f
+	duration = 3
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	option = {
+		name = fm_yag.1.a
+	}
+}
+
+fm_yag.2 = {
+	type = country_event
+	placement = root
+	title = fm_yag.2.t
+	desc = fm_yag.2.d
+	flavor = fm_yag.2.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/politics_icons/radicalized.dds"
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+
+	option = {
+		name = fm_yag.2.a
+		default_option = yes
+	}
+
+}
+
+fm_yag.3 = { #Kaurna
+	type = country_event
+	placement = root
+	title = fm_yag.3.t
+	desc = fm_yag.3.d
+	flavor = fm_yag.3.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				culture = cu:gunaikurnai
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = fm_yag.3.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.1
+			culture = cu:jagera
+		}
+		s:STATE_VICTORIA = {
+			remove_homeland = cu:gunaikurnai
+			add_homeland = cu:jagera
+		}
+		s:STATE_NEW_SOUTH_WALES = {
+			remove_homeland = cu:gunaikurnai
+			add_homeland = cu:jagera
+		}
+	}
+}
+
+fm_yag.4 = { #thura
+	type = country_event
+	placement = root
+	title = fm_yag.4.t
+	desc = fm_yag.4.d
+	flavor = fm_yag.4.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				culture = cu:nauo
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+		every_scope_pop = {
+			limit = {
+				culture = cu:kaurna
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = fm_yag.4.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.1
+			culture = cu:jagera
+		}
+		s:STATE_SOUTH_AUSTRALIA = {
+			remove_homeland = cu:nauo
+			remove_homeland = cu:kaurna
+			add_homeland = cu:jagera
+		}
+
+	}
+}
+
+# nuy
+fm_yag.5 = {
+	type = country_event
+	placement = root
+	title = fm_yag.5.t
+	desc = fm_yag.5.d
+	flavor = fm_yag.5.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	cooldown = { months = short_modifier_time }
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				culture = cu:wati
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+		every_scope_pop = {
+			limit = {
+				culture = cu:ngandatha
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+		every_scope_pop = {
+			limit = {
+				culture = cu:nyungar
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+		every_scope_pop = {
+			limit = {
+				culture = cu:wadjari
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = fm_yag.3.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.15
+			culture = cu:jagera
+		}
+		s:STATE_SOUTH_AUSTRALIA = {
+			remove_homeland = cu:wati
+			add_homeland = cu:jagera
+		}
+		s:STATE_WESTERN_AUSTRALIA = {
+			remove_homeland = cu:wati
+			remove_homeland = cu:ngandatha
+			remove_homeland = cu:nyungar
+			remove_homeland = cu:wadjari
+			add_homeland = cu:jagera
+		}
+	}
+}
+
+# north
+fm_yag.6 = {
+	type = country_event
+	placement = root
+	title = fm_yag.6.t
+	desc = fm_yag.6.d
+	flavor = fm_yag.6.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		every_scope_pop = {
+			limit = {
+				culture = cu:gija
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+		every_scope_pop = {
+			limit = {
+				culture = cu:wunambal
+			}
+			change_pop_culture = {
+				target = cu:jagera
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = fm_yag.3.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.1
+			culture = cu:jagera
+		}
+		s:STATE_NORTHERN_TERRITORY = {
+			remove_homeland = cu:gija
+			add_homeland = cu:jagera
+		}
+		s:STATE_WESTERN_AUSTRALIA = {
+			remove_homeland = cu:gija
+			remove_homeland = cu:wunambal
+			add_homeland = cu:jagera
+		}
+	}
+}
+
+# demands
+fm_yag.7 = {
+	type = country_event
+	placement = root
+	title = fm_yag.7.t
+	desc = fm_yag.7.d
+	flavor = fm_yag.7.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		any_scope_state = {
+			count >= 0
+			AND = {
+				region = sr:region_oceania
+				owner = c:SAU
+			}
+		}
+		NOT = {
+			has_variable = yag_demands_event
+		}
+	}
+
+	immediate = {
+		set_variable = yag_demands_event
+	}
+
+	option = {
+		name = fm_yag.7.a
+		c:SAU = {
+			create_diplomatic_catalyst = {  
+				type = catalyst_event_negative
+				target = c:YAG
+			}
+		}
+		change_relations = {
+			country = c:SAU
+			value = -20
+		}
+		s:STATE_NORTHERN_TERRITORY = {
+			add_claim = root
+		}
+		add_journal_entry = {
+			type = je_yag_sec
+		}
+	}
+
+	option = {
+		name = fm_yag.7.b
+		custom_tooltip = {
+			text = var_small_app
+			je:je_yag_main = {
+				add_progress = { value = -15 name = yag_progress_bar }
+			}
+		}
+		change_relations = {
+			country = c:WTI
+			value = -10
+		}
+		change_relations = {
+			country = c:MRN
+			value = -10
+		}
+		change_relations = {
+			country = c:NNG
+			value = -10
+		}
+		change_relations = {
+			country = c:WAT
+			value = -10
+		}
+		s:STATE_WESTERN_AUSTRALIA = {
+			add_claim = root
+		}
+	}
+
+}
+
+# Matter of int
+fm_yag.8 = {
+	type = country_event
+	placement = root
+	title = fm_yag.8.t
+	desc = fm_yag.8.d
+	flavor = fm_yag.8.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/politics_icons/radicalized.dds"
+
+	event_image = {
+		video = "asia_farmers_market"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		owns_entire_state_region = STATE_NEW_SOUTH_WALES
+		NOT = { has_variable = intyua_event }
+	}
+
+	immediate = {
+		set_variable = intyua_event
+	}
+
+
+	option = {
+		name = fm_yag.8.a
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
+			}
+		}
+		activate_law = law_type:law_racial_segregation
+	}
+
+	option = {
+		name = fm_yag.8.b
+		default_option = yes
+
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 10 name = yag_progress_bar }
+			}
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:gunaikurnai
+		}
+	}
+}
+
+# appalto
+fm_yag.9 = {
+	type = country_event
+	placement = root
+	title = fm_yag.9.t
+	desc = fm_yag.9.d
+	flavor = fm_yag.9.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/bessemer_process.dds"
+
+	event_image = {
+		video = "southamerica_factory_opening"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		NOT = { has_variable = appalot_event }
+	}
+
+	immediate = {
+		set_variable = appalot_event
+	}
+
+	option = {
+		name = fm_yag.9.a
+		custom_tooltip = {
+			text = var_large_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 70 name = yag_progress_bar }
+			}
+		}
+		add_modifier = {
+			name = mod_yag_5
+			months = 12
+		}
+	}
+
+	option = {
+		name = fm_yag.9.b
+		add_loyalists = {
+			strata = rich
+			value = 0.3
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.1
+		}
+	}
+
+}
+
+# slavery
+fm_yag.10 = {
+	type = country_event
+	title = fm_yag.10.t
+	desc = fm_yag.10.d
+	flavor = fm_yag.10.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/invention_icons/egalitarianism.dds"
+
+	event_image = {
+		video = "ep1_donghak_rebellion"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		NOT = { has_variable = slavyua_event }
+	}
+
+	immediate = {
+		set_variable = slavyua_event
+		ig:ig_intelligentsia = {
+			leader = { save_scope_as = int_leader }
+		}
+	}
+
+	option = {
+		name = fm_yag.10.a
+		default_option = yes
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
+			}
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = clerks
+		}
+		add_radicals = {
+			value = 0.25
+			pop_type = academics
+		}
+	}
+
+	option = {
+		name = fm_yag.10.b
+
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
+			}
+		}
+		activate_law = law_type:law_legacy_slavery
+		add_loyalists = {
+			value = 0.2
+			pop_type = clerks
+		}
+		add_loyalists = {
+			value = 0.25
+			pop_type = academics
+		}
+	}
+	option = {
+		name = fm_yag.10.c
+		custom_tooltip = {
+			text = var_great_app
+			je:je_yag_main = {
+				add_progress = { value = -80 name = yag_progress_bar }
+			}
+		}
+		activate_law = law_type:law_slavery_banned
+		add_loyalists = {
+			value = 0.5
+			pop_type = clerks
+		}
+		add_loyalists = {
+			value = 0.8
+			pop_type = academics
+		}
+		add_loyalists = {
+			value = 0.2
+			strata = poor
+		}
+	}
+}
+
+# harvest
+fm_yag.11 = {
+	type = country_event
+	placement = root
+	title = fm_yag.11.t
+	desc = fm_yag.11.d
+	flavor = fm_yag.11.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	event_image = {
+		video = "asia_dead_cattle_poor_harvest"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		NOT = { has_variable = harvest_event }
+	}
+
+	immediate = {
+		set_variable = harvest_event
+	}
+
+	option = {
+		name = fm_yag.11.a
+		default_option = yes
+		custom_tooltip = {
+			text = var_moderate_app
+			je:je_yag_main = {
+				add_progress = { value = -30 name = yag_progress_bar }
+			}
+		}
+		add_loyalists = {
+			value = 0.1
+			pop_type = peasants
+		}
+		add_modifier = {
+			name = mod_yag_6
+			months = 13
+		}
+	}
+
+	option = {
+		name = fm_yag.11.b
+
+		custom_tooltip = {
+			text = var_small_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
+			}
+		}
+		add_radicals = {
+			value = 0.3
+			pop_type = peasants
+		}
+		add_modifier = {
+			name = mod_yag_7
+			months = 13
+		}
+	}
+}
+
+# factory
+fm_yag.12 = {
+	type = country_event
+	placement = root
+	title = fm_yag.12.t
+	desc = fm_yag.12.d
+	flavor = fm_yag.12.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	event_image = {
+		video = "asia_factory_accident"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		NOT = { has_variable = factoryua_event }
+	}
+
+	immediate = {
+		set_variable = factoryua_event
+	}
+
+	option = {
+		name = fm_yag.12.a
+		default_option = yes
+		custom_tooltip = {
+			text = var_moderate_app_siu
+			je:je_yag_main = {
+				add_progress = { value = 35 name = yag_progress_bar }
+			}
+		}
+		add_modifier = {
+			name = mod_yag_8
+			months = 13
+		}
+	}
+
+	option = {
+		name = fm_yag.12.b
+
+		custom_tooltip = {
+			text = var_small_app
+			je:je_yag_main = {
+				add_progress = { value = -10 name = yag_progress_bar }
+			}
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = peasants
+		}
+	}
+}

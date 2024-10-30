@@ -748,6 +748,7 @@ animist_aspect_7_mdf = {
 animist_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	interest_group_in_opposition_approval_add = 5
+	state_accepted_birth_rate_mult = 0.08
 }
 
 na_wocekiye_pasive_mdf = {

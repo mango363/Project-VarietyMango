@@ -1,0 +1,21 @@
+je_yag_sec = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+	}
+	on_complete = {
+		custom_tooltip = {
+			text = var_great_app_siu
+			je:je_yag_main = {
+				add_progress = {
+					value = 85
+					name = yag_progress_bar
+				}
+			}
+		}
+	}
+	timeout = 3000
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

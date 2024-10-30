@@ -1049,9 +1049,9 @@ jaep.12 = {
 	option = {
 		name = jaep.12.a
 		if = {
-			limit = { exists = c:CHI }
+			limit = { exists = c:CHU }
 			change_relations = {
-				country = c:CHI
+				country = c:CHU
 				value = -20
 			}
 		}
@@ -1085,9 +1085,9 @@ jaep.12 = {
 	option = {
 		name = jaep.12.b
 		if = {
-			limit = { exists = c:CHI }
+			limit = { exists = c:CHU }
 			change_relations = {
-				country = c:CHI
+				country = c:CHU
 				value = 15
 			}
 		}

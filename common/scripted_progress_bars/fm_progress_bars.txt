@@ -10,3 +10,198 @@ sassanid_civ_war_progress_bar = {
 	max_value = 8
 
  }
+yag_progress_bar = {
+	name = "yag_progress_bar"
+	desc = "yag_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_technology_researched = standing_army 
+			}
+			add = {
+				value = -5
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					is_enacting_law = law_type:law_autocracy
+					is_enacting_law = law_type:law_single_party_state
+					is_enacting_law = law_type:law_landed_voting
+					is_enacting_law = law_type:law_wealth_voting
+					is_enacting_law = law_type:law_anarchy
+					is_enacting_law = law_type:law_census_voting
+					is_enacting_law = law_type:law_universal_suffrage
+					is_enacting_law = law_type:law_technocracy
+				}
+			}
+			add = {
+				value = -40
+			}
+		}
+	}
+
+	start_value = 210
+	min_value = 0
+	max_value = 500
+
+ }
+
+ yag_kau_progress_bar = {
+	name = "yag_kau_progress_bar"
+	desc = "yag_kau_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 35
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_thura_progress_bar = {
+	name = "yag_thura_progress_bar"
+	desc = "yag_thura_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 15
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_nuy_progress_bar = {
+	name = "yag_nuy_progress_bar"
+	desc = "yag_nuy_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 5
+	min_value = 0
+	max_value = 200
+
+ }
+
+ yag_nor_progress_bar = {
+	name = "yag_nor_progress_bar"
+	desc = "yag_nor_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress  = {
+		if = {
+			limit = {
+				has_law = law_type:law_national_supremacy
+			}
+			add = {
+				value = 3 
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_racial_segregation
+			}
+			add = {
+				value = 5
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_cultural_exclusion
+			}
+			add = {
+				value = 10
+			}
+		}
+	}
+
+	start_value = 25
+	min_value = 0
+	max_value = 200
+
+ }

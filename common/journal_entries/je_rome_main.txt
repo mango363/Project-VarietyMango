@@ -135,7 +135,7 @@ je_mare_nostrum = {
 			}
 		}
 		any_scope_state = {
-			count >= 14
+			count >= 10
 			AND = {
 				region = sr:region_italy
 				owner = ROOT

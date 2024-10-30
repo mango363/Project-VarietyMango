@@ -204,10 +204,6 @@ identity_sovereign_empire = {
 	icon = "gfx/interface/icons/central_identity_pillars_icons/sovereign_empire.dds"
 	background = "gfx/interface/power_blocs/backgrounds/pb_background_generic.dds"
 
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
 	on_created = { relations_hit_with_power_bloc_leaders = yes }
@@ -339,9 +335,6 @@ identity_ideological_union = {
 	icon = "gfx/interface/icons/central_identity_pillars_icons/ideological_union.dds"
 	background = "gfx/interface/power_blocs/backgrounds/pb_background_generic.dds"
 
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
@@ -503,9 +496,6 @@ identity_military_treaty_organization = {
 	icon = "gfx/interface/icons/central_identity_pillars_icons/military_treaty_organization.dds"
 	background = "gfx/interface/power_blocs/backgrounds/pb_background_generic.dds"
 
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
@@ -672,10 +662,6 @@ identity_religious = {
 
 	icon = "gfx/interface/icons/central_identity_pillars_icons/religious.dds"
 	background = "gfx/interface/power_blocs/backgrounds/pb_background_generic.dds"
-
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	

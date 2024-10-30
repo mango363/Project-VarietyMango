@@ -23,5 +23,19 @@ CHARACTERS = {
 				set_variable = is_married
 			}
 		}
+		create_character = {
+			# Gregory XVI
+			first_name = "Fulvio"
+			last_name = "Andronico"
+			historical = yes
+			ruler = yes
+			birth_date = 1765.9.18
+			dna = dna_pope_gregory_16
+			interest_group = ig_devout
+			ideology = ideology_theocrat
+			traits = {
+				imperious
+			}
+		}
 	}
 }

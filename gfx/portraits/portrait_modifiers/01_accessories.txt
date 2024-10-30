@@ -342,7 +342,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = per_nasir_al_din_qajar_template
@@ -623,7 +623,7 @@
                 scope:character ?= {
                     is_ruler = yes
                     owner ?= {
-                        c:CHI ?= this
+                        c:CHU ?= this
                         has_law = law_type:law_monarchy
                     }
                 }
@@ -718,7 +718,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -763,7 +763,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -807,7 +807,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -851,7 +851,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -906,7 +906,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     european_clothes_trigger = yes
@@ -959,7 +959,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     european_clothes_trigger = yes
@@ -1034,7 +1034,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1094,7 +1094,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1156,7 +1156,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1214,7 +1214,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1276,7 +1276,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1334,7 +1334,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1396,7 +1396,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1453,7 +1453,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1514,7 +1514,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1565,7 +1565,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1629,7 +1629,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1693,7 +1693,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1757,7 +1757,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1821,7 +1821,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -1908,7 +1908,7 @@
                             has_trait = engineer
                         }
                         AND = {
-                            has_dlc_feature = ep1_cosmetics
+                            
                             OR = {
                                 has_trait = erudite
                                 has_trait = literary
@@ -1964,7 +1964,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -2049,7 +2049,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = no
                 monarchy_clothes_trigger = yes
@@ -2086,7 +2086,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = yes
                 OR = {
@@ -2137,7 +2137,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = yes
                 OR = {
@@ -2188,7 +2188,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = yes
                 OR = {
@@ -2239,7 +2239,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = yes
                 OR = {
@@ -2290,7 +2290,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 republic_clothes_trigger = yes
                 OR = {

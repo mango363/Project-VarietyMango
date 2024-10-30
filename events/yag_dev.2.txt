@@ -1,0 +1,36 @@
+namespace = yag_dev
+yag_dev.2 = {
+	type = country_event
+	placement = root
+	title = yag_dev.2.t
+	desc = yag_dev.2.d
+	flavor = yag_dev.2.f
+	hidden = yes
+
+	duration = 1
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	event_image = {
+		video = "asia_confucianism_shinto"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	option = {
+		name = yag_dev.2.a
+		default_option = yes
+	}
+
+	immediate = {
+		if = {
+			limit = { 
+				NOT = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(yag_progress_bar)" <= 100
+					} 
+				}
+			}
+			remove_modifier = diplomatic_plays_blocked
+		}
+	}
+}

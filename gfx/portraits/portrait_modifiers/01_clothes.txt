@@ -1933,7 +1933,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = PER_reza_pahlavi
@@ -1944,7 +1944,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     AND = {
@@ -2033,7 +2033,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = per_nasir_al_din_qajar_template
@@ -2066,7 +2066,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = gbr_george_curzon
@@ -2075,7 +2075,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -2106,7 +2106,7 @@
             modifier = {
                 add = 90000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     has_template = KOR_empress_myeongseong
@@ -2726,7 +2726,7 @@
                         }
                     }
                     owner ?= {
-                        has_dlc_feature = ep1_cosmetics
+                        
                         has_technology_researched = bolt_action_rifles
                     }
                 }
@@ -2735,7 +2735,7 @@
                 # Russian Late Military Uniform
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 c:RUS ?= {
                     has_technology_researched = bolt_action_rifles
@@ -2932,7 +2932,7 @@
             modifier = {
                 add = 15000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 c:USA ?= {
                     NOT = { has_technology_researched = rifling }
@@ -3073,7 +3073,7 @@
             modifier = {
                 add = 25000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 c:USA ?= {
                     has_technology_researched = bolt_action_rifles
@@ -3378,8 +3378,8 @@
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
-                has_dlc_feature = voice_of_the_people_content
+                
+
 
                 french_empire_clothes_pop_trigger = yes
                 OR = {
@@ -3394,8 +3394,8 @@
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
-                has_dlc_feature = voice_of_the_people_content
+                
+
 
                 scope:character ?= {
                     age >= define:NCharacters|ADULT_AGE
@@ -3543,7 +3543,7 @@
             modifier = {
                 add = 10000
 
-                NOT = { has_dlc_feature = ep1_cosmetics }
+                NOT = {  }
 
                 exists = c:EGY
                 scope:character ?= {
@@ -3583,7 +3583,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 exists = c:EGY
                 scope:character ?= {
@@ -3682,7 +3682,7 @@
             modifier = {
                 add = 15000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     age >= define:NCharacters|ADULT_AGE
@@ -3707,7 +3707,7 @@
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:pop ?= {
                     OR = {
@@ -3748,7 +3748,7 @@
             modifier = {
                 add = 20000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     age >= define:NCharacters|ADULT_AGE
@@ -3796,7 +3796,7 @@
             modifier = {
                 add = 15000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 russian_empire_clothes_pop_trigger = yes
                 OR = {
@@ -4399,7 +4399,7 @@
             modifier = {
                 add = 5000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -5959,7 +5959,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 british_empire_clothes_pop_trigger = yes
                 soldier_clothes_pop_trigger = yes
@@ -6009,9 +6009,9 @@
 
                 c:GBR ?= {
                     OR = {
-                        NOT = { has_dlc_feature = ep1_cosmetics }
+                        NOT = {  }
                         AND = {
-                            has_dlc_feature = ep1_cosmetics
+                            
                             has_technology_researched = repeaters
                             NOT = { has_technology_researched = bolt_action_rifles }
                         }
@@ -6060,7 +6060,7 @@
             modifier = {
                 add = 12000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 british_empire_clothes_pop_trigger = yes
                 OR = {
@@ -6075,7 +6075,7 @@
             modifier = {
                 add = 12000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 british_empire_clothes_trigger = yes
 
@@ -6566,7 +6566,7 @@
             modifier = {
                 add = 1000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_ruler = yes
@@ -6595,7 +6595,7 @@
             modifier = {
                 add = 1000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 scope:character ?= {
                     is_heir = yes
@@ -6630,7 +6630,7 @@
             modifier = {
                 add = 1000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     scope:pop ?= {
@@ -7353,7 +7353,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = rp1_content
+
 
                 OR = {
                     politician_clothes_trigger = yes
@@ -7374,7 +7374,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = rp1_content
+
 
                 south_american_clothes_pop_trigger = yes
                 scope:pop ?= {
@@ -7512,7 +7512,7 @@
             modifier = {
                 add = 10000
 
-                has_dlc_feature = ep1_cosmetics
+                
 
                 OR = {
                     european_clothes_trigger = yes

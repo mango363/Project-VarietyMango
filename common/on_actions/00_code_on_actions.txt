@@ -1106,56 +1106,7 @@ on_spreading_technology = {
 # scope:initiator = Initiator of the play
 # scope:target = Target of the play
 on_diplomatic_play_started = {
-	effect = {
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_germany
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = GER
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_italy
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = ITA
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_diplomatic_play_type = dp_unify_scandinavia
-			}
-			every_country = {
-				limit = {
-					is_supporting_unification_candidate = {
-						who = scope:initiator
-						country_formation = SCA
-					}
-				}
-				scope:initiator = {
-					annex = prev
-				}
-			}
-		}
-	}
+
 }
 
 # Root = Character
@@ -2239,6 +2190,14 @@ on_capitulation = {
 			name = recently_lost_war
 			days = 1825
 			value = yes
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_yag_main
+			}
+			je:je_yag_main = {
+				add_progress = { value = -50 name = yag_progress_bar }
+			}
 		}
 	}
 }
@@ -3576,6 +3535,14 @@ on_wargoal_enforced = {
 			set_variable = {
 				name = enforced_wargoal_on_enemy
 				days = 90
+			}
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_yag_main
+			}
+			je:je_yag_main = {
+				add_progress = { value = 20 name = yag_progress_bar }
 			}
 		}
 		set_variable = {
