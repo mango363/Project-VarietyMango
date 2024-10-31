@@ -1075,6 +1075,9 @@ formation.17 = {
 			c:UNL ?= THIS
 			c:RHU ?= THIS
 			c:GPO ?= THIS
+			c:KWO ?= THIS
+			c:SHU ?= THIS
+			c:WER ?= THIS
 		}
 	}
 
@@ -1100,6 +1103,7 @@ formation.17 = {
 			name = unification_prestige
 			months = very_long_modifier_time
 		}
+		unification_claims_effect = yes
 		ai_chance = {
 			factor = 1
 		}
