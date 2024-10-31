@@ -1545,6 +1545,8 @@
 	s:STATE_MATO_GROSSO={
 		region_state:AGA={
 		}
+		region_state:PUR={
+		}
 		region_state:AMZ={
 		}
 	}

@@ -502,8 +502,8 @@ ARA = { # Arabia
 
 AGA = { # Argentina
 	flag_definition = {
-		coa = AGA
-		subject_canton = AGA
+		coa = ARG_absolute_monarchy
+		subject_canton = ARG_absolute_monarchy
 		coa_with_overlord_canton = ARG_subject
 		allow_overlord_canton = yes		
 		priority = 1
@@ -526,14 +526,6 @@ AGA = { # Argentina
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = ARG_absolute_monarchy
-		subject_canton = ARG_absolute_monarchy
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {

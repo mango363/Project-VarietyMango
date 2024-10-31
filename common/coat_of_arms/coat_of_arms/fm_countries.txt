@@ -2446,6 +2446,11 @@ AGA = { # Argentina
 	}	
 	
 	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow" 
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
 		texture = "ce_inti.dds"
 		color1 = "yellow"
 		color2 = "yellow"
@@ -2538,8 +2543,27 @@ ARG_republic = {
 		texture = "ce_inti.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.3 0.3 } position = { 0.13 0.5 } }
 	}	
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow" 
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_celestial_sphere_brazil.dds"
+		color1 = "azure"
+		color2 = "green"
+		color3 = "white"
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_sol_de_mayo.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.87 0.5 } }
+	}	
+
 }
 ARG_absolute_monarchy = {	
 	pattern = "pattern_horizontal_split_01.tga"
@@ -20218,7 +20242,7 @@ NIA= { # Portugal
 
 	textured_emblem = {
 		texture = "te_coa_moz.dds"
-		instance = { scale = { 0.6 0.6 } position = { 0.7 0.5 } }
+		instance = { scale = { 0.6 0.6 } position = { 0.74 0.5 } }
 	}
 }
 

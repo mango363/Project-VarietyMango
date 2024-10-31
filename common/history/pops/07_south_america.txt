@@ -678,6 +678,20 @@ POPS = {
 				size = 300
 			}
 		}
+		region_state:PUR = {
+			create_pop = {
+				culture = amazonian
+				size = 3000
+			}
+			create_pop = {
+				culture = guarani
+				size = 2000
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 300
+			}
+		}
 		region_state:AMZ = {
 			create_pop = {
 				culture = brazilian

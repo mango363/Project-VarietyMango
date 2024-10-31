@@ -2703,7 +2703,7 @@ AGA = {
 	
 	tier = kingdom
 	
-	cultures = { argentino }
+	cultures = { argentino platinean brazilian }
 	capital = STATE_BUENOS_AIRES
 }
 
