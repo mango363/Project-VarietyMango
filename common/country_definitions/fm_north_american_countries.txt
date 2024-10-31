@@ -21,7 +21,7 @@ CAD = {
 	tier = kingdom
 
 	cultures = { na_caddoan }
-	capital = STATE_ARKANSAS
+	capital = STATE_OKLAHOMA
 }
 
 CAH = {
