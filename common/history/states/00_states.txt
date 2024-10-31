@@ -1043,6 +1043,7 @@ STATES = {
 		
 		add_homeland = cu:hungarian
 		add_homeland = cu:romanian
+		add_homeland = cu:szekely
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
 		create_state = {
@@ -1059,7 +1060,8 @@ STATES = {
 		}
 		
 		add_homeland = cu:hungarian
-		add_homeland = cu:romanian		
+		add_homeland = cu:romanian
+		add_homeland = cu:szekely		
 	}
 	s:STATE_MOLDAVIA = {
 		create_state = {

@@ -378,7 +378,7 @@ sunni_aspect_1_mdf = {
 
 sunni_aspect_2_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conscription_rate_mult = 0.05
+	state_conscription_rate_mult = 0.02
 	unit_morale_recovery_mult = 0.15
 	unit_offense_mult = 0.05
 }
@@ -391,7 +391,7 @@ sunni_aspect_3_mdf = {
 sunni_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_prestige_from_army_power_projection_mult = 0.05
-	unit_army_defense_mult = 0.15
+	unit_army_defense_mult = 0.1
 }
 
 sunni_aspect_5_mdf = {
