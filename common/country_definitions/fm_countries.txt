@@ -161,16 +161,6 @@ PRI = { ## provence
 	capital = STATE_RHONE
 }
 
-CWL = { ## Cornwall
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { british }
-	capital = STATE_WEST_COUNTRY
-}
 HSE = { # Avignon
 	color = { 178 191 214 }
 	
