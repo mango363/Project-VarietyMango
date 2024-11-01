@@ -853,7 +853,7 @@
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 200000
+				size = 100000
 			}
 		}
 		region_state:CAD = {
@@ -863,7 +863,7 @@
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 400000
+				size = 500000
 			}
 		}
 		region_state:AT1 = {
@@ -1058,6 +1058,14 @@
 				size = 500000
 			}
 		}
+
+		region_state:YMN = {
+			create_pop = {
+				culture = na_yuman
+				size = 100000
+			}
+		}
+
 	}
 	# 1M
 	s:STATE_ARIZONA = {
