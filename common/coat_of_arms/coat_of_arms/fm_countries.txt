@@ -2464,6 +2464,7 @@ AGA = { # Argentina
 		instance = { scale = { 0.3 0.3 } position = { 0.88 0.89 } }		
 	}			
 }
+
 #ARG_early = {
 #	# 1818-29 Flag (light blue with larger central stripe)
 #
@@ -2486,33 +2487,12 @@ AGA = { # Argentina
 #	}	
 #}
 
-ARG_welsh = {	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }		
-	}	
-	
-	
-	colored_emblem = {
-		texture = "ce_dragon_wales.dds"
-		color1 = "red"
-		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }		
-	}	
-}
 
-ARG_dictatorship = {
+AGA_dictatorship = {
 	# 1829 Flag
 	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "green"
 	
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
@@ -2527,45 +2507,34 @@ ARG_dictatorship = {
 		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
 	}	
 }
-ARG_republic = {
+AGA_republic = {
 	# Modern flag
 	
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = "green"
 	
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "white"
-		color2 = "blue_light"
+		color2 = "blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}	
+		
 	
 	colored_emblem = {
 		texture = "ce_inti.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { scale = { 0.3 0.3 } position = { 0.13 0.5 } }
-	}	
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "yellow" 
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_celestial_sphere_brazil.dds"
-		color1 = "azure"
-		color2 = "green"
-		color3 = "white"
-		instance = { scale = { 0.46 0.46 } position = { 0.5 0.5 } }		
-	}	
-	colored_emblem = {
-		texture = "ce_sol_de_mayo.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.3 0.3 } position = { 0.87 0.5 } }
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}	
 
 }
-ARG_absolute_monarchy = {	
+AGA_absolute_monarchy = {	
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "white"
 	color2 = "blue_light"
@@ -2584,8 +2553,8 @@ ARG_absolute_monarchy = {
 	}		
 	colored_emblem = {
 		texture = "ce_frame_circle.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
+		color1 = "green"
+		color2 = "green"
 		instance = { scale = { 0.4 0.5 } position = { 0.5 0.5 } }
 	}		
 	colored_emblem = {
@@ -2618,73 +2587,25 @@ ARG_absolute_monarchy = {
 		color2 = "yellow"		
 	}		
 }
-ARG_subject = {	
+AGA_subject = {	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "white"	
-
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
-		color1 = "yellow"
-		color2 = "yellow"		
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		instance = { scale = { 0.47 0.47 } position = { 0.75 0.5 } }
-		color1 = "blue_light"
-		color2 = "blue_light"		
-	}
-	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "brown_light"
-		color2 = "yellow"
-		instance = { scale = { 0.505 0.505 } position = { 0.75 0.5 } }
-	}	
-	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.498 } }
-	}	
-}
-ARG_subject_ESP = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 1.0 0.33 } position = { 0.5 0.5 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { scale = { 0.5 1.0 } position = { 0.5 0.5 } }		
-	}	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.25 1.0 } position = { 0.5 0.5 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
-	}	
-}
-ARG_communist = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = "green"
 	
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "white"
-		color2 = "blue_light"
+		color2 = "blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+AGA_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "blue"
 	}	
 	
 	colored_emblem = {
@@ -2693,39 +2614,6 @@ ARG_communist = {
 		color2 = "red"
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}	
-}
-ARG_fascist = {	
-	# Nacionalistas
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-	}	
-}
-ARG_subject_USA = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue_light"
-	}
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0 0.5 } }
-		color1 = "red"
-		color2 = "red"		
-	}	
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.175 0.5 } }
-		color1 = "white"
-		color2 = "white"		
-	}		
 }
 
 ARM = {
@@ -21543,7 +21431,60 @@ SCH = { # Schleswig
 		color1 = "yellow"
 		color2 = "yellow"
 	}
+	
 }
+
+SCU = {
+	sub = {
+		parent = "sub_SCO" 
+	}
+}
+SCU_theocracy = {
+	# similar to the Covenanters flags
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+SCU_coa = {
+	sub = {
+		parent = "sub_SCO_coa" 
+		#instance = { scale = { 0.5 0.5 }  } # top left
+	}
+}
+SCU_military = {
+	# royal SCUts navy
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	sub = {
+		parent = "sub_SCO" 
+		instance = { scale = { 0.5 0.5 }  } # top left
+	}
+}
+SCU_fascist = {		
+	# Inspired from SCUttish Dawn
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_rune_algiz.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
 
 SCN = {
 	pattern = "pattern_solid.tga"
@@ -26426,7 +26367,7 @@ MNN={
 	}
 }
 
-NVS = { # Nova Scotia
+NOS = { # Nova Scotia
 
 	pattern = "pattern_per_saltire.dds"
 	color1 = "white"

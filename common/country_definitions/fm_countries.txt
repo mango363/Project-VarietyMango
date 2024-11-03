@@ -684,7 +684,7 @@ PUR = {
 	capital = STATE_ESTREMADURA
 }
 
-SCO = {
+SCU = {
 	color = { 56 122 166 }
 	
 	country_type = recognized
@@ -2664,7 +2664,7 @@ TEX = {
 	is_named_from_capital = yes
 }
 
-NVS = {
+NOS = {
 	color = { 90 175 255 }
 	
 	country_type = colonial
@@ -2694,6 +2694,17 @@ AGA = {
 	tier = kingdom
 	
 	cultures = { argentino platinean brazilian }
+	capital = STATE_BUENOS_AIRES
+}
+
+ARG = {
+	color = { 101 114 135 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { argentino }
 	capital = STATE_BUENOS_AIRES
 }
 

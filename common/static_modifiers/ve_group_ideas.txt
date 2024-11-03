@@ -75,14 +75,16 @@ diplomatic_idea_7_mdf = {
 
 offensive_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_dragoons_offense_mult = 0.5
-	unit_combat_unit_type_cuirassiers_offense_mult = 0.5
-	unit_combat_unit_type_lancers_offense_mult = 0.5
+	unit_combat_unit_type_dragoons_offense_mult = 0.2
+	unit_combat_unit_type_cuirassiers_offense_mult = 0.2
+	unit_combat_unit_type_lancers_offense_mult = 0.2
+
 }
 
 offensive_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_offense_flat_mult = 0.25
+	unit_offense_flat_mult = 0.1
+	unit_offense_forested_mult = -0.1
 }
 
 offensive_idea_3_mdf = {
@@ -93,9 +95,9 @@ offensive_idea_3_mdf = {
 
 offensive_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_dragoons_defense_mult = 0.5
-	unit_combat_unit_type_cuirassiers_defense_mult = 0.5
-	unit_combat_unit_type_lancers_defense_mult = 0.5
+	unit_combat_unit_type_dragoons_defense_mult = 0.25
+	unit_combat_unit_type_cuirassiers_defense_mult = 0.25
+	unit_combat_unit_type_lancers_defense_mult = 0.25
 }
 
 offensive_idea_5_mdf = {
@@ -201,6 +203,7 @@ defensive_idea_1_mdf = {
 defensive_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	battle_defense_owned_province_mult = 0.1
+	unit_defense_developed_mult = 0.15
 }
 
 defensive_idea_3_mdf = {
@@ -451,6 +454,7 @@ militarization_idea_3_mdf = {
 militarization_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_supply_consumption_mult = -0.2
+	unit_defense_forested_mult = 0.1
 }
 
 militarization_idea_5_mdf = {
@@ -563,8 +567,9 @@ imperialist_idea_1_mdf = {
 
 imperialist_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_provinces_captured_mult = 0.25
+	unit_provinces_captured_mult = 0.2
 	unit_offense_elevated_mult = 0.1
+	unit_defense_flat_mult = -0.1
 }
 
 imperialist_idea_3_mdf = {
@@ -584,13 +589,12 @@ imperialist_idea_4_mdf = {
 imperialist_idea_5_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_supply_consumption_mult = -0.05
-	unit_defense_elevated_mult = 0.2
+	unit_defense_elevated_mult = 0.15
 }
 
 imperialist_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_offense_developed_mult = 0.15
-	unit_offense_flat_mult = 0.1
+	unit_offense_developed_mult = 0.1
 }
 
 imperialist_idea_7_mdf = {

@@ -209,7 +209,7 @@
 				size = 683202
 			}
 		}
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 833202
@@ -248,7 +248,7 @@
 				size = 43296
 			}
 		}
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 423296
@@ -265,7 +265,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 1472396
@@ -331,7 +331,7 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 1697200
@@ -443,12 +443,12 @@
 		region_state:NUR = {
 			create_pop = {
 				culture = french
-				size = 1170494
+				size = 190548
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 609745
+				size = 451032
 			}
 			create_pop = {
 				culture = breton
@@ -460,7 +460,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 568745
+				size = 1568745
 			}
 		}
 	}

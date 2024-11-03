@@ -15159,7 +15159,7 @@ mexican={
 central_american={
 	color= hsv{ 0.51 0.21 0.67 }
 	religion = protestant
-	traits = { anglophone american_settler european_heritage }
+	traits = { celtic_people american_settler european_heritage }
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
 		Benjamin

@@ -116,9 +116,9 @@
 			type = dominion
 		}
 	}
-	c:SCO = {
+	c:SCU = {
 		create_diplomatic_pact = {
-			country = c:NVS
+			country = c:NOS
 			type = dominion
 		}
 	}

@@ -1,0 +1,34 @@
+je_aga_main = {
+	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	group = je_group_historical_content
+
+	scripted_progress_bar = aga_progress_bar
+	complete = {
+		custom_tooltip = {
+			text = aga_tool1
+			has_variable = var_agam
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_aga.2
+		}
+	}
+	should_be_pinned_by_default = yes
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					scope:journal_entry = { 
+						"scripted_bar_progress(aga_progress_bar)" >= 200
+					}
+				 }
+				 set_variable = {
+					name = var_agam
+					days = 10
+				}
+			}
+		}
+	}
+}

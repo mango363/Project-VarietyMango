@@ -1,6 +1,6 @@
 objective_rising = {
 	enabled_background = "gfx/interface/icons/objectives/rising_po.dds"
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/invention_icons/artillery.dds"
 	
 	recommended_tags = { FRU ENG LOT CAS KAR SWU SAE BOH BAY FUN WRS SHW SOK BUD TOU LIT COH SER IRE LLO PUM HEN DCQ FLA ARM BUL ZUR }
 
@@ -23,7 +23,7 @@ objective_new_world = {
 
 objective_crumbling = {
 	enabled_background = "gfx/interface/icons/objectives/crumbling_po.dds"
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
 	
 	recommended_tags = { KOR ODU SAU YAG YUE GUC NCL TAC }	
 

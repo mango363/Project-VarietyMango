@@ -88,7 +88,7 @@
 		}
 	}
 
-	c:NVS = {
+	c:NOS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_central_america

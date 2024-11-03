@@ -80,10 +80,10 @@
 	}
 	c:IRE ?= {
 		set_relations = { country = c:ENG value = -25 }
-		set_relations = { country = c:SCO value = 25 }
+		set_relations = { country = c:SCU value = 25 }
 		set_relations = { country = c:WLS value = 50 }
 	}
-	c:SCO ?= {
+	c:SCU ?= {
 		set_relations = { country = c:ENG value = -25 }
 		set_relations = { country = c:WLS value = 25 }
 	}

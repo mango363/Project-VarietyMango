@@ -992,12 +992,12 @@
 		}
 	}
 	s:STATE_LANCASHIRE = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1008,7 +1008,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1019,7 +1019,7 @@
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1030,7 +1030,7 @@
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1041,7 +1041,7 @@
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1052,7 +1052,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1063,7 +1063,7 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1074,7 +1074,7 @@
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=5
 					}
 				}
@@ -1233,12 +1233,12 @@
 		}
 	}
 	s:STATE_YORKSHIRE = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1249,7 +1249,7 @@
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=4
 					}
 				}
@@ -1260,7 +1260,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1316,12 +1316,12 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=3
 					}
 				}
@@ -1332,7 +1332,7 @@
 				building="building_paper_mills"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1343,7 +1343,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1354,7 +1354,7 @@
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1365,7 +1365,7 @@
 				building="building_whaling_station"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1376,7 +1376,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1387,7 +1387,7 @@
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1398,7 +1398,7 @@
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1409,7 +1409,7 @@
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1420,7 +1420,7 @@
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1431,7 +1431,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1728,12 +1728,12 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1744,7 +1744,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1755,7 +1755,7 @@
 				building="building_food_industry"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1766,7 +1766,7 @@
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1777,7 +1777,7 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1788,7 +1788,7 @@
 				building="building_sulfur_mine"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1799,7 +1799,7 @@
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=12
 					}
 				}
@@ -1810,7 +1810,7 @@
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=2
 					}
 				}
@@ -1821,7 +1821,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1832,7 +1832,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}
@@ -1843,7 +1843,7 @@
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:SCO"
+						country="c:SCU"
 						levels=1
 					}
 				}

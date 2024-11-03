@@ -61,7 +61,7 @@ AZB = {
 	ai_will_do = { always = no }
 }
 
-SCO = {
+SCU = {
 	states = { 
 		STATE_LOWLANDS
 		STATE_HIGHLANDS
@@ -1039,7 +1039,7 @@ SIC = {
 	ai_will_do = { always = no }
 }
 
-NVS = {
+NOS = {
 	use_culture_states = yes
 	required_num_states = 3
 	
@@ -1637,63 +1637,17 @@ SIA = {
 	ai_will_do = { always = no }
 }
 
-DES = {
-	states = {
-		STATE_UTAH
-	}
-	ai_will_do = { always = no }
-}
-
-ONT = {
-	states = {
-		STATE_ONTARIO
-	}
-	ai_will_do = { always = no }
-}
-
-BOL = {
-	states = {
-		STATE_SANTA_CRUZ
-		STATE_POTOSI
-		STATE_LA_PAZ
-		STATE_ACRE
-		STATE_ANTOFAGASTA
-	}
-	ai_will_do = { always = no }
-}
 
 BRZ = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-CHL = {
-	states = {
-		STATE_SANTIAGO
-		STATE_LOS_RIOS
-	}
+ARG = {
+	use_culture_states = yes
+	
 	ai_will_do = { always = no }
 }
-
-ECU = {
-	states = {
-		STATE_ECUADOR
-		STATE_PASTAZA
-	}
-	ai_will_do = { always = no }
-}
-
-PEU = {
-	states = {
-		STATE_LIMA
-		STATE_CAJAMARCA
-		STATE_ICA
-		STATE_AREQUIPA
-		STATE_TARAPACA
-	}
-	ai_will_do = { always = no }
-}
-
 
 URU = {
 	states = {
@@ -1704,14 +1658,6 @@ URU = {
 	ai_will_do = { always = no }
 }
 
-VNZ = {
-	states = {
-		STATE_MIRANDA
-		STATE_BOLIVAR
-		STATE_ZULIA
-	}
-	ai_will_do = { always = no }
-}
 
 ORG = {
 	states = {

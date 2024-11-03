@@ -355,8 +355,8 @@ coa_def_dominant_scotland_trigger = {
 			}			
 		}
 		AND = {
-			exists = c:SCO
-			c:SCO ?= { save_temporary_scope_as = custom_overlord }
+			exists = c:SCU
+			c:SCU ?= { save_temporary_scope_as = custom_overlord }
 			coa_def_ensign_trigger = yes
 		}		
 	}

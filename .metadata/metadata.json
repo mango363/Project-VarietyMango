@@ -2,7 +2,7 @@
   "name" : "Project Variety - Alpha",
   "id" : "",
   "version" : "0.7 Rise of the East",
-  "supported_game_version" : "1.7.7",
+  "supported_game_version" : "1.7.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

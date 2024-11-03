@@ -1,7 +1,7 @@
 ﻿welsh={
 	color= rgb{ 117 127 174 }
 	religion = protestant
-	traits = { anglophone celtic_people european_heritage }
+	traits = { celtic_people european_heritage }
 	
 	male_common_first_names={
 		Abraham Abel Arthur
@@ -93,7 +93,7 @@
 scottish={
 	color={ 72 79 127 }
 	religion = protestant
-	traits = { anglophone european_heritage }
+	traits = { celtic_people european_heritage }
 	
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan

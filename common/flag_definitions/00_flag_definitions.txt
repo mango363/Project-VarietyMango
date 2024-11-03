@@ -502,16 +502,16 @@ ARA = { # Arabia
 
 AGA = { # Argentina
 	flag_definition = {
-		coa = ARG_absolute_monarchy
-		subject_canton = ARG_absolute_monarchy
-		coa_with_overlord_canton = ARG_subject
+		coa = AGA_absolute_monarchy
+		subject_canton = AGA_absolute_monarchy
+		coa_with_overlord_canton = AGA_subject
 		allow_overlord_canton = yes		
 		priority = 1
 	}
 	flag_definition = {
-		coa = ARG_republic
-		subject_canton = ARG_republic
-		coa_with_overlord_canton = ARG_subject
+		coa = AGA_republic
+		subject_canton = AGA_republic
+		coa_with_overlord_canton = AGA_subject
 		allow_overlord_canton = yes			
 		priority = 10
 		trigger = { 
@@ -519,9 +519,9 @@ AGA = { # Argentina
 		}
 	}	
 	flag_definition = {
-		coa = ARG_dictatorship
-		subject_canton = ARG_dictatorship
-		coa_with_overlord_canton = ARG_subject
+		coa = AGA_dictatorship
+		subject_canton = AGA_dictatorship
+		coa_with_overlord_canton = AGA_subject
 		allow_overlord_canton = yes			
 		priority = 20
 		trigger = {
@@ -529,32 +529,10 @@ AGA = { # Argentina
 		}
 	}	
 	flag_definition = {
-		coa = ARG_communist
+		coa = AGA_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = ARG_subject_ESP
-		priority = 30
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = ARG_fascist
-		subject_canton = ARG_fascist
-		priority = 1500
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = ARG_subject_USA		
-		priority = 50
-		trigger = { 
-			coa_def_american_ensign_trigger = yes
 		}
 	}	
 }	
@@ -3458,7 +3436,7 @@ UKK = { # Great Britain / United Kingdom
 	}
 }
 
-SCO = {
+SCU = {
 
 
 }
@@ -8519,9 +8497,9 @@ TUS = { # Tuscany
 	}		
 }	
 
-NVS = { # Nova Scotia
+NOS = { # Nova Scotia
 	flag_definition = {
-		coa = NVS			
+		coa = NOS			
 		priority = 1
 	}
 }
