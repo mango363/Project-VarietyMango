@@ -1124,7 +1124,7 @@
 		region_state:SIS = {
 			create_pop = {
 				culture = na_shapwailutan
-				size = 300000
+				size = 200000
 			}
 			create_pop = {
 				culture = na_pacific_athabaskan
@@ -1136,6 +1136,12 @@
 			}
 			create_pop = {
 				culture = na_paiute
+				size = 100000
+			}
+		}
+		region_state:SSH = {
+			create_pop = {
+				culture = na_colorado_numic
 				size = 100000
 			}
 		}
