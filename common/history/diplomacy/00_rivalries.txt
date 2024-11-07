@@ -70,6 +70,21 @@
 			type = rivalry
 		}
 	}
+
+	# North America
+	c:FOU = {
+		create_diplomatic_pact = {
+			country = c:IQS
+			type = rivalry
+		}
+	}
+
+	c:IQS = {
+		create_diplomatic_pact = {
+			country = c:FOU
+			type = rivalry
+		}
+	}
 }	
 
 

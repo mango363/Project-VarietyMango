@@ -84,3 +84,19 @@ DIPLOMACY = {
 		}
 	}
 }
+
+# North America
+DIPLOMACY = {
+	c:IQS = {
+		create_bidirectional_truce = {
+			country = c:AMC
+			months = 48
+		}
+	}
+	c:IQS = {
+		create_bidirectional_truce = {
+			country = c:FOU
+			months = 48
+		}
+	}
+}
