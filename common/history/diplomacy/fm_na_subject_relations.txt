@@ -2,7 +2,7 @@ DIPLOMACY = {
 	c:IQS = {
 		create_diplomatic_pact = {
 			country = c:SWN
-			type = dominion
+			type = vassal
 		}
 	}
 }

@@ -1,0 +1,32 @@
+je_buy_cuba_button = {
+	name = "je_buy_cuba_button"
+	desc = "je_buy_cuba_button_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 20
+	}
+	possible = {
+		custom_tooltip = {
+			text = cuba_purchase_text
+			NOT = {
+				has_variable = variable_cuba
+				has_modifier = modifier_flu_no_cuba
+			}
+
+		}
+	}
+	effect = {
+		c:CAS = {
+			trigger_event = {
+				id = fm_cas.8
+				days = 30
+			}
+		}
+
+		set_variable = {
+			name = variable_cuba
+		}
+	}
+}

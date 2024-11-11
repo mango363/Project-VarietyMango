@@ -197,4 +197,11 @@
 			type = tributary
 		}
 	}
+
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = dominion
+		}
+	}
 }

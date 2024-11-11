@@ -224,7 +224,7 @@
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:CAS = {
+		region_state:CUB = {
 			# 896400
 			create_pop = {
 				culture = caribeno
