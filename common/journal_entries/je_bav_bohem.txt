@@ -365,30 +365,14 @@ je_ger_conf = {
 		owns_entire_state_region = STATE_RUHR
 		owns_entire_state_region = STATE_RHINELAND
 		owns_entire_state_region = STATE_NORTH_RHINE
-	}
-	OR = {
-		AND = {
-			owns_entire_state_region = STATE_SAXONY
-			owns_entire_state_region = STATE_ANHALT
-			owns_entire_state_region = STATE_BRANDENBURG
-			owns_entire_state_region = STATE_MECKLENBURG
-			owns_entire_state_region = STATE_POMERANIA
-		}
-		c:LOT = {
-			is_subject_of = ROOT
-			relations:ROOT > relations_threshold:cordial
-		}
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_BRANDENBURG
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_POMERANIA
 		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
-		if = {
-			limit = {
-				c:LOT = {
-					is_subject_of = ROOT
-				}
-			}
-			annex = c:LOT
-		}
 		change_tag = GRO
 		trigger_event = {
 			id = fm_bavaria.7

@@ -13,7 +13,7 @@ types topbar_components
 {
 	### SECONDARY ICONS
 	type topbar_secondary_icons = container {
-		position = { 130 40 }
+		position = { 120 40 }
 		flowcontainer = {
 			direction = vertical
 			spacing = 1

@@ -40,7 +40,7 @@
  je_ngf_reason:0 "The time has come to unite all north german people"
 
  je_german_conf:0 "A Country for all the Germans"
- je_german_conf_reason:0 "We can form Germany either through diplomacy or war.\nWar will be needed for the rhineland region, but there might be another solution for Bavaria;\nif they accept to become our subject and we keep good relations with them, we will be able to annex their lands peacefully."
+ je_german_conf_reason:0 "#V At the dawn of a new era, the time has come for all German souls, scattered like stars across the vast expanse, to rise in unison beneath a single, resplendent flag.#!"
 
  je_a_kingdom_for_ngp_pum:0 "A Kingdom for the North Germans"
  je_a_kingdom_for_ngp_pum_reason:0 "In order to become the Kingdom of Germania, we must first reclaim all its de jure lands."
@@ -120,7 +120,7 @@ je_bav_nat_reason:0 "Nationalism is on the rise in all german lands;\nThose move
 je_sgf:0 "The South German Federation"
 je_sgf_reason:0 "South german people can be found in Bohemia, Hungary, Slovenia and north Italy; the south german people has never been a united people, therefore gathering all of it under one nation can be quite an arduous task.\nMany wars will be needed, so we have to prepare our nation first."
 je_ger_conf:0 "The German Confederation"
-je_ger_conf_reason:0 "We can form Germany either through diplomacy or war.\nIf East Frankia become our subject and we keep good relations with them, we will be able to annex their lands peacefully, otherwise it will be war."
+je_ger_conf_reason:0 "#V At the dawn of a new era, the time has come for all German souls, scattered like stars across the vast expanse, to rise in unison beneath a single, resplendent flag.#!"
 
 je_rusf_main:0 "Political Turmoil"
 je_rusf_main_reason:0 "The People of [ROOT.GetCountry.GetName] wants a change, and the country has become a powder-keg ready to explode at the first spark."
@@ -153,11 +153,12 @@ je_irk_rep:0 "Supporting Republican Movements in Krasnoyarsk"
 je_irk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
 je_irk_rep_goal:0 "The revolution is ready"
 
-je_buy_salas:0 "Nimíipuu, West and East Pannakwati's Acquisition"
-je_buy_salas_reason:0 "If we want to expand our nation, but we don't want to conquer land through war, another way exists;\nIf we pay enough money, we might be able to bribe the indian chiefs of Nimíipuu and Pannakwati and put their land under our "jurisdiction"."
+je_buy_salas:0 "Nimíipuu, Ídaahę́ and Pannakwati's Acquisition"
+je_buy_salas_reason:0 "If we want to expand our nation, but we don't want to conquer land through war, another way exists;\nIf we pay enough money, we might be able to bribe the indian chiefs of Nimíipuu, Ídaahę́ and Pannakwati and put their land under our "jurisdiction"."
 
-je_ye_button_col:0 "Pass the Colonization Law"
-je_ye_button_col_desc:0 "Our nation deeply abhors war, but now that the japanese have refused to stop the colonization of the nearby lands, we are forced to a compromise in order not to get surrounded by Japan.\nThe colonization law will allow us to expand our territories to the east, at the cost of the indian tribes that have always been friendly to us."
+text_je_buy_sal:0 "The Sahap-Salish Union has been annexed"
+je_ye_button_col:0 "Pass the Budgetary Principles Act"
+je_ye_button_col_desc:0 "Our nation deeply abhors war, but now that the [GetCulture('mexican').GetName] have refused to stop their expansion towards our lands, we are forced to a compromise in order not to get surrounded by them."
 je_ye_button_migr:0 "Write False Propagandistic Articles"
 je_ye_button_migr_desc:0 "We can write deceptive articles on the newspapers we export to the west to create a dreamlike image of our lands.\nWe will lose credibility as a country, but we will also greatly boost the immigration."
 je_ye_button_int:0 "Pass the Integration Act"

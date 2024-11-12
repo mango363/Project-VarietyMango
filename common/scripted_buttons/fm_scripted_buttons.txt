@@ -17,26 +17,12 @@ je_ye_button_one = {
 				has_variable = nevbuy
 			}
 		}
+		c:SIS = {
+			is_ai = yes
+		}
 	}
 	effect = {
-		random_state = {
-			limit = {
-				state_region = s:STATE_OREGON
-			}
-			set_state_owner = ROOT
-		}
-		random_state = {
-			limit = {
-				state_region = s:STATE_IDAHO
-			}
-			set_state_owner = ROOT
-		}
-		random_state = {
-			limit = {
-				state_region = s:STATE_WASHINGTON
-			}
-			set_state_owner = ROOT
-		}
+		annex = c:SIS
 		add_modifier = {
 			name = modifier_yua_one
 			months = 60
@@ -46,26 +32,23 @@ je_ye_button_one = {
 		}
 		hidden_effect = {
 			s:STATE_OREGON = {
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:dakota
+				remove_homeland = cu:na_paiute
+				remove_homeland = cu:na_shapwailutan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_IDAHO = {
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:paiute
-				remove_homeland = cu:dakota
+				remove_homeland = cu:na_shapwailutan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_WASHINGTON = {
-				remove_homeland = cu:salish
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:dakota
+				remove_homeland = cu:na_salishan
+				remove_homeland = cu:na_shapwailutan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
@@ -89,23 +72,12 @@ je_ye_button_col = {
 			text = yua_col_disc_text
 			has_variable = yua_col_disc
 		}
-		NOT = {
-			has_modifier = modifier_yua_col
-		}
 	}
 	effect = {
-		activate_law = law_type:law_frontier_colonization
-		hidden_effect = {
-			add_modifier = {
-				name = modifier_yua_col
-			}
-			s:STATE_NEVADA = {
-				add_claim = c:YUA
-			}
-			s:STATE_UTAH = {
-				add_claim = c:YUA
-			}
+		add_journal_entry = {
+			type = je_buy_salas
 		}
+		remove_variable = yua_col_disc
 	}
 }
 
@@ -3728,7 +3700,7 @@ je_inde_bud = {
 			is_subject = yes
 		}
 		NOT = {
-			has_variable = var_matr
+			has_variable = var_inde_occ
 		}
 	}
 	effect = {
@@ -3742,6 +3714,12 @@ je_inde_bud = {
 				type = dp_independence
 				add_war_goal = { holder = c:FRU target_country = c:BUD type = annex_country }
 			}
+			c:FRU = {
+				change_infamy = -60
+			}
+			set_variable = {
+				name = var_inde_occ
+			}
 		}
 		else_if = {
 			limit = {
@@ -3752,6 +3730,9 @@ je_inde_bud = {
 				war = yes
 				type = dp_independence
 				add_war_goal = { holder = c:FRE target_country = c:BUD type = annex_country }
+			}
+			set_variable = {
+				name = var_inde_occ
 			}
 		}
 	}

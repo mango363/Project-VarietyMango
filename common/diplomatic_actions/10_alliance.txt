@@ -24,13 +24,13 @@
 	possible = {
 		OR = {
 			has_technology_researched = multilateral_alliances
-			num_alliances < 1
+			num_alliances < 2
 		}
 
 		scope:target_country = {
 			OR = {
 				has_technology_researched = multilateral_alliances
-				num_alliances < 1
+				num_alliances < 2
 			}
 			custom_tooltip = {
 				text = "alliance_support_independence_subject"

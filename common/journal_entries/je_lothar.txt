@@ -298,27 +298,11 @@ je_german_conf = {
 		owns_entire_state_region = STATE_RUHR
 		owns_entire_state_region = STATE_RHINELAND
 		owns_entire_state_region = STATE_NORTH_RHINE
-		OR = {
-			AND = {
-				owns_entire_state_region = STATE_FRANCONIA
-				owns_entire_state_region = STATE_BAVARIA
-			}
-			c:BAY = {
-				is_subject_of = ROOT
-				relations:ROOT > relations_threshold:cordial
-			}
-		}
+		owns_entire_state_region = STATE_FRANCONIA
+		owns_entire_state_region = STATE_BAVARIA
 		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
-		if = {
-			limit = {
-				c:BAY = {
-					is_subject_of = ROOT
-				}
-			}
-			annex = c:BAY
-		}
 		change_tag = GRO
 		trigger_event = {
 			id = lotharingia.14

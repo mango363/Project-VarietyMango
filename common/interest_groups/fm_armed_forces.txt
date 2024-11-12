@@ -64,22 +64,7 @@
 				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 			}
 		}
-		# Caudillo Ideology
 		if = {
-			limit = {
-				OR = {
-					country_has_primary_culture = cu:platinean
-					country_has_primary_culture = cu:south_andean
-					country_has_primary_culture = cu:north_andean
-					country_has_primary_culture = cu:central_american
-					country_has_primary_culture = cu:mexican
-				}
-			}
-			ig:ig_armed_forces = {
-				add_ideology = ideology_caudillismo
-			}
-		}
-		else_if = {
 			limit = {
 				country_has_primary_culture = cu:na_santee_dakota
 			}

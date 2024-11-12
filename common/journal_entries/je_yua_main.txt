@@ -1,6 +1,22 @@
 je_buy_salas = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	group = je_group_historical_content
+	scripted_button = je_ye_button_one
+	complete = {
+		custom_tooltip = {
+			text = text_je_buy_sal
+			NOT = {
+				exists = c:SIS
+			}
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_buy_laho = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
 	is_shown_when_inactive = {
 		exist = c:YUA
 		c:YUA ?= THIS
@@ -72,7 +88,6 @@ je_yue_laws = {
 			id = fm_yua.9
 		}
 		hidden_effect = {
-			remove_modifier = modifier_yua_col
 			remove_modifier = modifier_yua_mos
 		}
 		hidden_effect = {
@@ -100,7 +115,6 @@ je_yue_laws = {
 	}
 	on_fail = {
 		hidden_effect = {
-			remove_modifier = modifier_yua_col
 			remove_modifier = modifier_yua_mos
 		}
 	}

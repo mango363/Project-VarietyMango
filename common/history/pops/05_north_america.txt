@@ -5,11 +5,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish
@@ -17,11 +17,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -30,11 +30,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish
@@ -42,11 +42,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -55,7 +55,7 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = swedish_colonial
@@ -67,11 +67,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 200000
+				size = 129765
 			}
 		}
 	}
@@ -80,11 +80,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = swedish
@@ -92,11 +92,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -109,7 +109,7 @@
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 150000
+				size = 117654
 			}
 			create_pop = {
 				culture = swedish
@@ -122,33 +122,33 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_haudenosaunee
-				size = 500000
+				size = 321432
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 78965
 			}
 		}
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 135000
+				size = 335000
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 300000
+				size = 555643
 			}
 			create_pop = {
 				culture = na_haudenosaunee
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 150000
+				size = 117654
 			}
 		}
 	}
@@ -157,11 +157,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish
@@ -169,11 +169,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -194,7 +194,7 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -204,7 +204,7 @@
 	}
 	# 1M
 	s:STATE_MARYLAND = {
-		region_state:FOU = {
+		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
 				size = 403200
@@ -219,24 +219,24 @@
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 		}
 	}
 	# 0.2M
 	s:STATE_DISTRICT_OF_COLUMBIA = {
-		region_state:FOU = {
+		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 100000
+				size = 27054
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 100000
+				size = 12054
 			}
 		}
 	}
@@ -245,17 +245,17 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_cherokee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:FOU = {
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = british
@@ -263,19 +263,19 @@
 			}
 			create_pop = {
 				culture = dutch_colonial
-				size = 25000
+				size = 12543
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = afro_american
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 50000
+				size = 45876
 			}
 		}
 	}
@@ -284,11 +284,11 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_cherokee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:FOU = {
@@ -298,19 +298,19 @@
 			}
 			create_pop = {
 				culture = na_cherokee
-				size = 30000
+				size = 22134
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = afro_american
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 150000
+				size = 117654
 			}
 		}
 	}
@@ -319,21 +319,21 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_cherokee
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 50000
+				size = 45876
 			}
 		}
 		region_state:FOU = {
 			create_pop = {
 				culture = na_cherokee
-				size = 30000
+				size = 22134
 			}
 			create_pop = {
 				culture = na_muscogee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = british
@@ -341,11 +341,11 @@
 			}
 			create_pop = {
 				culture = afro_american
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -354,7 +354,7 @@
 		region_state:MCG = {
 			create_pop = {
 				culture = na_cherokee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_muscogee
@@ -364,11 +364,11 @@
 		region_state:FLU = {
 			create_pop = {
 				culture = americano
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_muscogee
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -377,25 +377,25 @@
 		region_state:MCG = {
 			create_pop = {
 				culture = na_apalachee
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:FLU = {
 			create_pop = {
 				culture = na_apalachee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = americano
-				size = 1000000
+				size = 1245322
 			}
 			create_pop = {
 				culture = afro_caraibico
-				size = 400000
+				size = 415000
 			}
 			create_pop = {
 				culture = na_muscogee
-				size = 200000
+				size = 129765
 			}
 		}
 	}
@@ -406,19 +406,19 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 400000
+				size = 406432
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -427,25 +427,25 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_cherokee
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 200000
+				size = 129765
 			}
 		}
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = swedish
@@ -453,15 +453,15 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -470,17 +470,17 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_cherokee
-				size = 850000
+				size = 440322
 			}
 		}
 		region_state:FOU = {
 			create_pop = {
 				culture = na_cherokee
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = dutch_colonial
-				size = 50000
+				size = 45876
 			}
 		}
 	}
@@ -491,11 +491,11 @@
 		region_state:ONE = {
 			create_pop = {
 				culture = na_ojibwe_potawatomi
-				size = 700000
+				size = 456732
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 300000
+				size = 55643
 			}
 		}
 	}
@@ -504,7 +504,7 @@
 		region_state:SWN = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 1000000
+				size = 605493
 			}
 		}
 	}
@@ -513,26 +513,36 @@
 		region_state:SWN = {
 			create_pop = {
 				culture = na_miami_illinois
-				size = 333333
+				size = 145854
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 666666
+				size = 245035
+			}
+		}
+		region_state:ONE = {
+			create_pop = {
+				culture = na_eastern_algonquian
+				size = 89543
+			}
+			create_pop = {
+				culture = na_miami_illinois
+				size = 115854
 			}
 		}
 	}
 	# 1M
 	s:STATE_KENTUCKY = {
-		region_state:SHW = {
+		region_state:SWN = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 900000
+				size = 404231
 			}
 		}
 		region_state:MCG = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 100000
+				size = 7054
 			}
 		}
 	}
@@ -541,19 +551,19 @@
 		region_state:SWN = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 700000
+				size = 231965
 			}
 		}
 		region_state:IQS = {
 			create_pop = {
 				culture = na_cherokee
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:MCG = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 300000
+				size = 255643
 			}
 		}
 	}
@@ -585,11 +595,16 @@
 		region_state:LOI = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 100000
+				size = 44362
 			}
 			create_pop = {
 				culture = na_quapaw
-				size = 100000
+				size = 51029
+				
+			}
+			create_pop = {
+				culture = french
+				size = 17054
 			}
 		}
 	}
@@ -604,7 +619,7 @@
 			}
 			create_pop = {
 				culture = na_santee_dakota
-				size = 300000
+				size = 255643
 			}
 		}
 		region_state:ONE = {
@@ -614,7 +629,7 @@
 			}
 			create_pop = {
 				culture = na_chiwere_winnebago
-				size = 500000
+				size = 321432
 			}
 		}
 	}
@@ -623,19 +638,19 @@
 		region_state:ONE = {
 			create_pop = {
 				culture = na_miami_illinois
-				size = 700000
+				size = 543024
 			}
 		}
 		region_state:SWN = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 250000
+				size = 22004
 			}
 		}
 		region_state:MCG = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 50000
+				size = 5876
 			}
 		}
 	}
@@ -646,7 +661,7 @@
 		region_state:DKT = {
 			create_pop = {
 				culture = na_santee_dakota
-				size = 500000
+				size = 321432
 			}
 			create_pop = {
 				culture = na_yankton_yanktonai_dakota
@@ -654,11 +669,11 @@
 			}
 			create_pop = {
 				culture = na_ojibwe_potawatomi
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_miami_illinois
-				size = 50000
+				size = 45876
 			}
 		}
 	}
@@ -667,7 +682,7 @@
 		region_state:CAH = {
 			create_pop = {
 				culture = na_miami_illinois
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_chiwere_winnebago
@@ -677,7 +692,13 @@
 		region_state:DKT = {
 			create_pop = {
 				culture = na_santee_dakota
-				size = 500000
+				size = 321432
+			}
+		}
+		region_state:ONE = {
+			create_pop = {
+				culture = na_miami_illinois
+				size = 21432
 			}
 		}
 	}
@@ -690,7 +711,7 @@
 			}
 			create_pop = {
 				culture = na_miami_illinois
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_chiwere_winnebago
@@ -698,7 +719,7 @@
 			}
 			create_pop = {
 				culture = na_quapaw
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -713,11 +734,11 @@
 		region_state:CAH = {
 			create_pop = {
 				culture = na_caddoan
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_quapaw
-				size = 500000
+				size = 321432
 			}
 			create_pop = {
 				culture = na_kansa_osage
@@ -730,17 +751,17 @@
 		region_state:CAD = {
 			create_pop = {
 				culture = na_caddoan
-				size = 444444
+				size = 138232
 			}
 		}
 		region_state:LOI = {
 			create_pop = {
 				culture = french
-				size = 444444
+				size = 244444
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 222222
+				size = 215643
 			}
 		}
 	}
@@ -763,7 +784,7 @@
 			}
 			create_pop = {
 				culture = na_crow_hisatsa
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = na_assiniboine
@@ -805,23 +826,23 @@
 			}
 			create_pop = {
 				culture = na_omaha_ponca
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 200000
+				size = 129765
 			}
 		}
 		region_state:CAH = {
 			create_pop = {
 				culture = na_caddoan
-				size = 200000
+				size = 129765
 			}
 		}
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_arapahoan
-				size = 200000
+				size = 129765
 			}
 		}
 	}
@@ -830,17 +851,17 @@
 		region_state:CAH = {
 			create_pop = {
 				culture = na_caddoan
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_kansa_osage
-				size = 200000
+				size = 129765
 			}
 		}
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_paiute
-				size = 500000
+				size = 321432
 			}
 		}
 	}
@@ -853,7 +874,7 @@
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:CAD = {
@@ -863,17 +884,17 @@
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 500000
+				size = 321432
 			}
 		}
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_comanche
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -890,21 +911,21 @@
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 300000
+				size = 255643
 			}
 		}
 		region_state:LOI = {
 			create_pop = {
 				culture = french
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_comanche
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 50000
+				size = 45876
 			}
 		}
 		region_state:AT1 = {
@@ -914,7 +935,18 @@
 			}
 			create_pop = {
 				culture = na_pacific_athabaskan
-				size = 200000
+				size = 129765
+			}
+		}
+		region_state:MAX = {
+			create_pop = {
+				culture = na_comanche
+				religion = catholic
+				size = 2034
+			}
+			create_pop = {
+				culture = mexican
+				size = 9765
 			}
 		}
 	}
@@ -929,13 +961,13 @@
 			}
 			create_pop = {
 				culture = na_crow_hisatsa
-				size = 100000
+				size = 67054
 			}
 		}
 		region_state:DKT = {
 			create_pop = {
 				culture = na_lakota
-				size = 50000
+				size = 45876
 			}
 		}
 	}
@@ -954,7 +986,7 @@
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 300000
+				size = 255643
 			}
 		}
 	}
@@ -963,17 +995,17 @@
 		region_state:SSH = {
 			create_pop = {
 				culture = na_paiute
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_shoshone
-				size = 300000
+				size = 255643
 			}
 		}
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_paiute
-				size = 500000
+				size = 321432
 			}
 		}
 	}
@@ -982,15 +1014,15 @@
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_comanche
-				size = 356000
+				size = 156000
 			}
 			create_pop = {
 				culture = navajo
-				size = 600000
+				size = 23655
 			}
 			create_pop = {
 				culture = na_pacific_athabaskan
-				size = 100000
+				size = 27054
 			}
 		}
 		region_state:MAX = {
@@ -1007,25 +1039,25 @@
 		region_state:SIS = {
 			create_pop = {
 				culture = na_shapwailutan
-				size = 100000
+				size = 70694
 			}
 			create_pop = {
 				culture = na_salishan
-				size = 400000
+				size = 144987
 			}
 		}
 		region_state:SSH = {
 			create_pop = {
 				culture = na_colorado_numic
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_shapwailutan
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -1034,15 +1066,15 @@
 		region_state:SSH = {
 			create_pop = {
 				culture = na_arapahoan
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = navajo
-				size = 500000
+				size = 321432
 			}
 		}
 	}
@@ -1051,18 +1083,18 @@
 		region_state:SSH = {
 			create_pop = {
 				culture = na_shoshone
-				size = 500000
+				size = 321432
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 500000
+				size = 321432
 			}
 		}
 
 		region_state:YMN = {
 			create_pop = {
 				culture = na_yuman
-				size = 100000
+				size = 67054
 			}
 		}
 
@@ -1072,35 +1104,35 @@
 		region_state:AT1 = {
 			create_pop = {
 				culture = na_comanche
-				size = 100000
+				size = 67054
 			}
 			create_pop = {
 				culture = na_pacific_athabaskan
-				size = 200000
+				size = 129765
 			}
 		}
 		region_state:MAX = {
 			create_pop = {
 				culture = na_yuman
-				size = 150000
+				size = 117654
 			}
 			create_pop = {
 				culture = mexican
-				size = 150000
+				size = 117654
 			}
 		}
 		region_state:YMN = {
 			create_pop = {
 				culture = na_piman
-				size = 50000
+				size = 45876
 			}
 			create_pop = {
 				culture = na_yuman
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = pueblo
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -1111,11 +1143,11 @@
 		region_state:SIS = {
 			create_pop = {
 				culture = na_shapwailutan
-				size = 300000
+				size = 155049
 			}
 			create_pop = {
 				culture = na_salishan
-				size = 700000
+				size = 360594
 			}
 		}
 	}
@@ -1124,25 +1156,25 @@
 		region_state:SIS = {
 			create_pop = {
 				culture = na_shapwailutan
-				size = 200000
+				size = 125985
 			}
 			create_pop = {
 				culture = na_pacific_athabaskan
-				size = 500000
+				size = 344765
 			}
 			create_pop = {
 				culture = na_colorado_numic
-				size = 100000
+				size = 76545
 			}
 			create_pop = {
 				culture = na_paiute
-				size = 100000
+				size = 55643
 			}
 		}
 		region_state:SSH = {
 			create_pop = {
 				culture = na_colorado_numic
-				size = 100000
+				size = 16754
 			}
 		}
 	}
@@ -1151,13 +1183,19 @@
 		region_state:YMN = {
 			create_pop = {
 				culture = na_yuman
-				size = 400000
+				size = 634056
+			}
+		}
+		region_state:SSH = {
+			create_pop = {
+				culture = na_paiute
+				size = 12678
 			}
 		}
 		region_state:SIS = {
 			create_pop = {
 				culture = na_pacific_athabaskan
-				size = 300000
+				size = 125476
 			}
 		}
 		region_state:YUA = {
@@ -1202,15 +1240,16 @@
 		region_state:YMN = {
 			create_pop = {
 				culture = na_yuman
-				size = 800000
+				size = 144000
 			}
 			create_pop = {
 				culture = mexican
-				size = 200000
+				size = 1155
 			}
 			create_pop = {
-				culture = han
-				size = 100000
+				culture = na_yuman
+				religion = catholic
+				size = 2230
 			}
 		}
 	}
@@ -1234,11 +1273,11 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_haudenosaunee
-				size = 500000
+				size = 321432
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 500000
+				size = 244865
 			}
 		}
 		region_state:CRU = {
@@ -1265,11 +1304,11 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 200000
+				size = 129765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -1279,11 +1318,11 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_haudenosaunee
-				size = 500000
+				size = 51432
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 500000
+				size = 44632
 			}
 		}
 		region_state:CRU = {
@@ -1306,11 +1345,11 @@
 			}
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 300000
+				size = 255643
 			}
 		}
 	}
@@ -1319,20 +1358,20 @@
 		region_state:CRU = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_ojibwe_potawatomi
-				size = 300000
+				size = 255643
 			}
 			create_pop = {
 				culture = na_blackfoot
-				size = 200000
+				size = 129765
 			}
 		}
 	}
 	s:STATE_BRITISH_COLUMBIA = {
-		region_state:SAO = {
+		region_state:AT2 = {
 			create_pop = {
 				culture = korean
 				size = 20
@@ -1346,9 +1385,29 @@
 				size = 40000
 			}
 		}
+		region_state:SIS = {
+			create_pop = {
+				culture = na_shapwailutan
+				size = 12755
+			}
+			create_pop = {
+				culture = na_salishan
+				size = 22302
+			}
+		}
+		region_state:BFT = {
+			create_pop = {
+				culture = na_blackfoot
+				size = 2755
+			}
+			create_pop = {
+				culture = na_salishan
+				size = 2302
+			}
+		}
 	}
 	s:STATE_SASKATCHEWAN = {
-		region_state:SIO = {
+		region_state:CRU = {
 			create_pop = {
 				culture = na_cree_montagnais
 				size = 7000
@@ -1383,7 +1442,7 @@
 			}
 			create_pop = {
 				culture = na_northern_athabaskan
-				size = 100000
+				size = 67054
 			}
 		}
 	}
@@ -1414,7 +1473,7 @@
 				size = 968
 			}
 		}
-		region_state:SAO = {
+		region_state:AT2 = {
 			create_pop = {
 				culture = na_northern_athabaskan
 				size = 20000
