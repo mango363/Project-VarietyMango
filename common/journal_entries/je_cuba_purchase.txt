@@ -1,0 +1,32 @@
+je_buy_cuba = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:CUB
+		c:FLU ?= THIS
+	}
+	scripted_button = je_buy_cuba_button
+
+	possible = {
+		exists = c:CUB
+		c:FLU ?= THIS
+	}
+	complete = {
+		c:CUB = {
+			is_direct_subject_of = c:FLU
+		}
+	}
+	fail = {
+		NOT = {
+			c:CUB = {
+				is_direct_subject_of = c:CAS
+			}
+			c:CUB = {
+				is_direct_subject_of = c:FLU
+			}
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}
