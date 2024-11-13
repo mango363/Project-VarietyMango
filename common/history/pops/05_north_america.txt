@@ -281,14 +281,14 @@
 	}
 	# 1.04M
 	s:STATE_NORTH_CAROLINA = {
-		region_state:IQS = {
+		region_state:MCG = {
 			create_pop = {
 				culture = na_cherokee
-				size = 67054
+				size = 7054
 			}
 			create_pop = {
-				culture = na_tuscarora_nottoway
-				size = 67054
+				culture = na_muscogee
+				size = 1054
 			}
 		}
 		region_state:FOU = {
@@ -316,14 +316,14 @@
 	}
 	# 1.03M
 	s:STATE_SOUTH_CAROLINA = {
-		region_state:IQS = {
+		region_state:MCG = {
 			create_pop = {
 				culture = na_cherokee
-				size = 45876
+				size = 176
 			}
 			create_pop = {
-				culture = na_tuscarora_nottoway
-				size = 45876
+				culture = na_muscogee
+				size = 876
 			}
 		}
 		region_state:FOU = {
@@ -565,6 +565,10 @@
 				culture = na_chickasaw_choctaw
 				size = 255643
 			}
+			create_pop = {
+				culture = na_muscogee
+				size = 35643
+			}
 		}
 	}
 	# 1M
@@ -676,6 +680,16 @@
 				size = 45876
 			}
 		}
+		region_state:CRU = {
+			create_pop = {
+				culture = na_ojibwe_potawatomi
+				size = 7054
+			}
+			create_pop = {
+				culture = na_cree_montagnais
+				size = 5876
+			}
+		}
 	}
 	# 1M
 	s:STATE_IOWA = {
@@ -772,23 +786,33 @@
 		region_state:DKT = {
 			create_pop = {
 				culture = na_yankton_yanktonai_dakota
-				size = 330000
+				size = 134766
 			}
 			create_pop = {
 				culture = na_santee_dakota
-				size = 250000
+				size = 154433
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 34000 # historically ~30k pre-contact (most in SD) of Arikara
+				size = 34000
 			}
 			create_pop = {
 				culture = na_crow_hisatsa
-				size = 45876
+				size = 35876
 			}
 			create_pop = {
 				culture = na_assiniboine
-				size = 37000
+				size = 17000
+			}
+		}
+		region_state:CRU = {
+			create_pop = {
+				culture = na_ojibwe_potawatomi
+				size = 28054
+			}
+			create_pop = {
+				culture = na_cree_montagnais
+				size = 26576
 			}
 		}
 	}
@@ -797,23 +821,23 @@
 		region_state:DKT = {
 			create_pop = {
 				culture = na_yankton_yanktonai_dakota
-				size = 230000
+				size = 235433
 			}
 			create_pop = {
 				culture = na_santee_dakota
-				size = 250000
+				size = 259765
 			}
 			create_pop = {
 				culture = na_caddoan
-				size = 96000 # historically ~30k pre-contact (small pop separate in ND) of Arikara
+				size = 33764
 			}
 			create_pop = {
 				culture = na_arapahoan
-				size = 47000
+				size = 17000
 			}
 			create_pop = {
 				culture = na_lakota
-				size = 80000
+				size = 77654
 			}
 		}
 	}
@@ -970,13 +994,37 @@
 				size = 45876
 			}
 		}
+		region_state:SSH = {
+			create_pop = {
+				culture = na_shoshone
+				size = 8500
+			}
+			create_pop = {
+				culture = na_paiute
+				size = 6705
+			}
+		}
+		region_state:CRU = {
+			create_pop = {
+				culture = na_ojibwe_potawatomi
+				size = 5054
+			}
+			create_pop = {
+				culture = na_cree_montagnais
+				size = 3876
+			}
+		}
 	}
 	# 1M
 	s:STATE_WYOMING = {
 		region_state:DKT = {
 			create_pop = {
 				culture = na_lakota
-				size = 130000
+				size = 110450
+			}
+			create_pop = {
+				culture = na_paiute
+				size = 25640
 			}
 		}
 		region_state:SSH = {
@@ -987,6 +1035,16 @@
 			create_pop = {
 				culture = na_paiute
 				size = 255643
+			}
+		}
+		region_state:AT1 = {
+			create_pop = {
+				culture = na_arapahoan
+				size = 600
+			}
+			create_pop = {
+				culture = na_paiute
+				size = 2556
 			}
 		}
 	}
@@ -1023,6 +1081,20 @@
 			create_pop = {
 				culture = na_pacific_athabaskan
 				size = 27054
+			}
+		}
+		region_state:SSH = {
+			create_pop = {
+				culture = na_shoshone
+				size = 5600
+			}
+			create_pop = {
+				culture = na_paiute
+				size = 3655
+			}
+			create_pop = {
+				culture = na_comanche
+				size = 154
 			}
 		}
 		region_state:MAX = {
@@ -1109,6 +1181,16 @@
 			create_pop = {
 				culture = na_pacific_athabaskan
 				size = 129765
+			}
+		}
+		region_state:SSH = {
+			create_pop = {
+				culture = na_paiute
+				size = 2054
+			}
+			create_pop = {
+				culture = na_arapahoan
+				size = 4765
 			}
 		}
 		region_state:MAX = {
