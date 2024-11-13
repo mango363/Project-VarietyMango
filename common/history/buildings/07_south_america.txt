@@ -623,7 +623,7 @@
 		}
 	}
 	s:STATE_TARAPACA={
-		region_state:AGA={
+		region_state:GNI={
 		}
 	}
 	s:STATE_ANTOFAGASTA={

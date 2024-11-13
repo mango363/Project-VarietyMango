@@ -191,3 +191,56 @@ je_auth_for = {
 	weight = 100
 	should_be_pinned_by_default = yes
 }
+
+je_ymnyua = {
+	icon = "gfx/interface/icons/lens_toolbar_icons/defensive_pact.dds"
+	group = je_group_historical_content
+	timeout = 1800
+	on_timeout = {
+		annex_with_incorporation = c:YMN
+	}
+	fail = {
+		c:YMN = {
+			OR = {
+				NOT = {
+					is_subject_of = c:YUA
+				}
+				NOT = {
+					exists = c:YMN 
+				}
+			}
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_sshyua = {
+	icon = "gfx/interface/icons/invention_icons/currency_standards.dds"
+	group = je_group_historical_content
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = var_sshyua
+				add = 1
+			}
+		}
+	}
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	on_complete = {
+		remove_modifier = modifier_yua_four
+		annex = c:SSH
+	}
+	current_value = {
+		value = root.var:var_sshyua
+	}
+	goal_add_value = {
+		value = 25
+	}
+	progressbar = yes
+	weight = 9
+	should_be_pinned_by_default = yes
+}

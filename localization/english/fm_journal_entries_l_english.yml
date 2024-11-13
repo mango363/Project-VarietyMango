@@ -159,6 +159,7 @@ je_buy_salas_reason:0 "If we want to expand our nation, but we don't want to con
 text_je_buy_sal:0 "The Sahap-Salish Union has been annexed"
 je_ye_button_col:0 "Pass the Budgetary Principles Act"
 je_ye_button_col_desc:0 "Our nation deeply abhors war, but now that the [GetCulture('mexican').GetName] have refused to stop their expansion towards our lands, we are forced to a compromise in order not to get surrounded by them."
+jeyebutcol:0 "Passing this act will unlock certain decisions in the future"
 je_ye_button_migr:0 "Write False Propagandistic Articles"
 je_ye_button_migr_desc:0 "We can write deceptive articles on the newspapers we export to the west to create a dreamlike image of our lands.\nWe will lose credibility as a country, but we will also greatly boost the immigration."
 je_ye_button_int:0 "Pass the Integration Act"

@@ -243,14 +243,14 @@ POPS = {
 		}
 	}
 	s:STATE_TARAPACA = {
-		region_state:AGA = {
+		region_state:GNI = {
 			create_pop = {
 				culture = aimara
 				size = 38500
 			}
 			create_pop = {
 				culture = argentino
-				size = 12500
+				size = 500
 			}
 		}
 	}

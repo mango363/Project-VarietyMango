@@ -1069,3 +1069,12 @@ feeling_invigorated = {
 	unit_offense_mult = 0.1
 	character_battle_condition_surprise_maneuver_mult = 1
 }
+modifier_yua_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 5000
+	country_bureaucracy_mult = -0.05
+	goods_input_fruit_add = 1
+	goods_input_sugar_add = 1
+	goods_input_grain_add = 1
+	goods_input_liquor_add = 1
+}

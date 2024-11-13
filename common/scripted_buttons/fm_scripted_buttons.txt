@@ -40,7 +40,6 @@ je_ye_button_one = {
 				add_homeland = cu:manchu
 			}
 			s:STATE_IDAHO = {
-				remove_homeland = cu:na_shapwailutan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
@@ -65,19 +64,27 @@ je_ye_button_col = {
 		always = yes
 	}
 	ai_chance = {
-		base = 100
+		base = 0
 	}
 	possible = {
 		custom_tooltip = {
 			text = yua_col_disc_text
 			has_variable = yua_col_disc
+			NOT = {
+				has_variable = yuabuttcol
+			}
 		}
 	}
 	effect = {
 		add_journal_entry = {
 			type = je_buy_salas
 		}
-		remove_variable = yua_col_disc
+		custom_tooltip = {
+			text = jeyebutcol
+		}
+		set_variable = {
+			name = yuabuttcol
+		}
 	}
 }
 
