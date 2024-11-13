@@ -1192,19 +1192,12 @@ STATES = {
 				x00F040 x338BD7 x7342E7 x228851 x3C4F8A x6FBF63 x007040 xE5DA13 xC58DAF x58A1C9 x8070C0 x5B809B x7F5918 x7DE315 x81AAED x1B47BD x4DC66C x711CB6 xA59977 x3EA432  xABF402 x338BD7 x758494
 				x0F9A00 xD01C13
 				xF3C9D3
-			}
-		}
-
-		create_state = {
-			country = c:IQS
-			owned_provinces = {
 				#CHE
 				xD8D851 x5961F9
 				x785402 x7BF507
 				x644A75 x807040
 				xDBBF9F
 			}
-			state_type = incorporated
 		}
 		
 		add_homeland = cu:na_tuscarora_nottoway
@@ -8074,17 +8067,10 @@ STATES = {
 			owned_provinces = {
 				x31E5D4 xE2F040 x8E69FE xAF8C38 x2C6AA0 x47BF09 x007602 x0070C0 x8998F6 xD641CB xF93340 x6F7B23
 				xD4D27E x3B0FAE x9B1B8B
-			}
-		}
-
-		create_state = {
-			country = c:IQS
-			owned_provinces = {
 				#CHE
 				xF5B3A1 x1FA379
 				xF83D99 x7AAA59
 			}
-			state_type = incorporated
 		}
 		
 		add_homeland = cu:na_cherokee
