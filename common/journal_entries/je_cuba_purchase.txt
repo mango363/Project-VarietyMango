@@ -12,18 +12,23 @@ je_buy_cuba = {
 		c:FLU ?= THIS
 	}
 	complete = {
-		c:CUB = {
-			is_direct_subject_of = c:FLU
+		custom_tooltip = {
+			text = no_cub
+			OR = {
+				c:CUB = {
+					is_direct_subject_of = c:FLU
+				}
+				NOT = {
+					c:CUB = {
+						is_direct_subject_of = c:CAS
+					}
+				}
+			}
 		}
 	}
-	fail = {
+	invalid = {
 		NOT = {
-			c:CUB = {
-				is_direct_subject_of = c:CAS
-			}
-			c:CUB = {
-				is_direct_subject_of = c:FLU
-			}
+			exists = c:CUB
 		}
 	}
 

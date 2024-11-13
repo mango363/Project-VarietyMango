@@ -10,6 +10,11 @@ je_buy_luoisiana = {
 		}
 	}
 	scripted_button = je_buy_louisiana_button
+	invalid = {
+		NOT = {
+			exists = c:LOI
+		}
+	}
 	possible = {
 		exists = c:LOI
 		any_neighbouring_state = {
