@@ -994,7 +994,6 @@ STATES = {
 				x56DBDA
 				xC07040 xBE8916
 			}
-			state_type = incorporated
 		}
 
 		create_state = {

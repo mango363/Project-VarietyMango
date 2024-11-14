@@ -369,7 +369,7 @@ YUA_decision_four = {
 
 YUA_decision_five = {
 	is_shown = {
-		game_date > 1836.12.30
+		game_date > 1840.07.30
 		exist = c:YUA
 		c:YUA ?= THIS
 		NOT = {

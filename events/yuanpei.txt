@@ -433,5 +433,36 @@ fm_yua.13 = {
 		add_journal_entry = {
 			type = je_ymnyua
 		}
+		change_relations = {
+			country = c:MAX
+			value = -10
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				trigger = {
+					c:YMN = {
+						is_ai = no
+					}
+				}
+				add = -30
+			}
+		}
+	}
+	option = {
+		name = fm_yua.13.b
+		c:MAX = {
+			create_diplomatic_catalyst = {
+				type = catalyst_event_positive
+				target = c:YUA
+			}
+		}
+		change_relations = {
+			country = c:MAX
+			value = 20
+		}
+		ai_chance = {
+			base = 50
+		}
 	}
 }

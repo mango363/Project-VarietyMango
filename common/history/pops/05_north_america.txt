@@ -25,7 +25,7 @@
 			}
 		}
 	}
-	# 0.9M
+	
 	s:STATE_NEW_HAMPSHIRE = {
 		region_state:AMC = {
 			create_pop = {
@@ -50,7 +50,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_MASSACHUSETTS = {
 		region_state:AMC = {
 			create_pop = {
@@ -75,7 +75,7 @@
 			}
 		}
 	}
-	# 0.7M
+	
 	s:STATE_CONNECTICUT = {
 		region_state:AMC = {
 			create_pop = {
@@ -100,7 +100,7 @@
 			}
 		}
 	}
-	# 0.5M
+	
 	s:STATE_RHODE_ISLAND = {
 		region_state:AMC = {
 			create_pop = {
@@ -117,7 +117,7 @@
 			}
 		}
 	}
-	# 1.4M
+	
 	s:STATE_NEW_YORK = {
 		region_state:IQS = {
 			create_pop = {
@@ -152,7 +152,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_NEW_JERSEY = {
 		region_state:AMC = {
 			create_pop = {
@@ -177,7 +177,7 @@
 			}
 		}
 	}
-	# 0.9M
+	
 	s:STATE_DELAWARE = {
 		region_state:AMC = {
 			create_pop = {
@@ -202,7 +202,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_MARYLAND = {
 		region_state:AMC = {
 			create_pop = {
@@ -227,7 +227,6 @@
 			}
 		}
 	}
-	# 0.2M
 	s:STATE_DISTRICT_OF_COLUMBIA = {
 		region_state:AMC = {
 			create_pop = {
@@ -240,7 +239,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_VIRGINIA = {
 		region_state:IQS = {
 			create_pop = {
@@ -279,7 +278,6 @@
 			}
 		}
 	}
-	# 1.04M
 	s:STATE_NORTH_CAROLINA = {
 		region_state:MCG = {
 			create_pop = {
@@ -314,7 +312,6 @@
 			}
 		}
 	}
-	# 1.03M
 	s:STATE_SOUTH_CAROLINA = {
 		region_state:MCG = {
 			create_pop = {
@@ -349,7 +346,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_GEORGIA = {
 		region_state:MCG = {
 			create_pop = {
@@ -401,7 +398,7 @@
 	}
 
 	###
-	# 1M
+	
 	s:STATE_VERMONT = {
 		region_state:AMC = {
 			create_pop = {
@@ -422,7 +419,6 @@
 			}
 		}
 	}
-	# 1.1M
 	s:STATE_PENNSYLVANIA = {
 		region_state:IQS = {
 			create_pop = {
@@ -465,7 +461,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_WEST_VIRGINIA = {
 		region_state:IQS = {
 			create_pop = {
@@ -485,8 +481,6 @@
 		}
 	}
 
-	###
-	# 1M
 	s:STATE_MICHIGAN = {
 		region_state:ONE = {
 			create_pop = {
@@ -499,7 +493,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_OHIO = {
 		region_state:SWN = {
 			create_pop = {
@@ -508,7 +502,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_INDIANA = {
 		region_state:SWN = {
 			create_pop = {
@@ -531,7 +525,6 @@
 			}
 		}
 	}
-	# 1M
 	s:STATE_KENTUCKY = {
 		region_state:SWN = {
 			create_pop = {
@@ -546,7 +539,6 @@
 			}
 		}
 	}
-	# 1M
 	s:STATE_TENNESSEE = {
 		region_state:SWN = {
 			create_pop = {
@@ -571,29 +563,27 @@
 			}
 		}
 	}
-	# 1M
 	s:STATE_ALABAMA = {
 		region_state:MCG = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 222222
+				size = 234764
 			}
 			create_pop = {
 				culture = na_muscogee
-				size = 666666
+				size = 554322
 			}
 			create_pop = {
 				culture = na_apalachee
-				size = 111111
+				size = 98544
 			}
 		}
 	}
-	# 1M
 	s:STATE_MISSISSIPPI = {
 		region_state:MCG = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 800000
+				size = 678544
 			}
 		}
 		region_state:LOI = {
@@ -612,9 +602,6 @@
 			}
 		}
 	}
-
-	###
-	# 1M
 	s:STATE_WISCONSIN = {
 		region_state:DKT = {
 			create_pop = {
@@ -637,7 +624,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_ILLINOIS = {
 		region_state:ONE = {
 			create_pop = {
@@ -659,8 +646,6 @@
 		}
 	}
 
-	###
-	# 1M
 	s:STATE_MINNESOTA = {
 		region_state:DKT = {
 			create_pop = {
@@ -691,7 +676,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_IOWA = {
 		region_state:CAH = {
 			create_pop = {
@@ -716,7 +701,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_MISSOURI = {
 		region_state:CAH = {
 			create_pop = {
@@ -737,12 +722,11 @@
 			}
 		}
 	}
-	#1.1M
 	s:STATE_ARKANSAS = {
 		region_state:CAD = {
 			create_pop = {
 				culture = na_caddoan
-				size = 250000
+				size = 86777
 			}
 		}
 		region_state:CAH = {
@@ -760,12 +744,12 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_LOUISIANA = {
 		region_state:CAD = {
 			create_pop = {
 				culture = na_caddoan
-				size = 138232
+				size = 38232
 			}
 		}
 		region_state:LOI = {
@@ -779,9 +763,6 @@
 			}
 		}
 	}
-
-	###
-	# 0.7M
 	s:STATE_NORTH_DAKOTA = {
 		region_state:DKT = {
 			create_pop = {
@@ -811,12 +792,11 @@
 				size = 28054
 			}
 			create_pop = {
-				culture = na_cree_montagnais
+				culture = na_crow_hisatsa
 				size = 26576
 			}
 		}
 	}
-	# 0.7M
 	s:STATE_SOUTH_DAKOTA = {
 		region_state:DKT = {
 			create_pop = {
@@ -841,7 +821,7 @@
 			}
 		}
 	}
-	# 1.05M
+	
 	s:STATE_NEBRASKA = {
 		region_state:DKT = {
 			create_pop = {
@@ -870,7 +850,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_KANSAS = {
 		region_state:CAH = {
 			create_pop = {
@@ -889,7 +869,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_OKLAHOMA = {
 		region_state:CAH = {
 			create_pop = {
@@ -922,7 +902,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_TEXAS = {
 		region_state:CAD = {
 			create_pop = {
@@ -976,7 +956,7 @@
 	}
 
 	###
-	# 1M
+	
 	s:STATE_MONTANA = {
 		region_state:BFT = {
 			create_pop = {
@@ -1015,7 +995,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_WYOMING = {
 		region_state:DKT = {
 			create_pop = {
@@ -1048,7 +1028,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_COLORADO = {
 		region_state:SSH = {
 			create_pop = {
@@ -1067,7 +1047,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_NEW_MEXICO = {
 		region_state:AT1 = {
 			create_pop = {
@@ -1105,8 +1085,6 @@
 		}
 	}
 
-	###
-	# 1M
 	s:STATE_IDAHO = {
 		region_state:SIS = {
 			create_pop = {
@@ -1133,7 +1111,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_UTAH = {
 		region_state:SSH = {
 			create_pop = {
@@ -1150,7 +1128,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_NEVADA = {
 		region_state:SSH = {
 			create_pop = {
@@ -1171,7 +1149,7 @@
 		}
 
 	}
-	# 1M
+	
 	s:STATE_ARIZONA = {
 		region_state:AT1 = {
 			create_pop = {
@@ -1218,9 +1196,6 @@
 			}
 		}
 	}
-
-	### West Shore ###
-	# 1M
 	s:STATE_WASHINGTON = {
 		region_state:SIS = {
 			create_pop = {
@@ -1233,7 +1208,7 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_OREGON = {
 		region_state:SIS = {
 			create_pop = {
@@ -1260,7 +1235,7 @@
 			}
 		}
 	}
-	# 1M + YUA
+	 + YUA
 	s:STATE_CALIFORNIA = {
 		region_state:YMN = {
 			create_pop = {
@@ -1317,7 +1292,6 @@
 			}
 		}
 	}
-	# 1.1M
 	s:STATE_BAJA_CALIFORNIA = {
 		region_state:YMN = {
 			create_pop = {
@@ -1349,9 +1323,9 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_ONTARIO = {
-		# 1M
+		
 		region_state:IQS = {
 			create_pop = {
 				culture = na_haudenosaunee
@@ -1377,7 +1351,7 @@
 			}
 		}
 	}
-	# 0.7M
+	
 	s:STATE_NEW_BRUNSWICK = {
 		region_state:AMC = {
 			create_pop = {
@@ -1394,9 +1368,9 @@
 			}
 		}
 	}
-	# 1M
+	
 	s:STATE_QUEBEC = {
-		# 1M
+		
 		region_state:IQS = {
 			create_pop = {
 				culture = na_haudenosaunee
@@ -1418,7 +1392,7 @@
 			}
 		}
 	}
-	# 0.7M
+	
 	s:STATE_NEWFOUNDLAND = {
 		region_state:CRU = {
 			create_pop = {
@@ -1435,20 +1409,19 @@
 			}
 		}
 	}
-	# 0.8M
 	s:STATE_ALBERTA = {
 		region_state:CRU = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 255643
+				size = 10-643
 			}
 			create_pop = {
 				culture = na_ojibwe_potawatomi
-				size = 255643
+				size = 12643
 			}
 			create_pop = {
 				culture = na_blackfoot
-				size = 129765
+				size = 9765
 			}
 		}
 	}
@@ -1520,11 +1493,11 @@
 		region_state:AT2 = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 12000
+				size = 2000
 			}
 			create_pop = {
 				culture = na_northern_athabaskan
-				size = 67054
+				size = 7054
 			}
 		}
 	}

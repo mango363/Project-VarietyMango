@@ -17,21 +17,15 @@ je_buy_salas = {
 je_buy_laho = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	group = je_group_historical_content
-	is_shown_when_inactive = {
-		exist = c:YUA
-		c:YUA ?= THIS
-	}
-	scripted_button = je_ye_button_one
-	possible = {
-		owns_entire_state_region = STATE_NEVADA
-		custom_tooltip = {
-			text = depeffo
-		}
-	}
+
+	scripted_button = je_ye_button_two
 	complete = {
-		owns_entire_state_region = STATE_IDAHO
-		owns_entire_state_region = STATE_WASHINGTON
-		owns_entire_state_region = STATE_OREGON
+		custom_tooltip = {
+			text = text_je_buy_bla
+			NOT = {
+				exists = c:BFT
+			}
+		}
 	}
 	weight = 100
 	should_be_pinned_by_default = yes
@@ -198,6 +192,13 @@ je_ymnyua = {
 	timeout = 1800
 	on_timeout = {
 		annex_with_incorporation = c:YMN
+		hidden_effect = {
+			if = {
+				limit = {
+				exists = c:SSH
+				}
+			}	
+		}
 	}
 	fail = {
 		c:YMN = {
@@ -208,6 +209,17 @@ je_ymnyua = {
 				NOT = {
 					exists = c:YMN 
 				}
+				is_ai = no
+			}
+		}
+	}
+	on_fail = {
+		if = {
+			limit = {
+				exists = c:YMN 
+			}
+			c:YMN = {
+				make_independent = yes
 			}
 		}
 	}
@@ -233,12 +245,37 @@ je_sshyua = {
 	on_complete = {
 		remove_modifier = modifier_yua_four
 		annex = c:SSH
+		hidden_effect = {
+			add_journal_entry = {
+				type = je_buy_laho
+			}
+		}
+	}
+	fail = {
+		OR = {
+			c:SSH = {
+				is_ai = no
+			}
+			custom_tooltip = {
+				text = text_noexssh
+				NOT = {
+					exists = c:SSH
+				}
+			}
+			custom_tooltip = {
+				text = yue_auth2
+				has_variable = yua_auth
+			}
+		}
+	}
+	on_fail = {
+		remove_modifier = modifier_yua_four
 	}
 	current_value = {
 		value = root.var:var_sshyua
 	}
 	goal_add_value = {
-		value = 25
+		value = 36
 	}
 	progressbar = yes
 	weight = 9
