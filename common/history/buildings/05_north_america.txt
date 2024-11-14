@@ -1818,16 +1818,16 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ONTARIO = {
-		region_state:CRU = {
+		region_state:VSL = {
 		}
 	}
 	s:STATE_NEW_BRUNSWICK = {
-		region_state:SWU = {
+		region_state:AMC = {
 			create_building={
 				building="building_lead_mine"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:AMC"
 						levels=1
 					}
 				}
@@ -1838,7 +1838,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:AMC"
 						levels=1
 					}
 				}
@@ -1846,21 +1846,10 @@ BUILDINGS={
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:SWU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:AMC"
 						levels=1
 					}
 				}
@@ -1871,7 +1860,7 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:AMC"
 						levels=1
 					}
 				}
@@ -1881,23 +1870,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_QUEBEC = {
-		region_state:SWU = {
-			create_building={
-				building="building_university"
-				add_ownership={
-					country={
-						country="c:SWU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
-			}
+		region_state:VSL = {
 			create_building={
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1908,7 +1886,7 @@ BUILDINGS={
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1919,7 +1897,7 @@ BUILDINGS={
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1930,7 +1908,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1941,7 +1919,7 @@ BUILDINGS={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1949,21 +1927,10 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:SWU"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -1973,12 +1940,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_NEWFOUNDLAND = {
-		region_state:SWU = {
+		region_state:VSL = {
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SWU"
+						country="c:VSL"
 						levels=1
 					}
 				}
@@ -2000,7 +1967,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_MANITOBA = {
-		region_state:CRU = {
+		region_state:VSL = {
 		}
 	}
 	s:STATE_YUKON_TERRITORY = {

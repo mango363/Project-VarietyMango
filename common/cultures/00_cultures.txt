@@ -1953,10 +1953,89 @@ norwegian={
 	}
 }
 
+vinlander={
+	color= { 84 17 11 }
+	religion = norsp
+	traits = { norse scandinavian_culture_group american_settler european_heritage }
+	obsessions = {
+		liquor
+		wine
+		meat
+	}
+	male_common_first_names={
+		Agnar Leifr Bjarni Þorfinnr
+		Bjorn_2
+		Eidur
+		Einar
+		Emil
+		Geir
+		Gudmund
+		Gunnar
+		Hannes
+		Hermann
+		J_On
+		Kristjan
+		Magnus_2
+		Petur
+		Sigurdur
+		Stefan_2
+		Sveinn
+		Tryggvi
+		Asgeir
+		Olafur
+		Steingrimur
+		Hallgrimur
+	}
+	female_common_first_names = {
+		Agnes
+		Briet
+		Hansina
+		Regina
+		Rosa
+		Steinunn
+		Thorfhildur
+		Vilhelmina
+	}	
+	noble_last_names = {
+		Hielmstierne
+		Petursson
+		Sveinsson
+		Thorberg
+		Thordersen
+		Vidalin
+		Eiríksson Herjólfsson Karlsefni
+	}
+	common_last_names={
+		Arnorsson
+		Benediktsson
+		Bjarnasen
+		Bjornsson
+		Eggers
+		Eldjarn
+		Hafstein
+		Hansen
+		Hermannsson
+		Johanesson
+		Jonsson
+		Magnusson
+		Stefansson
+		Steinthosson
+		Thorlaksson
+		Thurs
+		Thordarson
+		Thorhallson
+		Asgeirsson
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 icelandic={
 	color= hsv{ 0.74 0.46 0.58 }
 	religion = protestant
-	traits = { scandinavian_culture_group european_heritage }
+	traits = { scandinavian_culture_group norse european_heritage }
 	male_common_first_names={
 		Agnar
 		Bjorn_2
@@ -13319,7 +13398,7 @@ gunaikurnai={ # Aboriginal
 	graphics = fm_aboriginal_australian
 }
 
-jagera={ # Aboriginal
+jagera={ 
 	color= { 186 94 7 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian yuggera_speaker }

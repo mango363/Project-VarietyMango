@@ -230,11 +230,13 @@ STATE_GREENLAND = {
     farm = "xB460E8"
     mine = "xE3E358"
     wood = "xC13204"
-    arable_land = 3
+    arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_whaling = 5
         bg_fishing = 3
+        bg_coal_mining = 1
+        bg_logging = 1
     }
     naval_exit_id = 3023
 }

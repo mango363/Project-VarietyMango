@@ -45,7 +45,6 @@ def_na_native_american_trigger = {
 		culture = cu:na_yankton_yanktonai_dakota
 		culture = cu:na_lakota
 		culture = cu:na_crow_hisatsa
-		culture = cu:na_assiniboine
 		culture = cu:na_stoney
 		culture = cu:na_omaha_ponca
 		culture = cu:na_chiwere_winnebago

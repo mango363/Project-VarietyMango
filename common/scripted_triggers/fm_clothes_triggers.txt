@@ -521,6 +521,13 @@ arabic_clothes_trigger = {
 	}
 }
 
+vinlander_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = cu:vinlander
+	}
+}
+
 ethiopian_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
@@ -549,6 +556,9 @@ european_clothes_trigger = {
 			AND = {
 				culture = {
 					has_discrimination_trait = european_heritage
+				}
+				NOT = {
+					culture = cu:vinlander
 				}
 				NOT = {
 					culture = cu:circassian
@@ -834,6 +844,9 @@ european_clothes_pop_trigger = {
 		NOT = {
 			culture = cu:circassian
 		}
+		NOT = {
+			culture = cu:vinlander
+		}
 	}
 }
 
@@ -895,6 +908,7 @@ circumpolar_clothes_pop_trigger = {
 			culture = {
 				has_discrimination_trait = siberian_culture_group
 			}
+			culture = cu:vinlander
 		}
 		NOT = {
 			is_pop_type = slaves
@@ -905,7 +919,10 @@ circumpolar_clothes_pop_trigger = {
 sami_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		culture = cu:sami
+		OR = {
+			culture = cu:sami
+			culture = cu:vinlander
+		}
 	}
 }
 
@@ -950,9 +967,13 @@ south_american_clothes_character_trigger = {
 			OR = {
 				has_discrimination_trait = lusophone
 				has_discrimination_trait = hispanophone
+				has_discrimination_trait = italophone
 			}
 			NOT = {
 				has_discrimination_trait = iberian_culture_group
+			}
+			NOT = {
+				has_discrimination_trait = italian_culture_group
 			}
 		}
 	}
@@ -966,9 +987,13 @@ south_american_clothes_pop_trigger = {
 			OR = {
 				has_discrimination_trait = lusophone
 				has_discrimination_trait = hispanophone
+				has_discrimination_trait = italophone
 			}
 			NOT = {
 				has_discrimination_trait = iberian_culture_group
+			}
+			NOT = {
+				has_discrimination_trait = italian_culture_group
 			}
 		}
 	}
@@ -998,8 +1023,9 @@ cold_clothes_pop_trigger = {
 	scope:pop = {
 		OR = {
 			has_pop_culture = inuit
-			has_pop_culture = athabaskan
+			has_pop_culture = na_northern_athabaskan
 			has_pop_culture = siberian
+			has_pop_culture = vinlander
 		}
 	}
 }

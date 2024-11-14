@@ -39,7 +39,7 @@ CAH = {
 }
 
 MCG = {
-	color = { 45 35 60 }
+	color = { 116 142 184 }
 
 	country_type = unrecognized
 
@@ -65,7 +65,7 @@ SWN = {
 }
 
 ONE = {
-	color = { 230 150 200 }
+	color = { 135 140 55 }
 
 	country_type = unrecognized
 
@@ -94,7 +94,7 @@ IQS = {
 }
 
 AT1 = {
-	color = { 230 70 70 }
+	color = { 58 156 97 }
 
 	country_type = unrecognized
 
@@ -108,7 +108,7 @@ AT1 = {
 }
 
 SSH = {
-	color = { 113 45 151 }
+	color = { 41 64 49 }
 
 	country_type = unrecognized
 

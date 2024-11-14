@@ -49,3 +49,9 @@
  STATE_UTAH: "Yúdah"
  STATE_WYOMING: "Wwé:wamənk""
  STATE_ALASKA: "Alaxsxaq"
+
+ STATE_NEWFOUNDLAND:0 "Vinland"
+ STATE_QUEBEC:0 "Markland"
+ STATE_NUNAVUT:0 "Helluland"
+ STATE_ONTARIO:0 "Þjoðhildur"
+ STATE_MANITOBA:0 "Manitou-wapah"

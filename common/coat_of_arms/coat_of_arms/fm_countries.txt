@@ -9178,6 +9178,25 @@ FRA_fascist = {
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}	
 }
+
+VSL = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_pall_fimbriated.dds"
+		color1 = "white"
+		color2 = "black"
+		color3 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+
+	textured_emblem = {
+		texture = "te_coa_highk.dds"
+		instance = { scale = { 0.3 0.4 } position = { 0.85 0.175 } }	
+	}
+}
+
 AMC = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"

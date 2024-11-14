@@ -2009,10 +2009,6 @@ je_int_ntd = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_assiniboine
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
 					culture = cu:na_ojibwe_potawatomi
 				}
 				kill_population_percent_in_state = {
@@ -3210,10 +3206,6 @@ je_int_siou = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_cree_montagnais
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_assiniboine
 				}
 				set_state_type = incorporated
 			}

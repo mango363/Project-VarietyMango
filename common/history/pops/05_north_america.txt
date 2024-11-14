@@ -1,6 +1,4 @@
 ﻿POPS = {
-	### East Shore ###
-	# 0.8M
 	s:STATE_MAINE = {
 		region_state:AMC = {
 			create_pop = {
@@ -781,10 +779,6 @@
 				culture = na_crow_hisatsa
 				size = 35876
 			}
-			create_pop = {
-				culture = na_assiniboine
-				size = 17000
-			}
 		}
 		region_state:CRU = {
 			create_pop = {
@@ -1310,16 +1304,25 @@
 		}
 	}
 
-	### CANADA ###
 	s:STATE_NUNAVUT = {
+		region_state:VSL = {
+			create_pop = {
+				culture = inuit
+				size = 1980
+			}
+			create_pop = {
+				culture = vinlander
+				size = 96765
+			}
+		}
 		region_state:IUT = {
 			create_pop = {
 				culture = inuit
-				size = 11980
+				size = 980
 			}
 			create_pop = {
-				culture = na_northern_athabaskan
-				size = 3000
+				culture = vinlander
+				size = 65
 			}
 		}
 	}
@@ -1336,18 +1339,14 @@
 				size = 244865
 			}
 		}
-		region_state:CRU = {
+		region_state:VSL = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 17000
+				size = 1000
 			}
 			create_pop = {
-				culture = na_ojibwe_potawatomi
-				size = 31500
-			}
-			create_pop = {
-				culture = na_haudenosaunee
-				size = 11500
+				culture = vinlander
+				size = 715000
 			}
 		}
 	}
@@ -1356,15 +1355,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = swedish_colonial
-				size = 400000
+				size = 413544
 			}
 			create_pop = {
 				culture = afro_amerikaans
 				size = 129765
-			}
-			create_pop = {
-				culture = na_eastern_algonquian
-				size = 67054
 			}
 		}
 	}
@@ -1381,31 +1376,37 @@
 				size = 44632
 			}
 		}
-		region_state:CRU = {
+		region_state:AMC = {
+			create_pop = {
+				culture = swedish_colonial
+				size = 44632
+			}
+			create_pop = {
+				culture = dutch_colonial
+				size = 11237
+			}
+		}
+		region_state:VSL = {
 			create_pop = {
 				culture = inuit
 				size = 4000
 			}
 			create_pop = {
-				culture = na_cree_montagnais
-				size = 8000
+				culture = vinlander
+				size = 966043
 			}
 		}
 	}
 	
 	s:STATE_NEWFOUNDLAND = {
-		region_state:CRU = {
+		region_state:VSL = {
 			create_pop = {
 				culture = inuit
-				size = 179800
+				size = 9800
 			}
 			create_pop = {
-				culture = na_cree_montagnais
-				size = 255643
-			}
-			create_pop = {
-				culture = na_eastern_algonquian
-				size = 255643
+				culture = vinlander
+				size = 1255643
 			}
 		}
 	}
@@ -1413,11 +1414,7 @@
 		region_state:CRU = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 10-643
-			}
-			create_pop = {
-				culture = na_ojibwe_potawatomi
-				size = 12643
+				size = 20643
 			}
 			create_pop = {
 				culture = na_blackfoot
@@ -1465,20 +1462,20 @@
 		region_state:CRU = {
 			create_pop = {
 				culture = na_cree_montagnais
-				size = 7000
+				size = 17000
 			}
 			create_pop = {
 				culture = na_blackfoot
 				size = 7000
 			}
-			create_pop = {
-				culture = na_assiniboine
-				size = 17000
-			}
 		}
 	}
 	s:STATE_MANITOBA = {
-		region_state:CRU = {
+		region_state:VSL = {
+			create_pop = {
+				culture = vinlander
+				size = 245000
+			}
 			create_pop = {
 				culture = na_cree_montagnais
 				size = 14500
@@ -1486,6 +1483,20 @@
 			create_pop = {
 				culture = na_ojibwe_potawatomi
 				size = 15000
+			}
+		}
+		region_state:CRU = {
+			create_pop = {
+				culture = vinlander
+				size = 200
+			}
+			create_pop = {
+				culture = na_cree_montagnais
+				size = 4500
+			}
+			create_pop = {
+				culture = na_ojibwe_potawatomi
+				size = 5000
 			}
 		}
 	}

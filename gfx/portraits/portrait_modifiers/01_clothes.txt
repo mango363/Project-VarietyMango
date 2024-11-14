@@ -5087,7 +5087,10 @@
                 add = 100
                 exists = scope:character
                 scope:character = {
-                    culture = cu:sami
+                    or = {
+                        culture = cu:sami
+                        culture = cu:vinlander
+                    }
                 }
             }
         }

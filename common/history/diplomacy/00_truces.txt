@@ -77,4 +77,10 @@
 			months = 35
 		}
 	}
+	c:VSL = {
+		create_bidirectional_truce = {
+			country = c:AMC
+			months = 48
+		}
+	}
 }

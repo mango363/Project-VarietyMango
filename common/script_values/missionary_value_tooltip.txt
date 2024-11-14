@@ -185,6 +185,17 @@ max_missionary_power_250k = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		if = {
+			limit = {
+				always = yes
+			}
+			add = 0.0025
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		if = {

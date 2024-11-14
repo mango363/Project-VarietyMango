@@ -8996,6 +8996,14 @@ texticon = {
   }
 }
 texticon = {
+  icon = norsp_aspect_9
+  iconsize = {
+    offset = { 0 15 }
+    texture = "gfx/interface/ve_religion/norsep_passive.dds"
+    fontsize = 50
+  }
+}
+texticon = {
   icon = zoro_aspect_9
   iconsize = {
     offset = { 0 15 }

@@ -382,6 +382,14 @@ state_norwegian_standard_of_living_add={
 	}
 }
 
+state_vinlander_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_icelandic_standard_of_living_add={
 	decimals=1
 	color=good
@@ -2606,14 +2614,6 @@ state_na_lakota_standard_of_living_add={
 }
 
 state_na_crow_hisatsa_standard_of_living_add={
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
-state_na_assiniboine_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

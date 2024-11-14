@@ -18,7 +18,6 @@
 # cu:na_yankton_yanktonai_dakota
 # cu:na_lakota
 # cu:na_crow_hisatsa
-# cu:na_assiniboine
 # cu:na_stoney
 # cu:na_omaha_ponca
 # cu:na_chiwere_winnebago
@@ -232,58 +231,6 @@ na_lakota = {
 
 na_crow_hisatsa = {
 	color = { 190 25 0 }
-	religion = na_native_american_spirituality
-	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
-	male_common_first_names = {
-		Hehaka
-		Inkpaduta
-		Istahba
-		Mahpiya
-		Monkaushka
-		Sinte
-		Tamaha
-		Thahca
-		Thasunke
-		Thathanka
-		Thaoyate_Duta
-		Wanbdisapa
-		Wanata
-	}
-	female_common_first_names = {
-		Azayamankawin
-		Topahhdewin
-		Wakanmaniwin
-		Wakantakawin
-		Wakhan_Inazin_Win
-	}
-	noble_last_names = {
-		Hakadah
-		Ohiya_S-a
-		Tamaha
-		Wakinyanduta
-		Wowinape
-	}
-	common_last_names = {
-		Duta
-		Gleska
-		Huste
-		Iyotake
-		Kohkophapi
-		Kramarae
-		Luta
-		Pecan_Wakpa
-		Sapa
-		Thankja
-		Witko
-	}
-	ethnicities = {
-		1 = na_sioux_ethnicity
-	}
-	graphics = decentralised_americas
-}
-
-na_assiniboine = {
-	color = { 0 190 120 }
 	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
 	male_common_first_names = {

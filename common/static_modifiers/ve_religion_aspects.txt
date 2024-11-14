@@ -867,3 +867,9 @@ atheist_aspect_8_mdf = {
 	state_migration_quota_mult = 0.1
 	state_migration_push_mult = -0.15
 }
+
+norsp_pasive_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	unit_army_offense_add = 5
+	country_military_tech_research_speed_mult = 0.03
+}

@@ -63,6 +63,9 @@ beneluxian_culture_group={
 scandinavian_culture_group={
 }
 
+norse={
+}
+
 iberian_culture_group={
 }
 

@@ -644,6 +644,15 @@ religion_passive_bonuses = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_pasive_mdf
+			months = -1
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		add_modifier = {

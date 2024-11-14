@@ -308,6 +308,16 @@ danish_standard_of_living_modifier_negative = {
 	state_danish_standard_of_living_add = 1
 }
 
+vinlander_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_vinlander_standard_of_living_add = 1
+}
+
+vinlander_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_vinlander_standard_of_living_add = 1
+}
+
 norwegian_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_norwegian_standard_of_living_add = 1
@@ -1636,16 +1646,6 @@ na_crow_hisatsa_standard_of_living_modifier_positive = {
 na_crow_hisatsa_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_crow_hisatsa_standard_of_living_add = 1
-}
-
-na_assiniboine_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_assiniboine_standard_of_living_add = 1
-}
-
-na_assiniboine_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_assiniboine_standard_of_living_add = 1
 }
 
 na_stoney_standard_of_living_modifier_positive = {
@@ -3292,15 +3292,7 @@ na_crow_hisatsa_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_crow_hisatsa_standard_of_living_add = 1
 }
-na_assiniboine_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_assiniboine_standard_of_living_add = 1
-}
 
-na_assiniboine_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_assiniboine_standard_of_living_add = 1
-}
 na_stoney_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_na_stoney_standard_of_living_add = 1
