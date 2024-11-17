@@ -996,7 +996,7 @@ ve_holy_site_effects = {
 			limit = {
 				owns_entire_state_region = STATE_BIHAR
 				NOT = {
-					has_modifier = varanasi_hs_mdfv
+					has_modifier = varanasi_hs_mdf
 				}
 			}
 			add_modifier = {
@@ -1380,6 +1380,111 @@ ve_holy_site_effects = {
 					has_modifier = patna_hs_mdf
 				}
 				remove_modifier = patna_hs_mdf
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		if = {
+			limit = {
+				owns_entire_state_region = STATE_SVEALAND
+				NOT = {
+					has_modifier = sveala_mdf
+				}
+			}
+			add_modifier = {
+				name = sveala_mdf
+				months = -1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					owns_entire_state_region = STATE_SVEALAND
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = sveala_mdf
+				}
+				remove_modifier = sveala_mdf
+			}
+		}
+		if = {
+			limit = {
+				owns_entire_state_region = STATE_NORTHERN_NORWAY
+				NOT = {
+					has_modifier = nnor_mdf
+				}
+			}
+			add_modifier = {
+				name = nnor_mdf
+				months = -1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					owns_entire_state_region = STATE_NORTHERN_NORWAY
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = nnor_mdf
+				}
+				remove_modifier = nnor_mdf
+			}
+		}
+		if = {
+			limit = {
+				owns_entire_state_region = STATE_YORKSHIRE
+				NOT = {
+					has_modifier = yorkshire_mdf
+				}
+			}
+			add_modifier = {
+				name = yorkshire_mdf
+				months = -1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					owns_entire_state_region = STATE_YORKSHIRE
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = yorkshire_mdf
+				}
+				remove_modifier = yorkshire_mdf
+			}
+		}
+		if = {
+			limit = {
+				owns_entire_state_region = STATE_NEWFOUNDLAND
+				NOT = {
+					has_modifier = newfound_mdf
+				}
+			}
+			add_modifier = {
+				name = newfound_mdf
+				months = -1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					owns_entire_state_region = STATE_NEWFOUNDLAND
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = newfound_mdf
+				}
+				remove_modifier = newfound_mdf
 			}
 		}
 	}

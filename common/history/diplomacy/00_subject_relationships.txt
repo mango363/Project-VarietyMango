@@ -86,14 +86,6 @@
 		}
 	}
 
-	c:CAS ?= {
-	}
-	c:SCA ?= {
-		create_diplomatic_pact = {
-			country = c:NOR
-			type = personal_union
-		}
-	}
 	c:PUR ?= {
 		create_diplomatic_pact = {
 			country = c:NIA

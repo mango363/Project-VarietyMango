@@ -248,3 +248,26 @@ gomateshwara_statue_hs_mdf = {
 	icon = gfx/interface/monument.dds
 	#piety
 }
+
+sveala_mdf = {
+	icon = gfx/interface/monument.dds
+	country_prestige_mult = 0.05
+	unit_supply_consumption_mult = -0.05
+}
+
+nnor_mdf = {
+	icon = gfx/interface/monument.dds
+	political_movement_radicalism_mult = -0.05
+  state_conversion_mult = 0.1
+}
+
+yorkshire_mdf = {
+	icon = gfx/interface/monument.dds
+	country_infamy_generation_mult = -0.05
+}
+
+newfound_mdf = {
+	icon = gfx/interface/monument.dds
+  state_accepted_birth_rate_mult = 0.05
+  state_pop_qualifications_mult = 0.15
+}

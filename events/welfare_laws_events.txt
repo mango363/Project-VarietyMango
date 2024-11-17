@@ -15,7 +15,10 @@ welfare_laws.1 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -97,6 +100,7 @@ welfare_laws.1 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"

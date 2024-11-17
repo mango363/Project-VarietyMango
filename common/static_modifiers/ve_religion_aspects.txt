@@ -873,3 +873,56 @@ norsp_pasive_mdf = {
 	unit_army_offense_add = 5
 	country_military_tech_research_speed_mult = 0.03
 }
+
+norsp_aspect_1_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	state_mortality_mult = -0.05
+	country_law_enactment_success_add = 0.05
+	state_radicals_from_sol_change_mult = -0.25
+	state_loyalists_from_sol_change_accepted_religion_mult = 0.35
+}
+
+norsp_aspect_2_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	unit_army_offense_mult = 0.1
+}
+
+norsp_aspect_3_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	battle_defense_owned_province_mult = 0.15
+}
+
+norsp_aspect_4_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	building_group_bg_agriculture_throughput_add = 0.25
+	building_group_bg_plantations_throughput_add = 0.25
+	building_group_bg_ranching_throughput_add = 0.25
+	country_minting_mult = 0.05
+}
+
+norsp_aspect_5_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	country_legitimacy_base_add = 5
+	state_tax_waste_add = -0.1
+	country_government_wages_mult = -0.1
+	country_bureaucracy_add = 100
+}
+
+norsp_aspect_6_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	country_society_tech_research_speed_mult = 0.05
+	country_production_tech_research_speed_mult = 0.05
+}
+
+norsp_aspect_7_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	state_education_access_add = 0.05
+}
+
+norsp_aspect_8_mdf = {
+	icon = gfx/interface/icons/religion_icons/norse.dds
+	unit_morale_damage_mult = 0.15
+	unit_morale_recovery_mult = 0.15
+	state_conversion_mult = 0.10
+}
+

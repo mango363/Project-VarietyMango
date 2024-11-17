@@ -365,7 +365,10 @@ education_laws.5 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -447,6 +450,7 @@ education_laws.5 = {
 				religion = rel:shiite
 				religion = rel:na_wocekiye
 				religion = rel:zoroastrian
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"
@@ -516,7 +520,10 @@ education_laws.6 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -598,6 +605,7 @@ education_laws.6 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"

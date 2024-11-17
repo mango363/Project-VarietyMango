@@ -147,6 +147,12 @@
  BAL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Indonesia#!"
  BTN_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Indonesia#!"
  YAG_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Makarr-Yindi#!"
+ SMO_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
+ ORE_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
+ DON_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
+ POC_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
+ SAT_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
+ DPR_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Russia#!"
 
  NOTEASTF:0 "Is not East Frankia"
 

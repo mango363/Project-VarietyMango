@@ -3603,7 +3603,10 @@ revolution_pulse_events.26 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -3685,6 +3688,7 @@ revolution_pulse_events.26 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"
@@ -3942,7 +3946,10 @@ revolution_pulse_events.29 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -4024,6 +4031,7 @@ revolution_pulse_events.29 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"

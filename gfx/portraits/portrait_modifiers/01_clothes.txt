@@ -5048,6 +5048,7 @@
                         culture = cu:inuit
                         culture = cu:siberian
                         culture = cu:yakut
+                        culture = cu:vinlander
                     }
                 }
             }
@@ -5087,10 +5088,7 @@
                 add = 100
                 exists = scope:character
                 scope:character = {
-                    or = {
-                        culture = cu:sami
-                        culture = cu:vinlander
-                    }
+                    culture = cu:sami
                 }
             }
         }

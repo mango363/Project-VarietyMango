@@ -294,6 +294,8 @@
  ZAP_ADJ:0 "West Slavic"
  GAR:0 "Greater Armenia"
  GAR_ADJ:0 "Armenian"
+ RAA:0 "Russia"
+ RAA_ADJ:0 "Russian"
  dyn_arm:0 "Armenian Empire"
  AAN:0 "Al-Andalus"
  AAN_ADJ:0 "Andalusian"

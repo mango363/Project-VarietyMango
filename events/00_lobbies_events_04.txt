@@ -887,7 +887,10 @@ lobby_events.2 = {
 
 	event_image = {
 		trigger = {
-			country_has_state_religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 

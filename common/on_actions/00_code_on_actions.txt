@@ -22,6 +22,30 @@ on_monthly_pulse = {
 		}
 		every_country = {
 			limit = {
+				country_rank <= rank_value:major_power
+				prestige < 500
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_modifier = mod_major
+					}
+				}
+				add_modifier = {
+					name = mod_major
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				NOT = {
+					country_rank <= rank_value:major_power
+				}
+			}
+			remove_modifier = mod_major
+		}
+		every_country = {
+			limit = {
 				any_scope_building = {
 					is_building_type = building_barracks				
 					building_has_goods_shortage = yes

@@ -1112,6 +1112,17 @@ GAR = {
 	capital = STATE_ARMENIA
 }
 
+RAA = {
+	color = { 47 91 18 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+
 PIN = {
 	color = { 17 145 56 }
 
@@ -3982,7 +3993,7 @@ RUI = {
 
 	country_type = recognized
 
-	tier = kingdom
+	tier = empire
 	
 	cultures = { russian }
 	capital = STATE_KAZAN

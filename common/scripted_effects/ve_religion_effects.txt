@@ -152,6 +152,14 @@ ve_becoming_atheist = {
 		remove_modifier = zoro_aspect_6_mdf
 		remove_modifier = zoro_aspect_7_mdf
 		remove_modifier = zoro_aspect_8_mdf
+		remove_modifier = norsp_aspect_1_mdf
+		remove_modifier = norsp_aspect_2_mdf
+		remove_modifier = norsp_aspect_3_mdf
+		remove_modifier = norsp_aspect_4_mdf
+		remove_modifier = norsp_aspect_5_mdf
+		remove_modifier = norsp_aspect_6_mdf
+		remove_modifier = norsp_aspect_7_mdf
+		remove_modifier = norsp_aspect_8_mdf
 		remove_modifier = confucian_aspect_1_mdf
 		remove_modifier = confucian_aspect_2_mdf
 		remove_modifier = confucian_aspect_3_mdf
@@ -314,6 +322,15 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_1_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_1_mdf
 			months = 65
 		}
 	}
@@ -493,6 +510,15 @@ ve_religion_aspect_2_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_2_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:animist
 		}
 		add_modifier = {
@@ -572,6 +598,15 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_3_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_3_mdf
 			months = 65
 		}
 	}
@@ -769,6 +804,15 @@ ve_religion_aspect_4_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_4_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:jewish
 		}
 		add_modifier = {
@@ -943,6 +987,15 @@ ve_religion_aspect_5_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_5_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:jewish
 		}
 		add_modifier = {
@@ -1103,6 +1156,15 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_6_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_6_mdf
 			months = 65
 		}
 	}
@@ -1291,6 +1353,15 @@ ve_religion_aspect_7_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_7_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:jewish
 		}
 		add_modifier = {
@@ -1460,6 +1531,15 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_8_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_8_mdf
 			months = 65
 		}
 	}

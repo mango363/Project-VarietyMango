@@ -13,14 +13,14 @@ STATES = {
 	s:STATE_LOUISIANA = {
 		create_state = {
 			country = c:CAD
-			owned_provinces = { xA4EE3C x71BEC1 xEE0FAA x2BEBAE xD658E7 xEFB99C x0CF7A4 x7EF4B8 xBF79F5 x1BF244 }
+			owned_provinces = { xA4EE3C x71BEC1 xEE0FAA x2BEBAE xD658E7 xEFB99C x0CF7A4 x7EF4B8 xBF79F5 x1BF244 x131940 }
 			state_type = incorporated
 		}
 
 		create_state = {
 			country = c:LOI
 			owned_provinces = {
-				x371B1B xC0F080 x68C793 x216122 x9E96B6 xC62139 xAC4818 x18D465 xC07080 x131940 x403095
+				x371B1B xC0F080 x68C793 x216122 x9E96B6 xC62139 xAC4818 x18D465 xC07080 x403095
 				xC1273E x86BC13 x4FA3C4
 				xC51912
 				x39D7A2 x9A7554 x13b0C7
@@ -1254,7 +1254,7 @@ STATES = {
 		create_state = {
 			country = c:CAD
 			owned_provinces = {
-				x2C9BF6 x25D807 xA66212 x44F322 x849B8F
+				x2C9BF6 x25D807 xA66212 x44F322 x849B8F x5B5F82
 				x8B5EC8 x317E88 x824F92 x1C3B80 x973B1C xF0BA2E xA909D2
 				x80287B x5C6FF5 x39DB21 x90B38D x71ACC7 xFD0D62 x0DA281
 				x9D5716 x1DDB1A x1120AB xA33609 xFE4703 xB47B14
@@ -1269,7 +1269,6 @@ STATES = {
 		create_state = {
 			country = c:LOI
 			owned_provinces = {
-				x5B5F82
 				x99A404 x1BB9FA
 				xD4536D x7E7CB0 x33031A xD4BE3A
 				xD15251 x56A8B5 x803040 x8CDEAE
@@ -4625,6 +4624,7 @@ STATES = {
 	s:STATE_NORTH_SUMATRA = {
 		create_state = {
 			country = c:DKE
+			state_type = unincorporated
 			owned_provinces = { x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F x8A3E15 xD2D88C x257D2C x79A66E x85B004 x4E9BC1 x9D4BD1 xDC4677 xEAF2DC xA0CEED x9377DF xE0A0F0 x91B001 x01C030 xA1341F x7C7431 x339E85 xD3A66E x983FEB }
 		}
 		
@@ -4643,6 +4643,7 @@ STATES = {
 	s:STATE_ACEH = {
 		create_state = {
 			country = c:DKE
+			state_type = unincorporated
 			owned_provinces = { x9A7E0B x388ABB x60E050 xE3CB2E x4544B1 xD5A22C x7E3D68 x4F7793 xD4118B x616150 xC5091B x5BDF4D x1C8420 xA0DFD0 xEB815E xAB0290 x07B7F0 xC266CF x0DDF49 xBE17D2 x30AED9 }
 		}
 		
@@ -8024,15 +8025,15 @@ STATES = {
 	s:STATE_SILESIA = {
 		create_state = {
 			country = c:BOH
-			owned_provinces = { x6E617F xC00121 xAF9F20 x88194B x90B12B x5E9091 x272E48 x94D624 xC108EA xCE74AB }
+			owned_provinces = { xC00121 x272E48 x94D624 xCE74AB }
 		}
 		create_state = {
 			country = c:LOT
-			owned_provinces = { x1B72C9 x732DC0 }
+			owned_provinces = { x1B72C9 x732DC0 xC108EA }
 		}
 		create_state = {
 			country = c:WRS
-			owned_provinces = { x821F52 x7B2F62 }
+			owned_provinces = { x821F52 x7B2F62 x5E9091 xAF9F20 x90B12B x88194B x6E617F }
 		}
 		add_homeland = cu:north_german
 		add_homeland = cu:polish

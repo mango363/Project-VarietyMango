@@ -429,6 +429,14 @@ GAR = {
 	ai_will_do = { always = yes }
 }
 
+RAA = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
 LAO = {
 	states = {
 		STATE_LAOS

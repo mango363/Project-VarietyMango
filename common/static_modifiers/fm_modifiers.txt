@@ -436,20 +436,18 @@ modifier_kor_seven = {
 }
 pb_lead = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_bureaucracy_mult = -0.15
+	country_bureaucracy_mult = -0.1
 	country_authority_mult = 0.05
-	state_tax_capacity_mult = -0.1
-	state_construction_mult = -0.15
-	country_infamy_generation_mult = 0.15
-	country_prestige_add = 100
+	state_construction_mult = -0.05
+	country_infamy_generation_mult = 0.4
+	country_prestige_add = 250
 }
 pb_cost = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_bureaucracy_mult = -0.1
-	state_tax_capacity_mult = -0.05
+	country_bureaucracy_mult = -0.05
 	state_construction_mult = -0.05
-	country_infamy_generation_mult = 0.05
-	country_prestige_add = 25
+	country_infamy_generation_mult = 0.25
+	country_prestige_add = 125
 }
 modifier_chu_claim = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
@@ -1077,4 +1075,10 @@ modifier_yua_four = {
 	goods_input_sugar_add = 1
 	goods_input_grain_add = 1
 	goods_input_liquor_add = 1
+}
+mod_major = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_tax_capacity_mult = 0.1
+	country_authority_mult = 0.1
+	state_construction_mult = 0.25
 }

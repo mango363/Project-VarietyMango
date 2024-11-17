@@ -193,6 +193,12 @@
                             culture = cu:vinlander
                         }
                     }
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            culture = cu:vinlander
+                        } 
+                    }
                 }                
             }
         }

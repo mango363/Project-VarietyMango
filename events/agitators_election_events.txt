@@ -4759,7 +4759,10 @@ agitators_election_events.36 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -4841,6 +4844,7 @@ agitators_election_events.36 = {
 				religion = rel:shiite
 				religion = rel:na_wocekiye
 				religion = rel:zoroastrian
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"
