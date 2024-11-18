@@ -326,6 +326,9 @@
  KEM_ADJ:0 "Rûmi"
  dyn_kem:0 "Karāmāni Empire"
  dyn_kem_adj:0 "Karāmāni"
+ HKN:0 "North Sea Republic"
+ HKN_ADJ:0 "North Sea"
+ dyn_hkn:0 "High Kingdom of the North Sea"
 
  PIN:0 "Pan-Islamic Republic"
  PIN_ADJ:0 "Islamic"

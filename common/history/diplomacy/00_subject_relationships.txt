@@ -9,11 +9,13 @@
 			type = dominion
 		}
 	}
-	c:SWU ?= {
+	c:DKE ?= {
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
 		}
+	}
+	c:SWU ?= {
 		create_diplomatic_pact = {
 			country = c:AMC
 			type = dominion

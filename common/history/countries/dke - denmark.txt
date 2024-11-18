@@ -28,6 +28,9 @@ COUNTRIES = {
 		add_journal_entry = {
 			type = je_suez_fm
 		}
+		add_journal_entry = {
+			type = je_dke_main
+		}
 		add_modifier = {
 			name = modifier_ven_two
 		}

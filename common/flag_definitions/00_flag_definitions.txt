@@ -6634,6 +6634,21 @@ GAR = { # Greater Armenia
 	}
 }
 
+HKN = { 
+	flag_definition = {	
+		coa = HKN
+		subject_canton = HKN
+		priority = 10
+	}
+	flag_definition = {
+		coa = HKN_monarchy
+		priority = 15
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
 AAN = { # Al-Andalus
 	flag_definition = {
 		coa = AAN

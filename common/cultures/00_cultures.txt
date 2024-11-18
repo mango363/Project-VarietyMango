@@ -1694,7 +1694,7 @@ swedish={
 danish={
 	color= hsv{ 0 0.51 0.86 }
 	religion = protestant
-	traits = { scandinavian_culture_group european_heritage }
+	traits = { scandinavian_culture_group norse european_heritage }
 	male_common_first_names={
 		Aasmund
 		Aage

@@ -1762,6 +1762,7 @@ STATES = {
 		
 		add_homeland = cu:greek
 		add_homeland = cu:greco_roman
+		add_claim = c:BIZ
 	}
 	s:STATE_PELOPONNESE = {
 		create_state = {

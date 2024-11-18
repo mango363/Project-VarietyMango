@@ -923,6 +923,7 @@ norsp_aspect_8_mdf = {
 	icon = gfx/interface/icons/religion_icons/norse.dds
 	unit_morale_damage_mult = 0.15
 	unit_morale_recovery_mult = 0.15
+	unit_kill_rate_add = 0.05
 	state_conversion_mult = 0.10
 }
 

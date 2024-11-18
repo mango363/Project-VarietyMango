@@ -4217,3 +4217,30 @@ je_yag_int_nor_b = {
 		}
 	}
 }
+
+je_vikey = {
+	name = "je_vikey"
+	desc = "je_vikey_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 50
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = vikingsss
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = vkeyre
+			set_variable = {
+				name = vikingsss
+			}
+		}
+	}
+}

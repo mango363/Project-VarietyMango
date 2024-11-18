@@ -1112,6 +1112,17 @@ GAR = {
 	capital = STATE_ARMENIA
 }
 
+HKN = {
+	color = { 6, 36, 14 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { danish british norwegian }
+	capital = STATE_ZEALAND
+}
+
 RAA = {
 	color = { 47 91 18 }
 
