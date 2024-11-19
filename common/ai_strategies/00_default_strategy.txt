@@ -679,6 +679,86 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
+					has_journal_entry = je_danelaw
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_YORKSHIRE
+							state_region = s:STATE_MIDLANDS
+							state_region = s:STATE_EAST_ANGLIA
+						}
+					}
+				}
+				add = 400
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_vin_main
+					scope:target_state = {
+						state_region = s:STATE_GREENLAND
+					}
+				}
+				add = 400
+			}
+			if = {
+				limit = {
+					has_journal_entry = king_vin
+					scope:target_state = {
+						OR = {
+							state_region = STATE_NEWFOUNDLAND
+							state_region = STATE_NUNAVUT
+							state_region = STATE_QUEBEC
+							state_region = STATE_ONTARIO
+							state_region = STATE_MANITOBA
+							state_region = STATE_WISCONSIN
+							state_region = STATE_MICHIGAN
+							state_region = STATE_MINNESOTA
+							state_region = STATE_NEW_BRUNSWICK
+						}
+					}
+				}
+				add = 400
+				if = {
+					limit = {
+						has_journal_entry = je_north_empire_vin
+						scope:target_state = {
+							OR = {
+								state_region = STATE_ZEALAND
+								state_region = STATE_SCHLESWIG_HOLSTEIN
+								state_region = STATE_JUTLAND
+								state_region = STATE_MIDLANDS
+								state_region = STATE_EAST_ANGLIA
+								state_region = STATE_HOME_COUNTIES
+								state_region = STATE_WESTERN_NORWAY
+								state_region = STATE_EASTERN_NORWAY
+							}
+						}
+					}
+					add = 400
+				}
+			}
+			
+
+			if = {
+				limit = {
+					has_journal_entry = je_north_empire
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_YORKSHIRE
+							state_region = s:STATE_MIDLANDS
+							state_region = s:STATE_EAST_ANGLIA
+							state_region = STATE_HOME_COUNTIES
+							state_region = STATE_WESTERN_NORWAY
+							state_region = STATE_EASTERN_NORWAY
+							state_region = STATE_NORTHERN_NORWAY
+							state_region = STATE_SCANIA
+						}
+					}
+				}
+				add = 400
+			}
+
+			if = {
+				limit = {
 					has_journal_entry = je_church_ita
 					scope:target_state = {
 						OR = {
@@ -3069,6 +3149,95 @@ ai_strategy_default = {
 						state_region = s:STATE_EMILIA
 						state_region = s:STATE_ROMAGNA
 						state_region = s:STATE_TUSCANY
+						}
+					}
+				}
+			}
+			add = 25
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_danelaw
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_YORKSHIRE
+							state_region = s:STATE_MIDLANDS
+							state_region = s:STATE_EAST_ANGLIA
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_vin_main
+				scope:target_state = {
+					any_scope_state = {
+						state_region = s:STATE_GREENLAND
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				has_journal_entry = king_vin
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+							state_region = STATE_NEWFOUNDLAND
+							state_region = STATE_NUNAVUT
+							state_region = STATE_QUEBEC
+							state_region = STATE_ONTARIO
+							state_region = STATE_MANITOBA
+							state_region = STATE_WISCONSIN
+							state_region = STATE_MICHIGAN
+							state_region = STATE_MINNESOTA
+							state_region = STATE_NEW_BRUNSWICK
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_north_empire_vin
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+							state_region = STATE_NEWFOUNDLAND
+							state_region = STATE_NUNAVUT
+							state_region = STATE_QUEBEC
+							state_region = STATE_ONTARIO
+							state_region = STATE_MANITOBA
+							state_region = STATE_WISCONSIN
+							state_region = STATE_MICHIGAN
+							state_region = STATE_MINNESOTA
+							state_region = STATE_NEW_BRUNSWICK
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_north_empire
+				scope:target_state = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_YORKSHIRE
+							state_region = s:STATE_MIDLANDS
+							state_region = s:STATE_EAST_ANGLIA
+							state_region = STATE_HOME_COUNTIES
+							state_region = STATE_WESTERN_NORWAY
+							state_region = STATE_EASTERN_NORWAY
+							state_region = STATE_NORTHERN_NORWAY
+							state_region = STATE_SCANIA
 						}
 					}
 				}

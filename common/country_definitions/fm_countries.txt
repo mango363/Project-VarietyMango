@@ -1113,7 +1113,7 @@ GAR = {
 }
 
 HKN = {
-	color = { 6, 36, 14 }
+	color = { 13 6 61 }
 
 	country_type = recognized
 
@@ -1121,6 +1121,17 @@ HKN = {
 	
 	cultures = { danish british norwegian }
 	capital = STATE_ZEALAND
+}
+
+HKV = {
+	color = { 148 191 242 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { vinlander }
+	capital = STATE_NEWFOUNDLAND
 }
 
 RAA = {

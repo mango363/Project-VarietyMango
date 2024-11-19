@@ -597,6 +597,20 @@ HKN = {
 	}
 }
 
+HKV = {
+	dynamic_country_name = {
+		name = dyn_hkv
+		adjective = hkv_ADJ
+		priority = 0
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
 JAE = {
 	dynamic_country_name = {
 		name = dyn_jae

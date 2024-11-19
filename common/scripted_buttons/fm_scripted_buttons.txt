@@ -4244,3 +4244,33 @@ je_vikey = {
 		}
 	}
 }
+
+je_noclavin = {
+	name = "je_noclavin"
+	desc = "je_noclavin_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 50
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = greeevin
+			}
+		}
+		NOT = {
+			owns_entire_state_region = STATE_GREENLAND
+		}
+	}
+	effect = {
+		set_variable = {
+			name = greeevin
+		}
+		s:STATE_GREENLAND = {
+			remove_claim = c:VSL
+		}
+	}
+}

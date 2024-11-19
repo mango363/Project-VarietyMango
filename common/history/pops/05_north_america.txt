@@ -1338,6 +1338,10 @@
 				culture = na_tuscarora_nottoway
 				size = 244865
 			}
+			create_pop = {
+				culture = vinlander
+				size = 35544
+			}
 		}
 		region_state:VSL = {
 			create_pop = {
@@ -1355,13 +1359,22 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = swedish_colonial
-				size = 413544
+				size = 313544
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 129765
+				size = 49765
+			}
+			create_pop = {
+				culture = dutch_colonial
+				size = 153754
+			}
+			create_pop = {
+				culture = vinlander
+				size = 85287
 			}
 		}
+		
 	}
 	
 	s:STATE_QUEBEC = {
@@ -1375,15 +1388,23 @@
 				culture = na_tuscarora_nottoway
 				size = 44632
 			}
+			create_pop = {
+				culture = vinlander
+				size = 14303
+			}
 		}
 		region_state:AMC = {
 			create_pop = {
 				culture = swedish_colonial
-				size = 44632
+				size = 24632
 			}
 			create_pop = {
 				culture = dutch_colonial
-				size = 11237
+				size = 21237
+			}
+			create_pop = {
+				culture = vinlander
+				size = 26430
 			}
 		}
 		region_state:VSL = {

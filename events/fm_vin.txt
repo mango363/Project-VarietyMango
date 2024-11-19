@@ -1,0 +1,155 @@
+namespace = fm_vin
+fm_vin.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_vin.1.t
+	desc = fm_vin.1.d
+	flavor = fm_vin.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_vin.1.a
+		add_loyalists = {
+			value = 0.2
+			culture = cu:vinlander
+		}
+		add_journal_entry = {
+			type = je_north_empire_vin
+		}
+		s:STATE_ZEALAND = {
+			add_claim = root
+		}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+			add_claim = root
+		}
+		s:STATE_JUTLAND = {
+			add_claim = root
+		}
+		s:STATE_YORKSHIRE = {
+			add_claim = root
+		}
+		s:STATE_MIDLANDS = {
+			add_claim = root
+		}
+		s:STATE_EAST_ANGLIA = {
+			add_claim = root
+		}
+		s:STATE_NORTHERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_WESTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_EASTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_HOME_COUNTIES = {
+			add_claim = root
+		}
+		s:STATE_SCANIA = {
+			add_claim = root
+		}
+	}
+}
+
+fm_vin.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_vin.2.t
+	desc = fm_vin.2.d
+	flavor = fm_vin.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	option = {
+		name = fm_vin.2.a
+		add_primary_culture = cu:na_yankton_yanktonai_dakota
+		add_loyalists = {
+			value = 0.25
+			culture = cu:vinlander
+		}
+		every_scope_state = {
+			limit = { is_capital = no }
+			convert_population = {
+				target = root.religion
+				value = 0.5
+			}				
+		}
+		hidden_effect = {
+			every_scope_pop = {
+				limit = {
+					culture = cu:na_santee_dakota
+				}
+				change_pop_culture = {
+					target = cu:na_yankton_yanktonai_dakota
+					value = 1
+				}
+			}
+			every_scope_pop = {
+				limit = {
+					culture = cu:na_ojibwe_potawatomi
+				}
+				change_pop_culture = {
+					target = cu:na_yankton_yanktonai_dakota
+					value = 1
+				}
+			}
+			every_scope_pop = {
+				limit = {
+					culture = cu:na_chiwere_winnebago
+				}
+				change_pop_culture = {
+					target = cu:na_yankton_yanktonai_dakota
+					value = 1
+				}
+			}
+			add_modifier = {
+				name = modifier_vin1
+				months = 60
+			}
+		}
+	}
+}
+
+fm_vin.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_vin.3.t
+	desc = fm_vin.3.d
+	flavor = fm_vin.3.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	trigger = {
+	}
+
+option = {
+	name = fm_vin.3.a
+	add_primary_culture = cu:norwegian
+	add_primary_culture = cu:british
+	add_primary_culture = cu:danish
+	add_loyalists = {
+		value = 0.25
+		culture = cu:danish
+	}
+	every_scope_state = {
+		limit = { is_capital = no }
+		convert_population = {
+			target = root.religion
+			value = 0.4
+		}				
+	}
+}
+}

@@ -665,3 +665,13 @@ je_bud_main_reason:0 "The Grand Duchy of [ROOT.GetCountry.GetName] has been a va
  je_north_empire:0 "Restoring the High Kingdom of the North Sea"
  je_north_empire_reason:0 "#V With the restoration of the Danelaw secure, the King now stands on the precipice of fulfilling his grand ambition to restore the High Kingdom of the North Sea, uniting Denmark, Norway, and their surrounding territories under a shared banner.#!"
  je_nohkn:0 "The High Kingdom has been already founded by a different king"
+ je_noclavin:0 "Renounce the Claims"
+ je_noclavin_desc:0 "This decision will make the JE fail"
+ greeevintext:0 "We have renounced the claims"
+ je_vin_main:0 "Reclaiming Greenland"
+ je_vin_main_reason:0 "Greenland, historically a homeland for our people, was subjected to invasion by the Swedish monarchy several decades ago; therefore, it is our obligation to pursue its reclamation."
+ king_vin:0 "Looking at the West"
+ king_vin_reason:0 "#V At last, we has relinquished our claims to Greenland, choosing instead to turn our attention westward to establish a new kingdom, to be named Vinland.#!"
+
+ je_north_empire_vin:0 "Restoring the High Kingdom of the North Sea"
+ je_north_empire_vin_reason:0 "#V The High Kingdom of the North Sea, celebrated for its historical grandeur and strategic significance, now lies within our reach, presenting an unprecedented opportunity for reinvigoration of Norse unity and power.#!"

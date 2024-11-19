@@ -1,0 +1,111 @@
+je_vin_main = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	scripted_button = je_noclavin
+
+	complete = {
+		owns_entire_state_region = STATE_GREENLAND
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_vin.1
+		}
+	}
+	fail = {
+		custom_tooltip = {
+			text = greeevintext
+			has_variable = greeevin
+		}
+	}
+	on_fail = {
+		add_journal_entry = {
+			type = king_vin
+		}
+		hidden_effect = {
+			s:STATE_NUNAVUT = {
+				add_claim = root
+			}
+			s:STATE_MANITOBA = {
+				add_claim = root
+			}
+			s:STATE_WISCONSIN = {
+				add_claim = root
+			}
+			s:STATE_MICHIGAN = {
+				add_claim = root
+			}
+			s:STATE_MINNESOTA = {
+				add_claim = root
+			}
+			s:STATE_NEW_BRUNSWICK = {
+				add_claim = root
+			}
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+king_vin = {
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	group = je_group_historical_content
+
+	complete = {
+		owns_entire_state_region = STATE_NEWFOUNDLAND
+		owns_entire_state_region = STATE_NUNAVUT
+		owns_entire_state_region = STATE_QUEBEC
+		owns_entire_state_region = STATE_ONTARIO
+		owns_entire_state_region = STATE_MANITOBA
+		owns_entire_state_region = STATE_WISCONSIN
+		owns_entire_state_region = STATE_MICHIGAN
+		owns_entire_state_region = STATE_MINNESOTA
+		owns_entire_state_region = STATE_NEW_BRUNSWICK
+		has_law = law_type:law_monarchy
+		or = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_vin.2
+		}
+		hidden_effect = {
+			change_tag = HKV
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_north_empire_vin = {
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	group = je_group_historical_content
+
+	complete = {
+		owns_entire_state_region = STATE_ZEALAND
+		owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+		owns_entire_state_region = STATE_JUTLAND
+		owns_entire_state_region = STATE_MIDLANDS
+		owns_entire_state_region = STATE_EAST_ANGLIA
+		owns_entire_state_region = STATE_HOME_COUNTIES
+		owns_entire_state_region = STATE_WESTERN_NORWAY
+		owns_entire_state_region = STATE_EASTERN_NORWAY
+		has_law = law_type:law_monarchy
+	}
+	fail = {
+		custom_tooltip = {
+			text = je_nohkn
+			exists = c:HKN
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_vin.3
+		}
+		hidden_effect = {
+			change_tag = HKN
+		}
+	}
+	should_be_pinned_by_default = yes
+}

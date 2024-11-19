@@ -357,10 +357,6 @@ modifier_rui_ten = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_prestige_add = 150
 }
-modifier_jap_fm = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_colony_growth_speed_mult = -0.9
-}
 modifier_yua_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_expenses_add = 2000
@@ -1081,4 +1077,7 @@ mod_major = {
 	state_tax_capacity_mult = 0.1
 	country_authority_mult = 0.1
 	state_construction_mult = 0.25
+}
+modifier_vin1 = {
+	state_colony_growth_speed_mult = 0.5
 }

@@ -3621,6 +3621,7 @@ STATES = {
 
 		add_homeland = cu:swedish_colonial
 		add_homeland = cu:dutch_colonial
+		add_homeland = cu:vinlander
 	}
 	s:STATE_NORTH_ANGOLA = {
 		create_state = {

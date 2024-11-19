@@ -329,6 +329,9 @@
  HKN:0 "North Sea Republic"
  HKN_ADJ:0 "North Sea"
  dyn_hkn:0 "High Kingdom of the North Sea"
+ HKV:0 "Republic of Vinland"
+ HKV_ADJ:0 "Vinlander"
+ dyn_hkv:0 "High Kingdom of Vinland"
 
  PIN:0 "Pan-Islamic Republic"
  PIN_ADJ:0 "Islamic"

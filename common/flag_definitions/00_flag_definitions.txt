@@ -6649,6 +6649,21 @@ HKN = {
 	}
 }
 
+HKV = { 
+	flag_definition = {	
+		coa = HKV
+		subject_canton = HKV
+		priority = 10
+	}
+	flag_definition = {
+		coa = HKV_monarchy
+		priority = 15
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
 AAN = { # Al-Andalus
 	flag_definition = {
 		coa = AAN

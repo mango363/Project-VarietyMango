@@ -2,6 +2,7 @@
 	c:VSL = {
 		
 		effect_starting_technology_tier_2_tech = yes
+		add_technology_researched = nationalism
 		set_tax_level = medium
 		
 		add_taxed_goods = g:wine
@@ -36,6 +37,9 @@
 		}
 		ig:ig_intelligentsia = {
 			set_ig_suppression = yes
+		}
+		add_journal_entry = {
+			type = je_vin_main
 		}
 	}
 }
