@@ -54,7 +54,7 @@
 	c:NED ?= {
 		create_diplomatic_pact = {
 			country = c:VOC
-			type = dominion
+			type = chartered_company
 		}
 	}
 	c:SAU ?= {
@@ -91,11 +91,11 @@
 	c:PUR ?= {
 		create_diplomatic_pact = {
 			country = c:NIA
-			type = dominion
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:EIC
-			type = dominion
+			type = chartered_company
 		}
 	}
 	c:DAI ?= {

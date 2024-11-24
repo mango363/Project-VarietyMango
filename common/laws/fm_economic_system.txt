@@ -608,7 +608,7 @@ law_extraction_economy = {
 		building_nationalization_investment_return_add = 0.5
 		country_disable_nationalization_without_compensation_bool = yes
 		country_economic_dependence_on_overlord_add = 0.5
-		country_max_companies_add = 4
+		country_max_companies_add = 3
 		country_company_pay_to_establish_bool = yes
 	}
 
