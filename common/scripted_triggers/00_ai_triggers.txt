@@ -37,7 +37,10 @@ ai_desires_target_state = {
 			scope:target_state = { 
 				is_split_state = yes 
 				state_region = { 
-					any_scope_state = { owner = root }
+					any_scope_state = { 
+						owner = root 
+						is_treaty_port = no
+					}
 				}
 			}				
 		}
@@ -66,8 +69,11 @@ ai_desires_target_state = {
 ai_has_reasons_to_not_oppose_law = {
 	OR = {
 		any_political_movement = {
-			desired_law ?= scope:law.type
-			political_movement_radicalism >= 75
+			law_stance = {
+				law = scope:law.type
+				value > neutral
+			}			
+			political_movement_radicalism >= 0.75
 		}
 		AND = {
 			has_journal_entry = je_government_petition

@@ -9,6 +9,9 @@
 		ideology_loyalist
 		ideology_patriotic
 	}
+	character_ideologies = {
+		ideology_moderate
+	}
 
 	enable = {
 		always = yes
@@ -26,16 +29,6 @@
 			if = {
 				limit = {
 					owner = {
-						c:CHI ?= this
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_newly_created_army
-				set_ig_trait = ig_trait:ig_trait_self_strengthening
-				set_ig_trait = ig_trait:ig_trait_parochial_leadership
-			}
-			else_if = {
-				limit = {
-					owner = {
 						any_primary_culture = {
 							has_discrimination_trait = hispanophone
 							has_discrimination_trait = european_heritage
@@ -46,22 +39,6 @@
 				set_ig_trait = ig_trait:ig_trait_materiel_waste
 				set_ig_trait = ig_trait:ig_trait_veteran_consultation
 				set_ig_trait = ig_trait:ig_trait_el_buen_jefe
-			}
-			else_if = {
-				limit = {
-					owner = {
-						has_dlc_feature = rp1_content
-						c:BRZ ?= this
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_coronelismo
-				set_ig_trait = ig_trait:ig_trait_clube_militar
-				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
-			}
-			else = {
-				set_ig_trait = ig_trait:ig_trait_materiel_waste
-				set_ig_trait = ig_trait:ig_trait_veteran_consultation
-				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 			}
 		}
 		if = {
@@ -238,7 +215,7 @@
 				}
 				if = {
 					limit = {
-						strata = rich
+						strata = upper
 					}
 					value = 150
 				}
@@ -438,16 +415,7 @@
 	# The chance that a commander belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
-		value = 0.75
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		value = 0.25
+		multiply = ig_commander_leader_chance_mult
 	}
 }

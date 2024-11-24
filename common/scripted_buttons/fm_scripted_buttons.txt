@@ -3514,7 +3514,7 @@ je_ned_butt = {
 		}
 		add_radicals = {
 			value = 0.25
-			strata = poor
+			strata = lower
 		}
 		add_radicals = {
 			value = 0.5

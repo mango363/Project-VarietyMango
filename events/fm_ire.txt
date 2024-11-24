@@ -37,7 +37,7 @@ fm_ire.2 = {
 		add_primary_culture = cu:breton
 		add_primary_culture = cu:welsh
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -45,7 +45,7 @@ fm_ire.2 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 	}

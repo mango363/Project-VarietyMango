@@ -802,7 +802,7 @@ BHT = {
 		STATE_BALUCHISTAN
 		STATE_BIHAR 
 		STATE_BOMBAY 
-		STATE_CENTRAL_INDIA 
+		STATE_MALWA 
 		STATE_CEYLON 
 		STATE_CIRCARS
 		STATE_DELHI 
@@ -811,8 +811,8 @@ BHT = {
 		STATE_KASHMIR 
 		STATE_MADRAS 
 		STATE_MYSORE 
-		STATE_NAGPUR 
-		STATE_NORTH_BENGAL 
+		STATE_CENTRAL_PROVINCES 
+		STATE_WEST_BENGAL
 		STATE_ORISSA 
 		STATE_PASHTUNISTAN
 		STATE_PUNJAB 
@@ -820,6 +820,10 @@ BHT = {
 		STATE_SINDH 
 		STATE_SOUTH_BENGAL 
 		STATE_TRAVANCORE
+		STATE_KURNOOL
+		STATE_BUNDELKHAND
+		STATE_AGRA
+		STATE_HILL_PUNJAB
 	}
 
 	required_states_fraction = 0.75
@@ -1137,9 +1141,10 @@ PAK = {
 		STATE_KASHMIR
 		STATE_PUNJAB
 		STATE_SINDH
+		STATE_QUETTA
 	}
 
-	required_states_fraction = 0.80 # 4/5 states needed
+	required_states_fraction = 0.80 
 	
 	ai_will_do = { always = yes }
 
@@ -1160,3 +1165,5 @@ MGB = {
 		has_technology_researched = pan-nationalism
 	}
 }
+
+

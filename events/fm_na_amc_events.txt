@@ -21,7 +21,7 @@ fm_na_amc.1 = {
 
 		add_loyalists = {
 			value = 0.3
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.3
@@ -29,7 +29,7 @@ fm_na_amc.1 = {
 		}
 		add_loyalists = {
 			value = 0.3
-			strata = rich
+			strata = upper
 		}
 	}
 	option = {

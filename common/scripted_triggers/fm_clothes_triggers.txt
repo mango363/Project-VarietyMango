@@ -1,15 +1,15 @@
 ﻿british_empire_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		exists = c:EAF
+		exists = c:UKK
 		exists = home_country
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -18,14 +18,14 @@
 british_empire_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:EAF
+		exists = c:UKK
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -34,14 +34,14 @@ british_empire_clothes_pop_trigger = {
 british_empire_clothes_p_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:EAF
+		exists = c:UKK
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = yes					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -334,11 +334,7 @@ chinese_manchu_queue_hairstyle_pops_trigger = {
 								has_discrimination_trait = han_chinese
 							}
 						}
-						cu:manchu = {
-							NOT = {
-								culture_is_discriminated_in = scope:pop.home_country
-							}
-						}
+						cultural_acceptance_base = { target = cu:manchu value >= acceptance_status_4 }
 					}
 				}
 				culture = cu:manchu
@@ -601,6 +597,9 @@ siamese_clothes_trigger = {
 	#Pretty sure this is actual burmese
 	exists = scope:character
 	scope:character = {
+		NOT = {
+			culture = cu:vietnamese
+		}
 		culture = {
 			has_discrimination_trait = southeast_asian_heritage
 		}
@@ -779,6 +778,7 @@ overweight_trigger = {
 	exists = scope:character
 	scope:character = {
 		has_trait = expensive_tastes
+		is_historical = no # do not alter the shape of characters that are sculpted to appear a certain way
 	}
 }
 
@@ -1368,7 +1368,7 @@ very_overweight_pop_trigger = {
 struggling_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		standard_of_living < 10
+		is_in_severe_starvation = yes
 	}
 }
 

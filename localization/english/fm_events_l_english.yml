@@ -265,7 +265,7 @@
  fm_bohem.7.f:0 "Today is a day to be remembered, for today is the day the kingdoms of Bohemia and Bavaria have been merged into one single crown;\n[SCOPE.sCharacter('ruler_scope').GetFullName] is now king of all the czech and south german people, and those two people shall prosper forever under his rule!"
  fm_bohem.7.a:0 "All hail [SCOPE.sCharacter('ruler_scope').GetFullName]!"
 
- fm_bohem.8.t:0 "The Kingdom of the West Slavs"
+ fm_bohem.8.t:0 "The Kingdom of Great Moravia"
  fm_bohem.8.d:0 "After more than 9 centuries, Great Moravia has been refounded."
  fm_bohem.8.f:0 "Czech, Slovak and sorb people have all accepted to unite under one name and one flag, and thus Great Moravia has been established.\nIt has now started a new age of prosperity for all moravian people, and may it never fall again."
  fm_bohem.8.a:0 "Long live Great Moravia!"

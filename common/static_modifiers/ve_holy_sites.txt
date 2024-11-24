@@ -29,7 +29,7 @@ jerusalem_hs_mdf = {
 burz_hs_mdf = {
 	icon = gfx/interface/monument.dds
 	country_prestige_mult = 0.05
-	political_movement_radicalism_mult = -0.1
+	political_movement_radicalism_add = -0.1
 }
 
 gush_hs_mdf = {
@@ -54,7 +54,7 @@ wittenberg_hs_mdf = {
 
 prag_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	political_movement_radicalism_mult = -0.15
+	political_movement_radicalism_add = -0.15
 }
 
 canterbury_hs_mdf = {
@@ -69,7 +69,7 @@ shan_hs_mdf = {
 
 kong_hs_mdf= {
 	icon = gfx/interface/monument.dds
-	political_movement_radicalism_mult = -0.05
+	political_movement_radicalism_add = -0.05
 }
 
 seoul_hs_mdf = {
@@ -85,14 +85,14 @@ munm_hs_mdf = {
 
 constantinople_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	state_loyalists_from_sol_change_accepted_religion_mult = 0.1
+	country_state_religion_wages_mult = 0.1
 	country_prestige_mult = 0.05
 	country_authority_mult = 0.05
 }
 
 hedjaz_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	state_loyalists_from_sol_change_accepted_religion_mult = 0.1
+	country_state_religion_wages_mult = 0.1
 	country_prestige_mult = 0.05
 }
 
@@ -175,7 +175,7 @@ sanchi_hs_mdf = {
 lhasa_hs_mdf = {
 	icon = gfx/interface/monument.dds
 	state_migration_push_mult = -0.25
-	political_movement_radicalism_mult = -0.1
+	political_movement_radicalism_add = -0.1
 }
 
 yanzhou_hs_mdf = {
@@ -226,7 +226,7 @@ dwarka_hs_mdf = {
 
 harmandir_sahib_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	political_movement_radicalism_mult = -0.1
+	political_movement_radicalism_add = -0.1
 }
 
 kashi_vishwanath_temple_hs_mdf = {
@@ -257,7 +257,7 @@ sveala_mdf = {
 
 nnor_mdf = {
 	icon = gfx/interface/monument.dds
-	political_movement_radicalism_mult = -0.05
+	political_movement_radicalism_add = -0.05
   state_conversion_mult = 0.1
 }
 

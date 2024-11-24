@@ -111,6 +111,7 @@ military_drill = {
 	category = military
 	
 	modifier = {
+		unit_experience_gain_mult = 0.05
 	}
 	
 	unlocking_technologies = {

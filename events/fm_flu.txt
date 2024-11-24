@@ -52,7 +52,7 @@ fm_flu.4 = {
 		name = fm_flu.4.a
 		default_option = yes
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.10
 		}
 		add_loyalists = {
@@ -60,7 +60,7 @@ fm_flu.4 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.20
 		}
 		add_modifier = {

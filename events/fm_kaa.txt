@@ -106,7 +106,7 @@ fm_kaa.3 = { #esp
 		name = fm_kaa.3.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -114,7 +114,7 @@ fm_kaa.3 = { #esp
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 	}
@@ -136,7 +136,7 @@ fm_kaa.4 = { #ara occ
 		default_option = yes
 		add_primary_culture = cu:occitan
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -144,7 +144,7 @@ fm_kaa.4 = { #ara occ
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 	}

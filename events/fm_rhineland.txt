@@ -43,7 +43,7 @@ fm_rhi.2= {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = large_radicals
 		}
 		add_loyalists = {
@@ -51,7 +51,7 @@ fm_rhi.2= {
 			value = very_large_radicals
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = large_radicals
 		}
 		add_primary_culture = cu:alemannic

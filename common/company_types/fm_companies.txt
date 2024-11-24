@@ -32,7 +32,7 @@
 		country_prestige_mult = 0.1
 		country_influence_mult = 0.1
 		building_olive_plantation_throughput_add = 0.1
-		state_loyalists_from_sol_change_mult = 0.1
+		state_lower_strata_expected_sol_add = -1
 	}	
 	
 	ai_weight = {

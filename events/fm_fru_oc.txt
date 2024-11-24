@@ -46,7 +46,7 @@ fm_fru_oc.1 = {
 		}
 		add_radicals = {
 			value = 0.3
-			strata = rich
+			strata = upper
 		}
 	}
 }
@@ -95,7 +95,7 @@ fm_fru_oc.2 = {
 		}
 		add_radicals = {
 			value = 0.3
-			strata = rich
+			strata = upper
 		}
 	}
 }

@@ -4061,7 +4061,7 @@ maltese={
 basque={
 	color= hsv{ 0.12 0.56 0.86 }
 	religion = catholic
-	traits = { iberian_culture_group european_heritage }
+	traits = { basque_language european_heritage }
 	male_common_first_names={
 		Agustin
 		Aitor
@@ -9563,7 +9563,7 @@ siberian={
 yakut={
 	color= hsv{ 0.24 0.49 0.50 }
 	religion = animist
-	traits = { north_asian_heritage siberian_culture_group }
+	traits = { turkic north_asian_heritage siberian_culture_group }
 	male_common_first_names={
 		Aysen
 		Aytal
@@ -9647,7 +9647,7 @@ tibetan={
 
 assamese={
 	color= hsv{ 0.58 0.28 0.61 }
-	religion = sunni
+	religion = hindu
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
 		Chandraka
@@ -9689,7 +9689,7 @@ assamese={
 bengali={
 	color= hsv{ 0.79 0.37 0.36 }
 	religion = zoroastrian
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 
 	obsessions = {
 		spice
@@ -9738,7 +9738,7 @@ bengali={
 bihari={
 	color= hsv{ 0.91 0.28 0.70 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language }
 	obsessions = {
 		spice
 	}	
@@ -9784,7 +9784,7 @@ bihari={
 manipuri={
 	color= hsv{ 0.74 0.27 0.94 }
 	religion = hindu
-	traits = { south_asian_heritage northeast_indian }
+	traits = { southeast_asian_heritage northeast_indian }
 	obsessions = {
 		spice
 	}
@@ -9891,7 +9891,7 @@ nepali={
 oriya={
 	color= hsv{ 0.96 0.36 0.74 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -9933,7 +9933,7 @@ oriya={
 sinhala={
 	color= hsv{ 0.99 0.27 0.29 }
 	religion = theravada
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Anagarika
 		Kirtisri
@@ -9973,7 +9973,7 @@ sinhala={
 avadhi={
 	color= hsv{ 0.10 0.44 0.35 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -10013,7 +10013,7 @@ avadhi={
 kanauji={
 	color= hsv{ 0.27 0.48 0.74 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10051,9 +10051,9 @@ kanauji={
 panjabi={
 	color= hsv{ 0.08 0.10 0.74 }
 	religion = sikh
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
-		Baba
+		Baba Banda Bhuma
 		Banda
 		Bhuma
 		Chand
@@ -10064,7 +10064,7 @@ panjabi={
 		Jassa
 		Kapur
 		Kaur
-		Kharak
+		Kharak Karam_Singh
 		Nau
 		Nawab
 		Nihal
@@ -10085,7 +10085,7 @@ panjabi={
 	noble_last_names = {
 		Bahadur
 		Bhangi
-		Singh
+		Singh Phulkian
 		Singh_Dogra
 	}
 	common_last_names={
@@ -10107,7 +10107,7 @@ panjabi={
 kashmiri={
 	color= hsv{ 0.78 0.26 0.78 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Abdullah
 		Atta
@@ -10152,7 +10152,7 @@ kashmiri={
 gujarati={
 	color= hsv{ 0.85 0.28 0.35 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10200,7 +10200,7 @@ gujarati={
 marathi={
 	color= hsv{ 0.19 0.55 0.86 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10263,7 +10263,7 @@ marathi={
 sindi={
 	color= hsv{ 0.78 0.50 0.83 }
 	religion = zoroastrian
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10310,7 +10310,7 @@ sindi={
 rajput={
 	color= hsv{ 0.24 0.16 0.90 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}

@@ -49,7 +49,7 @@ fm_vna.2 = {
 		name = fm_vna.2.a
 		default_option = yes
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.10
 		}
 		add_loyalists = {
@@ -57,7 +57,7 @@ fm_vna.2 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.20
 		}
 		add_modifier = {

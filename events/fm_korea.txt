@@ -274,7 +274,7 @@ fm_kor.5 = {
 		default_option = yes
 		add_radicals = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_radicals = {
 			value = 0.3
@@ -307,7 +307,7 @@ fm_kor.6 = {
 		default_option = yes
 		add_loyalists = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.2
@@ -341,7 +341,7 @@ fm_kor.7 = {
 		default_option = yes
 		add_loyalists = {
 			value = 0.2
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.3
@@ -349,7 +349,7 @@ fm_kor.7 = {
 		}
 		add_loyalists = {
 			value = 0.25
-			strata = rich
+			strata = upper
 		}
 		ruler = {
 			add_modifier = {
@@ -405,7 +405,7 @@ fm_kor.8 = {
 		}
 		add_loyalists = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.2
@@ -417,7 +417,7 @@ fm_kor.8 = {
 		}
 		add_radicals = {
 			value = 0.25
-			strata = rich
+			strata = upper
 		}
 		add_radicals = {
 			value = 0.1
@@ -456,7 +456,7 @@ fm_kor.9 = {
 		default_option = yes
 		add_loyalists = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.05
@@ -464,7 +464,7 @@ fm_kor.9 = {
 		}
 		add_loyalists = {
 			value = 0.05
-			strata = rich
+			strata = upper
 		}
 		add_modifier = {
 			name = modifier_kor_six

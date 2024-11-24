@@ -92,7 +92,7 @@ fm_amc.4 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -164,7 +164,7 @@ fm_amc.5 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -224,7 +224,7 @@ fm_amc.5 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -378,7 +378,7 @@ fm_amc.7 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -431,7 +431,7 @@ fm_amc.7 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -516,7 +516,7 @@ fm_amc.8 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -536,7 +536,7 @@ fm_amc.8 = {
 			value = 0.25
 		}
 		add_radicals = {
-			strata = poor
+			strata = lower
 			value = 0.2
 		}
 		add_radicals = {
@@ -572,7 +572,7 @@ fm_amc.8 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -596,7 +596,7 @@ fm_amc.8 = {
 			value = 0.1
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 		ai_chance = {
@@ -645,7 +645,7 @@ fm_amc.9 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -692,7 +692,7 @@ fm_amc.9 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_radicals = {
@@ -744,7 +744,7 @@ fm_amc.10 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		add_loyalists = {
@@ -752,7 +752,7 @@ fm_amc.10 = {
 			value = very_large_radicals
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		s:STATE_QUEBEC = {

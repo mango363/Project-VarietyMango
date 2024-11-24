@@ -219,7 +219,7 @@ rum.3 = {
 		default_option = yes
 		add_loyalists = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.2
@@ -227,7 +227,7 @@ rum.3 = {
 		}
 		add_loyalists = {
 			value = 0.25
-			strata = rich
+			strata = upper
 		}
 		add_primary_culture = cu:greek
 		add_primary_culture = cu:greco_roman
@@ -265,7 +265,7 @@ rum.4 = {
 		default_option = yes
 		add_loyalists = {
 			value = 0.2
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.3
@@ -273,7 +273,7 @@ rum.4 = {
 		}
 		add_loyalists = {
 			value = 0.25
-			strata = rich
+			strata = upper
 		}
 		ruler = {
 			character_popularity_add = 35

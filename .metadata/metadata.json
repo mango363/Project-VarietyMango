@@ -2,7 +2,7 @@
   "name" : "Project Variety - Alpha",
   "id" : "",
   "version" : "1.0 Release",
-  "supported_game_version" : "1.7.*",
+  "supported_game_version" : "1.8.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

@@ -3589,7 +3589,10 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_BURMA = {
+	STATE_ARAKAN = {
+		
+	}
+	s:STATE_MANDALAY = {
 		region_state:BUR = {
 			create_building={
 				building="building_government_administration"

@@ -254,7 +254,7 @@ modifier_boh_one = {
 	country_bureaucracy_mult = -0.1
 	state_tax_capacity_mult = -0.1
 	state_conscription_rate_mult = -0.1
-	state_radicals_from_discrimination_mult = 0.25
+	state_radicals_from_political_movements_mult = 0.25
 }
 modifier_boh_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
@@ -300,7 +300,7 @@ modifier_bav_five = {
 	state_tax_capacity_mult = -0.1
 	country_expenses_add = 1000
 	state_conscription_rate_mult = -0.1
-	state_radicals_from_discrimination_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.2
 }
 
 modifier_rui_one = {
@@ -377,7 +377,7 @@ modifier_yua_mos = {
 	country_bureaucracy_mult = -0.05
 	state_accepted_birth_rate_mult = 0.05
 	country_tax_income_add = 3500
-	state_radicals_from_sol_change_mult = 0.25
+	state_radicals_from_political_movements_mult = 0.25
 	state_turmoil_effects_mult = 0.15
 }
 modifier_yua_col_two = {
@@ -385,12 +385,12 @@ modifier_yua_col_two = {
 	country_prestige_mult = -0.2
 	country_mass_migration_attraction_mult = 5
 	state_migration_quota_mult = 5
-	state_radicals_from_sol_change_mult = 0.3
+	state_radicals_from_political_movements_mult = 0.3
 }
 modifier_yua_int = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	state_conversion_mult = 9
-	state_radicals_from_discrimination_mult = 0.3
+	state_radicals_from_political_movements_mult = 0.3
 }
 modifier_yua_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
@@ -457,32 +457,32 @@ modifier_eastrome_one = {
 	country_bureaucracy_mult = -0.05
 	state_tax_capacity_mult = -0.05
 	state_turmoil_effects_mult = 0.1
-	state_radicals_from_discrimination_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
 	country_infamy_generation_mult = 0.20
 }
 modifier_marinid = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_tax_income_add = 5000
 	state_conversion_mult = 1.5
-	state_radicals_from_discrimination_mult = 0.20
+	state_radicals_from_political_movements_mult = 0.20
 }
 modifier_eastrome_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	state_accepted_birth_rate_mult = 0.2
 	state_turkish_standard_of_living_add = -2
 	state_assimilation_mult = 1.5
-	state_radicals_from_discrimination_mult = 0.25
+	state_radicals_from_political_movements_mult = 0.25
 }
 modifier_eastrome_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	state_conversion_mult = 1.5
-	state_radicals_from_discrimination_mult = 0.35
+	state_radicals_from_political_movements_mult = 0.35
 	country_tax_income_add = 5500
 }
 modifier_eastrome_four = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	country_prestige_add = -50
-	state_radicals_from_discrimination_mult = 0.15
+	state_radicals_from_political_movements_mult = 0.15
 }
 modifier_eastrome_five = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
@@ -559,7 +559,7 @@ modifier_ind_three = {
 modifier_ind_four = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	country_prestige_add = -50
-	state_radicals_from_discrimination_mult = 0.50
+	state_radicals_from_political_movements_mult = 0.50
 	state_assimilation_mult = 0.5
 }
 modifier_ind_five = {
@@ -698,7 +698,7 @@ modifier_ned_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_bureaucracy_mult = -0.1
 	state_tax_capacity_mult = 0.1
-	state_radicals_from_sol_change_mult = 0.35
+	state_radicals_from_political_movements_mult = 0.35
 	country_tax_income_add = 5500
 }
 modifier_ned_four = {
@@ -740,7 +740,7 @@ modifier_conscription_two = {
 	state_construction_mult = -0.05
 	state_conscription_rate_mult = 0.05
 	military_formation_mobilization_speed_mult = 0.1
-	state_radicals_from_sol_change_mult = 0.1
+	state_radicals_from_political_movements_mult = 0.1
 }
 modifier_conscription_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/idea_service_by_requirement.dds
@@ -751,7 +751,7 @@ modifier_conscription_three = {
 	state_construction_mult = -0.1
 	state_conscription_rate_mult = 0.1
 	military_formation_mobilization_speed_mult = 0.15
-	state_radicals_from_sol_change_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.2
 }
 modifier_conscription_four = {
 	icon = gfx/interface/icons/timed_modifier_icons/idea_all_adults_serve.dds
@@ -762,7 +762,7 @@ modifier_conscription_four = {
 	state_construction_mult = -0.2
 	state_conscription_rate_mult = 0.2
 	military_formation_mobilization_speed_mult = 0.2
-	state_radicals_from_sol_change_mult = 0.35
+	state_radicals_from_political_movements_mult = 0.35
 }
 modifier_conscription_five = {
 	icon = gfx/interface/icons/timed_modifier_icons/idea_scraping_the_barrel.dds
@@ -773,7 +773,7 @@ modifier_conscription_five = {
 	state_construction_mult = -0.25
 	state_conscription_rate_mult = 0.3
 	military_formation_mobilization_speed_mult = 0.25
-	state_radicals_from_sol_change_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
 }
 modifier_fru_four = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
@@ -893,13 +893,14 @@ zoro_4 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_accepted_birth_rate_mult = 0.1
 	state_assimilation_mult = 1
-	state_radicals_from_discrimination_mult = -0.25
+	state_radicals_from_political_movements_mult = -0.25
 }
 
 modifier_shortages = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	unit_offense_mult = -0.5
 	unit_defense_mult = -0.5
+	building_training_rate_mult = -1
 }
 
 wareco1 = {
@@ -922,7 +923,8 @@ wareco1 = {
 	goods_output_radios_mult = 0.2
 	goods_output_tanks_mult = 0.2
 	goods_output_aeroplanes_mult = 0.2
-	state_radicals_from_sol_change_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.2
+	state_lower_strata_expected_sol_add = 0.5
 }
 wareco2 = {
 	icon = gfx/interface/icons/military_icons/idea_partial_economic_mobilisation.dds
@@ -944,7 +946,8 @@ wareco2 = {
 	goods_output_radios_mult = 0.5
 	goods_output_tanks_mult = 0.5
 	goods_output_aeroplanes_mult = 0.5
-	state_radicals_from_sol_change_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
+	state_lower_strata_expected_sol_add = 1.5
 }
 wareco3 = {
 	icon = gfx/interface/icons/military_icons/idea_tot_economic_mobilisation.dds
@@ -966,7 +969,8 @@ wareco3 = {
 	goods_output_radios_mult = 1
 	goods_output_tanks_mult = 1
 	goods_output_aeroplanes_mult = 1
-	state_radicals_from_sol_change_mult = 1
+	state_radicals_from_political_movements_mult = 1
+	state_lower_strata_expected_sol_add = 2.5
 }
 endofda = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
@@ -1031,13 +1035,13 @@ mod_yag_5 = {
 
 mod_yag_6 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	state_radicals_from_sol_change_mult = -0.2
+	state_radicals_from_political_movements_mult = -0.2
 	country_expenses_add = 2000
 }
 
 mod_yag_7 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
-	state_radicals_from_sol_change_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
 	state_mortality_mult = 0.05
 }
 

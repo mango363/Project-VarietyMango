@@ -25,7 +25,7 @@ je_na_one_secure_to_michigan = {
 	on_complete = {
 		add_loyalists = {
 			value = 0.1
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = 0.1
@@ -33,7 +33,7 @@ je_na_one_secure_to_michigan = {
 		}
 		add_loyalists = {
 			value = 0.1
-			strata = rich
+			strata = upper
 		}
 	}
 	weight = 100
