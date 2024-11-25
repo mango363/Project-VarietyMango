@@ -1513,7 +1513,7 @@ ve_holy_site_1 = {
 					country_has_state_religion = rel:shinto
 				}
 			}
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 		trigger_else_if = {
 			limit = {
@@ -1965,7 +1965,7 @@ ve_holy_site_3 = {
 					country_has_state_religion = rel:shinto
 				}
 			}
-			owns_entire_state_region = STATE_BURMA
+			owns_entire_state_region = STATE_MANDALAY
 		}
 		trigger_else_if = {
 			limit = {
@@ -1977,7 +1977,7 @@ ve_holy_site_3 = {
 			limit = {
 				country_has_state_religion = rel:sikh
 			}
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 	}
 	effect = {

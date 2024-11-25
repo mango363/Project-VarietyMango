@@ -839,7 +839,7 @@ ve_holy_site_effects = {
 		}
 		if = {
 			limit = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 				NOT = {
 					has_modifier = sanchi_hs_mdf
 				}
@@ -852,7 +852,7 @@ ve_holy_site_effects = {
 		else_if = {
 			limit = {
 				NOT = {
-					owns_entire_state_region = STATE_CENTRAL_INDIA
+					owns_entire_state_region = STATE_CENTRAL_PROVINCES
 				}
 			}
 			if = {
@@ -889,7 +889,7 @@ ve_holy_site_effects = {
 		}
 		if = {
 			limit = {
-				owns_entire_state_region = STATE_BURMA
+				owns_entire_state_region = STATE_MANDALAY
 				NOT = {
 					has_modifier = pagan_hs_mdf
 				}
@@ -902,7 +902,7 @@ ve_holy_site_effects = {
 		else_if = {
 			limit = {
 				NOT = {
-					owns_entire_state_region = STATE_BURMA
+					owns_entire_state_region = STATE_MANDALAY
 				}
 			}
 			if = {
@@ -1124,7 +1124,7 @@ ve_holy_site_effects = {
 		}
 		if = {
 			limit = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 				NOT = {
 					has_modifier = khajuraho_hs_mdf
 				}
@@ -1137,7 +1137,7 @@ ve_holy_site_effects = {
 		else_if = {
 			limit = {
 				NOT = {
-					owns_entire_state_region = STATE_CENTRAL_INDIA
+					owns_entire_state_region = STATE_CENTRAL_PROVINCES
 				}
 			}
 			if = {

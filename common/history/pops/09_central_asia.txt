@@ -1051,16 +1051,6 @@
 				size = 24091
 			}
 		}
-		region_state:BHU = {
-			create_pop = {
-				culture = tibetan
-				size = 140396
-			}
-			create_pop = {
-				culture = nepali
-				size = 16004
-			}
-		}
 		region_state:NEP = {
 			create_pop = {
 				culture = nepali
@@ -1074,6 +1064,24 @@
 			create_pop = {
 				culture = tibetan
 				size = 192008
+			}
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:BHU = {
+			create_pop = {
+				culture = tibetan
+				size = 140396
+			}
+			create_pop = {
+				culture = nepali
+				size = 16004
+			}
+		}
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 160396
 			}
 		}
 	}

@@ -809,33 +809,6 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
-			create_pop = {
-				culture = karen
-				size = 180800
-			}
-			create_pop = {
-				culture = british
-				size = 96
-			}
-			create_pop = {
-				culture = burmese
-				size = 112000
-			}
-			create_pop = {
-				culture = mon
-				size = 8796
-			}
-			create_pop = {
-				culture = thai
-				size = 36004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = karen
-				size = 20000
-			}
-		}
 		region_state:SIA = {
 			create_pop = {
 				culture = burmese
@@ -904,7 +877,7 @@
 		}
 	}
 
-	s:STATE_BURMA = {
+	s:STATE_MANDALAY = {
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
@@ -918,6 +891,32 @@
 				pop_type = slaves
 				culture = burmese
 				size = 50000
+			}
+		}
+	}
+	s:STATE_ARAKAN = {
+		region_state:VEN = {
+			create_pop = {
+				culture = burmese
+				size = 100888
+			}
+			create_pop = {
+				culture = venetian
+				size = 432
+			}
+			create_pop = {
+				culture = burmese
+				religion = zoroastrian
+				size = 60000
+			}
+			create_pop = {
+				culture = bengali
+				size = 7996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 19000
 			}
 		}
 	}
@@ -939,30 +938,6 @@
 				pop_type = slaves
 				culture = burmese
 				size = 40000
-			}
-		}
-		region_state:VEN = {
-			create_pop = {
-				culture = burmese
-				size = 100888
-			}
-			create_pop = {
-				culture = venetian
-				size = 432
-			}
-			create_pop = {
-				culture = burmese
-				religion = sunni
-				size = 60000
-			}
-			create_pop = {
-				culture = bengali
-				size = 7996
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = burmese
-				size = 19000
 			}
 		}
 	}

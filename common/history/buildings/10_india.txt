@@ -127,12 +127,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_WEST_BENGAL = {
-		region_state:MNP = {
+		region_state:BGL = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=2
 					}
 				}
@@ -143,7 +143,7 @@ BUILDINGS={
 				building="building_spice_plantation"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -155,7 +155,7 @@ BUILDINGS={
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MNP"
+						country="c:BGL"
 						levels=2
 						region="STATE_WEST_BENGAL"
 					}
@@ -167,7 +167,7 @@ BUILDINGS={
 				building="building_paper_mills"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -178,7 +178,7 @@ BUILDINGS={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -189,7 +189,7 @@ BUILDINGS={
 				building="building_dye_plantation"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -201,7 +201,7 @@ BUILDINGS={
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MNP"
+						country="c:BGL"
 						levels=2
 						region="STATE_WEST_BENGAL"
 					}
@@ -213,7 +213,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=25
 					}
 				}
@@ -224,7 +224,7 @@ BUILDINGS={
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -235,7 +235,7 @@ BUILDINGS={
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -246,7 +246,7 @@ BUILDINGS={
 				building="building_opium_plantation"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -257,7 +257,7 @@ BUILDINGS={
 				building="building_silk_plantation"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -268,7 +268,7 @@ BUILDINGS={
 				building="building_tobacco_plantation"
 				add_ownership={
 					country={
-						country="c:MNP"
+						country="c:BGL"
 						levels=1
 					}
 				}
@@ -1165,12 +1165,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_CENTRAL_PROVINCES={
-		region_state:BUN={
+		region_state:BHO={
 			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:BUN"
+						country="c:BHO"
 						levels=5
 					}
 				}
@@ -1181,7 +1181,7 @@ BUILDINGS={
 				building="building_spice_plantation"
 				add_ownership={
 					country={
-						country="c:BUN"
+						country="c:BHO"
 						levels=1
 					}
 				}
@@ -1275,6 +1275,91 @@ BUILDINGS={
 			}
 		}
 		region_state:BAS={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:BAS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_secular_bureaucrats" }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					country={
+						country="c:BAS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms"  }
+			}
+			create_building={
+				building="building_glassworks"
+				add_ownership={
+					country={
+						country="c:BAS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BAS"
+						levels=3
+						region="STATE_CIRCARS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BAS"
+						levels=2
+						region="STATE_CIRCARS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_dye_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BAS"
+						levels=2
+						region="STATE_CIRCARS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_sugar_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BAS"
+						levels=1
+						region="STATE_CIRCARS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
@@ -2140,93 +2225,6 @@ BUILDINGS={
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
 		}
-		region_state:BAS={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:BAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_secular_bureaucrats" }
-			}
-			create_building={
-				building="building_textile_mills"
-				add_ownership={
-					country={
-						country="c:BAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms"  }
-			}
-			create_building={
-				building="building_glassworks"
-				add_ownership={
-					country={
-						country="c:BAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
-			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:BAS"
-						levels=3
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BAS"
-						levels=2
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_dye_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BAS"
-						levels=2
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BAS"
-						levels=1
-						region="STATE_CIRCARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
-			}
-		}
 		region_state:ORI={
 			create_building={
 				building="building_government_administration"
@@ -2949,21 +2947,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_KURNOOL = {
-		region_state:BIC= {
-			create_building = {
-				building = "building_tobacco_plantation"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:BIC"
-						levels = 1
-						region = "STATE_KURNOOL"
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "default_building_tobacco_plantation" "pm_road_carts" }
-			}
-		}
+
 	}
 	s:STATE_BUNDELKHAND= {
 		region_state:BUN= {

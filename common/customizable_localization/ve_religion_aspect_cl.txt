@@ -3392,7 +3392,7 @@ holy_site_1 = {
 				country_has_state_religion = rel:theravada
 				country_has_state_religion = rel:shinto
 			}
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 		localization_key = mahayana_site_1
 	}
@@ -3405,7 +3405,7 @@ holy_site_1 = {
 				country_has_state_religion = rel:shinto
 			}
 			NOT = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 			}
 		}
 		localization_key = mahayana_site_1_red
@@ -3870,7 +3870,7 @@ holy_site_3 = {
 				country_has_state_religion = rel:theravada
 				country_has_state_religion = rel:shinto
 			}
-			owns_entire_state_region = STATE_BURMA
+			owns_entire_state_region = STATE_MANDALAY
 		}
 		localization_key = mahayana_site_3
 	}
@@ -3883,7 +3883,7 @@ holy_site_3 = {
 				country_has_state_religion = rel:shinto
 			}
 			NOT = {
-				owns_entire_state_region = STATE_BURMA
+				owns_entire_state_region = STATE_MANDALAY
 			}
 		}
 		localization_key = mahayana_site_3_red
@@ -3907,7 +3907,7 @@ holy_site_3 = {
 	text = {
 		trigger = {
 			country_has_state_religion = rel:sikh
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 		localization_key = sikh_site_3
 	}
@@ -3915,7 +3915,7 @@ holy_site_3 = {
 		trigger = {
 			country_has_state_religion = rel:sikh
 			NOT = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 			}
 		}
 		localization_key = sikh_site_3_red

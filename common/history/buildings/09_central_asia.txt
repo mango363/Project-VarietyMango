@@ -1153,19 +1153,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BHU={
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:BHU"
-						levels=12
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 		region_state:NEP={
 			create_building={
 				building="building_tobacco_plantation"
@@ -1199,6 +1186,21 @@
 					country={
 						country="c:NEP"
 						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:BHU={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:BHU"
+						levels=12
 					}
 				}
 				reserves=1

@@ -193,182 +193,161 @@ types topbar_components
 				}
 			}
 		}
-		
-			flowcontainer = {
-				name = "victoria_universalis_topbar"
-				visible = "[Not(GetScriptedGui('ve_top_bar').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End))]"
-				layoutpolicy_vertical = expanding
-				#using = hide_ve_mod_topbar
-				alwaystransparent = no
-				# position = { 130 40 }
-				block "animation" {
-					position = { 0 0 }
-					alpha = 0
-					
-					state = {
-						name = show_topbar_secondary_stats
-						alpha = 1
-						position_y = 31
-						duration = 0.15
-						using = Animation_Curve_Default
-					}
-					state = {
-						name = hide_topbar_secondary_stats
-						alpha = 0
-						position_y = 0
-						duration = 0.15
-						using = Animation_Curve_Default
-					}
-				}
-				background = {
-					using = dark_area_rounded
-					margin = { 0 -5 }
-					margin_left = 5
-				}
-				#Missionary
-				flowcontainer = {
-						visible = "[GetScriptedGui('ve_hide_missionary_topbar').IsShown(GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 5
-						tooltip = "ve_missionary_tt"
-						using = tooltip_below
-						onclick = "[GetVariableSystem.SetOrToggle('ve_tab_var', GetVariableSystem.Get('ve_last_tab'))]"
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/icon_envoy_missionary.dds"
-							parentanchor = vcenter
-						}
+		flowcontainer = {
+			name = "victoria_universalis_topbar"
+			visible = "[GetMetaPlayer.GetPlayedOrObservedCountry.IsValid]"
+			layoutpolicy_vertical = expanding
 
-						textbox = {
-							parentanchor = vcenter
-							text = "missionary_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-						}
-				}
-						
-				#Cultural Missionary
-				flowcontainer = {
-						visible = "[GetScriptedGui('ve_hide_culture_missionary_topbar').IsShown(GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 5
-						using = tooltip_below
-						tooltip = "ve_cultural_missionary_tt"
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/icon2_diffusionist.dds"
-							parentanchor = vcenter
-						}
-
-						textbox = {
-							parentanchor = vcenter
-							text = "cultural_missionary_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-						}
-				}
-
-				#Idea Point
-				flowcontainer = {
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 2
-						using = tooltip_below
-						margin_left = 3
-						tooltip = "[GetPlayer.GetCustom('idea_points_cus_loc')]"
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/icon_ideas.dds"
-							parentanchor = vcenter
-						}
-
-						textbox = {
-							parentanchor = vcenter
-							text = "idea_point_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-							margin_left = 2
-						}
-				}
-
-				#Piety
-				flowcontainer = {
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 2
-						datacontext = "[Country.GetGovernmentLegitimacyLevel]"
-						using = tooltip_below
-						tooltip = "ve_piety_tt"
-
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/icons/political_parties/religious.dds"
-							parentanchor = vcenter
-						}
-
-						textbox = {
-							parentanchor = vcenter
-							text = "piety_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-						}
-				}
-
-				#Cultural Reform
-				flowcontainer = {
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 2
-						using = tooltip_below
-						visible = "[GetScriptedGui('hide_reform_point').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-						tooltip = "ve_culture_reform_point_tt"
-
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/monarch_cultures_icon.dds"
-							parentanchor = vcenter
-						}
-
-						textbox = {
-							parentanchor = vcenter
-							text = "cultural_reform_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-						}
-				}			
-				
-
-				#Splendor
-				flowcontainer = {
-						minimumsize = { 90 28 }
-						maximumsize = { 90 28 }
-						spacing = 2
-						using = tooltip_below
-						tooltip = "ve_age_splendor_tt"
-
-						icon = {
-							size = { @secondary_icon_size @secondary_icon_size }
-							texture = "gfx/interface/icon_splendor_tiny.dds"
-							parentanchor = vcenter
-						}
-
-						textbox = {
-							parentanchor = vcenter
-							text = "splendor_topbar"
-							default_format = "#tooltip_header"
-							autoresize = yes
-							align = left|nobaseline
-							margin_left = -1
-						}
-				}
+			background = {
+				using = dark_area_rounded
+				margin = { 0 -5 }
+				margin_left = 5
 			}
+			#Missionary
+			flowcontainer = {
+					visible = "[GetScriptedGui('ve_hide_missionary_topbar').IsShown(GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 5
+					tooltip = "ve_missionary_tt"
+					using = tooltip_below
+					onclick = "[GetVariableSystem.SetOrToggle('ve_tab_var', GetVariableSystem.Get('ve_last_tab'))]"
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/icon_envoy_missionary.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "missionary_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+					}
+			}
+					
+			#Cultural Missionary
+			flowcontainer = {
+					visible = "[GetScriptedGui('ve_hide_culture_missionary_topbar').IsShown(GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 5
+					using = tooltip_below
+					tooltip = "ve_cultural_missionary_tt"
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/icon2_diffusionist.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "cultural_missionary_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+					}
+			}
+
+			#Idea Point
+			flowcontainer = {
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 2
+					using = tooltip_below
+					margin_left = 3
+					tooltip = "[GetPlayer.GetCustom('idea_points_cus_loc')]"
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/icon_ideas.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "idea_point_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+						margin_left = 2
+					}
+			}
+
+			#Piety
+			flowcontainer = {
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 2
+					datacontext = "[Country.GetGovernmentLegitimacyLevel]"
+					using = tooltip_below
+					tooltip = "ve_piety_tt"
+
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/icons/political_parties/religious.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "piety_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+					}
+			}
+
+			#Cultural Reform
+			flowcontainer = {
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 2
+					using = tooltip_below
+					visible = "[GetScriptedGui('hide_reform_point').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+					tooltip = "ve_culture_reform_point_tt"
+
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/monarch_cultures_icon.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "cultural_reform_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+					}
+			}			
+			
+
+			#Splendor
+			flowcontainer = {
+					minimumsize = { 90 28 }
+					maximumsize = { 90 28 }
+					spacing = 2
+					using = tooltip_below
+					tooltip = "ve_age_splendor_tt"
+
+					icon = {
+						size = { @secondary_icon_size @secondary_icon_size }
+						texture = "gfx/interface/icon_splendor_tiny.dds"
+						parentanchor = vcenter
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						text = "splendor_topbar"
+						default_format = "#tooltip_header"
+						autoresize = yes
+						align = left|nobaseline
+						margin_left = -1
+					}
+			}
+		}
+			
 		}
 	}
 		

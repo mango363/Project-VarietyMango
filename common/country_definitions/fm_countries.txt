@@ -669,7 +669,7 @@ EIC = {
 	tier = kingdom
 	
 	cultures = { portuguese }
-	capital = STATE_SOUTH_BENGAL
+	capital = STATE_EAST_BENGAL
 }
 
 NIA = {
@@ -1909,7 +1909,7 @@ BAS = {
 	tier = principality
 	
 	cultures = { telegu }
-	capital = STATE_NAGPUR
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 BER = {
@@ -1931,7 +1931,7 @@ BHO = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 BIK = {
@@ -1953,7 +1953,7 @@ BUN = {
 	tier = principality
 	
 	cultures = { kanauji }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 GWA = {
@@ -1964,7 +1964,7 @@ GWA = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 HYD = {
@@ -1987,7 +1987,7 @@ BGL = {
 	tier = principality
 	
 	cultures = { bengali bihari }
-	capital = STATE_SOUTH_BENGAL
+	capital = STATE_EAST_BENGAL
 }
 
 MAR = {
@@ -1998,7 +1998,7 @@ MAR = {
 	tier = kingdom
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 IND = {
@@ -2009,7 +2009,7 @@ IND = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 JAI = {
@@ -2131,7 +2131,7 @@ NAG = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_NAGPUR
+	capital = STATE_CENTRAL_PROVINCES
 	is_named_from_capital = yes
 }
 
@@ -2280,7 +2280,7 @@ BUR = {
 	tier = kingdom
 	
 	cultures = { burmese }
-	capital = STATE_BURMA
+	capital = STATE_MANDALAY
 }
 
 CAM = {
@@ -3005,7 +3005,7 @@ BIC = {
 	tier = principality
 	
 	cultures = { british }
-	capital = STATE_SOUTH_BENGAL
+	capital = STATE_EAST_BENGAL
 }
 
 VOC = {

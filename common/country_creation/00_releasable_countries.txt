@@ -1438,12 +1438,6 @@ BER = {
 	ai_will_do = { always = no }
 }
 
-BHO = {
-	states = {
-		STATE_CENTRAL_INDIA
-	}
-	ai_will_do = { always = no }
-}
 
 BIK = {
 	provinces = { xF3C5EA x9601FD x84F1F8 xA99FB3 xC40894 xF591B3 x53A30A x01F0E0 xEBA05F x214E7A x6A103F xEB0422 x5DACF4 }
@@ -1463,14 +1457,6 @@ GWA = {
 HYD = {
 	states = {
 		STATE_HYDERABAD
-	}
-	ai_will_do = { always = no }
-}
-
-BGL = {
-	states = {
-		STATE_NORTH_BENGAL
-		STATE_SOUTH_BENGAL
 	}
 	ai_will_do = { always = no }
 }
@@ -1527,13 +1513,6 @@ MEW = {
 MYS = {
 	states = {
 		STATE_MYSORE
-	}
-	ai_will_do = { always = no }
-}
-
-NAG = {
-	states = {
-		STATE_NAGPUR
 	}
 	ai_will_do = { always = no }
 }

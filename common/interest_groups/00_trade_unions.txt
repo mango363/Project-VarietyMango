@@ -81,7 +81,7 @@
 				}
 			}
 			cultures = {
-				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani
+				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli gondi bageli chhattisgarhi deccani
 			}
 		}
 	}
