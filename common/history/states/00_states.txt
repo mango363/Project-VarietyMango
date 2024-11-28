@@ -222,12 +222,12 @@ STATES = {
 			country = c:ORI
 			owned_provinces = { x0CE6EA xCCE5B7 x323B8A x11D169 x22B96B xBAE4B3
 			xB6E5C1 x1504AD x5031A0 x1622F2 x404EEA xFBF096 x5BC5C8 xB07FDD 
-			xA0A8E0 xA15F01 x30C2D5 
+			xA0A8E0 xA15F01 x30C2D5 x38A6E6
 		}
 		}
 		create_state = {
 			country = c:EIC
-			owned_provinces = { xBB9552 x597E99 xFFBC41 x38A6E6 xD031A0 xA2EF24 }
+			owned_provinces = { xBB9552 x597E99 xFFBC41 xD031A0 xA2EF24 }
 		}
 		
 		add_homeland = cu:oriya
@@ -4442,12 +4442,12 @@ STATES = {
 	s:STATE_MADRAS = {
 		create_state = {
 			country = c:VOC
-			owned_provinces = { xABADB1 x2EAD15 x07104C x61FE06 }
+			owned_provinces = { xABADB1 x2EAD15 x07104C x61FE06 x9A2EF3 x56456B xAEAE4C x0E2990 x486310 xA3158E x10B060 }
 			state_type = treaty_port
 		}
 		create_state = {
 			country = c:TRA
-			owned_provinces = { xA02050 x10B060 x0559B3 x07104C x0E2990 x1FF7C6 x20A050 x2D75FD x2EAD15 x486310 x56456B x5AF5BE x61FE06 x620762 x6A381C x7CCE50 x99B424 x9A2EF3 x9E4F00 xA021D0 xA3158E xA63901 xAEAE4C xB278DD xEC1945 }
+			owned_provinces = { xA02050 x0559B3 x1FF7C6 x20A050 x2D75FD x5AF5BE x620762 x6A381C x7CCE50 x99B424 x9E4F00 xA021D0 xA63901 xB278DD xEC1945 }
 		}
 		
 		add_homeland = cu:tamil

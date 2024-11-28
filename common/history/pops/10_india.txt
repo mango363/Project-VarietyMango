@@ -652,7 +652,7 @@
 			}
 			create_pop = {
 				culture = portuguese
-				size = 18520
+				size = 25520
 			}
 			create_pop = {
 				culture = bengali
@@ -828,7 +828,7 @@
 		region_state:TRA = {
 			create_pop = {
 				culture = sinhala
-				size = 849208
+				size = 449208
 			}
 			create_pop = {
 				culture = lacustrine_bantu
@@ -837,7 +837,7 @@
 			}
 			create_pop = {
 				culture = tamil
-				size = 394000
+				size = 194000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -886,7 +886,7 @@
 		region_state:ORI = {
 			create_pop = {
 				culture = oriya
-				size = 2305304
+				size = 1705304
 			}
 			create_pop = {
 				culture = bengali
@@ -903,7 +903,7 @@
 				size = 51100
 			}
 			create_pop = {
-				culture = british
+				culture = portuguese
 				size = 96
 			}
 		}
@@ -929,7 +929,7 @@
 			}
 			create_pop = {
 				culture = portuguese
-				size = 96
+				size = 1096
 			}
 		}
 	}
@@ -1148,31 +1148,32 @@
 		region_state:VOC = {
 			create_pop = {
 				culture = tamil
-				size = 382284
+				size = 4382284
+			}
+			create_pop = {
+				culture = tamil
+				size = 82284
+				pop_type = slaves
 			}
 			create_pop = {
 				culture = dutch
-				size = 450
+				size = 22450
 			}
 			create_pop = {
 				culture = tamil
 				religion = protestant
-				size = 17773
+				size = 177773
 			}
 		}
 		region_state:TRA = {
 			create_pop = {
 				culture = tamil
-				size = 12479910
+				size = 6479910
 			}
 			create_pop = {
 				culture = tamil
 				religion = protestant
 				size = 91145
-			}
-			create_pop = {
-				culture = british
-				size = 30369
 			}
 			create_pop = {
 				culture = kannada

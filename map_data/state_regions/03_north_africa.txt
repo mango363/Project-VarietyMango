@@ -631,6 +631,6 @@ STATE_CHAD = {
         type = "bg_oil_extraction"
         undiscovered_amount = 10
     }
-    
+
 }
 
