@@ -639,16 +639,16 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 6370101
+				size = 5370101
 			}
 			create_pop = {
 				culture = bengali
 				religion = animist
-				size = 109096
+				size = 708544
 			}
 			create_pop = {
 				culture = bengali
-				size = 3602700
+				size = 3202700
 			}
 			create_pop = {
 				culture = portuguese
@@ -676,11 +676,17 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 24600
+				size = 324600
 			}
 			create_pop = {
 				culture = venetian
 				size = 1007
+			}
+		}
+		region_state:BGL = {
+			create_pop = {
+				culture = bengali
+				size = 1546000
 			}
 		}
 	}

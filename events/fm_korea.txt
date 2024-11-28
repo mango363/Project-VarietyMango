@@ -84,7 +84,7 @@ fm_kor.2 = {
 		}
 		create_bidirectional_truce = {
 			country = c:MCH
-			months = 160
+			months = 120
 		}
 		add_primary_culture = cu:manchu
 		change_relations = {

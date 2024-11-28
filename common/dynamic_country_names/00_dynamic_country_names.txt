@@ -567,7 +567,34 @@ RAA = {
 		}
 	}	
 }
-
+SOA = {
+	dynamic_country_name = {
+		name = dyn_soa
+		adjective = SOA_ADJ
+		priority = 10
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_state_religion
+					has_law = law_type:law_freedom_of_conscience
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_soa_2
+		adjective = SOA_ADJ
+		priority = 0
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
 
 GAR = {
 	dynamic_country_name = {

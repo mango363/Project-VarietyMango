@@ -204,11 +204,15 @@ STATES = {
 	s:STATE_EAST_BENGAL = {
 		create_state = {
 			country = c:EIC
-			owned_provinces = { x0C82AB x117060 x1E0385 x30B0A0 x3E5D45 x40F5CE x4123FE x474C54 x475FC4 x55F631 x6F1170 x71E2DE x92DA2C x93E9F4 xA605E3 xAC2CB6 xB06FC2 xCA47BA xCB5C0A xD06FA1 xD28E5F xD2E951 xDA53DA xDFA414 xE6CD14 xF04684 xF3A964 }
+			owned_provinces = { x0C82AB x117060 x1E0385 x30B0A0 x3E5D45 x40F5CE x4123FE x474C54 x475FC4 x55F631 x6F1170 x92DA2C x93E9F4 xA605E3 xAC2CB6 xB06FC2 xCA47BA xCB5C0A xD06FA1 xD2E951 xDA53DA xDFA414 }
 		}
 		create_state = {
 			country = c:VEN
 			owned_provinces = { x3C68C9 x025A94 xC81678 }
+		}
+		create_state = {
+			country = c:BGL
+			owned_provinces = { xE6CD14 xF04684 x71E2DE xD28E5F xF3A964 }
 		}
 		
 		add_homeland = cu:bengali
@@ -2219,6 +2223,8 @@ STATES = {
 		add_homeland = cu:berber
 		add_homeland = cu:phoenician
 		add_claim = c:CTH
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_GUINEA = {
 		create_state = {
@@ -3469,6 +3475,8 @@ STATES = {
 		add_homeland = cu:maghrebi
 		add_homeland = cu:berber		
 		add_homeland = cu:phoenician	
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_TRIPOLI = {
 		create_state = {
@@ -3510,6 +3518,8 @@ STATES = {
 		add_homeland = cu:maghrebi
 		add_homeland = cu:bedouin		
 		add_homeland = cu:phoenician	
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_UPPER_EGYPT = {
 		create_state = {
@@ -5145,6 +5155,8 @@ STATES = {
 		add_homeland = cu:bedouin
 		add_homeland = cu:fur
 		add_homeland = cu:equatorial_bantu
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_WADDAI = {
 		create_state = {
@@ -5158,6 +5170,7 @@ STATES = {
 		add_homeland = cu:sara
 		add_homeland = cu:baguirmi
 		add_homeland = cu:equatorial_bantu
+		add_claim = c:SOK
 	}
 	s:STATE_LINDI = {
 		create_state = {
@@ -5336,6 +5349,8 @@ STATES = {
 		add_homeland = cu:hausa
 		add_homeland = cu:yoruba
 		add_homeland = cu:equatorial_bantu
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_BENIN = {
 		create_state = {
@@ -5394,6 +5409,8 @@ STATES = {
 		add_homeland = cu:fulbe
 		add_homeland = cu:equatorial_bantu
 		add_homeland = cu:tuareg
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_NIGER = {
 		create_state = {
@@ -5413,6 +5430,7 @@ STATES = {
 		
 		add_homeland = cu:kanuri
 		add_homeland = cu:fulbe
+		add_claim = c:SOK
 	}
 	s:STATE_NIGERIA = {
 		create_state = {
@@ -5424,6 +5442,7 @@ STATES = {
 		add_homeland = cu:tiv
 		add_homeland = cu:equatorial_bantu
 		add_homeland = cu:fulbe
+		add_claim = c:BYR
 	}
 	s:STATE_EAST_HAUSALAND = {
 		create_state = {
@@ -5432,7 +5451,8 @@ STATES = {
 		}
 		
 		add_homeland = cu:hausa
-		add_homeland = cu:fulbe		
+		add_homeland = cu:fulbe	
+		add_claim = c:BYR
 	}
 	s:STATE_KATANGA = {
 		create_state = {
@@ -5629,6 +5649,8 @@ STATES = {
 		
 		add_homeland = cu:fulbe
 		add_homeland = cu:equatorial_bantu
+		add_claim = c:BYR
+		add_claim = c:SOK
 	}
 	s:STATE_SOUTH_CAMEROON = {
 		create_state = {

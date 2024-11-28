@@ -1,6 +1,6 @@
 building_olive_plantation = {
 	building_group = bg_olive_plantations
-	texture = "gfx/interface/icons/building_icons/olives.dds"
+	icon = "gfx/interface/icons/building_icons/olives.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -18,7 +18,7 @@ building_olive_plantation = {
 }
 building_spice_plantation = {
 	building_group = bg_spice_plantations
-	texture = "gfx/interface/icons/building_icons/c_spice.dds"
+	icon = "gfx/interface/icons/building_icons/c_spice.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {

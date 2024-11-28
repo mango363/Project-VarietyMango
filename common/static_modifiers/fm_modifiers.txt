@@ -900,7 +900,7 @@ modifier_shortages = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	unit_offense_mult = -0.5
 	unit_defense_mult = -0.5
-	building_training_rate_mult = -1
+	building_training_rate_mult = -3
 }
 
 wareco1 = {

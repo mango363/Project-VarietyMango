@@ -6619,6 +6619,21 @@ RAA = { # Russia
 	}
 }	
 
+SOA = { # Africa
+	flag_definition = {	
+		coa = SOA
+		subject_canton = SOA
+		priority = 10
+	}
+	flag_definition = {
+		coa = SOA_monarchy
+		priority = 15
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
 GAR = { # Greater Armenia
 	flag_definition = {	
 		coa = GAR

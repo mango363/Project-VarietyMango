@@ -1101,6 +1101,17 @@ MKY = {
 	capital = STATE_QUEENSLAND
 }
 
+SOA = {
+	color = { 97 109 135 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { hausa kanuri fulbe }
+	capital = STATE_TUNISIA
+}
+
 GAR = {
 	color = { 189 115 4 }
 

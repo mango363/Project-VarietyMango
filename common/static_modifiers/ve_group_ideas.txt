@@ -77,7 +77,7 @@ offensive_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_combat_unit_type_dragoons_offense_mult = 0.2
 	unit_combat_unit_type_cuirassiers_offense_mult = 0.2
-	unit_combat_unit_type_lancers_offense_mult = 0.2
+	unit_combat_unit_type_lancers_offense_mult = 0.15
 
 }
 
@@ -558,10 +558,10 @@ syndicalism_idea_7_mdf = {
 
 imperialist_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_cannon_artillery_defense_mult = 0.2
-	unit_combat_unit_type_mobile_artillery_defense_mult = 0.2
-	unit_combat_unit_type_shrapnel_artillery_defense_mult = 0.2
-	unit_combat_unit_type_siege_artillery_defense_mult = 0.2
+	unit_combat_unit_type_cannon_artillery_defense_mult = 0.15
+	unit_combat_unit_type_mobile_artillery_defense_mult = 0.15
+	unit_combat_unit_type_shrapnel_artillery_defense_mult = 0.15
+	unit_combat_unit_type_siege_artillery_defense_mult = 0.15
 }
 
 imperialist_idea_2_mdf = {
