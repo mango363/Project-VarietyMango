@@ -522,7 +522,10 @@ ai_strategy_default = {
 							scope:target_state = { 
 								is_split_state = yes 
 								state_region = { 
-									any_scope_state = { owner = ROOT }
+									any_scope_state = { 
+										owner = ROOT 
+										is_treaty_port = no
+									}
 								}
 							}
 							scope:target_state = { has_claim_by = root } 
@@ -2611,7 +2614,6 @@ ai_strategy_default = {
 							region = sr:region_south_china
 							region = sr:region_manchuria
 						}
-						is_treaty_port = yes
 					}					
 				}
 			}
@@ -2629,7 +2631,7 @@ ai_strategy_default = {
 					country_has_primary_culture = cu:korean
 				}
 			}
-			add = 5
+			add = 25
 		}
 
 		# Aggression against radical leftists
@@ -4837,6 +4839,14 @@ ai_strategy_default = {
 				limit = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { is_country_type = unrecognized }
+					scope:target_country = {
+						OR = {
+							is_subject = no
+							top_overlord ?= {
+								is_country_type = unrecognized
+							}
+						}
+					}
 					has_technology_researched = colonization
 					institution_investment_level = {
 						institution = institution_colonial_affairs

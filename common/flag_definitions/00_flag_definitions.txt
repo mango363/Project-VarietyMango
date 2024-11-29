@@ -6634,6 +6634,7 @@ SOA = { # Africa
 	}
 }
 
+
 GAR = { # Greater Armenia
 	flag_definition = {	
 		coa = GAR

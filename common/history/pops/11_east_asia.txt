@@ -370,11 +370,12 @@
 		region_state:TAC = {
 			create_pop = {
 				culture = han 
-				size = 2664400
+				religion = protestant
+				size = 2864400
 			}
 			create_pop = {
 				culture = han 
-				size = 2293708
+				size = 2093708
 			}
 			create_pop = {
 				culture = min
@@ -1322,16 +1323,18 @@
 		region_state:SAG = {
 			create_pop = {
 				culture = japanese
-				size = 870167
+				religion = catholic
+				size = 470167
 			}
 			create_pop = {
-				culture = micronesian
-				size = 132
+				culture = japanese
+				religion = mahayana
+				size = 410167
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 367036
+				size = 167036
 			}
 			create_pop = {
 				culture = han # nanfaren

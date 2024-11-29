@@ -296,6 +296,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:han
+		add_claim = c:TAC
 	}
 	s:STATE_ROSTOV = {
 		create_state = {
@@ -7098,6 +7099,7 @@ STATES = {
 		add_claim = c:SHA
 		add_claim = c:AHU
 		add_claim = c:SHN
+		add_claim = c:TAC
 	}
 	s:STATE_HENAN = {
 		create_state = {

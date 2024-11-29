@@ -25,7 +25,7 @@ objective_crumbling = {
 	enabled_background = "gfx/interface/icons/objectives/crumbling_po.dds"
 	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
 	
-	recommended_tags = { KOR ODU SAU YAG YUE GUC NCL TAC }	
+	recommended_tags = { KOR ODU SAU YAG TAC YUE GUC NCL }	
 
 }
 

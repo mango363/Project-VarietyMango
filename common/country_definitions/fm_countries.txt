@@ -4143,13 +4143,14 @@ NCL = {
 }
 
 TAC = {
-	color = { 164 168 118 }
+	color = { 100 150 20 }
 	
 	country_type = recognized
 
-	tier = principality
+	tier = empire
 
 	cultures = { han }
+	religion = protestant
 	capital = STATE_ZHEJIANG
 }
 
@@ -5180,6 +5181,7 @@ SAG = {
 	tier = kingdom
 	
 	cultures = { japanese }
+	religion = catholic
 	capital = STATE_KYUSHU
 }
 TSU = {

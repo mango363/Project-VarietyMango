@@ -989,6 +989,19 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_rice_farm"
+						country="c:PAN"
+						levels=10
+						region="STATE_KASHMIR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
 				building="building_arms_industry"
 				add_ownership={
 					country={
@@ -1166,7 +1179,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:PAN"
-						levels=1
+						levels=20
 					}
 				}
 				reserves=1
@@ -3323,6 +3336,17 @@ BUILDINGS={
 				}
 				reserves = 1
 				activate_production_methods = { "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:PAN"
+						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" }
 			}
 			create_building = {
 				building = "building_furniture_manufacturies"

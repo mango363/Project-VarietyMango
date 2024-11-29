@@ -579,7 +579,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PAN"
-						levels=3
+						levels=11
 						region="STATE_PASHTUNISTAN"
 					}
 				}

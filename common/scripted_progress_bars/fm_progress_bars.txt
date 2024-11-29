@@ -211,6 +211,7 @@ yag_progress_bar = {
 	desc = "aga_progress_bar_desc"
 
 	default = yes
+	is_inverted = yes
 
 	monthly_progress  = {
     if = {
@@ -247,7 +248,7 @@ yag_progress_bar = {
 		}
 	}
 
-	start_value = 35
+	start_value = 195
 	min_value = 0
 	max_value = 200
 
