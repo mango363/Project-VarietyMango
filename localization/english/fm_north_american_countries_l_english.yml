@@ -25,8 +25,8 @@
  SNC: "Seneca"
  SNC_ADJ: "Senecan"
 
- IQS: "Haudenosaunee"
- IQS_ADJ: "Haudenosaunee"
+ IQS: "Iroquois Confederacy"
+ IQS_ADJ: "Iroquois"
 
  SSH: "Numic League"
  SSH_ADJ: "Numic"
@@ -74,5 +74,27 @@
  VSL:0 "Vestrland"
  VSL_ADJ:0 "Vestrlander"
 
+
+ # Formables
+
 # GRV: "Gran Venezia"
 # GRV_ADJ: "Venezian"
+
+ GPL: "Chinoodin"
+ GPL_ADJ: "Chinoodin"
+
+ DST: "Deseret"
+ DST_ADJ: "Deseretian"
+
+ # Defined by vanilla
+# CSC: ""
+# CSC_ADJ: ""
+
+ AZT: "Aztlán"
+ AZT_ADJ: "Xicanx"
+
+ 3FC: "Niswi-mishkodewinan"
+ 3FC_ADJ: "Anishinaabeg"
+
+ HNS: "Haudenosaunee"
+ HNS_ADJ: "Haudenosaunee"

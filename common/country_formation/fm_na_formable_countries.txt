@@ -1,0 +1,102 @@
+GPL = {
+	states = {
+		STATE_TEXAS
+		STATE_OKLAHOMA
+		STATE_KANSAS
+		STATE_NEBRASKA
+		STATE_SOUTH_DAKOTA
+		STATE_NORTH_DAKOTA
+		STATE_NEW_MEXICO
+		STATE_COLORADO
+		STATE_WYOMING
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		country_has_state_religion = rel:na_native_american_spirituality
+	}
+}
+
+DST = {
+	states = {
+		STATE_UTAH
+		STATE_CALIFORNIA
+		STATE_ARIZONA
+		STATE_NEVADA
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+		THIS.religion = {
+			has_discrimination_trait = rel:christian
+		}
+	}
+}
+
+CSC = {
+	states = {
+		STATE_WASHINGTON
+		STATE_OREGON
+		STATE_BRITISH_COLUMBIA
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+		country_has_state_religion = rel:na_native_american_spirituality
+	}
+}
+
+AZT = {
+	state = {
+		STATE_OREGON
+		STATE_IDAHO
+		STATE_CALIFORNIA
+		STATE_NEVADA
+		STATE_WYOMING
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+		STATE_TEXAS
+		STATE_OKLAHOLMA
+		STATE_KANSAS
+		STATE_COLORADO
+		STATE_UTAH
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+#	possible = {
+#		has_technology_researched = nationalism
+#		shares_heritage_trait_with_any_primary_culture = na_uto_aztecan_culture_group
+#	}
+}
+
+3CF = {
+	states = {
+		STATE_WISCONSIN
+		STATE_MICHIGAN
+		STATE_ILLINOIS
+		STATE_INDIANA
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+		country_has_state_religion = rel:na_native_american_spirituality
+	}
+}

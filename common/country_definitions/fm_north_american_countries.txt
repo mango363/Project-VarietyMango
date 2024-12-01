@@ -3,7 +3,7 @@ DKT = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_santee_dakota
@@ -18,7 +18,7 @@ CAD = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_caddoan }
 	capital = STATE_OKLAHOMA
@@ -43,7 +43,7 @@ MCG = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_chickasaw_choctaw
@@ -58,7 +58,7 @@ SWN = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_eastern_algonquian }
 	capital = STATE_KENTUCKY
@@ -69,7 +69,7 @@ ONE = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_miami_illinois
@@ -98,7 +98,7 @@ AT1 = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_pacific_athabaskan
@@ -112,7 +112,7 @@ SSH = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_shoshone
@@ -127,7 +127,7 @@ BFT = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_blackfoot }
 	capital = STATE_MONTANA
@@ -138,7 +138,7 @@ YMN = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_yuman }
 	capital = STATE_BAJA_CALIFORNIA
@@ -149,7 +149,7 @@ SIS = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_salishan }
 	capital = STATE_WASHINGTON
@@ -162,7 +162,7 @@ CRU = {
 
 	country_type = decentralized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_cree_montagnais }
 	capital = STATE_ONTARIO
@@ -173,7 +173,7 @@ IUT = {
 
 	country_type = decentralized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { inuit }
 	capital = STATE_NORTHWEST_TERRITORIES
@@ -184,7 +184,7 @@ AT2 = {
 
 	country_type = decentralized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { na_northern_athabaskan }
 	capital = STATE_BRITISH_COLUMBIA
@@ -214,4 +214,83 @@ FOU = {
 	cultures = { british }
 
 	capital = STATE_NORTH_CAROLINA
+}
+
+# Formables
+GPL = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_pacific_athabaskan na_paiute na_comanche na_caddoan na_lakota }
+
+	capital = STATE_KANSAS
+}
+
+DST = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_yuman na_paiute na_shoshone }
+
+	capital = STATE_ARIZONA
+}
+
+CSC = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { na_salishan na_shapwailutan }
+
+	capital = STATE_WASHINGTON
+}
+
+AZT = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		na_paiute
+		na_shoshone
+		na_colorado_numic
+		na_comanche
+		na_northern_uto_aztecan
+		na_southern_uto_aztecan
+		na_nahuan
+		na_piman
+		na_optan
+		na_cahita
+		na_corachol
+		na_yuman
+		na_pacific_athabaskan
+	}
+
+	capital = STATE_ARIZONA
+}
+
+3FC = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		na_chiwere_winnebago
+		na_ojibwe_potawatomi
+		na_miami_illinois
+	}
+
+	capital = STATE_ILLINOIS
 }
