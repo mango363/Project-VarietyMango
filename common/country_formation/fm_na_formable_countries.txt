@@ -27,6 +27,8 @@ DST = {
 		STATE_CALIFORNIA
 		STATE_ARIZONA
 		STATE_NEVADA
+		STATE_SONORA
+		STATE_BAJA_CALIFORNIA
 	}
 
 	required_states_fraction = 0.80
@@ -35,9 +37,6 @@ DST = {
 
 	possible = {
 		has_technology_researched = nationalism
-		THIS.religion = {
-			has_discrimination_trait = rel:christian
-		}
 	}
 }
 
@@ -98,5 +97,40 @@ AZT = {
 	possible = {
 		has_technology_researched = nationalism
 		country_has_state_religion = rel:na_native_american_spirituality
+	}
+}
+
+NV2 = {
+	states = {
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+		STATE_UTAH
+		STATE_COLORADO
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+ASB = {
+	states = {
+		STATE_MONTANA
+		STATE_WYOMING
+		STATE_NEBRASKA
+		STATE_SOUTH_DAKOTA
+		STATE_NORTH_DAKOTA
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
 	}
 }
