@@ -3666,7 +3666,10 @@ revolution_pulse_events.26 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -3689,6 +3692,7 @@ revolution_pulse_events.26 = {
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
 				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -4009,7 +4013,10 @@ revolution_pulse_events.29 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -4032,6 +4039,7 @@ revolution_pulse_events.29 = {
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
 				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"

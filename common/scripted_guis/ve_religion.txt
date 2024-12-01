@@ -161,6 +161,14 @@ ve_aspect_button_1 = {
 			}
 			trigger_else_if = {
 				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_1_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
 					country_has_state_religion = rel:atheist
 				}
 				NOT = {
@@ -338,6 +346,14 @@ ve_aspect_button_2 = {
 			}
 			trigger_else_if = {
 				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_2_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
 					country_has_state_religion = rel:atheist
 				}
 				NOT = {
@@ -487,6 +503,14 @@ ve_aspect_button_3 = {
 				}
 				NOT = {
 					has_modifier = na_wocekiye_aspect_3_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_3_mdf
 				}
 			}
 			trigger_else_if = {
@@ -668,6 +692,14 @@ ve_aspect_button_4 = {
 			}
 			trigger_else_if = {
 				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_4_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
 					country_has_state_religion = rel:atheist
 				}
 				NOT = {
@@ -841,6 +873,14 @@ ve_aspect_button_5 = {
 				}
 				NOT = {
 					has_modifier = na_wocekiye_aspect_5_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_5_mdf
 				}
 			}
 			trigger_else_if = {
@@ -1022,6 +1062,14 @@ ve_aspect_button_6 = {
 			}
 			trigger_else_if = {
 				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_6_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
 					country_has_state_religion = rel:atheist
 				}
 				NOT = {
@@ -1195,6 +1243,14 @@ ve_aspect_button_7 = {
 				}
 				NOT = {
 					has_modifier = na_wocekiye_aspect_7_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_6_mdf
 				}
 			}
 			trigger_else_if = {
@@ -1376,6 +1432,14 @@ ve_aspect_button_8 = {
 			}
 			trigger_else_if = {
 				limit = {
+					country_has_state_religion = rel:na_native_american_spirituality
+				}
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_8_mdf
+				}
+			}
+			trigger_else_if = {
+				limit = {
 					country_has_state_religion = rel:atheist
 				}
 				NOT = {
@@ -1431,6 +1495,7 @@ ve_show_holy_site = {
 			country_has_state_religion = rel:animist
 			country_has_state_religion = rel:atheist
 			country_has_state_religion = rel:na_wocekiye
+			country_has_state_religion = rel:na_native_american_spirituality
 		}
 	}
 }

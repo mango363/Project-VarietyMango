@@ -964,7 +964,10 @@ lobby_events.2 = {
 	}
 	event_image = {
 		trigger = {
-			country_has_state_religion = rel:na_wocekiye
+			OR = {
+				country_has_state_religion = rel:na_wocekiye
+				country_has_state_religion = rel:na_native_american_spirituality
+			}
 		}
 		video = "europenorthamerica_native_american"
 
@@ -988,6 +991,7 @@ lobby_events.2 = {
 				country_has_state_religion = rel:shiite
 				country_has_state_religion = rel:na_wocekiye
 				country_has_state_religion = rel:zoroastrian
+				country_has_state_religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"

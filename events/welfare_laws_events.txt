@@ -78,7 +78,10 @@ welfare_laws.1 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -101,6 +104,7 @@ welfare_laws.1 = {
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
 				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
