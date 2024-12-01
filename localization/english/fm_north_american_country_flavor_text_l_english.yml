@@ -1,5 +1,11 @@
 ﻿l_english:
- FOU_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $FOU_NEW_SYDDANMARK$#!"
  AMC_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $AMC$#!"
  FLU_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GRV$#!"
- DKT_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $LOB$#!"
+ DKT_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$\n · $LOB$#!"
+ LOI_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $URA$#!"
+ AT1_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$#!"
+ YMN_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $DST$#!"
+ SSH_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$\n · $DST$#!"
+ CAD_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$#!"
+ SIS_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $CSC$#!"
+ ONE_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $3FC$#!"
