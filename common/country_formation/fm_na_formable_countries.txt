@@ -134,3 +134,18 @@ ASB = {
 		has_technology_researched = nationalism
 	}
 }
+
+TEX = {
+	states = {
+		STATE_TEXAS
+	}
+
+	required_states_fraction = 1
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+		country_has_state_religion = rel:catholic
+	}
+}

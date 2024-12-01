@@ -325,3 +325,17 @@ ASB = {
 
 	capital = STATE_WYOMING
 }
+
+TEX = {
+	color = { 63 19 145 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = {
+		french
+	}
+
+	capital = STATE_TEXAS
+}
