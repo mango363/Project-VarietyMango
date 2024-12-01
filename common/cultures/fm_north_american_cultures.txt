@@ -179,7 +179,7 @@ na_yankton_yanktonai_dakota = {
 
 na_lakota = {
 	color = { 120 0 190 }
-	religion = na_lakota_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
 	male_common_first_names = {
 		Hehaka
@@ -645,7 +645,7 @@ na_cree_montagnais = {
 
 na_ojibwe_potawatomi = {
 	color = { 96 156 248 }
-	religion = na_ojibwe_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_algonquian_culture_group }
 	male_common_first_names={
 		Alexis
@@ -695,7 +695,7 @@ na_ojibwe_potawatomi = {
 
 na_blackfoot = {
 	color = { 232 248 96 }
-	religion = na_blackfoot_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_algonquian_culture_group }
 	male_common_first_names={
 		Alexis
@@ -1040,7 +1040,7 @@ na_muscogee = {
 
 na_haudenosaunee = {
 	color = { 19 112 5 }
-	religion = na_the_great_law_of_peace
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente
@@ -1084,7 +1084,7 @@ na_haudenosaunee = {
 
 na_tuscarora_nottoway = {
 	color = { 45 5 112 }
-	religion = na_the_great_law_of_peace
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente
@@ -1128,7 +1128,7 @@ na_tuscarora_nottoway = {
 
 na_cherokee = {
 	color = { 112 99 5 }
-	religion = na_cherokee_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente

@@ -755,6 +755,15 @@ religion_passive_bonuses = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_pasive_mdf
+			months = -1
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {

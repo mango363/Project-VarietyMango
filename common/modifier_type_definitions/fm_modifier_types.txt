@@ -15,6 +15,15 @@ state_na_wocekiye_standard_of_living_add={
 	}
 }
 
+state_na_native_american_spirituality_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+
 state_vinlander_standard_of_living_add={
 	decimals=1
 	color=good

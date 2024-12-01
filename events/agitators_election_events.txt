@@ -4822,7 +4822,10 @@ agitators_election_events.36 = {
 	}
 	event_image = {
 		trigger = {
+			OR = {
 			religion = rel:na_wocekiye
+			religion = rel:na_native_american_spirituality
+			}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -4843,6 +4846,7 @@ agitators_election_events.36 = {
 				religion = rel:sunni
 				religion = rel:shiite
 				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
 				religion = rel:zoroastrian
 				religion = rel:norsp
 			}
