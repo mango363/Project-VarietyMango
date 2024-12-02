@@ -752,8 +752,8 @@ animist_aspect_8_mdf = {
 
 na_wocekiye_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/animist.dds
-	country_state_religion_wages_mult = 0.05
-	building_training_rate_mult = 0.075
+	state_assimilation_mult = 0.5
+	country_tech_spread_add = 15
 }
 
 na_wocekiye_aspect_1_mdf = {
@@ -814,7 +814,7 @@ na_native_american_spirituality_pasive_mdf = {
 na_native_american_spirituality_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
 	unit_defense_add = 10
-	battle_defense_owned_province_mult = 0.15
+	battle_defense_owned_province_mult = 0.1
 }
 
 na_native_american_spirituality_aspect_2_mdf = {
@@ -827,25 +827,30 @@ na_native_american_spirituality_aspect_3_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_war_exhaustion_casualties_mult = -0.05
 	unit_supply_consumption_mult = -0.1
+	battle_offense_owned_province_mult = 0.05
 }
 
 na_native_american_spirituality_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
-	country_authority_mult = 0.05
+	state_radicals_from_political_movements_mult = -0.25
+	country_law_enactment_success_add = 0.1
 	country_legitimacy_base_add = 10
 }
 
 na_native_american_spirituality_aspect_5_mdf = {
 	icon = gfx/interface/catholic.dds
-	building_training_rate_mult = 0.15
-	state_conscription_rate_mult = 0.1
+	building_training_rate_mult = 0.1
+	state_conscription_rate_mult = 0.05
 }
 
 na_native_american_spirituality_aspect_6_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conversion_mult = 0.25
-	state_assimilation_mult = 0.25
-	state_accepted_birth_rate_mult = 0.05
+	state_construction_mult = 0.05
+	building_group_bg_agriculture_throughput_add = 0.1
+	building_group_bg_plantations_throughput_add = 0.1
+	building_group_bg_ranching_throughput_add = 0.1	
+	building_group_bg_logging_throughput_add = 0.1
+	building_group_bg_fishing_throughput_add = 0.1
 }
 
 na_native_american_spirituality_aspect_7_mdf = {
@@ -858,6 +863,7 @@ na_native_american_spirituality_aspect_7_mdf = {
 na_native_american_spirituality_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	interest_group_in_opposition_approval_add = 5
+	state_accepted_birth_rate_mult = 0.1
 }
 
 #Missionary

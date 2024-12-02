@@ -158,7 +158,7 @@ je_occ_int = {
 	group = je_group_historical_content
 
 	complete = {
-		has_law = law_type:law_racial_segregation
+		cultural_acceptance_base = { target = cu:irish value >= 70 }
 	}
 	on_complete = {
 		add_primary_culture = cu:occitan

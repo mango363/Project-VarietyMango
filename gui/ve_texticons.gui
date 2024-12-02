@@ -9095,7 +9095,7 @@ texticon = {
   icon = na_wocekiye_aspect_9
   iconsize = {
     offset = { 0 15 }
-    texture = "gfx/interface/ve_religion/sikh_passive.dds"
+    texture = "gfx/interface/ve_religion/atheist_passive.dds"
     fontsize = 50
   }
 }
@@ -9104,7 +9104,7 @@ texticon = {
   iconsize = {
     offset = { 0 15 }
     texture = "gfx/interface/ve_religion/sikh_passive.dds"
-    fontsize = 40
+    fontsize = 45
   }
 }
 texticon = {
@@ -11346,16 +11346,16 @@ texticon = {
   icon = na_native_american_spirituality_aspect_4
   iconsize = {
     offset = { 0 15 }
-    texture = "gfx/interface/ve_religion/authority_icon.dds"
-    fontsize = 65
+    texture = "gfx/interface/ve_religion/icon_political_lens_decrees.dds"
+    fontsize = 55
   }
 }
 texticon = {
   icon = na_native_american_spirituality_aspect_4_black
   iconsize = {
     offset = { 0 15 }
-     texture = "gfx/interface/ve_religion/authority_icon_black.dds"
-    fontsize = 65
+     texture = "gfx/interface/ve_religion/icon_political_lens_decrees_black.dds"
+    fontsize = 55
   }
 }
 texticon = {
@@ -11378,16 +11378,16 @@ texticon = {
   icon = na_native_american_spirituality_aspect_6
   iconsize = {
     offset = { 0 15 }
-    texture = "gfx/interface/ve_religion/global_missionary_strength.dds"
-    fontsize = 45
+    texture = "gfx/interface/ve_religion/urbanization.dds"
+    fontsize = 55
   }
 }
 texticon = {
   icon = na_native_american_spirituality_aspect_6_black
   iconsize = {
     offset = { 0 15 }
-    texture = "gfx/interface/ve_religion/global_missionary_strength_black.dds"
-    fontsize = 45
+    texture = "gfx/interface/ve_religion/urbanization_black.dds"
+    fontsize = 55
   }
 }
 texticon = {

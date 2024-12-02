@@ -2,7 +2,8 @@ je_ara_main = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
 	complete = {
-		has_law = law_type:law_racial_segregation
+		cultural_acceptance_base = { target = cu:catalan value >= 50 }
+		cultural_acceptance_base = { target = cu:basque value >= 50 }
 	}
 	on_complete = {
 		add_primary_culture = cu:catalan
