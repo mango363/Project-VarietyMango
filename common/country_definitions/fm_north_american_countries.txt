@@ -193,7 +193,7 @@ AT2 = {
 # Colonies
 
 LOI = {
-	color = { 16 12 130 }
+	color = { 131 158 73 }
 
 	country_type = colonial
 
@@ -326,8 +326,8 @@ ASB = {
 	capital = STATE_WYOMING
 }
 
-TEX = {
-	color = { 63 19 145 }
+JHF = {
+	color = { 16 12 130 }
 
 	country_type = recognized
 
@@ -337,5 +337,5 @@ TEX = {
 		french
 	}
 
-	capital = STATE_TEXAS
+	capital = STATE_LOUISIANA
 }

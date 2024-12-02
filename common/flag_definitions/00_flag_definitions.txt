@@ -6634,6 +6634,14 @@ SOA = { # Africa
 	}
 }
 
+JHF = {
+	flag_definition = {	
+		coa = JHF
+		subject_canton = JHF
+		priority = 10
+	}
+}
+
 
 GAR = { # Greater Armenia
 	flag_definition = {	

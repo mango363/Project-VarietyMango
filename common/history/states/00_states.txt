@@ -432,6 +432,7 @@ STATES = {
 		}
 
 		add_homeland = cu:na_paiute
+		add_claim = c:LOI
 	}
 	s:STATE_WYOMING = {
 		create_state = {
@@ -566,7 +567,7 @@ STATES = {
 				x085848 x394431 xD5A04C x90C040
 			}
 		}
-		
+		add_claim = c:LOI
 		add_homeland = cu:na_caddoan
 		add_homeland = cu:na_lakota
 		add_homeland = cu:na_omaha_ponca
@@ -594,7 +595,7 @@ STATES = {
 			}
 			state_type = incorporated
 		}
-
+		add_claim = c:LOI
 		add_homeland = cu:na_caddoan
 		add_homeland = cu:na_kansa_osage
 	}
@@ -636,7 +637,7 @@ STATES = {
 			}
 			state_type = incorporated
 		}
-		
+		add_claim = c:LOI
 		add_homeland = cu:na_caddoan
 		add_homeland = cu:kansa_osage
 	}
@@ -663,6 +664,7 @@ STATES = {
 		}
 
 		add_claim = c:CAH
+		add_claim = c:LOI
 		
 		add_homeland = cu:na_caddoan
 		add_homeland = cu:na_quapaw
@@ -682,7 +684,7 @@ STATES = {
 			}
 			state_type = incorporated
 		}
-		
+		add_claim = c:LOI
 		add_homeland = cu:na_kansa_osage
 		add_homeland = cu:na_miami_illinois
 		add_homeland = cu:na_chiwere_winnebago
@@ -720,7 +722,7 @@ STATES = {
 			}
 			state_type = incorporated
 		}
-
+		add_claim = c:LOI
 		add_homeland = cu:na_santee_dakota
 		add_homeland = cu:na_miami_illinois
 		add_homeland = cu:na_chiwere_winnebago
@@ -805,7 +807,7 @@ STATES = {
 
 		add_homeland = cu:na_miami_illinois
 		add_homeland = cu:na_eastern_algonquian
-
+		add_claim = c:LOI
 		add_claim = c:ONE
 	}
 	s:STATE_MICHIGAN = {
@@ -836,6 +838,7 @@ STATES = {
 			owned_provinces = { xAD9F9F x000090 xBF2D59 xE4C01C x255558 x638C4B xA8C954 xB61C8A xA73D1F x704000 xC8B64B xEDCEDA x214D38 xFC90A5 x02EC28 xC08BCD x8B892B xD0C0C0 x2158FB x6CD2A5 xD043D4 x74A939 xB0C080 xA92D73 x4A3037 xC31F42 xF04000 x131587 xE39685 }
 		}
 		add_homeland = cu:na_eastern_algonquian
+		add_claim = c:LOI
 	}
 	s:STATE_KENTUCKY = {
 		create_state = {
@@ -854,7 +857,7 @@ STATES = {
 		
 		add_homeland = cu:na_eastern_algonquian
 		add_homeland = cu:na_chickasaw_choctaw
-
+		add_claim = c:LOI
 		add_claim = c:SWN
 	}
 	s:STATE_TENNESSEE = {
@@ -1157,6 +1160,7 @@ STATES = {
 		add_homeland = cu:na_eastern_algonquian
 		add_homeland = cu:na_chickasaw_choctaw
 		add_claim = c:ONE
+		add_claim = c:LOI
 	}
 	s:STATE_CONNECTICUT = {
 		create_state = {
@@ -1316,6 +1320,7 @@ STATES = {
 		add_homeland = cu:na_chickasaw_choctaw
 		add_homeland = cu:na_caddoan
 		add_claim = c:MAX
+		add_claim = c:LOI
 	}
 	s:STATE_YUKON_TERRITORY = {
 		create_state = {
@@ -2515,6 +2520,7 @@ STATES = {
 		add_homeland = cu:mexican
 		add_homeland = cu:pueblo
 		add_homeland = cu:na_comanche
+		add_claim = c:LOI
 	}
 	s:STATE_CALIFORNIA = {
 		create_state = {

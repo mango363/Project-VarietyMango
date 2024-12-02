@@ -102,6 +102,5 @@
  ASB: "Absaroka"
  ASB_ADJ: "Absarokan"
 
- # Defined by vanilla
-# TEX: "Texas"
-# TEX_ADJ: "Texan"
+ JHF: "Pays des Illinois"
+ JHF_ADJ: "Haute Louisiane"

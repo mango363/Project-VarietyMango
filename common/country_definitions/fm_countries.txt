@@ -2707,17 +2707,6 @@ NBS = {
 	capital = STATE_NEW_BRUNSWICK
 }
 
-TEX = {
-	color = { 4  144  178 }
-	
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { dixie }
-	capital = STATE_TEXAS
-	is_named_from_capital = yes
-}
 
 NOS = {
 	color = { 90 175 255 }
