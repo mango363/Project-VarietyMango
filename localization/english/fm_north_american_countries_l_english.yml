@@ -83,8 +83,8 @@
  GPL: "Chinoodin"
  GPL_ADJ: "Chinoodin"
 
- DST: "Deseret"
- DST_ADJ: "Deseretian"
+ DST: "Cochimí"
+ DST_ADJ: "Cochimí"
 
  # Defined by vanilla
 # CSC: ""
@@ -96,5 +96,12 @@
  3FC: "Niswi-mishkodewinan"
  3FC_ADJ: "Anishinaabeg"
 
- HNS: "Haudenosaunee"
- HNS_ADJ: "Haudenosaunee"
+ NV2: "Naabeehó Bináhásdzo"
+ NV2_ADJ: "Diné"
+
+ ASB: "Absaroka"
+ ASB_ADJ: "Absarokan"
+
+ # Defined by vanilla
+# TEX: "Texas"
+# TEX_ADJ: "Texan"

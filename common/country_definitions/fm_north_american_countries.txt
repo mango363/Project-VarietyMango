@@ -236,7 +236,7 @@ DST = {
 
 	tier = kingdom
 
-	cultures = { na_yuman na_paiute na_shoshone }
+	cultures = { na_yuman }
 
 	capital = STATE_ARIZONA
 }
@@ -293,4 +293,49 @@ AZT = {
 	}
 
 	capital = STATE_ILLINOIS
+}
+
+NV2 = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		navajo
+	}
+
+	capital = STATE_ARIZONA
+}
+
+ASB = {
+	color = { 63 19 145 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		na_lakota
+		na_crow_hisatsa
+		na_blackfoot
+		na_arapahoan
+	}
+
+	capital = STATE_WYOMING
+}
+
+TEX = {
+	color = { 63 19 145 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = {
+		french
+	}
+
+	capital = STATE_TEXAS
 }
