@@ -67,22 +67,21 @@ AZT = {
 		STATE_ARIZONA
 		STATE_NEW_MEXICO
 		STATE_TEXAS
-		STATE_OKLAHOLMA
+		STATE_OKLAHOMA
 		STATE_KANSAS
 		STATE_COLORADO
 		STATE_UTAH
 	}
 
-	required_states_fraction = 0.80
+	required_states_fraction = 0.70
 
 	ai_will_do = { always = yes }
-#	possible = {
-#		has_technology_researched = nationalism
-#		shares_heritage_trait_with_any_primary_culture = na_uto_aztecan_culture_group
-#	}
+	possible = {
+		has_technology_researched = nationalism
+	}
 }
 
-3CF = {
+3FC = {
 	states = {
 		STATE_WISCONSIN
 		STATE_MICHIGAN
@@ -160,5 +159,28 @@ JHF = {
 	possible = {
 		country_has_state_religion = rel:catholic
 		is_subject = no
+	}
+}
+
+HNS = {
+	states = {
+		STATE_OHIO
+		STATE_INDIANA
+		STATE_ILLINOIS
+		STATE_WISCONSIN
+		STATE_MICHIGAN
+		STATE_KENTUCKY
+	}
+
+	required_states_fraction = 0.8
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+		country_has_state_religion = rel:na_native_american_spirituality
+		has_state_in_state_region = STATE_PENNSYLVANIA
+		has_state_in_state_region = STATE_NEW_YORK
+		has_state_in_state_region = STATE_WEST_VIRGINIA
 	}
 }

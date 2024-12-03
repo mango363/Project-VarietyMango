@@ -83,7 +83,7 @@ IQS = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = {
 		na_cherokee
@@ -338,4 +338,20 @@ JHF = {
 	}
 
 	capital = STATE_LOUISIANA
+}
+
+HNS = {
+	color = { 16 12 130 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		na_cherokee
+		na_tuscarora_nottoway
+		na_haudenosaunee
+	}
+
+	capital = STATE_OHIO
 }
