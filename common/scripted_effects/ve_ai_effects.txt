@@ -24,7 +24,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			7 = {
+			40 = {
 				if = {
 					limit = {
 						NOT = {
@@ -168,7 +168,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			7 = {
+			30 = {
 				if = {
 					limit = {
 						NOT = {
@@ -186,7 +186,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -204,7 +204,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -240,7 +240,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -258,7 +258,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {

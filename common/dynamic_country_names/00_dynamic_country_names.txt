@@ -12,12 +12,12 @@ DEFAULT = {
 		priority = 100
 		trigger = {
 			exists = c:CSA
-			exists = c:USA
+			exists = c:USU
 			exists = scope:actor
 			scope:actor ?= {
 				this = c:CSA
 			}
-			c:USA = {
+			c:USU = {
 				has_journal_entry = je_acw_war
 			}
 		}
@@ -33,7 +33,7 @@ DEFAULT = {
 			scope:actor ?= {
 				this = c:FSA
 			}
-			c:USA = {
+			c:USU = {
 				has_journal_entry = je_acw_war
 			}
 		}
@@ -218,11 +218,11 @@ DEFAULT = {
 			NOT = {
 				AND = {
 					exists = c:CSA
-					exists = c:USA
+					exists = c:USU
 					scope:actor ?= {
 						this = c:CSA
 					}
-					c:USA = {
+					c:USU = {
 						has_journal_entry = je_acw_war
 					}
 				}
@@ -2483,7 +2483,7 @@ UKR = {
 	}
 }
 
-USA = {
+USU = {
 	# United States of America
 	dynamic_country_name = {
 		name = dyn_c_united_states
@@ -2503,36 +2503,12 @@ USA = {
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_united_senators
-		adjective = USA_ADJ
-		priority = 1
-		trigger = {
-			exists = c:USA
-			c:USA = {
-				any_scope_state = {
-					state_region = {
-						has_variable = district_of_columbia
-					}
-					count > 0
-				}
-				any_scope_state = {
-					state_region = {
-						NOT = {
-							has_variable = district_of_columbia
-						}
-					}
-					count < 1
-				}
-			}
-		}
-	}
-	dynamic_country_name = {
 		name = dyn_c_united_state
 		adjective = USA_ADJ
 		priority = 1
 		trigger = {
-			exists = c:USA
-			c:USA = {
+			exists = c:USU
+			c:USU = {
 				any_scope_state = {
 					state_region = {
 						NOT = {

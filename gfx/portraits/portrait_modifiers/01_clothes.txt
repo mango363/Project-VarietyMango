@@ -2934,7 +2934,7 @@
 
                 
 
-                c:USA ?= {
+                c:USU ?= {
                     NOT = { has_technology_researched = rifling }
                 }
                 american_clothes_pop_trigger = yes
@@ -3022,7 +3022,7 @@
             base = 0
             modifier = {
                 add = 20000
-                c:USA ?= {
+                c:USU ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 american_clothes_pop_trigger = yes
@@ -3075,7 +3075,7 @@
 
                 
 
-                c:USA ?= {
+                c:USU ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {
@@ -3086,7 +3086,7 @@
                     AND = {
                         scope:character ?= {
                             exists = home_country
-                            home_country = c:USA
+                            home_country = c:USU
                             is_female = no
                             OR = {
                                 has_role = general

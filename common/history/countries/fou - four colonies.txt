@@ -6,8 +6,13 @@ COUNTRIES = {
 		}
 		
 		effect_starting_technology_tier_2_tech = yes
+		add_technology_progress = {
+			technology = nationalism
+			progress = 6500
+		}
 
 		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
@@ -20,15 +25,7 @@ COUNTRIES = {
 		add_taxed_goods = g:grain
 
 		add_journal_entry = {
-			type = je_na_fou_western_expansion
-		}
-
-		add_journal_entry = {
-			type = je_na_fou_defend_from_old_powers
-		}
-
-		add_journal_entry = {
-			type = je_na_fou_establish_new_syddanmark
+			type = je_fou_main
 		}
 
 	}

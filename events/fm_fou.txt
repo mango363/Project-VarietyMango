@@ -1,0 +1,113 @@
+namespace = fm_fou
+fm_fou.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_fou.1.t
+	desc = fm_fou.1.d
+	flavor = fm_fou.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		default_option = yes
+		name = fm_fou.1.a
+		add_journal_entry = {
+			type = fou_eng
+		}
+		s:STATE_MIDLANDS = {
+			add_claim = ROOT
+		}
+		s:STATE_EAST_ANGLIA = {
+			add_claim = ROOT
+		}
+		s:STATE_HOME_COUNTIES = {
+			add_claim = ROOT
+		}
+		s:STATE_WEST_COUNTRY = {
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = fm_fou.1.b
+		add_journal_entry = {
+			type = fou_usa
+		}
+		custom_tooltip = {
+			text = bewareai
+		}
+	}
+}
+
+fm_fou.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_fou.2.t
+	desc = fm_fou.2.d
+	flavor = fm_fou.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	option = {
+		default_option = yes
+		name = fm_fou.2.a
+		add_loyalists = {
+			value = 0.25
+			culture = cu:british
+		}
+		s:STATE_WALES = {
+			add_claim = ROOT
+		}
+		s:STATE_LOWLANDS = {
+			add_claim = ROOT
+		}
+		s:STATE_HIGHLANDS = {
+			add_claim = ROOT
+		}
+		s:STATE_YORKSHIRE = {
+			add_claim = ROOT
+		}
+		s:STATE_LANCASHIRE = {
+			add_claim = ROOT
+		}
+	}
+}
+
+fm_fou.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_fou.3.t
+	desc = fm_fou.3.d
+	flavor = fm_fou.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	option = {
+		default_option = yes
+		name = fm_fou.3.a
+		add_primary_culture = cu:swedish_colonial
+		add_primary_culture = cu:dutch_colonial
+		add_loyalists = {
+			strata = upper
+			value = 0.25
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.2
+		}
+		add_loyalists = {
+			strata = lower
+			value = 0.15
+		}
+	}
+}

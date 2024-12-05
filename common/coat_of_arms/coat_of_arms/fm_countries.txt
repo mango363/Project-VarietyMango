@@ -19357,6 +19357,16 @@ JHF = {
 	}
 }
 
+NOA = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_arm_base.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
 GAR = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"

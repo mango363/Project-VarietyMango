@@ -1063,9 +1063,9 @@ jaep.12 = {
 			}
 		}
 		if = {
-			limit = { exists = c:USA }
+			limit = { exists = c:USU }
 			change_relations = {
-				country = c:USA
+				country = c:USU
 				value = 30
 			}
 		}

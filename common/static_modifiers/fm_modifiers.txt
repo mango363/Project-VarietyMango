@@ -1076,12 +1076,6 @@ modifier_yua_four = {
 	goods_input_grain_add = 1
 	goods_input_liquor_add = 1
 }
-mod_major = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	state_tax_capacity_mult = 0.1
-	country_authority_mult = 0.1
-	state_construction_mult = 0.25
-}
 modifier_vin1 = {
 	state_colony_growth_speed_mult = 0.5
 }
