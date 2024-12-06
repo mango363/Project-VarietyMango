@@ -119,11 +119,7 @@ decree_emergency_relief = {
 	unlocking_technologies = {
 		centralization
 	}
-	state_trigger	= {
-		NOT = {
-			has_decree = decree_industrialize
-		}
-	}
+
 	modifier = {
 		state_tax_collection_mult = -0.5
 		state_infrastructure_mult = 0.1
@@ -131,19 +127,37 @@ decree_emergency_relief = {
 		state_food_security_add = 0.05
 	}
 
-	state_trigger = {
-		OR = {
-			has_famine = yes
-			devastation > 0.2
-			ROOT.state_region = {
-				OR = {
-					has_harvest_condition = flood
-					has_harvest_condition = wildfire
-					has_harvest_condition = drought
-					has_harvest_condition = disease_outbreak
-					has_harvest_condition = extreme_winds	
+		state_trigger = {
+		trigger_if = {
+			limit = {
+				has_decree = decree_emergency_relief
+				NOT = {
+					has_decree = decree_industrialize
 				}
-			}	
+			}
+			any_scope_pop = {
+				percent >= 0.2
+
+				is_in_starvation = yes
+			}
+		}
+		trigger_else = {
+			OR = {
+				has_famine = yes
+				devastation > 0.2
+				ROOT.state_region = {
+					OR = {
+						has_harvest_condition = flood
+						has_harvest_condition = wildfire
+						has_harvest_condition = drought
+						has_harvest_condition = disease_outbreak
+						has_harvest_condition = extreme_winds	
+					}
+				}	
+			}
+			NOT = {
+				has_decree = decree_industrialize
+			}
 		}
 	}
 
