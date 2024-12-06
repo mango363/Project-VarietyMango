@@ -197,12 +197,6 @@ law_industry_banned = {
 				}
 				if = {
 					limit = {
-						has_building = building_power_plant
-					}
-					remove_building = building_power_plant
-				}
-				if = {
-					limit = {
 						has_building = building_motor_industry
 					}
 					remove_building = building_motor_industry
@@ -563,12 +557,6 @@ law_extraction_economy = {
 				}
 				if = {
 					limit = {
-						has_building = building_power_plant
-					}
-					remove_building = building_power_plant
-				}
-				if = {
-					limit = {
 						has_building = building_motor_industry
 					}
 					remove_building = building_motor_industry
@@ -601,7 +589,8 @@ law_extraction_economy = {
 		building_group_bg_extraction_throughput_add = 0.1
 		state_aristocrats_investment_pool_contribution_add = 0.75
 		state_shopkeepers_investment_pool_contribution_add = -0.50
-		state_capitalists_investment_pool_contribution_add = 0.1
+		state_capitalists_investment_pool_contribution_add = 0.15
+		state_clergymen_investment_pool_efficiency_mult = -0.75	
 		state_laborers_investment_pool_efficiency_mult = -1	
 		state_farmers_investment_pool_efficiency_mult = -0.50
 		country_private_construction_allocation_mult = 0.5

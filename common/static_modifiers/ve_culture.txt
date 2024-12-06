@@ -15,12 +15,12 @@ national_supremacy_mdf_3 = {
 
 national_supremacy_mdf_4 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	country_prestige_from_army_power_projection_mult = 0.05
+	state_accepted_birth_rate_mult = 0.03
 }
 
 national_supremacy_mdf_5 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	country_infamy_generation_mult = -0.05
+	country_infamy_generation_mult = -0.1
 }
 
 national_supremacy_mdf_6 = {

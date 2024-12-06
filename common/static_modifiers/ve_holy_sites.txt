@@ -17,8 +17,8 @@ santiago_hs_mdf = {
 
 notre_dame_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	country_prestige_mult = 0.1
-	country_authority_mult = 0.05
+	country_prestige_mult = 0.05
+	country_authority_mult = 0.1
 }
 
 jerusalem_hs_mdf = {
