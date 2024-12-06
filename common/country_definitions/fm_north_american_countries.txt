@@ -258,7 +258,7 @@ AZT = {
 
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = empire
 
 	cultures = {
 		na_paiute

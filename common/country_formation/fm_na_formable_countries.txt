@@ -58,7 +58,7 @@ CSC = {
 }
 
 AZT = {
-	state = {
+	states = {
 		STATE_OREGON
 		STATE_IDAHO
 		STATE_CALIFORNIA
@@ -77,7 +77,7 @@ AZT = {
 
 	ai_will_do = { always = yes }
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = pan-nationalism
 	}
 }
 
