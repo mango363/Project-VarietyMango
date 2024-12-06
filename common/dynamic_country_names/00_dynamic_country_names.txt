@@ -509,47 +509,47 @@ RAA = {
 	dynamic_country_name = {
 		name = dyn_c_russian_republic
 		adjective = dyn_c_russian_republic_adj
-		
+
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
 
 	dynamic_country_name = {
 		name = dyn_c_rsfsr
 		adjective = dyn_c_rsfsr_adj
-		
+
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
-	}	
+	}
 
 	dynamic_country_name = {
 		name = dyn_c_union_of_new_people
 		adjective = dyn_c_union_of_new_people_adj
-		
+
 		is_main_tag_only = yes
 		priority = 10
-		
+
 		trigger = {
 			exists = c:RAA
 			coa_def_nihilist_flag_trigger = yes
 		}
-	}	
+	}
 
 	dynamic_country_name = {
 		name = dyn_c_soviet_union
 		adjective = dyn_c_soviet_union_adj
-		
+
 		is_main_tag_only = yes
 		priority = 25
-		
+
 		trigger = {
 			coa_def_communist_flag_trigger = yes
 			scope:actor = {
@@ -565,7 +565,7 @@ RAA = {
 				}
 			}
 		}
-	}	
+	}
 }
 SOA = {
 	dynamic_country_name = {
@@ -989,7 +989,7 @@ CUL = { # Colombia
 
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			OR = {
 				AND = {
@@ -2726,10 +2726,8 @@ WLS = {
 		priority = 0
 		trigger = {
 			exists = scope:actor
-			scope:actor ?= {
-				capital = {
-					state_region = s:STATE_PATAGONIA
-				}
+			s:STATE_RHONE = {
+				contains_capital_of = WLS
 			}
 		}
 	}
@@ -2856,10 +2854,8 @@ SAV = {
 		is_main_tag_only = no
 		priority = 1
 		trigger = {
-			scope:actor ?= {
-				capital = {
-					state_region = s:STATE_RHONE
-				}
+			s:STATE_RHONE = {
+				contains_capital_of = SAV
 			}
 		}
 	}
@@ -2869,10 +2865,8 @@ SAV = {
 		is_main_tag_only = no
 		priority = 1
 		trigger = {
-			scope:actor ?= {
-				capital = {
-					state_region = s:STATE_WEST_SWITZERLAND
-				}
+			s:STATE_WEST_SWITZERLAND = {
+				contains_capital_of = SAV
 			}
 		}
 	}
@@ -3502,6 +3496,31 @@ PUP = {
 		priority = 0
 		trigger = {
 			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+CAH = {
+	dynamic_country_name = {
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				NOT = {
+					has_law = law_type:law_theocracy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_CAH_the
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
 		}
 	}
 }

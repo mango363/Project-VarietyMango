@@ -4,6 +4,7 @@
 
  CAH: "Great Cahokia"
  CAH_ADJ: "Cahokian"
+ dyn_CAH_the: "Acs Saːkhirʔa"
 
  DKT: "Dakota Nation"
  DKT_ADJ: "Dakotan"
@@ -57,8 +58,6 @@
  # Colonies
  FOU: "Four Colonies"
  FOU_ADJ: "Four Colonies"
- FOU_NEW_SYDDANMARK: "New Syddanmark"
- FOU_NEW_SYDDANMARK_ADJ: "New Syddanmark"
 
  AMC: "American Federation"
  AMC_ADJ: "Amerikansk"
