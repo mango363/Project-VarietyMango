@@ -1,0 +1,19 @@
+IQS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{89 62 182}
+
+	textured_emblem = {
+		texture = "te_coa_iqs.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+HNS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{89 62 182}
+
+	textured_emblem = {
+		texture = "te_coa_hns.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}

@@ -2687,6 +2687,14 @@ DKT = { # Dakota Sioux
 	}
 }
 
+HNS = { # Haudenosaunee
+	flag_definition = {
+		coa = HNS
+		subject_canton = HNS
+		priority = 1
+	}
+}
+
 DOM = { # Dominican republic
 	flag_definition = {
 		coa = DOM
