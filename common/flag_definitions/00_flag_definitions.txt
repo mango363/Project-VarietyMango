@@ -2695,6 +2695,38 @@ HNS = { # Haudenosaunee
 	}
 }
 
+SWN = { # Shawnee
+	flag_definition = {
+		coa = SWN
+		subject_canton = SWN
+		priority = 1
+	}
+}
+
+BFT = { # Blackfoot
+	flag_definition = {
+		coa = BFT
+		subject_canton = BFT
+		priority = 1
+	}
+}
+
+CAH = { # Cahokia
+	flag_definition = {
+		coa = CAH
+		subject_canton = CAH
+		priority = 1
+	}
+}
+
+YMN = { # Yuman
+	flag_definition = {
+		coa = YMN
+		subject_canton = YMN
+		priority = 1
+	}
+}
+
 DOM = { # Dominican republic
 	flag_definition = {
 		coa = DOM

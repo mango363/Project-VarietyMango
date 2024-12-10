@@ -17,3 +17,47 @@ HNS = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
+
+
+SWN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{48 163 219}
+
+	textured_emblem = {
+		texture = "te_coa_swn.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+BFT = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "te_coa_bft.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{89 62 182}
+
+	textured_emblem = {
+		texture = "te_coa_hns.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+YMN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{89 62 182}
+
+	textured_emblem = {
+		texture = "te_coa_hns.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
