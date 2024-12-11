@@ -43,10 +43,32 @@ BFT = {
 
 CAH = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb{89 62 182}
+	color1 = rgb{226 217 205}
 
 	textured_emblem = {
-		texture = "te_coa_hns.dds"
+		texture = "te_coa_cah.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{226 217 205}
+
+	textured_emblem = {
+		texture = "te_coa_cah_theo.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH_ancap = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{226 217 205}
+
+	textured_emblem = {
+		texture = "te_coa_cah_ancap.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
@@ -54,10 +76,10 @@ CAH = {
 
 YMN = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb{89 62 182}
+	color1 = rgb{34 24 18}
 
 	textured_emblem = {
-		texture = "te_coa_hns.dds"
+		texture = "te_coa_ymn.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
