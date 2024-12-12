@@ -268,7 +268,12 @@
 			}
 			create_pop = {
 				culture = afro_american
-				size = 129765
+				size = 44765
+			}
+			create_pop = {
+				culture = afro_american
+				pop_type = slaves
+				size = 88765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -290,7 +295,7 @@
 		region_state:FOU = {
 			create_pop = {
 				culture = british
-				size = 310567
+				size = 610567
 			}
 			create_pop = {
 				culture = na_cherokee
@@ -302,7 +307,12 @@
 			}
 			create_pop = {
 				culture = afro_american
-				size = 255643
+				pop_type = slaves
+				size = 190293
+			}
+			create_pop = {
+				culture = afro_american
+				size = 67043
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -336,7 +346,12 @@
 			}
 			create_pop = {
 				culture = afro_american
-				size = 255643
+				size = 155643
+			}
+			create_pop = {
+				culture = afro_american
+				pop_type = slaves
+				size = 96643
 			}
 			create_pop = {
 				culture = na_eastern_algonquian

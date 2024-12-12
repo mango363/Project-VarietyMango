@@ -2405,14 +2405,6 @@ GPO = {
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
 			}
-			OR = {
-				c:NIA ?= {
-					is_subject_of = scope:actor
-				}
-				c:EIC ?= {
-					is_subject_of = scope:actor
-				}
-			}
 		}
 	}
 }

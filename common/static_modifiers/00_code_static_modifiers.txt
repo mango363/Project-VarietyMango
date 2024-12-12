@@ -175,7 +175,7 @@ declared_bankruptcy = {
 	unit_defense_mult = -0.75
 	state_migration_pull_mult = -0.75
 	state_market_access_price_impact = -0.1
-	country_institution_size_change_speed_mult = 10.0
+	country_institution_size_change_speed_mult = -0.95
 	state_welfare_payments_mult = -1
 	country_force_privatization_bool = yes
 }

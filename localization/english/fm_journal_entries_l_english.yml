@@ -675,3 +675,5 @@ je_bud_main_reason:0 "The Grand Duchy of [ROOT.GetCountry.GetName] has been a va
 
  je_north_empire_vin:0 "Restoring the High Kingdom of the North Sea"
  je_north_empire_vin_reason:0 "#V The High Kingdom of the North Sea, celebrated for its historical grandeur and strategic significance, now lies within our reach, presenting an unprecedented opportunity for reinvigoration of Norse unity and power.#!"
+ je_fou_main:0 "Winds of Change"
+ je_fou_main_reason:0 "#V The [ROOT.GetCountry.GetName], having gained independence from England over a decade ago, have enjoyed significant prosperity due to their fertile eastern lands and thriving trade networks.\nDespite maintaining a low profile since their liberation, there are emerging sentiments of nationalism that could foster a shared identity among the population.#!"
