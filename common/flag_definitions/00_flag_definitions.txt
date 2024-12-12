@@ -44,6 +44,9 @@
 @canton_scale_denmark_y = @[ ( 220 / coa_height ) + 0.001 ]
 @third = @[1/3]
 
+@usa_canton_width = 0.5
+@usa_canton_height = @[ 1 / 13 * 7 ]
+
 
 
 DEFAULT = {
@@ -2691,6 +2694,61 @@ HNS = { # Haudenosaunee
 	flag_definition = {
 		coa = HNS
 		subject_canton = HNS
+		priority = 1
+	}
+}
+
+SWN = { # Shawnee
+	flag_definition = {
+		coa = SWN
+		subject_canton = SWN
+		priority = 1
+	}
+}
+
+BFT = { # Blackfoot
+	flag_definition = {
+		coa = BFT
+		subject_canton = BFT
+		priority = 1
+	}
+}
+
+CAH = { # Cahokia
+	flag_definition = {
+		coa = CAH
+		subject_canton = CAH
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = CAH_theocracy
+		priority = 1500
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAH_ancap
+		priority = 1600
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_laissez_faire
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+YMN = { # Yuman
+	flag_definition = {
+		coa = YMN
+		subject_canton = YMN
 		priority = 1
 	}
 }

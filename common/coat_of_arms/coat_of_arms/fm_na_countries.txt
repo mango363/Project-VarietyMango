@@ -17,3 +17,69 @@ HNS = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
+
+
+SWN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{48 163 219}
+
+	textured_emblem = {
+		texture = "te_coa_swn.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+BFT = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "te_coa_bft.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{226 217 205}
+
+	textured_emblem = {
+		texture = "te_coa_cah.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{226 217 205}
+
+	textured_emblem = {
+		texture = "te_coa_cah_theo.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CAH_ancap = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{226 217 205}
+
+	textured_emblem = {
+		texture = "te_coa_cah_ancap.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+
+YMN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{34 24 18}
+
+	textured_emblem = {
+		texture = "te_coa_ymn.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
