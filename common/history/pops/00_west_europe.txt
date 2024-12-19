@@ -547,11 +547,11 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 810279
+				size = 610279
 			}
 			create_pop = {
 				culture = flemish
-				size = 908005
+				size = 628005
 			}
 			create_pop = {
 				culture = dutch
@@ -572,7 +572,7 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 1100989
+				size = 900989
 			}
 			create_pop = {
 				culture = burgundian
@@ -1004,7 +1004,7 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = flemish # 'Flemish & Dutch' in census data.
-				size = 2224197
+				size = 1624197
 			}
 			create_pop = {
 				culture = flemish

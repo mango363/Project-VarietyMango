@@ -4274,3 +4274,67 @@ je_noclavin = {
 		}
 	}
 }
+
+
+je_nat_butt = {
+	name = "je_nat_butt"
+	desc = "je_nat_butt_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_nat
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_nat
+			months = normal_modifier_time
+			multiplier = money_amount_multiplier_fm
+		}
+		add_modifier = {
+			name = modifier_nat_two
+			months = normal_modifier_time
+		}
+	}
+}
+je_nat_butt_two = {
+	name = "je_nat_butt_two"
+	desc = "je_nat_butt_two_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = text_je_nat_butt_two
+			NOT = {
+				has_variable = var_je_nat_butt_two
+			}
+		}
+	}
+	effect = {
+		random_list = {
+			75 = {
+				trigger_event = { id = fm_nata.541 days = 30 popup = yes } #Success
+			}
+			25 = {
+				trigger_event = { id = fm_nata.542 days = 30 popup = yes} #Failure
+			}
+		}
+		add_modifier = {
+			name = modifier_nat_four
+			months = 1
+		}
+		set_variable = {
+			name = var_je_nat_butt_two
+			days = 1825
+		}
+	}
+}

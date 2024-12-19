@@ -372,7 +372,7 @@
  baal_aspect_8_mdf:0 "Protect the Faith"
  zoro_pasive_mdf:0 "Zoroastrian"
  zoro_aspect_1_mdf:0 "Followers of Zarathustra"
- zoro_aspect_2_mdf:0 "Phoenician Dances"
+ zoro_aspect_2_mdf:0 "Deport Unbelievers"
  zoro_aspect_3_mdf:0 "Sign of Tanit"
  zoro_aspect_4_mdf:0 "Punic Trades"
  zoro_aspect_5_mdf:0 "Religious Bureaucrats"
@@ -404,7 +404,7 @@
  na_native_american_spirituality_aspect_3_mdf:0 "Martyrs"
  na_native_american_spirituality_aspect_4_mdf:0 "Rightful Laws"
  na_native_american_spirituality_aspect_5_mdf:0 "Volunteer Soldiers"
- na_native_american_spirituality_aspect_6_mdf:0 "Respect for the Nature"
+ na_native_american_spirituality_aspect_6_mdf:0 "Communal Effort"
  na_native_american_spirituality_aspect_7_mdf:0 "Religion Taxes"
  na_native_american_spirituality_aspect_8_mdf:0 "Social Unity"
  animist_pasive_mdf:0 "Animist"
@@ -691,3 +691,7 @@
  wareco3:0 "War Economy"
 
  endofda:0 "End of the Daimyō"
+
+ modifier_ind_six:0 "Adena"
+ modifier_ind_seven:0 "Southern Border"
+ 

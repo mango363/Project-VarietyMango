@@ -192,7 +192,7 @@ ai_strategy_unify_japan = {
 					can_form_nation = JAE
 				}
 			}
-			add = 30
+			add = 50
 		}
 	}
 	building_group_weights = {

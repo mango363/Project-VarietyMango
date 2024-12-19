@@ -9345,14 +9345,24 @@ AMC_fascist = {
 
 FOU = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "blue"
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
-		color1 = "blue"
-		color2 = "white"
+		color1 = "white"
+		color2 = { 240 220 130 }
 	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		instance = { scale = { 0.2 0.2 } position = { 0.2 0.5 } }
+		instance = { scale = { 0.2 0.2 } position = { 0.4 0.5 } }	
+		instance = { scale = { 0.2 0.2 } position = { 0.6 0.5 } }
+		instance = { scale = { 0.2 0.2 } position = { 0.8 0.5 } }			
+		color1 = "blue"
+		color2 = "blue"		
+	}	
 }
+
 FOU_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -19359,11 +19369,21 @@ JHF = {
 
 NOA = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "blue"
 
-	textured_emblem = {
-		texture = "te_coa_arm_base.dds"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		instance = { scale = { 0.2 0.2 } position = { 0.2 0.5 } }
+		instance = { scale = { 0.2 0.2 } position = { 0.4 0.5 } }	
+		instance = { scale = { 0.2 0.2 } position = { 0.6 0.5 } }
+		instance = { scale = { 0.2 0.2 } position = { 0.8 0.5 } }			
+		color1 = "blue"
+		color2 = "blue"		
 	}
 }
 

@@ -265,13 +265,13 @@
 		}
 	}
 	s:STATE_TARTARIA={
-		region_state:SAT={
+		region_state:STR={
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SAT"
+						country="c:STR"
 						levels=8
 						region="STATE_TARTARIA"
 					}
@@ -283,7 +283,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SAT"
+						country="c:STR"
 						levels=2
 					}
 				}
@@ -295,7 +295,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SAT"
+						country="c:STR"
 						levels=5
 						region="STATE_TARTARIA"
 					}

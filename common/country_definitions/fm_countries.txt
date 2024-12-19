@@ -2962,7 +2962,7 @@ BYE = {
 	capital = STATE_MINSK
 }
 
-SAT = {
+STR = {
 	color = { 58 114 199 }
 	
 	country_type = unrecognized

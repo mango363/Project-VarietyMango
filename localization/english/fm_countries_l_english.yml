@@ -51,8 +51,8 @@
 
  SMO:0 "Smolensk"
  SMO_ADJ:0 "Russian"
- SAT:0 "Saratov"
- SAT_ADJ:0 "Saratovian"
+ STR:0 "Saratov"
+ STR_ADJ:0 "Saratovian"
  SWU:0 "Sweden"
  SWU_ADJ:0 "Swedish"
  COH:0 "Cossack Hetmanate"

@@ -28,6 +28,9 @@
         activate_law = law_type:law_proportional_taxation
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_no_social_security
+        add_journal_entry = {
+			type = je_nat_main
+		}
 
     }
 }

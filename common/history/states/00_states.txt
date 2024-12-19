@@ -2384,6 +2384,7 @@ STATES = {
 		create_state = {
 			country = c:NED
 			owned_provinces = { x0075FC xDF8050 x4D5020 xA94E67 x80EA03 xFF3CB6 x55657D xC730B8 xA17EB9 x7E0445 x7E9BF6 x56D35D xF4E268 x728792 xFA64C3 x8616D7 }
+			state_type = unincorporated
 		}
 		
 		add_homeland = cu:mande
@@ -5824,6 +5825,7 @@ STATES = {
 		create_state = {
 			country = c:NED
 			owned_provinces = { xBBF47C x608050 x6216D1 xE4828F x8C1A4C x8F958C xF916CA x36A605 x30F9B8 xC0AC6C x884E8D x883E85 }
+			state_type = unincorporated
 		}
 		
 		add_homeland = cu:mande
@@ -7380,7 +7382,7 @@ STATES = {
 	}
 	s:STATE_TARTARIA = {
 		create_state = {
-			country = c:SAT
+			country = c:STR
 			owned_provinces = { xEBD068 xDB5DBD x060F1F x0BAE1A x108711 x112A5D x1233B6 x161ACD x184EBD x1889E9 x1C9CEB x1E7643 x21DF21 x2517B5 x269530 x2D0CA0 x302B65 x328BF7 x346C85 x36696F x370996 x3BA63A x587F59 x5DC7DF x5DFE91 x66929F x69239F x8447C0 x85FB7E x8BB04E x904CD8 x9633B6 x9672A5 xB353F0 xB9D801 xC4B284 xC7340F xCD3A7F xD19BE5 xD6ACAE xD9BEED xDB5E3F xE4E080 xEBD048 xF0F779 xF26043 xF2884A xFAB9A8 }
 			state_type = incorporated
 		}
@@ -8699,7 +8701,7 @@ STATES = {
 	}
 	s:STATE_TAMBOV = {
 	    create_state = {
-	    	country = c:SAT
+	    	country = c:STR
 	    	owned_provinces = { xAE82E6 x857200 x003D07 x00DA3C x0434D7 x0B35A0 x0DCAF1 x1084B6 x11A456 x135BEB x248B83 x341DB2 x352ACF x41D846 x45E723 x54F76C x5F82DE x61384B x616020 x6DC89F x74730E x75659C x75FC6F x783E80 x79F049 x7A26E0 x7B5279 x7D40C9 x7EB0D3 xA2AEA2 xB2B5F4 xB3B6D0 xB80B2E xBFDE90 xC57104 xCC3356 xD7547A xE66DB2 xEB7873 xF49A5A xFE56AF }
 	    }
 	    add_homeland = cu:russian

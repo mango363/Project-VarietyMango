@@ -179,7 +179,7 @@ na_yankton_yanktonai_dakota = {
 
 na_lakota = {
 	color = { 120 0 190 }
-	religion = na_native_american_spirituality
+	religion = na_wocekiye
 	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
 	male_common_first_names = {
 		Hehaka

@@ -32,5 +32,8 @@
         add_journal_entry = {
             type = je_na_mcg_secure_georgia
         }
+        add_journal_entry = {
+			type = je_nat_main
+		}
     }
 }

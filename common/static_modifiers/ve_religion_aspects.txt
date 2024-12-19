@@ -109,7 +109,7 @@ protestant_aspect_8_mdf = {
 
 orthodox_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/orthodox.dds
-	country_state_religion_wages_mult = 0.15
+	country_state_religion_wages_mult = 0.1
 	country_authority_mult = 0.1
 }
 
@@ -222,7 +222,7 @@ baal_aspect_1_mdf = {
 baal_aspect_2_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_education_access_add = 0.05
-	country_state_religion_wages_mult = 0.25
+	state_pop_qualifications_mult = 0.15
 }
 
 baal_aspect_3_mdf = {
@@ -321,7 +321,8 @@ zoro_pasive_mdf = {
 zoro_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
 	unit_morale_recovery_mult = 0.25
-	country_state_religion_wages_mult = 0.25
+	country_state_religion_wages_mult = 0.1
+	unit_defense_mult = 0.05
 }
 
 zoro_aspect_2_mdf = {
@@ -529,13 +530,13 @@ mahayana_pasive_mdf = {
 }
 theravada_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/theravada.dds
-	state_pop_qualifications_mult = 0.05
-	country_state_religion_wages_mult = 0.1
+	state_pop_qualifications_mult = 0.1
+	country_state_religion_wages_mult = 0.05
 }
 gelugpa_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/gelugpa.dds
-	state_education_access_add = 0.05
-	country_state_religion_wages_mult = 0.1
+	state_education_access_add = 0.1
+	country_state_religion_wages_mult = 0.05
 }
 
 mahayana_aspect_1_mdf = {
@@ -587,7 +588,7 @@ mahayana_aspect_8_mdf = {
 hindu_pasive_mdf = {
 	icon = gfx/interface/icons/religion_icons/hindu.dds
 	country_state_religion_wages_mult = 0.05
-	country_war_exhaustion_casualties_mult = -0.05
+	country_war_exhaustion_casualties_mult = -0.15
 }
 
 hindu_aspect_1_mdf = {

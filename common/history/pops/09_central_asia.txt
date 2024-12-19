@@ -178,7 +178,7 @@
 		}
 	}
 	s:STATE_TARTARIA = { #Saratov - and DONE
-		region_state:SAT = {
+		region_state:STR = {
 			create_pop = {
 				culture = russian
 				size = 1999377

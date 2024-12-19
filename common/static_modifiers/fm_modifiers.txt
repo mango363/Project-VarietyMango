@@ -568,6 +568,22 @@ modifier_ind_five = {
 	interest_group_pol_str_mult = -0.15
 	interest_group_pop_attraction_mult = 0.1
 }
+modifier_ind_six = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_prestige_add = 20
+	unit_offense_mult = 0.1
+	unit_morale_damage_mult = 0.1
+	unit_morale_loss_mult = -0.15
+	unit_recovery_rate_add = 0.15
+}
+modifier_ind_seven = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_prestige_add = 25
+	state_accepted_birth_rate_mult = 0.1
+	country_authority_mult = 0.1
+	country_bureaucracy_mult = 0.1
+	state_construction_mult = 0.1
+}
 modifier_kur = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	country_prestige_add = 100
@@ -1078,4 +1094,28 @@ modifier_yua_four = {
 }
 modifier_vin1 = {
 	state_colony_growth_speed_mult = 0.5
+}
+
+modifier_nat = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+modifier_nat_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_tech_spread_add = 30
+	country_military_tech_spread_mult = 0.5
+	country_production_tech_spread_mult = 0.5
+	country_society_tech_spread_mult = 0.5
+}
+
+modifier_nat_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_tech_research_speed_mult = 0.5
+	country_weekly_innovation_mult = 0.25
+}
+
+modifier_nat_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 10000
 }

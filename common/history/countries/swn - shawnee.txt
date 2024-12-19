@@ -36,6 +36,10 @@
         add_journal_entry = {
             type = je_na_swn_secure_the_south
         }
+        add_journal_entry = {
+			type = je_nat_main
+		}
+        
 
     }
 }

@@ -1,0 +1,23 @@
+je_nat_main = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	group = je_group_historical_content
+	scripted_button = je_nat_butt
+	scripted_button = je_nat_butt_two
+	complete = {
+		OR = {
+			has_technology_researched = railways
+			has_technology_researched = mechanized_workshops
+			has_technology_researched = watertube_boiler
+			has_technology_researched = percussion_cap
+			has_technology_researched = logistics
+			has_technology_researched = steel_frame_buildings
+			has_technology_researched = joint_stock_companies
+			has_technology_researched = logistics
+			has_technology_researched = labor_movement
+			has_technology_researched = quinine
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

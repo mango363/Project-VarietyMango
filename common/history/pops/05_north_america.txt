@@ -180,11 +180,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 400000
+				size = 100000
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 400000
+				size = 100000
 			}
 			create_pop = {
 				culture = swedish
@@ -192,7 +192,7 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 67054
+				size = 17054
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -436,25 +436,25 @@
 		region_state:IQS = {
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 129765
+				size = 139765
 			}
 			create_pop = {
 				culture = na_cherokee
-				size = 129765
+				size = 116765
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 129765
+				size = 105465
 			}
 		}
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 67054
+				size = 250433
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 67054
+				size = 187654
 			}
 			create_pop = {
 				culture = swedish
@@ -466,11 +466,11 @@
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 67054
+				size = 87655
 			}
 			create_pop = {
 				culture = na_tuscarora_nottoway
-				size = 67054
+				size = 66543
 			}
 		}
 	}
@@ -835,7 +835,7 @@
 		region_state:DKT = {
 			create_pop = {
 				culture = na_lakota
-				size = 250000
+				size = 290000
 			}
 			create_pop = {
 				culture = na_omaha_ponca

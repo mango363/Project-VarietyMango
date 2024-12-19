@@ -45,6 +45,10 @@ fm_na_swn.2 = {
 	option = {
 		name = fm_na_swn.2.a
 		default_option = yes
+		add_modifier = {
+			name = modifier_ind_six
+			months = 60
+		}
 	}
 }
 
@@ -65,5 +69,9 @@ fm_na_swn.3 = {
 	option = {
 		name = fm_na_swn.3.a
 		default_option = yes
+		add_modifier = {
+			name = modifier_ind_seven
+			months = 60
+		}
 	}
 }

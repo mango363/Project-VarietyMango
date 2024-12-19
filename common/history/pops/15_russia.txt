@@ -757,7 +757,7 @@
 		}
 	}
 	s:STATE_TAMBOV = { #DONE
-		region_state:SAT = {
+		region_state:STR = {
 			create_pop = {
 				culture = russian
 				size = 2383492
