@@ -692,3 +692,5 @@ je_bud_main_reason:0 "The Grand Duchy of [ROOT.GetCountry.GetName] has been a va
  je_nousa:0 "New Holland (American Federation) does not exist"
  fou_eng:0 "Reclaiming England"
  fou_eng_reason:0 "#V With the English movement emerging victorious, the parliament has shifted its focus towards strengthening the historical ties to England, prioritizing legal recognition of their ancestral claims.\nNow that the discussions are over, the time has come to retake our lands.#!"
+
+ je_aga_main:0 "Fragile Stability"

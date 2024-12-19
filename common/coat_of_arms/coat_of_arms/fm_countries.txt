@@ -2465,27 +2465,6 @@ AGA = { # Argentina
 	}			
 }
 
-#ARG_early = {
-#	# 1818-29 Flag (light blue with larger central stripe)
-#
-#	pattern = "pattern_solid.tga"
-#	color1 = "white"
-#
-#	colored_emblem = {
-#		texture = "ce_solid.dds"
-#		color1 = "blue_light"
-#		color2 = "blue_light"
-#		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
-#		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }		
-#	}	
-#
-#	colored_emblem = {
-#		texture = "ce_inti.dds"
-#		color1 = "yellow"
-#		color2 = "yellow"
-#		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
-#	}	
-#}
 
 
 AGA_dictatorship = {
@@ -19384,6 +19363,17 @@ NOA = {
 		instance = { scale = { 0.2 0.2 } position = { 0.8 0.5 } }			
 		color1 = "blue"
 		color2 = "blue"		
+	}
+}
+NOA_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		color2 = color2
 	}
 }
 

@@ -1,17 +1,28 @@
 je_aga_main = {
-	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
+	icon = "gfx/interface/icons/state_status_icons/split_state_icon.dds"
 	group = je_group_historical_content
 
 	scripted_progress_bar = aga_progress_bar
 	complete = {
-		custom_tooltip = {
-			text = aga_tool1
-			has_variable = var_agam
+		OR = {
+			custom_tooltip = {
+				text = aga_tool1
+				has_variable = var_agam
+			}
+			exists = c:URU
+			exists = c:BRZ
+			exists = c:AGR
 		}
 	}
 	on_complete = {
 		trigger_event = {
 			id = fm_aga.2
+		}
+		if = {
+			limit = {
+				has_modifier = diplomatic_plays_blocked
+			}
+			remove_modifier = diplomatic_plays_blocked
 		}
 	}
 	should_be_pinned_by_default = yes
@@ -21,7 +32,7 @@ je_aga_main = {
 			if = {
 				limit = {
 					scope:journal_entry = { 
-						"scripted_bar_progress(aga_progress_bar)" >= 200
+						"scripted_bar_progress(aga_progress_bar)" <= 1
 					}
 				 }
 				 set_variable = {

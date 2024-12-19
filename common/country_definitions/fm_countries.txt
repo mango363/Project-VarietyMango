@@ -2740,26 +2740,27 @@ FLU = {
 }
 
 AGA = {
-	color = { 101  102  163 }
+	color = { 128 111 41}
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = empire
 	
 	cultures = { argentino platinean brazilian }
 	capital = STATE_BUENOS_AIRES
 }
 
-ARG = {
-	color = { 101 114 135 }
+AGR = {
+	color = { 101  102  163 }
 	
-	country_type = colonial
+	country_type = recognized
 	
 	tier = kingdom
 	
 	cultures = { argentino }
 	capital = STATE_BUENOS_AIRES
 }
+
 
 BOL = {
 	color = { 219  182  182 }

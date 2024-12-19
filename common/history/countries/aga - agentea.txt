@@ -60,5 +60,8 @@
 		add_journal_entry = {
 			type = je_aga_main
 		}
+		add_modifier = {
+			name = diplomatic_plays_blocked
+		}
 	}
 }
