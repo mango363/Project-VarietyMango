@@ -2790,6 +2790,14 @@ AZT = { # Aztlan
 	}
 }
 
+MCG = { # Muscogee
+	flag_definition = {
+		coa = MCG
+		subject_canton = MCG
+		priority = 1
+	}
+}
+
 CAH = { # Cahokia
 	flag_definition = {
 		coa = CAH
