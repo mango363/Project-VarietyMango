@@ -11,11 +11,11 @@
 		region_state:MAY = {
 			create_pop = {
 				culture = central_american
-				size = 56440
+				size = 156440
 			}
 			create_pop = {
 				culture = mayan
-				size = 312000
+				size = 412000
 			}
 		}
 	}

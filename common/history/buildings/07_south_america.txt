@@ -617,13 +617,9 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:GNI={
-		}
-		region_state:CUL={
-		}
 	}
 	s:STATE_TARAPACA={
-		region_state:GNI={
+		region_state:RPQ={
 		}
 	}
 	s:STATE_ANTOFAGASTA={
@@ -633,7 +629,7 @@
 	s:STATE_SANTA_CRUZ={
 	}
 	s:STATE_LA_PAZ={
-		region_state:GNI={
+		region_state:RPQ={
 		}
 	}
 	s:STATE_POTOSI={
@@ -702,16 +698,16 @@
 		}
 	}
 	s:STATE_LIMA={
-		region_state:GNI={
+		region_state:RPQ={
 
 		}
 	}
 	s:STATE_ICA={
-		region_state:GNI={
+		region_state:RPQ={
 		}
 	}
 	s:STATE_AREQUIPA={
-		region_state:GNI={
+		region_state:RPQ={
 		}
 	}
 	s:STATE_URUGUAY={

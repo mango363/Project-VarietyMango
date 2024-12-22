@@ -2621,17 +2621,29 @@ HAE = {
 	capital = STATE_HAITI
 }
 
-MAX = {
-	color = { 56 143 53 }
+NSP = {
+	color = { 224 197 123 }
 	
-	country_type = colonial
-	
+	country_type = recognized
 	#173  242  175
 
 	tier = kingdom
 	
 	cultures = { mexican }
-	capital = STATE_RIO_GRANDE
+	capital = STATE_VERACRUZ
+	is_named_from_capital = yes
+}
+
+MAX = {
+	color = { 56 143 53 }
+	
+	country_type = recognized
+	#173  242  175
+
+	tier = empire
+	
+	cultures = { mexican }
+	capital = STATE_MEXICO
 	is_named_from_capital = yes
 }
 
@@ -3482,7 +3494,7 @@ NAH = {
 	
 	tier = principality
 	
-	cultures = { nahua mixtec zapotec tarascan }
+	cultures = { nahua zapotec tarascan }
 	capital = STATE_MEXICO
 }
 
@@ -3730,7 +3742,7 @@ OAX = { # Oaxaca
 	
 	tier = principality
 	
-	cultures = { zapotec mixtec }
+	cultures = { zapotec }
 	
 	capital = STATE_OAXACA
 }
@@ -3750,13 +3762,25 @@ MCO = { # Michoacan
 TWT = { # Tawantinsuyu
 	color = { 125 92 110 }
 	
-	country_type = unrecognized
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { quechua }
+	
+	capital = STATE_ICA
+}
+
+RPQ = { # Tawantinsuyu
+	color = { 92, 34, 117 }
+	
+	country_type = recognized
 	
 	tier = kingdom
 	
-	cultures = { guarani }
+	cultures = { quechua }
 	
-	capital = STATE_LIMA
+	capital = STATE_ICA
 }
 
 AYM = { # Aymara

@@ -12,7 +12,7 @@ POPS = {
 				size = 2600
 			}
 			create_pop = {
-				culture = guarani
+				culture = quechua
 				size = 227596
 			}
 			create_pop = {
@@ -216,7 +216,7 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				culture = guarani
+				culture = quechua
 				size = 68000
 			}
 			create_pop = {
@@ -243,10 +243,14 @@ POPS = {
 		}
 	}
 	s:STATE_TARAPACA = {
-		region_state:GNI = {
+		region_state:RPQ = {
 			create_pop = {
 				culture = aimara
-				size = 38500
+				size = 8500
+			}
+			create_pop = {
+				culture = quechua
+				size = 68500
 			}
 			create_pop = {
 				culture = argentino
@@ -270,7 +274,7 @@ POPS = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 102800
+				size = 42800
 			}
 			create_pop = {
 				culture = amazonian
@@ -282,27 +286,37 @@ POPS = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 58000
+				size = 22000
 			}
+			create_pop = {
+				culture = aimara
+				size = 13004
+			}
+			create_pop = {
+				culture = amazonian
+				size = 21000
+			}
+		}
+		region_state:RPQ = {
 			create_pop = {
 				culture = aimara
 				size = 28004
 			}
 			create_pop = {
-				culture = amazonian
-				size = 47000
+				culture = quechua
+				size = 447000
 			}
 		}
 	}
 	s:STATE_POTOSI = {
-		region_state:GNI = {
+		region_state:RPQ = {
 			create_pop = {
 				culture = aimara
-				size = 121996
+				size = 11299
 			}
 			create_pop = {
-				culture = guarani
-				size = 14000
+				culture = quechua
+				size = 121996
 			}
 		}
 	}
@@ -317,40 +331,40 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				culture = guarani
+				culture = quechua
 				size = 186696
 			}
 		}
 	}
 	s:STATE_LIMA = {
-		region_state:GNI = {
+		region_state:RPQ = {
 			create_pop = {
-				culture = guarani
-				size = 62000
+				culture = quechua
+				size = 345033
 			}
 			create_pop = {
 				culture = amazonian
-				size = 16000
+				size = 1000
 			}
 		}
 	}
 	s:STATE_ICA = {
-		region_state:GNI = {
+		region_state:RPQ = {
 			create_pop = {
-				culture = guarani
-				size = 55000
+				culture = quechua
+				size = 1535000
 			}
 		}
 	}
 	s:STATE_AREQUIPA = {
-		region_state:GNI = {
+		region_state:RPQ = {
 			create_pop = {
-				culture = guarani
-				size = 80400
+				culture = quechua
+				size = 280400
 			}
 			create_pop = {
 				culture = aimara
-				size = 146500
+				size = 46500
 			}
 		}
 	}
@@ -652,10 +666,6 @@ POPS = {
 			create_pop = {
 				culture = amazonian
 				size = 16100
-			}
-			create_pop = {
-				culture = amazonic
-				size = 90
 			}
 		}
 	}

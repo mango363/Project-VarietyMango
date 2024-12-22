@@ -14792,6 +14792,17 @@ MEW_subject = {
 	}			
 }
 
+NSP = { # Mexico
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+
+	textured_emblem = {
+		texture = "te_coa_mexico.dds"
+		instance = { scale = { 0.95 0.95 } position = { 0.5 0.5 } }
+	}
+}
+
 MAX = { # Mexico
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -19377,6 +19388,16 @@ NOA_monarchy = {
 	}
 }
 
+RPQ = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_arm_base.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
 GAR = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -19386,6 +19407,8 @@ GAR = {
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 }
+
+
 
 GAR_monarchy = {
 	pattern = "pattern_solid.tga"

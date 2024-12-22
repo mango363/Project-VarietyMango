@@ -60,7 +60,7 @@
 			goods = wood
 			level = 2
 			direction = export
-			target = c:NAW.market
+			target = c:NWA.market
 		}
 		create_trade_route = {
 			goods = hardwood
@@ -72,7 +72,7 @@
 			goods = artillery
 			level = 1
 			direction = import
-			target = c:NAW.market
+			target = c:NWA.market
 		}	
 		create_trade_route = {
 			goods = wood
@@ -84,10 +84,10 @@
 			goods = tools
 			level = 6
 			direction = import
-			target = c:NAW.market
+			target = c:NWA.market
 		}	
 	}
-	c:NAW ?= {
+	c:NWA ?= {
 		create_trade_route = {
 			goods = wood
 			level = 2
@@ -213,7 +213,7 @@
 			target = c:CUL.market
 		}		
 	}
-	c:MAX ?= {
+	c:NSP ?= {
 		create_trade_route = {
 			goods = clippers
 			level = 2
@@ -240,7 +240,7 @@
 			goods = olive
 			level = 3
 			direction = import
-			target = c:MAX.market
+			target = c:NSP.market
 		}			
 	}
 	# USA

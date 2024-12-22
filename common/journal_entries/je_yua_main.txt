@@ -192,13 +192,6 @@ je_ymnyua = {
 	timeout = 1800
 	on_timeout = {
 		annex_with_incorporation = c:YMN
-		hidden_effect = {
-			if = {
-				limit = {
-				exists = c:SSH
-				}
-			}	
-		}
 	}
 	fail = {
 		c:YMN = {

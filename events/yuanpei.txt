@@ -434,7 +434,7 @@ fm_yua.13 = {
 			type = je_ymnyua
 		}
 		change_relations = {
-			country = c:MAX
+			country = c:NSP
 			value = -10
 		}
 		ai_chance = {
@@ -451,14 +451,14 @@ fm_yua.13 = {
 	}
 	option = {
 		name = fm_yua.13.b
-		c:MAX = {
+		c:NSP = {
 			create_diplomatic_catalyst = {
 				type = catalyst_event_positive
 				target = c:YUA
 			}
 		}
 		change_relations = {
-			country = c:MAX
+			country = c:NSP
 			value = 20
 		}
 		ai_chance = {

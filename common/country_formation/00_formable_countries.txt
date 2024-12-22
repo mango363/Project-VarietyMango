@@ -548,9 +548,27 @@ CUL = {
 
 
 MAX = {
-	use_culture_states = yes
+	STATES = {
+		STATE_SONORA
+		STATE_CHIHUAHUA
+		STATE_RIO_GRANDE
+		STATE_DURANGO
+		STATE_SINALOA
+		STATE_BAJIO
+		STATE_YUCATAN
+		STATE_MEXICO
+		STATE_VERACRUZ
+		STATE_GUERRERO
+		STATE_OAXACA
+		STATE_JALISCO
+		STATE_ZACATECAS
+		STATE_GUERRERO
+		STATE_CHIAPAS
+		STATE_BAJA_CALIFORNIA
+		STATE_GUATEMALA
+	}
 
-	required_states_fraction = 0.75	
+	required_states_fraction = 1
 	
 	ai_will_do = { always = yes }
 }
@@ -1142,17 +1160,6 @@ CLI = {
 	}
 }
 
-TWT = {
-	use_culture_states = yes
-	
-	required_states_fraction = 0.5
-
-	ai_will_do = { always = no }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
 
 PAK = {
 	states = {

@@ -5476,6 +5476,16 @@ MEW = { # Mewar
 	}	
 }	
 
+NSP = {
+	|flag_definition = {
+		coa = NSP
+		subject_canton = NSP
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NSP			
+		priority = 1
+	}
+}
+
 MAX = { # Mexico
 	flag_definition = {
 		coa = MAX
@@ -6796,6 +6806,14 @@ NOA = {
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
 		}
+	}
+}
+
+RPQ = {
+	flag_definition = {	
+		coa = RPQ
+		subject_canton = RPQ
+		priority = 10
 	}
 }
 

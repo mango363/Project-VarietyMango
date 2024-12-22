@@ -676,11 +676,6 @@ CEY = {
 }
 
 
-TWT = {
-	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
 
 AYM = {
 	use_culture_states = yes

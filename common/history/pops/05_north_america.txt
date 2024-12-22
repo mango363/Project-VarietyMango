@@ -951,11 +951,11 @@
 				size = 129765
 			}
 		}
-		region_state:MAX = {
+		region_state:NSP = {
 			create_pop = {
 				culture = na_comanche
 				religion = catholic
-				size = 2034
+				size = 5034
 			}
 			create_pop = {
 				culture = mexican
@@ -1086,9 +1086,9 @@
 				size = 154
 			}
 		}
-		region_state:MAX = {
+		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = na_chickasaw_choctaw
 				size = 5000
 			}
 		}
@@ -1180,16 +1180,6 @@
 				size = 4765
 			}
 		}
-		region_state:MAX = {
-			create_pop = {
-				culture = na_yuman
-				size = 117654
-			}
-			create_pop = {
-				culture = mexican
-				size = 117654
-			}
-		}
 		region_state:YMN = {
 			create_pop = {
 				culture = na_piman
@@ -1197,7 +1187,7 @@
 			}
 			create_pop = {
 				culture = na_yuman
-				size = 255643
+				size = 295643
 			}
 			create_pop = {
 				culture = pueblo
@@ -1298,23 +1288,6 @@
 				culture = korean
 				religion = atheist
 				size = 43056
-			}
-		}
-	}
-	s:STATE_BAJA_CALIFORNIA = {
-		region_state:YMN = {
-			create_pop = {
-				culture = na_yuman
-				size = 144000
-			}
-			create_pop = {
-				culture = mexican
-				size = 1155
-			}
-			create_pop = {
-				culture = na_yuman
-				religion = catholic
-				size = 2230
 			}
 		}
 	}
@@ -1608,20 +1581,6 @@
 				pop_type = capitalists
 				culture = korean
 				size = 500
-			}
-		}
-	}
-	# 121424 in 1830, 138595 in 1840
-	# working total of 130010
-	s:STATE_CHIAPAS = {
-		region_state:MAY = {
-			create_pop = {
-				culture = mexican
-				size = 13408
-			}
-			create_pop = {
-				culture = mayan
-				size = 91415
 			}
 		}
 	}

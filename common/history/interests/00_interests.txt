@@ -106,7 +106,7 @@
 	c:DKE ?= {
 		add_declared_interest = region_niger
 	}
-	c:MAX ?= {
+	c:NSP ?= {
 		add_declared_interest = region_great_plains
 	}
 }	

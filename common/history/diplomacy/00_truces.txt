@@ -81,14 +81,22 @@
 	}
 	c:YMN = {
 		create_bidirectional_truce = {
-			country = c:MAX
+			country = c:NSP
 			months = 9
 		}
 	}
-	c:MAX = {
+	c:NSP = {
 		create_bidirectional_truce = {
 			country = c:AT1
 			months = 35
+		}
+		create_bidirectional_truce = {
+			country = c:MAY
+			months = 14
+		}
+		create_bidirectional_truce = {
+			country = c:NAH
+			months = 4
 		}
 	}
 	c:VSL = {

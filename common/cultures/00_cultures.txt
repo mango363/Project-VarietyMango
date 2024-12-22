@@ -13463,83 +13463,69 @@ jagera={
 
 zapotec={
 	color= hsv{ 0.32 0.29 0.78 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfonso
-		Alfredo
-		Andres
-		Benito
-		Carlos
-		Cesar
-		Eduardo
-		Eugenio_2
-		Felipe
-		Fernando
-		Gabriel
-		Gilberto
-		Gregorio
-		Jacinto
-		Jesus
-		JosE_
-		Juan
-		Julio
-		Macario
-		Manuel
-		Miguel
-		Nazario
-		Nicolas_2
-		Oliverio
-		Pablo
-		Porfirio
-		Rodolfo
-		Rufino
+		Citlalli
+		Citlalic
+		Coaxoch
+		Apozanolotl
+		Chimalli
+		Huitzilin
+		Acalan
+		Ahuatzi
+		Amoxtli
+		Atlacoya
+		Ayauhteotl
+		Chiconahui
+		Cualli
+		Cuetzpallee
+		Ichtaca
+		Ilhicamina
+		Itzcoatl
+		Meztli
+		Mictlantecuhtli
+		Omacatl
+		Tenoch
 	}
 	female_common_first_names = {
-		Amaranta
-		Blanca
-		Delfina
-		Eufrosina
-		Lina
-		Sofia
-		Violeta
+		Xitllali
+		Ahuatzi
+		Ahuic
+		Amoxtli
+		Amoztli
+		Apozanolotl
+		Atl
+		Atlacamani
+		Atlacoya
+		
 	}	
 	noble_last_names = {
 		Charis
-		Cortes
-		Henestrosa
-		Juarez
 		Tamayo
 	}
 	common_last_names={
-		Alonso
-		Antunez
-		Cabrera
-		Cajigas
-		Chacon
-		Chinas
-		Fernandez
-		Gamboa
-		Garcia
-		Gonzalez
-		Gutierrez
-		Guzman
-		Isael
-		Jimenez
-		Lopez
-		Matus
-		Morales
-		Merida
-		Nayeli
-		Orozco
-		Ortiz
-		Pineda
-		Rojas
-		Ruiz_2
-		Suarez
-		Vichido
+		Ahuactzin
+		Atlanteco
+		Coyotl
+		Cuautlaxahue
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
 	}
 	ethnicities = {
 		1 = native_american
@@ -13549,53 +13535,53 @@ zapotec={
 
 mayan={
 	color= hsv{ 0.69 0.08 0.55 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Akbal
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Armando
-		Bernardo
-		Carlos
-		Crescencio
-		Cristobal_2
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
 		Cuautehmoc
-		Diego
-		Felipe
-		Gaspar
-		Hernando
-		Hilario
-		Humberto
-		Ignacio
-		Jacinto
-		Jesus
-		Luis
-		Marcial
-		Martin_2
-		Miguel
-		Ramiro
-		Rodolfo
-		Rolando
-		Santiago
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
 		Yumil
 	}
 	female_common_first_names = {
-		Ana
-		Catarina
-		Concepcion
-		Cristina
-		Elvia
-		Felipa
-		Maria
-		Paula
-		Ramona
-		Rigoberta
-		Rosalina
-		Thelma
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
 	}	
 	noble_last_names = {
 		Ay
@@ -13611,7 +13597,6 @@ mayan={
 		Cal
 		Canek
 		Canul
-		Carrillo
 		Ceh
 		Chee
 		Choc
@@ -13619,13 +13604,9 @@ mayan={
 		Curruchic
 		Ixquiac
 		Kan
-		Lopez
-		Manzanero
 		Mas
 		Menchu
 		Mes
-		Merida
-		Osorio
 		Pek
 		Pop
 		Puk
@@ -13645,78 +13626,65 @@ mayan={
 
 nahua={
 	color= hsv{ 0.47 0.29 0.38 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Antonio
-		Carlos
-		Diego
-		Emiliano
-		Emilio
-		Felipe
-		Fernando
-		Francisco
-		Gaspar
-		Hernando
-		Hilario
-		Ignacio
-		Isaac
-		Jacinto
-		Jesus
-		JosE_
-		Juan
-		Julio
-		Lorenzo
-		Manuel
-		Marcial
-		Mario
-		Martin_2
-		Natalio
-		Oliverio
-		Pedro
-		Roberto
-		Rodolfo
-		Santiago
-		VI_ctor
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
+		Cuautehmoc
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
+		Yumil
 	}
 	female_common_first_names = {
-		Antonia
-		Celsa
-		Cleofas
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
 	}	
 	noble_last_names = {
-		Altamirano
-		Cortes
-		Gonzalez
 		Moyotlan
-		Neri
-		Palafox
-		Salazar
-		Zapata
 	}
 	common_last_names={
 		Ahuactzin
 		Atlanteco
-		Badiano
-		Bernardino
-		Coaguila
 		Coyotl
 		Cuautlaxahue
-		Gutierrez
-		Hernandez
 		Huanitzin
 		Itzel
 		Ixtlilxochitl
-		Jimenez
 		Matlacuahuac
 		Mayahuel
 		Moxo
@@ -13727,7 +13695,6 @@ nahua={
 		Tlaxca
 		Tletla
 		Tzehe
-		Valeriano
 		Xaxalpa
 		Xochitl
 		Zapotitla
@@ -13741,88 +13708,82 @@ nahua={
 
 tarascan={
 	color= hsv{ 0.50 0.24 0.75 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfredo
-		Antonio
-		Armando
-		Arturo
-		Carlos
-		Cenobio
-		Daniel
-		Diego
-		Everardo
-		Gerardo
-		Gumersindo
-		Hector
-		Jesus
-		Juan
-		Leobardo
-		Luis
-		Manuel
-		Marcial
-		Marco_Antonio
-		Melchor
-		Pedro
-		Ricardo
-		Salvador
-		Samuel
-		Sergio
-		Silvano
-		Silvestre
-		VI_ctor
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
+		Cuautehmoc
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
+		Yumil
 	}
 	female_common_first_names = {
-		Amalia
-		Antonia
-		Celsa
-		Erendira
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
-	}	
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
+	}		
 	noble_last_names = {
-		Calderon
-		Cristobal_2
-		Ochoa
 		Paniagua
-		Ocampo
 	}
 	common_last_names={
-		Almonte
-		Arredondo
-		Arriaga
-		Aureoles
-		Bernal
-		Brito
-		Cano
-		Carrillo
-		Cuevas
-		Dimas
-		Esquivel
-		Estrada
-		Galeana
-		Gallardo
-		Garcia
-		Gomez
-		Lopez
-		Maciel
-		Magana
-		Medrano
 		Mena
 		Tinoco
 		Toryo
-		Vargas
-		Zendejas
+		Ahuactzin
+		Atlanteco
+		Coyotl
+		Cuautlaxahue
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
 	}
 	ethnicities = {
 		1 = native_american
@@ -13832,89 +13793,72 @@ tarascan={
 
 quechua={
 	color= hsv{ 0.10 0.22 0.69 }
-	religion = catholic
+	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Agustin
-		Alejandro
-		Antauro
-		Antonio
-		Basilio
-		Daniel
-		Diego
-		Eugenio_2
-		Facundo
-		Felipe
-		Francisco
-		Gustavo
-		Hilario
-		Inca
-		Isaac
-		Jose_Maria
-		Julio
-		Lorenzo
-		Manuel
-		Marcos
-		Mariano
-		Martin_2
-		Nicolas_2
-		Osvaldo
-		RenE_
-		Roberto
-		Simon_2
-		Tupac
-		Ulises
-		VI_ctor
+		Yáhuar Huácac
+		Huayna
+		Huiracocha Inca
+		Manco
+		Pachacútec
+		Sinchi
+		Titu Cusi
+		Túpac
+		Accla
+		Atahualpa
+		Huáscar
+		Lloque
+		Mayta
+		Pachacuti
+		Pawllu
+		Tupac Amaru
+		Achik
+		Antay 
 	}
 	female_common_first_names = {
-		Angelica
-		Casimira
-		Felicita
-		Juanita
-		Luzmila
-		Mercedes
-		Micael
-		Nilda
-		Savina
-		Silvia
+		Asiri 
+		Chuki 
+		Inkasisa 
+		Kayara 
+		Koya 
+		Kusi 
+		Mamak 
+		Paqari 
+		Wayta 
 	}	
 	noble_last_names = {
-		Collahuazo
-		Duchicela
-		Poma
+		Atahualpa 
 		Quispe
-		Santa_Cruz
 	}
 	common_last_names={
-		Arguedas
-		Barrientos
-		Cajahuanca
-		Canchata
-		Chambi
+		Capac
+		Yupanqui
+		Quri 
 		Chihuan
 		Cusurichi
-		Espejo
-		Frisancho
-		Gamarra
-		Guaman
-		Guayasamin
-		Gutierrez
-		Heredia
-		Humala
-		Iturri
-		Lazarte
-		Luduena
-		Melgarejo
-		Noguera
-		Palacios
-		Patino
-		Rodriguez
-		Roncaglia
-		Sosa
-		Sumac
-		Toledo
-		Vargas
 		Wallparrimachi
+		Rimak 
+		Asto 
+		Hakan "splendid"
+		Inti
+
+		Kumya
+
+		Kunak
+
+		Manko
+
+		Poma
+
+		Raymi
+
+		Samin
+
+		Sumaq
+
+		Uchu
+
+		Urqu
 	}
 	ethnicities = {
 		1 = native_american
