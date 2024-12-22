@@ -94,3 +94,14 @@ AZT = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
+
+
+MCG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb{74 110 120}
+
+	textured_emblem = {
+		texture = "te_coa_mcg.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
