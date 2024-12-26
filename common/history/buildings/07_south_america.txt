@@ -814,6 +814,10 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
+				building= "building_machu_picchu"
+				level = 1
+			}
+			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={

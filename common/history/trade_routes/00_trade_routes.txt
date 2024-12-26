@@ -234,6 +234,30 @@
 			direction = import
 			target = c:SWU.market
 		}	
+		create_trade_route = {
+			goods = iron
+			level = 3
+			direction = import
+			target = c:FOU.market
+		}	
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:FRU.market
+		}	
+		create_trade_route = {
+			goods = coal
+			level = 2
+			direction = import
+			target = c:FRU.market
+		}	
+		create_trade_route = {
+			goods = coal
+			level = 2
+			direction = import
+			target = c:FOU.market
+		}	
 	}
 	c:CUL ?= {
 		create_trade_route = {

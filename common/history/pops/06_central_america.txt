@@ -15,7 +15,7 @@
 			}
 			create_pop = {
 				culture = mayan
-				size = 412000
+				size = 912000
 			}
 		}
 	}

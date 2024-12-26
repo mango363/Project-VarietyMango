@@ -39,15 +39,6 @@
 		}
 
 		add_journal_entry = {
-			type = je_na_one_secure_to_michigan
-		}
-		add_journal_entry = {
-			type = je_na_one_secure_the_south
-		}
-		add_journal_entry = {
-			type = je_na_one_secure_the_north
-		}
-		add_journal_entry = {
 			type = je_nat_main
 		}
 	}

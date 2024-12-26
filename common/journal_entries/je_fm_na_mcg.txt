@@ -1,5 +1,5 @@
 je_na_mcg_secure_georgia = {
-	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
 
 	timeout = 1825
@@ -8,12 +8,9 @@ je_na_mcg_secure_georgia = {
 		owns_entire_state_region = STATE_GEORGIA
 	}
 	on_complete = {
-		s:STATE_GEORGIA = {
-			add_modifier = {
-				name = modifier_na_secure
-				is_decaying = yes
-				months = 25
-			}
+		add_modifier = {
+			name = modifier_ind_seven
+			months = 60
 		}
 	}
 	on_timeout = {}

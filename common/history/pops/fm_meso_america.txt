@@ -89,7 +89,7 @@ POPS = {
 		region_state:NAH = {
 			create_pop = {
 				culture = na_nahuan
-				size = 694909
+				size = 894909
 			}
 			create_pop = {
 				culture = tarascan
@@ -233,11 +233,11 @@ POPS = {
 		region_state:YMN = {
 			create_pop = {
 				culture = na_piman
-				size = 13300
+				size = 23300
 			}
 			create_pop = {
 				culture = na_yuman
-				size = 31300
+				size = 91300
 			}
 		}
 	}

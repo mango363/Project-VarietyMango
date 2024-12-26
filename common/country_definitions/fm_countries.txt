@@ -3381,7 +3381,7 @@ MAY = {
 	tier = kingdom
 	
 	cultures = { mayan }
-	capital = STATE_YUCATAN
+	capital = STATE_GUATEMALA
 }
 
 MNP = { # Manipur
@@ -3495,7 +3495,7 @@ NAH = {
 	tier = principality
 	
 	cultures = { na_nahuan zapotec tarascan }
-	capital = STATE_MEXICO
+	capital = STATE_BAJIO
 }
 
 GRN = {
