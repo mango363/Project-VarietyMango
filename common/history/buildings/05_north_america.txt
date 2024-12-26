@@ -15,6 +15,10 @@ BUILDINGS={
 				activate_production_methods={  "pm_no_secondary" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 			create_building={
+				building="building_capitol_hill"
+				level=1
+			}
+			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					country={
@@ -28,19 +32,6 @@ BUILDINGS={
 			create_building={
 				building="building_white_house"
 				level=1
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_american_buildings_dlc_trigger = yes
-		}
-		s:STATE_DISTRICT_OF_COLUMBIA={
-			region_state:AMC={
-				create_building={
-					building="building_capitol_hill"
-					level=1
-				}
 			}
 		}
 	}
@@ -184,6 +175,10 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
+			}
+			create_building={
+				building="building_central_park"
+				level=1
 			}
 			create_building={
 				building="building_textile_mills"
@@ -2795,10 +2790,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building= "building_chichen_itza"
-				level = 1
 			}
 			create_building={
 				building="building_sugar_plantation"

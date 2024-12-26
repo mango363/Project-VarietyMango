@@ -1456,14 +1456,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_vatican_city"
-				add_ownership={
-					country={
-						country="c:PUP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 		}
 	}
@@ -3828,14 +3821,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_hagia_sophia"
-				add_ownership={
-					country={
-						country="c:BIZ"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 
 		}

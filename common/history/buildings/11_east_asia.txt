@@ -980,14 +980,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_forbidden_city"
-				add_ownership={
-					country={
-						country="c:ZHI"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3116,14 +3109,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_angkor_wat"
-				add_ownership={
-					country={
-						country="c:CAM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 			create_building={
 				building="building_rice_farm"

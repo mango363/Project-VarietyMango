@@ -1496,15 +1496,8 @@ BUILDINGS={
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
-				building="building_eye_of_sahara"
-				add_ownership={
-					country={
-						country="c:FTR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				building= "building_eye_of_sahara"
+				level = 1
 			}
 		}
 	}
