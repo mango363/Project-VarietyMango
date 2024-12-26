@@ -19,7 +19,7 @@ age_1_bonus_2 = {
 
 age_1_bonus_3 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_colony_growth_creation_mult = 0.15
+	state_colony_growth_creation_factor = 0.15
 }
 
 age_1_bonus_4 = {
@@ -81,14 +81,14 @@ age_2_bonus_3 = {
 	country_agitator_slots_add = 2
 	country_revolution_progress_mult = -0.25
 	country_secession_progress_mult = -0.25
-	political_movement_radicalism_mult = -0.05
+	political_movement_radicalism_add = -0.05
 	country_radicals_from_legitimacy_mult = -0.5
 	
 }
 
 age_2_bonus_4 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	political_movement_radicalism_mult = -0.5
+	political_movement_radicalism_add = -0.5
 }
 
 age_2_bonus_5 = {
@@ -124,8 +124,9 @@ age_2_bonus_9 = {
 
 age_2_bonus_10 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_radicals_from_discrimination_mult = -0.8
-	state_radicals_from_sol_change_mult = -0.5
+	state_radicals_from_political_movements_mult = -0.5
+	state_lower_strata_expected_sol_add = -1
+	state_middle_strata_expected_sol_add = -2
 }
 
 age_2_bonus_11 = {

@@ -9,6 +9,11 @@
 		ideology_moralist
 		ideology_patriarchal
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_traditionalist
+	}
 
 	enable = {
 		always = yes
@@ -55,7 +60,7 @@
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
-				set_ig_trait = ig_trait:ig_trait_khalsa
+				set_ig_trait = ig_trait:ig_trait_rehat
 				set_ig_trait = ig_trait:ig_trait_kar_seva
 			}
 			else_if = {
@@ -102,6 +107,16 @@
 				set_ig_trait = ig_trait:ig_trait_sharia
 				set_ig_trait = ig_trait:ig_trait_da_wat
 			}
+			# Church of Finland
+			else_if = {
+				limit = {
+					country_has_state_religion = rel:protestant
+					country_has_primary_culture = cu:finnish
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_church_of_finland
+				}
+			}
 			else_if = {
 				limit = {
 					owner = { c:TUR ?= this }
@@ -109,6 +124,21 @@
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
 				set_ig_trait = ig_trait:ig_trait_mecelle
 				set_ig_trait = ig_trait:ig_trait_da_wat
+			}
+			else_if = {
+				limit = {
+					owner = { c:TAC ?= this }
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_taiping_god_worshippers
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_heavenly_kingdom_theocratic
+					add_modifier = {
+						name = taiping_god_worshippers
+						months = very_long_modifier_time
+						is_decaying = yes
+					}
+				}
 			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
@@ -351,7 +381,7 @@
 		else_if = {
 			limit = { country_has_state_religion = rel:sikh }
 			ig:ig_devout = {
-				set_interest_group_name = ig_sikh_priesthood
+				set_interest_group_name = ig_granthis
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_sikh_moralist
 			}
@@ -598,17 +628,6 @@
 				value = 0
 			}
 		}
-		# Muslims and Theravada more likely to adopt Devout
-		if = {
-			limit = {
-				OR = {
-					owner.religion = rel:sunni
-					owner.religion = rel:shiite
-					owner.religion = rel:theravada
-				}
-			}
-			multiply = 2
-		}
 	}
 
 	agitator_weight = {
@@ -699,15 +718,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

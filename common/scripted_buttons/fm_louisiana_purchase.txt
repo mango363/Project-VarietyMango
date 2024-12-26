@@ -1,0 +1,68 @@
+je_buy_louisiana_button = {
+	name = "je_buy_louisiana"
+	desc = "je_buy_louisiana_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 0
+	}
+	possible = {
+		custom_tooltip = {
+			text = luoi_text
+			NOT = {
+				has_modifier = modifier_fru_one
+			}
+			c:MCG = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:CAD = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:AT1 = {
+				NOT = {
+					has_variable = variable_louisiana
+				}
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = c:FRU
+				c:LOI = {
+					is_subject_of = c:FRU
+				}
+			}
+			c:FRU = {
+				trigger_event = {
+					id = fm_france.1
+					days = 30
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = c:FRE
+				c:LOI = {
+					is_subject_of = c:FRE
+				}
+			}
+			c:FRE = {
+				trigger_event = {
+					id = fm_france.1
+					days = 30
+				}
+			}
+		}
+
+		# Set variable after we check if it exists
+		set_variable = {
+			name = variable_louisiana
+		}
+	}
+}

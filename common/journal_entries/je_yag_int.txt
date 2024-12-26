@@ -63,7 +63,7 @@ je_yag_int_thura = {
 			exists = c:KAU
 		}
 		NOT = {
-			exists = c:NAW
+			exists = c:NWA
 		}
 	}
 	possible = {
@@ -76,7 +76,7 @@ je_yag_int_thura = {
 			exists = c:KAU
 		}
 		NOT = {
-			exists = c:NAW
+			exists = c:NWA
 		}
 	}
 	scripted_button = je_yag_int_thura_b

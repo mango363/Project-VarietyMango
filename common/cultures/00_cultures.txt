@@ -1694,7 +1694,7 @@ swedish={
 danish={
 	color= hsv{ 0 0.51 0.86 }
 	religion = protestant
-	traits = { scandinavian_culture_group european_heritage }
+	traits = { scandinavian_culture_group norse european_heritage }
 	male_common_first_names={
 		Aasmund
 		Aage
@@ -1953,10 +1953,89 @@ norwegian={
 	}
 }
 
+vinlander={
+	color= { 84 17 11 }
+	religion = norsp
+	traits = { norse scandinavian_culture_group american_settler european_heritage }
+	obsessions = {
+		liquor
+		wine
+		meat
+	}
+	male_common_first_names={
+		Agnar Leifr Bjarni Þorfinnr
+		Bjorn_2
+		Eidur
+		Einar
+		Emil
+		Geir
+		Gudmund
+		Gunnar
+		Hannes
+		Hermann
+		J_On
+		Kristjan
+		Magnus_2
+		Petur
+		Sigurdur
+		Stefan_2
+		Sveinn
+		Tryggvi
+		Asgeir
+		Olafur
+		Steingrimur
+		Hallgrimur
+	}
+	female_common_first_names = {
+		Agnes
+		Briet
+		Hansina
+		Regina
+		Rosa
+		Steinunn
+		Thorfhildur
+		Vilhelmina
+	}	
+	noble_last_names = {
+		Hielmstierne
+		Petursson
+		Sveinsson
+		Thorberg
+		Thordersen
+		Vidalin
+		Eiríksson Herjólfsson Karlsefni
+	}
+	common_last_names={
+		Arnorsson
+		Benediktsson
+		Bjarnasen
+		Bjornsson
+		Eggers
+		Eldjarn
+		Hafstein
+		Hansen
+		Hermannsson
+		Johanesson
+		Jonsson
+		Magnusson
+		Stefansson
+		Steinthosson
+		Thorlaksson
+		Thurs
+		Thordarson
+		Thorhallson
+		Asgeirsson
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 icelandic={
 	color= hsv{ 0.74 0.46 0.58 }
 	religion = protestant
-	traits = { scandinavian_culture_group european_heritage }
+	traits = { scandinavian_culture_group norse european_heritage }
 	male_common_first_names={
 		Agnar
 		Bjorn_2
@@ -3982,7 +4061,7 @@ maltese={
 basque={
 	color= hsv{ 0.12 0.56 0.86 }
 	religion = catholic
-	traits = { iberian_culture_group european_heritage }
+	traits = { basque_language european_heritage }
 	male_common_first_names={
 		Agustin
 		Aitor
@@ -9484,7 +9563,7 @@ siberian={
 yakut={
 	color= hsv{ 0.24 0.49 0.50 }
 	religion = animist
-	traits = { north_asian_heritage siberian_culture_group }
+	traits = { turkic north_asian_heritage siberian_culture_group }
 	male_common_first_names={
 		Aysen
 		Aytal
@@ -9568,7 +9647,7 @@ tibetan={
 
 assamese={
 	color= hsv{ 0.58 0.28 0.61 }
-	religion = sunni
+	religion = hindu
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
 		Chandraka
@@ -9610,7 +9689,7 @@ assamese={
 bengali={
 	color= hsv{ 0.79 0.37 0.36 }
 	religion = zoroastrian
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 
 	obsessions = {
 		spice
@@ -9659,7 +9738,7 @@ bengali={
 bihari={
 	color= hsv{ 0.91 0.28 0.70 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language }
 	obsessions = {
 		spice
 	}	
@@ -9705,7 +9784,7 @@ bihari={
 manipuri={
 	color= hsv{ 0.74 0.27 0.94 }
 	religion = hindu
-	traits = { south_asian_heritage northeast_indian }
+	traits = { southeast_asian_heritage northeast_indian }
 	obsessions = {
 		spice
 	}
@@ -9812,7 +9891,7 @@ nepali={
 oriya={
 	color= hsv{ 0.96 0.36 0.74 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -9854,7 +9933,7 @@ oriya={
 sinhala={
 	color= hsv{ 0.99 0.27 0.29 }
 	religion = theravada
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Anagarika
 		Kirtisri
@@ -9894,7 +9973,7 @@ sinhala={
 avadhi={
 	color= hsv{ 0.10 0.44 0.35 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -9934,7 +10013,7 @@ avadhi={
 kanauji={
 	color= hsv{ 0.27 0.48 0.74 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -9972,9 +10051,9 @@ kanauji={
 panjabi={
 	color= hsv{ 0.08 0.10 0.74 }
 	religion = sikh
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
-		Baba
+		Baba Banda Bhuma
 		Banda
 		Bhuma
 		Chand
@@ -9985,7 +10064,7 @@ panjabi={
 		Jassa
 		Kapur
 		Kaur
-		Kharak
+		Kharak Karam_Singh
 		Nau
 		Nawab
 		Nihal
@@ -10006,7 +10085,7 @@ panjabi={
 	noble_last_names = {
 		Bahadur
 		Bhangi
-		Singh
+		Singh Phulkian
 		Singh_Dogra
 	}
 	common_last_names={
@@ -10028,7 +10107,7 @@ panjabi={
 kashmiri={
 	color= hsv{ 0.78 0.26 0.78 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	male_common_first_names={
 		Abdullah
 		Atta
@@ -10073,7 +10152,7 @@ kashmiri={
 gujarati={
 	color= hsv{ 0.85 0.28 0.35 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10121,7 +10200,7 @@ gujarati={
 marathi={
 	color= hsv{ 0.19 0.55 0.86 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10184,7 +10263,7 @@ marathi={
 sindi={
 	color= hsv{ 0.78 0.50 0.83 }
 	religion = zoroastrian
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -10231,7 +10310,7 @@ sindi={
 rajput={
 	color= hsv{ 0.24 0.16 0.90 }
 	religion = hindu
-	traits = { south_asian_heritage hindustani }
+	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
 	}
@@ -13319,7 +13398,7 @@ gunaikurnai={ # Aboriginal
 	graphics = fm_aboriginal_australian
 }
 
-jagera={ # Aboriginal
+jagera={ 
 	color= { 186 94 7 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian yuggera_speaker }
@@ -13384,83 +13463,69 @@ jagera={ # Aboriginal
 
 zapotec={
 	color= hsv{ 0.32 0.29 0.78 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfonso
-		Alfredo
-		Andres
-		Benito
-		Carlos
-		Cesar
-		Eduardo
-		Eugenio_2
-		Felipe
-		Fernando
-		Gabriel
-		Gilberto
-		Gregorio
-		Jacinto
-		Jesus
-		JosE_
-		Juan
-		Julio
-		Macario
-		Manuel
-		Miguel
-		Nazario
-		Nicolas_2
-		Oliverio
-		Pablo
-		Porfirio
-		Rodolfo
-		Rufino
+		Citlalli
+		Citlalic
+		Coaxoch
+		Apozanolotl
+		Chimalli
+		Huitzilin
+		Acalan
+		Ahuatzi
+		Amoxtli
+		Atlacoya
+		Ayauhteotl
+		Chiconahui
+		Cualli
+		Cuetzpallee
+		Ichtaca
+		Ilhicamina
+		Itzcoatl
+		Meztli
+		Mictlantecuhtli
+		Omacatl
+		Tenoch
 	}
 	female_common_first_names = {
-		Amaranta
-		Blanca
-		Delfina
-		Eufrosina
-		Lina
-		Sofia
-		Violeta
+		Xitllali
+		Ahuatzi
+		Ahuic
+		Amoxtli
+		Amoztli
+		Apozanolotl
+		Atl
+		Atlacamani
+		Atlacoya
+		
 	}	
 	noble_last_names = {
 		Charis
-		Cortes
-		Henestrosa
-		Juarez
 		Tamayo
 	}
 	common_last_names={
-		Alonso
-		Antunez
-		Cabrera
-		Cajigas
-		Chacon
-		Chinas
-		Fernandez
-		Gamboa
-		Garcia
-		Gonzalez
-		Gutierrez
-		Guzman
-		Isael
-		Jimenez
-		Lopez
-		Matus
-		Morales
-		Merida
-		Nayeli
-		Orozco
-		Ortiz
-		Pineda
-		Rojas
-		Ruiz_2
-		Suarez
-		Vichido
+		Ahuactzin
+		Atlanteco
+		Coyotl
+		Cuautlaxahue
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
 	}
 	ethnicities = {
 		1 = native_american
@@ -13470,53 +13535,53 @@ zapotec={
 
 mayan={
 	color= hsv{ 0.69 0.08 0.55 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Akbal
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Armando
-		Bernardo
-		Carlos
-		Crescencio
-		Cristobal_2
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
 		Cuautehmoc
-		Diego
-		Felipe
-		Gaspar
-		Hernando
-		Hilario
-		Humberto
-		Ignacio
-		Jacinto
-		Jesus
-		Luis
-		Marcial
-		Martin_2
-		Miguel
-		Ramiro
-		Rodolfo
-		Rolando
-		Santiago
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
 		Yumil
 	}
 	female_common_first_names = {
-		Ana
-		Catarina
-		Concepcion
-		Cristina
-		Elvia
-		Felipa
-		Maria
-		Paula
-		Ramona
-		Rigoberta
-		Rosalina
-		Thelma
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
 	}	
 	noble_last_names = {
 		Ay
@@ -13532,7 +13597,6 @@ mayan={
 		Cal
 		Canek
 		Canul
-		Carrillo
 		Ceh
 		Chee
 		Choc
@@ -13540,13 +13604,9 @@ mayan={
 		Curruchic
 		Ixquiac
 		Kan
-		Lopez
-		Manzanero
 		Mas
 		Menchu
 		Mes
-		Merida
-		Osorio
 		Pek
 		Pop
 		Puk
@@ -13566,78 +13626,65 @@ mayan={
 
 nahua={
 	color= hsv{ 0.47 0.29 0.38 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Antonio
-		Carlos
-		Diego
-		Emiliano
-		Emilio
-		Felipe
-		Fernando
-		Francisco
-		Gaspar
-		Hernando
-		Hilario
-		Ignacio
-		Isaac
-		Jacinto
-		Jesus
-		JosE_
-		Juan
-		Julio
-		Lorenzo
-		Manuel
-		Marcial
-		Mario
-		Martin_2
-		Natalio
-		Oliverio
-		Pedro
-		Roberto
-		Rodolfo
-		Santiago
-		VI_ctor
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
+		Cuautehmoc
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
+		Yumil
 	}
 	female_common_first_names = {
-		Antonia
-		Celsa
-		Cleofas
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
 	}	
 	noble_last_names = {
-		Altamirano
-		Cortes
-		Gonzalez
 		Moyotlan
-		Neri
-		Palafox
-		Salazar
-		Zapata
 	}
 	common_last_names={
 		Ahuactzin
 		Atlanteco
-		Badiano
-		Bernardino
-		Coaguila
 		Coyotl
 		Cuautlaxahue
-		Gutierrez
-		Hernandez
 		Huanitzin
 		Itzel
 		Ixtlilxochitl
-		Jimenez
 		Matlacuahuac
 		Mayahuel
 		Moxo
@@ -13648,7 +13695,6 @@ nahua={
 		Tlaxca
 		Tletla
 		Tzehe
-		Valeriano
 		Xaxalpa
 		Xochitl
 		Zapotitla
@@ -13662,88 +13708,82 @@ nahua={
 
 tarascan={
 	color= hsv{ 0.50 0.24 0.75 }
-	religion = catholic
+	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfredo
-		Antonio
-		Armando
-		Arturo
-		Carlos
-		Cenobio
-		Daniel
-		Diego
-		Everardo
-		Gerardo
-		Gumersindo
-		Hector
-		Jesus
-		Juan
-		Leobardo
-		Luis
-		Manuel
-		Marcial
-		Marco_Antonio
-		Melchor
-		Pedro
-		Ricardo
-		Salvador
-		Samuel
-		Sergio
-		Silvano
-		Silvestre
-		VI_ctor
+		Ixchel
+		Kukulkan 
+		Itzel 
+		Balam 
+		Hunahpu 
+		Ahau 
+		Ix
+		Aj 
+		Coh 
+		Chaac 
+		Ixtab 
+		Cuautehmoc
+		Nohoch 
+		Yum 
+		K'awiil
+		Muluc
+		Uxmal 
+		Tz'ikin
+		Ixpiyacoc 
+		Xaman 
+		Yaluk 
+		Akbal
+		Lahun 
+		Tun
+		Tepoz 
+		Ixkik 
+		Xamanek 
+		Akech
+		Imox 
+		Yumil
 	}
 	female_common_first_names = {
-		Amalia
-		Antonia
-		Celsa
-		Erendira
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
-	}	
+		Zipacna 
+		Kame 
+		Ixquic 
+		Uk'ix 
+		Mol 
+		Kakaw 
+		Nikte 
+		Popol 
+		Ee
+		Yaxha 
+		Yumka 
+		Xochitl
+	}		
 	noble_last_names = {
-		Calderon
-		Cristobal_2
-		Ochoa
 		Paniagua
-		Ocampo
 	}
 	common_last_names={
-		Almonte
-		Arredondo
-		Arriaga
-		Aureoles
-		Bernal
-		Brito
-		Cano
-		Carrillo
-		Cuevas
-		Dimas
-		Esquivel
-		Estrada
-		Galeana
-		Gallardo
-		Garcia
-		Gomez
-		Lopez
-		Maciel
-		Magana
-		Medrano
 		Mena
 		Tinoco
 		Toryo
-		Vargas
-		Zendejas
+		Ahuactzin
+		Atlanteco
+		Coyotl
+		Cuautlaxahue
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
 	}
 	ethnicities = {
 		1 = native_american
@@ -13753,89 +13793,71 @@ tarascan={
 
 quechua={
 	color= hsv{ 0.10 0.22 0.69 }
-	religion = catholic
+	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Agustin
-		Alejandro
-		Antauro
-		Antonio
-		Basilio
-		Daniel
-		Diego
-		Eugenio_2
-		Facundo
-		Felipe
-		Francisco
-		Gustavo
-		Hilario
-		Inca
-		Isaac
-		Jose_Maria
-		Julio
-		Lorenzo
-		Manuel
-		Marcos
-		Mariano
-		Martin_2
-		Nicolas_2
-		Osvaldo
-		RenE_
-		Roberto
-		Simon_2
-		Tupac
-		Ulises
-		VI_ctor
+		Yáhuar Huácac
+		Huayna
+		Huiracocha Inca
+		Manco
+		Pachacútec
+		Sinchi
+		Titu Cusi
+		Túpac
+		Accla
+		Huáscar
+		Lloque
+		Mayta
+		Pachacuti
+		Pawllu
+		Tupac Amaru
+		Achik
+		Antay 
 	}
 	female_common_first_names = {
-		Angelica
-		Casimira
-		Felicita
-		Juanita
-		Luzmila
-		Mercedes
-		Micael
-		Nilda
-		Savina
-		Silvia
+		Asiri 
+		Chuki 
+		Inkasisa 
+		Kayara 
+		Koya 
+		Kusi 
+		Mamak 
+		Paqari 
+		Wayta 
 	}	
 	noble_last_names = {
-		Collahuazo
-		Duchicela
-		Poma
+		Atahualpa 
 		Quispe
-		Santa_Cruz
 	}
 	common_last_names={
-		Arguedas
-		Barrientos
-		Cajahuanca
-		Canchata
-		Chambi
+		Capac
+		Yupanqui
+		Quri 
 		Chihuan
 		Cusurichi
-		Espejo
-		Frisancho
-		Gamarra
-		Guaman
-		Guayasamin
-		Gutierrez
-		Heredia
-		Humala
-		Iturri
-		Lazarte
-		Luduena
-		Melgarejo
-		Noguera
-		Palacios
-		Patino
-		Rodriguez
-		Roncaglia
-		Sosa
-		Sumac
-		Toledo
-		Vargas
 		Wallparrimachi
+		Rimak 
+		Asto 
+		Hakan "splendid"
+		Inti
+
+		Kumya
+
+		Kunak
+
+		Manko
+
+		Poma
+
+		Raymi
+
+		Samin
+
+		Sumaq
+
+		Uchu
+
+		Urqu
 	}
 	ethnicities = {
 		1 = native_american
@@ -15159,7 +15181,7 @@ mexican={
 central_american={
 	color= hsv{ 0.51 0.21 0.67 }
 	religion = protestant
-	traits = { anglophone american_settler european_heritage }
+	traits = { celtic_people american_settler european_heritage }
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
 		Benjamin
@@ -16249,7 +16271,7 @@ colombian={
 platinean={
 	color=rgb{ 88 99 133 }
 	religion = catholic
-	traits = { hispanophone european_heritage }
+	traits = { hispanophone american_settler european_heritage }
 	male_common_first_names={
 		Agustin Antonio Atanasio
 		Baltasar Bartolome Bernardino Bernardo
@@ -16417,7 +16439,7 @@ americano={
 argentino={
 	color= { 89 41 117 }
 	religion = catholic
-	traits = { italophone european_heritage }
+	traits = { italophone american_settler european_heritage }
 	
 	obsessions = {
 		wine
@@ -16429,7 +16451,7 @@ argentino={
 		Bernardino Bartolomeo Benedetto Bonaventura Bernardo
 		Camillo Carlo Cesare Costanzo Casimiro Cristoforo
 		Davide Domenico Damiano
-		Enrico Enzo Ettore Efisio Emiliano Ernesto
+		Enrico Enzo Ettore Efisio Emiliano Ernesto Ermanno
 		Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Filippo Filiberto Felice
 		Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Giacomo Giorgio Gaspare Gaetano
 		Innocenzo Ignazio Ippolito Ilario
@@ -22466,4 +22488,643 @@ afro_amerikaans={
 		1 = african
 	}
 	graphics = african
+}
+
+hindustani = { 
+	color = { 123 123 233 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Aakash
+		Bhanwari
+		Dharmraj
+		Govind
+		Nitin Nikhil Nathuram Narendra
+		Pawan
+		Santosh
+	}
+	female_common_first_names = {
+		Alka Abhilasha Aruna
+		Chandrama
+		Hema
+		Jaya
+		Omvati
+		Priyanka
+		Subhashini Sucheta
+		Uma
+	}	
+	noble_last_names = {
+		Arkvanshi
+		Bajpai
+		Choudhary Chauhan 
+		Nehru
+		Tiwari
+	}
+	common_last_names = {
+		Agrahari
+		Bharti
+		Gandhi Gautam Giri Gupta
+		Joshi 
+		Kardam Katiyar Kumari 
+		Nayar
+		Tandon
+		Verma Varun
+		Yadav
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+lushai = {
+	color = { 12 123 123 }
+	religion = animist
+	traits = { burmese_language southeast_asian_heritage }
+	male_common_first_names = {
+		Darchhawna
+		Kenneth
+		Lalzuia Lalnghinglova Lalthlamuong Lalsawma Liandala Lalrozama Lalawmpuia Lalrammawia 
+		Malsawmfela
+		Zirsangzela Zodingliana
+	}
+	female_common_first_names = {
+		Baryl
+		Joy
+		Lalsangzuali Lalrinpuii Laldenga Lalhlimpuii
+		Nuchhungi
+		Pravo
+		Sangkhumi 
+		Vanhlupuii Vanlalawmpuii
+	}	
+	common_last_names = {
+		Bualchhuak
+		Chawngliana Chakma Chawngthu Colney
+		Fanai
+		Hmar Hnamte
+		Keivom
+		Pachuau
+		Ralte Rammawia Renthlei
+		Sailo
+		Vanneihsangi
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+bundeli = {
+	color = { 123 222 123 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Adithya
+		Chhatrasal
+		Deshraj 
+		Gopal
+		Harishankar Hari_Singh
+		Kailash
+		Madhukar
+		Nathuram Nagendra
+		Vrindavan_Lal
+	}
+	female_common_first_names = {
+		Avanti Amrita
+		Babli
+		Geeta
+		Maithilisharan
+		Renuka
+		Sharanya
+		Uma
+		Vanshika
+	}	
+	noble_last_names = {
+		Parasai
+		Shah
+	}
+	common_last_names = {
+		Bhargava Bharti
+		Gupt Gour
+		Kaushik
+		Madbaiya Mishra
+		Pateriya Premi
+		Ramachandran Ratnani
+		Samdariya Shivpink Shama
+		Verma	
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+pahari = {
+	color = { 255 182 193 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Anupam Anku
+		Dalip
+		Janardan
+		Khadg
+		Lal_Mani
+		Nilamber Nain_Singh Nirmal
+		Ravindra
+	}
+	female_common_first_names = {
+		Asha
+		Barkha
+		Himani
+		Lavanya
+		Meena 
+		Neha Naima_Khan Nihaarika
+		Pooran
+	}	
+	common_last_names = {
+		Bisht
+		Joshi
+		Kakkar
+		Negi
+		Pant Pandey
+		Rana Rawat
+		Tripathi
+		Upreti
+		Valdiya
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+gondi = {
+	color = { 123 123 123 }
+	religion = hindu
+	traits = { south_asian_heritage dravidian }
+	male_common_first_names = {
+		Ajanbahu
+		Bakht_Buland
+		Dalpat
+		Gunda
+		Hridayshah
+		Komaram Kanaka
+		Motiravan
+		Raghunath Ramji
+		Shankar 
+	}
+	female_common_first_names = {
+		Asha
+		Baburao Bhajju
+		Chakradhar
+		Durga_Bai
+		Jangarh_Singh
+		Karunkar
+		Nareshchandra
+		Sangram
+		Venkat
+	}	
+	noble_last_names = {
+		Gond
+		Jatbasha
+		Shah
+	}
+	common_last_names = {
+		Bheem
+		Dhur
+		Kangali
+		Raju
+		Vyam
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+bageli = {
+	color = { 123 123 123 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Atal
+		Harishankar
+		Jitendra
+		Kishore Kailash
+		Makhanlal Mansoor
+		Ratnesh Rahat
+		Siddhartha
+		Tantia
+	}
+	female_common_first_names = {
+		Avantibai
+		Krishna
+		Rachna Rukmani
+		Sita Shyamkumari Savitri Sampatiya Sumitra
+		Vimla
+	}	
+	noble_last_names = {
+		Prasad
+		Sihan
+		Jaitely
+		Dixit
+	}
+	common_last_names = {
+		Das
+		Chandels Chaubey
+		Kushwaha
+		Mangilal Moghe
+		Raghuwanshi
+		Shukla Shandilya
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+chhattisgarhi = {
+	color = { 122 22 232 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Bhupesh
+		Habib
+		Krishnamurthy
+		Motilal
+		Narendra
+		Pukhraj
+		Raman Rajendra
+		Shyama
+	}
+	female_common_first_names = {
+		Gehana
+		Kranti
+		Mamta 
+		Pooran
+		Sumedha Sulakshana Swati
+	}	
+	noble_last_names = {
+		Singh
+		Vora
+	}
+	common_last_names = {
+		Baghel Badgaiyan Bafna
+		Chandrakar
+		Karmahe Kiri Kumar 
+		Pandit
+		Rajagopalan
+		Shukla 
+		Tanvir Tamotia Trivedi
+		Verma 
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+naga = {
+	color = { 127 201 170 }
+	religion = animist
+	traits = { burmese_language southeast_asian_heritage }
+	male_common_first_names = {
+		Angami_Zapi
+		Dolly
+		Gaidinliu
+		Jadonang
+		Khodao KevichU_sa
+		Longri
+		Mayangnokcha
+		PerietsU_
+		Thuingaleng 
+	}
+	female_common_first_names = {
+		Alana Anungla
+		Easterine 
+		Hekani
+		Mona 
+		Neidonuo
+		TemsU_la 
+		Zuboni
+	}	
+	common_last_names = {
+		Angami Ao 
+		Chang Changkija
+		Golmei
+		HU_mtsoe
+		Jakhalu
+		Kijungluba Kikon Kilemsungla Kire
+		Malangmei Meru Muivah
+		Pamei Phizo
+		Yanthan
+	}
+	noble_last_names = {
+		Angami Ao 
+		Chang Changkija
+		Golmei
+		Kikon Kilemsungla
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+deccani = {
+	color = { 233 222 129 }
+	religion = sunni
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Amjad Ahmed Abdullah Aziz Awaz
+		Farhatullah
+		Hyder
+		Makhdoom Mirza Mohiuddin  
+		Sayyid Shamsullah Sulaiman
+		Qadri 
+	}
+	female_common_first_names = {
+		Aditi Amina
+		Bilkees
+		Fatima
+		Khanum 
+		Sania Surayya Samina Shabana 
+		Tabassum
+		Waheeda 
+		Zehra
+	}	
+	noble_last_names = {
+		Ali
+		Sultan
+	}
+	common_last_names = {
+		Areeb Azmi
+		Baig Bajia
+		Jung
+		Hashmi Hydari Haji
+		Latif
+		Masdoosi Mohiuddin Mirza
+		Qadri Qaisi
+		Rehman
+		Sayeed
+		Zore
+	}
+	male_regal_first_names = {
+		Amjad Ahmed Abdullah Aziz Awaz
+		Farhatullah
+		Hyder
+		Makhdoom Mirza Mohiuddin  
+		Sayyid Shamsullah Sulaiman
+		Qadri 
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+gujarati={
+	color= hsv{ 0.85 0.28 0.35 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names={
+		Anand Amratlal Akshay
+		Balwantry Bharatsingh
+		Chabildas Chetan Curumsey
+		Daishalji
+		Fakirbhai
+		Jivraj
+		Khemchand
+		Madhavsingh Maniraj
+		Nanji Neel
+		Pramanandas
+		Rajesh
+		Shubham
+		Valmik
+	}
+	female_common_first_names = {
+		Asha
+		Lata
+		Meena
+		Usha
+	}	
+	noble_last_names = {
+		Amarchand
+		Chaudhari
+		Jadeja Jivraj
+		Mangeshkar
+		Ranchordas
+	}
+	common_last_names={
+		Ambani
+		Baro
+		Damjee
+		Jangla
+		Mehta
+		Modhvadia
+		Pansara
+		Parmar
+		Solanki
+		Vaghela
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+tamil={
+	color= hsv{ 0.94 0.57 0.70 }
+	religion = hindu
+	traits = { south_asian_heritage dravidian }
+	male_common_first_names={
+		Champakaraman
+		Chidambaram
+		Dheeran
+		Rajagopalachari
+		Ramaswami
+		Ramayyan
+		Ramiengar
+		Sathyamurthy
+		Seshadri
+		Seshayya
+		Shanmukham
+		Shungrasoobyer
+		Subramania
+		Tanay
+		Vanchinathan
+	}
+	female_common_first_names = {
+		Nageswari
+		Rajini
+		Rani
+		Rasamanohari
+		Thangamma
+	}	
+	noble_last_names = {
+		Bahadur
+		Rao
+		Sethupathi
+		Tondaiman
+		Iyer
+	}
+	male_regal_first_names = {
+		Ramachandra Rajagopala Raghunatha
+	}
+	common_last_names={
+		Dalawa
+		Krishnamachari
+		Mudaliar
+		Rajapopalachari
+		Sastri
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+marathi= {
+	color= hsv{ 0.19 0.55 0.86 }
+	religion = hindu
+	traits = { south_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Bajirao
+		Balaji
+		Madhava
+		Narayan
+		Pratapsinha
+		Raghunath
+		Rajaram
+		Sawai
+		Shahuji
+		Shambhaji
+		Shivaji
+		Venkatji
+	}
+	female_common_first_names = {
+		Ahilyabai 
+		Anandibai
+		Gangabai
+		Gopikabai
+		Radhabai
+		Rani
+		Soyarabai
+		Umabai
+	}	
+	noble_last_names = {
+		Baji_Rao
+		Bhat
+		Bhave
+		Bhonsle
+		Gaekwad
+		Holkar
+		Mehere
+		Newalkar
+		Nirban
+		Patwardhan
+		Pawar
+		Scindia
+	}
+	common_last_names = {
+		Appa_Sahib
+		Ballal
+		Bhandari
+		Bowa_Sahib
+		Gujar
+		Kalash
+		Mohite
+		Narayan
+		Phadnis
+		Rao
+	}
+	male_regal_first_names = {
+		Pratap_Singh
+		Rajaram
+		Shahaji Shambhaji Shivaji Shahuji
+	}
+	female_common_first_names = {
+		Aditi Amina
+		Bilkees
+		Fatima
+		Khanum 
+		Sania Surayya Samina Shabana 
+		Tabassum
+		Waheeda 
+		Zehra
+	}	
+	noble_last_names = {
+		Ali
+		Sultan
+	}
+	common_last_names = {
+		Areeb Azmi
+		Baig Bajia
+		Jung
+		Hashmi Hydari Haji
+		Latif
+		Masdoosi Mohiuddin Mirza
+		Qadri Qaisi
+		Rehman
+		Sayeed
+		Zore
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
+pathan = {
+	color= hsv{ 0.76 0.34 0.60 }
+	religion = sunni
+	traits = { central_asian_heritage indo_aryan_language }
+	male_common_first_names = {
+		Alif Abd_al-Quddus Abd_al-Rahman Abdallah Afzal Ahmad Akbar Akram Ayyub
+		Daud
+		Fath Firuz_al-Din Fateh_Mohammad
+		Habib_Alllah Haydar Humayun Himayat
+		Inayat_Allah Ishaq
+		Jamal
+		Kamran Kohandil Khizr
+		Mahmud Mahsud
+		Mihrdil Muhammad Murad Mohammad_Bahadur Mohammad_Hamid
+		Nadir Nasr_Allah
+		Omar
+		Qaysar
+		Shahpur Sher_Ali Shuja Suleyman
+		Timur
+		Yaqub
+		Zaman Zorawar_Mohammad
+
+	}
+	female_common_first_names = {
+		Aisha
+		Ghazala
+		Gulrukh 
+		Hazrat
+		Nazia
+		Nilofar
+	}
+	noble_last_names = {
+		Babi
+		Damani
+		Hotak
+		Jhalori
+		Khan
+		Panni
+	}
+	common_last_names = {
+		Arif
+		Babajan
+		Jan
+		Javed
+		Naqshbandi
+		Shinwari
+		Taunsvi
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
 }

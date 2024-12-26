@@ -1,19 +1,19 @@
 goods_output_olive_add={
-	decimals=1
+	decimals=0
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
 goods_input_olive_add={
-	decimals=1
+	decimals=0
 	color=bad
 	game_data={
 		ai_value=0
 	}
 }
 goods_output_olive_mult={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={
@@ -21,7 +21,7 @@ goods_output_olive_mult={
 	}
 }
 building_olive_plantation_throughput_add={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={
@@ -29,21 +29,21 @@ building_olive_plantation_throughput_add={
 	}
 }
 goods_output_spice_add={
-	decimals=1
+	decimals=0
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
 goods_input_spice_add={
-	decimals=1
+	decimals=0
 	color=bad
 	game_data={
 		ai_value=0
 	}
 }
 goods_output_spice_mult={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={
@@ -51,7 +51,7 @@ goods_output_spice_mult={
 	}
 }
 building_spice_plantation_throughput_add={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={
@@ -60,7 +60,7 @@ building_spice_plantation_throughput_add={
 }
 
 goods_output_ammunition_mult={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={
@@ -69,7 +69,7 @@ goods_output_ammunition_mult={
 }
 
 goods_output_radios_mult={
-	decimals=1
+	decimals=0
 	color=good
 	percent=yes
 	game_data={

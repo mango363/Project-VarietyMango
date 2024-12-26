@@ -227,32 +227,3 @@ je_anarco_cap = {
 	weight = 100
 	should_be_pinned_by_default = yes
 }
-
-je_dakota_tribes = {
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
-	group = je_group_historical_content
-	scripted_button = je_dakota_tribes_ctf
-	scripted_button = je_dakota_tribes_lkt
-	scripted_button = je_dakota_tribes_cru
-	scripted_button = je_dakota_tribes_sio
-	possible = {
-	}
-	complete = {
-		custom_tooltip = {
-			text = dak_unif
-			NOT = {
-				exists = c:CTF
-				exists = c:CRU
-				exists = c:SIO
-				exists = c:LKT
-			}
-		}
-	}
-	fail = {
-		NOT = {
-			has_law = law_type:law_no_colonial_affairs
-		}
-	}
-	weight = 100
-	should_be_pinned_by_default = yes
-}

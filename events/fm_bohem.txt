@@ -353,7 +353,7 @@ fm_bohem.6 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = large_radicals
 		}
 		add_loyalists = {
@@ -470,7 +470,7 @@ fm_bohem.8 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = large_radicals
 		}
 		add_loyalists = {

@@ -21,6 +21,8 @@ navigation = {
 	
 	modifier = {
 		state_building_port_max_level_add = 2
+		state_infrastructure_from_population_max_add = 10
+		market_land_trade_capacity_add = 40
     }
 	
 	ai_weight = {
@@ -111,6 +113,7 @@ military_drill = {
 	category = military
 	
 	modifier = {
+		unit_experience_gain_mult = 0.05
 	}
 	
 	unlocking_technologies = {

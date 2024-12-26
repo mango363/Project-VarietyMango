@@ -1,15 +1,15 @@
 ﻿british_empire_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		exists = c:EAF
+		exists = c:UKK
 		exists = home_country
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -18,14 +18,14 @@
 british_empire_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:EAF
+		exists = c:UKK
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = no					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -34,14 +34,14 @@ british_empire_clothes_pop_trigger = {
 british_empire_clothes_p_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		exists = c:EAF
+		exists = c:UKK
 		home_country = {
 			OR = {
 				AND = {
-					c:EAF = this
+					c:UKK = this
 					is_subject = yes					# preventing uniform conflicts if GBR becomes a subject of another country with puppet uniforms
 				}
-				is_subject_of = c:EAF
+				is_subject_of = c:UKK
 			}
 		}
 	}
@@ -144,6 +144,9 @@ native_american_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		culture = {
+			NOT = {
+				this = cu:quechua
+			}
 			has_discrimination_trait = indigenous_american_heritage
 		}
 	}
@@ -334,11 +337,7 @@ chinese_manchu_queue_hairstyle_pops_trigger = {
 								has_discrimination_trait = han_chinese
 							}
 						}
-						cu:manchu = {
-							NOT = {
-								culture_is_discriminated_in = scope:pop.home_country
-							}
-						}
+						cultural_acceptance_base = { target = cu:manchu value >= acceptance_status_4 }
 					}
 				}
 				culture = cu:manchu
@@ -521,6 +520,13 @@ arabic_clothes_trigger = {
 	}
 }
 
+vinlander_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = cu:vinlander
+	}
+}
+
 ethiopian_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
@@ -549,6 +555,9 @@ european_clothes_trigger = {
 			AND = {
 				culture = {
 					has_discrimination_trait = european_heritage
+				}
+				NOT = {
+					culture = cu:vinlander
 				}
 				NOT = {
 					culture = cu:circassian
@@ -591,8 +600,14 @@ siamese_clothes_trigger = {
 	#Pretty sure this is actual burmese
 	exists = scope:character
 	scope:character = {
+		NOT = {
+			culture = cu:vietnamese
+		}
 		culture = {
-			has_discrimination_trait = southeast_asian_heritage
+			or = {
+				this = cu:quechua
+				has_discrimination_trait = southeast_asian_heritage
+			}
 		}
 	}
 }
@@ -769,6 +784,7 @@ overweight_trigger = {
 	exists = scope:character
 	scope:character = {
 		has_trait = expensive_tastes
+		is_historical = no # do not alter the shape of characters that are sculpted to appear a certain way
 	}
 }
 
@@ -834,6 +850,9 @@ european_clothes_pop_trigger = {
 		NOT = {
 			culture = cu:circassian
 		}
+		NOT = {
+			culture = cu:vinlander
+		}
 	}
 }
 
@@ -895,6 +914,7 @@ circumpolar_clothes_pop_trigger = {
 			culture = {
 				has_discrimination_trait = siberian_culture_group
 			}
+			culture = cu:vinlander
 		}
 		NOT = {
 			is_pop_type = slaves
@@ -905,7 +925,10 @@ circumpolar_clothes_pop_trigger = {
 sami_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		culture = cu:sami
+		OR = {
+			culture = cu:sami
+			culture = cu:vinlander
+		}
 	}
 }
 
@@ -937,7 +960,10 @@ south_east_asia_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		culture = {
-			has_discrimination_trait = southeast_asian_heritage
+			or = {
+				this = cu:quechua
+				has_discrimination_trait = southeast_asian_heritage
+			}
 		}
 	}
 }
@@ -950,9 +976,13 @@ south_american_clothes_character_trigger = {
 			OR = {
 				has_discrimination_trait = lusophone
 				has_discrimination_trait = hispanophone
+				has_discrimination_trait = italophone
 			}
 			NOT = {
 				has_discrimination_trait = iberian_culture_group
+			}
+			NOT = {
+				has_discrimination_trait = roman_culture
 			}
 		}
 	}
@@ -966,9 +996,13 @@ south_american_clothes_pop_trigger = {
 			OR = {
 				has_discrimination_trait = lusophone
 				has_discrimination_trait = hispanophone
+				has_discrimination_trait = italophone
 			}
 			NOT = {
 				has_discrimination_trait = iberian_culture_group
+			}
+			NOT = {
+				has_discrimination_trait = roman_culture
 			}
 		}
 	}
@@ -998,8 +1032,9 @@ cold_clothes_pop_trigger = {
 	scope:pop = {
 		OR = {
 			has_pop_culture = inuit
-			has_pop_culture = athabaskan
+			has_pop_culture = na_northern_athabaskan
 			has_pop_culture = siberian
+			has_pop_culture = vinlander
 		}
 	}
 }
@@ -1342,7 +1377,7 @@ very_overweight_pop_trigger = {
 struggling_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		standard_of_living < 10
+		is_in_severe_starvation = yes
 	}
 }
 

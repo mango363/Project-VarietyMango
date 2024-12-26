@@ -265,13 +265,13 @@
 		}
 	}
 	s:STATE_TARTARIA={
-		region_state:SAT={
+		region_state:STR={
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SAT"
+						country="c:STR"
 						levels=8
 						region="STATE_TARTARIA"
 					}
@@ -283,7 +283,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SAT"
+						country="c:STR"
 						levels=2
 					}
 				}
@@ -295,7 +295,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SAT"
+						country="c:STR"
 						levels=5
 						region="STATE_TARTARIA"
 					}
@@ -579,7 +579,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PAN"
-						levels=3
+						levels=11
 						region="STATE_PASHTUNISTAN"
 					}
 				}
@@ -1153,19 +1153,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BHU={
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:BHU"
-						levels=12
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 		region_state:NEP={
 			create_building={
 				building="building_tobacco_plantation"
@@ -1199,6 +1186,21 @@
 					country={
 						country="c:NEP"
 						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:BHU={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:BHU"
+						levels=12
 					}
 				}
 				reserves=1

@@ -17,7 +17,7 @@ fm_bud.1 = {
 		default_option = yes
 		change_tag = KBG
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.25
 		}
 		add_loyalists = {
@@ -25,7 +25,7 @@ fm_bud.1 = {
 			value = 0.2
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 	}

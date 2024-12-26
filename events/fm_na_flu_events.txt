@@ -1,0 +1,147 @@
+namespace = fm_na_flu
+# Defended from the Old Powers
+fm_na_flu.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_flu.1.t
+	desc = fm_na_flu.1.d
+	flavor = fm_na_flu.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_devastation"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		ruler = {
+			character_popularity_add = 50
+			add_trait = ambitious
+			add_trait = honorable
+		}
+
+		add_loyalists = {
+			value = 0.3
+			strata = lower
+		}
+		add_loyalists = {
+			value = 0.3
+			strata = middle
+		}
+		add_loyalists = {
+			value = 0.3
+			strata = upper
+		}
+	}
+	option = {
+		name = fm_na_flu.1.a
+		default_option = yes
+	}
+}
+
+# Lost to the Old Powers
+fm_na_flu.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_flu.2.t
+	desc = fm_na_flu.2.d
+	flavor = fm_na_flu.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_devastation"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+
+	}
+	option = {
+		name = fm_na_flu.2.a
+		default_option = yes
+	}
+}
+
+fm_na_flu.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_flu.3.t
+	desc = fm_na_flu.3.d
+	flavor = fm_na_flu.3.f
+	duration = 3
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	option = {
+		name = fm_na_flu.3.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_flu_no_cuba
+			months = 60
+			is_decaying = yes
+		}
+		remove_variable = variable_cuba
+		if = {
+			limit = {
+				exists = c:CAS
+			}
+			root = {
+				create_diplomatic_catalyst = {
+					type = catalyst_event_negative
+					target = c:CAS
+				}
+			}
+		}
+	}
+}
+
+fm_na_flu.4 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_flu.4.t
+	desc = fm_na_flu.4.d
+	flavor = fm_na_flu.4.f
+	duration = 3
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	option = {
+		name = fm_na_flu.4.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_flu_cuba
+			months = 60
+		}
+
+		c:CUB = {
+			make_independant = yes
+		}
+
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = dominion
+		}
+
+		if = {
+			limit = {
+				c:CAS = {
+					or = {
+						has_law = law_type:law_theocracy
+						has_law = law_type:law_state_religion
+					}
+				}
+			}
+
+			ig:ig_devout = {
+				add_modifier = {
+					name = modifier_flu_holy
+					months = 60
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,100 @@
+je_fou_main = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+
+	complete = {
+		has_technology_researched = nationalism
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_fou.1
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+fou_eng = {
+	icon ="gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+
+	complete = {
+		owns_entire_state_region = STATE_MIDLANDS
+		owns_entire_state_region = STATE_EAST_ANGLIA
+		owns_entire_state_region = STATE_HOME_COUNTIES
+		owns_entire_state_region = STATE_WEST_COUNTRY
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_fou.2
+		}
+		hidden_effect = {
+			change_tag = NOA
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+fou_usa = {
+	icon = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+	group = je_group_historical_content
+
+	complete = {
+		OR = {
+			AND = {
+				ROOT = {
+					is_in_same_power_bloc = c:AMC
+					is_power_bloc_leader = yes
+				}
+				c:AMC = {
+					relations:ROOT > relations_threshold:cordial
+					is_subject = no
+				}
+				cultural_acceptance_base = { target = cu:swedish_colonial value >= 50 }
+				cultural_acceptance_base = { target = cu:dutch_colonial value >= 50 }
+			}
+			AND = {
+				c:AMC = {
+					is_subject_of = ROOT
+					relations:ROOT > relations_threshold:poor
+				}
+			}
+		}
+	}
+	fail = {
+		OR = {
+			owns_entire_state_region = STATE_DISTRICT_OF_COLUMBIA
+			owns_entire_state_region = STATE_MARYLAND
+			owns_entire_state_region = STATE_DELAWARE
+			owns_entire_state_region = STATE_PENNSYLVANIA
+			owns_entire_state_region = STATE_NEW_JERSEY
+			owns_entire_state_region = STATE_NEW_YORK
+			owns_entire_state_region = STATE_CONNECTICUT
+			owns_entire_state_region = STATE_RHODE_ISLAND
+			owns_entire_state_region = STATE_MASSACHUSETTS
+			owns_entire_state_region = STATE_NEW_HAMPSHIRE
+			owns_entire_state_region = STATE_MAINE
+			owns_entire_state_region = STATE_NEW_BRUNSWICK
+			owns_entire_state_region = STATE_QUEBEC
+			custom_tooltip = {
+				text = je_nousa
+				NOT = {
+					exists = c:AMC
+				}
+
+			}
+			c:AMC = {
+				is_ai = no
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_fou.3
+		}
+		hidden_effect = {
+			annex_with_incorporation = c:AMC
+			change_tag = USU
+		}
+	}
+	should_be_pinned_by_default = yes
+}

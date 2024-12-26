@@ -655,7 +655,7 @@ revolution_pulse_events.5 = {
 		scope:self_organization_state = {
 			add_radicals_in_state = {
 				value = medium_radicals
-				strata = poor
+				strata = lower
 			}
 		}
 		scope:landowners_ig = {
@@ -674,7 +674,7 @@ revolution_pulse_events.5 = {
 		scope:self_organization_state = {
 			add_radicals_in_state = {
 				value = small_radicals
-				strata = rich
+				strata = upper
 			}
 		}
 		scope:landowners_ig = {
@@ -2352,7 +2352,7 @@ revolution_pulse_events.18 = {
 		capital = {	
 			add_radicals_in_state = {
 				value = small_radicals
-				strata = poor
+				strata = lower
 			}	
 		}
 	}
@@ -3370,7 +3370,7 @@ revolution_pulse_events.25 = {
 			}
 			add_loyalists = {
 				value = large_radicals
-				strata = poor
+				strata = lower
 			}
 			add_loyalists = {
 				value = large_radicals
@@ -3392,7 +3392,7 @@ revolution_pulse_events.25 = {
 			}
 			add_loyalists = {
 				value = medium_radicals
-				strata = poor
+				strata = lower
 			}
 			add_loyalists = {
 				value = medium_radicals
@@ -3481,7 +3481,7 @@ revolution_pulse_events.25 = {
 			}
 			add_loyalists = {
 				value = large_radicals
-				strata = poor
+				strata = lower
 			}
 			add_loyalists = {
 				value = large_radicals
@@ -3503,7 +3503,7 @@ revolution_pulse_events.25 = {
 			}
 			add_loyalists = {
 				value = medium_radicals
-				strata = poor
+				strata = lower
 			}
 			add_loyalists = {
 				value = medium_radicals
@@ -3603,7 +3603,10 @@ revolution_pulse_events.26 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -3663,7 +3666,10 @@ revolution_pulse_events.26 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -3685,6 +3691,8 @@ revolution_pulse_events.26 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -3942,7 +3950,10 @@ revolution_pulse_events.29 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -4002,7 +4013,10 @@ revolution_pulse_events.29 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -4024,6 +4038,8 @@ revolution_pulse_events.29 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -4606,7 +4622,7 @@ revolution_pulse_events.33 = {
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 		add_modifier = {
 			name = modifier_factories_forced_reopen_expenses
@@ -4622,7 +4638,7 @@ revolution_pulse_events.33 = {
 		}
 		add_radicals = {
 			value = medium_radicals
-			strata = rich
+			strata = upper
 		}
 		add_radicals = {
 			value = small_radicals
@@ -5281,7 +5297,7 @@ revolution_pulse_events.38 = {
 		scope:shall_not_be_infringed_state = {
 			add_radicals_in_state = {
 				value = medium_radicals
-				strata = poor
+				strata = lower
 			}
 		}
 	}

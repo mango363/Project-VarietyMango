@@ -110,7 +110,10 @@ election_other_parties_events.2 = {
 
 	event_image = {
 		trigger = {
+			OR = {
 			religion = rel:jewish
+			religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 
@@ -182,7 +185,10 @@ election_other_parties_events.2 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -204,6 +210,8 @@ election_other_parties_events.2 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"

@@ -62,77 +62,6 @@ fm_amc.1 = {
 	}
 }
 
-fm_amc.2 = {
-	type = country_event
-	placement = ROOT
-	title = fm_amc.2.t
-	desc = fm_amc.2.d
-	flavor = fm_amc.2.f
-	duration = 3
-	event_image = {
-		video = "southamerica_aristocrats"
-	}
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/event_default.dds"
-	option = {
-		name = fm_amc.2.a
-		default_option = yes
-		add_modifier = {
-			name = modifier_fru_one
-			months = 60
-			is_decaying = yes
-		}
-		remove_variable = variable_louisiana_amc
-		if = {
-			limit = {
-				exists = c:FRU
-			}
-			root = {
-				create_diplomatic_catalyst = {
-					type = catalyst_event_negative
-					target = c:FRU
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-			}
-			root = {
-				create_diplomatic_catalyst = {
-					type = catalyst_event_negative
-					target = c:FRE
-				}
-			}
-		}
-	}
-}
-
-fm_amc.3 = {
-	type = country_event
-	placement = ROOT
-	title = fm_amc.3.t
-	desc = fm_amc.3.d
-	flavor = fm_amc.3.f
-	duration = 3
-	event_image = {
-		video = "unspecific_signed_contract"
-	}
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/event_default.dds"
-	option = {
-		name = fm_amc.3.a
-		default_option = yes
-		add_modifier = {
-			name = modifier_fru_two
-			months = 60
-		}
-		root = {
-			annex = c:LOI
-		}
-	}
-}
-
 fm_amc.4 = {
 	#swed says yes
 	type = country_event
@@ -163,7 +92,7 @@ fm_amc.4 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -235,7 +164,7 @@ fm_amc.5 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -295,7 +224,7 @@ fm_amc.5 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -449,7 +378,7 @@ fm_amc.7 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -502,7 +431,7 @@ fm_amc.7 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -587,7 +516,7 @@ fm_amc.8 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -607,7 +536,7 @@ fm_amc.8 = {
 			value = 0.25
 		}
 		add_radicals = {
-			strata = poor
+			strata = lower
 			value = 0.2
 		}
 		add_radicals = {
@@ -643,7 +572,7 @@ fm_amc.8 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -667,7 +596,7 @@ fm_amc.8 = {
 			value = 0.1
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 		ai_chance = {
@@ -716,7 +645,7 @@ fm_amc.9 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -763,7 +692,7 @@ fm_amc.9 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_radicals = {
@@ -815,7 +744,7 @@ fm_amc.10 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		add_loyalists = {
@@ -823,7 +752,7 @@ fm_amc.10 = {
 			value = very_large_radicals
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		s:STATE_QUEBEC = {

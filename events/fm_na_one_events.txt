@@ -1,0 +1,20 @@
+﻿namespace = fm_na_one
+fm_na_one.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_one.1.t
+	desc = fm_na_one.1.d
+	flavor = fm_na_one.1.f
+	duration = 3
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	immediate = {
+	}
+	option = {
+		name = fm_na_one.1.a
+		default_option = yes
+	}
+}

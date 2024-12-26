@@ -617,13 +617,9 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:GNI={
-		}
-		region_state:CUL={
-		}
 	}
 	s:STATE_TARAPACA={
-		region_state:AGA={
+		region_state:AZ4={
 		}
 	}
 	s:STATE_ANTOFAGASTA={
@@ -633,11 +629,55 @@
 	s:STATE_SANTA_CRUZ={
 	}
 	s:STATE_LA_PAZ={
-		region_state:GNI={
+		region_state:RPQ={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
+			}
 		}
 	}
 	s:STATE_POTOSI={
-		region_state:GNI={
+		region_state:AZ3={
 			}
 		}
 	s:STATE_CAJAMARCA={
@@ -702,16 +742,206 @@
 		}
 	}
 	s:STATE_LIMA={
-		region_state:GNI={
-
+		region_state:RPQ={
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+			}
 		}
 	}
 	s:STATE_ICA={
-		region_state:GNI={
+		region_state:RPQ={
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building= "building_machu_picchu"
+				level = 1
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_banana_plantation"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
 		}
 	}
 	s:STATE_AREQUIPA={
-		region_state:GNI={
+		region_state:RPQ={
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_shipyards"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding"  }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:RPQ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+			}
 		}
 	}
 	s:STATE_URUGUAY={
@@ -726,6 +956,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:AGA"
+						levels=1
+						region="STATE_URUGUAY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -808,8 +1051,6 @@
 		}
 	}
 	s:STATE_JUJUY={
-		region_state:GNI={
-		}
 		region_state:AGA={
 			create_building={
 				building="building_gold_mine"
@@ -825,11 +1066,11 @@
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
-		region_state:GNI={
+		region_state:AGA={
 		}
 	}
 	s:STATE_BAJO_PARAGUAY={
-		region_state:GNI={
+		region_state:AGA={
 		}
 	}
 	s:STATE_BUENOS_AIRES={
@@ -1195,7 +1436,7 @@
 					building={
 						type="building_financial_district"
 						country="c:AGA"
-						levels=2
+						levels=1
 						region="STATE_TUCUMAN"
 					}
 				}
@@ -1408,13 +1649,13 @@
 		}
 	}
 	s:STATE_PARA={
-		region_state:PRA={
+		region_state:PUR={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:PRA"
+						country="c:PUR"
 						levels=1
 						region="STATE_PARA"
 					}
@@ -1427,7 +1668,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PRA"
+						country="c:PUR"
 						levels=2
 						region="STATE_PARA"
 					}
@@ -1439,7 +1680,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:PRA"
+						country="c:PUR"
 						levels=1
 					}
 				}
@@ -1449,15 +1690,15 @@
 		}
 	}
 	s:STATE_MARANHAO={
-		region_state:BRZ={
+		region_state:PUR={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:PUR"
 						levels=1
-						region="STATE_RIO_DE_JANEIRO"
+						region="STATE_ESTREMADURA"
 					}
 				}
 				reserves=1
@@ -1468,9 +1709,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:PUR"
 						levels=1
-						region="STATE_RIO_DE_JANEIRO"
+						region="STATE_ESTREMADURA"
 					}
 				}
 				reserves=1
@@ -1481,9 +1722,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:PUR"
 						levels=1
-						region="STATE_MARANHAO"
+						region="STATE_ESTREMADURA"
 					}
 				}
 				reserves=1
@@ -1494,23 +1735,23 @@
 	s:STATE_AMAZONAS={
 		region_state:CUL={
 		}
-		region_state:PRA={
+		region_state:PUR={
 		}
 		region_state:AMZ={
 		}
 	}
 	s:STATE_ACRE={
-		region_state:AMZ={
+		region_state:AZ1={
 		}
 	}
 	s:STATE_GOIAS={
-		region_state:BRZ={
+		region_state:PUR={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_GOIAS"
 					}
@@ -1522,7 +1763,7 @@
 				building="building_rice_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:PUR"
 						levels=1
 					}
 				}
@@ -1532,7 +1773,9 @@
 		}
 	}
 	s:STATE_MATO_GROSSO={
-		region_state:GNI={
+		region_state:AGA={
+		}
+		region_state:PUR={
 		}
 		region_state:AMZ={
 		}
@@ -1592,13 +1835,13 @@
 		}
 	}
 	s:STATE_PARANA={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1611,7 +1854,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1623,7 +1866,7 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -1633,13 +1876,13 @@
 		}
 	}
 	s:STATE_SANTA_CATARINA={
-		region_state:PNI={
+		region_state:AGA={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:PNI"
+						country="c:AGA"
 						levels=1
 						region="STATE_SANTA_CATARINA"
 					}
@@ -1651,7 +1894,7 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:PNI"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1661,13 +1904,13 @@
 		}
 	}
 	s:STATE_SAO_PAULO={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=5
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1680,7 +1923,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1692,7 +1935,7 @@
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1704,7 +1947,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1717,7 +1960,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_SAO_PAULO"
 					}
@@ -1730,12 +1973,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_DE_JANEIRO"
 					}
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1746,7 +1989,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1758,7 +2001,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=4
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1769,12 +2012,12 @@
 		}
 	}
 	s:STATE_MINAS_GERAIS={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1785,7 +2028,7 @@
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1796,7 +2039,7 @@
 				building="building_gold_mine"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -1808,7 +2051,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1820,12 +2063,12 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1838,7 +2081,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_MINAS_GERAIS"
 					}
@@ -1850,12 +2093,12 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_MINAS_GERAIS"
 					}
@@ -1868,7 +2111,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=6
 						region="STATE_MINAS_GERAIS"
 					}
@@ -1881,7 +2124,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_MINAS_GERAIS"
 					}
@@ -1892,12 +2135,12 @@
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=5
 					}
 				}
@@ -1908,7 +2151,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -1919,7 +2162,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1930,7 +2173,7 @@
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -1942,7 +2185,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1954,7 +2197,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -1966,7 +2209,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1979,7 +2222,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -1991,12 +2234,12 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=4
 					}
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -2008,7 +2251,7 @@
 				building="building_banana_plantation"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=3
 					}
 				}
@@ -2019,7 +2262,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=3
 					}
 				}
@@ -2029,12 +2272,12 @@
 		}
 	}
 	s:STATE_BAHIA={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=3
 					}
 				}
@@ -2045,7 +2288,7 @@
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2056,7 +2299,7 @@
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2068,7 +2311,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=6
 						region="STATE_BAHIA"
 					}
@@ -2081,7 +2324,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_BAHIA"
 					}
@@ -2093,12 +2336,12 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=4
 						region="STATE_BAHIA"
 					}
@@ -2111,7 +2354,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=3
 						region="STATE_BAHIA"
 					}
@@ -2123,12 +2366,12 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -2140,7 +2383,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2151,7 +2394,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -2162,7 +2405,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2173,7 +2416,7 @@
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2183,12 +2426,12 @@
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_NORTE={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2200,7 +2443,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_GRANDE_DO_NORTE"
 					}
@@ -2212,7 +2455,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2222,13 +2465,13 @@
 		}
 	}
 	s:STATE_CEARA={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_cotton_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_CEARA"
 					}
@@ -2240,7 +2483,7 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 				}
@@ -2252,7 +2495,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -2264,7 +2507,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2274,13 +2517,13 @@
 		}
 	}
 	s:STATE_PIAUI={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_PIAUI"
 					}
@@ -2293,7 +2536,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_RIO_DE_JANEIRO"
 					}
@@ -2304,12 +2547,12 @@
 		}
 	}
 	s:STATE_PARAIBA={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2321,7 +2564,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_PARAIBA"
 					}
@@ -2333,7 +2576,7 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2343,12 +2586,12 @@
 		}
 	}
 	s:STATE_PERNAMBUCO={
-		region_state:BRZ={
+		region_state:AGA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2359,7 +2602,7 @@
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=3
 					}
 				}
@@ -2371,7 +2614,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=5
 						region="STATE_PERNAMBUCO"
 					}
@@ -2384,7 +2627,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_PERNAMBUCO"
 					}
@@ -2396,12 +2639,12 @@
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 					}
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=2
 						region="STATE_PERNAMBUCO"
 					}
@@ -2414,7 +2657,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 						region="STATE_PERNAMBUCO"
 					}
@@ -2426,7 +2669,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}
@@ -2437,7 +2680,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:AGA"
 						levels=1
 					}
 				}

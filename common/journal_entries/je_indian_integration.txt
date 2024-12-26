@@ -104,11 +104,13 @@ je_int_newsouth = {
 	scripted_button = je_int_ala
 	scripted_button = je_int_missi
 	scripted_button = je_int_ten
+	scripted_button = je_int_nacoc
 	possible = {
 		OR = {
 			owns_entire_state_region = STATE_ALABAMA
 			owns_entire_state_region = STATE_MISSISSIPPI
 			owns_entire_state_region = STATE_TENNESSEE
+			owns_entire_state_region = STATE_GEORGIA
 		}
 	}
 	complete = {
@@ -127,6 +129,12 @@ je_int_newsouth = {
 		any_scope_state = {
 			AND= {
 				state_region = s:STATE_TENNESSEE
+				is_incorporated = yes
+			}
+		}
+		any_scope_state = {
+			AND= {
+				state_region = s:STATE_GEORGIA
 				is_incorporated = yes
 			}
 		}

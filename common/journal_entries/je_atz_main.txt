@@ -1,0 +1,174 @@
+je_atz_main = {
+	icon = "gfx/interface/icons/central_identity_pillars_icons/religious.dds"
+	group = je_group_historical_content
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_atz.1
+		}
+		change_tag = TWT
+	}
+	current_value = {
+		value = var:fm_atz_var
+	}
+	goal_add_value = {
+		add = 6
+	}
+	progressbar = yes
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_atz_tribes = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_ACRE
+		owns_entire_state_region = STATE_LA_PAZ
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+	}
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_atz_gold = {
+	icon = "gfx/interface/icons/goods_icons/gold.dds"
+	group = je_group_historical_content
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_POTOSI
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 5
+			}
+			owner = root
+		}
+		any_scope_state = {
+			state_region = s:STATE_LA_PAZ
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 4
+			}
+			owner = root
+		}
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+	}
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_atz_auto = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		has_law = law_type:law_autocracy
+		owns_entire_state_region = STATE_POTOSI
+		owns_entire_state_region = STATE_TARAPACA
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+	}
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_atz_army = {
+	icon = "gfx/interface/icons/invention_icons/army_reserves.dds"
+	group = je_group_historical_content
+	complete = {
+		NOT = {
+			has_law = law_type:law_peasant_levies
+		}
+		army_size >= 40
+		has_technology_researched = line_infantry
+		NOT = {
+			any_military_formation = {
+				filter = {
+					is_army = yes
+				}
+				any_combat_unit = {
+					has_unit_type = unit_type:combat_unit_type_irregular_infantry
+				}
+				percent >= 0.25
+			}
+		}
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+		add_modifier = {
+			name = modifier_atz_one
+			months = 60
+		}
+	}
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_qullasuyu = {
+	icon = "gfx/interface/icons/state_status_icons/split_state_icon.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_ANTOFAGASTA
+		owns_entire_state_region = STATE_JUJUY
+		owns_entire_state_region = STATE_SANTIAGO
+		owns_entire_state_region = STATE_TUCUMAN	
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_chinchasuyu = {
+	icon = "gfx/interface/icons/state_status_icons/split_state_icon.dds"
+	group = je_group_historical_content
+	complete = {
+		OR = {
+			owns_entire_state_region = STATE_CAUCA
+			owns_entire_state_region = STATE_ECUADOR
+			owns_entire_state_region = STATE_CAJAMARCA
+		}
+	}
+	on_complete = {
+		custom_tooltip = je_atz_advance
+		change_variable = {
+			name = fm_atz_var
+			add = 1
+		}
+	}
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}

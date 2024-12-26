@@ -429,7 +429,7 @@ lotharingia.7 = {
 			pop_type = clergymen
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		add_modifier = {
@@ -489,7 +489,7 @@ lotharingia.8 = {
 				value = very_large_radicals
 			}
 			add_loyalists = {
-				strata = poor
+				strata = lower
 				value = large_radicals
 			}
 			add_radicals = {
@@ -722,7 +722,7 @@ lotharingia.9 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		add_primary_culture = cu:south_german
@@ -762,11 +762,11 @@ lotharingia.10 = {
 		name = lotharingia.10.a
 		add_loyalists = {
 			value = medium_radicals
-			strata = poor
+			strata = lower
 		}
 		add_loyalists = {
 			value = very_large_radicals
-			strata = rich
+			strata = upper
 		}
 		add_loyalists = {
 			value = very_large_radicals
@@ -829,7 +829,7 @@ lotharingia.11 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = very_large_radicals
 		}
 		add_loyalists = {
@@ -837,7 +837,7 @@ lotharingia.11 = {
 			value = large_radicals
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = large_radicals
 		}
 		trigger_event = {
@@ -982,7 +982,7 @@ lotharingia.13 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		add_modifier = {
 			name = modifier_loth_twelwe
@@ -1020,7 +1020,7 @@ lotharingia.14 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		add_modifier = {
 			name = modifier_loth_twelwe

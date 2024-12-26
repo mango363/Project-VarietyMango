@@ -209,7 +209,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_china
-			name = "Taizhou Army"
+			name = "Taiping Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ZHEJIANG
@@ -1392,7 +1392,7 @@
 			}
 		}
 	}
-	c:NAW = {
+	c:NWA = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_oceania

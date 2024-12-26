@@ -1,0 +1,96 @@
+CHARACTERS = {
+	c:TAC ?= {
+		create_character = {
+			first_name = Hong
+			last_name = Xiuquan
+			birth_date = 1814.1.1
+			culture = cu:han
+			religion = rel:protestant
+			interest_group = ig_devout
+			ruler = yes
+			historical = yes
+			ideology = ideology_theocrat
+			traits = {
+				inspirational_orator
+				persistent
+				psychological_affliction
+			}
+			on_created = {
+				set_variable = hong_var
+				add_modifier = {
+					name = modifier_brother_of_christ
+					months = long_modifier_time
+				}
+			}
+		}
+		create_character = {
+			first_name = Hong
+			last_name = Tianguifu
+			birth_date = 1846.6.6
+			culture = cu:han
+			historical = yes
+			religion = rel:protestant
+			interest_group = ig_devout
+			heir = yes
+			ideology = ideology_moderate
+			traits = {
+				reserved 
+			}
+		}
+		create_character = {
+			first_name = Yang
+			last_name = Xiuqing
+			birth_date = 1821.9.23
+			culture = cu:han
+			religion = rel:protestant
+			is_general = yes
+			ig_leader = yes
+			historical = yes
+			interest_group = ig_armed_forces
+			hq = region_south_china
+			ideology = ideology_theocrat
+			commander_rank = commander_rank_3
+			traits = {
+				grifter
+				expert_political_operator
+				ambitious
+				demagogue
+			}
+		}
+		create_character = {
+			first_name = Xiao
+			last_name = Chaogui
+			birth_date = 1820.1.1
+			culture = cu:han
+			religion = rel:protestant
+			is_general = yes
+			ig_leader = yes
+			historical = yes
+			interest_group = ig_devout
+			hq = region_south_china
+			ideology = ideology_theocrat
+			commander_rank = commander_rank_1
+			traits = {
+				reckless
+				charismatic
+				demagogue
+			}
+		}
+		create_character = {
+			first_name = Hong
+			last_name = Rengan
+			birth_date = 1822.2.18
+			culture = cu:han
+			religion = rel:protestant
+			ig_leader = yes
+			historical = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_market_liberal
+			traits = {
+				innovative
+				persistent
+				basic_diplomat
+			}
+		}
+	}
+}

@@ -967,6 +967,13 @@ monthly_piety_points = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_WESTPHALIA
+		}
+		add = 2
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:confucian
 			owns_entire_state_region = STATE_BEIJING
 		}

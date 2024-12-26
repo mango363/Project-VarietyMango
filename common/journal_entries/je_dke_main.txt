@@ -1,0 +1,145 @@
+je_dke_main = {
+	icon = "gfx/interface/icons/law_icons/unused/no_conscription.dds"
+	group = je_group_historical_content
+	scripted_button = je_vikey
+
+	complete = {
+		custom_tooltip = {
+			text = denmarr
+			game_date > 1836.4.6
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_dke.1
+		}
+	}
+	fail = {
+		custom_tooltip = {
+			text = vikingback
+			OR = {
+				has_variable = vikingsss
+				c:NOR = {
+					NOT = {
+						is_subject_of = root
+					}
+				}
+			}
+		}
+	}
+	on_fail = {
+		c:NOR = {
+			make_independent = yes
+		}
+		set_state_religion = rel:norsp
+		ruler = {
+			change_character_religion = rel:norsp
+		}
+		add_journal_entry = {
+			type = je_danelaw
+		}
+		hidden_effect = {
+			heir = {
+				change_character_religion = rel:norsp
+			}
+			capital = {
+				convert_population = {
+					target = root.religion
+					value = 0.1
+				}
+			}
+			every_scope_state = {
+				limit = { is_capital = no }
+				convert_population = {
+					target = root.religion
+					value = 0.05
+				}				
+			}
+			remove_modifier = protestant_pasive_mdf
+			add_modifier = {
+				name = norsp_pasive_mdf
+			}
+			s:STATE_YORKSHIRE = {
+				add_claim = root
+			}
+			s:STATE_MIDLANDS = {
+				add_claim = root
+			}
+			s:STATE_EAST_ANGLIA = {
+				add_claim = root
+			}
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_danelaw = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	timeout = 1800
+
+	complete = {
+		owns_entire_state_region = STATE_YORKSHIRE
+		owns_entire_state_region = STATE_MIDLANDS
+		owns_entire_state_region = STATE_EAST_ANGLIA
+		has_law = law_type:law_monarchy
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_dke.2
+		}
+		capital = {
+			convert_population = {
+				target = root.religion
+				value = 0.25
+			}
+		}
+		every_scope_state = {
+			limit = { is_capital = no }
+			convert_population = {
+				target = root.religion
+				value = 0.2
+			}				
+		}
+	}
+	on_timeout = {
+		trigger_event = {
+			id = fm_dke.3
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_north_empire = {
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	group = je_group_historical_content
+
+	complete = {
+		owns_entire_state_region = STATE_YORKSHIRE
+		owns_entire_state_region = STATE_MIDLANDS
+		owns_entire_state_region = STATE_EAST_ANGLIA
+		owns_entire_state_region = STATE_HOME_COUNTIES
+		owns_entire_state_region = STATE_WESTERN_NORWAY
+		owns_entire_state_region = STATE_EASTERN_NORWAY
+		owns_entire_state_region = STATE_NORTHERN_NORWAY
+		owns_entire_state_region = STATE_SCANIA
+		has_law = law_type:law_monarchy
+	}
+	fail = {
+		custom_tooltip = {
+			text = je_nohkn
+			exists = c:HKN
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_dke.4
+		}
+		hidden_effect = {
+			change_tag = HKN
+		}
+	}
+	should_be_pinned_by_default = yes
+}

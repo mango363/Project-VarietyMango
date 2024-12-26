@@ -48,7 +48,7 @@ fm_cth.2 = {#punic won
 		name = fm_cth.2.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -56,7 +56,7 @@ fm_cth.2 = {#punic won
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		add_modifier = {
@@ -90,7 +90,7 @@ fm_cth.3 = { #punic lost
 		name = fm_cth.3.a
 		default_option = yes
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_radicals = {
@@ -98,7 +98,7 @@ fm_cth.3 = { #punic lost
 			value = 0.15
 		}
 		add_radicals = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		add_modifier = {
@@ -234,7 +234,7 @@ fm_cth.7 = {
 		name = fm_cth.7.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.25
 		}
 		add_loyalists = {
@@ -242,7 +242,7 @@ fm_cth.7 = {
 			value = 0.2
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 		add_modifier = {

@@ -1,11 +1,11 @@
 ﻿BUILDINGS={
 	s:STATE_SAN_SALVADOR={
-		region_state:NVS={
+		region_state:NOS={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -17,7 +17,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_SAN_SALVADOR"
 					}
@@ -41,11 +41,61 @@
 				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:MAY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MAY"
+						levels=2
+						region="STATE_GUATEMALA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MAY"
+						levels=1
+						region="STATE_GUATEMALA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:MAY"
+						levels=1
+						region="STATE_GUATEMALA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					country={
 						country="c:MAY"
-						levels=2
+						levels=8
 					}
 				}
 				reserves=1
@@ -67,12 +117,12 @@
 		}
 	}
 	s:STATE_HONDURAS={
-		region_state:NVS={
+		region_state:NOS={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -83,7 +133,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -94,7 +144,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -104,13 +154,13 @@
 		}
 	}
 	s:STATE_NICARAGUA={
-		region_state:NVS={
+		region_state:NOS={
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_NICARAGUA"
 					}
@@ -123,7 +173,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_NICARAGUA"
 					}
@@ -135,7 +185,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -145,13 +195,13 @@
 		}
 	}
 	s:STATE_COSTA_RICA={
-		region_state:NVS={
+		region_state:NOS={
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_COSTA_RICA"
 					}
@@ -162,12 +212,12 @@
 		}
 	}
 	s:STATE_PANAMA={
-		region_state:NVS={
+		region_state:NOS={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -175,10 +225,21 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						country="c:NOS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -189,7 +250,7 @@
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 					}
 				}
@@ -201,7 +262,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_PANAMA"
 					}
@@ -214,7 +275,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NVS"
+						country="c:NOS"
 						levels=1
 						region="STATE_PANAMA"
 					}
@@ -629,7 +690,7 @@
 		}
 	}
 	s:STATE_CUBA={
-		region_state:CAS={
+		region_state:CUB={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={

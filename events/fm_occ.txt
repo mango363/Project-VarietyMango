@@ -16,7 +16,7 @@ fm_occ.1 = {
 	option = {
 		name = fm_occ.1.a
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -24,7 +24,7 @@ fm_occ.1 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 	}
