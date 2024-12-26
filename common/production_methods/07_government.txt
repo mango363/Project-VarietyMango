@@ -13,7 +13,7 @@
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 20
+			country_convoys_capacity_add = 40
 		}
 	}
 }			
@@ -34,12 +34,12 @@ pm_basic_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 150
+			country_convoys_capacity_add = 200
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 5
+			state_infrastructure_add = 8
 		}
 	}
 }		
@@ -66,12 +66,12 @@ pm_industrial_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 175
+			country_convoys_capacity_add = 235
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 7.5
+			state_infrastructure_add = 10
 		}
 	}	
 }
@@ -97,12 +97,12 @@ pm_modern_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 200
+			country_convoys_capacity_add = 270
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 10
+			state_infrastructure_add = 15
 		}
 	}
 }				
