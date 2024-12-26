@@ -1,21 +1,31 @@
 je_buy_salas = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	group = je_group_historical_content
-	is_shown_when_inactive = {
-		exist = c:YUA
-		c:YUA ?= THIS
-	}
 	scripted_button = je_ye_button_one
-	possible = {
-		owns_entire_state_region = STATE_NEVADA
+	complete = {
 		custom_tooltip = {
-			text = depeffo
+			text = text_je_buy_sal
+			NOT = {
+				exists = c:SIS
+			}
 		}
 	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_buy_laho = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
+
+	scripted_button = je_ye_button_two
 	complete = {
-		owns_entire_state_region = STATE_IDAHO
-		owns_entire_state_region = STATE_WASHINGTON
-		owns_entire_state_region = STATE_OREGON
+		custom_tooltip = {
+			text = text_je_buy_bla
+			NOT = {
+				exists = c:BFT
+			}
+		}
 	}
 	weight = 100
 	should_be_pinned_by_default = yes
@@ -72,7 +82,6 @@ je_yue_laws = {
 			id = fm_yua.9
 		}
 		hidden_effect = {
-			remove_modifier = modifier_yua_col
 			remove_modifier = modifier_yua_mos
 		}
 		hidden_effect = {
@@ -100,7 +109,6 @@ je_yue_laws = {
 	}
 	on_fail = {
 		hidden_effect = {
-			remove_modifier = modifier_yua_col
 			remove_modifier = modifier_yua_mos
 		}
 	}
@@ -175,5 +183,94 @@ je_auth_for = {
 		}
 	}
 	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_ymnyua = {
+	icon = "gfx/interface/icons/lens_toolbar_icons/defensive_pact.dds"
+	group = je_group_historical_content
+	timeout = 1800
+	on_timeout = {
+		annex_with_incorporation = c:YMN
+	}
+	fail = {
+		c:YMN = {
+			OR = {
+				NOT = {
+					is_subject_of = c:YUA
+				}
+				NOT = {
+					exists = c:YMN 
+				}
+				is_ai = no
+			}
+		}
+	}
+	on_fail = {
+		if = {
+			limit = {
+				exists = c:YMN 
+			}
+			c:YMN = {
+				make_independent = yes
+			}
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_sshyua = {
+	icon = "gfx/interface/icons/invention_icons/currency_standards.dds"
+	group = je_group_historical_content
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = var_sshyua
+				add = 1
+			}
+		}
+	}
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	on_complete = {
+		remove_modifier = modifier_yua_four
+		annex = c:SSH
+		hidden_effect = {
+			add_journal_entry = {
+				type = je_buy_laho
+			}
+		}
+	}
+	fail = {
+		OR = {
+			c:SSH = {
+				is_ai = no
+			}
+			custom_tooltip = {
+				text = text_noexssh
+				NOT = {
+					exists = c:SSH
+				}
+			}
+			custom_tooltip = {
+				text = yue_auth2
+				has_variable = yua_auth
+			}
+		}
+	}
+	on_fail = {
+		remove_modifier = modifier_yua_four
+	}
+	current_value = {
+		value = root.var:var_sshyua
+	}
+	goal_add_value = {
+		value = 36
+	}
+	progressbar = yes
+	weight = 9
 	should_be_pinned_by_default = yes
 }

@@ -26,3 +26,15 @@ concept_yagg = {
 	texture = "gfx/interface/icons/invention_icons/identification_documents.dds"
 	is_loading_tip = yes
 }
+concept_suyu = {
+	texture = "gfx/interface/icons/state_status_icons/incorporated_state.dds"
+	is_loading_tip = yes
+}
+concept_tawantinsuyu = {
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
+	is_loading_tip = yes
+}
+concept_sapainca = {
+	texture = "gfx/interface/icons/law_icons/autocracy.dds"
+	is_loading_tip = yes
+}

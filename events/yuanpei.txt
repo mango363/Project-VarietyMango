@@ -19,11 +19,15 @@ fm_yua.1 = {
 		hidden_effect = {
 			trigger_event = {
 				id = fm_yua.3
-				days = 10
+				days = 200
+			}
+			trigger_event = {
+				id = fm_yua.13
+				days = 100
 			}
 			trigger_event = {
 				id = fm_yua.4
-				days = 100
+				days = 20
 			}
 			trigger_event = {
 				id = fm_yua.5
@@ -404,6 +408,61 @@ fm_yua.12 = {
 				type = catalyst_event_negative
 				target = c:KOR
 			}
+		}
+	}
+}
+
+fm_yua.13 = {
+	type = country_event
+	placement = ROOT
+	title = fm_yua.13.t
+	desc = fm_yua.13.d
+	flavor = fm_yua.13.f
+	duration = 1
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	option = {
+		name = fm_yua.13.a
+		create_diplomatic_pact = {
+			country = c:YMN
+			type = tributary
+		}
+		add_journal_entry = {
+			type = je_ymnyua
+		}
+		change_relations = {
+			country = c:NSP
+			value = -10
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				trigger = {
+					c:YMN = {
+						is_ai = no
+					}
+				}
+				add = -30
+			}
+		}
+	}
+	option = {
+		name = fm_yua.13.b
+		c:NSP = {
+			create_diplomatic_catalyst = {
+				type = catalyst_event_positive
+				target = c:YUA
+			}
+		}
+		change_relations = {
+			country = c:NSP
+			value = 20
+		}
+		ai_chance = {
+			base = 50
 		}
 	}
 }

@@ -131,7 +131,7 @@
 		}
 		add_to_list = exclude_state_region
 	}
-	s:STATE_SOUTH_BENGAL = {
+	s:STATE_EAST_BENGAL = {
 		add_to_global_variable_list = {
 			name = mil_ideas
 			target = this

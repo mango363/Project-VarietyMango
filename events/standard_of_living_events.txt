@@ -79,7 +79,7 @@ sol_events.1 = { #people are poor
 		}
 		scope:slums_state = {
 			add_radicals_in_state = {
-				strata = poor
+				strata = lower
 				value = medium_radicals
 			}
 		}
@@ -105,7 +105,7 @@ sol_events.1 = { #people are poor
 		}
 		scope:slums_state = {
 			add_radicals_in_state = {
-				strata = poor
+				strata = lower
 				value = large_radicals
 			}
 		}
@@ -280,7 +280,10 @@ sol_events.3 = { #church wants to help
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -340,7 +343,10 @@ sol_events.3 = { #church wants to help
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -362,6 +368,8 @@ sol_events.3 = { #church wants to help
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -598,7 +606,7 @@ sol_events.5 = { #article about slums
 				months = short_modifier_time
 			}
 			add_radicals_in_state = {
-				strata = poor
+				strata = lower
 				value = medium_radicals
 			}
 		}
@@ -661,7 +669,7 @@ sol_events.6 = { #bread riots
 		name = sol_events.6.b
 		scope:slums_state = {
 			add_radicals_in_state = {
-				strata = poor
+				strata = lower
 				value = medium_radicals
 			}
 		}

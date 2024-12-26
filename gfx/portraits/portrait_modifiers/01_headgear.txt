@@ -581,6 +581,9 @@ headgear = {
                     european_clothes_trigger = yes
                     scope:character ?= {
                         def_na_native_american_trigger = yes
+                        NOT = {
+                            culture = cu:quechua
+                        }
                     }
                     african_diaspora_clothes_trigger = yes
                 }
@@ -695,7 +698,7 @@ headgear = {
             modifier = {
                 add = 10000
 
-                c:USA ?= {
+                c:USU ?= {
                     NOT = { has_technology_researched = rifling }
                 }
                 american_clothes_pop_trigger = yes
@@ -723,7 +726,7 @@ headgear = {
                 add = 100
                 OR = {
                     AND = {
-                        c:USA ?= {
+                        c:USU ?= {
                             has_technology_researched = rifling
                             NOT = { has_technology_researched = bolt_action_rifles }
                         }
@@ -769,7 +772,7 @@ headgear = {
             base = 0
             modifier = {
                 add = 150
-                c:USA ?= {
+                c:USU ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {

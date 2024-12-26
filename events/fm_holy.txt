@@ -23,7 +23,7 @@ fm_holy.1 = { #return inq
 			pop_type = clergymen
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		add_modifier = {

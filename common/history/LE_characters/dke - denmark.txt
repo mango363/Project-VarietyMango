@@ -1,0 +1,34 @@
+CHARACTERS = {
+	c:DKE ?= {
+		create_character = {
+			first_name = "Thorvald"
+			last_name = "Kaas"
+			historical = yes
+			ruler = yes
+			culture = cu:danish
+			birth_date = 1769.3.4
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				ambitious
+				persistent
+				innovative
+			}
+		}
+		create_character = {
+			first_name = "Sigurd"
+			last_name = "Kaas"
+			historical = yes
+			heir = yes
+			culture = cu:danish
+			birth_date = 1809.3.4
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			traits = {
+				ambitious
+				reserved
+				direct
+			}
+		}
+	}
+}

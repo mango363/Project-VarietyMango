@@ -866,4 +866,7 @@
  pmg_dummy:0 "Dummy PM group for graphics-only buildings. Should never be shown in UI."
  pm_dummy:0 "Dummy PM for graphics-only buildings. Should never be shown in UI."
 
- 
+  pmg_base_building_victoria_terminus: "$pm_base$"
+ pm_default_building_victoria_terminus: "Default Production"
+ pmg_ownership_building_company_headquarter: "$pmg_ownership$" 
+ pm_company_headquarter_privately_owned: "$pm_privately_owned$"

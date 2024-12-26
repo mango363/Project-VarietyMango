@@ -1,5 +1,5 @@
 COUNTRIES = {
-	c:MAX = {
+	c:NSP = {
 		effect_starting_technology_tier_2_tech = yes
 
 		activate_law = law_type:law_parliamentary_republic
@@ -20,5 +20,8 @@ COUNTRIES = {
 			institution = institution_schools
 			level = 2
 		}	
+		add_journal_entry = {
+			type = je_maxico
+		}
 	}
 }

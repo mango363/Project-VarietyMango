@@ -69,7 +69,7 @@ fm_england.3 = {
 		name = fm_england.3.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -77,7 +77,7 @@ fm_england.3 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		s:STATE_AQUITAINE = {
@@ -115,7 +115,7 @@ fm_england.4 = {
 			save_scope_as = secession_state_sco
 		}
 		create_country = {
-			tag = SCO
+			tag = SCU
 			origin = ROOT
 			state = scope:secession_state_sco
 		}
@@ -123,7 +123,7 @@ fm_england.4 = {
 			limit = {
 				state_region = s:STATE_HIGHLANDS
 			}
-			set_state_owner = c:SCO
+			set_state_owner = c:SCU
 		}
 		random_scope_state = {
 			limit = {
@@ -152,7 +152,7 @@ fm_england.4 = {
 			}
 		}
 		create_diplomatic_pact = {
-			country = c:SCO
+			country = c:SCU
 			type = dominion
 		}
 		create_diplomatic_pact = {
@@ -165,7 +165,7 @@ fm_england.4 = {
 		change_tag = GBI
 		add_primary_culture = cu:scottish
 		add_primary_culture = cu:welsh
-		annex_with_incorporation = c:SCO
+		annex_with_incorporation = c:SCU
 		annex_with_incorporation = c:WLS
 		add_loyalists = {
 			value = 0.1
@@ -178,7 +178,7 @@ fm_england.4 = {
 	}
 	option = {
 		name = fm_england.4.b
-		annex = c:SCO
+		annex = c:SCU
 		annex = c:WLS
 		every_state = {
             limit = {
@@ -236,7 +236,7 @@ fm_england.5 = {
 		add_primary_culture = cu:welsh
 		add_primary_culture = cu:irish
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -244,7 +244,7 @@ fm_england.5 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 	}

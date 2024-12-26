@@ -162,17 +162,28 @@
 		region_state:SWU = {
 			create_pop = {
 				culture = danish
-				size = 410
+				size = 210
 			}
 			create_pop = {
 				culture = inuit
 				religion = protestant
-				size = 9254
+				size = 19254
 			}
 			create_pop = {
 				culture = inuit
 				religion = animist
 				size = 1510
+			}
+		}
+		region_state:VSL = {
+			create_pop = {
+				culture = vinlander
+				size = 22410
+			}
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 110
 			}
 		}
 	}
@@ -209,7 +220,7 @@
 				size = 683202
 			}
 		}
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 833202
@@ -248,7 +259,7 @@
 				size = 43296
 			}
 		}
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 423296
@@ -265,7 +276,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 1472396
@@ -331,7 +342,7 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:SCO = {
+		region_state:SCU = {
 			create_pop = {
 				culture = scottish
 				size = 1697200
@@ -443,12 +454,12 @@
 		region_state:NUR = {
 			create_pop = {
 				culture = french
-				size = 1170494
+				size = 190548
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 609745
+				size = 451032
 			}
 			create_pop = {
 				culture = breton
@@ -460,7 +471,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 568745
+				size = 1568745
 			}
 		}
 	}
@@ -536,11 +547,11 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 810279
+				size = 610279
 			}
 			create_pop = {
 				culture = flemish
-				size = 908005
+				size = 628005
 			}
 			create_pop = {
 				culture = dutch
@@ -561,7 +572,7 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 1100989
+				size = 900989
 			}
 			create_pop = {
 				culture = burgundian
@@ -993,7 +1004,7 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = flemish # 'Flemish & Dutch' in census data.
-				size = 2224197
+				size = 1624197
 			}
 			create_pop = {
 				culture = flemish

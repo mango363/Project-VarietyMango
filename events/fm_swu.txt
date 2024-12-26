@@ -26,7 +26,7 @@ fm_swu.1 = {
 			add_liberty_desire = 20
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_loyalists = {
@@ -74,7 +74,7 @@ fm_swu.1 = {
 			add_liberty_desire = -10
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_radicals = {
@@ -159,7 +159,7 @@ fm_swu.3 = {
 			months = 12
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.05
 		}
 		add_radicals = {
@@ -240,7 +240,7 @@ fm_swu.5 = {
 			add_liberty_desire = -25
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.1
 		}
 		add_loyalists = {

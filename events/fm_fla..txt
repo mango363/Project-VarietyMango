@@ -39,7 +39,7 @@ fm_fla.1 = {
 			months = normal_modifier_time
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -47,7 +47,7 @@ fm_fla.1 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.2
 		}
 	}

@@ -1,0 +1,34 @@
+﻿l_english:
+ # Shawnee
+ je_na_swn_secure_to_michigan: "Secure Our Claim on $STATE_INDIANA$"
+ je_na_swn_secure_to_michigan_reason: "If we can forcefully restrict land movement from Southern $STATE_MICHIGAN$, we can press a claim on $STATE_MICHIGAN$."
+ je_na_swn_secure_the_south: "Secure the South"
+ je_na_swn_secure_the_south_reason: "We need to formalize the borders on our southern edge to keep the capital safe."
+
+ # Oneota
+ je_na_one_secure_to_michigan: "Secure Our Bridge to Southern $STATE_MICHIGAN$"
+ je_na_one_secure_to_michigan_reason: "Without this land bridge conjoining us to Southern $STATE_MICHIGAN$, our claim on $STATE_MICHIGAN$ will grow weak. We must protect this path."
+ je_na_one_secure_the_north: "Secure $STATE_WISCONSIN$"
+ je_na_one_secure_the_north_reason: "While we control most of the coastline on the south of the Great Lakes, we are missing the space needed to make it prosper. By obtaining all of $STATE_WISCONSIN$ we can expand more rapidly."
+ je_na_one_secure_the_south: "Secure Our Capital"
+ je_na_one_secure_the_south_reason: "Our capital is the most important part of our budding nation. We must work to secure it from our neighbors, lest we endanger our people."
+
+ # Muscogee
+ je_na_mcg_secure_georgia: "Secure our Atlantic Shore"
+ je_na_mcg_secure_georgia_reason: "We have been recently invaded by $FLU$ and $FOU$ and must take back our lands to the east."
+
+ # Various
+ je_buy_luoisiana: "The $LOI$ Purchase"
+ je_buy_luoisiana_reason: "$LOI$ is the denomination given to the lands occupied by the King of France that are located along the Mississippi river and through Atakapan lands.\nWe do not recognize those claims, but at the moment we are far too weak to oppose the French.\nLuckily for us, those territories have little to no immediate value to the crown of France, and for the right price we might be able to purchase them."
+ je_buy_louisiana: "Send a letter to the King of France"
+ no_loi: "$LOI$ doesn't exist or is independent or not owned by France."
+ je_buy_louisiana_desc: "We can send a delegation to Baton Rouge to ask the governor of $LOI$ to send a letter to the King of France.\nThere is no guarantee the King will accept, but if we were to send the letter in a moment of economic instability for France, he might actually accept the deal."
+ luoi_text: "France has not rejected the deal recently\n#bold Warning!#!\nIf you press this button while Louisiana is not a subject of France, no event will trigger for France and you will lose the possibility to press this button for the rest of the game"
+
+ # Florida
+ je_buy_cuba: "The $CUB_ADJ$ Purchase"
+ je_buy_cuba_reason: "$CUB$ is the largest island in the Caribbean and it is currently controlled by $CAS$. Their power has been waning and thus they may be willing to part with Cuba as it is so far away.\n\nThis could prove ill-advised though, as $CAS$ is the final bastion of the Catholic Church and closer relations could prove to give them more power within our government."
+ je_buy_cuba_button: "Send a delegation to the King of $CAS$"
+ je_buy_cuba_button_desc: "We will send our best diplomats to convince the King that our friendship is worth more than $CUB$."
+ cuba_purchase_text: "We will offer what we think $CUB$ is worth and hope they see it the same."
+ no_cub: "$CUB$ does not exist or is independent or not owned by $CAS$."

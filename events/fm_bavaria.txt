@@ -285,7 +285,7 @@ fm_bavaria.6 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		add_modifier = {
 			name = modifier_bav_five
@@ -351,7 +351,7 @@ fm_bavaria.7 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		add_modifier = {
 			name = modifier_loth_twelwe

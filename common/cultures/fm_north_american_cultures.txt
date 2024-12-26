@@ -18,12 +18,10 @@
 # cu:na_yankton_yanktonai_dakota
 # cu:na_lakota
 # cu:na_crow_hisatsa
-# cu:na_assiniboine
 # cu:na_stoney
 # cu:na_omaha_ponca
 # cu:na_chiwere_winnebago
 # cu:na_kansa_osage
-# cu:na_quapaw
 # cu:na_mandan
 
 # (cu:cree
@@ -180,7 +178,7 @@ na_yankton_yanktonai_dakota = {
 
 na_lakota = {
 	color = { 120 0 190 }
-	religion = na_lakota_spirituality
+	religion = na_wocekiye
 	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
 	male_common_first_names = {
 		Hehaka
@@ -232,58 +230,6 @@ na_lakota = {
 
 na_crow_hisatsa = {
 	color = { 190 25 0 }
-	religion = na_native_american_spirituality
-	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
-	male_common_first_names = {
-		Hehaka
-		Inkpaduta
-		Istahba
-		Mahpiya
-		Monkaushka
-		Sinte
-		Tamaha
-		Thahca
-		Thasunke
-		Thathanka
-		Thaoyate_Duta
-		Wanbdisapa
-		Wanata
-	}
-	female_common_first_names = {
-		Azayamankawin
-		Topahhdewin
-		Wakanmaniwin
-		Wakantakawin
-		Wakhan_Inazin_Win
-	}
-	noble_last_names = {
-		Hakadah
-		Ohiya_S-a
-		Tamaha
-		Wakinyanduta
-		Wowinape
-	}
-	common_last_names = {
-		Duta
-		Gleska
-		Huste
-		Iyotake
-		Kohkophapi
-		Kramarae
-		Luta
-		Pecan_Wakpa
-		Sapa
-		Thankja
-		Witko
-	}
-	ethnicities = {
-		1 = na_sioux_ethnicity
-	}
-	graphics = decentralised_americas
-}
-
-na_assiniboine = {
-	color = { 0 190 120 }
 	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
 	male_common_first_names = {
@@ -541,59 +487,6 @@ na_kansa_osage = {
 	}
 	graphics = decentralised_americas
 }
-
-na_quapaw = {
-	color = { 190 120 0 }
-	religion = na_native_american_spirituality
-	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
-	male_common_first_names = {
-		Hehaka
-		Inkpaduta
-		Istahba
-		Mahpiya
-		Monkaushka
-		Sinte
-		Tamaha
-		Thahca
-		Thasunke
-		Thathanka
-		Thaoyate_Duta
-		Wanbdisapa
-		Wanata
-	}
-	female_common_first_names = {
-		Azayamankawin
-		Topahhdewin
-		Wakanmaniwin
-		Wakantakawin
-		Wakhan_Inazin_Win
-	}
-	noble_last_names = {
-		Hakadah
-		Ohiya_S-a
-		Tamaha
-		Wakinyanduta
-		Wowinape
-	}
-	common_last_names = {
-		Duta
-		Gleska
-		Huste
-		Iyotake
-		Kohkophapi
-		Kramarae
-		Luta
-		Pecan_Wakpa
-		Sapa
-		Thankja
-		Witko
-	}
-	ethnicities = {
-		1 = na_sioux_ethnicity
-	}
-	graphics = decentralised_americas
-}
-
 na_mandan = {
 	color = { 25 0 190 }
 	religion = na_native_american_spirituality
@@ -698,7 +591,7 @@ na_cree_montagnais = {
 
 na_ojibwe_potawatomi = {
 	color = { 96 156 248 }
-	religion = na_ojibwe_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_algonquian_culture_group }
 	male_common_first_names={
 		Alexis
@@ -748,7 +641,7 @@ na_ojibwe_potawatomi = {
 
 na_blackfoot = {
 	color = { 232 248 96 }
-	religion = na_blackfoot_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_algonquian_culture_group }
 	male_common_first_names={
 		Alexis
@@ -1093,7 +986,7 @@ na_muscogee = {
 
 na_haudenosaunee = {
 	color = { 19 112 5 }
-	religion = na_the_great_law_of_peace
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente
@@ -1137,7 +1030,7 @@ na_haudenosaunee = {
 
 na_tuscarora_nottoway = {
 	color = { 45 5 112 }
-	religion = na_the_great_law_of_peace
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente
@@ -1181,7 +1074,7 @@ na_tuscarora_nottoway = {
 
 na_cherokee = {
 	color = { 112 99 5 }
-	religion = na_cherokee_spirituality
+	religion = na_native_american_spirituality
 	traits = { indigenous_american_heritage na_north_american_heritage na_iroquois_culture_group }
 	male_common_first_names={
 		Akwiraron Akwirente

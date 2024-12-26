@@ -1,71 +1,114 @@
-﻿
-DIPLOMACY = {
+﻿DIPLOMACY = {
 	c:EGE= {
 		create_bidirectional_truce = {
 			country = c:TOR
-			months = 10
+			months = 45
 		}
 	}	
-}
-
-DIPLOMACY = {
+	c:EGE= {
+		create_bidirectional_truce = {
+			country = c:SAE
+			months = 26
+		}
+	}
 	c:SIU= {
 		create_bidirectional_truce = {
 			country = c:TOR
 			months = 10
 		}
-	}	
-}
-
-DIPLOMACY = {
-	c:FRU= {
-		create_unidirectional_truce = {
-			country = c:DKT
-			months = 120
-		}
-	}	
-}
-
-DIPLOMACY = {
+	}
 	c:CTH= {
 		create_bidirectional_truce = {
 			country = c:HAK
 			months = 5
 		}
-	}	
-}
-
-DIPLOMACY = {
+	}
 	c:KOR= {
 		create_unidirectional_truce = {
 			country = c:YUA
 			months = 76
 		}
-	}	
-}
-
-DIPLOMACY = {
+	}
 	c:KOR= {
 		create_bidirectional_truce = {
 			country = c:MCH
 			months = 17
 		}
 	}	
-}
-
-DIPLOMACY = {
+	c:AGA= {
+		create_bidirectional_truce = {
+			country = c:PUR
+			months = 40
+		}
+	}	
 	c:SIA= {
 		create_bidirectional_truce = {
 			country = c:DAI
 			months = 36
 		}
 	}	
-}
-DIPLOMACY = {
 	c:BOH = {
 		create_bidirectional_truce = {
 			country = c:BAY
 			months = 4
+		}
+	}
+	c:IQS = {
+		create_bidirectional_truce = {
+			country = c:AMC
+			months = 48
+		}
+	}
+	c:IQS = {
+		create_bidirectional_truce = {
+			country = c:FOU
+			months = 36
+		}
+	}
+	c:MCG = {
+		create_bidirectional_truce = {
+			country = c:FLU
+			months = 8
+		}
+		create_bidirectional_truce = {
+			country = c:FOU
+			months = 30
+		}
+		create_bidirectional_truce = {
+			country = c:LOI
+			months = 18
+		}
+	}
+	c:YMN = {
+		create_bidirectional_truce = {
+			country = c:NSP
+			months = 9
+		}
+	}
+	c:AGA = {
+		create_unidirectional_truce = {
+			country = c:RPQ
+			months = 19
+		}
+	}
+	c:NSP = {
+		create_bidirectional_truce = {
+			country = c:AT1
+			months = 35
+		}
+		create_bidirectional_truce = {
+			country = c:MAY
+			months = 14
+		}
+		create_bidirectional_truce = {
+			country = c:NAH
+			months = 4
+		}
+	}
+	c:VSL = {
+		create_bidirectional_truce = {
+			country = c:AMC
+			months = 48
 		}
 	}
 }

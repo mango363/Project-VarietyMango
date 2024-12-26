@@ -24,7 +24,7 @@ je_pol = {
 			AND = {
 				c:LIT = {
 					is_subject_of = ROOT
-					relations:ROOT > relations_threshold:cordial
+					relations:ROOT > relations_threshold:poor
 				}
 			}
 		}

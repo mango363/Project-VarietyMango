@@ -526,12 +526,12 @@
                 # I am forcing American generals to wear commander accessories
                 add = 90000
 
-                c:USA ?= {
+                c:USU ?= {
                     NOT = { has_technology_researched = bolt_action_rifles }
                 }
 
                 scope:character ?= {
-                    owner ?= c:USA
+                    owner ?= c:USU
                     has_role = general
                     is_ruler = no
                 }

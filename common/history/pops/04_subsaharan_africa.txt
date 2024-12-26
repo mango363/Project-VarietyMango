@@ -1699,7 +1699,7 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
-		region_state:EIC = {
+		region_state:NIA = {
 			create_pop = {
 				culture = makua
 				size = 200000
@@ -2137,7 +2137,7 @@
 		}
 	}
 	s:STATE_NORTH_ANGOLA = {
-		region_state:PUR = {
+		region_state:NIA = {
 			create_pop = {
 				culture = bakongo
 				size = 156404
@@ -2168,7 +2168,7 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA = {
-		region_state:PUR = {
+		region_state:NIA = {
 			create_pop = {
 				culture = ovimbundu
 				size = 116000
@@ -2414,7 +2414,7 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
-		region_state:EIC = {
+		region_state:NIA = {
 			create_pop = {
 				culture = sena
 				size = 83996
@@ -2826,7 +2826,7 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:EIC = {
+		region_state:NIA = {
 			create_pop = {
 				culture = nguni
 				size = 66761

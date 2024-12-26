@@ -145,3 +145,11 @@ baal = {
 	}
 	color = {68 242 236}
 }
+
+norsp = {
+	texture = "gfx/interface/icons/religion_icons/norse.dds"
+	traits = {
+		baal_pol
+	}
+	color = {84 17 11}
+}

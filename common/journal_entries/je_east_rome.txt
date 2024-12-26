@@ -24,7 +24,7 @@ je_east_rome = {
 		remove_modifier = modifier_eastrome_one
 	}
 	complete = {
-		has_law = law_type:law_racial_segregation
+		cultural_acceptance_base = { target = cu:greek value >= 70 }
 		NOT = {
 			has_law = law_type:law_serfdom
 		}

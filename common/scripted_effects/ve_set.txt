@@ -644,6 +644,15 @@ religion_passive_bonuses = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_pasive_mdf
+			months = -1
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		add_modifier = {
@@ -741,6 +750,15 @@ religion_passive_bonuses = {
 		}
 		add_modifier = {
 			name = na_wocekiye_pasive_mdf
+			months = -1
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_pasive_mdf
 			months = -1
 		}
 	}

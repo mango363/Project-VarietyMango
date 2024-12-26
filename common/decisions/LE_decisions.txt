@@ -367,6 +367,36 @@ YUA_decision_four = {
 	}
 }
 
+YUA_decision_five = {
+	is_shown = {
+		game_date > 1840.07.30
+		exist = c:YUA
+		c:YUA ?= THIS
+		NOT = {
+			has_variable = yuadec4
+		}
+		has_variable = yua_col_disc
+	}
+	when_taken = {
+		add_journal_entry = {
+			type = je_sshyua
+		}
+		set_variable = {
+			name = yuadec4
+		}
+		set_variable = {
+			name = var_sshyua
+			value = 1
+		}
+		add_modifier = {
+			name = modifier_yua_four
+		}
+	}
+	ai_chance = {
+		base = 0
+	}
+}
+
 KOR_decision_one = {
 	is_shown = {
 		exist = c:KOR

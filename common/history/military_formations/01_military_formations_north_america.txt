@@ -88,7 +88,7 @@
 		}
 	}
 
-	c:NVS = {
+	c:NOS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_central_america
@@ -127,7 +127,7 @@
 			}
 		}
 	}
-	c:MAX = {
+	c:NSP = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_mexico
@@ -135,19 +135,19 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_RIO_GRANDE
+				state_region = s:STATE_VERACRUZ
 				count = 20
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CHIHUAHUA
+				state_region = s:STATE_RIO_GRANDE
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_DURANGO
+				state_region = s:STATE_MEXICO
 				count = 15
 			}
 			save_scope_as = mexican_army
@@ -202,6 +202,301 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORTH_CAROLINA
 				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_VIRGINIA
+				count = 10
+			}
+		}
+	}
+	c:VSL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_canada
+			name = "Vestrland Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_QUEBEC
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_ONTARIO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_NEWFOUNDLAND
+				count = 5
+			}
+		}
+	}
+	c:NAH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			name = "Anahuac Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BAJIO
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DURANGO
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_JALISCO
+				count = 15
+			}
+		}
+	}
+	c:MAY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			name = "Anahuac Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUATEMALA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CHIAPAS
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_YUCATAN
+				count = 10
+			}
+		}
+	}
+	c:IQS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_new_england
+			name = "Iroquois Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NEW_YORK
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_WEST_VIRGINIA
+				count = 15
+			}
+		}
+	}
+	c:SWN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_the_midwest
+			name = "Shawnee Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OHIO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_KENTUCKY
+				count = 10
+			}
+		}
+	}
+	c:ONE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_the_midwest
+			name = "Oneotan Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MICHIGAN
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_INDIANA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ILLINOIS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_WISCONSIN
+				count = 5
+			}
+		}
+	}
+	c:CAH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_the_midwest
+			name = "Cahokian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MISSOURI
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_IOWA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NEBRASKA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_KANSAS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OKLAHOMA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ARKANSAS
+				count = 5
+			}
+		}
+	}
+	c:MCG = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Muscogeen Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ALABAMA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GEORGIA
+				count = 17
+			}
+		}
+	}
+	c:CAD = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Caddoan Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TEXAS
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_OKLAHOMA
+				count = 10
+			}
+		}
+	}
+	c:AT1 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_great_plains
+			name = "Athabaskan Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TEXAS
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_KANSAS
+				count = 13
+			}
+		}
+	}
+	c:BFT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_great_plains
+			name = "Siksikaitsitapi Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MONTANA
+				count = 19
+			}
+		}
+	}
+	c:SIS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "Sahap-Salish Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OREGON
+				count = 25
+			}
+		}
+	}
+	c:SSH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "Numic Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_UTAH
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NEVADA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_IDAHO
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_WYOMING
+				count = 7
+			}
+		}
+	}
+	c:YMN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "Yuman Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CALIFORNIA
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ARIZONA
+				count = 15
 			}
 		}
 	}

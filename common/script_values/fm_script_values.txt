@@ -1,0 +1,7 @@
+money_amount_multiplier_fm = {
+	value = root.gdp
+	divide = 1000000
+	multiply = 1
+	multiply = 1000
+	min = 100
+}

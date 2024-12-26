@@ -10,7 +10,7 @@ NDiplomacy = {
 	OBLIGATION_FORCED_PACT_MONTHS = 60
 	RECENTLY_CONQUERED_DURATION_MONTHS = 60
 	RECENTLY_LIBERATED_DURATION_MONTHS = 60
-	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 2.5
+	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 2.0
 	INFAMY_THRESHOLD_INFAMOUS = 50			# Above this, countries are considered infamous and get related penalties
 	INFAMY_THRESHOLD_NOTORIOUS = 80		# Above this, countries are considered notorious and get related penalties
 	INFAMY_THRESHOLD_PARIAH = 125			# Above this, countries are considered pariah and get related penalties
@@ -18,6 +18,7 @@ NDiplomacy = {
 	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 10
 	WAR_GOAL_INFAMY_MAKE_PROTECTORATE = 2.5
 	WAR_GOAL_INFAMY_CONQUER_STATE = 3.5
+	WAR_GOAL_INFAMY_RETURN_STATE = 1.5
 }
 NWar = {
 	DEVASTATION_MAX = 100.0
@@ -27,7 +28,7 @@ NWar = {
 }
 NPowerBlocs = {
 	MAX_PRINCIPLES = 4					# Max number of principles that a Power Bloc can have
-	INITIAL_PRINCIPLE_LEVELS = 3		# Max total levels of principles that a Power Bloc can have during formation
+	INITIAL_PRINCIPLE_LEVELS = 4		# Max total levels of principles that a Power Bloc can have during formation
 	FORMATION_COOLDOWN_MONTHS = 24		# Cooldown in months between the attempts to form Power Blocs
 	JOIN_COOLDOWN_MONTHS = 6			# If a Country leaves a Power Bloc they cannot re-join before X months
 	LEAVE_COOLDOWN_MONTHS = 6			# If a Country joins a Power Bloc they cannot leave within X months
@@ -70,9 +71,15 @@ NCamera = {
     ZOOM_RATE = 0.2 		# Zoom when right-mouse down
 	#						0	1	2	3		4		5		6		7		8		9		10		11		12		13		14		15
 	ZOOM_STEPS 			= { 15	25	40	50		75		85		200		210		340		350		550		575		600		650		700		2500	} #9 is the game changer
-	ZOOM_STEPS_TILT 	= { 35	40	45	50		55		55		60 		60		65		65		80		80		80		80		80		85		} # angle of the visual
+	ZOOM_STEPS_TILT 	= { 35	40	45	50		55		55		60 		60		65		65		80		80		85		85		85		85		} # angle of the visual
 	ZOOM_STEPS_MIN_TILT = { 35	35	35	35		35		38		40		40		45		50		50		50		50		50		50		50		}
 	ZOOM_STEPS_MAX_TILT = { 89	89	89	89		89		89		89		89		89		89		89		89		89		89		89		89		}
+
+	#						0	1	2	3		4		5		6		7		8		9		10		11		12		13		14		15
+#	ZOOM_STEPS 			= { 24	32	40	50		75		100		200		300		400		600		800		1000	1200	1500	2500	4500	}
+#	ZOOM_STEPS_TILT 	= { 35	40	45	48.5	50		52.5	55 		60		65		70		75		80		80		85		85		85		} # TODO: Change Back before Main Merge
+#	ZOOM_STEPS_MIN_TILT = { 35	35	35	35		35		38		40		40		45		50		50		50		50		50		50		50		}
+##	ZOOM_STEPS_MAX_TILT = { 89	89	89	89		89		89		89		89		89		89		89		89		89		89		89		89		}
 
 	MAX_PAN_TO_ZOOM_STEP = 8					# The camera will lower to this height (but only if above it) when panning to characters/provinces etc. ( 300 is optimal)
 

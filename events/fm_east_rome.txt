@@ -299,7 +299,7 @@ fm_east_rome.5 = {
 		name = fm_east_rome.5.a
 		default_option = yes
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.2
 		}
 		add_loyalists = {

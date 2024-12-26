@@ -139,7 +139,7 @@ fm_pol.3 = {
 		add_primary_culture = cu:czech
 		add_primary_culture = cu:slovak
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.25
 		}
 		add_loyalists = {
@@ -147,7 +147,7 @@ fm_pol.3 = {
 			value = 0.2
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 	}

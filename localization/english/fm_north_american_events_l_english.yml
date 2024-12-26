@@ -1,0 +1,41 @@
+﻿l_english:
+ # Shawnee
+ fm_na_swn.1.t: "Border Security Shambles"
+ fm_na_swn.1.d: "We were unable to properly secure our borders from our neighbors. This humiliation will not be taken sitting down."
+ fm_na_swn.1.f: "[SCOPE.sCharacter('armed_forces_leader').GetFullName] has been under fire from his party for the complacency of the Government and has decided sweeping changes are needed to improve it. Taking inspiration from the Colonizers he has been advocating for a strong government that no one can openly question."
+ fm_na_swn.1.a: "[SCOPE.sCharacter('armed_forces_leader').GetFullName] gains Authoritarian"
+
+ fm_na_swn.2.t: "$STATE_INDIANA$ Secured"
+ fm_na_swn.2.d: "With the recent acquisition of $STATE_INDIANA$ we can now guarantee a land passage to Lake Michigan."
+ fm_na_swn.2.f: "This also isolates southern $STATE_MICHIGAN$ from the $ONE$ giving us an upper hand at conquering more land."
+ fm_na_swn.2.a: "Ka-tet"
+
+ fm_na_swn.3.t: "Southern Borders Formalized"
+ fm_na_swn.3.d: "Now that the southern borders have been formalized with our neighbors we have a great opportunity to utilize the resources and expand the population."
+ fm_na_swn.3.f: ""
+ fm_na_swn.3.a: "Bezon Nikanaki"
+
+ # Oneota
+ fm_na_one.1.t: "Border Security Shambles"
+ fm_na_one.1.d: "We were unable to properly secure our borders from our neighbors. This humiliation will not be taken sitting down."
+ fm_na_one.1.f: "[SCOPE.sCharacter('armed_forces_leader').GetFullName] has been under fire from his party for the complacency of the Government and has decided sweeping changes are needed to improve it. Taking inspiration from the Colonizers he has been advocating for a strong government that no one can openly question."
+ fm_na_one.1.a: "[SCOPE.sCharacter('armed_forces_leader').GetFullName] gains Authoritarian"
+
+ # Castile
+ fm_cas.8.t: "A $FLU_ADJ$ Offer"
+ fm_cas.8.d: "$FLU$, a budding nation of Spanish origin, has offered to purchase $CUB$."
+ fm_cas.8.f: "$FLU$ is only just getting its footing and wishes to create closer ties to us.\n\nThey have offered to purchase $CUB$ from us for a reasonable price."
+ fm_cas.8.a: "Reject this ridiculous offer!"
+ fm_cas.8.b: "Closer ties will make us both stronger"
+ fm_cas.8.holy: "$FLU$ will have a stronger Catholic Church for some time"
+
+ # Florida
+ fm_na_flu.3.t: "Rejection!"
+ fm_na_flu.3.d: "We have heard back from $CAS$"
+ fm_na_flu.3.f: "The King of $CAS$ has declined our generous offer for $CUB$."
+ fm_na_flu.3.a: "We must wait for another opportunity"
+
+ fm_na_flu.4.t: "$CAS_ADJ$ Response"
+ fm_na_flu.4.d: "We have heard back from $CAS$"
+ fm_na_flu.4.f: "The King of $CAS$ has accepted our generous offer for $CUB$."
+ fm_na_flu.4.a: "Wonderful!"

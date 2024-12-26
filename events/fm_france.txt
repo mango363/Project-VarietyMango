@@ -16,39 +16,75 @@ fm_france.1 = {
 		default_option = yes
 		if = {
 			limit = {
-				exists = c:DKT
+				exists = c:MCG
+				c:MCG = {
+					has_variable = variable_louisiana
+				}
 			}
-			c:DKT = {
-				trigger_event = fm_dakota.2
+			c:MCG = {
+				trigger_event = fm_na_mcg.1
 			}
 		}
 		else_if = {
 			limit = {
-				exists = c:LOB
+				exists = c:CAD
+				c:CAD = {
+					has_variable = variable_louisiana
+				}
 			}
-			c:LOB = {
-				trigger_event = fm_dakota.2
+			c:CAD = {
+				trigger_event = fm_na_cad.1
+			}
+		}
+		else_if = {
+			limit = {
+				exists = c:AT1
+				c:AT1 = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:AT1 = {
+				trigger_event = fm_na_at1.1
 			}
 		}
 	}
 	option = {
 		name = fm_france.1.b
+
 		if = {
 			limit = {
-				exists = c:DKT
+				exists = c:MCG
+				c:MCG = {
+					has_variable = variable_louisiana
+				}
 			}
-			c:DKT = {
-				trigger_event = fm_dakota.3
+			c:MCG = {
+				trigger_event = fm_na_mcg.2
 			}
 		}
 		else_if = {
 			limit = {
-				exists = c:LOB
+				exists = c:CAD
+				c:CAD = {
+					has_variable = variable_louisiana
+				}
 			}
-			c:LOB = {
-				trigger_event = fm_dakota.3
+			c:CAD = {
+				trigger_event = fm_na_cad.2
 			}
 		}
+		else_if = {
+			limit = {
+				exists = c:AT1
+				c:AT1 = {
+					has_variable = variable_louisiana
+				}
+			}
+			c:AT1 = {
+				trigger_event = fm_na_at1.2
+			}
+		}
+
 		add_modifier = {
 			name = modifier_fru_three
 			months = 60

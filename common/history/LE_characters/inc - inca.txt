@@ -1,0 +1,22 @@
+CHARACTERS = {
+	c:RPQ ?= {
+		create_character = {
+			first_name = Pachacútec
+			last_name = Atahualpa
+			historical = yes
+			female = no
+			ruler = no
+			birth_date = 1800.1.11
+			culture = cu:quechua
+			ig_leader = yes
+			interest_group = ig_devout
+
+			ideology = ideology_authoritarian
+			traits = {
+				inspirational_orator
+				literary
+				ambitious
+			}
+		}
+	}
+}

@@ -1,0 +1,244 @@
+POPS = {
+	# 97864 in 1830, 127586 in 1840
+	# working total of 112724
+	s:STATE_SONORA = {
+		region_state:YMN = {
+			create_pop = {
+				culture = na_yuman
+				size = 169087
+			}
+			create_pop = {
+				culture = na_piman
+				size = 193637
+			}
+		}
+	}
+	s:STATE_CHIHUAHUA = {
+		# total population: 132189 (1830), 147600 (1840)
+		region_state:NAH = {
+			create_pop = {
+				culture = na_piman
+				size = 239895
+			}
+			create_pop = {
+				culture = na_chickasaw_choctaw
+				size = 16000
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE = {
+		# Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
+		region_state:NSP = {
+			create_pop = {
+				culture = mexican
+				size = 721499
+			}
+			create_pop = {
+				culture = na_piman
+				size = 47000
+			}
+			create_pop = {
+				culture = na_piman
+				religion = catholic
+				size = 90004
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 6000
+			}
+		}
+	}
+	s:STATE_VERACRUZ = {
+		# 242658 in 1830, 259463 in 1840
+		region_state:NSP = {
+			create_pop = {
+				culture = mexican
+				size = 1351061
+			}
+			create_pop = {
+				culture = na_nahuan
+				religion = catholic
+				size = 22065
+			}
+			create_pop = {
+				culture = tarascan
+				religion = catholic
+				size = 51061
+			}
+		}
+	}
+	s:STATE_DURANGO = {
+		# est. total of 156999. 153810 in 1830, 160187 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = na_piman
+				size = 486199
+			}
+		}
+	}
+	s:STATE_SINALOA = {
+		# est. total of 134941. 122285 in 1830, 147596 in 1840
+		region_state:NAH = {
+			create_pop = {
+				culture = na_piman
+				size = 473841
+			}
+		}
+	}
+	s:STATE_BAJIO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = na_nahuan
+				size = 894909
+			}
+			create_pop = {
+				culture = tarascan
+				size = 266461
+			}
+		}
+		region_state:NSP = {
+			create_pop = {
+				culture = na_nahuan
+				size = 2490
+			}
+			create_pop = {
+				culture = tarascan
+				size = 1461
+			}
+			create_pop = {
+				culture = mexican
+				size = 461
+			}
+		}
+	}
+	s:STATE_YUCATAN = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mexican
+				size = 6764
+			}
+			create_pop = {
+				culture = mayan
+				size = 688804
+			}
+		}
+	}
+	s:STATE_MEXICO = {
+		region_state:NSP = {
+			create_pop = {
+				culture = mexican
+				size = 363486
+			}
+			create_pop = {
+				culture = na_nahuan
+				size = 689604
+			}
+			create_pop = {
+				culture = zapotec
+				size = 264004
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 14000
+			}
+		}
+		region_state:NAH = {
+			create_pop = {
+				culture = na_nahuan
+				size = 604
+			}
+			create_pop = {
+				culture = zapotec
+				size = 404
+			}
+		}
+	}
+	s:STATE_GUERRERO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = tarascan
+				size = 334874
+			}
+			create_pop = {
+				culture = na_nahuan
+				size = 170846
+			}
+			create_pop = {
+				culture = zapotec
+				size = 137381
+			}
+		}
+	}
+	s:STATE_OAXACA = {
+		region_state:MAY = {
+			create_pop = {
+				culture = mayan
+				size = 243903
+			}
+			create_pop = {
+				culture = zapotec
+				size = 40532
+			}
+			create_pop = {
+				culture = tarascan
+				size = 287073
+			}
+			create_pop = {
+				culture = na_nahuan
+				size = 84182
+			}
+			create_pop = {
+				culture = mexican
+				size = 3984
+			}
+		}
+	}
+	s:STATE_JALISCO = {
+		region_state:NAH = {
+			create_pop = {
+				culture = na_piman
+				size = 1011710
+			}
+			create_pop = {
+				culture = na_nahuan
+				size = 152078
+			}
+			create_pop = {
+				culture = tarascan
+				size = 26373
+			}
+		}
+	}
+	s:STATE_ZACATECAS = {
+		region_state:NAH = {
+			create_pop = {
+				culture = na_nahuan
+				size = 475961
+			}
+		}
+	}
+	s:STATE_CHIAPAS = {
+		region_state:MAY = {
+			create_pop = {
+				culture = tarascan
+				size = 13408
+			}
+			create_pop = {
+				culture = mayan
+				size = 681415
+			}
+		}
+	}
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:YMN = {
+			create_pop = {
+				culture = na_piman
+				size = 23300
+			}
+			create_pop = {
+				culture = na_yuman
+				size = 91300
+			}
+		}
+	}
+}

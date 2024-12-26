@@ -27,6 +27,8 @@ ve_becoming_atheist = {
 				has_modifier = gelugpa_pasive_mdf
 				has_modifier = conf_pasive
 				has_modifier = na_wocekiye_pasive_mdf
+				has_modifier = na_native_american_spirituality_pasive_mdf
+				has_modifier = norsp_pasive_mdf
 			}
 		}
 		remove_modifier = catholic_pasive_mdf
@@ -40,7 +42,9 @@ ve_becoming_atheist = {
 		remove_modifier = sikh_pasive_mdf
 		remove_modifier = animist_pasive_mdf
 		remove_modifier = na_wocekiye_pasive_mdf
+		remove_modifier = na_native_american_spirituality_pasive_mdf
 		remove_modifier = baal_pasive_mdf
+		remove_modifier = norsp_pasive_mdf
 		remove_modifier = zoro_pasive_mdf
 		remove_modifier = conf_pasive
 		remove_modifier = mahayana_pasive_mdf
@@ -134,6 +138,14 @@ ve_becoming_atheist = {
 		remove_modifier = na_wocekiye_aspect_6_mdf
 		remove_modifier = na_wocekiye_aspect_7_mdf
 		remove_modifier = na_wocekiye_aspect_8_mdf
+		remove_modifier = na_native_american_spirituality_aspect_1_mdf
+		remove_modifier = na_native_american_spirituality_aspect_2_mdf
+		remove_modifier = na_native_american_spirituality_aspect_3_mdf
+		remove_modifier = na_native_american_spirituality_aspect_4_mdf
+		remove_modifier = na_native_american_spirituality_aspect_5_mdf
+		remove_modifier = na_native_american_spirituality_aspect_6_mdf
+		remove_modifier = na_native_american_spirituality_aspect_7_mdf
+		remove_modifier = na_native_american_spirituality_aspect_8_mdf
 		remove_modifier = baal_aspect_1_mdf
 		remove_modifier = baal_aspect_2_mdf
 		remove_modifier = baal_aspect_3_mdf
@@ -150,6 +162,14 @@ ve_becoming_atheist = {
 		remove_modifier = zoro_aspect_6_mdf
 		remove_modifier = zoro_aspect_7_mdf
 		remove_modifier = zoro_aspect_8_mdf
+		remove_modifier = norsp_aspect_1_mdf
+		remove_modifier = norsp_aspect_2_mdf
+		remove_modifier = norsp_aspect_3_mdf
+		remove_modifier = norsp_aspect_4_mdf
+		remove_modifier = norsp_aspect_5_mdf
+		remove_modifier = norsp_aspect_6_mdf
+		remove_modifier = norsp_aspect_7_mdf
+		remove_modifier = norsp_aspect_8_mdf
 		remove_modifier = confucian_aspect_1_mdf
 		remove_modifier = confucian_aspect_2_mdf
 		remove_modifier = confucian_aspect_3_mdf
@@ -317,6 +337,15 @@ ve_religion_aspect_1_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_1_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:animist
 		}
 		add_modifier = {
@@ -330,6 +359,15 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_1_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_1_mdf
 			months = 65
 		}
 	}
@@ -491,6 +529,15 @@ ve_religion_aspect_2_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_2_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:animist
 		}
 		add_modifier = {
@@ -504,6 +551,15 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_2_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_2_mdf
 			months = 65
 		}
 	}
@@ -570,6 +626,15 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_3_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_3_mdf
 			months = 65
 		}
 	}
@@ -683,6 +748,15 @@ ve_religion_aspect_3_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_3_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {
@@ -762,6 +836,15 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_4_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_4_mdf
 			months = 65
 		}
 	}
@@ -857,6 +940,15 @@ ve_religion_aspect_4_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_4_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {
@@ -936,6 +1028,15 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_5_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_5_mdf
 			months = 65
 		}
 	}
@@ -1031,6 +1132,15 @@ ve_religion_aspect_5_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_5_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {
@@ -1101,6 +1211,15 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_6_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_6_mdf
 			months = 65
 		}
 	}
@@ -1205,6 +1324,15 @@ ve_religion_aspect_6_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_6_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {
@@ -1284,6 +1412,15 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_7_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_7_mdf
 			months = 65
 		}
 	}
@@ -1379,6 +1516,15 @@ ve_religion_aspect_7_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_7_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:atheist
 		}
 		add_modifier = {
@@ -1463,6 +1609,15 @@ ve_religion_aspect_8_effect = {
 	}
 	else_if = {
 		limit = {
+			country_has_state_religion = rel:norsp
+		}
+		add_modifier = {
+			name = norsp_aspect_8_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
 			country_has_state_religion = rel:confucian
 		}
 		add_modifier = {
@@ -1526,6 +1681,15 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_8_mdf
+			months = 65
+		}
+	}
+	else_if = {
+		limit = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		add_modifier = {
+			name = na_native_american_spirituality_aspect_8_mdf
 			months = 65
 		}
 	}

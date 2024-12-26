@@ -75,14 +75,16 @@ diplomatic_idea_7_mdf = {
 
 offensive_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_dragoons_offense_mult = 0.5
-	unit_combat_unit_type_cuirassiers_offense_mult = 0.5
-	unit_combat_unit_type_lancers_offense_mult = 0.5
+	unit_combat_unit_type_dragoons_offense_mult = 0.2
+	unit_combat_unit_type_cuirassiers_offense_mult = 0.2
+	unit_combat_unit_type_lancers_offense_mult = 0.15
+
 }
 
 offensive_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_offense_flat_mult = 0.25
+	unit_offense_flat_mult = 0.1
+	unit_offense_forested_mult = -0.1
 }
 
 offensive_idea_3_mdf = {
@@ -93,9 +95,9 @@ offensive_idea_3_mdf = {
 
 offensive_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_dragoons_defense_mult = 0.5
-	unit_combat_unit_type_cuirassiers_defense_mult = 0.5
-	unit_combat_unit_type_lancers_defense_mult = 0.5
+	unit_combat_unit_type_dragoons_defense_mult = 0.25
+	unit_combat_unit_type_cuirassiers_defense_mult = 0.25
+	unit_combat_unit_type_lancers_defense_mult = 0.25
 }
 
 offensive_idea_5_mdf = {
@@ -171,7 +173,7 @@ trade_idea_3_mdf = {
 trade_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	market_land_trade_capacity_add = 25
-	state_colony_growth_creation_mult = 0.1
+	state_colony_growth_creation_factor = 0.1
 }
 
 trade_idea_5_mdf = {
@@ -201,6 +203,7 @@ defensive_idea_1_mdf = {
 defensive_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	battle_defense_owned_province_mult = 0.1
+	unit_defense_developed_mult = 0.15
 }
 
 defensive_idea_3_mdf = {
@@ -243,7 +246,7 @@ administrative_idea_2_mdf = {
 
 administrative_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_radicals_from_discrimination_mult = -0.1
+	state_radicals_from_political_movements_mult = -0.1
 	building_government_administration_throughput_add = 0.1
 }
 
@@ -300,8 +303,8 @@ qualification_idea_5_mdf = {
 
 qualification_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_rich_standard_of_living_add = 1
-	state_middle_standard_of_living_add = 2
+	state_upper_strata_standard_of_living_add = 1
+	state_middle_strata_standard_of_living_add = 2
 }
 
 qualification_idea_7_mdf = {
@@ -371,10 +374,9 @@ ethnocentrism_idea_3_mdf = {
 
 ethnocentrism_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_loyalists_from_sol_change_accepted_religion_mult = 0.5
-	state_loyalists_from_sol_change_accepted_culture_mult = 0.5
-	state_radicals_from_sol_change_accepted_religion_mult = -0.25
-	state_radicals_from_sol_change_accepted_culture_mult = -0.25
+	country_loyalism_increases_second_rate_citizen_mult = 0.2
+	country_loyalism_increases_full_acceptance_mult = 0.5
+	country_state_religion_wages_mult = 0.25
 }
 
 ethnocentrism_idea_5_mdf = {
@@ -400,14 +402,14 @@ humanist_idea_1_mdf = {
 
 humanist_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_loyalists_from_sol_change_mult = 0.1
+	state_loyalists_from_political_movements_mult = 0.1
 	state_turmoil_effects_mult = -0.05
 }
 
 humanist_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	country_agitator_slots_add = 1
-	state_radicals_from_discrimination_mult = -0.2
+	state_radicals_from_political_movements_mult = -0.2
 }
 
 humanist_idea_4_mdf = {
@@ -451,6 +453,7 @@ militarization_idea_3_mdf = {
 militarization_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_supply_consumption_mult = -0.2
+	unit_defense_forested_mult = 0.1
 }
 
 militarization_idea_5_mdf = {
@@ -489,7 +492,7 @@ politics_idea_3_mdf = {
 
 politics_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	political_movement_radicalism_mult = -0.1
+	political_movement_radicalism_add = -0.1
 	state_turmoil_effects_mult = -0.1
 }
 
@@ -555,16 +558,17 @@ syndicalism_idea_7_mdf = {
 
 imperialist_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_combat_unit_type_cannon_artillery_defense_mult = 0.2
-	unit_combat_unit_type_mobile_artillery_defense_mult = 0.2
-	unit_combat_unit_type_shrapnel_artillery_defense_mult = 0.2
-	unit_combat_unit_type_siege_artillery_defense_mult = 0.2
+	unit_combat_unit_type_cannon_artillery_defense_mult = 0.15
+	unit_combat_unit_type_mobile_artillery_defense_mult = 0.15
+	unit_combat_unit_type_shrapnel_artillery_defense_mult = 0.15
+	unit_combat_unit_type_siege_artillery_defense_mult = 0.15
 }
 
 imperialist_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_provinces_captured_mult = 0.25
+	unit_provinces_captured_mult = 0.2
 	unit_offense_elevated_mult = 0.1
+	unit_defense_flat_mult = -0.1
 }
 
 imperialist_idea_3_mdf = {
@@ -584,13 +588,12 @@ imperialist_idea_4_mdf = {
 imperialist_idea_5_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_supply_consumption_mult = -0.05
-	unit_defense_elevated_mult = 0.2
+	unit_defense_elevated_mult = 0.15
 }
 
 imperialist_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_offense_developed_mult = 0.15
-	unit_offense_flat_mult = 0.1
+	unit_offense_developed_mult = 0.1
 }
 
 imperialist_idea_7_mdf = {

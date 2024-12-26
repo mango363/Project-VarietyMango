@@ -26,7 +26,7 @@ fm_rusf.1 = {
 		}
 		add_radicals = {
 			value = 0.15
-			strata = poor
+			strata = lower
 		}
 	}
 }
@@ -60,7 +60,7 @@ fm_rusf.2 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		hidden_effect = {
 			s:STATE_TARTARIA = {
@@ -176,7 +176,7 @@ fm_rusf.3 = {
 		name = fm_rusf.3.a
 		add_radicals = {
 			value = very_large_radicals
-			strata = rich
+			strata = upper
 		}
 		add_loyalists = {
 			value = 0.25

@@ -1,0 +1,35 @@
+# Belarus Region
+#assign_state_name_region_belarus  = {
+#	if = {
+#        limit = {
+#            state_region = {
+ #               s:STATE_BREST ?= this
+ #           }
+ #       }
+ #       STATE_BREST_state_name_assign = yes
+ #   }	
+#	if = {
+#        limit = {
+#            state_region = {
+#                s:STATE_MINSK ?= this
+#            }
+#        }
+#       STATE_MINSK_state_name_assign = yes
+ ##   }	
+#	if = {
+ #       limit = {
+ #           state_region = {
+ #               s:STATE_MOGILEV ?= this
+#            }
+ #       }
+ #       STATE_MOGILEV_state_name_assign = yes
+#    }	
+#if = {
+#        limit = {
+ #           state_region = {
+ #               s:STATE_VITEBSK ?= this
+ #           }
+ #       }
+ #       STATE_VITEBSK_state_name_assign = yes
+ #   }
+#}

@@ -2064,7 +2064,7 @@ agitators_election_events.14 = {
 		scope:capital_scope = {
 			add_radicals_in_state = {
 				value = medium_radicals
-				strata = rich
+				strata = upper
 			}	
 		}
 		scope:anti_communist_ig = {
@@ -2266,7 +2266,7 @@ agitators_election_events.15 = {
 		name = agitators_election_events.15.b
 		add_radicals = {
 			value = small_radicals
-			strata = poor
+			strata = lower
 		}
 		scope:agitator_party_scope = {
 			add_momentum = momentum_medium
@@ -2393,7 +2393,7 @@ agitators_election_events.16 = {
 		}
 		add_loyalists = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 		add_loyalists = {
 			value = small_radicals
@@ -2466,7 +2466,7 @@ agitators_election_events.16 = {
 		name = agitators_election_events.16.c
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 		add_radicals = {
 			value = small_radicals
@@ -2907,7 +2907,7 @@ agitators_election_events.19 = {
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 	}
 }
@@ -3804,7 +3804,7 @@ agitators_election_events.27 = {
 		}
 		add_loyalists = {
 			value = medium_radicals
-			strata = poor
+			strata = lower
 		}
 		scope:socdem_agitation_state = {
 			add_modifier = {
@@ -4759,7 +4759,10 @@ agitators_election_events.36 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -4819,7 +4822,10 @@ agitators_election_events.36 = {
 	}
 	event_image = {
 		trigger = {
+			OR = {
 			religion = rel:na_wocekiye
+			religion = rel:na_native_american_spirituality
+			}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -4840,7 +4846,9 @@ agitators_election_events.36 = {
 				religion = rel:sunni
 				religion = rel:shiite
 				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
 				religion = rel:zoroastrian
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"
@@ -6198,7 +6206,7 @@ agitators_election_events.44 = {
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 	}
 }
@@ -6322,7 +6330,7 @@ agitators_election_events.45 = {
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 	}
 }
@@ -6429,7 +6437,7 @@ agitators_election_events.46 = {
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = rich
+			strata = upper
 		}
 		add_modifier = {
 			name = modifier_tax_the_rich

@@ -610,15 +610,15 @@ fm_sae.7 = { #arabistam
 			limit = {	
 				state_region = s:STATE_BAGHDAD
 			}
-			add_loyalists = {
+			add_loyalists_in_state = {
 				value = 0.1
 				religion = rel:sunni
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.15
 				religion = rel:zoroastrian
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.3
 				pop_type = clergymen
 			}
@@ -633,11 +633,11 @@ fm_sae.7 = { #arabistam
 			limit = {	
 				state_region = s:STATE_BAGHDAD
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.3
 				religion = rel:sunni
 			}
-			add_loyalists = {
+			add_loyalists_in_state = {
 				value = 0.05
 				religion = rel:zoroastrian
 			}
@@ -691,7 +691,7 @@ fm_sae.8 = { #missionaries
 				target = rel:sunni
 				value = 0.05
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.1
 				religion = rel:zoroastrian
 			}
@@ -704,7 +704,7 @@ fm_sae.8 = { #missionaries
 				target = rel:sunni
 				value = 0.05
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.1
 				religion = rel:zoroastrian
 			}
@@ -768,11 +768,11 @@ fm_sae.9 = { #isfahan
 			limit = {	
 				state_region = s:STATE_ISFAHAN
 			}
-			add_loyalists = {
+			add_loyalists_in_state = {
 				value = 0.2
 				religion = rel:sunni
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.35
 				religion = rel:zoroastrian
 			}
@@ -790,7 +790,7 @@ fm_sae.9 = { #isfahan
 			kill_population_percent_in_state = {
 				percent = 0.06
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				value = 0.25
 				religion = rel:sunni
 			}

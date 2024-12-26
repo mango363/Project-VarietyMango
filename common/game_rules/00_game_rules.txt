@@ -39,6 +39,16 @@ ai_behavior = {
 	}
 }
 
+ai_ideas = {
+	default = no_ai_ideas
+
+	no_ai_ideas = {
+	}
+
+	yes_ai_ideas = {
+	}
+}
+
 ai_aggression = {
 	default = standard_ai_aggression
 
@@ -51,6 +61,26 @@ ai_aggression = {
 
 	high_ai_aggression = {
 		flag = high_ai_aggression
+	}
+}
+
+loyalties_grace_period = {
+	default = loyalties_grace_period_none
+
+	loyalties_grace_period_none = {
+		flag = loyalties_grace_period_none
+	}
+
+	loyalties_grace_period_short = {
+		flag = loyalties_grace_period_short
+	}
+	
+	loyalties_grace_period_long = {
+		flag = loyalties_grace_period_long
+	}
+	
+	loyalties_grace_period_extra_long = {
+		flag = loyalties_grace_period_extra_long
 	}
 }
 
