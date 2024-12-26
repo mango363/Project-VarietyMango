@@ -4,9 +4,9 @@ COUNTRIES = {
 				
 		
         set_ruling_interest_groups = {
-        	ig_landowners
+        	ig_devout
         }
-		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_theocracy
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_traditionalism
@@ -15,6 +15,9 @@ COUNTRIES = {
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_no_migration_controls
 
 		add_taxed_goods = g:grain
 	}

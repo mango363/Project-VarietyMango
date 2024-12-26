@@ -1,0 +1,60 @@
+namespace = fm_nata
+# start event
+fm_nata.541 = {
+	type = country_event
+	placement = ROOT
+	title = fm_nata.541.t
+	desc = fm_nata.541.d
+	flavor = fm_nata.541.f
+	duration = 3
+	event_image = {
+		video = "votp_agitators_sneaking"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/military_statistics.dds"
+
+	option = {
+		name = fm_nata.541.a
+		add_modifier = {
+			name = modifier_nat_three
+			months = 60
+		}
+	}
+}
+fm_nata.542 = {
+	type = country_event
+	placement = ROOT
+	title = fm_nata.542.t
+	desc = fm_nata.542.d
+	flavor = fm_nata.542.f
+	duration = 3
+	event_image = {
+		video = "votp_prison"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	option = {
+		name = fm_nata.542.a
+		every_country = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:dutch_colonial
+					country_has_primary_culture = cu:swedish_colonial
+					country_has_primary_culture = cu:americano
+					country_has_primary_culture = cu:korean
+					country_has_primary_culture = cu:han
+					country_has_primary_culture = cu:british
+					country_has_primary_culture = cu:french
+					country_has_primary_culture = cu:mexican
+					country_has_primary_culture = cu:vinlander
+				}
+				country_is_in_north_america = yes
+			}
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+	}
+}

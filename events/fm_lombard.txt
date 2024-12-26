@@ -55,7 +55,7 @@ lombard.2 = {
 		default_option = yes
 		add_radicals = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		every_interest_group = {
 			limit = {
@@ -157,7 +157,7 @@ lombard.3 = {
 			value = very_large_radicals
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		s:STATE_LAZIO = {
@@ -204,7 +204,7 @@ lombard.4 = {
 			value = large_radicals
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = large_radicals
 		}
 		add_loyalists = {

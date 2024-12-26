@@ -9,11 +9,13 @@
 			type = dominion
 		}
 	}
-	c:SWU ?= {
+	c:DKE ?= {
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
 		}
+	}
+	c:SWU ?= {
 		create_diplomatic_pact = {
 			country = c:AMC
 			type = dominion
@@ -52,7 +54,7 @@
 	c:NED ?= {
 		create_diplomatic_pact = {
 			country = c:VOC
-			type = dominion
+			type = chartered_company
 		}
 	}
 	c:SAU ?= {
@@ -86,22 +88,14 @@
 		}
 	}
 
-	c:CAS ?= {
-	}
-	c:SCA ?= {
-		create_diplomatic_pact = {
-			country = c:NOR
-			type = personal_union
-		}
-	}
 	c:PUR ?= {
 		create_diplomatic_pact = {
-			country = c:BRZ
-			type = protectorate
+			country = c:NIA
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:EIC
-			type = dominion
+			type = chartered_company
 		}
 	}
 	c:DAI ?= {
@@ -115,14 +109,10 @@
 			country = c:NUR
 			type = dominion
 		}
-		create_diplomatic_pact = {
-			country = c:FOU
-			type = dominion
-		}
 	}
-	c:SCO = {
+	c:SCU = {
 		create_diplomatic_pact = {
-			country = c:NVS
+			country = c:NOS
 			type = dominion
 		}
 	}
@@ -199,6 +189,23 @@
 		create_diplomatic_pact = {
 			country = c:TAK
 			type = tributary
+		}
+	}
+
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = dominion
+		}
+	}
+	c:RPQ ?= {
+		create_diplomatic_pact = {
+			country = c:AZ3
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AZ4
+			type = puppet
 		}
 	}
 }

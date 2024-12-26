@@ -35,14 +35,29 @@
 			type = defensive_pact
 		}	
 		create_diplomatic_pact = {
-			country = c:NAW          
+			country = c:NWA          
 			type = defensive_pact
 		}	
 	}
 	c:KAU ?= {
 		create_diplomatic_pact = {
-			country = c:NAW          
+			country = c:NWA          
 			type = defensive_pact
 		}	
+	}
+
+	# North America
+	c:MCG ?= {
+		create_diplomatic_pact = {
+			country = c:IQS
+			type = defensive_pact
+		}
+	}
+
+	c:FLU ?= {
+		create_diplomatic_pact = {
+			country = c:FOU
+			type = defensive_pact
+		}
 	}
 }

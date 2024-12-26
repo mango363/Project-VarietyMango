@@ -342,6 +342,14 @@ GPO = {
 	required_states_fraction = 1
 	
 	ai_will_do = { always = yes }
+
+	possible = {
+		NOR = {
+			c:AGA ?= this
+			c:BRZ ?= this
+		}
+	}
+
 }
 
 JAE = {
@@ -398,6 +406,33 @@ MKY = {
 	ai_will_do = { always = yes }
 }
 
+SOA = {
+	STATES = {
+		STATE_HAUSALAND
+		STATE_OUTER_HAUSALAND
+		STATE_NIGERIA
+		STATE_EAST_HAUSALAND
+		STATE_NORTH_CAMEROON
+		STATE_CHAD
+		STATE_BORNU
+		STATE_WADDAI
+		STATE_TRIPOLI
+		STATE_LIBYAN_DESERT
+		STATE_LIBYA
+		STATE_TUNISIA
+		STATE_CONSTANTINE
+	}
+
+	required_states_fraction = 0.8
+
+	possible = {
+		country_has_state_religion = rel:sunni
+		has_technology_researched = pan-nationalism
+	}
+	
+	ai_will_do = { always = yes }
+}
+
 GAR = {
 	STATES = {
 		STATE_ARMENIA
@@ -418,6 +453,14 @@ GAR = {
 	}
 
 	required_states_fraction = 0.85
+	
+	ai_will_do = { always = yes }
+}
+
+RAA = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
 	
 	ai_will_do = { always = yes }
 }
@@ -499,30 +542,6 @@ CUL = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.8
-	
-	ai_will_do = { always = yes }
-}
-
-BRZ = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.8
-	
-	ai_will_do = { always = yes }
-}
-
-MAX = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-}
-
-USA = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.75	
 	
 	ai_will_do = { always = yes }
 }
@@ -793,7 +812,7 @@ BHT = {
 		STATE_BALUCHISTAN
 		STATE_BIHAR 
 		STATE_BOMBAY 
-		STATE_CENTRAL_INDIA 
+		STATE_MALWA 
 		STATE_CEYLON 
 		STATE_CIRCARS
 		STATE_DELHI 
@@ -802,15 +821,19 @@ BHT = {
 		STATE_KASHMIR 
 		STATE_MADRAS 
 		STATE_MYSORE 
-		STATE_NAGPUR 
-		STATE_NORTH_BENGAL 
+		STATE_CENTRAL_PROVINCES 
+		STATE_WEST_BENGAL
 		STATE_ORISSA 
 		STATE_PASHTUNISTAN
 		STATE_PUNJAB 
 		STATE_RAJPUTANA 
 		STATE_SINDH 
-		STATE_SOUTH_BENGAL 
+		STATE_EAST_BENGAL 
 		STATE_TRAVANCORE
+		STATE_KURNOOL
+		STATE_BUNDELKHAND
+		STATE_AGRA
+		STATE_HILL_PUNJAB
 	}
 
 	required_states_fraction = 0.75
@@ -1109,17 +1132,6 @@ CLI = {
 	}
 }
 
-TWT = {
-	use_culture_states = yes
-	
-	required_states_fraction = 0.5
-
-	ai_will_do = { always = no }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
 
 PAK = {
 	states = {
@@ -1128,9 +1140,10 @@ PAK = {
 		STATE_KASHMIR
 		STATE_PUNJAB
 		STATE_SINDH
+		STATE_QUETTA
 	}
 
-	required_states_fraction = 0.80 # 4/5 states needed
+	required_states_fraction = 0.80 
 	
 	ai_will_do = { always = yes }
 
@@ -1151,3 +1164,5 @@ MGB = {
 		has_technology_researched = pan-nationalism
 	}
 }
+
+

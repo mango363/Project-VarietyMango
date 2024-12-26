@@ -578,7 +578,7 @@ WAT = { # watj
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
-NAW = { # nawu
+NWA = { # nawu
 	color = { 150 133 44 }
 
 	tier = principality

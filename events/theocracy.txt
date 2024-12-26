@@ -42,7 +42,10 @@ theocracy.1 = {
 	
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -102,7 +105,10 @@ theocracy.1 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -124,6 +130,8 @@ theocracy.1 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -259,7 +267,10 @@ theocracy.2 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -319,7 +330,10 @@ theocracy.2 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -341,6 +355,8 @@ theocracy.2 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"

@@ -132,7 +132,7 @@
 			name = "East India Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SOUTH_BENGAL
+				state_region = s:STATE_EAST_BENGAL
 				count = 20
 			}
 		}
@@ -142,7 +142,7 @@
 			name = "East India Navy"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SOUTH_BENGAL
+				state_region = s:STATE_EAST_BENGAL
 				count = 10
 			}
 		}
@@ -153,6 +153,38 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GUANGDONG
+				count = 5
+			}
+		}
+	}
+	c:NIA = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_zanj
+			name = "Niassa Company Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOCAMBIQUE
+				count = 5
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_zanj
+			name = "Niassa Company Navy"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_MOCAMBIQUE
+				count = 10
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_congo
+			name = "2nd Niassa Company Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTH_ANGOLA
 				count = 5
 			}
 		}

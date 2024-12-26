@@ -365,7 +365,10 @@ education_laws.5 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -425,7 +428,10 @@ education_laws.5 = {
 	}
 	event_image = {
 		trigger = {
-			country_has_state_religion = rel:na_wocekiye
+			OR = {
+				country_has_state_religion = rel:na_wocekiye
+				country_has_state_religion = rel:na_native_american_spirituality
+			}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -446,7 +452,9 @@ education_laws.5 = {
 				religion = rel:sunni
 				religion = rel:shiite
 				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
 				religion = rel:zoroastrian
+				religion = rel:norsp
 			}
 		}
 		video = "africa_animism"
@@ -516,7 +524,10 @@ education_laws.6 = {
 
 	event_image = {
 		trigger = {
-			religion = rel:jewish
+			OR = {
+				religion = rel:jewish
+				religion = rel:norsp
+				}
 		}
 		video = "europenorthamerica_judaism"
 	}
@@ -576,7 +587,10 @@ education_laws.6 = {
 	}
 	event_image = {
 		trigger = {
-			religion = rel:na_wocekiye
+			OR = {
+				religion = rel:na_wocekiye
+				religion = rel:na_native_american_spirituality
+				}
 		}
 		video = "europenorthamerica_native_american"
 	}
@@ -598,6 +612,8 @@ education_laws.6 = {
 				religion = rel:shiite
 				religion = rel:zoroastrian
 				religion = rel:na_wocekiye
+				religion = rel:norsp
+				religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"

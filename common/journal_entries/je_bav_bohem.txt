@@ -22,7 +22,7 @@ je_disf_king = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
-		has_law = law_type:law_racial_segregation
+		cultural_acceptance_base = { target = cu:south_german value >= 50 }
 		OR = {
 			has_law = law_type:law_freedom_of_conscience
 			has_law = law_type:law_total_separation
@@ -190,10 +190,7 @@ je_boh_dan = {
 			has_law = law_type:law_freedom_of_conscience
 			has_law = law_type:law_total_separation
 		}
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
+		cultural_acceptance_base = { target = cu:south_german value >= 50 }
 		has_technology_researched = pan-nationalism
 	}
 	fail = {
@@ -365,30 +362,14 @@ je_ger_conf = {
 		owns_entire_state_region = STATE_RUHR
 		owns_entire_state_region = STATE_RHINELAND
 		owns_entire_state_region = STATE_NORTH_RHINE
-	}
-	OR = {
-		AND = {
-			owns_entire_state_region = STATE_SAXONY
-			owns_entire_state_region = STATE_ANHALT
-			owns_entire_state_region = STATE_BRANDENBURG
-			owns_entire_state_region = STATE_MECKLENBURG
-			owns_entire_state_region = STATE_POMERANIA
-		}
-		c:LOT = {
-			is_subject_of = ROOT
-			relations:ROOT > relations_threshold:cordial
-		}
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_BRANDENBURG
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_POMERANIA
 		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
-		if = {
-			limit = {
-				c:LOT = {
-					is_subject_of = ROOT
-				}
-			}
-			annex = c:LOT
-		}
 		change_tag = GRO
 		trigger_event = {
 			id = fm_bavaria.7

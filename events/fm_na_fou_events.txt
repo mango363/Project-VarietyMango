@@ -1,0 +1,146 @@
+namespace = fm_na_fou
+# Establish New Syddanmark
+fm_na_fou.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_fou.1.t
+	desc = fm_na_fou.1.d
+	flavor = fm_na_fou.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	immediate = {
+		set_variable = established
+
+		add_loyalists = {
+			value = 0.1
+			strata = lower
+		}
+		add_loyalists = {
+			value = 0.1
+			strata = middle
+		}
+		add_loyalists = {
+			value = 0.1
+			strata = upper
+		}
+
+		s:STATE_SOUTH_CAROLINA = {
+			set_state_type = incorporated
+		}
+		s:STATE_NORTH_CAROLINA = {
+			set_state_type = incorporated
+		}
+		s:STATE_VIRGINIA = {
+			set_state_type = incorporated
+		}
+
+		if = {
+			limit = {
+				has_state_in_state_region = s:STATE_WEST_VIRGINIA
+			}
+
+			add_claim = s:STATE_WEST_VIRGINIA
+
+			else = {
+				s:STATE_WEST_VIRGINIA = {
+					set_state_type = incorporated
+				}
+			}
+		}
+	}
+	option = {
+		name = fm_na_fou.1.a
+		default_option = yes
+	}
+}
+
+# Lost Main States, rip idk how you gonna live
+fm_na_fou.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_fou.2.t
+	desc = fm_na_fou.2.d
+	flavor = fm_na_fou.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_devastation"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	immediate = {
+		ig:ig_armed_forces = {
+			leader = {
+				set_ideology = ideology:ideology_authoritarian
+			}
+		}
+	}
+	option = {
+		name = fm_na_fou.2.a
+		default_option = yes
+	}
+}
+
+# Defended from the Old Powers
+fm_na_fou.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_fou.3.t
+	desc = fm_na_fou.3.d
+	flavor = fm_na_fou.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_devastation"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		ruler = {
+			character_popularity_add = 50
+			add_trait = ambitious
+			add_trait = honorable
+		}
+
+		add_loyalists = {
+			value = 0.3
+			strata = lower
+		}
+		add_loyalists = {
+			value = 0.3
+			strata = middle
+		}
+		add_loyalists = {
+			value = 0.3
+			strata = upper
+		}
+	}
+	option = {
+		name = fm_na_fou.3.a
+		default_option = yes
+	}
+}
+
+# Lost to the Old Powers
+fm_na_fou.4 = {
+	type = country_event
+	placement = ROOT
+	title = fm_na_fou.4.t
+	desc = fm_na_fou.4.d
+	flavor = fm_na_fou.4.f
+	duration = 3
+	event_image = {
+		video = "unspecific_devastation"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+
+	}
+	option = {
+		name = fm_na_fou.4.a
+		default_option = yes
+	}
+}

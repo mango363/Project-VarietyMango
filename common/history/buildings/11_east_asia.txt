@@ -980,14 +980,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_forbidden_city"
-				add_ownership={
-					country={
-						country="c:ZHI"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3116,14 +3109,7 @@ BUILDINGS={
 			}
 			create_building={
 				building="building_angkor_wat"
-				add_ownership={
-					country={
-						country="c:CAM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
+				level=1
 			}
 			create_building={
 				building="building_rice_farm"
@@ -3488,30 +3474,6 @@ BUILDINGS={
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
-			create_building={
-				building="building_dye_plantation"
-				add_ownership={
-					country={
-						country="c:BIC"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:BIC"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:SIA = {
 			create_building={
 				building="building_spice_plantation"
@@ -3589,7 +3551,10 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_BURMA = {
+	STATE_ARAKAN = {
+		
+	}
+	s:STATE_MANDALAY = {
 		region_state:BUR = {
 			create_building={
 				building="building_government_administration"

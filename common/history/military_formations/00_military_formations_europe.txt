@@ -189,11 +189,11 @@
 		}
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_congo
-			name = "Divisao Congo"
+			hq_region = sr:region_brazil
+			name = "Divisao Pará"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SOUTH_ANGOLA
+				state_region = s:STATE_PARA
 				count = 5
 			}
 		}
@@ -1045,7 +1045,7 @@
 			save_scope_as = 1st_english_fleet
 		}
 	}
-	c:SCO = {
+	c:SCU = {
 		##High Kingdom
 		create_military_formation = {
 			type = fleet
@@ -1348,7 +1348,7 @@
 			save_scope_as = smolensk_army
 		}
 	}
-	c:SAT = {
+	c:STR = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia

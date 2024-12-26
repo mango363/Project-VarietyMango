@@ -1,0 +1,526 @@
+namespace = fm_aga
+
+fm_aga.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_aga.1.t
+	desc = fm_aga.1.d
+	flavor = fm_aga.1.f
+	duration = 3
+	event_image = {
+		texture = "gfx/event_pictures/Popecathedral.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_aga.1.a
+		add_journal_entry = {
+			type = je_aga_reforms
+		}
+	}
+}
+
+fm_aga.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_aga.2.t
+	desc = fm_aga.2.d
+	flavor = fm_aga.2.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/politics_icons/radicalized.dds"
+	trigger = {
+	}
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					exists = c:BRZ
+				}
+			 }
+			random_scope_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:brazilian
+					}
+					owner = root
+				}
+				save_scope_as = secession_state_brz
+			}
+			create_country = {
+				tag = BRZ
+				origin = ROOT
+				state = scope:secession_state_brz
+			}
+			every_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:brazilian
+					}
+					owner = root
+				}
+				set_state_owner = c:BRZ
+				set_state_type = incorporated
+			}
+			c:BRZ = {
+				set_missionary_cultural_missionary = yes
+				ve_law_change_effects = yes
+				set_point_system = yes
+				set_idea_buttons = yes
+				set_ideas = yes
+				set_national_idea = yes
+				religion_passive_bonuses = yes
+				national_idea_traditions = yes
+				ve_holy_site_effects = yes
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					exists = c:URU
+				}
+			 }
+			random_scope_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:platinean
+					}
+					owner = root
+				}
+				save_scope_as = secession_state_uru
+			}
+			create_country = {
+				tag = URU
+				origin = ROOT
+				state = scope:secession_state_uru
+			}
+			every_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:platinean
+					}
+					owner = root
+				}
+				set_state_owner = c:URU
+				set_state_type = incorporated
+			}
+			c:URU = {
+				set_missionary_cultural_missionary = yes
+				ve_law_change_effects = yes
+				set_point_system = yes
+				set_idea_buttons = yes
+				set_ideas = yes
+				set_national_idea = yes
+				religion_passive_bonuses = yes
+				national_idea_traditions = yes
+				ve_holy_site_effects = yes
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					exists = c:AGR
+				}
+			 }
+			random_scope_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:argentino
+					}
+					owner = root
+				}
+				save_scope_as = secession_state_agr
+			}
+			create_country = {
+				tag = AGR
+				origin = ROOT
+				state = scope:secession_state_agr
+			}
+			every_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:argentino
+					}
+					owner = root
+				}
+				set_state_owner = c:AGR
+				set_state_type = incorporated
+			}
+			c:AGR = {
+				set_missionary_cultural_missionary = yes
+				ve_law_change_effects = yes
+				set_point_system = yes
+				set_idea_buttons = yes
+				set_ideas = yes
+				set_national_idea = yes
+				religion_passive_bonuses = yes
+				national_idea_traditions = yes
+				ve_holy_site_effects = yes
+			}
+		}
+	}
+
+	option = {
+		name = fm_aga.2.z
+		default_option = yes
+		trigger = {
+			c:AGR = {
+				is_ai = yes
+			}
+			c:BRZ = {
+				is_ai = yes
+			}
+			c:URU = {
+				is_ai = yes
+			}
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = lower
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = middle
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = upper
+		}
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						owner = c:AGR
+						owner = c:BRZ
+						owner = c:URU
+					}
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = fm_aga.2.a
+		default_option = yes
+		trigger = {
+			c:AGR = {
+				is_ai = no
+			}
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = lower
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = middle
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = upper
+		}
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						owner = c:BRZ
+						owner = c:URU
+					}
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = fm_aga.2.b
+		default_option = yes
+		trigger = {
+			c:BRZ = {
+				is_ai = no
+			}
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = lower
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = middle
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = upper
+		}
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						owner = c:AGR
+						owner = c:URU
+					}
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = fm_aga.2.c
+		default_option = yes
+		trigger = {
+			c:URU = {
+				is_ai = no
+			}
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = lower
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = middle
+		}
+		add_radicals = {
+			value = large_radicals
+			strata = upper
+		}
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						owner = c:AGR
+						owner = c:BRZ
+					}
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = fm_aga.2.e
+		trigger = {
+			c:AGR = {
+				is_ai = yes
+			}
+		}
+		play_as = c:AGR
+	}
+	option = {
+		name = fm_aga.2.g
+		trigger = {
+			c:BRZ = {
+				is_ai = yes
+			}
+		}
+		play_as = c:BRZ
+	}
+	option = {
+		name = fm_aga.2.h
+		trigger = {
+			c:URU = {
+				is_ai = yes
+			}
+		}
+		play_as = c:URU
+	}
+}
+
+fm_aga.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_aga.3.t
+	desc = fm_aga.3.d
+	flavor = fm_aga.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_aga.3.a
+		default_option = yes
+		add_loyalists = {
+			strata = upper
+			value = 0.35
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.25
+		}
+		add_loyalists = {
+			strata = lower
+			value = 0.2
+		}
+	}
+}
+
+fm_aga.4 = {
+	type = country_event
+	placement = ROOT
+	title = fm_aga.4.t
+	desc = fm_aga.4.d
+	flavor = fm_aga.4.f
+	duration = 3
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	immediate = {
+		activate_law = law_type:law_autocracy
+	}
+	option = {
+		name = fm_aga.4.a
+		default_option = yes
+		hidden_effect = {
+			remove_primary_culture = cu:brazilian
+			remove_primary_culture = cu:platinean
+		}
+		create_character = {
+			template = ermanno_rossi
+			on_created = {
+				set_character_as_ruler = yes
+				add_character_role = politician
+			}
+		}
+		change_tag = AGR
+		add_radicals = {
+			value = 0.25
+			strata = upper
+		}
+		add_loyalists = {
+			value = 0.3
+			pop_type = officers
+		}
+		add_loyalists = {
+			pop_type = soldiers
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			culture = cu:argentino
+			value = large_radicals
+		}
+		add_radicals = {
+			strata = lower
+			value = 0.2
+		}
+		add_journal_entry = {
+			type = je_aga_centr
+		}
+	}
+	option = {
+		name = fm_aga.4.b
+		hidden_effect = {
+			remove_primary_culture = cu:argentino
+			remove_primary_culture = cu:platinean
+		}
+		create_character = {
+			template = generalissimo_brazileo
+			on_created = {
+				add_character_role = politician
+				set_character_as_ruler = yes
+			}
+		}
+		change_tag = BRZ
+		add_radicals = {
+			value = 0.25
+			strata = upper
+		}
+		add_loyalists = {
+			value = 0.3
+			pop_type = officers
+		}
+		add_loyalists = {
+			pop_type = soldiers
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			culture = cu:brazilian
+			value = large_radicals
+		}
+		add_radicals = {
+			strata = lower
+			value = 0.2
+		}
+		add_journal_entry = {
+			type = je_aga_centr
+		}
+	}
+	option = {
+		name = fm_aga.4.c
+		hidden_effect = {
+			remove_primary_culture = cu:argentino
+			remove_primary_culture = cu:brazilian
+		}
+		create_character = {
+			template = el_urugu
+			on_created = {
+				set_character_as_ruler = yes
+				add_character_role = politician
+			}
+		}
+		change_tag = URU
+		add_radicals = {
+			value = 0.25
+			strata = upper
+		}
+		add_loyalists = {
+			value = 0.3
+			pop_type = officers
+		}
+		add_loyalists = {
+			pop_type = soldiers
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			culture = cu:platinean
+			value = large_radicals
+		}
+		add_radicals = {
+			strata = lower
+			value = 0.2
+		}
+		add_journal_entry = {
+			type = je_aga_centr
+		}
+	}
+}
+
+fm_aga.5 = {
+	type = country_event
+	placement = ROOT
+	title = fm_aga.5.t
+	desc = fm_aga.5.d
+	flavor = fm_aga.5.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_aga.5.a
+		default_option = yes
+		add_loyalists = {
+			strata = upper
+			value = 0.35
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.25
+		}
+		add_loyalists = {
+			strata = lower
+			value = 0.2
+		}
+	}
+}

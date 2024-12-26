@@ -59,7 +59,7 @@ papal_to_rome.1 = {
 			}
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = large_radicals
 		}
 		every_scope_state = {
@@ -108,7 +108,7 @@ papal_to_rome.1 = {
 			}
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.15
 		}
 		add_radicals = {
@@ -116,7 +116,7 @@ papal_to_rome.1 = {
 			value = 0.1
 		}
 		add_radicals = {
-			strata = poor
+			strata = lower
 			value = 0.05
 		}
 		ai_chance = {
@@ -153,11 +153,11 @@ papal_to_rome.2 = {
 		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_public_schools
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = small_radicals
 		}
 		trigger_event = {
@@ -633,7 +633,7 @@ papal_to_rome.8 = {
 			pop_type = soldiers
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = very_large_radicals
 		}
 		s:STATE_ATTICA = {
@@ -681,7 +681,7 @@ papal_to_rome.9 = {
 			value = 0.2
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.15
 		}
 		add_journal_entry = {
@@ -717,7 +717,7 @@ papal_to_rome.10 = {
 		name = papal_to_rome.10.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -725,7 +725,7 @@ papal_to_rome.10 = {
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		if = {
@@ -765,7 +765,7 @@ papal_to_rome.12 = {#punic won
 		name = papal_to_rome.10.a
 		default_option = yes
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_loyalists = {
@@ -773,7 +773,7 @@ papal_to_rome.12 = {#punic won
 			value = 0.15
 		}
 		add_loyalists = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		add_modifier = {
@@ -807,7 +807,7 @@ papal_to_rome.11 = { #punic lost
 		name = papal_to_rome.11.a
 		default_option = yes
 		add_radicals = {
-			strata = rich
+			strata = upper
 			value = 0.2
 		}
 		add_radicals = {
@@ -815,7 +815,7 @@ papal_to_rome.11 = { #punic lost
 			value = 0.15
 		}
 		add_radicals = {
-			strata = poor
+			strata = lower
 			value = 0.1
 		}
 		add_modifier = {

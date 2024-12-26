@@ -65,7 +65,7 @@
  modifier_rui_five:0 "Espionage Expenses"
  modifier_rui_nine:0 "Backward Nation"
  modifier_rui_ten:0 "Russia Has Risen"
- modifier_jap_fm:0 "Colonization Resistance"
+ modifier_vin1:0 "Colonization Boost"
  modifier_yua_one:0 "Cost of the Bribes"
  modifier_yua_exp:0 "Exporting Newspapers to the West"
  modifier_yua_col_two:0 "Spreading False Propaganda"
@@ -73,6 +73,8 @@
  modifier_yua_mos:0 "Most Infamous Law"
  modifier_yua_int:0 "Integration Act"
  modifier_yua_three:0 "Travel Expenses"
+ modifier_yua_four:0 ""Gifts" for the Numic League"
+ 
  modifier_kor_two:0 "Building a Navy"
  modifier_kor_one:0 "Police Brutality"
  modifier_kor_three:0 "Coronation Ceremony Preparations"
@@ -261,6 +263,10 @@
  kong_hs_mdf:0 "Kong Family Mansion"
  seoul_hs_mdf:0 "Munmyo Confucian Shrine"
  munm_hs_mdf:0 "Fuzi Miao"
+ sveala_mdf:0 "Ubsola`s Temple"
+ nnor_mdf:0 "Temple at Niðaróss"
+ yorkshire_mdf:0 "Temple at Jórvík"
+ newfound_mdf:0 "Great Temple of Óðinn"
 
  #Religion Aspect
  catholic_pasive_mdf:0 "Catholic"
@@ -366,7 +372,7 @@
  baal_aspect_8_mdf:0 "Protect the Faith"
  zoro_pasive_mdf:0 "Zoroastrian"
  zoro_aspect_1_mdf:0 "Followers of Zarathustra"
- zoro_aspect_2_mdf:0 "Phoenician Dances"
+ zoro_aspect_2_mdf:0 "Deport Unbelievers"
  zoro_aspect_3_mdf:0 "Sign of Tanit"
  zoro_aspect_4_mdf:0 "Punic Trades"
  zoro_aspect_5_mdf:0 "Religious Bureaucrats"
@@ -391,6 +397,16 @@
  na_wocekiye_aspect_6_mdf:0 "Huŋkalowaŋpi"
  na_wocekiye_aspect_7_mdf:0 "Wanáǧi Yuhápi"
  na_wocekiye_aspect_8_mdf:0 "Social Unity"
+
+ na_native_american_spirituality_pasive_mdf:0 "Wocekiye"
+ na_native_american_spirituality_aspect_1_mdf:0 "Defend our Lands"
+ na_native_american_spirituality_aspect_2_mdf:0 "Nature Blessings"
+ na_native_american_spirituality_aspect_3_mdf:0 "Martyrs"
+ na_native_american_spirituality_aspect_4_mdf:0 "Rightful Laws"
+ na_native_american_spirituality_aspect_5_mdf:0 "Volunteer Soldiers"
+ na_native_american_spirituality_aspect_6_mdf:0 "Communal Effort"
+ na_native_american_spirituality_aspect_7_mdf:0 "Religion Taxes"
+ na_native_american_spirituality_aspect_8_mdf:0 "Social Unity"
  animist_pasive_mdf:0 "Animist"
  animist_aspect_1_mdf:0 "Defend our Lands"
  animist_aspect_2_mdf:0 "Nature Blessings"
@@ -409,8 +425,17 @@
  atheist_aspect_6_mdf:0 "Atheist Philosophers"
  atheist_aspect_7_mdf:0 "National Unity"
  atheist_aspect_8_mdf:0 "Academic Migration"
+ norsp_aspect_1_mdf:0 "Devotee of Óðinn"
+ norsp_aspect_2_mdf:0 "Devotee of Ullr"
+ norsp_aspect_3_mdf:0 "Devotee of Þórr"
+ norsp_aspect_4_mdf:0 "Devotee of Freyr"
+ norsp_aspect_5_mdf:0 "Raise Runestones"
+ norsp_aspect_6_mdf:0 "Subsidized Research"
+ norsp_aspect_7_mdf:0 "Open Temples"
+ norsp_aspect_8_mdf:0 "Call of the Jómsvíkingar"
  ve_missionary_mdf:0 "Active Missionary"
  ve_diffusionist_mdf:0 "Active Governor"
+ norsp_pasive_mdf:0 "Norse Paganism"
 
  #Group Ideas
  innovative_idea_1_mdf:0 "Innovative Idea I"
@@ -666,3 +691,10 @@
  wareco3:0 "War Economy"
 
  endofda:0 "End of the Daimyō"
+
+ modifier_ind_six:0 "Adena"
+ modifier_ind_seven:0 "Southern Border"
+
+ modifier_atz_one:0 "Army Reforms"
+ modifier_atz_two:0 "Tawantinsuyu"
+ 

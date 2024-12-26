@@ -83,24 +83,19 @@
 		region_state:BOH = {
 			create_pop = {
 				culture = north_german
-				size = 598008
+				size = 258008
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 16004
+				size = 404
 			}
 			create_pop = {
 				culture = czech
-				size = 149008
+				size = 229008
 			}
 			create_pop = {
 				culture = polish
-				size = 212800
-			}
-			create_pop = {
-				culture = north_german
-				religion = protestant
-				size = 228400
+				size = 12800
 			}
 		}
 		region_state:LOT = {
@@ -112,7 +107,19 @@
 		region_state:WRS = {
 			create_pop = {
 				culture = polish
-				size = 62800
+				size = 662800
+			}
+			create_pop = {
+				culture = north_german
+				size = 198008
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 6004
+			}
+			create_pop = {
+				culture = czech
+				size = 49008
 			}
 		}
 	}

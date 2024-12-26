@@ -139,7 +139,7 @@ fm_pom.4 = {
 		}
 		add_loyalists = {
 			value = large_radicals
-			strata = poor
+			strata = lower
 		}
 		add_modifier = {
 			name = modifier_loth_twelwe

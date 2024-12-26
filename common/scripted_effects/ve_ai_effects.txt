@@ -24,7 +24,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			7 = {
+			40 = {
 				if = {
 					limit = {
 						NOT = {
@@ -168,7 +168,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			7 = {
+			30 = {
 				if = {
 					limit = {
 						NOT = {
@@ -186,7 +186,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -204,7 +204,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -240,7 +240,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -258,7 +258,7 @@ ve_ai_choose_idea = {
 					}
 				}
 			}
-			6 = {
+			50 = {
 				if = {
 					limit = {
 						NOT = {
@@ -470,9 +470,11 @@ ve_ai_uses_religion = {
 							has_modifier = sikh_aspect_1_mdf
 							has_modifier = animist_aspect_1_mdf
 							has_modifier = na_wocekiye_aspect_1_mdf
+							has_modifier = na_native_american_spirituality_aspect_1_mdf
 							has_modifier = baal_aspect_1_mdf
 							has_modifier = zoro_aspect_1_mdf
 							has_modifier = confucian_aspect_1_mdf
+							has_modifier = norsp_aspect_1_mdf
 						}
 					}
 				}
@@ -500,6 +502,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_2_mdf
 							has_modifier = confucian_aspect_2_mdf
 							has_modifier = na_wocekiye_aspect_2_mdf
+							has_modifier = na_native_american_spirituality_aspect_2_mdf
+							has_modifier = norsp_aspect_2_mdf
 						}
 					}
 				}
@@ -527,6 +531,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_3_mdf
 							has_modifier = confucian_aspect_3_mdf
 							has_modifier = na_wocekiye_aspect_3_mdf
+							has_modifier = na_native_american_spirituality_aspect_3_mdf
+							has_modifier = norsp_aspect_3_mdf
 						}
 					}
 				}
@@ -554,6 +560,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_4_mdf
 							has_modifier = confucian_aspect_4_mdf
 							has_modifier = na_wocekiye_aspect_4_mdf
+							has_modifier = na_native_american_spirituality_aspect_4_mdf
+							has_modifier = norsp_aspect_4_mdf
 						}
 					}
 				}
@@ -581,6 +589,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_5_mdf
 							has_modifier = confucian_aspect_5_mdf
 							has_modifier = na_wocekiye_aspect_5_mdf
+							has_modifier = na_native_american_spirituality_aspect_5_mdf
+							has_modifier = norsp_aspect_5_mdf
 						}
 					}
 				}
@@ -608,6 +618,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_6_mdf
 							has_modifier = confucian_aspect_6_mdf
 							has_modifier = na_wocekiye_aspect_6_mdf
+							has_modifier = na_native_american_spirituality_aspect_6_mdf
+							has_modifier = norsp_aspect_6_mdf
 						}
 					}
 				}
@@ -635,6 +647,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_7_mdf
 							has_modifier = confucian_aspect_7_mdf
 							has_modifier = na_wocekiye_aspect_7_mdf
+							has_modifier = na_native_american_spirituality_aspect_7_mdf
+							has_modifier = norsp_aspect_7_mdf
 						}
 					}
 				}
@@ -662,6 +676,8 @@ ve_ai_uses_religion = {
 							has_modifier = zoro_aspect_8_mdf
 							has_modifier = confucian_aspect_8_mdf
 							has_modifier = na_wocekiye_aspect_8_mdf
+							has_modifier = na_native_american_spirituality_aspect_8_mdf
+							has_modifier = norsp_aspect_8_mdf
 						}
 					}
 				}

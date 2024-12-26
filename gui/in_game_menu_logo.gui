@@ -578,8 +578,8 @@ types ingame_menu_logo {
 			
 			### V
 			widget = {
-				size = { 65 65}
-				position = { 35 0 }
+				size = { 115 115 }
+				position = { 0 15 }
 				
 				icon = {
 					texture = "gfx/interface/menu/menu_logo_v.dds"

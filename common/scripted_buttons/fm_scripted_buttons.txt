@@ -5,7 +5,7 @@ je_ye_button_one = {
 		always = yes
 	}
 	ai_chance = {
-		base = 100
+		base = 10
 	}
 	possible = {
 		custom_tooltip = {
@@ -17,26 +17,12 @@ je_ye_button_one = {
 				has_variable = nevbuy
 			}
 		}
+		c:SIS = {
+			is_ai = yes
+		}
 	}
 	effect = {
-		random_state = {
-			limit = {
-				state_region = s:STATE_OREGON
-			}
-			set_state_owner = ROOT
-		}
-		random_state = {
-			limit = {
-				state_region = s:STATE_IDAHO
-			}
-			set_state_owner = ROOT
-		}
-		random_state = {
-			limit = {
-				state_region = s:STATE_WASHINGTON
-			}
-			set_state_owner = ROOT
-		}
+		annex = c:SIS
 		add_modifier = {
 			name = modifier_yua_one
 			months = 60
@@ -46,26 +32,65 @@ je_ye_button_one = {
 		}
 		hidden_effect = {
 			s:STATE_OREGON = {
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:dakota
+				remove_homeland = cu:na_paiute
+				remove_homeland = cu:na_shapwailutan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_IDAHO = {
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:paiute
-				remove_homeland = cu:dakota
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_WASHINGTON = {
-				remove_homeland = cu:salish
-				remove_homeland = cu:nez_perce
-				remove_homeland = cu:dakota
+				remove_homeland = cu:na_salishan
+				remove_homeland = cu:na_shapwailutan
+				add_homeland = cu:han
+				add_homeland = cu:yue
+				add_homeland = cu:min
+				add_homeland = cu:manchu
+			}
+		}
+	}
+}
+je_ye_button_two = {
+	name = "je_ye_button_two"
+	desc = "je_ye_button_two_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 10
+	}
+	possible = {
+		custom_tooltip = {
+			text = noauth
+			NOT = {
+				has_variable = yua_auth
+			}
+			NOT = {
+				has_variable = monbuy
+			}
+		}
+		c:BFT = {
+			is_ai = yes
+		}
+	}
+	effect = {
+		annex = c:BFT
+		add_modifier = {
+			name = modifier_yua_one
+			months = 24
+		}
+		set_variable = {
+			name = monbuy
+		}
+		hidden_effect = {
+			s:STATE_MONTANA = {
+				remove_homeland = cu:na_blackfoot
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
@@ -82,29 +107,26 @@ je_ye_button_col = {
 		always = yes
 	}
 	ai_chance = {
-		base = 100
+		base = 0
 	}
 	possible = {
 		custom_tooltip = {
 			text = yua_col_disc_text
 			has_variable = yua_col_disc
-		}
-		NOT = {
-			has_modifier = modifier_yua_col
+			NOT = {
+				has_variable = yuabuttcol
+			}
 		}
 	}
 	effect = {
-		activate_law = law_type:law_frontier_colonization
-		hidden_effect = {
-			add_modifier = {
-				name = modifier_yua_col
-			}
-			s:STATE_NEVADA = {
-				add_claim = c:YUA
-			}
-			s:STATE_UTAH = {
-				add_claim = c:YUA
-			}
+		add_journal_entry = {
+			type = je_buy_salas
+		}
+		custom_tooltip = {
+			text = jeyebutcol
+		}
+		set_variable = {
+			name = yuabuttcol
 		}
 	}
 }
@@ -1398,357 +1420,6 @@ je_anatolia_int_erz = {
 	}
 }
 
-je_buy_louisiana = {
-	name = "je_buy_louisiana"
-	desc = "je_buy_louisiana_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_france.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_france.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-je_buy_louisiana_amc = {
-	name = "je_buy_louisiana_amc"
-	desc = "je_buy_louisiana_amc_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_amc
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_amc
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_amc.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_amc.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_buy_louisiana_flu = {
-	name = "je_buy_louisiana_flu"
-	desc = "je_buy_louisiana_flu_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_flu
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_flu
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_flu.3
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_flu.3
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_buy_louisiana_mex = {
-	name = "je_buy_louisiana_mex"
-	desc = "je_buy_louisiana_mex_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		custom_tooltip = {
-			text = luoi_text
-			NOT = {
-				has_modifier = modifier_fru_one
-			}
-			NOT = {
-				has_variable = variable_louisiana_mex
-			}
-		}
-	}
-	effect = {
-		set_variable = {
-			name = variable_louisiana_mex
-		}
-		if = {
-			limit = {
-				exists = c:FRU
-				c:LOI = {
-					is_subject_of = c:FRU
-				}
-			}
-			c:FRU = {
-				trigger_event = {
-					id = fm_luoi_mex.1
-					days = 30
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:FRE
-				c:LOI = {
-					is_subject_of = c:FRE
-				}
-			}
-			c:FRE = {
-				trigger_event = {
-					id = fm_luoi_mex.1
-					days = 30
-				}
-			}
-		}
-	}
-}
-
-je_dakota_tribes_ctf = {
-	name = "je_dakota_tribes_ctf"
-	desc = "je_dakota_tribes_ctf_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:CTF
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.6
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_cru = {
-	name = "je_dakota_tribes_cru"
-	desc = "je_dakota_tribes_cru_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:CRU
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.7
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_sio = {
-	name = "je_dakota_tribes_sio"
-	desc = "je_dakota_tribes_sio_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 0
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:SIO
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.8
-				days = 730
-			}
-		}
-	}
-}
-
-je_dakota_tribes_lkt = {
-	name = "je_dakota_tribes_lkt"
-	desc = "je_dakota_tribes_lkt_desc"
-	visible = {
-		always = yes
-	}
-	ai_chance = {
-		base = 100
-	}
-	possible = {
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-		}
-		NOT = {
-			has_modifier = modifier_dak_three
-		}
-		exists = c:LKT
-	}
-	effect = {
-		add_modifier = {
-			name = modifier_dak_three
-			months = 24
-		}
-		root = {
-			trigger_event = {
-				id = fm_dakota.5
-				days = 730
-			}
-		}
-	}
-}
-
 je_ind_rem_but = {
 	name = "je_ind_rem_but"
 	desc = "je_ind_rem_but_desc"
@@ -1805,7 +1476,62 @@ je_int_ala = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
+					culture = cu:na_chickasaw_choctaw
+					
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_muscogee
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_apalachee
+				}
+				set_state_type = incorporated
+			}
+		}
+		add_modifier = {
+			name = modifier_ind_four
+			months = 12
+		}
+	}
+}
+
+
+je_int_nacoc = {
+	name = "je_int_nacoc"
+	desc = "je_int_ala_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		owns_entire_state_region = STATE_GEORGIA
+		NOT = {
+			has_modifier = modifier_ind_four
+		}
+		NOT = {
+			any_scope_state = {
+				AND= {
+					state_region = s:STATE_GEORGIA
+					is_incorporated = yes
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = ind_dep_warning
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_GEORGIA
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
 					culture = cu:na_cherokee
+					
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -1820,6 +1546,7 @@ je_int_ala = {
 		}
 	}
 }
+
 je_int_missi = {
 	name = "je_int_missi"
 	desc = "je_int_ala_desc"
@@ -1849,10 +1576,6 @@ je_int_missi = {
 			every_scope_state = {
 				limit = {
 					state_region = s:STATE_MISSISSIPPI
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_cherokee
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -1899,6 +1622,10 @@ je_int_ten = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
+					culture = cu:na_eastern_algonquian
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
 					culture = cu:na_cherokee
 				}
 				kill_population_percent_in_state = {
@@ -1907,7 +1634,7 @@ je_int_ten = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_miami_illinois
+					culture = cu:na_muscogee
 				}
 				set_state_type = incorporated
 			}
@@ -1955,7 +1682,7 @@ je_int_ark = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_quapaw
+					culture = cu:na_kansa_osage
 				}
 				set_state_type = incorporated
 			}
@@ -2004,6 +1731,14 @@ je_int_okl = {
 					percent = 0.95
 					culture = cu:na_kansa_osage
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_comanche
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_paiute
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -2045,7 +1780,7 @@ je_int_mis = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_caddoan
+					culture = cu:na_kansa_osage
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -2101,6 +1836,10 @@ je_int_kan = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_kansa_osage
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_paiute
 				}
 				set_state_type = incorporated
 			}
@@ -2159,6 +1898,26 @@ je_int_lak = {
 					percent = 0.95
 					culture = cu:na_crow_hisatsa
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_lakota
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_shoshone
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_paiute
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_ojibwe_potawatomi
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_cree_montagnais
+				}
 				set_state_type = incorporated
 			}
 			every_scope_state = {
@@ -2171,11 +1930,15 @@ je_int_lak = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_crow_hisatsa
+					culture = cu:na_paiute
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_colorado_numic
+					culture = cu:na_shoshone
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_arapahoan
 				}
 				set_state_type = incorporated
 			}
@@ -2223,6 +1986,18 @@ je_int_ntd = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_santee_dakota
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_caddoan
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_crow_hisatsa
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_ojibwe_potawatomi
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -2342,6 +2117,10 @@ je_int_min = {
 					percent = 0.95
 					culture = cu:na_miami_illinois
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_cree_montagnais
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -2384,10 +2163,6 @@ je_int_iow = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_santee_dakota
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_caddoan
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -2504,6 +2279,10 @@ je_int_tex = {
 					percent = 0.95
 					culture = cu:na_chickasaw_choctaw
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_pacific_athabaskan
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -2545,11 +2324,23 @@ je_int_nme = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_caddoan
+					culture = cu:na_comanche
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:navajo
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_pacific_athabaskan
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_shoshone
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_paiute
 				}
 				set_state_type = incorporated
 			}
@@ -2612,7 +2403,19 @@ je_int_che = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_miami_illinois
+					culture = cu:na_eastern_algonquian
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_chickasaw_choctaw
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_cherokee
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_muscogee
 				}
 				set_state_type = incorporated
 			}
@@ -2655,7 +2458,7 @@ je_int_ohi = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_ojibwe_potawatomi
+					culture = cu:na_eastern_algonquian
 				}
 				set_state_type = incorporated
 			}
@@ -2700,6 +2503,10 @@ je_int_mich = {
 					percent = 0.95
 					culture = cu:na_ojibwe_potawatomi
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_eastern_algonquian
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -2742,6 +2549,10 @@ je_int_indiana = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_miami_illinois
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_eastern_algonquian
 				}
 				set_state_type = incorporated
 			}
@@ -2788,7 +2599,11 @@ je_int_illi = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_chiwere_winnebago
+					culture = cu:na_eastern_algonquian
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_chickasaw_choctaw
 				}
 				set_state_type = incorporated
 			}
@@ -2837,6 +2652,10 @@ je_int_wis = {
 					percent = 0.95
 					culture = cu:na_chiwere_winnebago
 				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_santee_dakota
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -2879,15 +2698,27 @@ je_int_ari = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_colorado_numic
+					culture = cu:na_comanche
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_chickasaw_choctaw
+					culture = cu:na_pacific_athabaskan
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_paiute
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_arapahoan
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_yuman
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_piman
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -2938,7 +2769,11 @@ je_int_nev = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_colorado_numic
+					culture = cu:na_yuman
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_shoshone
 				}
 				set_state_type = incorporated
 			}
@@ -2986,7 +2821,11 @@ je_int_utah = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_colorado_numic
+					culture = cu:na_paiute
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:navajo
 				}
 				set_state_type = incorporated
 			}
@@ -3034,7 +2873,7 @@ je_int_colo = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
-					culture = cu:na_chickasaw_choctaw
+					culture = cu:na_shoshone
 				}
 				set_state_type = incorporated
 			}
@@ -3094,8 +2933,12 @@ je_int_cree = {
 					culture = cu:na_cree_montagnais
 				}
 				kill_population_percent_in_state = {
-					percent = 0.35
+					percent = 0.95
 					culture = cu:na_haudenosaunee
+				}
+				kill_population_percent_in_state = {
+					percent = 0.95
+					culture = cu:na_tuscarora_nottoway
 				}
 				set_state_type = incorporated
 			}
@@ -3171,7 +3014,7 @@ je_int_atha = {
 				}
 				kill_population_percent_in_state = {
 					percent = 0.20
-					culture = cu:na_cree_montagnais
+					culture = cu:inuit
 				}
 				kill_population_percent_in_state = {
 					percent = 0.20
@@ -3270,6 +3113,14 @@ je_int_sali = {
 					percent = 0.85
 					culture = cu:na_salishan
 				}
+				kill_population_percent_in_state = {
+					percent = 0.85
+					culture = cu:na_shapwailutan
+				}
+				kill_population_percent_in_state = {
+					percent = 0.85
+					culture = cu:na_blackfoot
+				}
 				set_state_type = incorporated
 			}
 		}
@@ -3323,12 +3174,8 @@ je_int_siou = {
 					culture = cu:na_blackfoot
 				}
 				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_stoney
-				}
-				kill_population_percent_in_state = {
 					percent = 0.85
-					culture = cu:na_northern_athabaskan
+					culture = cu:na_ojibwe_potawatomi
 				}
 				kill_population_percent_in_state = {
 					percent = 0.85
@@ -3347,10 +3194,6 @@ je_int_siou = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_cree_montagnais
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_assiniboine
 				}
 				set_state_type = incorporated
 			}
@@ -3659,7 +3502,7 @@ je_ned_butt = {
 		}
 		add_radicals = {
 			value = 0.25
-			strata = poor
+			strata = lower
 		}
 		add_radicals = {
 			value = 0.5
@@ -4079,7 +3922,7 @@ je_inde_bud = {
 			is_subject = yes
 		}
 		NOT = {
-			has_variable = var_matr
+			has_variable = var_inde_occ
 		}
 	}
 	effect = {
@@ -4093,6 +3936,12 @@ je_inde_bud = {
 				type = dp_independence
 				add_war_goal = { holder = c:FRU target_country = c:BUD type = annex_country }
 			}
+			c:FRU = {
+				change_infamy = -60
+			}
+			set_variable = {
+				name = var_inde_occ
+			}
 		}
 		else_if = {
 			limit = {
@@ -4103,6 +3952,9 @@ je_inde_bud = {
 				war = yes
 				type = dp_independence
 				add_war_goal = { holder = c:FRE target_country = c:BUD type = annex_country }
+			}
+			set_variable = {
+				name = var_inde_occ
 			}
 		}
 	}
@@ -4350,6 +4202,127 @@ je_yag_int_nor_b = {
 			je:je_yag_main = {
 				add_progress = { value = -30 name = yag_progress_bar }
 			}
+		}
+	}
+}
+
+je_vikey = {
+	name = "je_vikey"
+	desc = "je_vikey_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 50
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = vikingsss
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = {
+			text = vkeyre
+			set_variable = {
+				name = vikingsss
+			}
+		}
+	}
+}
+
+je_noclavin = {
+	name = "je_noclavin"
+	desc = "je_noclavin_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 50
+	}
+	possible = {
+		custom_tooltip = {
+			text = je_fru_butt
+			NOT = {
+				has_variable = greeevin
+			}
+		}
+		NOT = {
+			owns_entire_state_region = STATE_GREENLAND
+		}
+	}
+	effect = {
+		set_variable = {
+			name = greeevin
+		}
+		s:STATE_GREENLAND = {
+			remove_claim = c:VSL
+		}
+	}
+}
+
+
+je_nat_butt = {
+	name = "je_nat_butt"
+	desc = "je_nat_butt_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_nat
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_nat
+			months = normal_modifier_time
+			multiplier = money_amount_multiplier_fm
+		}
+		add_modifier = {
+			name = modifier_nat_two
+			months = normal_modifier_time
+		}
+	}
+}
+je_nat_butt_two = {
+	name = "je_nat_butt_two"
+	desc = "je_nat_butt_two_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = text_je_nat_butt_two
+			NOT = {
+				has_variable = var_je_nat_butt_two
+			}
+		}
+	}
+	effect = {
+		random_list = {
+			75 = {
+				trigger_event = { id = fm_nata.541 days = 30 popup = yes } #Success
+			}
+			25 = {
+				trigger_event = { id = fm_nata.542 days = 30 popup = yes} #Failure
+			}
+		}
+		add_modifier = {
+			name = modifier_nat_four
+			months = 1
+		}
+		set_variable = {
+			name = var_je_nat_butt_two
+			days = 1825
 		}
 	}
 }

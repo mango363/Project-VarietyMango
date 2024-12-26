@@ -15,3 +15,50 @@ farnbag_character_template = {
         demagogue
     }  
 }
+
+ermanno_rossi = {
+    first_name = Ermanno
+    last_name = Rossi
+    historical = yes
+    birth_date = 1798.4.18
+    culture = cu:argentino
+    female = no
+    interest_group = ig_rural_folk
+    ideology = ideology_authoritarian
+    traits = {
+        brave
+        experienced_political_operator
+        demagogue
+    }  
+}
+
+generalissimo_brazileo = {
+    first_name = Francisco_Xavier
+    last_name = Lopes
+    historical = yes
+    birth_date = 1800.1.20
+    culture = cu:brazilian
+    female = no
+    interest_group = ig_armed_forces
+    ideology = ideology_authoritarian
+    traits = {
+        ambitious
+        direct
+    }  
+}
+
+el_urugu = {
+    first_name = Salvador
+    last_name = Rodriguez_de_Francia
+    historical = yes
+    birth_date = 1801.8.10
+    culture = cu:platinean
+    female = no
+    interest_group = ig_industrialists
+    ideology = ideology_republican_leader
+    traits = {
+        innovative
+        master_bureaucrat
+		literary
+    }  
+}

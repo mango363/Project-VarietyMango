@@ -782,7 +782,7 @@ principle_police_coordination_2 = {
 	institution = institution_police
 	institution_modifier = {
 		# Police institution reduces radicalism of political movements
-		political_movement_radicalism_mult = -0.05
+		political_movement_radicalism_add = -0.05
 	}
 	
 	ai_weight = {
@@ -811,7 +811,7 @@ principle_police_coordination_3 = {
 		country_authority_add = 50
 		
 		# Police institution reduces radicalism of political movements
-		political_movement_radicalism_mult = -0.05
+		political_movement_radicalism_add = -0.05
 	}
 	
 	ai_weight = {
@@ -997,13 +997,19 @@ principle_colonial_offices_1 = {
 	member_modifier = {
 		# Cheaper and faster colonial institution
 		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.25
-		country_institution_cost_institution_colonial_affairs_mult = -0.1
+		country_institution_cost_institution_colonial_affairs_mult = -0.25
 		country_disallow_law_no_colonial_affairs_bool = yes
 	}
 
 	leader_modifier = {
 		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
 	}
+
+	institution = institution_colonial_affairs
+	institution_modifier = {
+		# Members get higher colony growth for each level of institution
+		state_colony_growth_creation_factor = 0.05
+	}	
 	
 	ai_weight = {
 		value = 200 # High base weight if the leader has colonies
@@ -1028,8 +1034,8 @@ principle_colonial_offices_2 = {
 
 	member_modifier = {
 		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.4
-		country_institution_cost_institution_colonial_affairs_mult = -0.25
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
+		country_institution_cost_institution_colonial_affairs_mult = -0.5
 		country_disallow_law_no_colonial_affairs_bool = yes
 	}
 
@@ -1040,7 +1046,7 @@ principle_colonial_offices_2 = {
 	institution = institution_colonial_affairs
 	institution_modifier = {
 		# Members get higher colony growth for each level of institution
-		state_colony_growth_creation_mult = 0.05
+		state_colony_growth_creation_factor = 0.1
 	}	
 	
 	ai_weight = {
@@ -1054,8 +1060,8 @@ principle_colonial_offices_3 = {
 	
 	member_modifier = {
 		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
-		country_institution_cost_institution_colonial_affairs_mult = -0.5
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.75
+		country_institution_cost_institution_colonial_affairs_mult = -0.75
 		country_disallow_law_no_colonial_affairs_bool = yes
 	}
 
@@ -1066,8 +1072,7 @@ principle_colonial_offices_3 = {
 	institution = institution_colonial_affairs
 	institution_modifier = {
 		# Modifiers from previous level(s)	
-		state_colony_growth_creation_mult = 0.05
-		country_infamy_generation_against_unrecognized_mult = -0.05
+		state_colony_growth_creation_factor = 0.15
 	}		
 
 	ai_weight = {
@@ -1185,8 +1190,8 @@ principle_creative_legislature_2 = {
 		country_law_enactment_stall_mult = -0.33
 		
 		# Members political movements to preserve and restore have lower support
-		political_movement_preserve_support_mult = -0.33
-		political_movement_restore_support_mult = -0.33
+		political_movement_radicalism_from_enactment_disapproval_mult = -0.25
+		political_movement_radicalism_from_enactment_approval_mult = 0.25
 	}
 	
 	ai_weight = {
@@ -1201,8 +1206,8 @@ principle_creative_legislature_3 = {
 	member_modifier = {
 		# Modifiers from previous level(s)	
 		country_law_enactment_stall_mult = -0.33
-		political_movement_preserve_support_mult = -0.33
-		political_movement_restore_support_mult = -0.33
+		political_movement_radicalism_from_enactment_disapproval_mult = -0.25
+		political_movement_radicalism_from_enactment_approval_mult = 0.25
 		
 		# Can have one additional setback before failing a law enactment
 		country_law_enactment_max_setbacks_add = 1
@@ -1384,8 +1389,7 @@ principle_divine_economics_3 = {
 		country_subject_income_transfer_heathen_mult = 0.5		
 	
 		# SoL changes less radical/more loyalist for accepted religion pops
-		state_radicals_from_sol_change_accepted_religion_mult = -0.25
-		state_loyalists_from_sol_change_accepted_religion_mult = 0.25
+		country_state_religion_wages_mult = 0.25
 		
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}

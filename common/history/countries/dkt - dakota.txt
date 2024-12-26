@@ -39,8 +39,5 @@ COUNTRIES = {
 		trigger_event = {
 			id = fm_dakota.1
 		}
-		add_journal_entry = {
-			type = je_dakota_tribes
-		}
 	}
 }

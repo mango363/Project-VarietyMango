@@ -8,7 +8,7 @@ COUNTRIES = {
 		
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
@@ -16,6 +16,7 @@ COUNTRIES = {
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_police
+		activate_law = law_type:law_frontier_colonization
 		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms

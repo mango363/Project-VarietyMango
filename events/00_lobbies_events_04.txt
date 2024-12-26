@@ -887,7 +887,10 @@ lobby_events.2 = {
 
 	event_image = {
 		trigger = {
-			country_has_state_religion = rel:jewish
+			OR = {
+				country_has_state_religion = rel:jewish
+				country_has_state_religion = rel:norsp
+			}
 		}
 		video = "europenorthamerica_judaism"
 
@@ -961,7 +964,10 @@ lobby_events.2 = {
 	}
 	event_image = {
 		trigger = {
-			country_has_state_religion = rel:na_wocekiye
+			OR = {
+				country_has_state_religion = rel:na_wocekiye
+				country_has_state_religion = rel:na_native_american_spirituality
+			}
 		}
 		video = "europenorthamerica_native_american"
 
@@ -985,6 +991,7 @@ lobby_events.2 = {
 				country_has_state_religion = rel:shiite
 				country_has_state_religion = rel:na_wocekiye
 				country_has_state_religion = rel:zoroastrian
+				country_has_state_religion = rel:na_native_american_spirituality
 			}
 		}
 		video = "africa_animism"
@@ -5240,7 +5247,7 @@ fund_lobbies_events.4 = { # Politician implicated in improperly spending foreign
 		}
 		add_radicals = {
 			value = small_radicals
-			strata = poor
+			strata = lower
 		}
 		if = {
 			limit = {

@@ -11,3 +11,8 @@
  ideology_middle_class:0 "English Middle Class"
  ideology_middle_class_desc:0 "This group has fought against any form of centralization of the political power for centuries, and it will not stop now."
  ig_middle_class:0 "English Bourgeoisie"
+
+ ideology_inca_paternalistic:0 "Quechua
+ ideology_inca_paternalistic_desc:0 "This group believes that the Sapa Inca is best suited to lead the country.
+ ideology_inca_gender:0 "Gender Complementarity"
+ ideology_inca_gender_desc:0 "This group sees the two genders as complementary parts of a whole, and thus opposes the view of a hierarchical structure in the domestic sphere.

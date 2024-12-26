@@ -1,0 +1,65 @@
+AI = {
+	# Cahokia
+	c:CAH = {
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_nationalist_agenda
+
+		random_list = {
+			50 = { set_strategy = ai_strategy_resource_expansion }
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+		}
+	}
+
+	# Four Colonies
+	c:FOU = {
+		set_strategy = ai_strategy_territorial_expansion
+
+		random_list = {
+			50 = { set_strategy = ai_strategy_resource_expansion }
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+		}
+
+		random_list = {
+			75 = { set_strategy = ai_strategy_conservative_agenda }
+			25 = { set_strategy = ai_strategy_progressive_agenda }
+		}
+	}
+
+	# New Holland
+	c:AMC = {
+		set_strategy = ai_strategy_subject_break_free
+
+		random_list = {
+			50 = { set_strategy = ai_strategy_maintain_power_balance }
+			50 = { set_strategy = ai_strategy_territorial_expansion }
+		}
+
+		random_list = {
+			50 = { set_strategy = ai_strategy_resource_expansion }
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+		}
+
+		random_list = {
+			50 = { set_strategy = ai_strategy_conservative_agenda }
+			50 = { set_strategy = ai_strategy_progressive_agenda }
+		}
+	}
+
+	# Florida
+	c:FLU = {
+		random_list = {
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+			50 = { set_strategy = ai_strategy_plantation_economy }
+		}
+
+		random_list = {
+			75 = { set_strategy = ai_strategy_maintain_power_balance }
+			25 = { set_strategy = ai_strategy_territorial_expansion }
+		}
+
+		random_list = {
+			75 = { set_strategy = ai_strategy_conservative_agenda }
+			25 = { set_strategy = ai_strategy_progressive_agenda }
+		}
+	}
+}

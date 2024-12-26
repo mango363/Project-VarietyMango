@@ -68,7 +68,6 @@ je_grv_FLU = {
 			id = fm_flu.1
 		}
 	}
-	timeout = 3650
 	complete = {
 		owns_entire_state_region = STATE_BAHAMAS
 		owns_entire_state_region = STATE_PUERTO_RICO

@@ -63,6 +63,9 @@ beneluxian_culture_group={
 scandinavian_culture_group={
 }
 
+norse={
+}
+
 iberian_culture_group={
 }
 
@@ -117,3 +120,6 @@ tibetan_language = {}
 aboriginal_australian = {}
 indigenous_andean = {}
 south_american_group = {}
+
+basque_language = {}
+syriac_language = {}

@@ -1,107 +1,4 @@
 ﻿MILITARY_FORMATIONS = {
-	c:BRZ = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			name = "Exército do Sul"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MINAS_GERAIS
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_RIO_DE_JANEIRO
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SAO_PAULO
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_PERNAMBUCO
-				count = 2
-			}
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			name = "Exército do Amazonas"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BAHIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SANTA_CATARINA
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_PERNAMBUCO
-				count = 2
-			}
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			name = "Exército Imperial Brasileiro"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_RIO_DE_JANEIRO
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_PARAIBA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_PARAIBA
-				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_brazil
-			name = "Armada Nacional"
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_RIO_DE_JANEIRO
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_BAHIA
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_RIO_DE_JANEIRO
-				count = 6
-			}
-		}
-	}
 	c:FLU = {
 		create_military_formation = {
 			type = army
@@ -138,7 +35,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_la_plata
-			name = "Ejército Argentino" 
+			name = "Esercito Repubblicano" 
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -168,12 +65,12 @@
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_CHACO
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_RIO_NEGRO
 				count = 5
 			}
@@ -182,82 +79,206 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_la_plata
-			name = "Armada Argentina"
+			name = "Marina Repubblicana"
 
-			combat_unit = { # Nothing the size of a frigate
+			combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_BUENOS_AIRES
 				count = 10
 			}
 		}
-	}
 
-	c:PRA = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_brazil
-			name = "Exército Cabano"
+			name = "Exército do Sul"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PARA
-				count = 1
+				state_region = s:STATE_MINAS_GERAIS
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PARA
-				count = 7
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_AMAZONAS
-				count = 4
-			}
-			save_scope_as = firstarmypra
-		}
-
-		create_character = {
-			template = PRA_Manuel_Lopes
-			first_name = Manuel
-			commander_rank = commander_rank_1
-			save_scope_as = pra_general_gen
-		}
-
-		scope:pra_general_gen = {
-			transfer_to_formation = scope:firstarmypra
-		}
-	}
-
-	c:PNI = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			name = "Exército Republicano do Rio Grande"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SANTA_CATARINA
-				count = 3
+				state_region = s:STATE_SAO_PAULO
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SANTA_CATARINA
+				state_region = s:STATE_PERNAMBUCO
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_PARAIBA
 				count = 1
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SANTA_CATARINA
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_PARAIBA
 				count = 1
+			}
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			name = "Exército do Amazonas"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BAHIA
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_SANTA_CATARINA
 				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_PERNAMBUCO
+				count = 2
+			}
+		}
+
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_brazil
+			name = "Armada Nacional"
+		
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BAHIA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 6
+			}
+		}
+	}
+
+
+
+	c:RPQ = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Qhapaq Inca Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LIMA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LA_PAZ
+				count =5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AREQUIPA
+				count = 5
+			}
+		}
+	}
+	c:AZ1 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "A'kir ü Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ACRE
+				count = 5
+			}
+		}
+	}
+	c:AZ2 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Chuqiyapu Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LA_PAZ
+				count = 10
+			}
+		}
+	}
+	c:AZ3 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "P'otoj Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_POTOSI
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_POTOSI
+				count = 5
+			}
+		}
+	}
+	c:AZ4 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Ikíki Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TARAPACA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_TARAPACA
+				count = 5
 			}
 		}
 	}
@@ -360,20 +381,6 @@
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GUAYANA
 				count = 10
-			}
-		}
-	}
-
-	c:PRG = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-			name = "Ejército Paraguayo"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BAJO_PARAGUAY
-				count = 5
 			}
 		}
 	}

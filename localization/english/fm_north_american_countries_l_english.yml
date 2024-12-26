@@ -1,0 +1,108 @@
+﻿l_english:
+ CAD: "Caddo"
+ CAD_ADJ: "Caddoan"
+
+ CAH: "Great Cahokia"
+ CAH_ADJ: "Cahokian"
+ dyn_CAH_the: "Acs Saːkhirʔa"
+
+ DKT: "Dakota Nation"
+ DKT_ADJ: "Dakotan"
+ LOB: "Libertalia"
+ LOB_ADJ: "Libertalian"
+
+ ONE: "Oneota"
+ ONE_ADJ: "Oneotan"
+
+ SWN: "Shawnee"
+ SWN_ADJ: "Shawnee"
+
+ MCG: "Muscogee Confederation"
+ MCG_ADJ: "Muscogeen"
+
+ HRN: "Huron"
+ HRN_ADJ: "Huron"
+
+ SNC: "Seneca"
+ SNC_ADJ: "Senecan"
+
+ IQS: "Iroquois Confederacy"
+ IQS_ADJ: "Iroquois"
+
+ SSH: "Numic League"
+ SSH_ADJ: "Numic"
+
+ AT1: "Athabaskan Plains"
+ AT1_ADJ: "Athabaskan"
+
+ BFT: "Siksikaitsitapi"
+ BFT_ADJ: "Siksikaitsitapi"
+
+ YMN: "Yuman"
+ YMN_ADJ: "Yuman"
+
+ SIS: "Sahap-Salish Union"
+ SIS_ADJ: "Sahap-Salish"
+
+ # Decentralized
+ IUT: "Inuit"
+ IUT_ADJ: "Inuit"
+
+ CRU: "Cree"
+ CRU_ADJ: "Cree"
+
+ AT2: "Athabaskan"
+ AT2_ADJ: "Athabaskan"
+
+
+ # Colonies
+ FOU: "Four Colonies"
+ FOU_ADJ: "Four Colonies"
+
+ AMC: "American Federation"
+ AMC_ADJ: "Amerikansk"
+ dyn_AMC: "New Holland"
+ dyn_AMC_mon: "Amerikanska Kungariket"
+
+ FLU: "Florida"
+ FLU_ADJ: "Floridian"
+
+ LOI: "Louisiana"
+ LOI_ADJ: "French"
+
+ VSL:0 "Vestrland"
+ VSL_ADJ:0 "Vestrlander"
+
+
+ # Formables
+
+# GRV: "Gran Venezia"
+# GRV_ADJ: "Venezian"
+
+ GPL: "Chinoodin"
+ GPL_ADJ: "Chinoodin"
+
+ DST: "Cochimí"
+ DST_ADJ: "Cochimí"
+
+ # Defined by vanilla
+# CSC: ""
+# CSC_ADJ: ""
+
+ AZT: "Aztlán"
+ AZT_ADJ: "Xicanx"
+
+ 3FC: "Niswi-mishkodewinan"
+ 3FC_ADJ: "Anishinaabeg"
+
+ NV2: "Naabeehó Bináhásdzo"
+ NV2_ADJ: "Diné"
+
+ ASB: "Absaroka"
+ ASB_ADJ: "Absarokan"
+
+ JHF: "Pays des Illinois"
+ JHF_ADJ: "Haute Louisiane"
+
+ HNS: "Haudenosaunee"
+ HNS_ADJ: "Haudenosaunee"

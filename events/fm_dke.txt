@@ -1,0 +1,134 @@
+namespace = fm_dke
+fm_dke.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_dke.1.t
+	desc = fm_dke.1.d
+	flavor = fm_dke.1.f
+	duration = 1
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_dke.1.a
+		annex_with_incorporation = c:NOR
+		add_primary_culture = cu:norwegian
+		add_loyalists = {
+			value = 0.2
+			culture = cu:danish
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:norwegian
+		}
+	}
+}
+
+fm_dke.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_dke.2.t
+	desc = fm_dke.2.d
+	flavor = fm_dke.2.f
+	duration = 1
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	option = {
+		name = fm_dke.2.a
+		add_journal_entry = {
+			type = je_north_empire
+		}
+		s:STATE_NORTHERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_WESTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_EASTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_HOME_COUNTIES = {
+			add_claim = root
+		}
+		s:STATE_SCANIA = {
+			add_claim = root
+		}
+	}
+}
+
+fm_dke.3 = {
+	type = country_event
+	placement = ROOT
+	title = fm_dke.3.t
+	desc = fm_dke.3.d
+	flavor = fm_dke.3.f
+	duration = 1
+	event_image = {
+		video = "votp_prison"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_dke.3.a
+		heir = {
+			change_character_religion = rel:protestant
+		}
+		ruler = {
+			kill_character = yes
+		}
+		hidden_effect = {
+			remove_modifier = norsp_pasive_mdf
+			add_modifier = {
+				name = protestant_pasive_mdf
+			}
+		}
+	}
+}
+
+fm_dke.4 = {
+	type = country_event
+	placement = ROOT
+	title = fm_dke.4.t
+	desc = fm_dke.4.d
+	flavor = fm_dke.4.f
+	duration = 1
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/religion_icons/norse.dds"
+	trigger = {
+	}
+
+option = {
+	name = fm_dke.4.a
+	add_primary_culture = cu:norwegian
+	add_primary_culture = cu:british
+	add_loyalists = {
+		value = 0.25
+		culture = cu:danish
+	}
+	capital = {
+		convert_population = {
+			target = root.religion
+			value = 0.5
+		}
+	}
+	every_scope_state = {
+		limit = { is_capital = no }
+		convert_population = {
+			target = root.religion
+			value = 0.4
+		}				
+	}
+}
+}

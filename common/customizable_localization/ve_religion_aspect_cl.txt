@@ -307,6 +307,25 @@
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_1
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_1_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_1_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:animist
 			piety_cost_trigger = yes
 		}
@@ -342,6 +361,25 @@
 			}
 		}
 		localization_key = na_wocekiye_aspect_1_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_1
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_1_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_1_black
 	}
 	text = {
 		trigger = {
@@ -673,6 +711,25 @@ religion_aspect_2 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_2
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_2_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_2_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:animist
 			piety_cost_trigger = yes
 		}
@@ -708,6 +765,25 @@ religion_aspect_2 = {
 			}
 		}
 		localization_key = na_wocekiye_aspect_2_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_2
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_2_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_2_black
 	}
 	text = {
 		trigger = {
@@ -884,6 +960,25 @@ religion_aspect_3 = {
 			}
 		}
 		localization_key = zoro_aspect_3_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_3
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_3_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_3_black
 	}
 	text = {
 		trigger = {
@@ -1077,6 +1172,25 @@ religion_aspect_3 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_3
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_3_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_3_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -1250,6 +1364,25 @@ religion_aspect_4 = {
 			}
 		}
 		localization_key = zoro_aspect_4_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_4
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_4_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_4_black
 	}
 	text = {
 		trigger = {
@@ -1443,6 +1576,25 @@ religion_aspect_4 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_4
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_4_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_4_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -1616,6 +1768,25 @@ religion_aspect_5 = {
 			}
 		}
 		localization_key = zoro_aspect_5_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_5
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_5_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_5_black
 	}
 	text = {
 		trigger = {
@@ -1809,6 +1980,25 @@ religion_aspect_5 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_5
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_5_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_5_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -1887,6 +2077,25 @@ religion_aspect_6 = {
 			}
 		}
 		localization_key = zoro_aspect_6_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_6
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_6_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_6_black
 	}
 	text = {
 		trigger = {
@@ -2175,6 +2384,25 @@ religion_aspect_6 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_6
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_6_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_6_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -2272,6 +2500,25 @@ religion_aspect_7 = {
 			}
 		}
 		localization_key = zoro_aspect_7_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_7
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_7_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_7_black
 	}
 	text = {
 		trigger = {
@@ -2541,6 +2788,25 @@ religion_aspect_7 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_7
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_7_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_7_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -2619,6 +2885,25 @@ religion_aspect_8 = {
 			}
 		}
 		localization_key = zoro_aspect_8_black
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			piety_cost_trigger = yes
+		}
+		localization_key = norsp_aspect_8
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = norsp_aspect_8_mdf
+				}
+			}
+		}
+		localization_key = norsp_aspect_8_black
 	}
 	text = {
 		trigger = {
@@ -2907,6 +3192,25 @@ religion_aspect_8 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			piety_cost_trigger = yes
+		}
+		localization_key = na_native_american_spirituality_aspect_8
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+			OR = {
+				var:piety_bar_point < 125
+				NOT = {
+					has_modifier = na_native_american_spirituality_aspect_8_mdf
+				}
+			}
+		}
+		localization_key = na_native_american_spirituality_aspect_8_black
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 			piety_cost_trigger = yes
 		}
@@ -2974,6 +3278,12 @@ religion_aspect_9 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_9
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:shiite
 		}
 		localization_key = shiite_aspect_9
@@ -3037,6 +3347,12 @@ religion_aspect_9 = {
 			country_has_state_religion = rel:na_wocekiye
 		}
 		localization_key = na_wocekiye_aspect_9
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_9
 	}
 	text = {
 		trigger = {
@@ -3196,6 +3512,22 @@ holy_site_1 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_SVEALAND
+		}
+		localization_key = norsp_site_1
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			NOT = {
+				owns_entire_state_region = STATE_SVEALAND
+			}
+		}
+		localization_key = norsp_site_1_red
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:confucian
 			owns_entire_state_region = STATE_SHANDONG
 		}
@@ -3218,7 +3550,7 @@ holy_site_1 = {
 				country_has_state_religion = rel:theravada
 				country_has_state_religion = rel:shinto
 			}
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 		localization_key = mahayana_site_1
 	}
@@ -3231,7 +3563,7 @@ holy_site_1 = {
 				country_has_state_religion = rel:shinto
 			}
 			NOT = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 			}
 		}
 		localization_key = mahayana_site_1_red
@@ -3416,6 +3748,22 @@ holy_site_2 = {
 			}
 		}
 		localization_key = zoro_site_2_red
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_NORTHERN_NORWAY
+		}
+		localization_key = norsp_site_2
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			NOT = {
+				owns_entire_state_region = STATE_NORTHERN_NORWAY
+			}
+		}
+		localization_key = norsp_site_2_red
 	}
 	text = {
 		trigger = {
@@ -3642,6 +3990,22 @@ holy_site_3 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_WESTPHALIA
+		}
+		localization_key = norsp_site_3
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			NOT = {
+				owns_entire_state_region = STATE_WESTPHALIA
+			}
+		}
+		localization_key = norsp_site_3_red
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:confucian
 			owns_entire_state_region = STATE_BEIJING
 		}
@@ -3664,7 +4028,7 @@ holy_site_3 = {
 				country_has_state_religion = rel:theravada
 				country_has_state_religion = rel:shinto
 			}
-			owns_entire_state_region = STATE_BURMA
+			owns_entire_state_region = STATE_MANDALAY
 		}
 		localization_key = mahayana_site_3
 	}
@@ -3677,7 +4041,7 @@ holy_site_3 = {
 				country_has_state_religion = rel:shinto
 			}
 			NOT = {
-				owns_entire_state_region = STATE_BURMA
+				owns_entire_state_region = STATE_MANDALAY
 			}
 		}
 		localization_key = mahayana_site_3_red
@@ -3701,7 +4065,7 @@ holy_site_3 = {
 	text = {
 		trigger = {
 			country_has_state_religion = rel:sikh
-			owns_entire_state_region = STATE_CENTRAL_INDIA
+			owns_entire_state_region = STATE_CENTRAL_PROVINCES
 		}
 		localization_key = sikh_site_3
 	}
@@ -3709,7 +4073,7 @@ holy_site_3 = {
 		trigger = {
 			country_has_state_religion = rel:sikh
 			NOT = {
-				owns_entire_state_region = STATE_CENTRAL_INDIA
+				owns_entire_state_region = STATE_CENTRAL_PROVINCES
 			}
 		}
 		localization_key = sikh_site_3_red
@@ -3862,6 +4226,22 @@ holy_site_4 = {
 			}
 		}
 		localization_key = zoro_site_4_red
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_YORKSHIRE
+		}
+		localization_key = norsp_site_4
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			NOT = {
+				owns_entire_state_region = STATE_YORKSHIRE
+			}
+		}
+		localization_key = norsp_site_4_red
 	}
 	text = {
 		trigger = {
@@ -4072,6 +4452,22 @@ holy_site_5 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+			owns_entire_state_region = STATE_NEWFOUNDLAND
+		}
+		localization_key = norsp_site_5
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+			NOT = {
+				owns_entire_state_region = STATE_NEWFOUNDLAND
+			}
+		}
+		localization_key = norsp_site_5_red
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:confucian
 			owns_entire_state_region = STATE_NANJING
 		}
@@ -4205,6 +4601,12 @@ religion_aspect_text_1 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_1
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:confucian
 		}
 		localization_key = confucian_aspect_text_1
@@ -4246,6 +4648,12 @@ religion_aspect_text_1 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_1
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_1
@@ -4272,6 +4680,12 @@ religion_aspect_text_2 = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		localization_key = zoro_aspect_text_2
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_2
 	}
 	text = {
 		trigger = {
@@ -4349,6 +4763,13 @@ religion_aspect_text_2 = {
 			country_has_state_religion = rel:na_wocekiye
 		}
 		localization_key = na_wocekiye_aspect_text_2
+		
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_2
 	}
 	text = {
 		trigger = {
@@ -4378,6 +4799,12 @@ religion_aspect_text_3 = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		localization_key = zoro_aspect_text_3
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_3
 	}
 	text = {
 		trigger = {
@@ -4458,6 +4885,12 @@ religion_aspect_text_3 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_3
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_3
@@ -4484,6 +4917,12 @@ religion_aspect_text_4 = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		localization_key = zoro_aspect_text_4
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_4
 	}
 	text = {
 		trigger = {
@@ -4564,6 +5003,12 @@ religion_aspect_text_4 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_4
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_4
@@ -4590,6 +5035,12 @@ religion_aspect_text_5 = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		localization_key = zoro_aspect_text_5
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_5
 	}
 	text = {
 		trigger = {
@@ -4670,6 +5121,12 @@ religion_aspect_text_5 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_5
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_5
@@ -4703,6 +5160,12 @@ religion_aspect_text_6 = {
 		}
 		localization_key = zoro_aspect_text_6
 		
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_6
 	}
 	text = {
 		trigger = {
@@ -4777,6 +5240,12 @@ religion_aspect_text_6 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_6
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_6
@@ -4836,6 +5305,12 @@ religion_aspect_text_7 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_7
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:confucian
 		}
 		localization_key = confucian_aspect_text_7
@@ -4883,6 +5358,12 @@ religion_aspect_text_7 = {
 	}
 	text = {
 		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_7
+	}
+	text = {
+		trigger = {
 			country_has_state_religion = rel:atheist
 		}
 		localization_key = atheist_aspect_text_7
@@ -4921,6 +5402,12 @@ religion_aspect_text_8 = {
 			country_has_state_religion = rel:zoroastrian
 		}
 		localization_key = zoro_aspect_text_8
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:norsp
+		}
+		localization_key = norsp_aspect_text_8
 	}
 	text = {
 		trigger = {
@@ -4986,6 +5473,12 @@ religion_aspect_text_8 = {
 			country_has_state_religion = rel:na_wocekiye
 		}
 		localization_key = na_wocekiye_aspect_text_8
+	}
+	text = {
+		trigger = {
+			country_has_state_religion = rel:na_native_american_spirituality
+		}
+		localization_key = na_native_american_spirituality_aspect_text_8
 	}
 	text = {
 		trigger = {
