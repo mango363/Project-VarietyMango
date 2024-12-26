@@ -672,25 +672,6 @@ ai_strategy_default = {
 				}
 				add = 400
 			}
-			if = {
-				limit = {
-					has_journal_entry = king_vin
-					scope:target_state = {
-						OR = {
-							state_region = STATE_NEWFOUNDLAND
-							state_region = STATE_NUNAVUT
-							state_region = STATE_QUEBEC
-							state_region = STATE_ONTARIO
-							state_region = STATE_MANITOBA
-							state_region = STATE_WISCONSIN
-							state_region = STATE_MICHIGAN
-							state_region = STATE_MINNESOTA
-							state_region = STATE_NEW_BRUNSWICK
-						}
-					}
-				}
-				add = 400
-			}
 				if = {
 					limit = {
 						has_journal_entry = je_north_empire_vin
