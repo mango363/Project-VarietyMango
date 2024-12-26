@@ -157,7 +157,10 @@
  BYR_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Sultanate of Africa#!"
  SOK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Sultanate of Africa#!"
  FOU_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·United States of America\n ·Nova Anglia#!"
- NSP_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Mexican Empire#!"
+ NSP_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Mexico#!"
+ RPQ_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Tawantinsuyu#!"
+ MAY_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$AZT$#!"
+ NAH_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$AZT$#!"
 
  NOTEASTF:0 "Is not East Frankia"
 

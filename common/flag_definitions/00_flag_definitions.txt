@@ -505,20 +505,20 @@ ARA = { # Arabia
 
 AGA = { # Argentina
 	flag_definition = {
-		coa = AGA_absolute_monarchy
-		subject_canton = AGA_absolute_monarchy
+		coa = AGA
+		subject_canton = AGA
 		coa_with_overlord_canton = AGA_subject
 		allow_overlord_canton = yes		
 		priority = 1
 	}
 	flag_definition = {
-		coa = AGA_republic
-		subject_canton = AGA_republic
+		coa = AGA_absolute_monarchy
+		subject_canton = AGA_absolute_monarchy
 		coa_with_overlord_canton = AGA_subject
 		allow_overlord_canton = yes			
 		priority = 10
 		trigger = { 
-			coa_def_republic_flag_trigger = yes
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
@@ -6821,6 +6821,22 @@ RPQ = {
 	flag_definition = {	
 		coa = RPQ
 		subject_canton = RPQ
+		priority = 10
+	}
+}
+
+AZ3 = {
+	flag_definition = {	
+		coa = AZ3
+		subject_canton = AZ3
+		priority = 10
+	}
+}
+
+AZ4 = {
+	flag_definition = {	
+		coa = AZ4
+		subject_canton = AZ4
 		priority = 10
 	}
 }

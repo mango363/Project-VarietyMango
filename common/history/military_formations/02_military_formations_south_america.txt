@@ -65,12 +65,12 @@
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_CHACO
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_RIO_NEGRO
 				count = 5
 			}
@@ -129,7 +129,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_PARAIBA
 				count = 1
 			}
@@ -187,34 +187,98 @@
 
 
 
-	c:PNI = {
+	c:RPQ = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_brazil
-			name = "Exército Republicano do Rio Grande"
+			hq_region = sr:region_andes
+			name = "Qhapaq Inca Army"
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SANTA_CATARINA
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SANTA_CATARINA
-				count = 1
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 15
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SANTA_CATARINA
-				count = 1
+				state_region = s:STATE_LIMA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LA_PAZ
+				count =5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SANTA_CATARINA
-				count = 4
+				state_region = s:STATE_AREQUIPA
+				count = 5
+			}
+		}
+	}
+	c:AZ1 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "A'kir ü Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ACRE
+				count = 5
+			}
+		}
+	}
+	c:AZ2 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Chuqiyapu Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LA_PAZ
+				count = 10
+			}
+		}
+	}
+	c:AZ3 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "P'otoj Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_POTOSI
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_POTOSI
+				count = 5
+			}
+		}
+	}
+	c:AZ4 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = "Ikíki Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TARAPACA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_TARAPACA
+				count = 5
 			}
 		}
 	}

@@ -85,6 +85,12 @@
 			months = 9
 		}
 	}
+	c:AGA = {
+		create_unidirectional_truce = {
+			country = c:RPQ
+			months = 19
+		}
+	}
 	c:NSP = {
 		create_bidirectional_truce = {
 			country = c:AT1

@@ -941,6 +941,25 @@
 				size = 40000
 			}
 		}
+		region_state:VEN = {
+			create_pop = {
+				culture = burmese
+				size = 17900
+			}
+			create_pop = {
+				culture = venetian
+				size = 124
+			}
+			create_pop = {
+				culture = karen
+				size = 415
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 4000
+			}
+		}
 	}
 	s:STATE_SAKHALIN = {
 		region_state:SKH = {

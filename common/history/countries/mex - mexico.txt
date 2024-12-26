@@ -20,5 +20,8 @@ COUNTRIES = {
 			institution = institution_schools
 			level = 2
 		}	
+		add_journal_entry = {
+			type = je_maxico
+		}
 	}
 }

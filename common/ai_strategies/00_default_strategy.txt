@@ -602,6 +602,56 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
+					has_journal_entry = je_atz_main
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_ACRE
+							state_region = s:STATE_LA_PAZ
+							state_region = s:STATE_POTOSI
+							state_region = s:STATE_TARAPACA
+							state_region = STATE_ANTOFAGASTA
+							state_region = STATE_JUJUY
+							state_region = STATE_SANTIAGO
+							state_region = STATE_TUCUMAN	
+							state_region = STATE_CAUCA
+							state_region = STATE_ECUADOR
+							state_region = STATE_CAJAMARCA
+						}
+					}
+				}
+				add = 400
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_maxico
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_SONORA
+							state_region = s:STATE_CHIHUAHUA
+							state_region = s:STATE_DURANGO
+							state_region = s:STATE_SINALOA
+							state_region = s:STATE_BAJIO
+							state_region = s:STATE_YUCATAN
+							state_region = s:STATE_MEXICO
+							state_region = s:STATE_VERACRUZ
+							state_region = s:STATE_GUERRERO
+							state_region = s:STATE_OAXACA
+							state_region = s:STATE_JALISCO
+							state_region = s:STATE_ZACATECAS
+							state_region = s:STATE_CHIAPAS
+							state_region = s:STATE_BAJA_CALIFORNIA
+							state_region = s:STATE_GUATEMALA
+							state_region = s:STATE_RIO_GRANDE
+						}
+					}
+				}
+				add = 400
+			}
+
+
+			if = {
+				limit = {
 					has_journal_entry = je_danelaw
 					scope:target_state = {
 						OR = {
@@ -2669,6 +2719,55 @@ ai_strategy_default = {
 							has_state_in_state_region = s:STATE_ROMAGNA
 							has_state_in_state_region = s:STATE_TUSCANY
 						}
+				}
+			}
+			add = 25
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_atz_main
+				scope:target_country = {
+					OR = {
+						has_state_in_state_region = s:STATE_ACRE
+						has_state_in_state_region = s:STATE_LA_PAZ
+						has_state_in_state_region = s:STATE_POTOSI
+						has_state_in_state_region = s:STATE_TARAPACA
+						has_state_in_state_region = STATE_ANTOFAGASTA
+						has_state_in_state_region = STATE_JUJUY
+						has_state_in_state_region = STATE_SANTIAGO
+						has_state_in_state_region = STATE_TUCUMAN	
+						has_state_in_state_region = STATE_CAUCA
+						has_state_in_state_region = STATE_ECUADOR
+						has_state_in_state_region = STATE_CAJAMARCA
+					}
+				}
+			}
+			add = 30
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_maxico
+				scope:target_country = {
+					OR = {
+						has_state_in_state_region = s:STATE_SONORA
+						has_state_in_state_region = s:STATE_CHIHUAHUA
+						has_state_in_state_region = s:STATE_DURANGO
+						has_state_in_state_region = s:STATE_SINALOA
+						has_state_in_state_region = s:STATE_BAJIO
+						has_state_in_state_region = s:STATE_YUCATAN
+						has_state_in_state_region = s:STATE_MEXICO
+						has_state_in_state_region = s:STATE_VERACRUZ
+						has_state_in_state_region = s:STATE_GUERRERO
+						has_state_in_state_region = s:STATE_OAXACA
+						has_state_in_state_region = s:STATE_JALISCO
+						has_state_in_state_region = s:STATE_ZACATECAS
+						has_state_in_state_region = s:STATE_CHIAPAS
+						has_state_in_state_region = s:STATE_BAJA_CALIFORNIA
+						has_state_in_state_region = s:STATE_GUATEMALA
+						has_state_in_state_region = s:STATE_RIO_GRANDE
+					}
 				}
 			}
 			add = 25
@@ -5414,7 +5513,7 @@ ai_strategy_default = {
 				max = 1000			
 			}
 			else = {
-				min = 0
+				min = 10
 				max = 200				
 			}			
 		}	

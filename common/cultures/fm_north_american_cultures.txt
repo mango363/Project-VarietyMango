@@ -22,7 +22,6 @@
 # cu:na_omaha_ponca
 # cu:na_chiwere_winnebago
 # cu:na_kansa_osage
-# cu:na_quapaw
 # cu:na_mandan
 
 # (cu:cree
@@ -488,59 +487,6 @@ na_kansa_osage = {
 	}
 	graphics = decentralised_americas
 }
-
-na_quapaw = {
-	color = { 190 120 0 }
-	religion = na_native_american_spirituality
-	traits = { indigenous_american_heritage na_north_american_heritage na_sioux_culture_group }
-	male_common_first_names = {
-		Hehaka
-		Inkpaduta
-		Istahba
-		Mahpiya
-		Monkaushka
-		Sinte
-		Tamaha
-		Thahca
-		Thasunke
-		Thathanka
-		Thaoyate_Duta
-		Wanbdisapa
-		Wanata
-	}
-	female_common_first_names = {
-		Azayamankawin
-		Topahhdewin
-		Wakanmaniwin
-		Wakantakawin
-		Wakhan_Inazin_Win
-	}
-	noble_last_names = {
-		Hakadah
-		Ohiya_S-a
-		Tamaha
-		Wakinyanduta
-		Wowinape
-	}
-	common_last_names = {
-		Duta
-		Gleska
-		Huste
-		Iyotake
-		Kohkophapi
-		Kramarae
-		Luta
-		Pecan_Wakpa
-		Sapa
-		Thankja
-		Witko
-	}
-	ethnicities = {
-		1 = na_sioux_ethnicity
-	}
-	graphics = decentralised_americas
-}
-
 na_mandan = {
 	color = { 25 0 190 }
 	religion = na_native_american_spirituality

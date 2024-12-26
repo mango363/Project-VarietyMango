@@ -45,4 +45,10 @@
 			type = guarantee_independence
 		}	
 	}
+	c:DKE ?= {
+		create_diplomatic_pact = {
+			country = c:TAC
+			type = guarantee_independence
+		}	
+	}
 }

@@ -1581,10 +1581,6 @@ je_int_missi = {
 					percent = 0.95
 					culture = cu:na_chickasaw_choctaw
 				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_quapaw
-				}
 				set_state_type = incorporated
 			}
 		}
@@ -1683,10 +1679,6 @@ je_int_ark = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_caddoan
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_quapaw
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95
@@ -1793,10 +1785,6 @@ je_int_mis = {
 				kill_population_percent_in_state = {
 					percent = 0.95
 					culture = cu:na_miami_illinois
-				}
-				kill_population_percent_in_state = {
-					percent = 0.95
-					culture = cu:na_quapaw
 				}
 				kill_population_percent_in_state = {
 					percent = 0.95

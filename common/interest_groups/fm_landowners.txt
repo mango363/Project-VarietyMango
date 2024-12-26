@@ -1,9 +1,12 @@
 ﻿ig_landowners = {
-	color = hsv{ 0.63 0.40 0.69 }
+	color = {
+		0.63
+		0.4
+		0.69
+	}
 	texture = "gfx/interface/icons/ig_icons/landowners.dds"
 	layer = "revolution_dynamic_landowners"
 	index = 4
-
 	ideologies = {
 		ideology_nationalist
 		ideology_paternalistic
@@ -14,93 +17,96 @@
 		ideology_moderate
 		ideology_traditionalist
 	}
-
 	enable = {
 		always = yes
 	}
-
 	# Deprecated; use on_enable effect to assign traits instead
 	traits = {
 		ig_trait_noblesse_oblige
 		ig_trait_family_ties
 		ig_trait_noble_privileges
 	}
-
 	on_enable = {
 		ig:ig_landowners = {
-		# Local Governors
-		if = {
-			limit = {
-				c:TOR ?= this
+			# Local Governors
+			if = {
+				limit = {
+					c:TOR ?= this
+				}
+				ig:ig_landowners = {
+					set_interest_group_name = ig_local_governors
+				}
 			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_local_governors
+			else_if = {
+				limit = {
+					country_has_primary_culture = cu:na_santee_dakota
+				}
+				ig:ig_landowners = {
+					remove_ideology = ideology_nationalist
+					remove_ideology = ideology_paternalistic
+					remove_ideology = ideology_stratocratic
+					add_ideology = ideology_indian
+				}
 			}
-		}
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:na_santee_dakota
+			# Roman Landowners
+			else_if = {
+				limit = {
+					c:PUP ?= this
+				}
+				ig:ig_landowners = {
+					set_interest_group_name = ig_roman_landowners
+					remove_ideology = ideology_paternalistic
+					add_ideology = ideology_papal_paternalistic
+				}
 			}
-			ig:ig_landowners = {
-				remove_ideology = ideology_nationalist
-				remove_ideology = ideology_paternalistic
-				remove_ideology = ideology_stratocratic
-				add_ideology = ideology_indian
+			# Ali'i
+			else_if = {
+				limit = {
+					country_has_primary_culture = cu:hawaiian
+				}
+				ig:ig_landowners = {
+					set_interest_group_name = ig_alii
+					add_ideology = ideology_loyalist
+				}
 			}
-		}
-		# Roman Landowners
-		else_if = {
-			limit = {
-				c:PUP ?= this
+			# Yangban Officials
+			else_if = {
+				limit = {
+					c:KOR ?= this
+				}
+				ig:ig_landowners = {
+					set_interest_group_name = ig_yangban
+				}
 			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_roman_landowners
-				remove_ideology = ideology_paternalistic
-				add_ideology = ideology_papal_paternalistic
+			# Pious Spanish Landowners
+			else_if = {
+				limit = {
+					country_has_primary_culture = cu:spanish
+				}
+				ig:ig_landowners = {
+					add_ideology = ideology_pious
+				}
 			}
-		}
-		# Ali'i
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:hawaiian
+			# Aristocracy of Officials
+			else_if = {
+				limit = {
+					country_has_primary_culture = cu:norwegian
+				}
+				ig:ig_landowners = {
+					set_interest_group_name = ig_aristocracy_of_officials
+				}
 			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_alii
-				add_ideology = ideology_loyalist
-			}
-		}
-		# Yangban Officials
-		else_if = {
-			limit = {
-				c:KOR ?= this
-			}
-			ig:ig_landowners = { 
-				set_interest_group_name = ig_yangban
-			}
-		}
-		# Pious Spanish Landowners
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:spanish
-			}
-			ig:ig_landowners = {
-				add_ideology = ideology_pious
-			}
-		}
-		# Aristocracy of Officials
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:norwegian
-			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_aristocracy_of_officials
+			else = {
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 			}
 		}
 	}
+	on_disable = {
 	}
-	on_disable = {}
-	on_character_ig_membership = {}
-
+	on_character_ig_membership = {
+	}
 	pop_potential = {
 		OR = {
 			is_pop_type = aristocrats
@@ -109,10 +115,8 @@
 			is_pop_type = farmers
 		}
 	}
-
 	pop_weight = {
 		value = 0
-
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
@@ -122,7 +126,6 @@
 				value = 250
 			}
 		}
-
 		add = {
 			desc = "POP_CLERGYMEN"
 			if = {
@@ -132,7 +135,6 @@
 				value = 50
 			}
 		}
-
 		add = {
 			desc = "POP_OFFICERS"
 			if = {
@@ -142,7 +144,6 @@
 				value = 50
 			}
 		}
-
 		add = {
 			desc = "POP_FARMERS"
 			if = {
@@ -151,12 +152,14 @@
 				}
 				value = 25
 				add = this.standard_of_living
-				
 				if = {
-					limit = { owner = { has_law = law_type:law_homesteading } }
+					limit = {
+						owner = {
+							has_law = law_type:law_homesteading
+						}
+					}
 					multiply = 1.25
 				}
-
 				if = {
 					limit = {
 						state = {
@@ -167,7 +170,6 @@
 				}
 			}
 		}
-
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {
@@ -193,14 +195,14 @@
 				min = 0
 			}
 		}
-		
 		if = {
 			limit = {
 				scope:interest_group = {
 					is_in_government = yes
 				}
 			}
-			multiply = { # Multiplied by 1.25x max
+			multiply = {
+				# Multiplied by 1.25x max
 				desc = "POP_LOYALISTS"
 				value = pop_loyalist_fraction
 				divide = 4
@@ -213,7 +215,8 @@
 					is_in_government = no
 				}
 			}
-			multiply = { # Multiplied by 1.25x max
+			multiply = {
+				# Multiplied by 1.25x max
 				desc = "POP_RADICALS"
 				value = pop_radical_fraction
 				divide = 4
@@ -221,9 +224,8 @@
 			}
 		}
 	}
-
 	monarch_weight = {
-		value = 1.5 # inherently likely
+		value = 1.5		# inherently likely
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
@@ -273,7 +275,6 @@
 			}
 		}
 	}
-
 	agitator_weight = {
 		# Agitators more likely to come from populist IG's rather than elitist
 		value = 0.25
@@ -289,75 +290,61 @@
 			}
 		}
 	}
-
 	commander_weight = {
-		value = 2.0
+		value = 2
 	}
-
 	noble_chance = {
-		value = 1.0
+		value = 1
 	}
-
 	female_commander_chance = {
-		value = 0.0
+		value = 0
 	}
-
 	female_politician_chance = {
-		value = 0.0
-
+		value = 0
 		if = {
 			limit = {
 				owner = {
 					has_law = law_type:law_womens_suffrage
 				}
-
 			}
 			add = {
 				value = 0.01
 			}
 		}
 	}
-
 	female_agitator_chance = {
 		value = 0.01
-		
 		if = {
 			limit = {
 				owner = {
 					has_law = law_type:law_women_own_property
 				}
-
-			}
-			add = {
-				value = 0.01
-			}
-		}	
-		
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_women_in_the_workplace
-				}
-
 			}
 			add = {
 				value = 0.01
 			}
 		}
-
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+			}
+			add = {
+				value = 0.01
+			}
+		}
 		if = {
 			limit = {
 				owner = {
 					has_law = law_type:law_womens_suffrage
 				}
-
 			}
 			add = {
 				value = 0.01
 			}
-		}		
+		}
 	}
-
 	# The chance that a commander belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {

@@ -198,4 +198,14 @@
 			type = dominion
 		}
 	}
+	c:RPQ ?= {
+		create_diplomatic_pact = {
+			country = c:AZ3
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AZ4
+			type = puppet
+		}
+	}
 }

@@ -535,3 +535,6 @@ gov_malikdom:0 "Malikdom"
  gov_constitutional_hetmanate:0 "Hetmanate"
  gov_constitutional_hetmanate_desc:0 "This is a [concept_government_type] where the power rests mainly with the [Concept('concept_ruler','$RULER_TITLE_TAIKUN$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
+ RULER_sapa:0 "Qhapaq Inca"
+ gov_sapa:0 "Empire"
+ gov_sapa_desc:0 "The Inca Empire is a decentralized government consisting of a central government with the [Concept('concept_ruler','$RULER_sapa$')] at its head and four regional quarters, or [concept_suyu]"

@@ -13805,7 +13805,6 @@ quechua={
 		Titu Cusi
 		Túpac
 		Accla
-		Atahualpa
 		Huáscar
 		Lloque
 		Mayta
@@ -16452,7 +16451,7 @@ argentino={
 		Bernardino Bartolomeo Benedetto Bonaventura Bernardo
 		Camillo Carlo Cesare Costanzo Casimiro Cristoforo
 		Davide Domenico Damiano
-		Enrico Enzo Ettore Efisio Emiliano Ernesto
+		Enrico Enzo Ettore Efisio Emiliano Ernesto Ermanno
 		Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Filippo Filiberto Felice
 		Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Giacomo Giorgio Gaspare Gaetano
 		Innocenzo Ignazio Ippolito Ilario

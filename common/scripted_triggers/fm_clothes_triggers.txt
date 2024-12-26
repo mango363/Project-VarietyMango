@@ -144,6 +144,9 @@ native_american_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		culture = {
+			NOT = {
+				this = cu:quechua
+			}
 			has_discrimination_trait = indigenous_american_heritage
 		}
 	}
@@ -601,7 +604,10 @@ siamese_clothes_trigger = {
 			culture = cu:vietnamese
 		}
 		culture = {
-			has_discrimination_trait = southeast_asian_heritage
+			or = {
+				this = cu:quechua
+				has_discrimination_trait = southeast_asian_heritage
+			}
 		}
 	}
 }
@@ -954,7 +960,10 @@ south_east_asia_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		culture = {
-			has_discrimination_trait = southeast_asian_heritage
+			or = {
+				this = cu:quechua
+				has_discrimination_trait = southeast_asian_heritage
+			}
 		}
 	}
 }
@@ -973,7 +982,7 @@ south_american_clothes_character_trigger = {
 				has_discrimination_trait = iberian_culture_group
 			}
 			NOT = {
-				has_discrimination_trait = italian_culture_group
+				has_discrimination_trait = roman_culture
 			}
 		}
 	}
@@ -993,7 +1002,7 @@ south_american_clothes_pop_trigger = {
 				has_discrimination_trait = iberian_culture_group
 			}
 			NOT = {
-				has_discrimination_trait = italian_culture_group
+				has_discrimination_trait = roman_culture
 			}
 		}
 	}

@@ -56,7 +56,7 @@ POPS = {
 				size = 1351061
 			}
 			create_pop = {
-				culture = nahua
+				culture = na_nahuan
 				religion = catholic
 				size = 22065
 			}
@@ -200,7 +200,7 @@ POPS = {
 				size = 1011710
 			}
 			create_pop = {
-				culture = nahua
+				culture = na_nahuan
 				size = 152078
 			}
 			create_pop = {

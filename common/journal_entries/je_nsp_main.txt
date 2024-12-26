@@ -1,0 +1,31 @@
+je_maxico = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	complete = {
+		has_technology_researched = nationalism
+		owns_entire_state_region = STATE_SONORA
+		owns_entire_state_region = STATE_CHIHUAHUA
+		owns_entire_state_region = STATE_RIO_GRANDE
+		owns_entire_state_region = STATE_DURANGO
+		owns_entire_state_region = STATE_SINALOA
+		owns_entire_state_region = STATE_BAJIO
+		owns_entire_state_region = STATE_YUCATAN
+		owns_entire_state_region = STATE_MEXICO
+		owns_entire_state_region = STATE_VERACRUZ
+		owns_entire_state_region = STATE_GUERRERO
+		owns_entire_state_region = STATE_OAXACA
+		owns_entire_state_region = STATE_JALISCO
+		owns_entire_state_region = STATE_ZACATECAS
+		owns_entire_state_region = STATE_CHIAPAS
+		owns_entire_state_region = STATE_BAJA_CALIFORNIA
+		owns_entire_state_region = STATE_GUATEMALA
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_max.1
+		}
+		change_tag = MAX
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}

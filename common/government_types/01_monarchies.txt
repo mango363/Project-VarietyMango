@@ -371,6 +371,31 @@ gov_domain = {
 	}
 }
 
+gov_sapa = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_sapa"
+	female_ruler = "RULER_sapa" 
+
+	male_heir = "RULER_TITLE_HEIR_APPARENT"
+	female_heir = "RULER_TITLE_HEIR_APPARENT"
+	
+	possible = {
+		or = {
+			AND = { exists = c:RPQ c:RPQ = ROOT }
+			AND = { exists = c:TWT c:TWT = ROOT }
+		}
+		has_law = law_type:law_monarchy
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}
+
 gov_hawaiian_monarchy_recognised = {
 	transfer_of_power = hereditary
 	

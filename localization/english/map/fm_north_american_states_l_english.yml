@@ -55,3 +55,11 @@
  STATE_NUNAVUT:0 "Helluland"
  STATE_ONTARIO:0 "Þjoðhildur"
  STATE_MANITOBA:0 "Manitou-wapah"
+
+ STATE_POTOSI:0 "P'otoj"
+ STATE_TARAPACA:0 "Tara Paka"
+ STATE_LA_PAZ:0 "Chuqiyapu"
+ STATE_AREQUIPA:0 "Ari Quepay"
+ STATE_ICA:0 "Ika"
+ STATE_LIMA:0 "Limaq"
+STATE_SANTA_CRUZ:0 "Santa Croce"

@@ -271,7 +271,7 @@ yag_progress_bar = {
 				any_scope_state = {
 					owner = root
 					is_incorporated = yes
-					turmoil >= 0.3
+					turmoil >= 0.3 
 					count > 5
 				}
 			}
@@ -281,8 +281,8 @@ yag_progress_bar = {
 		}
 	}
 
-	start_value = 199
+	start_value = 290
 	min_value = 0
-	max_value = 200
+	max_value = 300
 
  }

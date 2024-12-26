@@ -439,14 +439,6 @@ state_na_kansa_osage_standard_of_living_add={
 	}
 }
 
-state_na_quapaw_standard_of_living_add={
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
 state_na_mandan_standard_of_living_add={
 	decimals=1
 	color=good

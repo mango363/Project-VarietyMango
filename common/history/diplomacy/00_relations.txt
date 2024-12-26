@@ -222,6 +222,7 @@
 		set_relations = { country = c:HEN value = 30 }
 		set_relations = { country = c:NED value = -30 }
 		set_relations = { country = c:PUM value = 20 }
+		set_relations = { country = c:TAC value = 80 }
 	}
 	c:HAK ?= {
 		set_relations = { country = c:MUR value = -50 }

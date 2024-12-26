@@ -581,6 +581,9 @@ headgear = {
                     european_clothes_trigger = yes
                     scope:character ?= {
                         def_na_native_american_trigger = yes
+                        NOT = {
+                            culture = cu:quechua
+                        }
                     }
                     african_diaspora_clothes_trigger = yes
                 }

@@ -344,8 +344,9 @@ GPO = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		NOT = {
-			c:AGA = this
+		NOR = {
+			c:AGA ?= this
+			c:BRZ ?= this
 		}
 	}
 
@@ -544,35 +545,6 @@ CUL = {
 	
 	ai_will_do = { always = yes }
 }
-
-
-
-MAX = {
-	STATES = {
-		STATE_SONORA
-		STATE_CHIHUAHUA
-		STATE_RIO_GRANDE
-		STATE_DURANGO
-		STATE_SINALOA
-		STATE_BAJIO
-		STATE_YUCATAN
-		STATE_MEXICO
-		STATE_VERACRUZ
-		STATE_GUERRERO
-		STATE_OAXACA
-		STATE_JALISCO
-		STATE_ZACATECAS
-		STATE_GUERRERO
-		STATE_CHIAPAS
-		STATE_BAJA_CALIFORNIA
-		STATE_GUATEMALA
-	}
-
-	required_states_fraction = 1
-	
-	ai_will_do = { always = yes }
-}
-
 
 FSA = {
 	use_culture_states = yes

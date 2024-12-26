@@ -243,14 +243,14 @@ POPS = {
 		}
 	}
 	s:STATE_TARAPACA = {
-		region_state:RPQ = {
+		region_state:AZ4 = {
 			create_pop = {
 				culture = aimara
-				size = 8500
+				size = 28500
 			}
 			create_pop = {
 				culture = quechua
-				size = 68500
+				size = 368500
 			}
 			create_pop = {
 				culture = argentino
@@ -262,11 +262,15 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = aimara
-				size = 64200
+				size = 24200
+			}
+			create_pop = {
+				culture = quechua
+				size = 324755
 			}
 			create_pop = {
 				culture = argentino
-				size = 3400
+				size = 13400
 			}
 		}
 	}
@@ -280,21 +284,47 @@ POPS = {
 				culture = amazonian
 				size = 32000
 			}
+			create_pop = {
+				culture = quechua
+				size = 400
+			}
 		}
 	}
 	s:STATE_LA_PAZ = {
 		region_state:GNI = {
 			create_pop = {
-				culture = guarani
-				size = 22000
+				culture = aimara
+				size = 2000
 			}
 			create_pop = {
-				culture = aimara
-				size = 13004
+				culture = quechua
+				size = 404
 			}
 			create_pop = {
 				culture = amazonian
-				size = 21000
+				size = 1000
+			}
+			create_pop = {
+				culture = guarani
+				size = 4000
+			}
+		}
+		region_state:AZ2 = {
+			create_pop = {
+				culture = aimara
+				size = 52000
+			}
+			create_pop = {
+				culture = quechua
+				size = 12004
+			}
+			create_pop = {
+				culture = amazonian
+				size = 9000
+			}
+			create_pop = {
+				culture = guarani
+				size = 2000
 			}
 		}
 		region_state:RPQ = {
@@ -309,14 +339,14 @@ POPS = {
 		}
 	}
 	s:STATE_POTOSI = {
-		region_state:RPQ = {
+		region_state:AZ3 = {
 			create_pop = {
 				culture = aimara
 				size = 11299
 			}
 			create_pop = {
 				culture = quechua
-				size = 121996
+				size = 421996
 			}
 		}
 	}
@@ -332,7 +362,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = quechua
-				size = 186696
+				size = 386696
 			}
 		}
 	}
@@ -340,7 +370,7 @@ POPS = {
 		region_state:RPQ = {
 			create_pop = {
 				culture = quechua
-				size = 345033
+				size = 745033
 			}
 			create_pop = {
 				culture = amazonian
@@ -360,7 +390,7 @@ POPS = {
 		region_state:RPQ = {
 			create_pop = {
 				culture = quechua
-				size = 280400
+				size = 680400
 			}
 			create_pop = {
 				culture = aimara
@@ -389,11 +419,15 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = guarani
-				size = 51000
+				size = 141000
 			}
 			create_pop = {
 				culture = argentino
 				size = 4000
+			}
+			create_pop = {
+				culture = quechua
+				size = 155600
 			}
 		}
 
@@ -427,7 +461,7 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = argentino
-				size = 1006600
+				size = 706600
 			}
 			create_pop = {
 				culture = afro_caraibico
@@ -529,7 +563,7 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = argentino
-				size = 894658
+				size = 594658
 			}
 			create_pop = {
 				culture = guarani
@@ -546,7 +580,7 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = argentino
-				size = 501462
+				size = 401462
 			}
 			create_pop = {
 				culture = brazilian
@@ -571,20 +605,24 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = argentino
-				size = 176078
+				size = 226078
 			}
 			create_pop = {
 				culture = afro_caraibico
-				size = 250
+				size = 1250
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caraibico
-				size = 80
+				size = 980
 			}
 			create_pop = {
 				culture = guarani
 				size = 2600
+			}
+			create_pop = {
+				culture = quechua
+				size = 190330
 			}
 		}
 	}
@@ -609,11 +647,15 @@ POPS = {
 		region_state:AGA = {
 			create_pop = {
 				culture = patagonian
-				size = 45608
+				size = 65608
 			}
 			create_pop = {
 				culture = argentino
-				size = 390000
+				size = 310000
+			}
+			create_pop = {
+				culture = quechua
+				size = 290330
 			}
 		}
 	}
@@ -662,10 +704,14 @@ POPS = {
 		}
 	}
 	s:STATE_ACRE={
-		region_state:AMZ = { # sources indicate existence of small numbers of both peruvians and brazilians
+		region_state:AZ1 = {
 			create_pop = {
 				culture = amazonian
 				size = 16100
+			}
+			create_pop = {
+				culture = quechua
+				size = 100
 			}
 		}
 	}

@@ -382,14 +382,7 @@
 			}
 		}
 	}
-	# 1.8M
 	s:STATE_FLORIDA = {
-		region_state:MCG = {
-			create_pop = {
-				culture = na_apalachee
-				size = 67054
-			}
-		}
 		region_state:FLU = {
 			create_pop = {
 				culture = na_apalachee
@@ -405,7 +398,7 @@
 			}
 			create_pop = {
 				culture = na_muscogee
-				size = 129765
+				size = 199765
 			}
 		}
 	}
@@ -591,6 +584,24 @@
 				size = 98544
 			}
 		}
+		region_state:LOI = {
+			create_pop = {
+				culture = na_muscogee
+				size = 2347
+			}
+			create_pop = {
+				culture = na_chickasaw_choctaw
+				size = 599
+			}
+			create_pop = {
+				culture = na_apalachee
+				size = 844
+			}
+			create_pop = {
+				culture = french
+				size = 544
+			}
+		}
 	}
 	s:STATE_MISSISSIPPI = {
 		region_state:MCG = {
@@ -602,11 +613,7 @@
 		region_state:LOI = {
 			create_pop = {
 				culture = na_chickasaw_choctaw
-				size = 44362
-			}
-			create_pop = {
-				culture = na_quapaw
-				size = 51029
+				size = 91029
 				
 			}
 			create_pop = {
@@ -723,15 +730,11 @@
 			}
 			create_pop = {
 				culture = na_miami_illinois
-				size = 67054
+				size = 167054
 			}
 			create_pop = {
 				culture = na_chiwere_winnebago
 				size = 400000
-			}
-			create_pop = {
-				culture = na_quapaw
-				size = 67054
 			}
 		}
 	}
@@ -748,12 +751,8 @@
 				size = 67054
 			}
 			create_pop = {
-				culture = na_quapaw
-				size = 321432
-			}
-			create_pop = {
 				culture = na_kansa_osage
-				size = 250000
+				size = 550000
 			}
 		}
 	}
@@ -1234,7 +1233,6 @@
 			}
 		}
 	}
-	 + YUA
 	s:STATE_CALIFORNIA = {
 		region_state:YMN = {
 			create_pop = {
