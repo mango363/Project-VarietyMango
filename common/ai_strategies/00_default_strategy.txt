@@ -690,6 +690,7 @@ ai_strategy_default = {
 					}
 				}
 				add = 400
+			}
 				if = {
 					limit = {
 						has_journal_entry = je_north_empire_vin
@@ -708,7 +709,6 @@ ai_strategy_default = {
 					}
 					add = 400
 				}
-			}
 			
 
 			if = {
