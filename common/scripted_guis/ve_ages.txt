@@ -115,7 +115,7 @@ ve_age_obj_2 = {
 					}
 					has_diplomatic_pact = {
 						who = ROOT
-						type = dominion
+						type = protectorate
 					}
 				}
 				count >= 3

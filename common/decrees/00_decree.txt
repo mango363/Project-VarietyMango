@@ -306,37 +306,6 @@ decree_promote_social_mobility = {
 	}
 }
 
-decree_cultural_replacement = {
-	texture = "gfx/interface/icons/decree/cult_rep.dds"
-	unlocking_technologies = {
-		nationalism
-	}
-	state_trigger = {
-		owner = {
-			is_player = yes
-			OR = {
-				has_law = law_type:law_national_supremacy
-				has_law = law_type:law_ethnostate
-			}
-		}
-		NOR = {
-			has_decree = decree_emergency_relief
-			has_decree = decree_greener_grass_campaign
-		}
-		has_converting_pops = yes
-		is_incorporated = no
-	}
-	modifier = {
-		state_birth_rate_mult = -0.1
-		state_accepted_birth_rate_mult = 0.2
-		state_migration_pull_mult = 0.2
-		state_standard_of_living_add = -2
-		state_radicals_from_political_movements_mult = 0.35
-		state_turmoil_effects_mult = 1
-	}
-	cost = 100
-}
-
 decree_promote_national_values = {
 	texture = "gfx/interface/icons/decree/decree_promote_national_values.dds"
 	unlocking_technologies = {

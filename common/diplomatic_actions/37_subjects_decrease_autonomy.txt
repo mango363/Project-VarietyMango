@@ -102,7 +102,7 @@
 				AND = {
 					scope:target_country = {
 						OR = {
-							is_subject_type = subject_type_dominion
+							is_subject_type = subject_type_puppet
 							is_subject_type = subject_type_personal_union
 						}	
 					}

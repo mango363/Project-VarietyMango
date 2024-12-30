@@ -120,7 +120,7 @@ POWER_BLOCS = {
 			member = c:KOF
 			member = c:TKA
 			member = c:MTS
-			member = c:GUJ
+			member = c:GJO
 			member = c:SAB
 		}
 		power_bloc = {

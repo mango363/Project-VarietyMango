@@ -67,8 +67,9 @@ age_1_bonus_11 = {
 
 age_2_bonus_1 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_suppression_ig_attraction_mult = -0.5
-	country_bolster_ig_attraction_mult = 0.5
+	country_agitator_slots_add = 1
+	political_movement_radicalism_from_enactment_disapproval_mult = -0.25
+	state_decree_cost_mult = -0.2
 }
 
 age_2_bonus_2 = {
@@ -78,7 +79,7 @@ age_2_bonus_2 = {
 
 age_2_bonus_3 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_agitator_slots_add = 2
+	country_agitator_slots_add = 1
 	country_revolution_progress_mult = -0.25
 	country_secession_progress_mult = -0.25
 	political_movement_radicalism_add = -0.05
@@ -100,7 +101,7 @@ age_2_bonus_6 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
 	state_assimilation_mult = 0.2
 	state_conversion_mult = 0.2
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 age_2_bonus_7 = {

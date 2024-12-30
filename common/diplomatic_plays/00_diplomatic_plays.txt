@@ -294,7 +294,23 @@ dp_reduce_autonomy = {
 	requires_interest_marker = no
 	
 	texture = "gfx/interface/icons/war_goals/reduce_autonomy.dds"
-	
+		
+	possible = {
+		OR = {
+			NOT = {
+				scope:target_country = { is_subject_type = subject_type_personal_union }
+			} 
+			has_technology_researched = nationalism
+		}		
+
+		OR = {
+			NOT = {
+				scope:target_country = { has_government_type = gov_chartered_company }
+			} 
+			has_technology_researched = civilizing_mission
+		}	
+	}
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
@@ -336,6 +352,24 @@ dp_make_tributary = {
 	
 	possible = {
 		NOT = { has_modifier = diplomatic_plays_blocked }
+		aggressive_diplomatic_plays_permitted = yes	
+	}
+	
+	ai_acceptance_max = 90
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_make_dominion = {	
+	war_goal = make_dominion
+	
+	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
+	
+	possible = {
 		aggressive_diplomatic_plays_permitted = yes	
 	}
 	
@@ -406,6 +440,7 @@ dp_annex_subject = {
 			NOT = { is_country_type = decentralized }
 			is_direct_subject_of = root
 			OR = {
+				has_diplomatic_pact = { who = root type = colony }
 				has_diplomatic_pact = { who = root type = puppet }
 				has_diplomatic_pact = { who = root type = vassal }
 			}
@@ -427,15 +462,14 @@ dp_annex_subject = {
 	
 	on_war_begins = {
 		scope:initiator = {
-			every_subject_or_below = {
+			every_direct_subject = {
 				limit = {
-					is_direct_subject_of = scope:initiator
 					NOT = { this = scope:target_country }
 				}
 				add_liberty_desire = annex_subject_base_liberty_desire_change
 				add_modifier = {
 					name = modifier_has_annexed_another_subject
-					months = 60
+					months = 24
 					is_decaying = no
 				}
 			}
@@ -443,6 +477,20 @@ dp_annex_subject = {
 	}
 
 	on_war_end = {}
+		
+	on_demand_accepted = {
+		every_direct_subject = {
+			limit = {
+				NOT = { this = scope:target_country }
+			}
+			add_liberty_desire = annex_subject_base_liberty_desire_change
+			add_modifier = {
+				name = modifier_has_annexed_another_subject
+				months = 24
+				is_decaying = no
+			}
+		}
+	}
 }
 
 dp_revolution = {
@@ -523,26 +571,24 @@ dp_secession = {
 	}		
 	
 	possible = {
-		scope:target_country = {
-			is_secessionist = yes
-		}
+		scope:initiator = { is_secessionist = yes }
 	}
 
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 	
-		scope:target_country = {
+		scope:initiator = {
 			capital = {
 				region = {
-					save_temporary_scope_as = target_capital_region
+					save_temporary_scope_as = secession_capital_region
 				}
 			}
 		}
 		
 		OR = {
-			has_interest_marker_in_region = scope:target_capital_region
-			is_home_country_for = scope:target_country
+		has_interest_marker_in_region = scope:secession_capital_region
+			is_home_country_for = scope:initiator
 		}
 	}
 	

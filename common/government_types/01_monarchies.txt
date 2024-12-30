@@ -234,32 +234,6 @@ gov_princely_state_raja = {
 	}
 }
 
-gov_princely_state_sultan = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_SULTAN"
-	female_ruler = "RULER_TITLE_SULTANA"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		
-		OR = {
-			country_has_state_religion = rel:sunni
-			country_has_state_religion = rel:shiite
-		}
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
-
 
 gov_daimyo = {
 	transfer_of_power = hereditary
@@ -305,7 +279,7 @@ gov_daimyo = {
 			AND = { exists = c:KOF c:KOF = ROOT }
 			AND = { exists = c:TKA c:TKA = ROOT }
 			AND = { exists = c:MTS c:MTS = ROOT }
-			AND = { exists = c:GUJ c:GUJ = ROOT }
+			AND = { exists = c:GJO c:GJO = ROOT }
 			AND = { exists = c:SAB c:SAB = ROOT }
 			AND = { exists = c:TWA c:TWA = ROOT }
 			AND = { exists = c:MTE c:MTE = ROOT }
@@ -1165,56 +1139,6 @@ gov_fra_absolute_monarchy_legitimist = {
 		post_change_to_hereditary = yes
 	}
 }
-
-gov_princely_state_hindu = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_RAJA"
-	female_ruler = "RULER_TITLE_RANI"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		
-		country_has_state_religion = rel:hindu
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
-
-gov_princely_state_muslim = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_SULTAN"
-	female_ruler = "RULER_TITLE_SULTANA"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		
-		OR = {
-			country_has_state_religion = rel:sunni
-			country_has_state_religion = rel:shiite
-		}
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
-
 gov_nawabate = {
 	transfer_of_power = hereditary
 

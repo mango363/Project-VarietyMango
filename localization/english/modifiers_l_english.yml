@@ -1673,6 +1673,8 @@ building_group_bg_subsistence_agriculture_allowed_collectivization_add: "Minimum
   
  state_political_strength_from_wealth_mult:0 "[concept_political_strength] from [concept_wealth]"
  state_political_strength_from_wealth_mult_desc:0 "An increase or decrease to the amount of [concept_political_strength] of [Concept('concept_pop','$concept_pops$')] from [concept_wealth]"
+ state_political_strength_from_welfare_mult:0 "Political Strength when receiving Welfare"
+ state_political_strength_from_welfare_mult_desc:0 "An increase or decrease to the amount of [concept_political_strength] of [Concept('concept_pop','$concept_pops$')] that are receiving [concept_welfare_payments]"
  
  state_dependent_political_participation_add:0 "Dependent Enfranchisement"
  state_dependent_political_participation_add_desc:0 "The fraction of Dependents that can join Interest Groups and vote."

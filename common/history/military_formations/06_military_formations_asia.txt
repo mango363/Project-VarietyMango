@@ -476,12 +476,27 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BAGHDAD
-				count = 25
+				count = 15
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ISFAHAN
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_FARS
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_IRAKAJEMI
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BASRA
-				count = 25
+				count = 20
 			}
 		}
 	}
@@ -917,7 +932,7 @@
 			}
 		}
 	}
-	c:GUJ = {
+	c:GJO = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_japan

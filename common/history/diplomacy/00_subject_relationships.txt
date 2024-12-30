@@ -2,11 +2,11 @@
 	c:LIT ?= {
 		create_diplomatic_pact = {
 			country = c:BYE
-			type = dominion
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:COH
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:DKE ?= {
@@ -18,7 +18,7 @@
 	c:SWU ?= {
 		create_diplomatic_pact = {
 			country = c:AMC
-			type = dominion
+			type = puppet
 		}
 	}
 	c:FUN ?= {
@@ -80,11 +80,11 @@
 		}
 		create_diplomatic_pact = {
 			country = c:WUR
-			type = dominion
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:BAD
-			type = dominion
+			type = protectorate
 		}
 	}
 
@@ -107,13 +107,13 @@
 	c:ENG = {
 		create_diplomatic_pact = {
 			country = c:NUR
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:SCU = {
 		create_diplomatic_pact = {
 			country = c:NOS
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:FRU ?= {
@@ -147,7 +147,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:LOI
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:EGE ?= {
@@ -195,17 +195,17 @@
 	c:CAS = {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:RPQ ?= {
 		create_diplomatic_pact = {
 			country = c:AZ3
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:AZ4
-			type = puppet
+			type = vassal
 		}
 	}
 }

@@ -238,10 +238,7 @@
                 scope:character ?= {
                     exists = home_country
                     home_country = {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
+                        c:NGF ?= this
                     }
                     age > define:NCharacters|ADULT_AGE
                     NOR = {

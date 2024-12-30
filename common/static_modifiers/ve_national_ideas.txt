@@ -140,7 +140,7 @@ ger_idea_4 = {
 
 ger_idea_5 = {
 	icon = gfx/interface/intelligensia.dds
-	state_accepted_birth_rate_mult = 0.02
+	state_birth_rate_mult = 0.02
 }
 
 ger_idea_6 = {
@@ -404,7 +404,7 @@ japgen_idea_3 = {
 
 japgen_idea_4 = {
 	icon = gfx/interface/intelligensia.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 japgen_idea_5 = {
@@ -514,7 +514,7 @@ jap_idea_3 = {
 
 jap_idea_4 = {
 	icon = gfx/interface/intelligensia.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 jap_idea_5 = {

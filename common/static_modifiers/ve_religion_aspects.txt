@@ -104,7 +104,7 @@ protestant_aspect_7_mdf = {
 protestant_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_assimilation_mult = 0.25
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.03
 }
 
 orthodox_pasive_mdf = {
@@ -247,7 +247,7 @@ baal_aspect_5_mdf = {
 
 baal_aspect_6_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 baal_aspect_7_mdf = {
@@ -350,7 +350,7 @@ zoro_aspect_5_mdf = {
 
 zoro_aspect_6_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 zoro_aspect_7_mdf = {
@@ -438,7 +438,7 @@ shia_aspect_2_mdf = {
 shia_aspect_3_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_conversion_mult = 1
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.04
 }
 
 shia_aspect_4_mdf = {
@@ -503,7 +503,7 @@ jewish_aspect_4_mdf = {
 jewish_aspect_5_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_urbanization_per_level_mult = -0.1
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 jewish_aspect_6_mdf = {
@@ -582,7 +582,7 @@ mahayana_aspect_7_mdf = {
 mahayana_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_radicals_from_political_movements_mult = -0.25
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.05
 }
 
 hindu_pasive_mdf = {
@@ -735,7 +735,7 @@ animist_aspect_6_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_conversion_mult = 0.25
 	state_assimilation_mult = 0.25
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.03
 }
 
 animist_aspect_7_mdf = {
@@ -748,7 +748,7 @@ animist_aspect_7_mdf = {
 animist_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	interest_group_in_opposition_approval_add = 5
-	state_accepted_birth_rate_mult = 0.08
+	state_birth_rate_mult = 0.05
 }
 
 na_wocekiye_pasive_mdf = {
@@ -791,7 +791,7 @@ na_wocekiye_aspect_6_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_conversion_mult = 0.25
 	state_assimilation_mult = 0.25
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.02
 }
 
 na_wocekiye_aspect_7_mdf = {
@@ -864,7 +864,7 @@ na_native_american_spirituality_aspect_7_mdf = {
 na_native_american_spirituality_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	interest_group_in_opposition_approval_add = 5
-	state_accepted_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.08
 }
 
 #Missionary

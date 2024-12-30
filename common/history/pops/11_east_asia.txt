@@ -1161,7 +1161,7 @@
 				size = 110594
 			}
 		}
-		region_state:GUJ = {
+		region_state:GJO = {
 			create_pop = {
 				culture = japanese
 				size = 929993

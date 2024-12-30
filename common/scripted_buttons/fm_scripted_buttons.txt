@@ -4297,7 +4297,7 @@ je_nat_butt_two = {
 		always = yes
 	}
 	ai_chance = {
-		base = 100
+		base = 0
 	}
 	possible = {
 		custom_tooltip = {

@@ -368,21 +368,6 @@ WES = {
 	ai_will_do = { always = no }
 }
 
-PRU = {
-	states = { 
-		STATE_BRANDENBURG
-		STATE_POMERANIA
-		STATE_WEST_PRUSSIA
-		STATE_EAST_PRUSSIA
-		STATE_SILESIA
-		STATE_POSEN
-	}
-
-	required_num_states = 3
-	
-	ai_will_do = { always = no }
-}
-
 
 
 

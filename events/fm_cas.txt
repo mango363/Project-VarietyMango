@@ -144,6 +144,7 @@ fm_cas.4 = { #cas rev
 				state_region = s:STATE_VALENCIA
 			}
 			set_state_owner = c:CAT
+			set_state_type = incorporated
 		}
 	}
 	option = {

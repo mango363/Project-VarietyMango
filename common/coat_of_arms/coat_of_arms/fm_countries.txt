@@ -27278,7 +27278,7 @@ MTS = {
 	}
 }
 
-GUJ = {
+GJO = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 

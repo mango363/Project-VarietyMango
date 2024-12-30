@@ -578,7 +578,7 @@ set_national_idea = {
 				this = c:KOF
 				this = c:TKA
 				this = c:MTS
-				this = c:GUJ
+				this = c:GJO
 				this = c:SAB
 
 			}
@@ -1035,7 +1035,7 @@ national_idea_traditions = {
 				AND = { exists = c:KOF this = c:KOF  }
 				AND = { exists = c:TKA this = c:TKA  }
 				AND = { exists = c:MTS this = c:MTS  }
-				AND = { exists = c:GUJ this = c:GUJ  }
+				AND = { exists = c:GJO this = c:GJO  }
 				AND = { exists = c:SAB this = c:SAB  }
 				AND = { exists = c:TWA this = c:TWA  }
 				AND = { exists = c:MTE this = c:MTE  }

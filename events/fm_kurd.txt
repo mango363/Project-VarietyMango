@@ -30,6 +30,7 @@ fm_kur.1 = {
 				state_region = s:STATE_ERZURUM
 			}
 			set_state_owner = c:KUR
+			set_state_type = incorporated
 		}
 	}
 	option = {

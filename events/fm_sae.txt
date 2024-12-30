@@ -169,6 +169,7 @@ fm_sae.3 = {
 					state_region = s:STATE_FARS
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -180,12 +181,14 @@ fm_sae.3 = {
 					state_region = s:STATE_KHORASAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 			random_state = {
 				limit = {
 					state_region = s:STATE_SEMNAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -197,6 +200,7 @@ fm_sae.3 = {
 					state_region = s:STATE_KHUZESTAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -208,12 +212,14 @@ fm_sae.3 = {
 					state_region = s:STATE_IRAKAJEMI
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 			random_state = {
 				limit = {
 					state_region = s:STATE_MAZANDARAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -225,6 +231,7 @@ fm_sae.3 = {
 					state_region = s:STATE_ISFAHAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -236,6 +243,7 @@ fm_sae.3 = {
 					state_region = s:STATE_PERSIAN_KURDISTAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		if = {
@@ -247,6 +255,7 @@ fm_sae.3 = {
 					state_region = s:STATE_LURISTAN
 				}
 				set_state_owner = c:TPE
+				set_state_type = incorporated
 			}
 		}
 		c:TPE = {
@@ -273,7 +282,7 @@ fm_sae.3 = {
 			create_diplomatic_play = {
 				name = annex_war
 				target_country = c:TPE
-				war = yes
+				war = no
 				type = dp_annex_war
 				add_war_goal = {
 					holder = c:TPE
@@ -289,6 +298,14 @@ fm_sae.3 = {
 		remove_variable = var_irak
 		remove_variable = var_zorokur
 		remove_variable = var_luri
+		hidden_effect = {
+			c:TPE = {
+				add_modifier = {
+					name = modifier_boostsae
+					months = 1
+				}
+			}
+		}
 	}
 	option = {
 		name = fm_sae.3.b
@@ -296,7 +313,7 @@ fm_sae.3 = {
 			create_diplomatic_play = {
 				name = annex_war
 				target_country = c:TPE
-				war = yes
+				war = no
 				type = dp_annex_war
 				add_war_goal = {
 					holder = c:TPE
@@ -313,6 +330,14 @@ fm_sae.3 = {
 		remove_variable = var_irak
 		remove_variable = var_zorokur
 		remove_variable = var_luri
+		hidden_effect = {
+			c:TPE = {
+				add_modifier = {
+					name = modifier_boostsae
+					months = 1
+				}
+			}
+		}
 	}
 }
 fm_sae.4 = {

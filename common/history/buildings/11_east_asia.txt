@@ -3999,12 +3999,12 @@ BUILDINGS={
 				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 		}
-		region_state:GUJ={
+		region_state:GJO={
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:GUJ"
+						country="c:GJO"
 						levels=1
 					}
 				}
@@ -4015,7 +4015,7 @@ BUILDINGS={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:GUJ"
+						country="c:GJO"
 						levels=2
 					}
 				}
@@ -4026,7 +4026,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:GUJ"
+						country="c:GJO"
 						levels=2
 					}
 				}

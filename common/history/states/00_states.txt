@@ -3210,6 +3210,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:argentino
+		add_homeland = cu:quechua
 		add_claim = c:RPQ
 	}
 	s:STATE_CHACO = {
@@ -6667,7 +6668,7 @@ STATES = {
 			owned_provinces = { xB050C0 }
 		}
 		create_state = {
-			country = c:GUJ
+			country = c:GJO
 			owned_provinces = { x9B2E00 x4942D2 xC02285 }
 		}
 		create_state = {

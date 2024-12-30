@@ -26,8 +26,11 @@ je_england_main = {
 	}
 	complete = {
 		owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_YORKSHIRE
+		owns_entire_state_region = STATE_LANCASHIRE
 		owns_entire_state_region = STATE_LOWLANDS
 		owns_entire_state_region = STATE_HIGHLANDS
+
 	}
 	on_complete = {
 		trigger_event = {

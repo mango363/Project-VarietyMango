@@ -5385,7 +5385,7 @@ MTS = {
 	cultures = { japanese }
 	capital = STATE_CHUBU
 }
-GUJ = {
+GJO = {
 	color = { 81 168 120 }
 	country_type = unrecognized
 	

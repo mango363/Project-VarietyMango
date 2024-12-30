@@ -1564,7 +1564,7 @@
 
 	### ISLANDS ###
 	s:STATE_HAWAIIAN_ISLANDS = {
-		region_state:JAP = {
+		region_state:SAU = {
 			create_pop = {
 				pop_type = clergy
 				culture = japanese

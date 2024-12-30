@@ -698,3 +698,7 @@
  modifier_atz_one:0 "Army Reforms"
  modifier_atz_two:0 "Tawantinsuyu"
  
+ coastal_capital:0 "Coastal Capital"
+ coastal_capital_con:0 "Coastal Capital"
+
+ modifier_boostsae:0 "Prince's Army"

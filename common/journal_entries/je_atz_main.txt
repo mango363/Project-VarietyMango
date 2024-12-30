@@ -62,6 +62,31 @@ je_atz_gold = {
 			}
 			owner = root
 		}
+		any_scope_state = {
+			state_region = s:STATE_JUJUY
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 2
+			}
+			owner = root
+			
+		}
+		any_scope_state = {
+			state_region = s:STATE_TUCUMAN
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 2
+			}
+			owner = root
+		}
+		any_scope_state = {
+			state_region = s:STATE_SANTIAGO
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 3
+			}
+			owner = root
+		}
 	}
 	on_complete = {
 		custom_tooltip = je_atz_advance

@@ -124,6 +124,7 @@ fm_england.4 = {
 				state_region = s:STATE_HIGHLANDS
 			}
 			set_state_owner = c:SCU
+			set_state_type = incorporated
 		}
 		random_scope_state = {
 			limit = {
@@ -153,11 +154,11 @@ fm_england.4 = {
 		}
 		create_diplomatic_pact = {
 			country = c:SCU
-			type = dominion
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:WLS
-			type = dominion
+			type = puppet
 		}
 	}
 	option = {

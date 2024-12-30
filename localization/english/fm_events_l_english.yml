@@ -404,10 +404,10 @@
   YUA_decision_three_desc:0 "If the religious unrest becomes too high, removing the Integration Act would be a wise idea."
   fm_yua.1.t:0 "The Future of Yuanpei's Haven"
   fm_yua.1.d:0 "[ROOT.GetCountry.GetName] was founded by Haoyu Yuanpei in 1712 as a safe haven for all the members of the Chinese intelligentsia who had to, for any reason, flee from China.\nAfter more than one hundred years the town has now become a flourishing city, but it is also facing the biggest crisis of its entire history."
-  fm_yua.1.f:0 ""The [GetCulture('mexican').GetName] have refused to stop their expansion to the north, we must do something!"\n"Do what? Don't forget Yuanpei's will, we must not cause any harm to the neighbouring tribes, and if the [GetCulture('mexican').GetName] decide attack us for any reason, we can count on the help from Korea."\n"So are you suggesting to just wait until they surround us? This is madness, and you all know that! Things have changed, and we cannot afford to just stand still!"\n"Calm down you two, I agree as well that change is needed in order for this city to survive, but that doesn't mean that we must abandon Yuanpei's beliefs; I intend to discuss some motions in the next days, and if we can all come to an agreement, we can ensure our survival, as well as that of the City.""
+  fm_yua.1.f:0 ""Look, the European settlers keep advancing,if we don’t act now, they’ll reach our lands before we know it."\n"Do what? Don't forget Yuanpei's will, we must not cause any harm to the neighbouring tribes, and if they will ever decide attack us for any reason, we can count on the help from Korea."\n"So are you suggesting to just wait until they surround us? This is madness, and you all know that! Things have changed, and we cannot afford to just stand still!"\n"Calm down you two, I agree as well that change is needed in order for this city to survive, but that doesn't mean that we must abandon Yuanpei's beliefs; I intend to discuss some motions in the next days, and if we can all come to an agreement, we can ensure our survival, as well as that of the City.""
   fm_yua.1.b:0 ""To the next Council meeting""
   fm_yua.3.t:0 "The Budgetary Principles Act"
-  fm_yua.3.d:0 "Our nation deeply abhors war, but now that the [GetCulture('mexican').GetName] have refused to stop their expansion towards our lands, we are forced to a compromise in order not to get surrounded by them."
+  fm_yua.3.d:0 "Our nation firmly opposes war; however, in light of the accelerated pace of colonization in North America by European settlers, we find ourselves compelled to seek a compromise to prevent being encircled by them."
   fm_yua.3.f:0 "The proposed act poses a serious ethical and legal dilemma, as it would grant the government greater latitude to manipulate budgetary resources for covert actions that infringe upon the rights of Native American people, undermining their sovereignty and potentially leading to further injustices.\nHopefully, passing this law won't cause a war against those aforementioned tribes."
   fm_yua.3.a:0 "Compromises have to be made"
   fm_yua.4.t:0 "The Integration Act"
@@ -455,7 +455,7 @@
   fm_yua.12.a:0 "Let's hope for the best"
   fm_yua.13.t:0 "A Delegation from Yuman"
   fm_yua.13.d:0 "A Delegation from Yuman has arrived this morning in Little Beijing"
-  fm_yua.13.f:0 "As the expiration of the 15-year truce between #D Yuman#! and #N Mexico#! looms, the [GetCulture('na_yuman').GetName] Chieftain, concerned for his people's survival amid rising tensions, has proposed to become a [concept_tributary] of [ROOT.GetCountry.GetName].\nThis strategic move aims to secure protection and foster goodwill, leveraging the strong ties and favorable relations with [ROOT.GetCountry.GetName] to ensure the safety and stability of the [GetCulture('na_yuman').GetName] community in the face of potential conflict."
+  fm_yua.13.f:0 "As the expiration of the 15-year truce between #D Yuman#! and #N Nova Hispania#! looms, the [GetCulture('na_yuman').GetName] Chieftain, concerned for his people's survival amid rising tensions, has proposed to become a [concept_tributary] of [ROOT.GetCountry.GetName].\nThis strategic move aims to secure protection and foster goodwill, leveraging the strong ties and favorable relations with [ROOT.GetCountry.GetName] to ensure the safety and stability of the [GetCulture('na_yuman').GetName] community in the face of potential conflict."
   fm_yua.13.a:0 "We are more than happy to accept their offer"
   fm_yua.13.b:0 "It's better if we don't antagonize the [GetCulture('mexican').GetName] government"
   yue_auth:0 "The authoritarians have not managed to come into power"
@@ -725,8 +725,8 @@
   fm_luoi_amc.1.a:0 "I have other plans for Louisiana."
   fm_luoi_amc.1.b:0 "This is a good deal indeed, tell them that the king accepts the deal."
 
-  fm_luoi_mex.1.t:0 "A Delegation from Mexico"
-  fm_luoi_mex.1.d:0 "This morning a delegation from Mexico has arrived"
+  fm_luoi_mex.1.t:0 "A Delegation from Nova Hispania"
+  fm_luoi_mex.1.d:0 "This morning a delegation from Nova Hispania has arrived"
   fm_luoi_mex.1.f:0 "The American diplomats have brought with them an interesting proposal, they offer to buy the lands of Louisiana for a total amount of one million and three hundred thousand francs, which we will receive through weekly payments of five thousand francs for five years.\nLouisiana is an empty territory that has little to no value to us at the moment, therefore this is not a bad deal."
   fm_luoi_mex.1.a:0 "I have other plans for Louisiana."
   fm_luoi_mex.1.b:0 "This is a good deal indeed, tell them that the king accepts the deal."
@@ -1008,8 +1008,8 @@
 
 
   fm_fla.1.t:0 "The Royal Marriage"
-  fm_fla.1.d:0 "Today is the marriage between [SCOPE.sCharacter('fla_ruler').GetFullName]\nand [SCOPE.sCharacter('royal_marriage_character').GetFullName]"
-  fm_fla.1.f:0 "In a dazzling celebration that captivated the hearts of all, the royal wedding between [SCOPE.sCharacter('fla_ruler').GetFullName] and [SCOPE.sCharacter('royal_marriage_character').GetFullName] unfolded amidst the splendor of a grand medieval cathedral.\nDraped in rich tapestries and adorned with vibrant flowers, the venue echoed with joyous music as nobles and commoners alike gathered to witness the union of two powerful houses.\nThe bride, radiant in a silk gown adorned with intricate lace, and the groom, resplendent in his heraldic finery, exchanged vows amidst a backdrop of shimmering stained glass.\nAs festivities continued with feasting, dancing, and heartfelt toasts, the night was imbued with promises of political alliance and everlasting love, heralding a new era of prosperity for both realms."
+  fm_fla.1.d:0 "Today is the marriage between [SCOPE.sCharacter('fla_ruler').GetFullName]\nand #V Marie Thérèse de Bourbon-Condé #!"
+  fm_fla.1.f:0 "In a dazzling celebration that captivated the hearts of all, the royal wedding between [SCOPE.sCharacter('fla_ruler').GetFullName] and #V Marie Thérèse de Bourbon-Condé #! unfolded amidst the splendor of a grand medieval cathedral.\nDraped in rich tapestries and adorned with vibrant flowers, the venue echoed with joyous music as nobles and commoners alike gathered to witness the union of two powerful houses.\nThe bride, radiant in a silk gown adorned with intricate lace, and the groom, resplendent in his heraldic finery, exchanged vows amidst a backdrop of shimmering stained glass.\nAs festivities continued with feasting, dancing, and heartfelt toasts, the night was imbued with promises of political alliance and everlasting love, heralding a new era of prosperity for both realms."
   fm_fla.1.a:0 "Vive les Mariés!"
 
   fm_bud.1.t:0 "The Kingdom of Burgundy"

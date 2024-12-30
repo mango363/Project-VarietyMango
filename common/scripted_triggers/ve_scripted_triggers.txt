@@ -35,7 +35,7 @@ age_2_obj_triggers = {
 				}
 				has_diplomatic_pact = {
 					who = ROOT
-					type = dominion
+					type = protectorate
 				}
 			}
 			count >= 2
@@ -137,7 +137,7 @@ golden_age_3_obj_trigger = {
 					}
 					has_diplomatic_pact = {
 						who = ROOT
-						type = dominion
+						type = protectorate
 					}
 				}
 				count >= 3

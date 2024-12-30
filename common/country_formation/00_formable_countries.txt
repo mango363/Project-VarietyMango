@@ -465,6 +465,20 @@ RAA = {
 	ai_will_do = { always = yes }
 }
 
+AGA = {
+	use_culture_states = yes
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		has_law = law_type:law_multicultural
+	}
+}
+
+
 LAO = {
 	states = {
 		STATE_LAOS

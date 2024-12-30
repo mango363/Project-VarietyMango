@@ -369,7 +369,7 @@ ethnocentrism_idea_2_mdf = {
 
 ethnocentrism_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_accepted_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.03
 }
 
 ethnocentrism_idea_4_mdf = {

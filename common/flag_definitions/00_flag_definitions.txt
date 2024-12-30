@@ -11163,10 +11163,10 @@ MTS = {
 		priority = 1
 	}
 }
-GUJ = { 
+GJO = { 
 	flag_definition = {
-		coa = GUJ
-		subject_canton = GUJ
+		coa = GJO
+		subject_canton = GJO
 		priority = 1
 	}
 }

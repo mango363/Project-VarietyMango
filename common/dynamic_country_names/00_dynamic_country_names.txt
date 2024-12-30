@@ -1995,7 +1995,7 @@ ORG = {
 					c:UKK = {
 						has_diplomatic_pact = {
 							who = scope:actor
-							type = dominion
+							type = puppet
 							is_initiator = yes
 						}
 					}
@@ -2788,7 +2788,7 @@ KAZ = {
 						}
 						has_diplomatic_pact = {
 							who = scope:actor
-							type = dominion
+							type = puppet
 							is_initiator = yes
 						}
 						has_diplomatic_pact = {
@@ -2824,7 +2824,7 @@ KAZ = {
 						}
 						has_diplomatic_pact = {
 							who = scope:actor
-							type = dominion
+							type = puppet
 							is_initiator = yes
 						}
 						has_diplomatic_pact = {

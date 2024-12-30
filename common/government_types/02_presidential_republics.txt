@@ -584,7 +584,7 @@ gov_colonial_administration = {
 				AND = { exists = c:DEI c:DEI = ROOT }
 				OR = {
 					is_subject_type = subject_type_colony
-					is_subject_type = subject_type_dominion
+					is_subject_type = subject_type_puppet
 				}
 			}
 			AND = {

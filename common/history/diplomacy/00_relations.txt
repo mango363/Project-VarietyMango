@@ -321,7 +321,7 @@
 		set_relations = { country = c:KOF value = 80 }
 		set_relations = { country = c:TKA value = 80 }
 		set_relations = { country = c:MTS value = 80 }
-		set_relations = { country = c:GUJ value = 80 }
+		set_relations = { country = c:GJO value = 80 }
 		set_relations = { country = c:SAB value = 80 }
 	}
 	c:KNA ?= {
