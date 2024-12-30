@@ -7938,7 +7938,7 @@ STATES = {
 	}
 	s:STATE_STYRIA = {
 		create_state = {
-			country = c:AUS
+			country = c:OIS
 			owned_provinces = { xB06141 x86FD73 x8F8020 x1101A0 x155A44 x59D927 x017E3C }
 		}
 		
@@ -7956,7 +7956,7 @@ STATES = {
 	}
 	s:STATE_AUSTRIA = {
 		create_state = {
-			country = c:AUS
+			country = c:OIS
 			owned_provinces = { xA40093 x316141 x7F2E4E x1180A0 x0CBB8F x20CF50 x84C7C3 xA9793B x62F70E x9001A0 xFDA6CB }
 		}
 		

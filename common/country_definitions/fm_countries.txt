@@ -364,7 +364,7 @@ LOT = { ## east Frankia
 	capital = STATE_BRANDENBURG
 }
 
-AUS = {
+OIS = {
 	color = { 211  220  240 }
 
 	country_type = recognized

@@ -40,13 +40,14 @@ ai_behavior = {
 }
 
 ai_ideas = {
-	default = no_ai_ideas
+	default = yes_ai_ideas
+
+	yes_ai_ideas = {
+	}
 
 	no_ai_ideas = {
 	}
 
-	yes_ai_ideas = {
-	}
 }
 
 ai_aggression = {

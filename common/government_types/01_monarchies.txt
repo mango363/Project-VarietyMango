@@ -1612,6 +1612,7 @@ gov_absolute_duchy = {
 				AND = { exists = c:SLV c:SLV = ROOT }
 				AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 		}
 			
 	}
@@ -1663,6 +1664,7 @@ gov_constitutional_duchy = {
 			AND = { exists = c:SLV c:SLV = ROOT }
 			AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 	}
 			
 	}
@@ -1714,6 +1716,7 @@ gov_duchy = {
 			AND = { exists = c:SLV c:SLV = ROOT }
 			AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 	}
 			
 	}
@@ -1839,6 +1842,7 @@ gov_absolute_grand_duchy = {
 			AND = { exists = c:SLV c:SLV = ROOT }
 			AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 			AND = { exists = c:GDL c:GDL = ROOT }
 	}
 	}
@@ -1888,6 +1892,7 @@ gov_grand_duchy = {
 			AND = { exists = c:SLV c:SLV = ROOT }
 			AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 			AND = { exists = c:GDL c:GDL = ROOT }
 	}
 	}
@@ -1938,6 +1943,7 @@ gov_constitutional_grand_duchy = {
 			AND = { exists = c:SLV c:SLV = ROOT }
 			AND = { exists = c:SPO c:SPO = ROOT }
 			AND = { exists = c:PUM c:PUM = ROOT }
+			AND = { exists = c:OIS c:OIS = ROOT }
 			AND = { exists = c:GDL c:GDL = ROOT }
 	}
 

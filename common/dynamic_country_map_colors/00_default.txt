@@ -157,8 +157,8 @@ austria_hungary = {
 	color = "austria_hungary_color"
 
 	possible = {
-		exists = c:AUS
-		THIS = c:AUS
+		exists = c:OIS
+		THIS = c:OIS
 		country_has_primary_culture = cu:hungarian
 	}
 }
@@ -177,8 +177,8 @@ communist_austria = {
 	color = "communist_austria_red"
 
 	possible = {
-		exists = c:AUS
-		THIS = c:AUS
+		exists = c:OIS
+		THIS = c:OIS
 		has_law = law_type:law_council_republic
 	}
 }

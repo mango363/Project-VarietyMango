@@ -420,8 +420,8 @@ coat_of_arms_template_lists = {
 		}	
 		special_selection = {
 			trigger = { 
-				exists = c:AUS
-				ROOT.power_bloc_leader = c:AUS
+				exists = c:OIS
+				ROOT.power_bloc_leader = c:OIS
 			}
 			90000 = aus_power_bloc_1
 		}	

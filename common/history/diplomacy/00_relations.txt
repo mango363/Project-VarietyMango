@@ -39,7 +39,7 @@
 		set_relations = { country = c:ENG value = 80 }
 	}
 	c:BAV ?= {
-		set_relations = { country = c:AUS value = -25 }
+		set_relations = { country = c:OIS value = -25 }
 	}
 	c:BOL ?= {
 		set_relations = { country = c:NPU value = 10 }
@@ -63,7 +63,7 @@
 		set_relations = { country = c:LLO value = 20 }
 		set_relations = { country = c:SAV value = 20 }
 		set_relations = { country = c:BAY value = 30 }
-		set_relations = { country = c:AUS value = -30 }
+		set_relations = { country = c:OIS value = -30 }
 	}
 	c:VEN ?= { 
 		set_relations = { country = c:FLU value = -80 }
@@ -74,7 +74,7 @@
 		set_relations = { country = c:BIZ value = -20 }
 		set_relations = { country = c:CRO value = -20 }
 		set_relations = { country = c:SLO value = 20 }
-		set_relations = { country = c:AUS value = -20 }
+		set_relations = { country = c:OIS value = -20 }
 		set_relations = { country = c:BAV value = 30 }
 		set_relations = { country = c:HAK value = -20 }
 	}
@@ -153,7 +153,7 @@
 		set_relations = { country = c:TOR value = -30 }
 		set_relations = { country = c:WAL value = 50 }
 		set_relations = { country = c:RUS value = 40 }
-		set_relations = { country = c:AUS value = -20 }
+		set_relations = { country = c:OIS value = -20 }
 	}
 	c:MUR ?= {
 		set_relations = { country = c:CAS value = -30 }
@@ -191,7 +191,7 @@
 	c:PUP ?= {
 		set_relations = { country = c:SAR value = 30 }
 		set_relations = { country = c:NEA value = 30 }
-		set_relations = { country = c:AUS value = 30 }
+		set_relations = { country = c:OIS value = 30 }
 		set_relations = { country = c:HSE value = -100 }
 	}
 	c:SPO ?= {
@@ -199,7 +199,7 @@
 	}
 	c:SER ?= {
 		set_relations = { country = c:TOR value = -30 }
-		set_relations = { country = c:AUS value = -30 }
+		set_relations = { country = c:OIS value = -30 }
 		set_relations = { country = c:RUS value = 40 }
 	}
 	c:SIA ?= {
@@ -244,7 +244,7 @@
 	}
 	c:WAL ?= {
 		set_relations = { country = c:SER value = 20 }
-		set_relations = { country = c:AUS value = -10 }
+		set_relations = { country = c:OIS value = -10 }
 		set_relations = { country = c:RUS value = 30 }
 	}
 	c:HEN ?= {

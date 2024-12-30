@@ -79,7 +79,7 @@
 			}
 		}
 	}
-	c:AUS = {
+	c:OIS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_germany

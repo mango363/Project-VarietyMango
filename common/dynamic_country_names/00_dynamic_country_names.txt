@@ -853,7 +853,7 @@ HAK = {
 	}
 }
 
-AUS = {
+OIS = {
 	# Austria
 	dynamic_country_name = {
 		name = dyn_c_austria-hungary

@@ -178,7 +178,7 @@ fm_bavaria.5 = { # kings dilemma
 	option = {
 		name = fm_bavaria.5.a
 		default_option = yes
-		annex = c:AUS
+		annex = c:OIS
 		s:STATE_BOHEMIA = {
 			add_claim = c:BAY
 		}

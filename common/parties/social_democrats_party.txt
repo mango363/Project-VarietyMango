@@ -72,8 +72,8 @@ social_democrat_party = {
 			triggered_desc = {
 				desc = party_sdapo
 				trigger = {
-					exists = c:AUS
-					THIS = c:AUS
+					exists = c:OIS
+					THIS = c:OIS
 				}
 			}
 			triggered_desc = {

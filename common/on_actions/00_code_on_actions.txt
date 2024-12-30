@@ -374,67 +374,6 @@ on_monthly_pulse = {
 				remove_modifier = modifier_training_five
 			}
 		}
-		
-		every_country = {
-			limit = {
-				any_scope_building = {
-					is_building_type = building_conscription_center
-					has_active_production_method = pm_general_training_conscription
-				}
-			}
-			add_modifier = {
-				name = modifier_conscription_one
-				months = 1
-			}
-		}
-		every_country = {
-			limit = {
-				any_scope_building = {
-					is_building_type = building_conscription_center
-					has_active_production_method = pm_advanced_tactics_training_conscription
-				}
-			}
-			add_modifier = {
-				name = modifier_conscription_two
-				months = 1
-			}
-		}
-		every_country = {
-			limit = {
-				any_scope_building = {
-					is_building_type = building_conscription_center
-					has_active_production_method = pm_training_streamlining_conscription
-				}
-			}
-			add_modifier = {
-				name = modifier_conscription_three
-				months = 1
-			}
-		}
-		every_country = {
-			limit = {
-				any_scope_building = {
-					is_building_type = building_conscription_center
-					has_active_production_method = pm_nco_incorporation_conscription
-				}
-			}
-			add_modifier = {
-				name = modifier_conscription_four
-				months = 1
-			}
-		}
-		every_country = {
-			limit = {
-				any_scope_building = {
-					is_building_type = building_conscription_center
-					has_active_production_method = pm_mobile_warfare_tactics_conscription
-				}
-			}
-			add_modifier = {
-				name = modifier_conscription_five
-				months = 1
-			}
-		}
 		every_country = {
 			limit = {
 				is_at_war = no
@@ -3113,13 +3052,13 @@ on_revolution_start = {
 			limit = {
 				has_dlc_feature = voice_of_the_people_content
 				c:KRA ?= root
-				c:AUS ?= {
+				c:OIS ?= {
 					any_subject_or_below = {
 						c:KRA ?= this
 					}
 				}
 			}
-			c:AUS = {
+			c:OIS = {
 				trigger_event = {
 					id = krakow.1
 					days = 3

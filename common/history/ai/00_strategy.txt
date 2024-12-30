@@ -75,7 +75,7 @@
 		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_conservative_agenda
 	}	
-	c:AUS = {
+	c:OIS = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_agricultural_expansion }
 			25 = { set_strategy = ai_strategy_resource_expansion }

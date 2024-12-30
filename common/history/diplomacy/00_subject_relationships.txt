@@ -75,7 +75,7 @@
 	}
 	c:BAY ?= {
 		create_diplomatic_pact = {
-			country = c:AUS
+			country = c:OIS
 			type = protectorate
 		}
 		create_diplomatic_pact = {

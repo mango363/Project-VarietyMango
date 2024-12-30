@@ -358,8 +358,8 @@ GLOBAL = {
 	#Habsburg Resurgence
 	every_country = {
 		limit = {
-			exists = c:AUS
-			this = c:AUS
+			exists = c:OIS
+			this = c:OIS
 		}
 		set_variable = habsburg_resurgence_ach_possible
 	}

@@ -2845,7 +2845,7 @@ AST_monarchy = {
 	}	
 }
 
-AUS = {
+OIS = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 

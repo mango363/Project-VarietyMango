@@ -1031,7 +1031,7 @@
 		}
 	}
 	s:STATE_AUSTRIA = {
-		region_state:AUS = {
+		region_state:OIS = {
 			create_pop = {
 				culture = south_german
 				size = 2764404
@@ -1084,7 +1084,7 @@
 		}
 	}
 	s:STATE_STYRIA = {
-		region_state:AUS = {
+		region_state:OIS = {
 			create_pop = {
 				culture = south_german
 				size = 664796

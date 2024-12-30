@@ -246,7 +246,7 @@ ALF = {
 			c:SGF ?= this
 			c:WUR ?= this
 			c:BAD ?= this
-			c:AUS ?= this
+			c:OIS ?= this
 			c:LLO ?= this
 			c:SNM ?= this
 		}

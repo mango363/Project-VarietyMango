@@ -78,7 +78,7 @@
 		add_declared_interest = region_gran_colombia
 		add_declared_interest = region_oceania
 	}		
-	c:AUS ?= {	
+	c:OIS ?= {	
 		add_declared_interest = region_north_germany
 		add_declared_interest = region_anatolia
 		add_declared_interest = region_rhine

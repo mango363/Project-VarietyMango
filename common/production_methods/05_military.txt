@@ -127,10 +127,16 @@ pm_no_organization_conscription = {
 
 pm_general_training_conscription = {
 	texture = "gfx/interface/icons/production_method_icons/idea_limited_conscription.dds"
-
+	state_modifiers = {
+		unscaled = {
+			state_turmoil_effects_mult = 0.05
+			state_conscription_rate_mult = 0.01
+			state_radicals_from_political_movements_mult = 0.1
+		}
+	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 50
+			building_training_rate_add = 75
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 850
@@ -146,9 +152,18 @@ pm_advanced_tactics_training_conscription = {
 	disallowing_laws = {
 		law_professional_army
 	}	
+	state_modifiers = {
+		unscaled = {
+			state_tax_capacity_mult = -0.02
+			state_turmoil_effects_mult = 0.15
+			state_construction_mult = -0.1
+			state_conscription_rate_mult = 0.05
+			state_radicals_from_political_movements_mult = 0.25
+		}
+	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 50
+			building_training_rate_add = 125
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 900
@@ -164,9 +179,18 @@ pm_training_streamlining_conscription = {
 	disallowing_laws = {
 		law_professional_army
 	}	
+	state_modifiers = {
+		unscaled = {
+			state_tax_capacity_mult = -0.05
+			state_turmoil_effects_mult = 0.25
+			state_construction_mult = -0.4
+			state_conscription_rate_mult = 0.1
+			state_radicals_from_political_movements_mult = 0.5
+		}
+	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 50
+			building_training_rate_add = 175
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 950
@@ -182,9 +206,18 @@ pm_nco_incorporation_conscription = {
 	disallowing_laws = {
 		law_professional_army
 	}
+	state_modifiers = {
+		unscaled = {
+			state_tax_capacity_mult = -0.1
+			state_turmoil_effects_mult = 0.35
+			state_construction_mult = -0.6
+			state_conscription_rate_mult = 0.2
+			state_radicals_from_political_movements_mult = 0.75
+		}
+	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 50
+			building_training_rate_add = 225
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 975
@@ -199,9 +232,18 @@ pm_mobile_warfare_tactics_conscription = {
 	disallowing_laws = {
 		law_professional_army
 	}
+	state_modifiers = {
+		unscaled = {
+			state_tax_capacity_mult = -0.15
+			state_turmoil_effects_mult = 0.5
+			state_construction_mult = -0.9
+			state_conscription_rate_mult = 0.3
+			state_radicals_from_political_movements_mult = 1
+		}
+	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 50
+			building_training_rate_add = 300
 		}
 		workforce_scaled = {
 		}
