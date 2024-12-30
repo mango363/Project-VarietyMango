@@ -19436,7 +19436,7 @@ AZ4 = {
 	}
 }
 
-GAR = {
+RMG = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 

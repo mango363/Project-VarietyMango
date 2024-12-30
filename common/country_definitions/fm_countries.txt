@@ -1121,7 +1121,7 @@ SOA = {
 	capital = STATE_TUNISIA
 }
 
-GAR = {
+RMG = {
 	color = { 189 115 4 }
 
 	country_type = recognized

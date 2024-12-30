@@ -6842,10 +6842,10 @@ AZ4 = {
 }
 
 
-GAR = { # Greater Armenia
+RMG = { # Greater Armenia
 	flag_definition = {	
-		coa = GAR
-		subject_canton = GAR
+		coa = RMG
+		subject_canton = RMG
 		priority = 10
 	}
 	flag_definition = {

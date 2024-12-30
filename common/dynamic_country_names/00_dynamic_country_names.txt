@@ -598,7 +598,7 @@ SOA = {
 
 
 
-GAR = {
+RMG = {
 	dynamic_country_name = {
 		name = dyn_arm
 		adjective = GAR_ADJ

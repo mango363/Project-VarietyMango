@@ -433,7 +433,7 @@ SOA = {
 	ai_will_do = { always = yes }
 }
 
-GAR = {
+RMG = {
 	STATES = {
 		STATE_ARMENIA
 		STATE_AZERBAIJAN
