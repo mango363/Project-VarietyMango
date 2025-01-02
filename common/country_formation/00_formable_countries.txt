@@ -352,6 +352,15 @@ GPO = {
 
 }
 
+
+ASA = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.35
+
+	ai_will_do = { always = yes }
+}
+
 JAE = {
 	use_culture_states = yes
 

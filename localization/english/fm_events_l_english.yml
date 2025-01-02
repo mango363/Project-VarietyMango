@@ -1481,3 +1481,8 @@
     fm_aga.5.d:0 "The regime has successfully employed authoritarian measures to stabilize the country and bring an end to the ongoing crisis"
     fm_aga.5.f:0 "As a result of these decisive actions, a renewed era of prosperity is now emerging.\nThis shift signifies a pivotal moment in the nation’s history, ushering in potential growth and development while ensuring the maintenance of order and security."
     fm_aga.5.a:0 "Long Live [ROOT.GetCountry.GetRuler.GetFullName]!"
+
+   fm_tah.1.t:0 "A Foreigner Arrives"
+  fm_tah.1.d:0 "This morning, amidst the bustling streets of [ROOT.GetCountry.GetCapital.GetCityHubName], a foreigner stepped into view, introducing himself with an air of quiet intrigue—Dutch van der Linde"
+  fm_tah.1.f:0 ""Hey I've been told that Haiti is a safe place, or was it Tahiti? Nevermind, now I'm here, at your service; If you need anything, just call me.\nI have to go now, I think I'll go looking for some gold""
+  fm_tah.1.a:0 ""See you""

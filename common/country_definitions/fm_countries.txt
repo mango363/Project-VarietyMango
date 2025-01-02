@@ -139,7 +139,7 @@ KAK = {
 COH = {
 	color = { 166 125 10 }
 
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 
@@ -420,12 +420,12 @@ FSA = {
 ASA = {
 	color = { 212 100 141 }
 	
-	country_type = colonial
+	country_type = recognized
 	
-	tier = kingdom
+	tier = empire
 	
-	cultures = { afro_american }
-	capital = STATE_GEORGIA
+	cultures = { afro_caraibico afro_caribeno afro_antillean afro_brazilian afro_amerikaans afro_american }
+	capital = STATE_CUBA
 }
 
 LOU = {

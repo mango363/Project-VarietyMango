@@ -228,17 +228,17 @@
 			# 896400
 			create_pop = {
 				culture = caribeno
-				size = 461304 # est. "white" population in 1836 of 483308, minus the explicit Spanish pops below
+				size = 591304 
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 152011
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 288786
+				size = 452011
 			}			
+			create_pop = {
+				culture = afro_caribeno
+				pop_type = slaves
+				size = 305011
+			}	
 			create_pop = {
 				culture = spanish
 				size = 22004

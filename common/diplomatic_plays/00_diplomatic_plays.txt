@@ -370,6 +370,7 @@ dp_make_dominion = {
 	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
 	
 	possible = {
+		NOT = { has_modifier = diplomatic_plays_blocked }
 		aggressive_diplomatic_plays_permitted = yes	
 	}
 	

@@ -18,6 +18,11 @@
 				size = 255643
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 109765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 67054
 			}
@@ -40,7 +45,12 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 129765
+				size = 100765
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 45765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -68,6 +78,11 @@
 				size = 129765
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 129765
 			}
@@ -93,6 +108,11 @@
 				size = 129765
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 67054
 			}
@@ -108,6 +128,11 @@
 			create_pop = {
 				culture = swedish_colonial
 				size = 117654
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
 			}
 			create_pop = {
 				culture = swedish
@@ -145,6 +170,11 @@
 				size = 129765
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 117654
 			}
@@ -170,6 +200,11 @@
 				size = 67054
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 29765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 67054
 			}
@@ -193,6 +228,11 @@
 			create_pop = {
 				culture = afro_amerikaans
 				size = 17054
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 1765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -223,6 +263,11 @@
 				culture = afro_amerikaans
 				size = 129765
 			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
+			}
 		}
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
@@ -234,6 +279,11 @@
 			create_pop = {
 				culture = swedish_colonial
 				size = 12054
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 765
 			}
 		}
 	}
@@ -380,6 +430,10 @@
 				culture = na_muscogee
 				size = 67054
 			}
+			create_pop = {
+				culture = afro_caraibico
+				size = 45054
+			}
 		}
 	}
 	s:STATE_FLORIDA = {
@@ -418,6 +472,12 @@
 			create_pop = {
 				culture = afro_amerikaans
 				size = 129765
+
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
@@ -458,6 +518,11 @@
 				size = 67054
 			}
 			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 39765
+			}
+			create_pop = {
 				culture = na_eastern_algonquian
 				size = 87655
 			}
@@ -481,7 +546,7 @@
 				size = 67054
 			}
 			create_pop = {
-				culture = dutch_colonial
+				culture = british
 				size = 45876
 			}
 		}
@@ -1349,7 +1414,12 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 49765
+				size = 39765
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 5765
 			}
 			create_pop = {
 				culture = dutch_colonial
@@ -1387,6 +1457,15 @@
 			create_pop = {
 				culture = dutch_colonial
 				size = 21237
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				size = 2765
+			}
+			create_pop = {
+				culture = afro_amerikaans
+				pop_type = slaves
+				size = 765
 			}
 			create_pop = {
 				culture = vinlander
@@ -1579,6 +1658,11 @@
 				pop_type = capitalists
 				culture = korean
 				size = 500
+			}
+			create_pop = {
+				culture = hawaiian
+				religion = mahayana
+				size = 139304
 			}
 		}
 	}

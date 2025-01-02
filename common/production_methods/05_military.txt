@@ -136,7 +136,7 @@ pm_general_training_conscription = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 75
+			building_training_rate_add = 50
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 850
@@ -163,7 +163,7 @@ pm_advanced_tactics_training_conscription = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 125
+			building_training_rate_add = 50
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 900
@@ -190,7 +190,7 @@ pm_training_streamlining_conscription = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 175
+			building_training_rate_add = 50
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 950
@@ -217,7 +217,7 @@ pm_nco_incorporation_conscription = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 225
+			building_training_rate_add = 50
 		}
 		level_scaled = {
 			building_employment_soldiers_add = 975
@@ -243,7 +243,7 @@ pm_mobile_warfare_tactics_conscription = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_training_rate_add = 300
+			building_training_rate_add = 50
 		}
 		workforce_scaled = {
 		}

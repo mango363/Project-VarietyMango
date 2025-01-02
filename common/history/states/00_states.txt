@@ -78,6 +78,7 @@ STATES = {
 		add_homeland = cu:na_tuscarora_nottoway
 		add_homeland = cu:na_eastern_algonquian
 		add_homeland = cu:british
+		add_homeland = cu:afro_american
 	}
 	s:STATE_LOWER_EGYPT = {
 		create_state = {
@@ -1011,6 +1012,7 @@ STATES = {
 		add_homeland = cu:na_cherokee
 		add_homeland = cu:na_muscogee
 		add_homeland = cu:americano
+		add_homeland = cu:afro_caraibico
 
 		add_claim = c:FLU
 		add_claim = c:MCG
@@ -1024,6 +1026,7 @@ STATES = {
 		add_homeland = cu:dutch_colonial
 		add_homeland = cu:swedish_colonial
 		add_homeland = cu:na_eastern_algonquian
+		add_homeland = cu:afro_amerikaans
 	}
 
 	s:STATE_WEST_VIRGINIA = {
@@ -1052,7 +1055,8 @@ STATES = {
 		add_claim = c:IQS
 		
 		add_homeland = cu:na_cherokee
-		add_homeland = cu:dutch_colonial
+		add_homeland = cu:british
+		add_homeland = cu:afro_american
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
@@ -1211,6 +1215,7 @@ STATES = {
 		add_homeland = cu:swedish_colonial
 		add_homeland = cu:na_eastern_algonquian
 		add_homeland = cu:dutch_colonial
+		add_homeland = cu:afro_amerikaans
 	}
 	s:STATE_NORTH_CAROLINA = {
 		create_state = {
@@ -1666,9 +1671,10 @@ STATES = {
 		create_state = {
 			country = c:CUB
 			owned_provinces = { xF3F2C9 x61FC10 xB325C7 xFCDEED xDCAB5D x4DD008 xA70607 x58C211 x20EFEA xFE4123 xC3EB7D x0DA38C xC464AE x9957D8 xEBE1C7 x152D1C xD810EC x69C041 x30B001 xE70FA4 x519343 xB48FF1 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:caribeno
+		add_homeland = cu:afro_caribeno
 	}
 	s:STATE_URUGUAY = {
 		create_state = {
@@ -2974,7 +2980,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:platinean
-		add_homeland = cu:afro_brazilian	
 	}
 	s:STATE_PARANA = {
 		create_state = {
@@ -3673,6 +3678,7 @@ STATES = {
 		add_homeland = cu:swedish_colonial
 		add_homeland = cu:dutch_colonial
 		add_homeland = cu:vinlander
+		add_homeland = cu:afro_amerikaans
 	}
 	s:STATE_NORTH_ANGOLA = {
 		create_state = {

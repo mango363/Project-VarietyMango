@@ -158,14 +158,7 @@ CSA = {
 }
 
 ASA = {
-	states = {
-		STATE_GEORGIA
-		STATE_LOUISIANA
-		STATE_SOUTH_CAROLINA
-		STATE_MISSISSIPPI
-		STATE_ALABAMA
-		STATE_FLORIDA
-	}
+	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
