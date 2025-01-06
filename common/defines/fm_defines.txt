@@ -3,6 +3,7 @@ NEconomy = {
 	TRADE_ROUTE_MAX_LEVEL = 750
 	TRADE_ROUTE_ECONOMY_OF_SCALE = 0.5
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 51
+	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 200000000
 }
 NDiplomacy = {
 	DEFAULT_TRUCE_MONTHS = 48
@@ -28,7 +29,7 @@ NWar = {
 }
 NPowerBlocs = {
 	MAX_PRINCIPLES = 4					# Max number of principles that a Power Bloc can have
-	INITIAL_PRINCIPLE_LEVELS = 4		# Max total levels of principles that a Power Bloc can have during formation
+	INITIAL_PRINCIPLE_LEVELS = 3		# Max total levels of principles that a Power Bloc can have during formation
 	FORMATION_COOLDOWN_MONTHS = 24		# Cooldown in months between the attempts to form Power Blocs
 	JOIN_COOLDOWN_MONTHS = 6			# If a Country leaves a Power Bloc they cannot re-join before X months
 	LEAVE_COOLDOWN_MONTHS = 6			# If a Country joins a Power Bloc they cannot leave within X months

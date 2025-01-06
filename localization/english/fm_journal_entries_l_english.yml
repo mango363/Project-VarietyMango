@@ -244,6 +244,7 @@ chi_uni_tex:0 "China has been unified"
 
   je_earn_recognition_advance:0 "• Enforcing a [concept_war_goal] on a [concept_major_power] or above\n• [concept_relations] with a [concept_great_power] are at least #P amicable #!\n• Be in the Top 40 Countries Ranking\n• Having a [concept_sol] in the Top 60\n• Having a [concept_literacy] rating above 40%\n• The #bold Request Embassy#! [concept_diplomatic_action] is active"
   je_earn_recognition_deplete:0 "• Having a [concept_war_goal] enforced on you\n• Having a [concept_sol] below the Top 90\n• Be below the Top 60 Countries Ranking\n• Having a [concept_literacy] rating below 20%\n• Having [GetLawType('law_isolationism').GetName]"
+je_earn_recognition_goal:0 "The bar has reached 200"
   
 je_marinid:0 "Reconquering al-Andalus"
 je_marinid_reason:0 "Our Ancestors have been greatly humiliated by the catholic kings of Iberia, but now that they have once again started fighting each other, we must take advantage of this chance Allah gave us to retake our lands."

@@ -18,7 +18,7 @@ fm_sae.1 = {
 		hidden_effect = {
 			trigger_event = {
 				id = fm_sae.3
-				days = 1300
+				days = 1430
 			}
 		}
 	}

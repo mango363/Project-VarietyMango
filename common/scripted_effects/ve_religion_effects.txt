@@ -197,7 +197,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -206,7 +206,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -215,7 +215,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -224,7 +224,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -233,7 +233,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -242,7 +242,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -251,7 +251,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -260,7 +260,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -269,7 +269,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -278,7 +278,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -287,7 +287,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -296,7 +296,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -305,7 +305,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -314,7 +314,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -323,7 +323,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -332,7 +332,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -341,7 +341,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -350,7 +350,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -359,7 +359,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -368,7 +368,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -377,7 +377,7 @@ ve_religion_aspect_1_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_1_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -389,7 +389,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -398,7 +398,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -407,7 +407,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -416,7 +416,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -425,7 +425,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -434,7 +434,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -443,7 +443,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -452,7 +452,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -461,7 +461,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -470,7 +470,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -479,7 +479,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -488,7 +488,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -497,7 +497,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -506,7 +506,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -515,7 +515,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -524,7 +524,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -533,7 +533,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -542,7 +542,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -551,7 +551,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -560,7 +560,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -569,7 +569,7 @@ ve_religion_aspect_2_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_2_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -581,7 +581,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -590,7 +590,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -599,7 +599,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -608,7 +608,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -617,7 +617,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -626,7 +626,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -635,7 +635,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -644,7 +644,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -653,7 +653,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -662,7 +662,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -671,7 +671,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -680,7 +680,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -689,7 +689,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -698,7 +698,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -707,7 +707,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -716,7 +716,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -725,7 +725,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -734,7 +734,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -743,7 +743,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -752,7 +752,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -761,7 +761,7 @@ ve_religion_aspect_3_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_3_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -773,7 +773,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -782,7 +782,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -791,7 +791,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -800,7 +800,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -809,7 +809,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -818,7 +818,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -827,7 +827,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -836,7 +836,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -845,7 +845,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -854,7 +854,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -863,7 +863,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -872,7 +872,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -881,7 +881,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -890,7 +890,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -899,7 +899,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -908,7 +908,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -917,7 +917,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -926,7 +926,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -935,7 +935,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -944,7 +944,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -953,7 +953,7 @@ ve_religion_aspect_4_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_4_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -965,7 +965,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -974,7 +974,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -983,7 +983,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -992,7 +992,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1001,7 +1001,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1010,7 +1010,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1019,7 +1019,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1028,7 +1028,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1037,7 +1037,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1046,7 +1046,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1055,7 +1055,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1064,7 +1064,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1073,7 +1073,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1082,7 +1082,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1091,7 +1091,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1100,7 +1100,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1109,7 +1109,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1118,7 +1118,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1127,7 +1127,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1136,7 +1136,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1145,7 +1145,7 @@ ve_religion_aspect_5_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_5_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -1157,7 +1157,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1166,7 +1166,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1175,7 +1175,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1184,7 +1184,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1193,7 +1193,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1202,7 +1202,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1211,7 +1211,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1220,7 +1220,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1229,7 +1229,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1238,7 +1238,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1247,7 +1247,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1256,7 +1256,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1265,7 +1265,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1274,7 +1274,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1283,7 +1283,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1292,7 +1292,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1301,7 +1301,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1310,7 +1310,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1319,7 +1319,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1328,7 +1328,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1337,7 +1337,7 @@ ve_religion_aspect_6_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_6_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -1349,7 +1349,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1358,7 +1358,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1367,7 +1367,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1376,7 +1376,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1385,7 +1385,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1394,7 +1394,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1403,7 +1403,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1412,7 +1412,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1421,7 +1421,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1430,7 +1430,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1439,7 +1439,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1448,7 +1448,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1457,7 +1457,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1466,7 +1466,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1475,7 +1475,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1484,7 +1484,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1493,7 +1493,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1502,7 +1502,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1511,7 +1511,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1520,7 +1520,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1529,7 +1529,7 @@ ve_religion_aspect_7_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_7_mdf
-			months = 65
+			months = 60
 		}
 	}
 }
@@ -1541,7 +1541,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = catholic_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1550,7 +1550,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = protestant_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1559,7 +1559,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = orthodox_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1568,7 +1568,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = coptic_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1577,7 +1577,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = sunni_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1586,7 +1586,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = shia_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1595,7 +1595,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = baal_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1604,7 +1604,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = zoro_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1613,7 +1613,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = norsp_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1622,7 +1622,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = confucian_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1631,7 +1631,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = jewish_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1645,7 +1645,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = mahayana_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1654,7 +1654,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = hindu_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1663,7 +1663,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = sikh_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1672,7 +1672,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = animist_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1681,7 +1681,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = na_wocekiye_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1690,7 +1690,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = na_native_american_spirituality_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 	else_if = {
@@ -1699,7 +1699,7 @@ ve_religion_aspect_8_effect = {
 		}
 		add_modifier = {
 			name = atheist_aspect_8_mdf
-			months = 65
+			months = 60
 		}
 	}
 }

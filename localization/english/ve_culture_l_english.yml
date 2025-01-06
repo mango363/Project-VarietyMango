@@ -8,7 +8,7 @@
  ve_cultural_missionary:0 "Governors"
  ve_call_cultural_missionary:0 "Call All Governors"
  ve_culture_reform_point_tt:0 "#tooltippable_concept Monthly Culture Reform Points: \n#Y Base: #P +7"
- ve_cultural_missionary_tt:0 "#tooltippable_concept Governors: \n#Y Base: +1 \nIf Ethnostate law is activated: +4 \nIf National Supremacy law is activated: +3 \nIf Racial Segregation law is activated: +2 \nIf Cultural Exclusion law is activated: +1 \n#negative_value If Multicultural law is activated, the mechanic will be disabled."
+ ve_cultural_missionary_tt:0 "#tooltippable_concept Governors: \n#Y Base: +1 \nIf Ethnostate law is activated: +4 \nIf National Supremacy law is activated: +3 \nIf Racial Segregation law is activated: +2 \nIf Cultural Exclusion law is activated: +1 \n#negative_value If Multicultural law is activated, the mechanic will be disabled.#!\n\nGovernors slowly assimilate pops in a state."
  bar_no_effect:0 "No effect"
  ve_cultural_missionary_power_txt:0 "Governor Power"
  ve_cultural_missionary_power_tt:0 "#tooltippable_concept Governor Power: \n#Y Base: 5% \nIf Ethnostate law is activated: 0.9% \nIf National Supremacy law is activated: 0.7% \nIf Racial Segregation law is activated: 0.5% \nIf Cultural Exclusion law is activated: 0.3% \nIf Ethnocentrism Idea V Completed: 0.7% \nIf Public Schools law is activated: 0.7% \nEvery assimilation modifier of the mod will be transferred to Governor Power."

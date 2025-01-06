@@ -197,7 +197,7 @@ trade_idea_7_mdf = {
 defensive_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_morale_recovery_mult = 0.1
-	country_military_goods_cost_mult = -0.1
+	country_military_goods_cost_mult = -0.05
 }
 
 defensive_idea_2_mdf = {
@@ -322,12 +322,13 @@ qualification_idea_7_mdf = {
 naval_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_convoy_requirements_mult = -0.1
-	state_port_range_add = 20
+	country_convoys_capacity_mult = 0.05
 }
 
 naval_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_navy_defense_mult = 0.1
+	unit_navy_defense_mult = 0.2
+	building_port_throughput_add = 0.15
 }
 
 naval_idea_3_mdf = {
@@ -343,12 +344,12 @@ naval_idea_4_mdf = {
 naval_idea_5_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	building_naval_base_throughput_add = 0.1
-	building_port_throughput_add = 0.1
+	country_convoys_capacity_mult = 0.15
 }
 
 naval_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_prestige_from_navy_power_projection_mult = 0.1
+	unit_convoy_requirements_mult = -0.15
 }
 
 naval_idea_7_mdf = {
@@ -435,7 +436,7 @@ humanist_idea_7_mdf = {
 
 militarization_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_military_goods_cost_mult = -0.15
+	country_military_goods_cost_mult = -0.1
 }
 
 militarization_idea_2_mdf = {
@@ -465,7 +466,7 @@ militarization_idea_5_mdf = {
 militarization_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	state_conscription_rate_mult = 0.1
-	country_military_goods_cost_mult = -0.1
+	country_military_goods_cost_mult = -0.05
 }
 
 militarization_idea_7_mdf = {
@@ -514,7 +515,7 @@ politics_idea_7_mdf = {
 
 syndicalism_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_working_adult_ratio_add = 0.03
+	state_working_adult_ratio_add = 0.01
 }
 
 syndicalism_idea_2_mdf = {

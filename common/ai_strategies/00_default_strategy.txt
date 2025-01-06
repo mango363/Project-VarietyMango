@@ -2553,7 +2553,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 5
+		value = 10
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -2607,19 +2607,6 @@ ai_strategy_default = {
 			}
 			add = 100
 		}		
-		
-		# Opium wars aggressor should be very, very aggressive against target if they're banning opium
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
-				}
-			}
-			add = 100
-		}
-		
 		# Greek Nationalism
 		if = {
 			limit = {
@@ -3514,130 +3501,191 @@ ai_strategy_default = {
 	
 	# How should the AI plan for production and trade of specific goods
 	# Using a different value in a strategy will override this value
-	goods_stances = {
-		small_arms = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = napoleonic_warfare
-			}
-		}
-		artillery = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = artillery
-			}
-		}
-		ammunition = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = general_staff
-			}
-		}
-		aeroplanes = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = military_aviation
-				country_rank >= rank_value:major_power
-			}
-		}
-		tanks = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = mobile_armor
-				country_rank >= rank_value:major_power
-			}
-		}
-		clippers = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = navigation
-				NAND = {
-					has_technology_researched = ironclad_tech
-					has_technology_researched = gantry_cranes				
+	goods_stances = {	
+			iron = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:iron = { market_goods_pricier <= 0.0 } } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } }
+					has_technology_researched = atmospheric_engine
 				}
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}
-		manowars = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = admiralty
-				NAND = {
-					has_technology_researched = ironclad_tech
-					has_technology_researched = gantry_cranes				
-				}
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}	
-		steamers = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = ironclad_tech
-				has_technology_researched = gantry_cranes
-				has_port = yes
-				country_rank >= rank_value:major_power
-			}
-		}			
-		ironclads = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = ironclad_tech
-				has_technology_researched = gantry_cranes
-				has_port = yes
-				country_rank >= rank_value:major_power				
-			}
-		}	
-		paper = {
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = centralization
-				total_population >= 1000000
-				NOT = { has_law = law_type:law_traditionalism }
-			}
-		}
-		electricity = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = electrical_generation
-			}
-		}			
-		coal = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = railways
-			}
-		}	
-		engines = { 
-			stance = wants_high_supply
-			trigger = {
-				has_technology_researched = railways
-			}
-		}		
-		dye = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_textile_mills
-				has_technology_researched = lathe
-			}
-		}
-		silk = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_textile_mills
-				total_population >= 1000000
-			}
-		}
-		hardwood = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_furniture_manufacturies
-				total_population >= 1000000
-			}
-		}		
-	}
+			}  
 	
+			coal = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:coal = { market_goods_pricier <= 0.0 } }
+						market = { mg:iron = { market_goods_pricier >= 0.2 } } }    
+					market = { mg:coal = { market_goods_pricier >= 0.0 } }
+					has_technology_researched = atmospheric_engine
+				}
+			}
+			wood = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:wood = { market_goods_pricier <= -0.3 } }
+						market = { mg:tools = { market_goods_pricier >= 0.1 } }
+						market = { mg:iron = { market_goods_pricier >= 0.2 } } }	
+					market = { mg:wood = { market_goods_pricier >= -0.3 } }
+					has_technology_researched = atmospheric_engine
+				}
+			}
+			tools = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:tools = { market_goods_pricier <= -0.2 } }
+						market = { mg:steel = { market_goods_pricier >= 0.2 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.2 } } }	
+					market = { mg:tools = { market_goods_pricier >= -0.2 } }
+					has_technology_researched = steelworking
+				}
+			}
+			steel = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:steel = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.2 } }
+						market = { mg:iron = { market_goods_pricier >= 0.2 } } }
+					market = { mg:steel = { market_goods_pricier >= 0.0 } }
+					has_technology_researched = steelworking
+				}
+			}
+			explosives = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:explosives = { market_goods_pricier <= 0.2 } } }
+					market = { mg:explosives = { market_goods_pricier >= 0.2 } }
+					has_technology_researched = nitroglycerin
+				}
+			}		
+			oil = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:oil = { market_goods_pricier <= 0.0 } } }
+					market = { mg:oil = { market_goods_pricier >= 0.0 } }
+					has_technology_researched = pumpjacks
+				}
+			}		
+			rubber = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:rubber = { market_goods_pricier <= 0.0 } } }
+					market = { mg:rubber = { market_goods_pricier >= 0.0 } }
+					has_technology_researched = rubber_mastication
+				}
+			}		
+			groceries = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:groceries = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:groceries = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			fish = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:fish = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:fish = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			lead = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:lead = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:lead = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			sulfur = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:sulfur = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:sulfur = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			paper = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:paper = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:paper = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			clothes = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:clothes = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:clothes = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			furniture = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:furniture = { market_goods_pricier <= 0.0 } }
+						market = { mg:tools = { market_goods_pricier >= 0.0 } }	
+						market = { mg:wood = { market_goods_pricier >= 0.0 } }	
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:furniture = { market_goods_pricier >= 0.0 } }
+				}
+			}
+			fertilizer = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:fertilizer = { market_goods_pricier <= 0.2 } } 
+						market = { mg:iron = { market_goods_pricier >= 0.2 } } }	
+					market = { mg:fertilizer = { market_goods_pricier >= 0.2 } }
+				}
+			}		
+			explosives = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:explosives = { market_goods_sell_orders > 10 } } }	
+					market = { mg:explosives = { market_goods_sell_orders < 10 } }
+					has_technology_researched = nitroglycerin
+				}
+			}	 
+			steel = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:steel = { market_goods_sell_orders > 10 } }
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:steel = { market_goods_sell_orders < 10 } }
+					has_technology_researched = steelworking
+				}
+			}	
+			coal = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:coal = { market_goods_sell_orders > 10 } } }	
+					market = { mg:coal = { market_goods_sell_orders < 10 } }
+				}
+			}	
+			engines = { 
+				stance = wants_high_supply
+				trigger = {
+				NOT = { market = { mg:engines = { market_goods_sell_orders > 10 } }
+						market = { mg:iron = { market_goods_pricier >= 0.0 } } }	
+					market = { mg:engines = { market_goods_sell_orders < 10 } }
+					has_technology_researched = railways
+				}
+			}		
+		}	
 	# How many of its interests should the AI dedicate to regions with unrecognized and decentralized powers
 	# Using a different value in a strategy will override this value
 	colonial_interest_ratio = {

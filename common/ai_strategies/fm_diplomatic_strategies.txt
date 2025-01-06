@@ -185,14 +185,14 @@ ai_strategy_unify_japan = {
 		value = 2
 	}
 	aggression = {
-		value = 10
+		value = 20
 		if = {
 			limit = {
 				scope:target_country = {
 					can_form_nation = JAE
 				}
 			}
-			add = 50
+			add = 70
 		}
 	}
 	building_group_weights = {

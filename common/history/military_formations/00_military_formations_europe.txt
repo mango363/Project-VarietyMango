@@ -1140,7 +1140,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_africa
-			name = "Carthaginian Army"
+			name = "Carthagenian Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SICILY
@@ -1156,7 +1156,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_north_africa
-			name = "Carthaginian Navy"
+			name = "Carthagenian Navy"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_SICILY
@@ -1172,7 +1172,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_indonesia
-			name = "2nd Carthaginian Army"
+			name = "2nd Carthagenian Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORTH_SUMATRA
@@ -1183,7 +1183,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_china
-			name = "3rd Carthaginian Army"
+			name = "3rd Carthagenian Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SUZHOU
