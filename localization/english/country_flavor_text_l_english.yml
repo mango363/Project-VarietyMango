@@ -305,7 +305,6 @@
  ALD_FLAVOR_TEXT:0 "Algeria lost much of its coastline to the French in the aftermath of the Barbary Wars. Can the remnants of this nation fend off further French incursions?"
  MOR_FLAVOR_TEXT:0 "No longer under Ottoman protection, Morocco is vulnerable to French and Spanish expansionism. Can Morocco survive the imperialist onslaught?"
   # Africa
- SOK_FLAVOR_TEXT:0 "Under the banner of the Fulani Jihad, the Sokoto Caliphate is expanding rapidly. Can Sokoto unite West Africa and resist the Western powers?"
  GREAT_LAKES_FLAVOR_TEXT:0 "The people of the Great Lakes have established fledgling empires, dominating both water and land. Will a great nation arise from among them?"
  BUG_FLAVOR_TEXT:1 "$GREAT_LAKES_FLAVOR_TEXT$"
  ACH_FLAVOR_TEXT:1 "$GREAT_LAKES_FLAVOR_TEXT$"

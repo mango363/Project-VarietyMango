@@ -1449,7 +1449,7 @@
  concept_sapainca:0 "Qhapaq Inca"
  concept_sapainca_desc:0 "The Qhapaq Inca, or Sapa Inca (Qhapaq meaning "king", while Sapa "Emperor"), is the monarch of the Tawantinsuyu and he is conceptualized as divine, therefore being effectively head of the state religion as well."
   fm_atz.1.t:0 "[concept_tawantinsuyu] Restored!"
-  fm_atz.1.d:0 "A remarkable transformation has taken place, leading to the restoration of [ROOT.GetCountry.GetName] under the esteemed leadership of our great [concept_sapainca].
+  fm_atz.1.d:0 "A remarkable transformation has taken place, leading to the restoration of [ROOT.GetCountry.GetName] under the esteemed leadership of our great [concept_sapainca]."
   fm_atz.1.f:0 "This resurgence heralds the dawn of a new era marked by prosperity for the [GetCulture('quechua').GetName] People.\nWith renewed strength and unity, the Empire is poised to thrive, rekindling hope and opportunity for its citizens in this revitalized chapter of history."
   fm_atz.1.a:0 "Long Live [concept_tawantinsuyu]!"
 

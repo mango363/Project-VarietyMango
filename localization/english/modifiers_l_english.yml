@@ -199,9 +199,9 @@
  country_bolster_ig_attraction_mult_desc:1 "A bonus or penalty to how [Concept('concept_interest_group_attraction', '$concept_attracted$')] [Concept('concept_pop', '$concept_pops$')] are to an [concept_interest_group] as a result of being [Concept('concept_bolster', '$concept_bolstered$')]"
   
  country_suppression_cost_mult: "[Concept('concept_suppress', '$concept_suppression$')] cost"
- country_suppression_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_suppress', '$concept_suppressing$')] an [concept_interest_group]."
+ country_suppression_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_suppress', '$concept_suppressing$')] an [concept_political_movement]."
  country_bolster_cost_mult: "[Concept('concept_bolster', '$concept_bolstering$')] cost"
- country_bolster_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_bolster', '$concept_bolstering$')] an [concept_interest_group]."
+ country_bolster_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_bolster', '$concept_bolstering$')] a [concept_political_movement]."
 
  country_loan_interest_rate_add:0 "Loan interest rate"
  country_loan_interest_rate_add_desc:1 "A bonus or penalty to loan [Concept('concept_budget_interest', 'interest')] rate"
@@ -2842,8 +2842,7 @@ building_group_bg_subsistence_agriculture_allowed_collectivization_add: "Minimum
  country_suppression_attraction_mult_desc:0 "A bonus or penalty to how attracted [Concept('concept_pop', '$concept_pops$')] are to a [concept_political_movement] as a result of [Concept('concept_suppress', '$concept_suppression$')]"
  country_bolster_attraction_mult:1 "[Concept('concept_bolster', '$concept_bolstered$')] impact on [concept_political_movement] attraction"
  country_bolster_attraction_mult_desc:1 "A bonus or penalty to how attracted [Concept('concept_pop', '$concept_pops$')] are to a [concept_political_movement] as a result of being [Concept('concept_bolster', '$concept_bolstered$')]"
- country_suppression_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_suppress', '$concept_suppressing$')] an [concept_political_movement]."
- country_bolster_cost_mult_desc: "An increase or decrease to the cost of [Concept('concept_bolster', '$concept_bolstering$')] a [concept_political_movement]."
+
  state_food_security_add: "Food Security"
  state_food_security_add_desc: "A bonus or penalty to the food security of all pops in a state"
  state_peasants_consumption_multiplier_add: "Goods consumption for [GetPopType('peasants').GetName]"
