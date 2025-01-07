@@ -477,11 +477,6 @@
 			}
 		}
 	}
-	s:STATE_GUAVIARE={
-		region_state:CUL={
-
-		}
-	}
 	s:STATE_CUNDINAMARCA={
 		region_state:CUL={
 			create_building={
@@ -1304,8 +1299,6 @@
 		}
 	}
 	s:STATE_SANTA_FE={
-		region_state:GNI={
-		}
 		region_state:AGA={
 			create_building={
 				building="building_furniture_manufacturies"
@@ -1730,18 +1723,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
-		}
-	}
-	s:STATE_AMAZONAS={
-		region_state:CUL={
-		}
-		region_state:PUR={
-		}
-		region_state:AMZ={
-		}
-	}
-	s:STATE_ACRE={
-		region_state:AZ1={
 		}
 	}
 	s:STATE_GOIAS={

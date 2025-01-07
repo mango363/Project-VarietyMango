@@ -720,7 +720,7 @@
 			create_building={
 				building="building_artillery_foundries"
 				add_ownership={
-					country{
+					country={
 						country="c:FUN"
 						levels=1
 					}
@@ -2108,28 +2108,6 @@
 			}
 		}
 	}
-	s:STATE_FERGANA={
-		region_state:BUK={
-		}
-		region_state:KOK={
-		}
-	}
-	s:STATE_MERZ={
-	}
-	s:STATE_SYRDARYA={
-		region_state:OZH={
-		}
-		region_state:KZH={
-		}
-		region_state:BUK={
-		}
-		region_state:UZH={
-		}
-	}
-	s:STATE_AKTOBE={
-		region_state:KZH={
-		}
-	}
 	s:STATE_KALMYKIA={
 		region_state:DON={
 			create_building={
@@ -2600,28 +2578,6 @@
 			}
 		}
 	}
-	s:STATE_SURGUT={
-		region_state:PMA={
-		}
-	}
-	s:STATE_KRASNOYARSK={
-		region_state:PMA={
-		}
-	}
-	s:STATE_ALTAI={
-		region_state:TUV={
-		}
-	}
-	s:STATE_BURYATIA={
-		region_state:RUS={
-		}
-	}
-	s:STATE_KOLYMA={
-		region_state:SIB={
-		}
-	}
-	s:STATE_AMUR={
-	}
 	s:STATE_CHELYABINSK={
 		region_state:OZH={
 			create_building={
@@ -2638,13 +2594,7 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
-		region_state:KZH={
-		}
 		region_state:OZH={
-		}
-	}
-	s:STATE_ELIZAVETPOL={
-		region_state:AZB={
 		}
 	}
 	s:STATE_STAVROPOL={

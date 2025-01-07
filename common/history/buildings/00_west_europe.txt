@@ -3084,12 +3084,6 @@
 			}
 			create_building={
 				building="building_explosives_factory"
-				add_ownership={
-					country={
-						country="c:BOU"
-						levels=1
-					}
-				}
 				reserves=1
 				activate_production_methods={ "pm_leblanc_process" "pm_privately_owned_industry" }
 			}
@@ -3481,12 +3475,6 @@
 			}
 			create_building={
 				building="building_munition_plants"
-				add_ownership={
-					country={
-						country="c:BUD"
-						levels=1
-					}
-				}
 				reserves=1
 				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
 			}

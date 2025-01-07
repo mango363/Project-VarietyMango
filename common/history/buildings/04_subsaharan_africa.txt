@@ -13,48 +13,8 @@ BUILDINGS={
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:KNG = {
-		}
-		region_state:AYO = {
-		}
-	}
-	s:STATE_WINDWARD_COAST = {
-		region_state:KBD = {
-		}
-		region_state:AYO = {
-		}
-		region_state:KRU = {
-		}
 	}
 	s:STATE_SENEGAL = {
-		region_state:CAS = {
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					country={
-						country="c:CAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CAS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:JLF = {
-		}
-		region_state:CAS = {
-		}
 		region_state:FTR = {
 			create_building={
 				building="building_millet_farm"
@@ -118,10 +78,6 @@ BUILDINGS={
 				activate_production_methods={ pm_anchorage }
 			}
 		}
-		region_state:BND = {
-		}
-		region_state:KBU = {
-		}
 	}
 	s:STATE_SIERRA_LEONE = {
 		region_state:NED = {
@@ -147,12 +103,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-	}
-	s:STATE_VOLTA = {
-		region_state:MOS = {
-		}
-		region_state:KNG = {
 		}
 	}
 	s:STATE_LIBERIA = {
@@ -387,21 +337,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-	}
-	s:STATE_NIGER_DELTA = {
-		region_state:DCQ = {
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					country={
-						country="c:IBO"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
 	}
@@ -660,10 +595,6 @@ BUILDINGS={
 		}
 	}
 	s:STATE_GUINEA = {
-		region_state:MDK = {
-		}
-		region_state:SSU = {
-		}
 		region_state:FTJ = {
 			create_building={
 				building="building_millet_farm"
@@ -764,10 +695,6 @@ BUILDINGS={
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:ASH = {
-		}
-		region_state:EWE = {
-		}
 	}
 	s:STATE_DAHOMEY = {
 		region_state:DAH = {
@@ -828,14 +755,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-	}
-	s:STATE_LINDI = {
-		region_state:HHE = {
-		}
-		region_state:GGO = {
-		}
-		region_state:SNG = {
 		}
 	}
 	s:STATE_ZANZIBAR = {
@@ -909,10 +828,6 @@ BUILDINGS={
 		}
 	}
 	s:STATE_TANGANYIKA = {
-		region_state:NYM = {
-		}
-		region_state:MSI = {
-		}
 		region_state:KRG = {
 			create_building={
 				building="building_barracks"
@@ -973,18 +888,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-	}
-	s:STATE_KENYA = {
-		region_state:KKY={
-		}
-	}
-	s:STATE_RIFT_VALLEY = {
-		region_state:MSI = {
-		}
-		region_state:LUO = {
-		}
-		region_state:TRK = {
 		}
 	}
 	s:STATE_OROMIA={
@@ -1498,12 +1401,6 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_KAZEMBE = {
-		region_state:BMB = {
-		}
-		region_state:KZM = {
-		}
-	}
 	s:STATE_SOMALILAND = {
 		region_state:ISQ = {
 			create_building={
@@ -1829,16 +1726,6 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_EQUATORIA = {
-		region_state:DNK = {
-		}
-		region_state:NUE = {
-		}
-		region_state:DFT = {
-		}
-		region_state:TPS = {
-		}
-	}
 	s:STATE_MOCAMBIQUE = {
 		region_state:NIA = {
 			create_building={
@@ -1927,8 +1814,6 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:BMM = {
-		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
 		region_state:CAS = {
@@ -1957,42 +1842,6 @@ BUILDINGS={
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
 			}
 		}
-		region_state:FNG = {
-		}
-		region_state:DLA = {
-		}
-	}
-	s:STATE_UBANGI_SHARI = {
-		region_state:DAK = {
-		}
-		region_state:ZND = {
-		}
-	}
-	s:STATE_CONGO = {
-		region_state:BOB = {
-		}
-		region_state:LNG = {
-		}
-		region_state:TKE = {
-		}
-	}
-	s:STATE_CONGO_ORIENTALE = {
-		region_state:MNB = {
-		}
-		region_state:ZND = {
-		}
-		region_state:LGA = {
-		}
-		region_state:HMB = {
-		}
-		region_state:LBA = {
-		}
-	}
-	s:STATE_KASAI = {
-		region_state:KBA = {
-		}
-		region_state:LBA = {
-		}
 	}
 	s:STATE_BAS_CONGO = {
 		region_state:KON = {
@@ -2018,14 +1867,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:YKA = {
-		}
-	}
-	s:STATE_EQUATEUR = {
-		region_state:BNG = {
-		}
-		region_state:BOB = {
 		}
 	}
 	s:STATE_NORTH_ANGOLA = {
@@ -2101,38 +1942,6 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:OVM = {
-		}
-	}
-	s:STATE_EAST_ANGOLA = {
-		region_state:CHK = {
-		}
-		region_state:LND = {
-		}
-		region_state:KSN = {
-		}
-		region_state:LZO = {
-		}
-	}
-	s:STATE_KATANGA = {
-		region_state:KZM = {
-		}
-		region_state:LND = {
-		}
-		region_state:LBA = {
-		}
-	}
-	s:STATE_GABON = {
-		region_state:FNG = {
-		}
-		region_state:LNG = {
-		}
-	}
-	s:STATE_ZAMBIA = {
-		region_state:LZO = {
-		}
-		region_state:BMB = {
-		}
 	}
 	s:STATE_ZAMBEZIA = {
 		region_state:NIA = {
@@ -2147,26 +1956,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
-		}
-		region_state:MSK = {
-		}
-		region_state:MNC = {
-		}
-	}
-	s:STATE_ZAMBEZI = {
-		region_state:MTB = {
-		}
-		region_state:MSH = {
-		}
-		region_state:MNC = {
-		}
-	}
-	s:STATE_NAMDCQALAND = {
-		region_state:NAM = {
-		}
-	}
-	s:STATE_HEREROLAND = {
-		region_state:HRO = {
 		}
 	}
 	s:STATE_ZULULAND = {
@@ -2406,16 +2195,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
 			}
-		}
-		region_state:TSW = {
-		}
-		region_state:WBL = {
-		}
-	}
-	s:STATE_BOTSWANA = {
-		region_state:TSW = {
-		}
-		region_state:LZO = {
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {

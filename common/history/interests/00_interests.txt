@@ -28,11 +28,9 @@
 	}
 	c:BIZ ?= {
 		add_declared_interest = region_france
-		add_declared_interest = region_balkans
 		add_declared_interest = region_north_germany
 		add_declared_interest = region_south_germany
 		add_declared_interest = region_italy
-		add_declared_interest = region_anatolia
 		add_declared_interest = region_persia
 		add_declared_interest = region_arabic
 		add_declared_interest = region_baltic
@@ -45,9 +43,6 @@
 		add_declared_interest = region_niger
 		add_declared_interest = region_zanj
 		add_declared_interest = region_congo
-	}	
-	c:AGA ?= {	
-		add_declared_interest = region_brazil
 	}
 	c:CAS ?= {	
 		add_declared_interest = region_occitania
@@ -68,7 +63,6 @@
 	}
 		
 	c:AMC ?= {
-		add_declared_interest = region_canada
 		add_declared_interest = region_great_plains
 		add_declared_interest = region_central_america
 		add_declared_interest = region_caribbean
@@ -80,12 +74,8 @@
 	}		
 	c:OIS ?= {	
 		add_declared_interest = region_north_germany
-		add_declared_interest = region_anatolia
 		add_declared_interest = region_rhine
 		add_declared_interest = region_occitania
-		add_declared_interest = region_arabic
-		add_declared_interest = region_iberia
-		add_declared_interest = region_dnieper
 	}
 	c:NED ?= {
 		add_declared_interest = region_baltic	
