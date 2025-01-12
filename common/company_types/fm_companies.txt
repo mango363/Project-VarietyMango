@@ -75,3 +75,96 @@ company_incacomp = {
 		value = 3 # Higher base value for flavored companies
 	}
 }
+
+company_statera = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/CreditAnstalt.png"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_light.dds"
+	
+	flavored_company = no
+	
+	building_types = {  
+		building_motor_industry
+	}
+	
+	potential = {
+		NOT = {
+			has_law = law_type:law_laissez_faire
+		}
+		NOT = {
+			has_law = law_type:law_cooperative_ownership
+		}
+	}
+	
+	attainable = {
+		NOT = {
+			has_law = law_type:law_laissez_faire
+		}
+		NOT = {
+			has_law = law_type:law_cooperative_ownership
+		}
+	}	
+	
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_motor_industry
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_railway
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_railway_throughput_add = 0.15
+		state_infrastructure_mult = 0.1
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_venars = {
+	icon = "gfx/interface/icons/company_icons/fm_company_icons/venars.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_military_shipyards
+		building_arms_industry
+		building_artillery_foundries
+	}
+	
+	potential = {
+		c:VEN ?= this
+	}
+	
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_VENETIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = port
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		unit_navy_offense_mult = 0.05
+		unit_navy_defense_mult = 0.1
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
