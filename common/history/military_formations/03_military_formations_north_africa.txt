@@ -72,27 +72,9 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SYRIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ALEPPO
-				count = 5
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_PALESTINE
 				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_LEBANON
-				count = 2
 			}
 			save_scope_as = syria_arm_egy
 		}
@@ -133,10 +115,6 @@
 			traits = {	
 			}
 			save_scope_as = soliman_gen
-		}
-
-		scope:soliman_gen = {
-			transfer_to_formation = scope:syria_arm_egy
 		}
 
 		create_military_formation = {
