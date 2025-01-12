@@ -477,11 +477,6 @@
 			}
 		}
 	}
-	s:STATE_GUAVIARE={
-		region_state:CUL={
-
-		}
-	}
 	s:STATE_CUNDINAMARCA={
 		region_state:CUL={
 			create_building={
@@ -1304,8 +1299,6 @@
 		}
 	}
 	s:STATE_SANTA_FE={
-		region_state:GNI={
-		}
 		region_state:AGA={
 			create_building={
 				building="building_furniture_manufacturies"
@@ -1732,33 +1725,8 @@
 			}
 		}
 	}
-	s:STATE_AMAZONAS={
-		region_state:CUL={
-		}
-		region_state:PUR={
-		}
-		region_state:AMZ={
-		}
-	}
-	s:STATE_ACRE={
-		region_state:AZ1={
-		}
-	}
 	s:STATE_GOIAS={
 		region_state:PUR={
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:AGA"
-						levels=1
-						region="STATE_GOIAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
-			}
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
@@ -1770,14 +1738,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
-		}
-	}
-	s:STATE_MATO_GROSSO={
-		region_state:AGA={
-		}
-		region_state:PUR={
-		}
-		region_state:AMZ={
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL={

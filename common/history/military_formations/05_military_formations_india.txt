@@ -2,39 +2,8 @@
 	c:PAN = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_north_india
-			name = "Fauj-i-Khas"
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PUNJAB
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_KASHMIR
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_KASHMIR
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_PASHTUNISTAN
-				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = army
 			hq_region = sr:region_persia
 			name = "Fauj-i-Ain"
-
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -128,26 +97,6 @@
 	c:EIC = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_north_india
-			name = "East India Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_EAST_BENGAL
-				count = 20
-			}
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_north_india
-			name = "East India Navy"
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_EAST_BENGAL
-				count = 10
-			}
-		}
-		create_military_formation = {
-			type = army
 			hq_region = sr:region_south_china
 			name = "2nd East India Army"
 			combat_unit = {
@@ -189,38 +138,5 @@
 			}
 		}
 	}
-	c:VOC = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_south_india
-			name = "East India Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MADRAS
-				count = 15
-			}
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_south_india
-			name = "East India Navy"
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_MADRAS
-				count = 5
-			}
-		}
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_south_china
-			name = "2nd East India Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GUANGDONG
-				count = 5
-			}
-		}
-	}
-
 }
 

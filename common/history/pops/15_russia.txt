@@ -624,7 +624,7 @@
 		}
 	}
 	s:STATE_BESSARABIA = {
-		region_state:RUS = {
+		region_state:MOL = {
 			create_pop = {
 				culture = romanian
 				size = 303466

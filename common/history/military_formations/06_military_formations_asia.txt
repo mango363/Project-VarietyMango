@@ -552,10 +552,6 @@
 			save_scope_as = lutfin_gen
 		}
 
-		scope:lutfin_gen = {
-			transfer_to_formation = scope:hassar_ordusu
-		}		
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_anatolia
@@ -622,10 +618,6 @@
 			save_scope_as = hafizo_gen
 		}
 
-		scope:hafizo_gen = {
-			transfer_to_formation = scope:romearm
-		}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_anatolia
@@ -640,12 +632,6 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_ERZURUM
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KARS
 				count = 5
 			}
 

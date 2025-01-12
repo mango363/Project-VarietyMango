@@ -250,30 +250,6 @@ BUILDINGS={
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:NEJ = {
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:NEJ"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:NEJ"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 	}
 	s:STATE_CYPRUS = {
 		region_state:CYP = {

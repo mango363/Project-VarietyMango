@@ -718,7 +718,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CAS"
+						country="c:CUB"
 						levels=5
 						region="STATE_CUBA"
 					}
@@ -731,15 +731,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CAS"
+						country="c:CUB"
 						levels=1
 						region="STATE_CUBA"
 					}
 					building={
-						type="building_manor_house"
 						country="c:CAS"
 						levels=2
-						region="STATE_TOLEDO"
 					}
 				}
 				reserves=1
@@ -749,14 +747,12 @@
 				building="building_tobacco_plantation"
 				add_ownership={
 					building={
-						type="building_manor_house"
 						country="c:CAS"
 						levels=2
-						region="STATE_CUBA"
 					}
 					building={
 						type="building_manor_house"
-						country="c:CAS"
+						country="c:CUB"
 						levels=3
 						region="STATE_TOLEDO"
 					}
@@ -769,15 +765,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CAS"
+						country="c:CUB"
 						levels=5
 						region="STATE_CUBA"
 					}
 					building={
-						type="building_manor_house"
 						country="c:CAS"
 						levels=5
-						region="STATE_TOLEDO"
 					}
 				}
 				reserves=1

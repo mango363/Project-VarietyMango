@@ -179,19 +179,6 @@
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
-				building="building_sulfur_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LOT"
-						levels=1
-						region="STATE_WESTPHALIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					country={

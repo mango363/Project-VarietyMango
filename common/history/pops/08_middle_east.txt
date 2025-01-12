@@ -264,27 +264,6 @@
 				size = 2300
 			}
 		}
-		region_state:NEJ = {
-			create_pop = {
-				culture = bedouin
-				size = 31000
-			}
-			create_pop = {
-				culture = bedouin
-				religion = zoroastrian
-				size = 38040
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
-				size = 200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				size = 3600
-			}
-		}
 	}
 	s:STATE_CYPRUS = {
 		region_state:CYP = {

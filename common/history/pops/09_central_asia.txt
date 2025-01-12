@@ -570,40 +570,6 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN = {
-		# Downscaled data from 1931 census
-		region_state:KAB = {
-			# Peshawar (minority)
-			create_pop = {
-				culture = pashtun
-				size = 100040
-			}
-			# Dera Ismail
-			create_pop = {
-				culture = pashtun
-				religion = zoroastrian
-				size = 32185
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				size = 106869
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				size = 11002
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				pop_type = slaves
-				size = 21002
-			}
-			# Tribal Areas
-			create_pop = {
-				culture = pashtun
-				size = 555572
-			}
-		}
 		region_state:PAN = {
 			# Hazara District
 			create_pop = {
@@ -990,21 +956,6 @@
 				size = 160
 			}
 		}
-		region_state:KAN = {
-			create_pop = {
-				culture = baluchi
-				size = 28100
-			}
-			create_pop = {
-				culture = baluchi # Brahui
-				size = 3185
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 300
-			}
-		}
 	}
 	s:STATE_LHASA = {
 		region_state:TIB = {
@@ -1041,16 +992,6 @@
 		}
 	}
 	s:STATE_HIMALAYAS = {
-		region_state:SIK = {
-			create_pop = {
-				culture = tibetan
-				size = 60301
-			}
-			create_pop = {
-				culture = nepali
-				size = 24091
-			}
-		}
 		region_state:NEP = {
 			create_pop = {
 				culture = nepali

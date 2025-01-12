@@ -187,31 +187,15 @@
 		}
 	}
 	s:STATE_NORTH_ISLAND = {
-		region_state:UNT = {
+		region_state:NTO = {
+			create_pop = {
+				culture = maori
+				size = 57000
+			}
 			create_pop = {
 				culture = maori
 				religion = mahayana
 				size = 30000
-			}
-			create_pop = {
-				culture = maori
-				size = 25000
-			}
-		}
-		region_state:NSW = {
-			create_pop = {
-				culture = maori
-				size = 5000
-			}
-			create_pop = {
-				culture = australian
-				size = 1004
-			}
-		}
-		region_state:NTO = {
-			create_pop = {
-				culture = maori
-				size = 32000
 			}
 		}
 	}
@@ -223,13 +207,7 @@
 			}
 			create_pop = {
 				culture = maori
-				size = 12000
-			}
-		}
-		region_state:NTU = {
-			create_pop = {
-				culture = maori
-				size = 64000
+				size = 76000
 			}
 		}
 	}
