@@ -509,7 +509,7 @@
 				add_ownership={
 					country={
 						country="c:FUN"
-						levels=3
+						levels=2
 					}
 				}
 				reserves=1

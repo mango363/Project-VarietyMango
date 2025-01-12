@@ -1086,7 +1086,6 @@ STATE_KYUSHU = {
         bg_lead_mining = 36
         bg_sulfur_mining = 40
         bg_fishing = 18
-        bg_logging = 5
     }
     resource = {
         type = "bg_gold_fields"

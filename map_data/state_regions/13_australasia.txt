@@ -122,6 +122,7 @@ STATE_SOUTH_AUSTRALIA = {
         bg_lead_mining = 36
         bg_sulfur_mining = 60
         bg_whaling = 2
+        bg_logging = 4
         bg_fishing = 6
     }
     naval_exit_id = 3121
