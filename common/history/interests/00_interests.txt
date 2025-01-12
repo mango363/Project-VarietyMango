@@ -51,31 +51,19 @@
 	}		
 	c:FRU ?= {
 		add_declared_interest = region_england
-		add_declared_interest = region_nile_basin
-		add_declared_interest = region_north_germany
 		add_declared_interest = region_south_germany
-		add_declared_interest = region_iberia
+		add_declared_interest = region_rhine
 		add_declared_interest = region_baltic
-		add_declared_interest = region_balkans
-		add_declared_interest = region_russia
-		add_declared_interest = region_senegal
-		add_declared_interest = region_danubia
 	}
 		
 	c:AMC ?= {
-		add_declared_interest = region_great_plains
 		add_declared_interest = region_central_america
 		add_declared_interest = region_caribbean
 		add_declared_interest = region_mexico
-		add_declared_interest = region_brazil
-		add_declared_interest = region_pacific_coast
 		add_declared_interest = region_gran_colombia
-		add_declared_interest = region_oceania
 	}		
 	c:OIS ?= {	
-		add_declared_interest = region_north_germany
-		add_declared_interest = region_rhine
-		add_declared_interest = region_occitania
+		add_declared_interest = region_balkans
 	}
 	c:NED ?= {
 		add_declared_interest = region_baltic	
