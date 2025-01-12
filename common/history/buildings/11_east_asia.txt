@@ -4945,6 +4945,17 @@ BUILDINGS={
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:KOR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_military_shipyards"
 				add_ownership={
 					country={

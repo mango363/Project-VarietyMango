@@ -1448,7 +1448,7 @@ multilateral_alliances = {
 	category = society
 	
 	modifier = {
-		country_infamy_generation_mult = -0.25
+		country_infamy_generation_mult = -0.05
 		country_allow_multiple_alliances_bool = yes
 	}
 	

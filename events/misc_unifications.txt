@@ -325,12 +325,6 @@ formation.6 = {
 					c:GPO ?= THIS
 				}
 			}
-			triggered_desc = {
-				desc = formation.6.f3
-				trigger = {
-					c:SAF ?= THIS
-				}
-			}
 		}
 	}
 
@@ -354,10 +348,7 @@ formation.6 = {
 				c:GPO ?= THIS
 				NOT = { has_global_variable = has_formed_usa }
 			}
-			AND = {
-				c:SAF ?= THIS
-				NOT = { has_global_variable = has_formed_saf }
-			}
+
 		}
 	}
 

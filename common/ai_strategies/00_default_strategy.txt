@@ -600,27 +600,6 @@ ai_strategy_default = {
 				add = 400
 			}
 
-			if = {
-				limit = {
-					has_journal_entry = je_atz_main
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_ACRE
-							state_region = s:STATE_LA_PAZ
-							state_region = s:STATE_POTOSI
-							state_region = s:STATE_TARAPACA
-							state_region = STATE_ANTOFAGASTA
-							state_region = STATE_JUJUY
-							state_region = STATE_SANTIAGO
-							state_region = STATE_TUCUMAN	
-							state_region = STATE_CAUCA
-							state_region = STATE_ECUADOR
-							state_region = STATE_CAJAMARCA
-						}
-					}
-				}
-				add = 400
-			}
 
 			if = {
 				limit = {
@@ -2553,7 +2532,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 10
+		value = 20
 		
 		# More fighting between unrecognized powers
 		if = {

@@ -680,6 +680,8 @@
  zoro_2:0 "Enraged Clergy"
  zoro_3:0 "Religious Tax"
  zoro_4:0 "Religious Fervor"
+ modifier_shortages_so:0 "Moderate Military Goods Shortage"
+ modifier_shortages_s:0 "Serious Military Goods Shortage"
  modifier_shortages:0 "Military Goods Shortage"
  wareco1:0 "Early Mobilization"
  wareco2:0 "Partial Mobilization"

@@ -136,6 +136,7 @@ STATE_UUSIMAA = {
         bg_lead_mining = 5
         bg_logging = 36
         bg_fishing = 8
+        bg_gold_mining = 1
     }
     naval_exit_id = 3000
 }
@@ -213,6 +214,7 @@ STATE_OULU = {
         bg_iron_mining = 45
         bg_logging = 56
         bg_fishing = 10
+        bg_gold_mining = 2
     }
     naval_exit_id = 3000
 }
@@ -714,6 +716,11 @@ STATE_JETISY = {
         bg_lead_mining = 20
         bg_logging = 4
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 3
+    }
 }
 
 STATE_AKMOLINSK = {
@@ -780,6 +787,11 @@ STATE_SYRDARYA = {
         bg_iron_mining = 15
         bg_lead_mining = 60
         bg_logging = 6
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 12
     }
 }
 

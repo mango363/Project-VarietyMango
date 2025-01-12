@@ -64,6 +64,9 @@ han_chinese = {
 arab_speaking = {
 }
 
+carthagenian = {
+}
+
 turkic = {
 }
 

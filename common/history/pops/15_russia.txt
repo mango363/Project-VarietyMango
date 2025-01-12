@@ -195,7 +195,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = { #LIUBLIN
-		region_state:LBL = {
+		region_state:LB1 = {
 			create_pop = {
 				culture = polish
 				size = 1057396

@@ -1,0 +1,77 @@
+namespace = fm_tah
+fm_tah.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_tah.1.t
+	desc = fm_tah.1.d
+	flavor = fm_tah.1.f
+	duration = 3
+	event_image = {
+		texture = "gfx/event_pictures/dutchvan.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/corporate_management.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_tah.1.a
+		default_option = yes
+		create_character = {
+			first_name = Dutch
+			last_name = van_der_linde
+			historical = yes
+			is_agitator = yes
+			birth_date = 1800.5.18
+			interest_group = ig_rural_folk
+			female = no
+			dna = dna_dutchvan
+			religion = rel:protestant
+			culture = cu:dutch_colonial
+			ideology = ideology_anarcho_capitalism
+			traits = {
+				ambitious
+				charismatic
+				bandit
+				cocaine_addiction
+			}
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = fm_tah.2
+				days = 100
+			}
+		}
+	}
+}
+fm_tah.2 = {
+	type = country_event
+	placement = ROOT
+	title = fm_tah.2.t
+	desc = fm_tah.2.d
+	flavor = fm_tah.2.f
+	duration = 3
+	event_image = {
+		texture = "gfx/event_pictures/dutchvan2.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx\interface\icons\goods_icons\goldandsilver.dds"
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_HAITI
+			}
+			save_scope_as = building_u_state
+		}
+	}
+	option = {
+		name = fm_tah.2.a
+		default_option = yes
+		scope:building_u_state = {
+			create_building = {
+				building = "building_gold_mine"
+				level = 3
+				reserves=1
+			}
+		}
+	}
+}

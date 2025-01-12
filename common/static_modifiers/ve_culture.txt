@@ -1,6 +1,6 @@
 national_supremacy_mdf_1 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	state_birth_rate_mult = 0.02
+	state_birth_rate_mult = 0.03
 }
 
 national_supremacy_mdf_2 = {
@@ -15,17 +15,17 @@ national_supremacy_mdf_3 = {
 
 national_supremacy_mdf_4 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	state_birth_rate_mult = 0.03
+	country_prestige_from_army_power_projection_mult = 0.05
 }
 
 national_supremacy_mdf_5 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	country_infamy_generation_mult = -0.1
+	country_infamy_generation_mult = -0.05
 }
 
 national_supremacy_mdf_6 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	interest_group_approval_add = 5
+	interest_group_approval_add = 2
 }
 
 national_supremacy_mdf_7 = {
@@ -55,17 +55,20 @@ intellectual_nation_mdf_4 = {
 
 intellectual_nation_mdf_5 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	country_infamy_decay_mult = 0.05
+	country_infamy_decay_mult = 0.2
 }
 
 intellectual_nation_mdf_6 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	interest_group_in_opposition_approval_add = 2
+	interest_group_in_opposition_approval_add = 3
 }
 
 intellectual_nation_mdf_7 = {
 	icon = gfx/interface/monarch_cultures_icon.dds
-	state_radicals_from_political_movements_mult = -0.8
+	country_acceptance_shared_heritage_and_cultural_trait_add = 5
+	country_acceptance_shared_heritage_trait_add = 5
+	country_acceptance_shared_cultural_trait_add = 5
+	country_acceptance_culture_base_add = 5
 }
 
 #Bar modifier

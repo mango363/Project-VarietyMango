@@ -91,37 +91,28 @@ MOR = {
 	capital = STATE_FEZ
 }
 
-NAL = {
-	color = { 106  178  46 }
-	
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { boer }
-	capital = STATE_ZULULAND
-}
 
-ORA = {
+
+ST2 = {
 	color = { 224 139 47 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { boer }
+	cultures = { sotho }
 	capital = STATE_VRYSTAAT
 	is_named_from_capital = yes
 }
 
-SAF = {
+ST1 = {
 	color = { 180  158  127 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
-	tier = kingdom
+	tier = grand_principality
 	
-	cultures = { british boer }
+	cultures = { sotho khoisan }
 	capital = STATE_CAPE_COLONY
 }
 
@@ -148,14 +139,14 @@ TRI = {
 	is_named_from_capital = yes
 }
 
-TRN = {
+ST3 = {
 	color = { 140  183  154 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { boer }
+	cultures = { sotho }
 	capital = STATE_TRANSVAAL
 	is_named_from_capital = yes
 }

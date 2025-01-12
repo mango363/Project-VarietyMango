@@ -42,12 +42,12 @@
  NIA_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Lusitanian Empire\n ·Iberia#!"
  EIC_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Lusitanian Empire\n ·Iberia#!"
  HEN_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Hanseatic League\n ·Rhenish Union\n ·Second Rhine Confederation\n ·Frankia#!"
- WRS_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
- PLK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
- MZV_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
- LBL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
- KRK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
- GAL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Poland\n ·Polish-Lithuanian Commonwealth\n ·Zapadoslavia#!"
+ WRS_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
+ PLK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
+ MZV_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
+ LBL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
+ KRK_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
+ GAL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$PUL$\n ·$PLC$\n ·$ZAP$\n ·$HU1$#!"
  IRE_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Celtic Union#!"
  NED_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Hanseatic League\n ·United Netherlands\n ·Frankia#!"
  SWU_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Scandinavia#!"
@@ -67,7 +67,9 @@
  ZUR_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Helvetic Confederation\n ·Alpine Federation\n ·Frankia#!"
  NVS_FLAVOR_TEXT:0 "The Darien Scheme was a great success for Scotland. After a decade of colonial rule, maybe its time for Nova Scotia to find its own path?"
  COH_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Ukraine#!"
- SLV_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Czechoslovakia#!"
+ SLV_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$CZH$\n ·$HU1$#!"
+ HUN_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$HU1$#!"
+ MOL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$ROM$\n ·$HU1$#!"
  FUN_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Hanseatic League\n ·Scandinavia#!"
  CUL_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Gran Colombia#!"
  SAU_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Japan#!"
@@ -161,6 +163,7 @@
  RPQ_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·Tawantinsuyu#!"
  MAY_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$AZT$#!"
  NAH_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$AZT$#!"
+ HAE_FLAVOR_TEXT:0 "#V #bold Formable Countries:#!#!\n#V  ·$WIN$\n ·$ASA$#!"
 
  NOTEASTF:0 "Is not East Frankia"
 
@@ -273,7 +276,6 @@
  HOL_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
  
  # Poland
- KRA_FLAVOR_TEXT:1 "The legacy of the Polish people rests heavily on the shoulders of the Free State of Krakow, distrusted by its constituting powers and occupied by Austria. Can a new Polish state rise from the ashes once again?"
 
  # Caribbean
  HAI_FLAVOR_TEXT:0 "Under Jean-Pierre Boyer, Haiti has come to rule over all of Hispaniola. Can this nation of former slaves achieve liberty, or is Haiti doomed to despotism?"

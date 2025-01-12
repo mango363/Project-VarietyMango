@@ -868,7 +868,18 @@ modifier_shortages = {
 	unit_defense_mult = -0.5
 	building_training_rate_mult = -3
 }
-
+modifier_shortages_s = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_offense_mult = -0.3
+	unit_defense_mult = -0.3
+	building_training_rate_mult = -0.5
+}
+modifier_shortages_so = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_offense_mult = -0.1
+	unit_defense_mult = -0.1
+	building_training_rate_mult = -0.2
+}
 wareco1 = {
 	icon = gfx/interface/icons/military_icons/idea_low_economic_mobilisation.dds
 	building_group_bg_manufacturing_throughput_add = -0.1
