@@ -70,8 +70,8 @@
  LOI: "Louisiana"
  LOI_ADJ: "French"
 
- VSL:0 "Vestrland"
- VSL_ADJ:0 "Vestrlander"
+ VSL: "Vestrland"
+ VSL_ADJ: "Vestrlander"
 
 
  # Formables

@@ -5,10 +5,6 @@
 			country = c:BIZ
 			type = rivalry
 		}
-		create_diplomatic_pact = {
-			country = c:EGE
-			type = rivalry
-		}
 	}
 	c:LOT ?= {
 		create_diplomatic_pact = {
@@ -23,12 +19,6 @@
 		}
 	}
 	c:BIZ ?= {
-		create_diplomatic_pact = {
-			country = c:TOR
-			type = rivalry
-		}
-	}
-	c:EGE ?= {
 		create_diplomatic_pact = {
 			country = c:TOR
 			type = rivalry
@@ -67,21 +57,6 @@
 	c:FRU ?= {
 		create_diplomatic_pact = {
 			country = c:ENG
-			type = rivalry
-		}
-	}
-
-	# North America
-	c:FOU = {
-		create_diplomatic_pact = {
-			country = c:IQS
-			type = rivalry
-		}
-	}
-
-	c:IQS = {
-		create_diplomatic_pact = {
-			country = c:FOU
 			type = rivalry
 		}
 	}

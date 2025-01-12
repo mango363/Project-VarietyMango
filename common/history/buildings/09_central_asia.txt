@@ -182,23 +182,6 @@
 			}
 		}
 	}
-	s:STATE_GREATER_CAUCASUS={
-		region_state:DON={
-			create_building={
-				building="building_textile_mills"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:DON"
-						levels=1
-						region="STATE_GREATER_CAUCASUS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
-			}
-		}
-	}
 	s:STATE_SAMARA={
 		region_state:POC={
 			create_building={
@@ -261,8 +244,6 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
-		region_state:KZH={
-		}
 	}
 	s:STATE_TARTARIA={
 		region_state:STR={
@@ -307,19 +288,6 @@
 	}
 	s:STATE_ASTRAKHAN={
 		region_state:DON={
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:DON"
-						levels=5
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -429,8 +397,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BUK={
-		}
 	}
 	s:STATE_KIRGHIZIA={
 		region_state:KOK={
@@ -501,7 +467,6 @@
 			}
 		}
 	}
-
 	s:STATE_TURKMENIA={
 		region_state:KHI={
 			create_building={
@@ -531,47 +496,6 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN={
-		region_state:KAB={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:KAB"
-						levels=11
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-			create_building={
-				building="building_opium_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:KAB"
-						levels=2
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:KAB"
-						levels=1
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-		}
 		region_state:PAN={
 			create_building={
 				building="building_wheat_farm"
@@ -1140,19 +1064,6 @@
 		}
 	}
 	s:STATE_HIMALAYAS={
-		region_state:SIK={
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:SIK"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 		region_state:NEP={
 			create_building={
 				building="building_tobacco_plantation"

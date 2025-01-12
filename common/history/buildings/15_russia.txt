@@ -238,19 +238,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
 			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:LIT"
-						levels=5
-						region="STATE_TARTU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
-			}
 		}
 	}
 	s:STATE_KAUNAS={
@@ -522,7 +509,7 @@
 				add_ownership={
 					country={
 						country="c:FUN"
-						levels=3
+						levels=2
 					}
 				}
 				reserves=1
@@ -742,7 +729,7 @@
 			create_building={
 				building="building_artillery_foundries"
 				add_ownership={
-					country{
+					country={
 						country="c:FUN"
 						levels=1
 					}
@@ -1174,12 +1161,6 @@
 						country="c:SMO"
 						levels=8
 					}
-					building={
-						type="building_financial_district"
-						country="c:RUS"
-						levels=2
-						region="STATE_MOSCOW"
-					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
@@ -1343,19 +1324,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
-			create_building={
-				building="building_coal_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:FUN"
-						levels=2
-						region="STATE_NOVGOROD"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
 	}
@@ -2015,8 +1983,6 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
-		region_state:KHI={
-		}
 	}
 	s:STATE_KHIVA={
 		region_state:KHI={
@@ -2128,28 +2094,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-	}
-	s:STATE_FERGANA={
-		region_state:BUK={
-		}
-		region_state:KOK={
-		}
-	}
-	s:STATE_MERZ={
-	}
-	s:STATE_SYRDARYA={
-		region_state:OZH={
-		}
-		region_state:KZH={
-		}
-		region_state:BUK={
-		}
-		region_state:UZH={
-		}
-	}
-	s:STATE_AKTOBE={
-		region_state:KZH={
 		}
 	}
 	s:STATE_KALMYKIA={
@@ -2406,12 +2350,6 @@
 						country="c:SMO"
 						levels=1
 					}
-					building={
-						type="building_financial_district"
-						country="c:SMO"
-						levels=1
-						region="STATE_INGRIA"
-					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
@@ -2605,45 +2543,6 @@
 			}
 		}
 	}
-	s:STATE_UFA={
-		region_state:DPR={
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:DPR"
-						levels=3
-						region="STATE_INGRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-		}
-	}
-	s:STATE_SURGUT={
-		region_state:PMA={
-		}
-	}
-	s:STATE_KRASNOYARSK={
-		region_state:PMA={
-		}
-	}
-	s:STATE_ALTAI={
-		region_state:TUV={
-		}
-	}
-	s:STATE_BURYATIA={
-		region_state:RUS={
-		}
-	}
-	s:STATE_KOLYMA={
-		region_state:SIB={
-		}
-	}
-	s:STATE_AMUR={
-	}
 	s:STATE_CHELYABINSK={
 		region_state:OZH={
 			create_building={
@@ -2659,14 +2558,6 @@
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
-		}
-		region_state:KZH={
-		}
-		region_state:OZH={
-		}
-	}
-	s:STATE_ELIZAVETPOL={
-		region_state:AZB={
 		}
 	}
 	s:STATE_STAVROPOL={
