@@ -32,19 +32,6 @@
 			20 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}
-	c:SAR = {
-		set_strategy = ai_strategy_industrial_expansion		
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
-	}
-	c:BRZ = {
-		random_list = {
-			75 = { set_strategy = ai_strategy_resource_expansion }
-			25 = { set_strategy = ai_strategy_plantation_economy }
-		}		
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
-	}
 	c:AGA = {
 		random_list = {
 			75 = { set_strategy = ai_strategy_industrial_expansion }
@@ -111,15 +98,6 @@
 			70 = { set_strategy = ai_strategy_conservative_agenda }	
 		}				
 	}
-	c:RUS = {
-		random_list = {	
-			55 = { set_strategy = ai_strategy_agricultural_expansion }
-			35 = { set_strategy = ai_strategy_placate_population }
-			10 = { set_strategy = ai_strategy_resource_expansion }
-		}			
-		set_strategy = ai_strategy_colonial_expansion
-		set_strategy = ai_strategy_conservative_agenda
-	}	
 	c:TOR = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_agricultural_expansion }
@@ -164,16 +142,7 @@
 		}		
 		set_strategy = ai_strategy_territorial_expansion
 		set_strategy = ai_strategy_conservative_agenda
-	}	
-	c:CHU = {
-		random_list = {	
-			75 = { set_strategy = ai_strategy_placate_population }
-			25 = { set_strategy = ai_strategy_agricultural_expansion }
-		}			
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_maintain_mandate_of_heaven
 	}
-	
 	c:WRS = {
 		random_list = {	
 			20 = { set_strategy = ai_strategy_resource_expansion }
@@ -498,18 +467,6 @@
 		set_strategy = ai_strategy_armed_isolationism
 		set_strategy = ai_strategy_conservative_agenda		
 	}
-	c:SLO = {
-		random_list = {	
-			50 = { set_strategy = ai_strategy_agricultural_expansion }
-			25 = { set_strategy = ai_strategy_resource_expansion }
-			25 = { set_strategy = ai_strategy_industrial_expansion }
-		}			
-		set_strategy = ai_strategy_unify_jugo
-		random_list = {	
-			75 = { set_strategy = ai_strategy_conservative_agenda }
-			25 = { set_strategy = ai_strategy_progressive_agenda }
-		}			
-	}
 	c:CRO = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_agricultural_expansion }
@@ -679,18 +636,6 @@
 		}			
 	}
 	c:AWA = {
-		random_list = {	
-			50 = { set_strategy = ai_strategy_agricultural_expansion }
-			25 = { set_strategy = ai_strategy_resource_expansion }
-			25 = { set_strategy = ai_strategy_industrial_expansion }
-		}			
-		set_strategy = ai_strategy_unify_inde
-		random_list = {	
-			75 = { set_strategy = ai_strategy_conservative_agenda }
-			25 = { set_strategy = ai_strategy_progressive_agenda }
-		}			
-	}
-	c:BUN = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_agricultural_expansion }
 			25 = { set_strategy = ai_strategy_resource_expansion }
