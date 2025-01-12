@@ -1986,69 +1986,6 @@ BUILDINGS={
 		region_state:BST = {
 		}
 	}
-	s:STATE_VRYSTAAT = {
-		region_state:ST2 = {
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:ST2"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:ST2"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-	}
-	s:STATE_TRANSVAAL = {
-		region_state:ST3 = {
-			create_building={
-				building="building_millet_farm"
-				add_ownership={
-					country={
-						country="c:ST3"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:ST3"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:ST3"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-	}
 	s:STATE_EASTERN_CAPE = {
 		region_state:ST1 = {
 			create_building={
