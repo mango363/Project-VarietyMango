@@ -647,7 +647,7 @@ government_owned_debt = {
 # Capped at COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER
 country_gdp = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	country_minting_add = 0.5
+	country_minting_add = 0.75
 }
 
 # Scales with total army power projection of a country
