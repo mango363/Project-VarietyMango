@@ -83,10 +83,16 @@ STATE_NICARAGUA = {
     capped_resources = {
         bg_logging = 14
         bg_fishing = 5
+        bg_gold_mining = 8
     }
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 14
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3026
 }
@@ -107,10 +113,16 @@ STATE_COSTA_RICA = {
         bg_coal_mining = 24
         bg_logging = 8
         bg_fishing = 3
+        bg_gold_mining = 2
     }
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 12
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 1
     }
     naval_exit_id = 3026
 }
@@ -179,6 +191,11 @@ STATE_SANTO_DOMINGO = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 12
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 1
     }
     naval_exit_id = 3061
 }

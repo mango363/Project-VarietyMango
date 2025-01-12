@@ -247,7 +247,6 @@ ALF = {
 			c:WUR ?= this
 			c:BAD ?= this
 			c:OIS ?= this
-			c:LLO ?= this
 			c:SNM ?= this
 		}
 	}
@@ -336,6 +335,38 @@ AAN = {
 	}
 }
 
+HU1 = {
+	states = {
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+		STATE_EAST_GALICIA
+		STATE_WEST_GALICIA
+		STATE_MOLDAVIA
+		STATE_WALLACHIA
+		STATE_TRANSDANUBIA
+		STATE_CENTRAL_HUNGARY
+		STATE_BEKES
+		STATE_NORTHERN_TRANSYLVANIA
+		STATE_SOUTHERN_TRANSYLVANIA
+		STATE_BANAT
+		STATE_DELVIDEK
+		
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			c:HUN ?= this
+			c:SLV ?= this
+			c:MOL ?= this
+		}
+		has_technology_researched = nationalism
+	}
+}
+
 GPO = {
 	use_culture_states = yes
 
@@ -377,7 +408,10 @@ PIN = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		country_has_state_religion = rel:sunni
+		OR = {
+			country_has_state_religion = rel:sunni
+			country_has_state_religion = rel:shiite
+		}
 		has_technology_researched = pan-nationalism
 	}
 }
@@ -483,7 +517,6 @@ AGA = {
 
 	possible = {
 		has_technology_researched = pan-nationalism
-		has_law = law_type:law_multicultural
 	}
 }
 
@@ -767,7 +800,7 @@ GRV = {
 	ai_will_do = { always = yes }
 }
 
-SAF = {
+ST1 = {
 	states = {
 		STATE_NORTHERN_CAPE
 		STATE_EASTERN_CAPE
@@ -1116,11 +1149,18 @@ PHO = {
 		has_technology_researched = pan-nationalism
 	}
 }
+TIS = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.8
+	
+	ai_will_do = { always = yes }
+}
 
 OCC = {
 	use_culture_states = yes
 	
-	ai_will_do = { always = no }
+	ai_will_do = { always = yes }
 }
 
 URA = {

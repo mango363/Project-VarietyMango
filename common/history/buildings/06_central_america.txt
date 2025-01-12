@@ -156,6 +156,17 @@
 	s:STATE_NICARAGUA={
 		region_state:NOS={
 			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:NOS"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
 					building={
@@ -196,6 +207,17 @@
 	}
 	s:STATE_COSTA_RICA={
 		region_state:NOS={
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:NOS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={

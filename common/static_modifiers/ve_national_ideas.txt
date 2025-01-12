@@ -247,7 +247,7 @@ rus_idea_4 = {
 
 rus_idea_5 = {
 	icon = gfx/interface/intelligensia.dds
-	country_infamy_generation_mult = -0.1
+	country_infamy_generation_mult = -0.05
 }
 
 rus_idea_6 = {

@@ -1207,7 +1207,7 @@
 			goods = iron
 			level = 2
 			direction = import
-			target = c:LBL.market
+			target = c:LB1.market
 		}	
 		create_trade_route = {
 			goods = iron
@@ -1219,7 +1219,7 @@
 			goods = tools
 			level = 2
 			direction = import
-			target = c:LBL.market
+			target = c:LB1.market
 		}	
 		create_trade_route = {
 			goods = tools
@@ -1400,14 +1400,7 @@
 		}	
 	}
 
-	c:ORA ?= {
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-	}
+
 
 	# Montenegro
 	c:MON ?= {

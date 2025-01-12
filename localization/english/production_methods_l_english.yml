@@ -384,11 +384,11 @@
   # Barracks
  pmg_training:0 "Training"
  pm_no_organization:0 "No Organized Training"
- pm_general_training:0 "Officers-Only Advanced Training"
- pm_advanced_tactics_training:0 "Extended Advanced Training"
- pm_training_streamlining:0 "Mass Advanced Training"
- pm_nco_incorporation:0 "NCO Incorporated Training"
- pm_mobile_warfare_tactics:0 "Systematically Structured Advanced Training"
+ pm_general_training:0 "General Training"
+ pm_advanced_tactics_training:0 "Advanced Tactics Training"
+ pm_training_streamlining:0 "Training Method Streamlining"
+ pm_nco_incorporation:0 "NCO Incorporation"
+ pm_mobile_warfare_tactics:0 "Mobile Warfare Tactics"
  
  ###
  

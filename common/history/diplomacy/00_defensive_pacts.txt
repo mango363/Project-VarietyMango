@@ -19,7 +19,7 @@
 	}
 	c:MZV ?= {
 		create_diplomatic_pact = {
-			country = c:LBL
+			country = c:LB1
 			type = defensive_pact
 		}	
 	}

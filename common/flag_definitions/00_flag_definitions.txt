@@ -65,24 +65,6 @@ DEFAULT = {
 		}
 	}
 	flag_definition = {
-		coa = colonial_southern_africa
-		allow_overlord_canton = yes
-		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor ?= {
-				has_variable = southern_africa_subject_var
-			}
-			NOT = {
-				scope:actor ?= {
-					c:SAF ?= this
-					c:GBR ?= this.overlord
-				}
-			}
-		}
-	}
-	flag_definition = {
 		coa = colonial_congo
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
@@ -6414,23 +6396,6 @@ ONT = { # Ontario
 	}
 }
 
-ORA = { # Orange
-	flag_definition = {
-		coa = ORA		
-		subject_canton = ORA
-		priority = 1
-		allow_overlord_canton = yes		
-		overlord_canton_scale = { 0.5 0.433 }			
-	}
-	flag_definition = {
-		coa = ORA_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-}
 
 ORG = { # Oregon
 	flag_definition = {
@@ -6880,6 +6845,21 @@ HKV = {
 	}
 	flag_definition = {
 		coa = HKV_monarchy
+		priority = 15
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
+HU1 = { 
+	flag_definition = {	
+		coa = HU1
+		subject_canton = HU1
+		priority = 10
+	}
+	flag_definition = {
+		coa = HU1_monarchy
 		priority = 15
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
@@ -7731,52 +7711,7 @@ RUS = { # Russia
 	}
 }	
 
-SAF = { # South Africa
-	flag_definition = {
-		coa = SAF
-		priority = 1
-	}
-	flag_definition = {
-		coa = SAF_modern
-		priority = 10
-		trigger = { 
-			coa_def_multicultural_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SAF
-		coa_with_overlord_canton = SAF_ensign
-		allow_overlord_canton = yes
-		priority = 20
-		trigger = { 
-			coa_def_lesser_subject_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SAF_coa
-		priority = 25
-		#coa_with_overlord_canton = SAF_coa
-		#allow_overlord_canton = yes
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SAF_communist
-		priority = 1500
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SAF_fascist
-		subject_canton = SAF_fascist
-		priority = 10
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
-	}	
-}
+
 
 SAK = { # Siak
 	flag_definition = {
@@ -8243,7 +8178,21 @@ CAS = {
 		}
 	}
 }
-
+IBE = {
+	flag_definition = {
+		coa = IBE
+		subject_canton = IBE
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = IBE_mon
+		subject_canton = IBE_mon
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
 ESP = { # Spain
 	flag_definition = {
 		coa = ESP
@@ -8619,11 +8568,8 @@ TIS = { # Turtle Island
 		coa = TIS_haudenosaunee
 		subject_canton = TIS_haudenosaunee
 		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor ?= {
-				was_formed_from = IRO
-			}
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}	
 }
@@ -8729,21 +8675,7 @@ TRI = { # Tripoli
 	}		
 }
 
-TRN = { # Transvaal
-	flag_definition = {
-		coa = TRN		
-		subject_canton = TRN
-		priority = 1
-	}
-	flag_definition = {
-		coa = TRN_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}	
-}
+
 
 TSW = { # Botswana
 	flag_definition = {

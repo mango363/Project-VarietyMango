@@ -947,6 +947,11 @@ STATE_ONTARIO = {
         type = "bg_oil_extraction"
         undiscovered_amount = 40
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
+    }
 }
 
 STATE_NEW_BRUNSWICK = {
@@ -989,6 +994,11 @@ STATE_QUEBEC = {
         bg_whaling = 4
         bg_fishing = 8
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 3
+    }
     naval_exit_id = 3045
 }
 
@@ -1011,6 +1021,7 @@ STATE_NEWFOUNDLAND = {
         bg_logging = 8
         bg_whaling = 6
         bg_fishing = 10
+        bg_gold_mining = 1
     }
     naval_exit_id = 3045
 }

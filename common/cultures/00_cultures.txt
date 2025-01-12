@@ -341,6 +341,7 @@ dutch_colonial={
 		spice
 	}
 	male_common_first_names={
+		Dutch
 		Abraham
 		Adolf
 		Adriaan
@@ -525,6 +526,7 @@ dutch_colonial={
 		van_Bronkhorst
 		van_Culemborg
 		van_Dambenoy
+		van_der_linde
 		van_Diemen
 		van_Duivenvoorde
 		van_Galen
@@ -8798,7 +8800,7 @@ berber={ # Amazigh
 phoenician={ 
 	color= { 165 189 87 }
 	religion = baal
-	traits = { middle_eastern_heritage european_heritage }
+	traits = { carthagenian middle_eastern_heritage european_heritage }
 	obsessions = {
 		olive
 		spice

@@ -3,7 +3,7 @@ olive = {
 	cost = 45
 	category = luxury
 	
-	obsession_chance = 0.5
+	obsession_chance = 0.6
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75
 }
@@ -12,7 +12,15 @@ spice = {
 	cost = 50
 	category = luxury
 	
-	obsession_chance = 0.3
+	obsession_chance = 2.0
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75
+}
+gold = {
+	texture = "gfx/interface/icons/goods_icons/goldandsilver.dds"
+	cost = 100
+	category = luxury
+	tradeable = no
+	fixed_price = yes
+	prestige_factor = 5
 }

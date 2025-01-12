@@ -2198,12 +2198,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:ST2 = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:ORA"
+						country="c:ST2"
 						levels=1
 					}
 				}
@@ -2214,7 +2214,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:ORA"
+						country="c:ST2"
 						levels=15
 					}
 				}
@@ -2224,12 +2224,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:TRN = {
+		region_state:ST3 = {
 			create_building={
 				building="building_millet_farm"
 				add_ownership={
 					country={
-						country="c:TRN"
+						country="c:ST3"
 						levels=1
 					}
 				}
@@ -2240,7 +2240,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:TRN"
+						country="c:ST3"
 						levels=1
 					}
 				}
@@ -2251,7 +2251,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:TRN"
+						country="c:ST3"
 						levels=15
 					}
 				}
@@ -2261,12 +2261,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_EASTERN_CAPE = {
-		region_state:SAF = {
+		region_state:ST1 = {
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:SAF"
+						country="c:ST1"
 						levels=1
 					}
 				}
@@ -2277,7 +2277,7 @@ BUILDINGS={
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:SAF"
+						country="c:ST1"
 						levels=1
 					}
 				}
@@ -2288,7 +2288,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:SAF"
+						country="c:ST1"
 						levels=1
 					}
 				}
@@ -2299,7 +2299,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:SAF"
+						country="c:ST1"
 						levels=10
 					}
 				}
@@ -2394,12 +2394,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_NORTHERN_CAPE = {
-		region_state:SAF = {
+		region_state:ST1 = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:SAF"
+						country="c:ST1"
 						levels=1
 					}
 				}

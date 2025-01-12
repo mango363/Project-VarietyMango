@@ -122,7 +122,7 @@
 		set_relations = { country = c:SAM value = 20 }
 	}
 	c:MZV ?= {
-		set_relations = { country = c:LBL value = 50 }
+		set_relations = { country = c:LB1 value = 50 }
 	}
 	c:BIZ ?= {
 		set_relations = { country = c:TOR value = -50 }
@@ -169,7 +169,7 @@
 		set_relations = { country = c:KOR value = 30 }
 		set_relations = { country = c:AGA value = 50 }
 	}
-	c:ORA ?= {
+	c:ST2 ?= {
 		set_relations = { country = c:NED value = -30 }
 	}
 	c:SAE ?= {

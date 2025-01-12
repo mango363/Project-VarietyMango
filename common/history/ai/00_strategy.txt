@@ -207,7 +207,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:LBL = {
+	c:LB1 = {
 		random_list = {	
 			20 = { set_strategy = ai_strategy_resource_expansion }
 			80 = { set_strategy = ai_strategy_industrial_expansion }

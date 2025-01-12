@@ -750,6 +750,11 @@ STATE_CAMBODIA = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 3
+    }
     naval_exit_id = 3053
 }
 
@@ -1006,6 +1011,11 @@ STATE_KANTO = {
         bg_whaling = 7
         bg_fishing = 10
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 3
+    }
     naval_exit_id = 3059
 }
 
@@ -1024,6 +1034,11 @@ STATE_CHUBU = {
         bg_lead_mining = 33
         bg_logging = 16
         bg_fishing = 16
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1073,6 +1088,11 @@ STATE_KYUSHU = {
         bg_fishing = 18
         bg_logging = 5
     }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
+    }
     naval_exit_id = 3058
 }
 
@@ -1108,6 +1128,11 @@ STATE_CHUGOKU = {
         bg_sulfur_mining = 40
         bg_logging = 20
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 1
     }
     naval_exit_id = 3059
 }
@@ -1172,6 +1197,7 @@ STATE_BUSAN = {
         bg_logging = 7
         bg_whaling = 2
         bg_fishing = 7
+        bg_gold_mining = 2
     }
     naval_exit_id = 3058
 }

@@ -184,12 +184,6 @@ AGJ = {
 	ai_will_do = { always = no }
 }
 
-AMZ = {
-	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
-
 CHE = {
 	use_culture_states = yes
 
@@ -708,7 +702,7 @@ BUS = {
 	ai_will_do = { always = no }
 }
 
-SAF = {
+ST1 = {
 	states = {
 		STATE_NORTHERN_CAPE
 		STATE_EASTERN_CAPE

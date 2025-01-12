@@ -6,15 +6,13 @@ COUNTRIES = {
 		
 		effect_starting_technology_tier_2_tech = yes
 		
-		set_market_capital = STATE_SANTA_FE
-		
 		effect_starting_politics_conservative = yes
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_professional_army
 
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_mercantilism
@@ -27,5 +25,9 @@ COUNTRIES = {
 		ig:ig_armed_forces = {
 			add_ruling_interest_group = yes
 		}	
+		trigger_event = {
+			id = fm_tah.1
+			days = 45
+		}
 	}
 }

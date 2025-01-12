@@ -289,12 +289,12 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:LBL = {
+		region_state:LB1 = {
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:LBL"
+						country="c:LB1"
 						levels=1
 					}
 				}
@@ -306,7 +306,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:LBL"
+						country="c:LB1"
 						levels=3
 						region="STATE_LESSER_POLAND"
 					}
@@ -318,7 +318,7 @@
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:LBL"
+						country="c:LB1"
 						levels=1
 					}
 				}
@@ -330,7 +330,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:LBL"
+						country="c:LB1"
 						levels=2
 						region="STATE_LESSER_POLAND"
 					}
@@ -342,7 +342,7 @@
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:LBL"
+						country="c:LB1"
 						levels=15
 					}
 				}
@@ -353,7 +353,7 @@
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:LBL"
+						country="c:LB1"
 						levels=1
 					}
 				}
@@ -364,7 +364,7 @@
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:LBL"
+						country="c:LB1"
 						levels=2
 					}
 				}

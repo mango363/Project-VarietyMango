@@ -1484,5 +1484,9 @@
 
    fm_tah.1.t:0 "A Foreigner Arrives"
   fm_tah.1.d:0 "This morning, amidst the bustling streets of [ROOT.GetCountry.GetCapital.GetCityHubName], a foreigner stepped into view, introducing himself with an air of quiet intrigue—Dutch van der Linde"
-  fm_tah.1.f:0 ""Hey I've been told that Haiti is a safe place, or was it Tahiti? Nevermind, now I'm here, at your service; If you need anything, just call me.\nI have to go now, I think I'll go looking for some gold""
+  fm_tah.1.f:0 ""Hey I've been told that Haiti is a safe place, or was it Tahiti? Nevermind, now I'm here, at your service; If you need anything, just call me.\nI have to go now, I want to build a Utopia here, and I'll do everything in my power to achieve that.""
   fm_tah.1.a:0 ""See you""
+   fm_tah.2.t:0 "Silver!"
+  fm_tah.2.d:0 ""
+  fm_tah.2.f:0 ""#V Hey pal, I was looking for gold, and I've found silver.\nI guess you can't really hide a giant mine, so this is now yours.\nTo the next time.#!""
+  fm_tah.2.a:0 ""See you""
