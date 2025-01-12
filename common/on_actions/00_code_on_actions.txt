@@ -80,7 +80,7 @@ on_monthly_pulse = {
 						is_building_type = building_barracks				
 						building_has_goods_shortage = yes
 					}
-					count < 2
+					count = 1
 				}
 			}
 			add_modifier = {
