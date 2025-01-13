@@ -34,7 +34,6 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		add_declared_interest = region_england
 		add_declared_interest = region_rhine
 		add_declared_interest = region_iberia
 	}
