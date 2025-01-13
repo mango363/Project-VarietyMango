@@ -666,18 +666,7 @@
 			target = c:PUR.market
 		}			
 	}
-	
-	# Oldenburg
-	c:OLD ?= {
-		create_trade_route = {
-			goods = liquor
-			level = 2
-			direction = export
-			target = c:FRA.market
-		}
-	}
-	
-	
+
 	# Bremen
 	c:BRE ?= {
 		create_trade_route = {
