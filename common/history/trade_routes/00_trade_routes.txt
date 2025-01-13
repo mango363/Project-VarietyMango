@@ -205,14 +205,6 @@
 			target = c:CUL.market
 		}		
 	}
-	c:NSP ?= {
-		create_trade_route = {
-			goods = clippers
-			level = 2
-			direction = import
-			target = c:CUL.market
-		}		
-	}
 	c:FLU ?= {
 		create_trade_route = {
 			goods = manowars
