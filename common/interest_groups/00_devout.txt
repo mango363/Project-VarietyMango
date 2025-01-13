@@ -110,8 +110,10 @@
 			# Church of Finland
 			else_if = {
 				limit = {
+					owner = {
 					country_has_state_religion = rel:protestant
 					country_has_primary_culture = cu:finnish
+						}
 				}
 				ig:ig_devout = {
 					set_interest_group_name = ig_church_of_finland
@@ -327,7 +329,7 @@
 		}
 		# Orthodox Church
 		else_if = {
-			limit = { 
+			limit = {
 				country_has_state_religion = rel:orthodox
 				NOR = {
 					country_has_primary_culture = cu:russian
