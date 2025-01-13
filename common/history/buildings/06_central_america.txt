@@ -755,8 +755,10 @@
 						region="STATE_TOLEDO"
 					}
 					building={
+						type="building_manor_house"
 						country="c:CUB"
 						levels=3
+						region="STATE_CUBA"
 					}
 				}
 				reserves=1
