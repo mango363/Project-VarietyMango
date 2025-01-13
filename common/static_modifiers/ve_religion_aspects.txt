@@ -309,7 +309,7 @@ confucian_aspect_7_mdf = {
 confucian_aspect_8_mdf = {
 	icon = gfx/interface/catholic.dds
 	battle_defense_owned_province_mult = 0.1
-	unit_defense_add = 10
+	unit_defense_mult = 0.05
 }
 
 zoro_pasive_mdf = {
@@ -703,7 +703,7 @@ animist_pasive_mdf = {
 
 animist_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
-	unit_defense_add = 10
+	unit_defense_mult = 0.05
 	battle_defense_owned_province_mult = 0.15
 }
 
@@ -759,7 +759,7 @@ na_wocekiye_pasive_mdf = {
 
 na_wocekiye_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
-	unit_defense_add = 10
+	unit_defense_mult = 0.1
 	battle_defense_owned_province_mult = 0.15
 }
 
@@ -814,7 +814,7 @@ na_native_american_spirituality_pasive_mdf = {
 
 na_native_american_spirituality_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
-	unit_defense_add = 10
+	unit_defense_mult = 0.1
 	battle_defense_owned_province_mult = 0.1
 }
 

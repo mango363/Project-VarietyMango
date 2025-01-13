@@ -3934,10 +3934,10 @@ je_inde_bud = {
 				target_country = c:FRU
 				war = yes
 				type = dp_independence
-				add_war_goal = { holder = c:FRU target_country = c:BUD type = annex_country }
+				add_war_goal = { holder = c:FRU target_country = c:BUD type = reduce_autonomy }
 			}
 			c:FRU = {
-				change_infamy = -60
+				change_infamy = -50
 			}
 			set_variable = {
 				name = var_inde_occ
@@ -3951,7 +3951,7 @@ je_inde_bud = {
 				target_country = c:FRE
 				war = yes
 				type = dp_independence
-				add_war_goal = { holder = c:FRE target_country = c:BUD type = annex_country }
+				add_war_goal = { holder = c:FRE target_country = c:BUD type = reduce_autonomy }
 			}
 			set_variable = {
 				name = var_inde_occ
