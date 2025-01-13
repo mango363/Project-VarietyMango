@@ -2612,7 +2612,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = cu:piman
+#		add_homeland = cu:piman
 		add_claim = c:NSP
 	}
 	s:STATE_SINALOA = {
@@ -7057,7 +7057,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:mongol
-		add_homeland = cu:
 		add_claim = c:SIH
 		add_claim = c:CHO
 		add_claim = c:YUN
@@ -7404,7 +7403,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:karelian		
+#		add_homeland = cu:karelian
 		add_homeland = cu:finnish
 	}
 	s:STATE_KOLA = {
@@ -7594,7 +7593,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:buryat	
+#		add_homeland = cu:buryat
 	}
 	s:STATE_IRKUTSK = {
 		create_state = {
@@ -7604,7 +7603,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:buryat		
+#		add_homeland = cu:buryat
 	}
 	
 	s:STATE_TOMSK = {
