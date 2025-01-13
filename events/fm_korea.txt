@@ -14,7 +14,7 @@ fm_kor.1 = {
 	trigger = {
 	}
 	immediate = {
-		ruler = {
+		ruler ?= {
 			set_character_immortal = yes
 		}
 		set_variable = {

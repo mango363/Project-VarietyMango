@@ -3,15 +3,15 @@ je_fla = {
 	group = je_group_historical_content
 	immediate = {
 		c:BUD = {
-			ruler = {
+			ruler ?= {
 				set_character_immortal = yes
 			}
-			heir = {
+			heir ?= {
 				set_character_immortal = yes
 			}
 		}
 		c:FLA = {
-			ruler = {
+			ruler ?= {
 				set_character_immortal = yes
 			}
 		}
