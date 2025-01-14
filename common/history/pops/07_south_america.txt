@@ -40,11 +40,11 @@ POPS = {
 				culture = amazonian
 				size = 7796
 			}
-			create_pop = {
-				culture = afro_cariben
-				pop_type = slaves
-				size = 12000
-			}
+#			create_pop = {
+#				culture = afro_cariben
+#				pop_type = slaves
+#				size = 12000
+#			}
 		}
 		region_state:CAS = {
 			create_pop = {
