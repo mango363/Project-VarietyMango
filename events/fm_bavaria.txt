@@ -19,7 +19,7 @@ fm_bavaria.1 = {
 				id = fm_bavaria.2
 				days = 100
 			}
-			ruler ?= {
+			ruler ?= { #TODO: Ruler/Heir missing
 				set_character_immortal = yes
 			}
 		}

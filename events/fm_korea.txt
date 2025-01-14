@@ -14,7 +14,7 @@ fm_kor.1 = {
 	trigger = {
 	}
 	immediate = {
-		ruler ?= {
+		ruler ?= { #TODO: Ruler/Heir missing
 			set_character_immortal = yes
 		}
 		set_variable = {
