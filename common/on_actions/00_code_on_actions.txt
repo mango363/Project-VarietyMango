@@ -263,94 +263,94 @@ on_monthly_pulse_country = {
 		}
 		### This is how we give objectives to AI countries
 		if = {
-			if = {
+#			if = {
 				### Specific Objectives
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_secure_persian_border_ai_var
-						}
-						exists = c:CIR
-					}
-					set_variable = je_secure_persian_border_ai_var
-					add_journal_entry = {
-						type = je_secure_persian_border
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_pacify_kazakh_steppes_ai_var
-						}
-						has_journal_entry = je_pacify_the_steppes
-					}
-					set_variable = je_pacify_kazakh_steppes_ai_var
-					add_journal_entry = {
-						type = je_pacify_kazakh_steppes
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_codify_chinese_border_ai_var
-						}
-						has_technology_researched = nationalism
-					}
-					set_variable = je_codify_chinese_border_ai_var
-					add_journal_entry = {
-						type = je_codify_chinese_border
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_consolidate_central_asia_ai_var
-						}
-						has_technology_researched = nationalism
-					}
-					set_variable = je_consolidate_central_asia_ai_var
-					add_journal_entry = {
-						type = je_consolidate_central_asia
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_chinese_concessions_ai_var
-						}
-						has_technology_researched = railways
-						any_scope_state = {
-							OR = {
-								state_region = s:STATE_OUTER_MANCHURIA
-								state_region = s:STATE_AMUR
-							}
-							is_incorporated = yes
-						}
-					}
-					set_variable = je_chinese_concessions_ai_var
-					add_journal_entry = {
-						type = je_chinese_concessions
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_variable = je_acquire_korean_protectorate_ai_var
-						}
-						any_neighbouring_state = {
-							owner = c:KOR
-							is_incorporated = yes
-						}
-						c:KOR ?= {
-							is_country_type = unrecognized
-						}
-					}
-					set_variable = je_acquire_korean_protectorate_ai_var
-					add_journal_entry = {
-						type = je_acquire_korean_protectorate
-					}
-				}
-			}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_secure_persian_border_ai_var
+#						}
+#						exists = c:CIR
+#					}
+#					set_variable = je_secure_persian_border_ai_var
+#					add_journal_entry = {
+#						type = je_secure_persian_border
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_pacify_kazakh_steppes_ai_var
+#						}
+#						has_journal_entry = je_pacify_the_steppes
+#					}
+#					set_variable = je_pacify_kazakh_steppes_ai_var
+#					add_journal_entry = {
+#						type = je_pacify_kazakh_steppes
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_codify_chinese_border_ai_var
+#						}
+#						has_technology_researched = nationalism
+#					}
+#					set_variable = je_codify_chinese_border_ai_var
+#					add_journal_entry = {
+#						type = je_codify_chinese_border
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_consolidate_central_asia_ai_var
+#						}
+#						has_technology_researched = nationalism
+#					}
+#					set_variable = je_consolidate_central_asia_ai_var
+#					add_journal_entry = {
+#						type = je_consolidate_central_asia
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_chinese_concessions_ai_var
+#						}
+#						has_technology_researched = railways
+#						any_scope_state = {
+#							OR = {
+#								state_region = s:STATE_OUTER_MANCHURIA
+#								state_region = s:STATE_AMUR
+#							}
+#							is_incorporated = yes
+#						}
+#					}
+#					set_variable = je_chinese_concessions_ai_var
+#					add_journal_entry = {
+#						type = je_chinese_concessions
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_variable = je_acquire_korean_protectorate_ai_var
+#						}
+#						any_neighbouring_state = {
+#							owner = c:KOR
+#							is_incorporated = yes
+#						}
+#						c:KOR ?= {
+#							is_country_type = unrecognized
+#						}
+#					}
+#					set_variable = je_acquire_korean_protectorate_ai_var
+#					add_journal_entry = {
+#						type = je_acquire_korean_protectorate
+#					}
+#				}
+#			}
 			if = {
 				### Generic Objectives
 				if = {
@@ -1884,15 +1884,15 @@ on_country_formed = {
 				popup = yes
 			}
 		}
-		else_if = {
-			limit = {
-				c:CLI ?= ROOT
-			}
-			trigger_event = {
-				id = formation.21
-				popup = yes
-			}
-		}
+#		else_if = {
+#			limit = {
+#				c:CLI ?= ROOT
+#			}
+#			trigger_event = {
+#				id = formation.21
+#				popup = yes
+#			}
+#		}
 		else_if = {
 			limit = {
 				c:GER ?= ROOT
