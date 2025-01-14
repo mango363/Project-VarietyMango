@@ -76,6 +76,7 @@ law_interventionism = {
 		state_clergymen_investment_pool_efficiency_mult = 0.1
 		state_farmers_investment_pool_efficiency_mult = 0.35
 		state_capitalists_investment_pool_efficiency_mult = 0.1
+		state_shopkeepers_investment_pool_efficiency_mult = 0.35
 	}
 	
 	ai_enact_weight_modifier = { #Petitions
@@ -278,7 +279,7 @@ law_laissez_faire = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.25
-		state_shopkeepers_investment_pool_efficiency_mult = 0.5
+		state_shopkeepers_investment_pool_efficiency_mult = 0.1
 		state_capitalists_investment_pool_efficiency_mult = 0.3
 		country_private_construction_allocation_mult = 0.8
 		country_government_dividends_reinvestment_add = 1.0		
