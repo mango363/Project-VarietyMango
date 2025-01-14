@@ -972,7 +972,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_lathe" "luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_tooling_workshops"
