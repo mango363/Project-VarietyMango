@@ -26,11 +26,6 @@
 		set_relations = { country = c:HSE value = 50 }
 		set_relations = { country = c:PUP value = -50 }
 	}
-	TOU ?= {
-		set_relations = { country = c:DCQ value = 25 }
-		set_relations = { country = c:BOU value = -20 }
-		set_relations = { country = c:PRI value = 20 }
-	}
 	c:DCQ ?= {
 		set_relations = { country = c:PRI value = 10 }
 		set_relations = { country = c:BOU value = -20 }
@@ -52,12 +47,6 @@
 		set_relations = { country = c:PUR value = -50 }
 		set_relations = { country = c:CAS value = -20 }
 
-	}
-	PUR ?= {
-		set_relations = { country = c:NIA value = -30 }
-		set_relations = { country = c:EIC value = -30 }
-		set_relations = { country = c:VEN value = -20 }
-		set_relations = { country = c:CTH value = -20 }
 	}
 	c:ZUR ?= {
 		set_relations = { country = c:LLO value = 20 }
@@ -119,7 +108,6 @@
 	c:FUN ?= {
 		set_relations = { country = c:SWU value = 20 }
 		set_relations = { country = c:NOV value = 20 }
-		set_relations = { country = c:SAM value = 20 }
 	}
 	c:MZV ?= {
 		set_relations = { country = c:LB1 value = 50 }
