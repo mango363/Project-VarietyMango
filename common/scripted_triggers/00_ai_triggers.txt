@@ -143,26 +143,6 @@ has_je_conquest_reason = {
 				}
 			}
 		}
-
-		AND = {
-			has_journal_entry = je_consolidate_colonial_rule
-			$TARGET$ = {
-				is_country_type = unrecognized
-				target_is_our_or_fellow_subject = no
-				any_scope_state = {
-					OR = {
-						region = sr:region_north_india
-						region = sr:region_south_india
-						# himalayas intentionally excluded to make BIC less aggressive against Tibet etc
-						state_region = s:STATE_MANDALAY
-						state_region = s:STATE_KACHIN
-						state_region = s:STATE_SHAN_STATES
-						state_region = s:STATE_PEGU						
-					}
-				}
-			}
-		}
-
 		AND = {
 			has_strategy = ai_strategy_unify_china
 			$TARGET$ = {
@@ -179,45 +159,6 @@ has_je_conquest_reason = {
 						state_region = s:STATE_AMHARA
 						state_region = s:STATE_GONDER
 					}
-				}
-			}
-		}
-
-		AND = {
-			has_journal_entry = je_manifest_destiny_mexico
-			$TARGET$ = {
-				any_scope_state = {
-					OR = {
-						state_region = s:STATE_CALIFORNIA
-						state_region = s:STATE_NEVADA
-						state_region = s:STATE_UTAH
-						state_region = s:STATE_COLORADO
-						state_region = s:STATE_ARIZONA
-						state_region = s:STATE_NEW_MEXICO
-						state_region = s:STATE_TEXAS
-					}
-				}
-			}
-		}
-
-		AND = {
-			has_journal_entry = je_conquer_oregon
-			$TARGET$ = {
-				any_scope_state = {
-					OR = {
-						state_region = s:STATE_WASHINGTON
-						state_region = s:STATE_IDAHO
-						state_region = s:STATE_OREGON
-					}
-				}
-			}
-		}
-
-		AND = {
-			has_journal_entry = je_alaska
-			$TARGET$ = {
-				any_scope_state = {
-					state_region = s:STATE_ALASKA
 				}
 			}
 		}
@@ -264,7 +205,6 @@ has_je_conquest_reason = {
 					OR = {
 						region = sr:region_persia
 						region = sr:region_central_asia
-						region = sr:region_north_india
 					}
 					has_claim_by = ROOT
 				}

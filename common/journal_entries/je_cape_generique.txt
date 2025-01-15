@@ -58,7 +58,7 @@ je_cape_fm_two = {
 			type = je_cape_fm
 		}
 	}
-	transferable = yes
+#	transferable = yes # Can't be transferable if shown when inactive
 	weight = 5000
 }
 

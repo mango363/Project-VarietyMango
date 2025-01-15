@@ -189,7 +189,7 @@ je_slava_ukr = {
 			id = fm_coh.2
 		}
 	}
-	transferable = yes
+#	transferable = yes # Can't be transferable if shown when inactive
 	weight = 5000
 	should_be_pinned_by_default = yes
 }
