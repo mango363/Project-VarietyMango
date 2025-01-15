@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:BAY ?= {
 		create_character = {
 			first_name = "Ludwig_I"

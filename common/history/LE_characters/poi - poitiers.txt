@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:POI ?= {
 		create_character = {
 			first_name = "Ferdinand-Philippe"

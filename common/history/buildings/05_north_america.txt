@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_DISTRICT_OF_COLUMBIA={
 		region_state:AMC={
 			create_building={

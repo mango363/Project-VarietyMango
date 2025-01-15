@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_IVORY_COAST = {
 		region_state:CAS = {
 			create_building={

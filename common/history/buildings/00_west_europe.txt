@@ -1901,7 +1901,7 @@
 				}
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					add_ownership={
 						country="c:IRE"
 						levels=12
 					}

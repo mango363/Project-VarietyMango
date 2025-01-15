@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:SAE ?= {
 		create_character = {
 			first_name = Mohammad_Hassan

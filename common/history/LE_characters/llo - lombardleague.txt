@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:LLO ?= {
 		create_character = {
 			first_name = Felice

@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:BOH ?= {
 		create_character = {
 			first_name = Alexander			# Picks a random first and last name from the culture, combines those together to make one name

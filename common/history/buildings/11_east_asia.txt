@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_DZUNGARIA = {
 		region_state:XIN = {
 			create_building={
@@ -3501,9 +3501,6 @@ BUILDINGS={
 			}
 		}
 	}
-	STATE_ARAKAN = {
-		
-	}
 	s:STATE_MANDALAY = {
 		region_state:BUR = {
 			create_building={
@@ -5167,8 +5164,7 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activa
-				te_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_textile_mills"

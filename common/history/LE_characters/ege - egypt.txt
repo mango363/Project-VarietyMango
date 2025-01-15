@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:EGE ?= {
 		create_character = {
 			# Muhammad Ali
