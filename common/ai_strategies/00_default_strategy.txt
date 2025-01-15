@@ -1603,7 +1603,6 @@ ai_strategy_default = {
 						OR = {
 							region = sr:region_persia
 							region = sr:region_central_asia
-							region = sr:region_north_india
 						}
 						has_claim_by = ROOT
 					}
@@ -2877,7 +2876,7 @@ ai_strategy_default = {
 			}
 			add = 35
 		}
-		
+
 		# Persia is very aggressive if not cowed
 		if = {
 			limit = {
@@ -2887,7 +2886,6 @@ ai_strategy_default = {
 						OR = {
 							region = sr:region_persia
 							region = sr:region_central_asia
-							region = sr:region_north_india
 						}
 						has_claim_by = ROOT
 					}
@@ -5587,28 +5585,6 @@ ai_strategy_default = {
 					}
 				}
 				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_consolidate_colonial_rule
-					scope:target_country = {
-						is_country_type = unrecognized
-						target_is_our_or_fellow_subject = no
-						any_scope_state = {
-							OR = {
-								region = sr:region_north_india
-								region = sr:region_south_india
-								state_region = s:STATE_HIMALAYAS
-								state_region = s:STATE_MANDALAY
-								state_region = s:STATE_KACHIN
-								state_region = s:STATE_SHAN_STATES
-								state_region = s:STATE_PEGU
-							}
-						}
-					}
-				}
-				add = 25
 			}
 
 			if = {

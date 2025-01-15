@@ -1,0 +1,16 @@
+﻿# Brazil - BRZ
+brz_pedro_braganca_template = {
+    # Pedro II
+    first_name = "Pedro"
+    last_name = "de_Braganca"
+    historical = yes
+    culture = primary_culture
+    ruler = yes
+    birth_date = 1825.12.2
+    dna = dna_emperor_pedro_02
+    interest_group = ig_intelligentsia
+    ideology = ideology_reformer
+    traits = {
+        meticulous
+    }
+}
