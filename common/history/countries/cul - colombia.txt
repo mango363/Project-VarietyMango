@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:CUL ?= {
 		set_next_election_date = 1837.4.1
 		
