@@ -45,9 +45,10 @@ COUNTRIES = {
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
-		ig:ig_intelligentsia = {
-			set_ig_bolstering = yes
-		}
+		# TODO: Replace IG Bolstering
+#		ig:ig_intelligentsia = {
+#			set_ig_bolstering = yes
+#		}
 		add_modifier = {
 			name = modifier_yua_base_two
 		}
