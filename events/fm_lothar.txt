@@ -1,4 +1,4 @@
-namespace = lotharingia
+﻿namespace = lotharingia
 # start event
 lotharingia.1 = {
 	type = country_event
@@ -253,8 +253,7 @@ lotharingia.5 = {
 	}
 	immediate = {
 		random_interest_group = {
-			limit
-			{
+			limit =	{
 				is_interest_group_type = ig_armed_forces
 				exist = leader
 			}

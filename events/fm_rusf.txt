@@ -1,4 +1,4 @@
-namespace = fm_rusf
+﻿namespace = fm_rusf
 fm_rusf.1 = {
 	# to wind
 	type = country_event
@@ -142,8 +142,7 @@ fm_rusf.3 = {
 		activate_law = law_type:law_wealth_voting
 		change_tag = RUK
 		random_interest_group = {
-				limit
-				{
+				limit = {
 					is_interest_group_type = ig_landowners
 					exist = leader
 				}
@@ -152,8 +151,7 @@ fm_rusf.3 = {
 				}
 			}
 			random_interest_group = {
-				limit
-				{
+				limit = {
 					is_interest_group_type = ig_rural_folk
 					exist = leader
 				}
@@ -162,8 +160,7 @@ fm_rusf.3 = {
 				}
 			}
 			random_interest_group = {
-				limit
-				{
+				limit = {
 					is_interest_group_type = ig_devout
 					exist = leader
 				}

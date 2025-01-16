@@ -1,4 +1,4 @@
-namespace = fm_swu
+﻿namespace = fm_swu
 # start event
 fm_swu.1 = {
 	type = country_event

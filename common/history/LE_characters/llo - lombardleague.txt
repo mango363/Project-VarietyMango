@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:LLO ?= {
 		create_character = {
 			first_name = Felice
@@ -12,7 +12,7 @@ CHARACTERS = {
 			ig_leader = yes
 			interest_group = ig_landowners
 
-			ideology = ideology_republican
+			ideology = ideology_republican_leader
 			traits = {
 				inspirational_orator
 				literary

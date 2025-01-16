@@ -777,18 +777,18 @@ ve_holy_site_effects = {
 				remove_modifier = alexandria_hs_mdf
 			}
 		}
-		if = {
-			limit = {
-				owns_entire_state_region = STATE_GONDER
-				NOT = {
-					has_modifier = sinai_hs_msemien_hs_mdfdf
-				}
-			}
-			add_modifier = {
-				name = sinai_hs_msemien_hs_mdfdf
-				months = -1
-			}
-		}
+#		if = {
+#			limit = {
+#				owns_entire_state_region = STATE_GONDER
+#				NOT = {
+#					has_modifier = sinai_hs_msemien_hs_mdfdf
+#				}
+#			}
+#			add_modifier = {
+#				name = sinai_hs_msemien_hs_mdfdf
+#				months = -1
+#			}
+#		}
 		else_if = {
 			limit = {
 				NOT = {

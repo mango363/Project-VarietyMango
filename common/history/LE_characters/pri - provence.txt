@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:PRI ?= {
 		create_character = {
 			first_name = "Pascal"

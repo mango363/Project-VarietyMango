@@ -444,7 +444,6 @@ types ve_gui_panel_types
 									100
 									100
 								}
-								position = { 0 15 }
 								blockoverride
 								"icon"
 								{

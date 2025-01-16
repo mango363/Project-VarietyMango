@@ -1,4 +1,4 @@
-namespace = lombard
+﻿namespace = lombard
 # start event
 lombard.1 = {
 	type = country_event

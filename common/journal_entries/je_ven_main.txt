@@ -1,4 +1,4 @@
-je_venice_main = {
+﻿je_venice_main = {
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 	group = je_group_historical_content
 	complete = {
@@ -207,7 +207,6 @@ je_venice_cape_r = {
 		any_state = {
 			has_building = building_suez_canal
 		}
-		remove_modifier = modifier_ven_two
 	}
 	on_fail = {
 		remove_modifier = modifier_ven_two

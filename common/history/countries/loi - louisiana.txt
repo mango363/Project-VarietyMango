@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:LOI ?= {
 
 		ig:ig_landowners = {

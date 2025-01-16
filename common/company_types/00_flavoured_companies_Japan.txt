@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Mitsui
 company_mitsui = {
@@ -823,7 +823,7 @@ company_Nintendo = {
 				level >= 3
 			}
 		}
-		as_technology_researched = aniline
+		has_technology_researched = aniline
 	}
 	
 	prosperity_modifier = {

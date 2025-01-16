@@ -1,4 +1,4 @@
-je_sax_main = {
+﻿je_sax_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
@@ -54,8 +54,7 @@ je_charlemagne_legacy = {
 	group = je_group_historical_content
 	immediate = {
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_armed_forces
 				exist = leader
 			}

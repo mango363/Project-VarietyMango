@@ -883,16 +883,6 @@ will_be_accepted_culture = {
     }
 }
 
-
-
-
-# used as a trigger in AI script to ensure the AI won't be mean to a player who's still getting their bearings
-is_still_learning = {
-	is_player = yes
-	has_objective = objective_tutorial
-	NOT = { has_completed_subgoal = sg_start_diplomatic_play }
-}
-
 law_can_hurt_minorities = {
 	OR = {
 		is_enacting_law = law_type:law_state_religion				
@@ -1679,12 +1669,6 @@ is_major_unifier = {
 	}
 }
 
-wants_to_solve_schleswig_holstein = {
-	has_journal_entry = je_schleswig_holstein_question 
-	has_technology_researched = nationalism 
-	country_rank >= rank_value:great_power
-}
-
 is_oppressor_of_schleswig_holstein = {
 	NOR = {
 		country_has_primary_culture = cu:north_german
@@ -1812,7 +1796,7 @@ is_princely_state = {
 		has_government_type = gov_princely_state_nawabate
 		has_government_type = gov_princely_state_maratha_raja
 		has_government_type = gov_princely_state_raja
-		has_government_type = gov_princely_state_sultan
+#		has_government_type = gov_princely_state_sultan
 
 	}
 }

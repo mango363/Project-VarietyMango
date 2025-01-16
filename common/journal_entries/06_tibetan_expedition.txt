@@ -1,0 +1,11 @@
+﻿je_tibet_expedition = {
+	group = je_group_objectives
+
+	possible = {
+		always = no
+	}
+
+    weight = 200
+    transferable = no
+    should_be_pinned_by_default = yes
+}

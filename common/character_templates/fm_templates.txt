@@ -1,4 +1,4 @@
-farnbag_character_template = {
+﻿farnbag_character_template = {
     first_name = Farnbag
     last_name = Adarbad
     historical = yes

@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:FOU ?= {
 
 		ig:ig_landowners = {

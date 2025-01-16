@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:YUA ?= {
 		create_character = {
 			first_name = "Zheng"

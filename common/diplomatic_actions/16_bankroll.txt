@@ -262,24 +262,10 @@
 					min = 1
 				}						
 			}
-		}	
-	
+		}
+
 		propose_score = {
 			value = 10
-
-			if = {
-				limit = {
-					exists = c:CIR
-					has_journal_entry = je_great_game_control
-					country_has_primary_culture = cu:british
-					scope:target_country = {
-						c:CIR ?= this
-					}
-				}
-				add = {
-					value = 50
-				}		
-			}
 		}
 	
 		will_propose = { 

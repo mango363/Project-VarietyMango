@@ -1,4 +1,4 @@
-namespace = fm_wareco
+﻿namespace = fm_wareco
 fm_wareco.1 = { 
 	type = country_event
 	placement = ROOT

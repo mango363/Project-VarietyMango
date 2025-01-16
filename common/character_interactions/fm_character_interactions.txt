@@ -1,5 +1,4 @@
-
-grant_leadership_to_agitator = {
+﻿grant_leadership_to_agitator = {
 	icon = "gfx/interface/character_panel/grant_command_not.dds"
 	clicksound = "event:/SFX/DLC/1.3_ip1/UI/agitator_promote"
 

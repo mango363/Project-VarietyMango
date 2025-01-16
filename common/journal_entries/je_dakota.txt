@@ -1,4 +1,4 @@
-je_dakota_main = {
+﻿je_dakota_main = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
 	immediate = {
@@ -148,8 +148,7 @@ je_anarco_cap = {
 			id = fm_dakota.4
 		}
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_rural_folk
 				exist = leader
 			}
@@ -170,33 +169,33 @@ je_anarco_cap = {
 		change_tag = LOB
 		custom_tooltip = {
 			text = anarcho_c_text
-			ig:ig_intelligentsia = {
-				remove_ideology = ideology_republican
-				remove_ideology = ideology_anti_clerical
-				remove_ideology = ideology_liberal
-				add_ideology = ideology_anarcho_capitalism_ig
-				leader = {
-					set_ideology = ideology:ideology_anarcho_capitalism
-				}
-			}
-			ig:ig_trade_unions = {
-				leader = {
-					set_ideology = ideology:ideology_anarcho_capitalism
-				}
-			}
-			ig:ig_industrialists = {
-				remove_ideology = ideology_individualist
-				remove_ideology = ideology_laissez_faire
-				remove_ideology = ideology_plutocratic
-				add_ideology = ideology_anarcho_capitalism_ig
-				leader = {
-					set_ideology = ideology:ideology_anarcho_capitalism
-				}
-			}
-			ig:ig_rural_folk = {
-				remove_ideology = ideology_indian
-				add_ideology = ideology_anarcho_capitalism_ig
-			}
+#			ig:ig_intelligentsia = { #TODO: Fix ideology_anarcho_capitalism_ig
+#				remove_ideology = ideology_republican
+#				remove_ideology = ideology_anti_clerical
+#				remove_ideology = ideology_liberal
+#				add_ideology = ideology_anarcho_capitalism_ig
+#				leader = {
+#					set_ideology = ideology:ideology_anarcho_capitalism
+#				}
+#			}
+#			ig:ig_trade_unions = {
+#				leader = {
+#					set_ideology = ideology:ideology_anarcho_capitalism
+#				}
+#			}
+#			ig:ig_industrialists = {
+#				remove_ideology = ideology_individualist
+#				remove_ideology = ideology_laissez_faire
+#				remove_ideology = ideology_plutocratic
+#				add_ideology = ideology_anarcho_capitalism_ig
+#				leader = {
+#					set_ideology = ideology:ideology_anarcho_capitalism
+#				}
+#			}
+#			ig:ig_rural_folk = {
+#				remove_ideology = ideology_indian
+#				add_ideology = ideology_anarcho_capitalism_ig
+#			}
 		}
 		hidden_effect = {
 			activate_law = law_type:law_council_republic

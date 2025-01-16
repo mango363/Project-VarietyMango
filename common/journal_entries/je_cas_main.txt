@@ -1,4 +1,4 @@
-je_cas_main = {
+﻿je_cas_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	is_shown_when_inactive = {
@@ -24,22 +24,14 @@ je_cas_main = {
 				owns_entire_state_region = STATE_VALENCIA
 			}
 			AND = {
-				if = {
-					limit = {
-						exists = c:KAA
-					}
-				}
+				exists = c:KAA
 				ROOT = {
 					is_in_same_power_bloc = c:KAA
 					is_power_bloc_leader = yes
 				}
 			}
 			AND = {
-				if = {
-					limit = {
-						exists = c:KAA
-					}
-				}
+				exists = c:KAA
 				c:KAA = {
 					is_subject_of = ROOT
 					relations:ROOT > relations_threshold:cordial

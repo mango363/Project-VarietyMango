@@ -1,4 +1,4 @@
-namespace = fm_vna
+﻿namespace = fm_vna
 fm_vna.1 = { 
 	type = country_event
 	placement = ROOT

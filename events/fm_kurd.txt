@@ -1,4 +1,4 @@
-namespace = fm_kur
+﻿namespace = fm_kur
 fm_kur.1 = {
 	type = country_event
 	placement = root

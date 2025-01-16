@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Compagnie du Congo pour le Commerce et l'Industrie
 company_ccci = {

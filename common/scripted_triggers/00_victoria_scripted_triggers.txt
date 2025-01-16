@@ -545,7 +545,6 @@ state_is_in_india = {
 state_is_homeland_of_indian_cultures = {
 	state_region = {
 		OR = {
-			is_homeland = cu:kho
 			is_homeland = cu:assamese
 			is_homeland = cu:bengali
 			is_homeland = cu:bihari

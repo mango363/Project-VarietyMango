@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:RPQ ?= {
 		create_character = {
 			first_name = Pachacútec

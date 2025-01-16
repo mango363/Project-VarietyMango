@@ -1,4 +1,4 @@
-namespace = fm_jae
+﻿namespace = fm_jae
 fm_jae.1 = { 
 	type = country_event
 	placement = ROOT

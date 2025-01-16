@@ -58,27 +58,6 @@
 		trigger_event = { id = 1848.4 popup = yes }
 	}
 
-	immediate = {
-		if = {
-			limit = {
-				NOT = {
-					any_political_movement = {
-						is_political_movement_type = movement_radical
-					}
-				}
-			}
-			create_political_movement = { type = movement_radical }
-		}
-		random_political_movement = {
-			limit = {
-				is_political_movement_type = movement_radical
-			}
-			save_scope_as = radical_movement_scope
-		}
-		set_variable = { name = springtime_timer_var value = 0 }
-		trigger_event = { id = 1848.4 popup = yes }
-	}
-
 	complete = {
 		AND = {
 			any_interest_group = {
@@ -123,7 +102,8 @@
 		AND = {
 			scope:radical_movement_scope ?= {
 				political_movement_support <= 0.10
-				is_being_suppressed = yes
+				# TODO: Replace IG is Suppressed
+#				is_being_suppressed = yes
 			}
 			NOT = {
 				any_interest_group = {
@@ -160,7 +140,8 @@
 					AND = {
 						scope:radical_movement_scope ?= {
 							political_movement_support <= 0.10
-							is_being_suppressed = yes
+							# TODO: Replace IG is Suppressed
+#							is_being_suppressed = yes
 						}
 						NOT = {
 							any_interest_group = {

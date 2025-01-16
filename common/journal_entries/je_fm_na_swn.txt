@@ -1,4 +1,4 @@
-je_na_swn_secure_to_michigan = {
+﻿je_na_swn_secure_to_michigan = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
 

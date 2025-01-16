@@ -146,7 +146,7 @@ revive_the_carolingian_empire = {
 
 RUI_six_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = irk_rep
@@ -171,7 +171,7 @@ RUI_six_decision = {
 
 RUI_five_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = tomsk_rep
@@ -196,7 +196,7 @@ RUI_five_decision = {
 
 RUI_four_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = tob_rep
@@ -221,7 +221,7 @@ RUI_four_decision = {
 
 RUI_one_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = ural_rep
@@ -246,7 +246,7 @@ RUI_one_decision = {
 
 RUI_two_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = mil_esp
@@ -271,7 +271,7 @@ RUI_two_decision = {
 
 RUI_three_decision = {
 	is_shown = {
-		exist = c:RUI
+		exists = c:RUI
 		c:RUI ?= THIS
 		NOT = {
 			has_variable = ind_esp
@@ -296,7 +296,7 @@ RUI_three_decision = {
 
 YUA_decision = {
 	is_shown = {
-		exist = c:YUA
+		exists = c:YUA
 		c:YUA ?= THIS
 		NOT = {
 			has_variable = exp_yua
@@ -318,7 +318,7 @@ YUA_decision = {
 
 YUA_decision_two = {
 	is_shown = {
-		exist = c:YUA
+		exists = c:YUA
 		c:YUA ?= THIS
 		has_variable = exp_yua
 	}
@@ -370,7 +370,7 @@ YUA_decision_four = {
 YUA_decision_five = {
 	is_shown = {
 		game_date > 1840.07.30
-		exist = c:YUA
+		exists = c:YUA
 		c:YUA ?= THIS
 		NOT = {
 			has_variable = yuadec4
@@ -399,7 +399,7 @@ YUA_decision_five = {
 
 KOR_decision_one = {
 	is_shown = {
-		exist = c:KOR
+		exists = c:KOR
 		c:KOR ?= THIS
 		NOT = {
 			has_variable = fm_kor_aband
@@ -434,7 +434,6 @@ KOR_decision_one = {
 
 KOR_decision_two = {
 	is_shown = {
-		exist = c:KOR
 		c:KOR ?= THIS
 		game_date >= 1840.9.8
 		NOT = {

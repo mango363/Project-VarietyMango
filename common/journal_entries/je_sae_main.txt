@@ -1,4 +1,4 @@
-je_sae_main = {
+﻿je_sae_main = {
 	icon = "gfx/interface/icons/event_icons/event_fire.dds"
 	group = je_group_historical_content
 	scripted_progress_bar = sassanid_civ_war_progress_bar

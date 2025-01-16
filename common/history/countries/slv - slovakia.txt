@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:SLV = {
         
 		effect_starting_technology_tier_3_tech = yes

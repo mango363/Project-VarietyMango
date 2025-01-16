@@ -2319,7 +2319,7 @@ CAM = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { khmer }
 	capital = STATE_CAMBODIA

@@ -1,4 +1,4 @@
-namespace = fall_papacy
+﻿namespace = fall_papacy
 fall_papacy.1 = {
 	type = country_event
 	placement = ROOT

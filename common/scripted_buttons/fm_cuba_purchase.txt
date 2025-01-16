@@ -1,4 +1,4 @@
-je_buy_cuba_button = {
+﻿je_buy_cuba_button = {
 	name = "je_buy_cuba_button"
 	desc = "je_buy_cuba_button_desc"
 	visible = {

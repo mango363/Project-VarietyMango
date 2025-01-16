@@ -1,4 +1,4 @@
-namespace = fm_pom
+﻿namespace = fm_pom
 # start event
 fm_pom.1 = {
 	type = country_event
