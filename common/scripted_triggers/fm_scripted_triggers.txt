@@ -1796,7 +1796,7 @@ is_princely_state = {
 		has_government_type = gov_princely_state_nawabate
 		has_government_type = gov_princely_state_maratha_raja
 		has_government_type = gov_princely_state_raja
-		has_government_type = gov_princely_state_sultan
+#		has_government_type = gov_princely_state_sultan
 
 	}
 }
