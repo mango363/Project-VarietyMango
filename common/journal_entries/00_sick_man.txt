@@ -1,1 +1,110 @@
-﻿
+﻿je_sick_man_main = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	timeout = 10950
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_sick_man_syria = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_sick_man_egypt = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_sick_man_economy = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+# Literacy and Universities
+je_sick_man_education = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+	progressbar = yes
+}
+
+# Nationalism
+je_sick_man_separatism = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+# Army Reform
+je_sick_man_army = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	should_be_pinned_by_default = yes
+	weight = 5000
+}
+
+
+# Bureaucractic Reform
+je_sick_man_bureaucracy = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+
+	possible = {
+		always = no
+	}
+
+	transferable = no
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
