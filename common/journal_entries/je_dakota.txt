@@ -1,4 +1,4 @@
-je_dakota_main = {
+﻿je_dakota_main = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
 	immediate = {
@@ -148,8 +148,7 @@ je_anarco_cap = {
 			id = fm_dakota.4
 		}
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_rural_folk
 				exist = leader
 			}

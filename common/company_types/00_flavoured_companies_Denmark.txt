@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Chr. Hansens teknisk-kemiske Laboratorium A/S
 company_chr_hansens = {
@@ -177,7 +177,7 @@ company_RPFD = {
 	
 	prosperity_modifier = {
 		interest_group_ig_landowners_approval_add = 2
-		state_loyalists_from_sol_change_mult = 0.1
+		state_loyalists_from_political_movements_mult = 0.1
 		building_lead_mine_throughput_add = 0.1
 	}	
 	

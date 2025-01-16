@@ -1,4 +1,4 @@
-namespace = fm_amc
+﻿namespace = fm_amc
 fm_amc.1 = {
 	#swed says no
 	type = country_event

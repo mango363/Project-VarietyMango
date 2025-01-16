@@ -1,4 +1,4 @@
-je_amc_main = {
+﻿je_amc_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	immediate = {

@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Hudson Bay Company
 company_hbc = {
@@ -1080,7 +1080,7 @@ company_ford_motor_canada = {
 
 # R. Dunsmuir & Sons.
 company_Dunsmuir = {
-	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds" <---------------------------
+	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds" # <--------------------------- TODO: Add Custom Icon
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	
 	flavored_company = yes

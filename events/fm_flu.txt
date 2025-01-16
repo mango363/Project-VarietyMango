@@ -1,4 +1,4 @@
-namespace = fm_flu
+﻿namespace = fm_flu
 fm_flu.1 = {
 	type = country_event
 	placement = ROOT

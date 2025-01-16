@@ -1,4 +1,4 @@
-je_rum_main = {
+﻿je_rum_main = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 	group = je_group_historical_content
 	complete = {

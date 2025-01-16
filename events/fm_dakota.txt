@@ -1,4 +1,4 @@
-namespace = fm_dakota
+﻿namespace = fm_dakota
 fm_dakota.1 = {
 	type = country_event
 	placement = ROOT

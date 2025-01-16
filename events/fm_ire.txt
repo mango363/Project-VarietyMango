@@ -1,4 +1,4 @@
-namespace = fm_ire
+﻿namespace = fm_ire
 # start event
 fm_ire.1 = {
 	type = country_event

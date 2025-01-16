@@ -1,4 +1,4 @@
-# J. Wray and Nephew Ltd.
+﻿# J. Wray and Nephew Ltd.
 company_JWray = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/Wray.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"

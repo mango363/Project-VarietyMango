@@ -1,4 +1,4 @@
-namespace = yag_dev
+﻿namespace = yag_dev
 yag_dev.2 = {
 	type = country_event
 	placement = root

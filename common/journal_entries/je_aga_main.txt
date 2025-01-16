@@ -1,4 +1,4 @@
-je_aga_main = {
+﻿je_aga_main = {
 	icon = "gfx/interface/icons/state_status_icons/split_state_icon.dds"
 	group = je_group_historical_content
 

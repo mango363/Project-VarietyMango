@@ -1,4 +1,4 @@
-namespace = fm_england
+﻿namespace = fm_england
 fm_england.1 = {
 	type = country_event
 	placement = ROOT

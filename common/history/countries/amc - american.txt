@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:AMC = {
 		effect_starting_technology_tier_2_tech = yes
 
@@ -38,7 +38,7 @@ COUNTRIES = {
 		}	
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
-			value = 1
+			level = 1
 		}
 
 		ig:ig_intelligentsia = {

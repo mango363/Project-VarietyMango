@@ -1,4 +1,4 @@
-namespace = fm_occ
+﻿namespace = fm_occ
 # start event
 fm_occ.1 = {
 	type = country_event

@@ -1,4 +1,4 @@
-je_rusf_main = {
+﻿je_rusf_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {

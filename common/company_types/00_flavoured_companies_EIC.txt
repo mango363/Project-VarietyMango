@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Great Indian Peninsula Railway
 company_great_indian_railway = {

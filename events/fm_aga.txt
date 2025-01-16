@@ -1,4 +1,4 @@
-namespace = fm_aga
+﻿namespace = fm_aga
 
 fm_aga.1 = {
 	type = country_event

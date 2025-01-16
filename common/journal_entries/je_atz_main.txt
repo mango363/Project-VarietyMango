@@ -1,4 +1,4 @@
-je_atz_main = {
+﻿je_atz_main = {
 	icon = "gfx/interface/icons/central_identity_pillars_icons/religious.dds"
 	group = je_group_historical_content
 	complete = {

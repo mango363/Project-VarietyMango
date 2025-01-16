@@ -1,4 +1,4 @@
-namespace = fm_yag_dev
+﻿namespace = fm_yag_dev
 
 fm_yag_dev.1 = {
 	type = country_event

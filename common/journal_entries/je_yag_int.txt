@@ -1,4 +1,4 @@
-je_yag_int_kau = {
+﻿je_yag_int_kau = {
 	icon = "gfx/interface/icons/invention_icons/human_rights.dds"
 	group = je_group_historical_content
 	is_shown_when_inactive = {

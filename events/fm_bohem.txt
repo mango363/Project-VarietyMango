@@ -1,4 +1,4 @@
-namespace = fm_bohem
+﻿namespace = fm_bohem
 # start event
 fm_bohem.1 = {
 	type = country_event

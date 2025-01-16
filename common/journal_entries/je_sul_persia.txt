@@ -1,4 +1,4 @@
-je_sop = {
+﻿je_sop = {
 	icon = "gfx/interface/icons/religion_icons/sunni.dds"
 	group = je_group_historical_content
 	complete = {

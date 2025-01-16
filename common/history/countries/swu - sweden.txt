@@ -39,7 +39,7 @@
 		}
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
-			value = 2
+			level = 2
 		}
 		ig:ig_devout = {
 			add_ruling_interest_group = yes

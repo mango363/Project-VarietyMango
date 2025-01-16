@@ -1,4 +1,4 @@
-je_fou_main = {
+﻿je_fou_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 

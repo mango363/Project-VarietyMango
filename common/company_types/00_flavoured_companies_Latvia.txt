@@ -1,4 +1,4 @@
-# Līgatnes papīru fabriku kompānija / Ligatne Paper Mill Company
+﻿# Līgatnes papīru fabriku kompānija / Ligatne Paper Mill Company
 company_Ligatne_Paper = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/Ligatne.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"

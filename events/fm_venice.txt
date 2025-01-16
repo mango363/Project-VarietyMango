@@ -1,4 +1,4 @@
-namespace = fm_venice
+﻿namespace = fm_venice
 # start event
 fm_venice.1 = {
 	type = country_event

@@ -1,4 +1,4 @@
-namespace = fm_kaa
+﻿namespace = fm_kaa
 fm_kaa.1 = {
 	type = country_event
 	placement = ROOT

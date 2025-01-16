@@ -1,4 +1,4 @@
-je_ire_main = {
+﻿je_ire_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	is_shown_when_inactive = {

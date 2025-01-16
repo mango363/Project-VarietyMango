@@ -1,4 +1,4 @@
-namespace = fm_holy
+﻿namespace = fm_holy
 fm_holy.1 = { #return inq
 	type = country_event
 	placement = ROOT

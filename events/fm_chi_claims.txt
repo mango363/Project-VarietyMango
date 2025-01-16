@@ -1,4 +1,4 @@
-namespace = fm_chi_cl
+﻿namespace = fm_chi_cl
 fm_chi_cl.1 = { #claim central plains
 	type = country_event
 	placement = ROOT

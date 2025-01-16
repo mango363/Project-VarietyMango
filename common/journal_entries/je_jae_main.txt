@@ -1,9 +1,8 @@
-je_jaep_main = {
+﻿je_jaep_main = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	
-	group = je_group_historical_content|
+	group = je_group_historical_content
 	is_shown_when_inactive = {
-		exists = c:JAE
 		c:JAE ?= THIS
 	}
 

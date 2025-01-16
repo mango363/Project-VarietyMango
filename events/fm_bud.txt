@@ -1,4 +1,4 @@
-namespace = fm_bud
+﻿namespace = fm_bud
 fm_bud.1 = {
 	type = country_event
 	placement = root

@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Koninklijke Nederlandse Petroleum Maatschappij
 company_nederlandse_petroleum = {

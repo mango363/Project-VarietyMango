@@ -1,4 +1,4 @@
-namespace = fm_na_fou
+﻿namespace = fm_na_fou
 
 # Lost Main States, rip idk how you gonna live
 fm_na_fou.2 = {

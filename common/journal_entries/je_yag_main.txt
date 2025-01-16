@@ -1,4 +1,4 @@
-je_yag_main = {
+﻿je_yag_main = {
 	icon = "gfx/interface/icons/yagsenate.dds"
 	group = je_group_internal_affairs
 	scripted_progress_bar = yag_progress_bar

@@ -1,4 +1,4 @@
-namespace = fm_bavaria
+﻿namespace = fm_bavaria
 fm_bavaria.1 = {
 	type = country_event
 	placement = ROOT
