@@ -1888,27 +1888,25 @@
 	s:STATE_ULSTER = {
 		region_state:IRE = {
 			create_building={
-				create_building={
-					building="building_government_administration"
-					add_ownership={
-						country={
-							country="c:IRE"
-							levels=2
-						}
-					}
-					reserves=1
-					activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-				}
-				building="building_livestock_ranch"
+				building="building_government_administration"
 				add_ownership={
-					add_ownership={
+					country={
 						country="c:IRE"
-						levels=12
+						levels=2
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
+			building="building_livestock_ranch"
+			add_ownership={
+				add_ownership={
+					country="c:IRE"
+					levels=12
+				}
+			}
+			reserves=1
+			activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" }
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
