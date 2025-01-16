@@ -1,37 +1,37 @@
-#def_na_cherokee_trigger = {
-#	has_discrimination_trait = cu:na_iroquois_culture_group
-#}
+def_na_cherokee_trigger = {
+	has_discrimination_trait = cu:na_iroquois_culture_group
+}
 
-#def_na_muscogee_trigger = {
-#	has_discrimination_trait = cu:na_muscogean_culture_group
-#}
+def_na_muscogee_trigger = {
+	has_discrimination_trait = cu:na_muscogean_culture_group
+}
 
-#def_na_dakota_trigger = {
-#	has_discrimination_trait = cu:na_sioux_culture_group
-#}
+def_na_dakota_trigger = {
+	has_discrimination_trait = cu:na_sioux_culture_group
+}
 
-#def_na_cree_trigger = {
-#	OR = {
-#		has_discrimination_trait = cu:na_algonquian_culture_group
-#		has_discrimination_trait = cu:na_caddoan_culture_group
-#		has_discrimination_trait = cu:na_athabaskan_culture_group
-#	}
-#}
+def_na_cree_trigger = {
+	OR = {
+		has_discrimination_trait = cu:na_algonquian_culture_group
+		has_discrimination_trait = cu:na_caddoan_culture_group
+		has_discrimination_trait = cu:na_athabaskan_culture_group
+	}
+}
 
-#def_na_nez_perce_trigger = {
-#	has_discrimination_trait = cu:na_shapwailutan
-#}
+def_na_nez_perce_trigger = {
+	has_discrimination_trait = cu:na_shapwailutan
+}
 
-#def_na_comanche_navajo_paiute_trigger = {
-#	OR = {
-#		has_discrimination_trait = cu:na_uto_aztecan_culture_group
-#		has_discrimination_trait = cu:na_yuman_culture_group
-#		has_discrimination_trait = cu:na_salishan_culture_group
-#		has_discrimination_trait = cu:na_shapwailutan_culture_group
-#		has_discrimination_trait = cu:na_tonkawa_culture_group
-#		has_discrimination_trait = cu:na_coahuiltecan_culture_group
-#	}
-#}
+def_na_comanche_navajo_paiute_trigger = {
+	OR = {
+		has_discrimination_trait = cu:na_uto_aztecan_culture_group
+		has_discrimination_trait = cu:na_yuman_culture_group
+		has_discrimination_trait = cu:na_salishan_culture_group
+		has_discrimination_trait = cu:na_shapwailutan_culture_group
+		has_discrimination_trait = cu:na_tonkawa_culture_group
+		has_discrimination_trait = cu:na_coahuiltecan_culture_group
+	}
+}
 
 
 def_na_native_american_trigger = {
