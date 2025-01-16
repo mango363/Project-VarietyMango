@@ -211,7 +211,6 @@ types topbar_components
 					spacing = 5
 					tooltip = "ve_missionary_tt"
 					using = tooltip_below
-					onclick = "[GetVariableSystem.SetOrToggle('ve_tab_var', GetVariableSystem.Get('ve_last_tab'))]"
 					icon = {
 						size = { @secondary_icon_size @secondary_icon_size }
 						texture = "gfx/interface/icon_envoy_missionary.dds"

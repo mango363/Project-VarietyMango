@@ -1,4 +1,4 @@
-namespace = fm_na_cad
+﻿namespace = fm_na_cad
 fm_na_cad.1 = {
 	type = country_event
 	placement = ROOT

@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:ZUR = {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_liberal = yes
@@ -48,9 +48,10 @@ COUNTRIES = {
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
-		ig:ig_intelligentsia = {
-			set_ig_bolstering = yes
-		}
+		# TODO: Replace IG Bolstering
+#		ig:ig_intelligentsia = {
+#			set_ig_bolstering = yes
+#		}
 		add_declared_interest = region_north_germany
 		add_declared_interest = region_rhine
 	}

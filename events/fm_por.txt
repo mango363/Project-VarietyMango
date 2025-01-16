@@ -1,4 +1,4 @@
-namespace = fm_por
+﻿namespace = fm_por
 fm_por.1 = {
 	type = country_event
 	placement = ROOT

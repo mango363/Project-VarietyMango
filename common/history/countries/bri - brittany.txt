@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:BRI = {
 		effect_starting_technology_tier_3_tech = yes
 
@@ -36,8 +36,9 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		ig:ig_intelligentsia = {
-			set_ig_suppression = yes
-		}
+		# TODO: Replace IG Suppressed
+#		ig:ig_intelligentsia = {
+#			set_ig_suppression = yes
+#		}
 	}
 }

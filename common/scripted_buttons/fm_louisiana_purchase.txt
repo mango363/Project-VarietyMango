@@ -1,4 +1,4 @@
-je_buy_louisiana_button = {
+﻿je_buy_louisiana_button = {
 	name = "je_buy_louisiana"
 	desc = "je_buy_louisiana_desc"
 	visible = {

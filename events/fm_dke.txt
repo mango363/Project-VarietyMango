@@ -1,4 +1,4 @@
-namespace = fm_dke
+﻿namespace = fm_dke
 fm_dke.1 = {
 	type = country_event
 	placement = ROOT

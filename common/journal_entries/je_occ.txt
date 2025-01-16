@@ -1,4 +1,4 @@
-je_occ_tou = {
+﻿je_occ_tou = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
 	scripted_button = je_bribe_pope

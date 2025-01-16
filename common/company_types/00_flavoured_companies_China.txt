@@ -1,4 +1,4 @@
-##############################VANILLA##############################
+﻿##############################VANILLA##############################
 
 # Kaiping Mining Company
 company_kaiping_mining = {
@@ -540,10 +540,8 @@ company_Xie_Zhi = {
 	
 	possible = {
 		any_scope_state = {
-			state_region = {
-				is_homeland = cu:min
-				state_region = s:STATE_FORMOSA
-			}
+			is_homeland = cu:min
+			state_region = s:STATE_FORMOSA
 			is_incorporated = yes
 			any_scope_building = {
 			    is_building_type = building_steel_mills

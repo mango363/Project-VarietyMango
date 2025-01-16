@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:PUP ?= {
 		create_character = {
 			first_name = Teodosio		# Picks a random first and last name from the culture, combines those together to make one name

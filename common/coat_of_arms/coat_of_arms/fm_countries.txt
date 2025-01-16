@@ -24091,7 +24091,7 @@ CTH = { # Carthage
 	}		
 }
 CTH_subject = {
-	pattern = "pattern_border_two_stripes"
+	pattern = "pattern_border_two_stripes.dds"
 	color1 = "white"
 	color2 = "green"
 
@@ -24256,7 +24256,7 @@ SPO = { # spoleto
 	}		
 }
 SNM_subject = {
-	pattern = "pattern_border_two_stripes"
+	pattern = "pattern_border_two_stripes.dds"
 	color1 = "white"
 	color2 = "blue_light"
 

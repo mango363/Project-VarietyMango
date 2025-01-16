@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:DKE ?= {
 		create_character = {
 			first_name = "Thorvald"

@@ -1,4 +1,4 @@
-# Rotermanni Tehased
+﻿# Rotermanni Tehased
 company_Rotermanni = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/Rottermanni.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"

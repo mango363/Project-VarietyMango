@@ -1,4 +1,4 @@
-je_vin_main = {
+﻿je_vin_main = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
 	scripted_button = je_noclavin

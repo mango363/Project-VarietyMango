@@ -39,12 +39,6 @@
 			type = defensive_pact
 		}	
 	}
-	c:KAU ?= {
-		create_diplomatic_pact = {
-			country = c:NWA          
-			type = defensive_pact
-		}	
-	}
 
 	# North America
 	c:MCG ?= {

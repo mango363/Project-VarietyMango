@@ -1,4 +1,4 @@
-sassanid_civ_war_progress_bar = {
+﻿sassanid_civ_war_progress_bar = {
 	name = "sassanid_civ_war_progress_bar"
 	desc = "sassanid_civ_war_progress_bar_desc"
 

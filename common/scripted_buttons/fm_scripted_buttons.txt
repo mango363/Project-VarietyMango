@@ -1,4 +1,4 @@
-je_ye_button_one = {
+﻿je_ye_button_one = {
 	name = "je_ye_button_one"
 	desc = "je_ye_button_one_desc"
 	visible = {

@@ -1,17 +1,17 @@
-je_fla = {
+﻿je_fla = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
 	immediate = {
 		c:BUD = {
-			ruler = {
+			ruler ?= { #TODO: Ruler/Heir missing
 				set_character_immortal = yes
 			}
-			heir = {
+			heir ?= {
 				set_character_immortal = yes
 			}
 		}
 		c:FLA = {
-			ruler = {
+			ruler ?= {
 				set_character_immortal = yes
 			}
 		}

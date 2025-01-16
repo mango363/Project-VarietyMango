@@ -1,4 +1,4 @@
-je_indian_removal_ac = {
+﻿je_indian_removal_ac = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_internal_affairs
 	is_shown_when_inactive = {

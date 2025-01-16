@@ -112,10 +112,10 @@
 				culture = dayak
 				size = 11000
 			}
-			create_pop = {
-				culture = cu:portuguese
-				size = 1000
-			}
+#			create_pop = {
+#				culture = cu:portuguese
+#				size = 1000
+#			}
 		}
 		region_state:PON = {
 			create_pop = {

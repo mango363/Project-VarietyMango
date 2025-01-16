@@ -1,4 +1,4 @@
-je_a_kingdom_for_ngp_pum = {
+﻿je_a_kingdom_for_ngp_pum = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	is_shown_when_inactive = {

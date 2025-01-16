@@ -1,4 +1,4 @@
-rome_je_main = {
+﻿rome_je_main = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
 	complete = {
@@ -75,8 +75,7 @@ je_restore_emperor = {
 	group = je_group_historical_content
 	immediate = {
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_armed_forces
 				exist = leader
 			}

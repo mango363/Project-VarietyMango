@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:MUR ?= {
 		create_character = {
 			first_name = "Abū"

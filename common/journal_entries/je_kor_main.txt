@@ -1,4 +1,4 @@
-je_kor_main = {
+﻿je_kor_main = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	group = je_group_historical_content
@@ -230,7 +230,6 @@ je_kor_rail = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
 	is_shown_when_inactive = {
-		exist = c:KOR
 		c:KOR ?= THIS
 	}
 	possible = {

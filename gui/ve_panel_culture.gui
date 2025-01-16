@@ -194,7 +194,6 @@ types ve_gui_panel_types
 									}
 								double_direction_progressbar_gold = {
 									size = { 500 60 }
-									parentanchor = bottom
 									tooltip = "[GetScriptedGui('progress_bar_tooltip').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									using = tooltip_above
 									blockoverride "value_left" {

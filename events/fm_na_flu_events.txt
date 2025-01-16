@@ -1,4 +1,4 @@
-namespace = fm_na_flu
+﻿namespace = fm_na_flu
 # Defended from the Old Powers
 fm_na_flu.1 = {
 	type = country_event

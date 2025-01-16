@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:NIA = {
 		effect_starting_technology_tier_1_tech = yes
 		effect_starting_politics_conservative = yes
@@ -20,8 +20,9 @@ COUNTRIES = {
 		add_taxed_goods = g:grain
 		set_tax_level = medium
 
-		ig:ig_devout = {
-			set_ig_suppression = yes
-		}
+		# TODO: Replace IG Suppressed
+#		ig:ig_devout = {
+#			set_ig_suppression = yes
+#		}
 	}
 }

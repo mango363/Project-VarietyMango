@@ -1,4 +1,4 @@
-je_amc_main = {
+﻿je_amc_main = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	immediate = {
@@ -102,8 +102,8 @@ je_amc_main = {
 			if = {
 				limit = {
 					OR = {
-						has_law = law_local_police
-						has_law = law_dedicated_police
+						has_law = law_type:law_local_police
+						has_law = law_type:law_dedicated_police
 					}
 				}
 				change_variable = {

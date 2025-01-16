@@ -1,4 +1,4 @@
-namespace = fm_stateof
+﻿namespace = fm_stateof
 fm_stateof.1 = {
 	type = country_event
 	placement = root

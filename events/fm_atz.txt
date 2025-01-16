@@ -1,4 +1,4 @@
-namespace = fm_atz
+﻿namespace = fm_atz
 fm_atz.1 = {
 	type = country_event
 	placement = root

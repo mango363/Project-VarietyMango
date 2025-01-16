@@ -1,4 +1,4 @@
-# Kazionyj Nr.1 vinyj očistnyj sklad /State wine warehouse No. 1 (later Stumbras)
+﻿# Kazionyj Nr.1 vinyj očistnyj sklad /State wine warehouse No. 1 (later Stumbras)
 company_Stumbras = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/Stumbras.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"

@@ -1,4 +1,4 @@
-namespace = fm_tah
+﻿namespace = fm_tah
 fm_tah.1 = {
 	type = country_event
 	placement = ROOT
@@ -54,7 +54,7 @@ fm_tah.2 = {
 		texture = "gfx/event_pictures/dutchvan2.dds"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx\interface\icons\goods_icons\goldandsilver.dds"
+	icon = "gfx/interface/icons/goods_icons/goldandsilver.dds"
 	immediate = {
 		random_scope_state = {
 			limit = {

@@ -167,8 +167,7 @@ fm_yua.7 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	immediate = {
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_armed_forces
 				exist = leader
 			}
@@ -177,8 +176,7 @@ fm_yua.7 = {
 			}
 		}
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_landowners
 				exist = leader
 			}
@@ -187,8 +185,7 @@ fm_yua.7 = {
 			}
 		}
 		random_interest_group = {
-			limit
-			{
+			limit = {
 				is_interest_group_type = ig_petty_bourgeoisie
 				exist = leader
 			}

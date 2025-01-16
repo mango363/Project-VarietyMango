@@ -1,4 +1,4 @@
-# Société du Rhum Barbancourt
+﻿# Société du Rhum Barbancourt
 company_RhumBarbancourt = {
 	icon = "gfx/interface/icons/company_icons/basic_food.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"

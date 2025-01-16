@@ -1,4 +1,4 @@
-je_council_lit = {
+﻿je_council_lit = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
 	complete = {
@@ -189,7 +189,7 @@ je_slava_ukr = {
 			id = fm_coh.2
 		}
 	}
-	transferable = yes
+#	transferable = yes # Can't be transferable if shown when inactive
 	weight = 5000
 	should_be_pinned_by_default = yes
 }

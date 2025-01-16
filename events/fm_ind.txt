@@ -1,4 +1,4 @@
-namespace = fm_ind
+﻿namespace = fm_ind
 # start event
 fm_ind.1 = {
 	type = country_event
