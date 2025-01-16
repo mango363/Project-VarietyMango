@@ -1,1 +1,1 @@
-﻿
+﻿namespace = opium_wars

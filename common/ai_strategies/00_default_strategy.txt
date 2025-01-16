@@ -1741,6 +1741,16 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+				}
+				multiply = 0
+			}
+
+			if = {
+				limit = {
 					has_strategy = ai_strategy_armed_isolationism
 					scope:target_state = {
 						NOR = {
@@ -1861,6 +1871,19 @@ ai_strategy_default = {
 					multiply = 0.25
 				}
 			}
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_opium_wars
+				scope:target_country = {
+					has_variable = opium_wars_target
+				}
+				scope:target_state = {
+					NOT = { state_region = s:STATE_FORMOSA }
+				}
+			}
+			add = 100
 		}
 
 		if = {
