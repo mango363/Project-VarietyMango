@@ -208,15 +208,7 @@ GLOBAL = {
 		}
 		set_variable = muhammed_alis_ambition_ach_possible
 	}
-	
-	#Broken Promises
-	every_country = {
-		limit = {
-			can_form_nation = ITA
-		}
-		set_variable = broken_promises_ach_possible
-	}
-	
+
 	#Reading Campaign
 	every_country = {
 		limit = {
@@ -398,23 +390,6 @@ GLOBAL = {
 			this = c:FRA
 		}
 		set_variable = belle_epoque_ach_possible
-	}
-	
-	#Risorgimento
-	every_country = {
-		limit = {
-			can_form_nation = ITA
-		}
-		set_variable = risorgimento_ach_possible
-	}
-	
-	#Three Hurrahs
-	every_country = {
-		limit = {
-			can_form_nation = GER
-		}
-		set_variable = three_hurrahs_ach_possible
-		set_variable = huge_ego_sorry_ach_possible
 	}
 	
 	#Solomon's Quest

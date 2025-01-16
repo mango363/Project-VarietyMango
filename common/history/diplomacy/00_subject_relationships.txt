@@ -113,7 +113,7 @@
 	c:SCU = {
 		create_diplomatic_pact = {
 			country = c:NOS
-			type = protectorate
+			type = colony
 		}
 	}
 	c:FRU ?= {
@@ -147,7 +147,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:LOI
-			type = protectorate
+			type = colony
 		}
 	}
 	c:EGE ?= {
@@ -195,7 +195,7 @@
 	c:CAS = {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = protectorate
+			type = colony
 		}
 	}
 	c:RPQ ?= {
