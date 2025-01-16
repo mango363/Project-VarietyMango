@@ -1669,12 +1669,6 @@ is_major_unifier = {
 	}
 }
 
-wants_to_solve_schleswig_holstein = {
-	has_journal_entry = je_schleswig_holstein_question 
-	has_technology_researched = nationalism 
-	country_rank >= rank_value:great_power
-}
-
 is_oppressor_of_schleswig_holstein = {
 	NOR = {
 		country_has_primary_culture = cu:north_german
