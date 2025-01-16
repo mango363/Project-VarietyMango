@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Friedrich Krupp AG
 company_krupp = {

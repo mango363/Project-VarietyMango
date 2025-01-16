@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Basileiades
 company_basileiades = {

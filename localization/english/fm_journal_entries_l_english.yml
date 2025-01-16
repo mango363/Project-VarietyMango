@@ -125,6 +125,7 @@ je_ger_conf_reason: "#V At the dawn of a new era, the time has come for all Germ
 je_rusf_main: "Political Turmoil"
 je_rusf_main_reason: "The People of [ROOT.GetCountry.GetName] wants a change, and the country has become a powder-keg ready to explode at the first spark."
 
+rusftext: "$POC$ does not exist"
 je_rusf_two: "Towards Russia"
 je_rusf_two_reason: "This is but the start of a great revolution in all of Russia;\nIn order to unite the Russian People, we must first get rid of the old feudal system that still infest the Russian lands, and replace it with a new republican system."
 je_backward_c: "A Backward Country"

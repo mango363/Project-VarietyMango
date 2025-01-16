@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Chr. Hansens teknisk-kemiske Laboratorium A/S
 company_chr_hansens = {

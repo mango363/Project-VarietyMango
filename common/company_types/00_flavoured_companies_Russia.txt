@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Vinnaia Monopoliia
 company_vodka_monopoly = {

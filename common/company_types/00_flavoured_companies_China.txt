@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Kaiping Mining Company
 company_kaiping_mining = {

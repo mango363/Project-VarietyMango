@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Companhia de Moçambique
 company_mozambique_company = {

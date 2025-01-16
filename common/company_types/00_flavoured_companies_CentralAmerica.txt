@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Panama Canal Company
 company_panama_company = {

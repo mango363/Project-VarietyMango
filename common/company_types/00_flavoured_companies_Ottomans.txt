@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Imperial Arsenal
 company_imperial_arsenal = {

@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Imperial Tobacco Corporation of Persia, Limited
 company_imperial_tobacco = {

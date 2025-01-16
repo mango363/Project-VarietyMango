@@ -22,30 +22,25 @@ je_rusf_two = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
-		OR = {
 			AND = {
 				owns_entire_state_region = STATE_PERM
 				owns_entire_state_region = STATE_SAMARA
 				owns_entire_state_region = STATE_UFA
 				owns_entire_state_region = STATE_VYATKA
 			}
-			c:DPR = {
-				is_subject_of = ROOT
-			}
-			c:POC = {
-				is_subject_of = ROOT
-			}
-		}
-	}
-	on_complete = {
-		if = {
-			limit = {
-				c:DPR = {
+			OR = {
+				c:POC = {
 					is_subject_of = ROOT
 				}
+				custom_tooltip = {
+					text = rusftext
+					NOT = {
+						exists = c:POC
+					}
+				}
 			}
-			annex = c:DPR
-		}
+	}
+	on_complete = {
 		if = {
 			limit = {
 				c:POC = {

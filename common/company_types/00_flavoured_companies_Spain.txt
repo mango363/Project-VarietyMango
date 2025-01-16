@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Altos Hornos de Vizcaya
 company_altos_hornos_de_vizcaya = {

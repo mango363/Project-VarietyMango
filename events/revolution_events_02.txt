@@ -1079,7 +1079,7 @@ revolution_pulse_events.8 = {
 		name = revolution_pulse_events.8.a 
 		default_option = yes
 		add_modifier = {
-			name = modifier_bank_robbery_payments
+			name = modifier_bank_robbery_payments_fm
 			months = short_modifier_time
 		}
 	}
@@ -1090,7 +1090,7 @@ revolution_pulse_events.8 = {
 			add_civil_war_progress = revolution_advance_small
 		}
 		add_modifier = {
-			name = modifier_bank_robbery_payments
+			name = modifier_bank_robbery_payments_fm
 			months = 13
 		}
 	}

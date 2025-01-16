@@ -220,42 +220,18 @@ on_monthly_pulse_country = {
 	events = {
 		communism.8		# Red Army
 		peoples_springtime.1
-		native_resettlement.1
-		meiji.13
-		bic_breakup.1
 		dreyfus.1
-		dei_breakup.1
-		alk_breakup.1
-		treaty_of_london_events.1 # Treaty of London initiation event
 		poland_events.3		# Polish Unification
 		colonial_administration_events.2		# African Colony Radicals
-		caudillo.1
 		sa_migration.5
 		amazonas.1		# Taming Amazonia
-		paraguay.11		# Paraguay War
-		acw_events.9		# CSA victory event
-		persia_events.5		# Persian slave liberation event
 		# Exile Agitators Events
 		yeet_agitator_events.1
 		yeet_agitator_events.2
 		yeet_agitator_events.3
 		# Comte
 		positivism.1
-		# Milyutin
-		caucasuswar.5
-		# Phool Walon Ki Sair
-		india_events.8
 		
-		# Princely State Creation
-		princely_state_creation.1
-		princely_state_creation.2
-		princely_state_creation.3
-		princely_state_creation.4
-		princely_state_creation.5
-
-		# Set Hierarchy Events
-		set_hierarchy_event.1 # Sets British Indian Caste System
-		set_hierarchy_event.2 # Replaces British Indian Caste System with Default
 	}
 	effect = {
 		trigger_event = {

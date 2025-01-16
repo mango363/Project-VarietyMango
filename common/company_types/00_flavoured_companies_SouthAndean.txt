@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Peruvian Amazon Company
 company_peruvian_amazon = {

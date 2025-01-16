@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Misr Spinning and Weaving Company
 company_misr = {

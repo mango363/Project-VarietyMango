@@ -116,7 +116,7 @@ orthodox_pasive_mdf = {
 orthodox_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_construction_mult = 0.05
-	state_infrastructure_from_population_add = 0.5
+	state_infrastructure_from_population_add = 1
 }
 
 orthodox_aspect_2_mdf = {

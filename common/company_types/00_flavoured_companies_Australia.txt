@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # William Sandford Limited
 company_william_sandford = {

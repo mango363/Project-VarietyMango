@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Caribbean Petroleum Company
 company_caribbean_petroleum = {

@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Société Mokta El Hadid
 company_societe_mokta_el_hadid = {

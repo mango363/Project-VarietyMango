@@ -1,4 +1,4 @@
-﻿##############################VANILLA##############################
+﻿
 
 # Nam Định Textile Factory
 company_nam_dinh = {
