@@ -35,10 +35,7 @@
 
 		set_tax_level = medium
 
-		# TODO: Replace IG Suppressed
-#		ig:ig_devout = {
-#			set_ig_suppression = yes
-#		}
+
 		add_journal_entry = {
 			type = je_cape_fm_two
 		}

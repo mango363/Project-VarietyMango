@@ -606,8 +606,7 @@ revolution_pulse_events.5 = {
 		ig:ig_rural_folk = {
 			is_marginal = no
 			OR = {
-				# TODO: Replace IG is Suppressed
-#				is_being_suppressed = yes
+
 				ig_approval <= 0
 			}
 		}
@@ -866,8 +865,7 @@ revolution_pulse_events.7 = {
 		any_interest_group = {
 			is_in_government = yes
 			OR = {
-				# TODO: Replace IG is Suppressed
-#				is_being_suppressed = yes
+
 				ig_approval <= 0
 			}
 		}
@@ -885,8 +883,7 @@ revolution_pulse_events.7 = {
 			limit = {
 				is_in_government = yes
 				OR = {
-					# TODO: Replace IG is Suppressed
-#					is_being_suppressed = yes
+
 					ig_approval <= 0
 				}
 			}
@@ -1413,8 +1410,7 @@ revolution_pulse_events.11 = {
 		ig:ig_armed_forces = {
 			is_marginal = no
 			OR = {
-				# TODO: Replace IG is Suppressed
-#				is_being_suppressed = yes
+
 				ig_approval <= 0
 			}
 		}

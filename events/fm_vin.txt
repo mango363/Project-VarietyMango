@@ -85,24 +85,8 @@ fm_vin.2 = {
 			}				
 		}
 		hidden_effect = {
-			every_scope_pop = {
-				limit = {
-					culture = cu:na_santee_dakota
-				}
-				change_pop_culture = {
-					target = cu:na_yankton_yanktonai_dakota
-					value = 1
-				}
-			}
-			every_scope_pop = {
-				limit = {
-					culture = cu:na_ojibwe_potawatomi
-				}
-				change_pop_culture = {
-					target = cu:na_yankton_yanktonai_dakota
-					value = 1
-				}
-			}
+
+
 			every_scope_pop = {
 				limit = {
 					culture = cu:na_chiwere_winnebago

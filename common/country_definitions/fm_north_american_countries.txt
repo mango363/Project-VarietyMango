@@ -6,7 +6,6 @@ DKT = {
 	tier = principality
 
 	cultures = {
-		na_santee_dakota
 		na_yankton_yanktonai_dakota
 		na_lakota
 	}
@@ -46,9 +45,9 @@ MCG = {
 	tier = principality
 
 	cultures = {
-		na_chickasaw_choctaw
+
 		na_muscogee
-		na_apalachee
+
 	}
 	capital = STATE_GEORGIA
 }
@@ -87,8 +86,7 @@ IQS = {
 
 	cultures = {
 		na_cherokee
-		na_tuscarora_nottoway
-		na_haudenosaunee
+
 	}
 	capital = STATE_NEW_YORK
 }
@@ -101,7 +99,7 @@ AT1 = {
 	tier = principality
 
 	cultures = {
-		na_pacific_athabaskan
+		na_northern_athabaskan
 		navajo
 	}
 	capital = STATE_NEW_MEXICO
@@ -224,7 +222,7 @@ GPL = {
 
 	tier = empire
 
-	cultures = { na_pacific_athabaskan na_paiute na_comanche na_caddoan na_lakota }
+	cultures = { na_northern_athabaskan na_paiute na_comanche na_caddoan na_lakota }
 
 	capital = STATE_KANSAS
 }
@@ -273,7 +271,7 @@ AZT = {
 		na_cahita
 		na_corachol
 		na_yuman
-		na_pacific_athabaskan
+		na_northern_athabaskan
 		zapotec
 		tarascan
 		mayan
@@ -291,7 +289,7 @@ AZT = {
 
 	cultures = {
 		na_chiwere_winnebago
-		na_ojibwe_potawatomi
+
 		na_miami_illinois
 	}
 
@@ -321,7 +319,7 @@ ASB = {
 
 	cultures = {
 		na_lakota
-		na_crow_hisatsa
+
 		na_blackfoot
 		na_arapahoan
 	}
@@ -352,8 +350,7 @@ HNS = {
 
 	cultures = {
 		na_cherokee
-		na_tuscarora_nottoway
-		na_haudenosaunee
+
 	}
 
 	capital = STATE_OHIO
@@ -367,31 +364,29 @@ TIS = {
 	
 	cultures = { 
 		na_salishan
-		athabaskan
+		na_northern_athabaskan
 		na_eastern_algonquian
 		na_kansa_osage
-		na_santee_dakota
 		na_yankton_yanktonai_dakota
-		na_chickasaw_choctaw
+
 		na_muscogee
-		na_apalachee
+
 		na_shoshone
 		na_colorado_numic na_shapwailutan
 		na_cree_montagnais
 		na_salishan
 		na_yuman
-		na_pacific_athabaskan na_paiute na_comanche na_caddoan
+		 na_paiute na_comanche na_caddoan
 		na_chiwere_winnebago
-		na_ojibwe_potawatomi
+
 		na_miami_illinois
 		navajo
 		na_lakota
-		na_crow_hisatsa
+
 		na_blackfoot
 		na_arapahoan
 		na_cherokee
-	na_tuscarora_nottoway
-	na_haudenosaunee
+
 	}
 	capital = STATE_OKLAHOMA
 }

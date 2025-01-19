@@ -67,6 +67,68 @@
 			type = protectorate
 		}
 	}
+	c:HEN ?= {
+		create_diplomatic_pact = {
+			country = c:SCM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:LIP
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BRA
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:WLD
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:MUN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HES
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HEK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OLD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MEI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:COB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SCW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:WEI
+			type = puppet
+		}
+	}
 	c:TOR ?= {
 		create_diplomatic_pact = {
 			country = c:AZB

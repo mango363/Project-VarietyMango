@@ -26,10 +26,7 @@
 			level = 1
 		}
 
-		# TODO: Replace IG Bolstering
-#		ig:ig_devout = {
-#			set_ig_bolstering = yes
-#		}
+
 		trigger_event = {
 			id = papal_to_rome.1
 		}

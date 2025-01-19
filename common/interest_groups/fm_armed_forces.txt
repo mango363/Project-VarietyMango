@@ -48,7 +48,7 @@
 		}
 		if = {
 			limit = {
-				country_has_primary_culture = cu:na_santee_dakota
+				country_has_primary_culture = cu:na_yankton_yanktonai_dakota
 			}
 			ig:ig_armed_forces = {
 				remove_ideology = ideology_jingoist

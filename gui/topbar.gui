@@ -323,27 +323,52 @@ types topbar_components
 			
 
 			#Splendor
+			#flowcontainer = {
+			#		minimumsize = { 90 28 }
+			#		maximumsize = { 90 28 }
+			#		spacing = 2
+			#		using = tooltip_below
+			#		tooltip = "ve_age_splendor_tt"
+
+			#		icon = {
+			#			size = { @secondary_icon_size @secondary_icon_size }
+			#			texture = "gfx/interface/icon_splendor_tiny.dds"
+			#			parentanchor = vcenter
+			#		}
+
+			#		textbox = {
+			#			parentanchor = vcenter
+			#			text = "splendor_topbar"
+			#			default_format = "#tooltip_header"
+			#			autoresize = yes
+			#			align = left|nobaseline
+			#			margin_left = -1
+			#		}
+			#}
 			flowcontainer = {
-					minimumsize = { 90 28 }
-					maximumsize = { 90 28 }
-					spacing = 2
-					using = tooltip_below
-					tooltip = "ve_age_splendor_tt"
+				minimumsize = { 66 30 }
+				maximumsize = { 66 30 }
+				spacing = 2
+				tooltip = "[Country.GetInfamyDesc]"
+				using = tooltip_below
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_infamy')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
+				alpha = "[TransparentIfZero(Country.GetInfamy)]"
+				alwaystransparent = no
 
-					icon = {
-						size = { @secondary_icon_size @secondary_icon_size }
-						texture = "gfx/interface/icon_splendor_tiny.dds"
-						parentanchor = vcenter
-					}
-
-					textbox = {
-						parentanchor = vcenter
-						text = "splendor_topbar"
-						default_format = "#tooltip_header"
-						autoresize = yes
-						align = left|nobaseline
-						margin_left = -1
-					}
+				icon = {
+					size = { @secondary_icon_size @secondary_icon_size }
+					texture = "[Country.GetInfamyIconTexture]"
+					parentanchor = vcenter
+				}
+				textbox = {
+					parentanchor = vcenter
+					raw_text = "#variable [Country.GetInfamy|0]#!"
+					autoresize = yes
+					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
+				}
 			}
 		}
 			

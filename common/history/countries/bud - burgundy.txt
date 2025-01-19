@@ -40,10 +40,7 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
-		# TODO: Replace IG Suppressed
-#		ig:ig_intelligentsia = {
-#			set_ig_suppression = yes
-#		}
+
 		add_journal_entry = {
 			type = je_bud_main
 		}

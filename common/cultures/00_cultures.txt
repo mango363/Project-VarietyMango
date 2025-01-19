@@ -8814,12 +8814,10 @@ phoenician={
 		Ummashtart Abdhamon Abibaal Abirami Adonibaal Ahinadab Ahirom Ahumm Azmelqart Baaliahon Baaliaton Barekbaal Batnoam Bōdashtart Sophonisba Hana-baal 
 	}	
 	noble_last_names = {
-		Abibaal
 		Abibaalid
-		Germelqart Germelqartid Tabnit Tabnitid Bodo Bodonid Eshmunazar Eshmunazarid Barca Gerbal Gerbalid Eugoras Eugorid Eugarid Cleobulus Goras Ummashid Phameas
+		Germelqart Germelqartid Tabnit Tabnitid Bodo Bodonid Eshmunazar Eshmunazarid Barca Gerbal Gerbalid Eugoras Eugorid Eugarid Cleobulus Goras Ummashid Phameas Gisco
 	}
 	common_last_names={
-		Abibaal
 		Abibaalid
 		Germelqart Germelqartid Tabnit Tabnitid Bodo Bodonid Eshmunazar Eshmunazarid Gerbal Gerbalid Eugoras Eugorid Eugarid Cleobulus Goras Ummashid Phameas
 	}

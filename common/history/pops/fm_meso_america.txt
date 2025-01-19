@@ -20,10 +20,7 @@
 				culture = na_piman
 				size = 239895
 			}
-			create_pop = {
-				culture = na_chickasaw_choctaw
-				size = 16000
-			}
+
 		}
 	}
 	s:STATE_RIO_GRANDE = {

@@ -1608,15 +1608,7 @@ tupinamba_standard_of_living_modifier_negative = {
 	state_tupinamba_standard_of_living_add = 1
 }
 
-na_santee_dakota_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_santee_dakota_standard_of_living_add = 1
-}
 
-na_santee_dakota_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_santee_dakota_standard_of_living_add = 1
-}
 
 na_yankton_yanktonai_dakota_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -1638,15 +1630,6 @@ na_lakota_standard_of_living_modifier_negative = {
 	state_na_lakota_standard_of_living_add = 1
 }
 
-na_crow_hisatsa_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_crow_hisatsa_standard_of_living_add = 1
-}
-
-na_crow_hisatsa_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_crow_hisatsa_standard_of_living_add = 1
-}
 
 na_stoney_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -1708,15 +1691,7 @@ na_cree_montagnais_standard_of_living_modifier_negative = {
 	state_na_cree_montagnais_standard_of_living_add = 1
 }
 
-na_ojibwe_potawatomi_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_ojibwe_potawatomi_standard_of_living_add = 1
-}
 
-na_ojibwe_potawatomi_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_ojibwe_potawatomi_standard_of_living_add = 1
-}
 
 na_blackfoot_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -1856,36 +1831,6 @@ na_cherokee_standard_of_living_modifier_positive = {
 na_cherokee_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_cherokee_standard_of_living_add = 1
-}
-
-na_tuscarora_nottoway_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_tuscarora_nottoway_standard_of_living_add = 1
-}
-
-na_tuscarora_nottoway_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_tuscarora_nottoway_standard_of_living_add = 1
-}
-
-na_haudenosaunee_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_haudenosaunee_standard_of_living_add = 1
-}
-
-na_haudenosaunee_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_haudenosaunee_standard_of_living_add = 1
-}
-
-na_chickasaw_choctaw_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_chickasaw_choctaw_standard_of_living_add = 1
-}
-
-na_chickasaw_choctaw_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_chickasaw_choctaw_standard_of_living_add = 1
 }
 
 na_muscogee_standard_of_living_modifier_positive = {
@@ -3246,15 +3191,6 @@ burgundian_standard_of_living_modifier_negative = {
 	state_burgundian_standard_of_living_add = 1
 }
 
-na_santee_dakota_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_santee_dakota_standard_of_living_add = 1
-}
-
-na_santee_dakota_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_santee_dakota_of_living_add = 1
-}
 na_yankton_yanktonai_dakota_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_na_yankton_yanktonai_dakota_standard_of_living_add = 1
@@ -3273,15 +3209,7 @@ na_lakota_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_lakota_standard_of_living_add = 1
 }
-na_crow_hisatsa_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_crow_hisatsa_standard_of_living_add = 1
-}
 
-na_crow_hisatsa_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_crow_hisatsa_standard_of_living_add = 1
-}
 
 na_stoney_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -3337,15 +3265,7 @@ na_mandan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_mandan_standard_of_living_add = 1
 }
-na_ojibwe_potawatomi_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_ojibwe_potawatomi_standard_of_living_add = 1
-}
 
-na_ojibwe_potawatomi_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_ojibwe_potawatomi_standard_of_living_add = 1
-}
 na_blackfoot_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_na_blackfoot_standard_of_living_add = 1
@@ -3392,15 +3312,7 @@ na_caddoan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_caddoan_standard_of_living_add = 1
 }
-na_chickasaw_choctaw_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_chickasaw_choctaw_standard_of_living_add = 1
-}
 
-na_chickasaw_choctaw_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_chickasaw_choctaw_standard_of_living_add = 1
-}
 na_muscogee_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_na_muscogee_standard_of_living_add = 1
@@ -3409,25 +3321,6 @@ na_muscogee_standard_of_living_modifier_positive = {
 na_muscogee_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_muscogee_standard_of_living_add = 1
-}
-
-na_haudenosaunee_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_haudenosaunee_standard_of_living_add = 1
-}
-
-na_haudenosaunee_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_haudenosaunee_standard_of_living_add = 1
-}
-na_tuscarora_nottoway_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_tuscarora_nottoway_standard_of_living_add = 1
-}
-
-na_tuscarora_nottoway_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_tuscarora_nottoway_standard_of_living_add = 1
 }
 
 na_cherokee_standard_of_living_modifier_positive = {
@@ -3448,26 +3341,6 @@ na_northern_athabaskan_standard_of_living_modifier_positive = {
 na_northern_athabaskan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_na_northern_athabaskan_standard_of_living_add = 1
-}
-
-na_pacific_athabaskan_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_pacific_athabaskan_standard_of_living_add = 1
-}
-
-na_pacific_athabaskan_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_pacific_athabaskan_standard_of_living_add = 1
-}
-
-na_apalachee_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_na_apalachee_standard_of_living_add = 1
-}
-
-na_apalachee_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_na_apalachee_standard_of_living_add = 1
 }
 
 na_shoshone_standard_of_living_modifier_positive = {

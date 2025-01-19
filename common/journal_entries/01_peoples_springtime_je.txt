@@ -102,8 +102,7 @@
 		AND = {
 			scope:radical_movement_scope ?= {
 				political_movement_support <= 0.10
-				# TODO: Replace IG is Suppressed
-#				is_being_suppressed = yes
+
 			}
 			NOT = {
 				any_interest_group = {
@@ -140,8 +139,7 @@
 					AND = {
 						scope:radical_movement_scope ?= {
 							political_movement_support <= 0.10
-							# TODO: Replace IG is Suppressed
-#							is_being_suppressed = yes
+	
 						}
 						NOT = {
 							any_interest_group = {

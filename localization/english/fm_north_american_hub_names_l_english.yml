@@ -226,7 +226,7 @@
  HUB_NAME_STATE_FLORIDA_wood: "Punta Rossa"
 
  HUB_NAME_STATE_ALABAMA_city: "Birmingham"
- HUB_NAME_STATE_ALABAMA_port: "Porto Nuovo"
+ HUB_NAME_STATE_ALABAMA_port: "Mobile"
  HUB_NAME_STATE_ALABAMA_mine: "Huntsville"
  HUB_NAME_STATE_ALABAMA_farm: "Nuova Udine"
  HUB_NAME_STATE_ALABAMA_wood: "Sempreverde"
@@ -234,11 +234,11 @@
  HUB_NAME_STATE_MISSISSIPPI_city: "Jackson"
  HUB_NAME_STATE_MISSISSIPPI_port: "Biloxi"
  HUB_NAME_STATE_MISSISSIPPI_mine: "Tupelo"
- HUB_NAME_STATE_MISSISSIPPI_farm: "Vicksburg"
+ HUB_NAME_STATE_MISSISSIPPI_farm: "Fort St. Pierre"
  HUB_NAME_STATE_MISSISSIPPI_wood: "Meridian"
 
- HUB_NAME_STATE_LOUISIANA_city: "Baton Rouge"
- HUB_NAME_STATE_LOUISIANA_port: "New Orleans"
+ HUB_NAME_STATE_LOUISIANA_city: "Bâton-Rouge"
+ HUB_NAME_STATE_LOUISIANA_port: "La Nouvelle-Orléans"
  HUB_NAME_STATE_LOUISIANA_mine: "Shreveport"
  HUB_NAME_STATE_LOUISIANA_farm: "Lafayette"
  HUB_NAME_STATE_LOUISIANA_wood: "Columbia"

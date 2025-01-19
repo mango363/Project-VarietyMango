@@ -37,14 +37,12 @@ def_na_comanche_navajo_paiute_trigger = {
 def_na_native_american_trigger = {
 	OR = {
 		culture = cu:na_cherokee
-		culture = cu:na_tuscarora_nottoway
-		culture = cu:na_haudenosaunee
-		culture = cu:na_chickasaw_choctaw
+
 		culture = cu:na_muscogee
-		culture = cu:na_santee_dakota
+
 		culture = cu:na_yankton_yanktonai_dakota
 		culture = cu:na_lakota
-		culture = cu:na_crow_hisatsa
+
 		culture = cu:na_stoney
 		culture = cu:na_omaha_ponca
 		culture = cu:na_chiwere_winnebago

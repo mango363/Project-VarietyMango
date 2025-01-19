@@ -4203,16 +4203,7 @@ SHU = {
 	capital = STATE_SICHUAN
 }
 
-SAO = {
-	color = { 188 126 189 }
-	
-	country_type = decentralized
 
-	tier = principality
-
-	cultures = { salish athabaskan }
-	capital = STATE_PERM
-}
 
 CRU = {
 	color = { 82 227 96 }

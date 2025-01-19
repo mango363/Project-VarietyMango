@@ -20,9 +20,6 @@
 		add_taxed_goods = g:grain
 		set_tax_level = medium
 
-		# TODO: Replace IG Suppressed
-#		ig:ig_devout = {
-#			set_ig_suppression = yes
-#		}
+
 	}
 }

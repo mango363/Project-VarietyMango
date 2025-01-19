@@ -1,0 +1,69 @@
+namespace = fm_pop_consolidation
+
+fm_pop_consolidation.1 = {
+	type = country_event
+	placement = ROOT
+	hidden = yes
+
+	title = fm_pop_consolidation.1.t
+
+	flavor = fm_pop_consolidation.1.f
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		game_date > 1881.1.1
+	}
+
+	immediate = {
+
+		if = {
+			limit = {
+				is_secessionist = no
+					NOT = {
+						has_law = law_type:law_multicultural
+					}
+				}
+				ordered_primary_culture = {
+					position = 0
+					save_scope_as = primary_culture
+				}
+		
+				every_state = {
+					limit = {
+						owner = root
+					}
+		
+					this = {
+						save_scope_as = statepopcon
+					}
+
+					every_scope_pop = {
+						limit = {
+							has_state_religion = no
+						}
+						change_pop_religion = { target = root.religion value = 1 }
+					}
+					every_scope_pop = {
+					if = {
+						limit = {
+							this.culture = {
+								NOT = { 
+									is_primary_culture_of = root
+								}
+								NOT = { 
+									has_homeland = scope:statepopcon
+								}			
+							}
+						}
+					change_pop_culture = { target = scope:primary_culture value = 1 }
+					}
+				}
+			}
+		}
+	}
+}

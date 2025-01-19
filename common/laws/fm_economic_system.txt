@@ -66,8 +66,9 @@ law_interventionism = {
 	}
 	
 	modifier = {
+		country_loan_interest_rate_mult = -0.15
 		country_disable_nationalization_without_compensation_bool = yes
-		country_private_construction_allocation_mult = 0.65
+		country_private_construction_allocation_mult = 0.75
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.55
@@ -76,7 +77,7 @@ law_interventionism = {
 		state_clergymen_investment_pool_efficiency_mult = 0.1
 		state_farmers_investment_pool_efficiency_mult = 0.35
 		state_capitalists_investment_pool_efficiency_mult = 0.1
-		state_shopkeepers_investment_pool_efficiency_mult = 0.35
+		state_shopkeepers_investment_pool_efficiency_mult = 0.5
 	}
 	
 	ai_enact_weight_modifier = { #Petitions
@@ -122,12 +123,12 @@ law_agrarianism = {
 		state_aristocrats_investment_pool_efficiency_mult = 0.75
 		state_clergymen_investment_pool_efficiency_mult = 0.5
 		state_farmers_investment_pool_efficiency_mult = 0.75
-		state_capitalists_investment_pool_efficiency_mult = -0.15
-		country_private_construction_allocation_mult = 0.5
+		state_capitalists_investment_pool_efficiency_mult = -0.1
+		country_private_construction_allocation_mult = 0.6
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.6
-		country_max_companies_add = 1
+		country_max_companies_add = 2
 		
 		country_disable_nationalization_without_compensation_bool = yes
 	}
@@ -280,8 +281,8 @@ law_laissez_faire = {
 	modifier = {
 		country_loan_interest_rate_mult = -0.25
 		state_shopkeepers_investment_pool_efficiency_mult = 0.1
-		state_capitalists_investment_pool_efficiency_mult = 0.3
-		country_private_construction_allocation_mult = 0.8
+		state_capitalists_investment_pool_efficiency_mult = 0.25
+		country_private_construction_allocation_mult = 0.95
 		country_government_dividends_reinvestment_add = 1.0		
 		country_max_companies_add = 1
 		country_disable_nationalization_bool = yes

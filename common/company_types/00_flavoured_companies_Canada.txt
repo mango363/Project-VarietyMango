@@ -1074,13 +1074,13 @@ company_ford_motor_canada = {
 	}	
 	
 	ai_weight = {
-		value = 3 # Higher base value for flavored companies
+		value = 3 
 	}
 }
 
 # R. Dunsmuir & Sons.
 company_Dunsmuir = {
-	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds" # <--------------------------- TODO: Add Custom Icon
+	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds" 
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	
 	flavored_company = yes

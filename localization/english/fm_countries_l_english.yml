@@ -253,6 +253,8 @@
  dyn_c_sop_adj: "Persian"
  TPE: "Persia"
  TPE_ADJ: "Persian"
+ dyn_c_tpe_theo: "Zarathustra the Magnificent"
+ dyn_c_tpe_theo_adj:0 "Zarathustran"
  dyn_c_tpe: "Sassanid Empire"
  dyn_c_tpe_adj: "Sassanid"
  KAA: "Aragon"

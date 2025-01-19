@@ -46,10 +46,7 @@
 		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
 		}
-		# TODO: Replace IG Bolstering
-#		ig:ig_petty_bourgeoisie = {
-#			set_ig_bolstering = yes
-#		}
+
 		trigger_event = {
 			id = lombard.1
 		}

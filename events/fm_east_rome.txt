@@ -110,6 +110,9 @@ fm_east_rome.2 = {
 		s:STATE_MONTENEGRO = {
 			add_claim = ROOT
 		}
+		S:STATE_ADANA = {
+			add_claim = ROOT
+		}
 		s:STATE_HUDAVENDIGAR = {
 			add_claim = ROOT
 		}

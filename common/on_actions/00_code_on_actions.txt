@@ -231,6 +231,8 @@ on_monthly_pulse_country = {
 		yeet_agitator_events.3
 		# Comte
 		positivism.1
+
+		fm_pop_consolidation.1
 		
 	}
 	effect = {

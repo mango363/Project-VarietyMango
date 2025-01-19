@@ -142,10 +142,10 @@
                         scope:character = {
                             OR = {
                                 culture = cu:na_cherokee
-                                culture = cu:na_tuscarora_nottoway
-                                culture = cu:na_haudenosaunee
+                                
+
                                 culture = cu:na_muscogee
-                                culture = cu:na_chickasaw_choctaw
+                                
                             }
                         }
                         ruler_clothes_trigger = yes
@@ -2382,10 +2382,10 @@
                             scope:character = {
                                 OR = {
                                     culture = cu:na_cherokee
-                                    culture = cu:na_tuscarora_nottoway
-                                    culture = cu:na_haudenosaunee
+                                    
+    
                                     culture = cu:na_muscogee
-                                    culture = cu:na_chickasaw_choctaw
+                                    
                                 }
                             }
                         }
@@ -2432,10 +2432,10 @@
                         OR = {
                             culture = cu:malagasy
                             culture = cu:na_cherokee
-                            culture = cu:na_tuscarora_nottoway
-                            culture = cu:na_haudenosaunee
+                            
+
                             culture = cu:na_muscogee
-                            culture = cu:na_chickasaw_choctaw
+                            
                         }
                     }
                     african_diaspora_clothes_trigger = yes
@@ -2564,10 +2564,10 @@
                             scope:character = {
                                 OR = {
                                     culture = cu:na_cherokee
-                                    culture = cu:na_tuscarora_nottoway
-                                    culture = cu:na_haudenosaunee
+                                    
+    
                                     culture = cu:na_muscogee
-                                    culture = cu:na_chickasaw_choctaw
+                                    
                                 }
                             }
                         }
@@ -2624,10 +2624,10 @@
                         scope:character = {
                             OR = {
                                 culture = cu:na_cherokee
-                                culture = cu:na_tuscarora_nottoway
-                                culture = cu:na_haudenosaunee
+                                
+
                                 culture = cu:na_muscogee
-                                culture = cu:na_chickasaw_choctaw
+                                
                             }
                         }
                     }
@@ -2698,10 +2698,10 @@
                         scope:character = {
                             OR = {
                                 culture = cu:na_cherokee
-                                culture = cu:na_tuscarora_nottoway
-                                culture = cu:na_haudenosaunee
+                                
+
                                 culture = cu:na_muscogee
-                                culture = cu:na_chickasaw_choctaw
+                                
                             }
                         }
                     }
@@ -2786,10 +2786,10 @@
                     scope:character ?= {
                         OR = {
                             culture = cu:na_cherokee
-                            culture = cu:na_tuscarora_nottoway
-                            culture = cu:na_haudenosaunee
+                            
+
                             culture = cu:na_muscogee
-                            culture = cu:na_chickasaw_choctaw
+                            
                         }
                     }
                     african_diaspora_clothes_trigger = yes
@@ -2864,10 +2864,10 @@
                     scope:character ?= {
                         OR = {
                             culture = cu:na_cherokee
-                            culture = cu:na_tuscarora_nottoway
-                            culture = cu:na_haudenosaunee
+                            
+
                             culture = cu:na_muscogee
-                            culture = cu:na_chickasaw_choctaw
+                            
                         }
                     }
                     african_diaspora_clothes_trigger = yes
@@ -4128,10 +4128,10 @@
                             scope:character = {
                                 OR = {
                                     culture = cu:na_cherokee
-                                    culture = cu:na_tuscarora_nottoway
-                                    culture = cu:na_haudenosaunee
+                                    
+    
                                     culture = cu:na_muscogee
-                                    culture = cu:na_chickasaw_choctaw
+                                    
                                 }
                             }
                         }
@@ -4204,10 +4204,10 @@
                             scope:character = {
                                 OR = {
                                     culture = cu:na_cherokee
-                                    culture = cu:na_tuscarora_nottoway
-                                    culture = cu:na_haudenosaunee
+                                    
+    
                                     culture = cu:na_muscogee
-                                    culture = cu:na_chickasaw_choctaw
+                                    
                                 }
                             }
                         }
@@ -5761,9 +5761,9 @@
                         scope:pop = {
                             OR = {
                                 culture = cu:na_cherokee
-                                culture = cu:na_tuscarora_nottoway
-                                culture = cu:na_haudenosaunee
-                                culture = cu:na_chickasaw_choctaw
+                                
+
+                                
                                 culture = cu:na_muscogee
                                 AND = {
                                     culture = cu:japanese
@@ -6735,10 +6735,10 @@
                     scope:pop = {
                         NOR = {
                             culture = cu:na_cherokee
-                            culture = cu:na_tuscarora_nottoway
-                            culture = cu:na_haudenosaunee
+                            
 
-                            culture = cu:na_chickasaw_choctaw
+
+                            
                             culture = cu:na_muscogee
                         }
                     }
@@ -6819,10 +6819,9 @@
                     NOR = {
                         culture = cu:inuit
                         culture = cu:na_cherokee
-                        culture = cu:na_tuscarora_nottoway
-                        culture = cu:na_haudenosaunee
+
                         culture = cu:na_muscogee
-                        culture = cu:na_chickasaw_choctaw
+                        
                     }
                 }
             }
@@ -6883,10 +6882,10 @@
                         OR = {
                             culture = cu:inuit
                             culture = cu:na_cherokee
-                            culture = cu:na_tuscarora_nottoway
-                            culture = cu:na_haudenosaunee
+                            
+
                             culture = cu:na_muscogee
-                            culture = cu:na_chickasaw_choctaw
+                            
                         }
                     }
                 }
@@ -7518,10 +7517,10 @@
                         scope:character ?= {
                             OR = {
                                 culture = cu:na_cherokee
-                                culture = cu:na_tuscarora_nottoway
-                                culture = cu:na_haudenosaunee
+                                
+
                                 culture = cu:na_muscogee
-                                culture = cu:na_chickasaw_choctaw
+                                
                             }
                         }
                     }

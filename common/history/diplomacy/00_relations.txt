@@ -241,6 +241,16 @@
 		set_relations = {country = c:BRE value = 60 }
 		set_relations = {country = c:BRA value = 60 }
 		set_relations = {country = c:SCM value = 60 }
+		set_relations = {country = c:LIP value = 60 }
+		set_relations = {country = c:WLD value = 60 }
+		set_relations = {country = c:MUN value = 60 }
+		set_relations = {country = c:HES value = 60 }
+		set_relations = {country = c:HEK value = 60 }
+		set_relations = {country = c:NAS value = 60 }
+		set_relations = {country = c:MEI value = 60 }
+		set_relations = {country = c:COB value = 60 }
+		set_relations = {country = c:SCW value = 60 }
+		set_relations = {country = c:WEI value = 60 }
 	}
 	c:CON ?= {
 		set_relations = { country = c:TOR value = 30 }

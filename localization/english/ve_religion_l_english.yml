@@ -5,7 +5,7 @@
  ve_call_all_missionaries: "Call All Missionaries"
  ve_aspects: "Aspects"
  ve_piety_tt: "#tooltippable_concept Monthly Piety: \n#Y Base: +4 \nIf Theocracy law is activated: +2 \nIf State Religion law is activated: +2 \nIf Freedom of Conscience law is activated: +1 \nIf you own a specific holy site related to your state religion: +2"
- ve_missionary_tt: "#tooltippable_concept Missionaries: \n#Y Base: +1 \nIf State Religion law is activated: +2 \nIf Freedom of Consience law is activated: +1 \nIf Ethnocentrism Idea Completed: +1 \n#negative_value If Total Separation law is activated, the missionary mechanic will be disabled.#!\n\nMissionaries slowly convert pops in a state."
+ ve_missionary_tt: "#tooltippable_concept Missionaries: \n#Y Base: +1 \nIf State Religion law is activated: +2 \nIf Freedom of Conscience law is activated: +1 \nIf Ethnocentrism Idea Completed: +1 \n#negative_value If Total Separation law is activated, the missionary mechanic will be disabled.#!\n\nMissionaries slowly convert pops in a state."
  ve_holy_site_piety_tt: "#positive_value Monthly +2 Piety"
  ve_missionary_power_txt: "Missionary Power"
  ve_missionary_power_tt: "#tooltippable_concept Missionary Power: \n#Y Base: 5% \nIf State Religion law is activated: 0.7% \nIf Freedom of Conscience law is activated: 0.3% \nIf Theocracy is activated: 0.7% \nIf Ethnocentrism Idea V Completed: 0.7% \nIf Religious Schools law is activated: 0.7% \nEvery conversion modifier of the mod will be transferred to Missionary Power."
