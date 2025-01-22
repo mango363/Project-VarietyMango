@@ -129,12 +129,12 @@ economic_idea_2_mdf = {
 
 economic_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_minting_mult = 0.2
+	country_minting_mult = 0.25
 }
 
 economic_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_loan_interest_rate_mult = -0.05
+	country_loan_interest_rate_mult = -0.1
 }
 
 economic_idea_5_mdf = {
@@ -162,8 +162,7 @@ trade_idea_1_mdf = {
 
 trade_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_subsidies_bg_trade = yes
-	country_minting_mult = 0.15
+	country_minting_mult = 0.25
 }
 
 trade_idea_3_mdf = {

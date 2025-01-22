@@ -3939,7 +3939,7 @@ je_yag_1 = {
 		always = yes
 	}
 	ai_chance = {
-		base = 0
+		base = 100
 	}
 	possible = {
 		NOT = {
@@ -3965,6 +3965,12 @@ je_yag_2 = {
 	}
 	ai_chance = {
 		base = 0
+		modifier = {
+			trigger = {
+				game_date >= 1839.1.1 
+			}
+			add = 100
+		}
 	}
 	possible = {
 		NOT = {
@@ -3990,6 +3996,12 @@ je_yag_3 = {
 	}
 	ai_chance = {
 		base = 0
+		modifier = {
+			trigger = {
+				game_date >= 1841.1.1 
+			}
+			add = 100
+		}
 	}
 	possible = {
 		NOT = {
@@ -4015,6 +4027,12 @@ je_yag_4 = {
 	}
 	ai_chance = {
 		base = 0
+		modifier = {
+			trigger = {
+				game_date >= 1842.1.1 
+			}
+			add = 100
+		}
 	}
 	possible = {
 		NOT = {
@@ -4039,7 +4057,7 @@ je_yag_int_kau_b = {
 		always = yes
 	}
 	ai_chance = {
-		base = 0
+		base = 100
 	}
 	possible = {
 		custom_tooltip = {
@@ -4069,7 +4087,7 @@ je_yag_int_thura_b = {
 		always = yes
 	}
 	ai_chance = {
-		base = 0
+		base = 100
 	}
 	possible = {
 		custom_tooltip = {
@@ -4099,7 +4117,7 @@ je_yag_int_nuy_b = {
 		always = yes
 	}
 	ai_chance = {
-		base = 0
+		base = 100
 	}
 	possible = {
 		custom_tooltip = {
@@ -4129,7 +4147,7 @@ je_yag_int_nor_b = {
 		always = yes
 	}
 	ai_chance = {
-		base = 0
+		base = 100
 	}
 	possible = {
 		custom_tooltip = {

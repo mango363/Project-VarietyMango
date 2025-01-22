@@ -35,18 +35,6 @@ company_mitsui = {
 			}
 		}
 		has_technology_researched = cotton_gin
-		OR = {
-			AND = {
-				this = c:JAP
-				custom_tooltip = {
-					text = is_meiji_japan
-					has_variable = meiji_restoration_complete
-				}
-			}
-			NOT = {
-				this = c:JAP
-			}
-		}
 	}
 	
 	prosperity_modifier = {

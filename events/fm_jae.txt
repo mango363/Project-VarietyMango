@@ -223,6 +223,14 @@ fm_jae.7 = { #sauchaos
 		s:STATE_KYUSHU = {
 			add_claim = root
 		}
+		hidden_effect = {
+			s:STATE_CHUGOKU = {
+				add_claim = root
+			}
+			s:STATE_SHIKOKU = {
+				add_claim = root
+			}
+		}
 	}
 }
 fm_jae.8 = { #gen sub

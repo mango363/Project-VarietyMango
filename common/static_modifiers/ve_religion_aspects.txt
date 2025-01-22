@@ -886,7 +886,7 @@ atheist_pasive_mdf = {
 
 atheist_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
-	state_conversion_mult = 1
+	state_conversion_mult = 1.5
 }
 
 atheist_aspect_2_mdf = {

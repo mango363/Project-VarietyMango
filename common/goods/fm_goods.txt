@@ -3,6 +3,7 @@ olive = {
 	cost = 45
 	category = luxury
 	
+	traded_quantity = 3.5
 	obsession_chance = 0.6
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75
@@ -12,6 +13,7 @@ spice = {
 	cost = 50
 	category = luxury
 	
+	traded_quantity = 3.5
 	obsession_chance = 2.0
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75

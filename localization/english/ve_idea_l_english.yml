@@ -31,6 +31,6 @@
 
 
  ve_max_idea_text: "[GetPlayer.MakeScope.Var('idea_group_unlocked').GetValue] / 8"
- ethnocentrism_idea_5_tt: "#positive_value +0.7% Missionary and Governor Power"
- ethnocentrism_idea_7_tt: "#P +2 Missionary and +2 Governors"
+ ethnocentrism_idea_5_tt: "#P +2 Missionary and +2 Governors"
+ ethnocentrism_idea_7_tt: "#positive_value +25% Missionary and Governor Power"
  embrace_idea_tt: "#Y An idea group slot will be activated every 10 years. The maximum idea group limit is 8."

@@ -9,17 +9,17 @@ golden_age_mdf = {
 
 age_1_bonus_1 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_authority_mult = 0.25
+	country_authority_mult = 0.35
 }
 
 age_1_bonus_2 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_loan_interest_rate_mult = -0.1
+	country_loan_interest_rate_mult = -0.15
 }
 
 age_1_bonus_3 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_colony_growth_creation_factor = 0.15
+	state_colony_growth_creation_factor = 0.25
 	state_birth_rate_mult = 0.05
 }
 
@@ -32,17 +32,17 @@ age_1_bonus_4 = {
 age_1_bonus_5 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
 	state_urbanization_per_level_mult = -0.1
-	state_construction_mult = 0.05
+	state_construction_mult = 0.1
 }
 
 age_1_bonus_6 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_consumption_tax_cost_mult = -0.2
+	country_consumption_tax_cost_mult = -0.35
 }
 
 age_1_bonus_7 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	building_coal_mine_throughput_add = 0.25
+	building_coal_mine_throughput_add = 0.35
 }
 
 age_1_bonus_8 = {
@@ -52,7 +52,7 @@ age_1_bonus_8 = {
 
 age_1_bonus_9 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_law_enactment_success_add = 0.05
+	country_law_enactment_success_add = 0.1
 	country_law_enactment_time_mult = -0.25
 }
 
@@ -63,7 +63,7 @@ age_1_bonus_10 = {
 
 age_1_bonus_11 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_infamy_decay_mult = 0.2
+	country_infamy_decay_mult = 0.25
 }
 
 age_2_bonus_1 = {
@@ -90,18 +90,18 @@ age_2_bonus_3 = {
 
 age_2_bonus_4 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	political_movement_radicalism_add = -0.5
+	political_movement_radicalism_add = -0.75
 }
 
 age_2_bonus_5 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_trade_route_competitiveness_mult = 0.45
+	country_trade_route_competitiveness_mult = 0.5
 }
 
 age_2_bonus_6 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_assimilation_mult = 0.2
-	state_conversion_mult = 0.2
+	state_assimilation_mult = 0.5
+	state_conversion_mult = 0.5
 	state_birth_rate_mult = 0.05
 }
 
@@ -112,7 +112,7 @@ age_2_bonus_7 = {
 
 age_2_bonus_8 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_minting_mult = 0.25
+	country_minting_mult = 0.5
 }
 
 age_2_bonus_9 = {
@@ -133,12 +133,12 @@ age_2_bonus_10 = {
 
 age_2_bonus_11 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_education_access_add = 0.1
+	state_education_access_add = 0.15
 }
 
 age_3_bonus_1 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_birth_rate_mult = 0.03
+	state_birth_rate_mult = 0.04
 	state_mortality_mult = -0.02
 }
 
@@ -150,7 +150,7 @@ age_3_bonus_2 = {
 
 age_3_bonus_3 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_military_goods_cost_mult = -0.1
+	country_military_goods_cost_mult = -0.15
 }
 
 age_3_bonus_4 = {
@@ -165,7 +165,7 @@ age_3_bonus_5 = {
 
 age_3_bonus_6 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_decree_cost_mult = -0.25
+	state_decree_cost_mult = -0.35
 }
 
 age_3_bonus_7 = {
@@ -198,5 +198,5 @@ age_3_bonus_10_2 = {
 
 age_3_bonus_11 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_conscription_rate_mult = 0.2
+	state_conscription_rate_mult = 0.1
 }
