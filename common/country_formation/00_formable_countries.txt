@@ -532,40 +532,42 @@ LAO = {
 }
 
 
-#RUH = {
-	#states = {
-		#STATE_INGRIA
-	#	STATE_NOVGOROD
-#		STATE_PSKOV
-	#	STATE_TVER
-	#	STATE_YAROSLAVL
-#		STATE_VITEBSK
-#		STATE_SMOLENSK
-#		STATE_MOSCOW
-#		STATE_BREST
-#		STATE_MOGILEV
-#		STATE_ORYOL
-	#	STATE_RYAZAN
-#	#	STATE_VITEBSK
-	#	STATE_MINSK
-#		STATE_KURSK
-#		STATE_VOLHYNIA
-#		STATE_KIEV
-	#	STATE_EAST_GALICIA
-#		STATE_KHARKOV
-#		STATE_MOLDAVIA
-	#	STATE_BESSARABIA
-	#	STATE_CHERSON
-	#}
+RUH = {
+	states = {
+		STATE_INGRIA
+		STATE_NOVGOROD
+		STATE_PSKOV
+		STATE_TVER
+		STATE_YAROSLAVL
+		STATE_VITEBSK
+		STATE_SMOLENSK
+		STATE_MOSCOW
+		STATE_BREST
+		STATE_MOGILEV
+		STATE_ORYOL
+		STATE_RYAZAN
+		STATE_VITEBSK
+		STATE_MINSK
+		STATE_KURSK
+		STATE_VOLHYNIA
+		STATE_KIEV
+		STATE_EAST_GALICIA
+		STATE_KHARKOV
+		STATE_CHERNIHIV
+		STATE_MOLDAVIA
+		STATE_BESSARABIA
+		STATE_CHERSON
+		STATE_TAURIDA
+	}
 
-	#required_states_fraction = 0.8
+	required_states_fraction = 0.8
 
-	#possible = {
-	#	has_technology_researched = pan-nationalism
-	#}
+	possible = {
+		has_technology_researched = pan-nationalism
+		}
 	
-	#ai_will_do = { always = yes }
-#}
+	ai_will_do = { always = yes }
+}
 
 ETH = {
 	use_culture_states = yes
@@ -811,19 +813,7 @@ ST1 = {
 }
 
 TRH = {
-	states = { 
-		STATE_UZBEKIA
-		STATE_KIRGHIZIA
-		STATE_TAJIKISTAN
-		STATE_TURKMENIA
-		STATE_KHIVA
-		STATE_SEMIRECHE
-		STATE_AKMOLINSK
-		STATE_URALSK
-		STATE_TIANSHAN
-		STATE_DZUNGARIA
-		STATE_JETISY
-	}
+	use_culture_states = yes
 
 	required_states_fraction = 0.5
 	
@@ -941,9 +931,11 @@ KAZ = {
 		STATE_AKMOLINSK
 		STATE_JETISY
 		STATE_URALSK
+		STATE_AKTOBE
+		STATE_SYRDARYA
 	}
 
-	required_states_fraction = 0.75	
+	required_states_fraction = 0.5
 	
 	ai_will_do = { always = yes }
 
@@ -1228,4 +1220,58 @@ MGB = {
 	}
 }
 
+SC1 = {
+	states = {
+		STATE_HIGHLANDS
+		STATE_LOWLANDS
+		STATE_YORKSHIRE
+		STATE_LANCASHIRE
+		STATE_WALES
+		STATE_MIDLANDS
+		STATE_EAST_ANGLIA
+		STATE_HOME_COUNTIES
+		STATE_WEST_COUNTRY
+	}
 
+	required_states_fraction = 0.85
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+SC2 = {
+	states = {
+		STATE_HIGHLANDS
+		STATE_LOWLANDS
+		STATE_YORKSHIRE
+		STATE_LANCASHIRE
+		STATE_WALES
+		STATE_ULSTER
+		STATE_LEINSTER
+		STATE_CONNAUGHT
+		STATE_ICELAND
+	}
+
+	required_states_fraction = 1 
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+ISR = {
+	states = {
+		STATE_PALESTINE
+	}
+
+	ai_will_do = { always = no }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}

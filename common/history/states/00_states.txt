@@ -142,6 +142,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:andalusian
+		add_homeland = cu:spanish
 		add_homeland = cu:phoenician
 		add_claim = c:MUR
 	}
@@ -4226,6 +4227,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:andalusian
+		add_homeland = cu:spanish
 		add_homeland = cu:phoenician
 		add_claim = c:MUR
 	}
@@ -6040,7 +6042,7 @@ STATES = {
 		
 		add_homeland = cu:mashriqi
 		add_homeland = cu:phoenician
-		
+		add_claim = c:JP1
 	}
 	s:STATE_LEBANON = {
 		create_state = {
@@ -7252,7 +7254,7 @@ STATES = {
 	}
 	s:STATE_FORMOSA = {
 		create_state = {
-			country = c:SAU
+			country = c:JP1
 			owned_provinces = { x44797F x9A5066 xE73B31 x6645CF xBB27F6 x6DAB21 xAEA2D8 x7070E0 }
 		}
 		
@@ -8290,6 +8292,7 @@ STATES = {
 		
 		add_homeland = cu:byelorussian
 		add_homeland = cu:lithuanian
+		add_claim = c:BYE
 	}
 	s:STATE_GREATER_POLAND = { #warsa
 		create_state = {

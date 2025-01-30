@@ -364,15 +364,50 @@
 	s:STATE_UUSIMAA={
 		region_state:FUN={
 			create_building={
-				building="building_government_administration"
+				building="building_fishing_wharf"
 				add_ownership={
 					country={
 						country="c:FUN"
-						levels=5
+						levels=2
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:FUN"
+						levels=4
+						region="STATE_WEST_KARELIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:FUN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FUN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -384,6 +419,21 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+		}
+	}
+	s:STATE_WEST_KARELIA={
+		region_state:FUN={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:FUN"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_shipyards"
@@ -403,7 +453,7 @@
 						type="building_financial_district"
 						country="c:FUN"
 						levels=4
-						region="STATE_UUSIMAA"
+						region="STATE_WEST_KARELIA"
 					}
 					country={
 						country="c:FUN"
@@ -453,7 +503,7 @@
 						type="building_manor_house"
 						country="c:FUN"
 						levels=5
-						region="STATE_UUSIMAA"
+						region="STATE_WEST_KARELIA"
 					}
 				}
 				reserves=1
@@ -470,7 +520,7 @@
 						type="building_financial_district"
 						country="c:FUN"
 						levels=1
-						region="STATE_UUSIMAA"
+						region="STATE_WEST_KARELIA"
 					}
 				}
 				reserves=1
@@ -494,61 +544,11 @@
 						type="building_manor_house"
 						country="c:FUN"
 						levels=5
-						region="STATE_UUSIMAA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-		}
-	}
-	s:STATE_WEST_KARELIA={
-		region_state:FUN={
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:FUN"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_rye_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:FUN"
-						levels=4
 						region="STATE_WEST_KARELIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:FUN"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FUN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
 	}

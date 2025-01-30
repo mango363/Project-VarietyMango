@@ -1,0 +1,15 @@
+﻿je_scu_main = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	complete = {
+		owns_entire_state_region = STATE_YORKSHIRE
+	}
+	on_complete = {
+		trigger_event = {
+			id = fm_scu.1
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}

@@ -219,7 +219,7 @@
 		region_state:FUN = {
 			create_pop = {
 				culture = finnish
-				size = 3501334
+				size = 1501334
 			}
 		}
 	}
@@ -227,7 +227,12 @@
 		region_state:FUN = {
 			create_pop = {
 				culture = finnish
-				size = 621799
+				size = 1321799
+			}
+			create_pop = {
+				culture = russian
+				religion = protestant
+				size = 351799
 			}
 		}
 	}
@@ -255,7 +260,7 @@
 		region_state:SWU = {
 			create_pop = {
 				culture = finnish
-				size = 1116250
+				size = 516250
 			}
 			create_pop = {
 				culture = sami

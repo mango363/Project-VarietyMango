@@ -12587,3 +12587,95 @@ USU = {	# United States of America
 	}
 
 }
+
+
+SC1 = { # Scotland
+	flag_definition = {
+		coa = SC1
+		subject_canton = SC1
+		priority = 1
+	}
+	flag_definition = {
+		coa = SCO_theocracy
+		subject_canton = SCO_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SC1_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_fascist
+		subject_canton = SCO_fascist
+		priority = 10
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+SC2 = { # Scotland
+	flag_definition = {
+		coa = SC2
+		subject_canton = SC2
+		priority = 1
+	}
+	flag_definition = {
+		coa = SCO_theocracy
+		subject_canton = SCO_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SC2_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_fascist
+		subject_canton = SCO_fascist
+		priority = 10
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+RUH = { # Ruthenia
+	flag_definition = {
+		coa = RUH
+		subject_canton = RUH
+		priority = 1
+	}
+	flag_definition = {
+		coa = RUH_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+JP1 = { # Japan
+	flag_definition = {
+		coa = JP1
+		allow_overlord_canton = yes			
+		subject_canton = JP1
+		priority = 1		
+	}
+	flag_definition = {
+		coa = JP1_theo
+		subject_canton = JP1_theo
+		priority = 20
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}	
+}

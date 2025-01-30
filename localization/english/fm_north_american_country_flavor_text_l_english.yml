@@ -1,8 +1,8 @@
 ﻿l_english:
- AMC_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $AMC$\n · $TIS$#!"
- FLU_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GRV$\n · $TIS$#!"
+ AMC_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $AMC$#!"
+ FLU_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GRV$#!"
  DKT_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$\n · $LOB$\n · $ASB$\n · $TIS$#!"
- LOI_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $URA$\n · $JHF$\n · $TIS$#!"
+ LOI_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $URA$\n · $JHF$#!"
  AT1_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$\n · $NV2$\n · $AZT$\n · $TIS$#!"
  YMN_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $DST$\n · $AZT$\n · $TIS$#!"
  SSH_FLAVOR_TEXT: "#V #bold Formable Countries:#!#!\n#V  · $GPL$\n · $AZT$\n · $TIS$#!"

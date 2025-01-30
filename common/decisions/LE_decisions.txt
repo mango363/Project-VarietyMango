@@ -496,3 +496,33 @@ dec_stateof = {
 	}
 }
 
+convert_to_isl = {
+	is_shown = {
+		exists = c:GRA
+		c:GRA ?= THIS
+	}
+	possible = {
+		always = yes
+		NOT = {
+			has_variable = convert_to_isl
+		}
+	}
+	when_taken = {
+		set_variable = {
+			name = convert_to_isl
+		}
+		set_state_religion = rel:sunni
+		hidden_effect = {
+			remove_modifier = catholic_pasive_mdf
+			add_modifier = {
+				name = sunni_pasive_mdf
+			}
+		}
+		ruler = {
+			change_character_religion = rel:sunni
+		}
+	}
+	ai_chance = {
+		base = 0
+	}
+}

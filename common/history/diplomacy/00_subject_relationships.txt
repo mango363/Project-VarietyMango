@@ -66,6 +66,10 @@
 			country = c:WUN
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:JP1
+			type = protectorate
+		}
 	}
 	c:HEN ?= {
 		create_diplomatic_pact = {

@@ -2615,12 +2615,12 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:SAU = {
+		region_state:JP1 = {
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:SAU"
+						country="c:JP1"
 						levels=1
 					}
 				}
@@ -2631,7 +2631,7 @@
 				building="building_tea_plantation"
 				add_ownership={
 					country={
-						country="c:SAU"
+						country="c:JP1"
 						levels=1
 					}
 				}
@@ -2642,7 +2642,7 @@
 				building="building_banana_plantation"
 				add_ownership={
 					country={
-						country="c:SAU"
+						country="c:JP1"
 						levels=1
 					}
 				}
@@ -2653,7 +2653,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SAU"
+						country="c:JP1"
 						levels=1
 					}
 				}

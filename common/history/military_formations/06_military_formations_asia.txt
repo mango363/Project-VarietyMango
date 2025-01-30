@@ -1478,4 +1478,53 @@
 			}
 		}
 	}
+	c:NTO = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "Great Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTH_ISLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SOUTH_ISLAND
+				count = 5
+			}
+		}
+	}
+	c:JP1 = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "Special Administrative Region's Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FORMOSA
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_FORMOSA
+				count = 4
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_south_china
+			name = "Special Administrative Region's Navy"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_FORMOSA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_FORMOSA
+				count = 2
+			}
+		}
+	}
 }

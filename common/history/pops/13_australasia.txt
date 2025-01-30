@@ -190,7 +190,11 @@
 		region_state:NTO = {
 			create_pop = {
 				culture = maori
-				size = 57000
+				size = 257000
+			}
+			create_pop = {
+				culture = japanese
+				size = 428
 			}
 			create_pop = {
 				culture = maori
@@ -202,12 +206,8 @@
 	s:STATE_SOUTH_ISLAND = {
 		region_state:NTO = {
 			create_pop = {
-				culture = australian
-				size = 428
-			}
-			create_pop = {
 				culture = maori
-				size = 76000
+				size = 276000
 			}
 		}
 	}

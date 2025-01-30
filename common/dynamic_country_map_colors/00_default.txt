@@ -504,6 +504,14 @@ Imperial_church_comm = {
 		}
 	}
 }
+mannandisles = {
+	color = { 122 90 50 }
+	possible = {
+		exists = c:SC2
+		THIS = c:SC2
+		has_law = law_type:law_monarchy
+	}
+}
 florida_red = {
 	color = "red_dark"
 	possible = {

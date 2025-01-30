@@ -4178,8 +4178,8 @@ basque={
 }
 andalusian={
 	color = { 68 110 80 }
-	religion = catholic
-	traits = { iberian_culture_group european_heritage }
+	religion = sunni
+	traits = { iberian_culture_group middle_eastern_heritage }
 
 	obsessions = {
 		olive
@@ -4356,7 +4356,7 @@ andalusian={
 	}	
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		1 = arab
 	}
 }
 

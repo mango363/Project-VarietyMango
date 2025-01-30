@@ -36,5 +36,9 @@
 
 		add_declared_interest = region_rhine
 		add_declared_interest = region_iberia
+
+		add_journal_entry = {
+			type = je_scu_main
+		}
 	}
 }

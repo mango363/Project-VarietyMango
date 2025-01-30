@@ -499,14 +499,32 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:SAU = {
+		region_state:JP1 = {
 			create_pop = {
 				culture = min
-				size = 1480000
+				size = 539222
+			}
+			create_pop = {
+				culture = min
+				religion = jewish
+				size = 880000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 23800
+			}
+			create_pop = {
+				culture = sephardic
+				size = 19000
 			}
 			create_pop = {
 				culture = japanese
-				size = 7834
+				religion = jewish
+				size = 97834
+			}
+			create_pop = {
+				culture = japanese
+				size = 834
 			}
 		}
 	}

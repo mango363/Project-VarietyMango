@@ -5755,7 +5755,7 @@ CAN_dictatorship = {
 
 GRA = { # granada
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "red"
 
 	textured_emblem = {
 		texture = "te_coa_gra.dds"
@@ -27141,6 +27141,7 @@ IPJ = {
 		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }			
 	}	
 }
+
 JAE_monarchy = {
 	pattern = "pattern_gironny_32.dds"
 	color1 = "white"
@@ -27274,5 +27275,137 @@ MTY = {
 	textured_emblem = {
 			texture = "te_coa_wakayama.dds"
 			instance = { scale = { 1.3 1.3 } position = { 0.5 0.5 } }
+	}
+}
+
+SC1={ #albion
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	color3 = "green_dark"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = color2
+		color2 = color3
+	}
+	colored_emblem = {
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+SC1_monarchy={
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "red"
+	color3 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "red"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.48 } }
+	}
+	colored_emblem = {
+		texture = "ce_double_tressure.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+SC2={ #mann
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+}
+SC2_monarchy={
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = color2
+		color2 = color3
+	}
+	textured_emblem={
+		texture="te_coa_islmann.dds"
+		instance={
+			scale={ 0.75 0.75 }
+			position={ 0.5 0.5 }
+		}
+	}
+}
+
+RUH={ #ruthenia
+	pattern = "pattern_solid.tga"
+	color1 = { 32 90 168 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "white"
+	}
+}
+
+RUH_monarchy={
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	textured_emblem={
+		texture="flag_ruthenia.dds"
+		instance={
+			scale={ 1 1 }
+			position={ 0.5 0.5 }
+		}
+	}
+}
+JP1 = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "blue"
+
+
+	colored_emblem = {
+		texture = "ce_stripes_04.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } offset = { 0.002 0.002 } }
+	}
+
+	sub = {
+		parent = IPJ
+		instance = { scale = { 0.5 0.5 } offset = { 0.002 0.002 } }
+	}
+}
+JP1_theo = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_star_hexagram.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 1.0 0.14 } position = { 0.5 0.16 } }			
+		instance = { scale = { 1.0 0.14 } position = { 0.5 0.84 } }				
+	}	
+
+	sub = {
+		parent = IPJ
+		instance = { scale = { 0.5 0.5 } offset = { 0.002 0.002 } }
 	}
 }

@@ -1,0 +1,61 @@
+﻿namespace = fm_scu
+fm_scu.1 = {
+	type = country_event
+	placement = ROOT
+	title = fm_scu.1.t
+	desc = fm_scu.1.d
+	flavor = fm_scu.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		name = fm_scu.1.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.2
+			culture = cu:scottish
+		}
+		s:STATE_WALES = {
+			add_claim = root
+		}
+		s:STATE_MIDLANDS = {
+			add_claim = root
+		}
+		s:STATE_EAST_ANGLIA = {
+			add_claim = root
+		}
+		s:STATE_HOME_COUNTIES = {
+			add_claim = root
+		}
+		s:STATE_WEST_COUNTRY = {
+			add_claim = root
+		}
+	}
+	option = {
+		name = fm_scu.1.b
+		add_loyalists = {
+			value = 0.2
+			culture = cu:scottish
+		}
+		s:STATE_WALES = {
+			add_claim = root
+		}
+		s:STATE_ULSTER = {
+			add_claim = root
+		}
+		s:STATE_LEINSTER = {
+			add_claim = root
+		}
+		s:STATE_CONNAUGHT = {
+			add_claim = root
+		}
+		s:STATE_ICELAND = {
+			add_claim = root
+		}
+	}
+}

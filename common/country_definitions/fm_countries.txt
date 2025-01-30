@@ -122,19 +122,19 @@ KAK = {
 
 
 
-#RUH = {
-	#color = { 166 125 10 }
+RUH = {
+	color = { 166 125 10 }
 
-	#country_type = unrecognized
+	country_type = recognized
 
-	#tier = empire
+	tier = empire
 
-	#cultures = {
-	#	byelorussian ukrainian russian
-	#}
-	#religion = orthodox
-	#capital = STATE_MINSK
-#}
+	cultures = {
+		byelorussian ukrainian
+	}
+	religion = orthodox
+	capital = STATE_MINSK
+}
 
 COH = {
 	color = { 166 125 10 }
@@ -502,7 +502,7 @@ FUN = {
 	tier = kingdom
 	
 	cultures = { finnish }
-	capital = STATE_UUSIMAA
+	capital = STATE_WEST_KARELIA
 }
 
 NOV = {
@@ -776,7 +776,7 @@ GRA = {
 
 	tier = kingdom
 	
-	cultures = { andalusian }
+	cultures = { spanish andalusian }
 	capital = STATE_GRANADA
 }
 
@@ -2902,7 +2902,7 @@ ISR = {
 	
 	country_type = colonial
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { ashkenazi sephardic }
 	capital = STATE_PALESTINE
@@ -5462,4 +5462,37 @@ MTY = {
 	
 	cultures = { japanese }
 	capital = STATE_CHUGOKU
+}
+
+SC1 = {
+	color = { 99 214 212 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { scottish welsh }
+	capital = STATE_LOWLANDS
+}
+
+SC2 = {
+	color = { 56 122 166 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { scottish icelandic irish welsh }
+	capital = STATE_LOWLANDS
+}
+
+JP1 = {
+	color = { 194 53 60 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { japanese ashkenazi sephardic }
+	religion = jewish
+	capital = STATE_KANSAI
 }

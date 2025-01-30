@@ -478,8 +478,7 @@ jewish_pasive_mdf = {
 
 jewish_aspect_1_mdf = {
 	icon = gfx/interface/catholic.dds
-	country_production_tech_research_speed_mult = 0.03
-	country_society_tech_research_speed_mult = 0.03
+	country_bureaucracy_add = 250
 }
 
 jewish_aspect_2_mdf = {
@@ -491,19 +490,19 @@ jewish_aspect_2_mdf = {
 jewish_aspect_3_mdf = {
 	icon = gfx/interface/catholic.dds
 	unit_morale_recovery_mult = 0.1
-	building_output_building_arms_industry_mult = 0.1
+	unit_morale_damage_mult = 0.1
 }
 
 jewish_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
 	unit_navy_offense_add = 5
-	unit_army_offense_add = 5
+	unit_army_offense_add = 2
 }
 
 jewish_aspect_5_mdf = {
 	icon = gfx/interface/catholic.dds
 	state_urbanization_per_level_mult = -0.1
-	state_birth_rate_mult = 0.05
+	state_birth_rate_mult = 0.03
 }
 
 jewish_aspect_6_mdf = {
@@ -514,8 +513,7 @@ jewish_aspect_6_mdf = {
 
 jewish_aspect_7_mdf = {
 	icon = gfx/interface/catholic.dds
-	country_loan_interest_rate_mult = -0.2
-	state_capitalists_investment_pool_contribution_mult = 0.2
+	country_loan_interest_rate_mult = -0.1
 }
 
 jewish_aspect_8_mdf = {

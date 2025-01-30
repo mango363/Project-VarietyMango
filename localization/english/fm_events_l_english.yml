@@ -1490,3 +1490,12 @@
   fm_tah.2.d: ""
   fm_tah.2.f: ""#V Hey pal, I was looking for gold, and I've found silver.\nI guess you can't really hide a giant mine, so this is now yours.\nTo the next time.#!""
   fm_tah.2.a: ""See you""
+
+   convert_to_isl:0 "Formally Adopt Islam as the State Religion"
+ convert_to_isl_desc: "In the Kingdom of Granada, a delicate conundrum exists.\nA substantial divergence exists between the reigning [GetReligion('catholic').GetName] monarch and elite, and the predominantly [GetReligion('sunni').GetName] Muslim population, who continue to adhere to their ancestral faith.\nIn an effort to alleviate social tensions and promote harmony amongst your subjects, you to formally adopt [GetReligion('sunni').GetName] Islam as the state religion, thereby granting the majority population the recognition and acceptance they so fervently desire."
+
+   fm_scu.1.t: "Yorkshire is Ours!"
+  fm_scu.1.d: "As the [GetCulture('scottish').GetName] army has successfully captured the region, a pivotal juncture has been reached"
+  fm_scu.1.f: "We must now weigh the risks and benefits of continuing our push for a unified #D Albion#!, potentially risking a potential backlash from the [GetCulture('british').GetName] population, against the merits of securing our existing gains and establishing a strategic stronghold, thereby avoiding the perils of further conflict and potential long-term instability."
+  fm_scu.1.a: "Towards #D Albion#!!"
+  fm_scu.1.b: "We can leave the [GetCulture('british').GetName] alone"

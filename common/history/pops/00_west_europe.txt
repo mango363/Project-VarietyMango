@@ -3,7 +3,7 @@
 		region_state:SWU = {
 			create_pop = {
 				culture = swedish
-				size = 3281208
+				size = 2281208
 			}
 			create_pop = {
 				culture = finnish
@@ -19,7 +19,7 @@
 		region_state:SWU = {
 			create_pop = {
 				culture = swedish
-				size = 2276358
+				size = 1806358
 			}
 			create_pop = {
 				culture = finnish
@@ -44,7 +44,7 @@
 		region_state:SWU = {
 			create_pop = {
 				culture = swedish
-				size = 1289400
+				size = 889400
 			}
 			create_pop = {
 				culture = sami
@@ -167,12 +167,16 @@
 			create_pop = {
 				culture = inuit
 				religion = protestant
-				size = 19254
+				size = 5254
 			}
 			create_pop = {
 				culture = inuit
 				religion = animist
 				size = 1510
+			}
+			create_pop = {
+				culture = vinlander
+				size = 10610
 			}
 		}
 		region_state:VSL = {
@@ -309,7 +313,7 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1965208
+				size = 1665208
 			}
 		}
 	}
@@ -317,7 +321,7 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1969600
+				size = 1369600
 			}
 			create_pop = {
 				culture = british
@@ -408,7 +412,7 @@
 		region_state:FRU = {
 			create_pop = {
 				culture = french
-				size = 3102741
+				size = 1702741
 			}
 			create_pop = {
 				culture = burgundian
@@ -547,11 +551,11 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 610279
+				size = 410279
 			}
 			create_pop = {
 				culture = flemish
-				size = 628005
+				size = 428005
 			}
 			create_pop = {
 				culture = dutch
@@ -572,15 +576,15 @@
 		region_state:FLA = {
 			create_pop = {
 				culture = french
-				size = 900989
+				size = 700989
 			}
 			create_pop = {
 				culture = burgundian
-				size = 70000
+				size = 60000
 			}
 			create_pop = {
 				culture = flemish
-				size = 431146
+				size = 231146
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -641,7 +645,7 @@
 		region_state:POI = {
 			create_pop = {
 				culture = french
-				size = 1980062
+				size = 980062
 			}
 			create_pop = {
 				culture = occitan
@@ -763,7 +767,7 @@
 		region_state:BUD = {
 			create_pop = {
 				culture = burgundian
-				size = 1253438
+				size = 1353438
 			}
 			create_pop = {
 				culture = burgundian
@@ -777,7 +781,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 923000
+				size = 323000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -796,7 +800,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 53000
+				size = 13000
 			}
 			create_pop = {
 				culture = flemish
@@ -868,7 +872,7 @@
 		region_state:ORL = {
 			create_pop = {
 				culture = french
-				size = 1956000
+				size = 1456000
 			}
 			create_pop = {
 				culture = burgundian

@@ -7,7 +7,7 @@
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 255643
+				size = 195643
 			}
 			create_pop = {
 				culture = swedish
@@ -15,7 +15,7 @@
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 255643
+				size = 55643
 			}
 			create_pop = {
 				culture = afro_amerikaans
@@ -245,11 +245,11 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 403200
+				size = 203200
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 315544
+				size = 85544
 			}
 			create_pop = {
 				culture = swedish
@@ -302,7 +302,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 575000
+				size = 975000
 			}
 			create_pop = {
 				culture = dutch_colonial
@@ -341,7 +341,7 @@
 		region_state:FOU = {
 			create_pop = {
 				culture = british
-				size = 610567
+				size = 1210567
 			}
 			create_pop = {
 				culture = na_cherokee
@@ -385,7 +385,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 400000
+				size = 871633
 			}
 			create_pop = {
 				culture = afro_american
@@ -434,7 +434,7 @@
 
 			create_pop = {
 				culture = americano
-				size = 1245322
+				size = 1845322
 			}
 			create_pop = {
 				culture = afro_caraibico
@@ -453,15 +453,15 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 255643
+				size = 55643
 			}
 			create_pop = {
 				culture = swedish_colonial
-				size = 406432
+				size = 206432
 			}
 			create_pop = {
 				culture = afro_amerikaans
-				size = 129765
+				size = 29765
 
 			}
 			create_pop = {
@@ -471,7 +471,7 @@
 			}
 			create_pop = {
 				culture = na_eastern_algonquian
-				size = 67054
+				size = 35677
 			}
 		}
 	}
@@ -1340,7 +1340,7 @@
 			}
 			create_pop = {
 				culture = vinlander
-				size = 715000
+				size = 915000
 			}
 		}
 	}
@@ -1349,7 +1349,7 @@
 		region_state:AMC = {
 			create_pop = {
 				culture = swedish_colonial
-				size = 313544
+				size = 113544
 			}
 			create_pop = {
 				culture = afro_amerikaans
@@ -1362,7 +1362,7 @@
 			}
 			create_pop = {
 				culture = dutch_colonial
-				size = 153754
+				size = 53754
 			}
 			create_pop = {
 				culture = vinlander
@@ -1415,7 +1415,7 @@
 			}
 			create_pop = {
 				culture = vinlander
-				size = 966043
+				size = 1266043
 			}
 		}
 	}
@@ -1428,7 +1428,7 @@
 			}
 			create_pop = {
 				culture = vinlander
-				size = 1255643
+				size = 1855643
 			}
 		}
 	}
@@ -1496,7 +1496,7 @@
 		region_state:VSL = {
 			create_pop = {
 				culture = vinlander
-				size = 245000
+				size = 445000
 			}
 			create_pop = {
 				culture = na_cree_montagnais
