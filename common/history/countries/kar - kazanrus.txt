@@ -2,6 +2,8 @@
 	c:KAR = {
 		effect_starting_technology_tier_3_tech = yes
 		add_technology_researched = mass_communication
+		add_technology_researched = scientific_crop_rotation
+		add_technology_researched = hydraulic_logging_systems
 		add_technology_progress = {
 			technology = nationalism
 			progress = 10500

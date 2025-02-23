@@ -186,7 +186,7 @@
 		region_state:MCH = {
 			create_pop = {
 				culture = han
-				size = 1291006
+				size = 1091006
 			}
 			create_pop = {
 				culture = han
@@ -219,11 +219,11 @@
 		region_state:MCH = {
 			create_pop = {
 				culture = manchu
-				size = 5210800
+				size = 3210800
 			}
 			create_pop = {
 				culture = han
-				size = 3011992
+				size = 111992
 			}
 			create_pop = {
 				culture = korean
@@ -239,7 +239,7 @@
 		region_state:MCH = {
 			create_pop = {
 				culture = manchu
-				size = 2821200
+				size = 921200
 			}
 			create_pop = {
 				culture = siberian

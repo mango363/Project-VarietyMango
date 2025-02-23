@@ -1308,7 +1308,7 @@ pm_clonal_propagation = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_tools_add = 10
+            goods_input_tools_add = 5
 
             goods_output_tea_add = 30
         }
@@ -1325,7 +1325,7 @@ pm_mechanical_resin_extraction = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_engines_add = 5
+            goods_input_engines_add = 2
             goods_input_coal_add = 5
 
             goods_output_opium_add = 35
@@ -1345,7 +1345,7 @@ pm_shade_grown_polyculture = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_fertilizer_add = 10
+            goods_input_fertilizer_add = 5
             goods_output_coffee_add = 35
         }
     }
@@ -1363,7 +1363,7 @@ pm_steam_cured_leaves = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_coal_add = 10
+            goods_input_coal_add = 5
             goods_input_glass_add = 5
 
             goods_output_tobacco_add = 40
@@ -1398,7 +1398,7 @@ pm_nitrogen_flushed_bags = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_paper_add = 10
+            goods_input_paper_add = 5
             goods_input_rubber_add = 5
 
             goods_output_coffee_add = 50
@@ -1429,7 +1429,7 @@ pm_bioaugmented_cultivation = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_fertilizer_add = 20
+            goods_input_fertilizer_add = 10
 
             goods_output_tea_add = 60
         }

@@ -2073,6 +2073,9 @@ embrace_idea_group = {
 				NOT = {
 					has_variable = can_go_ethnocentrism
 				}
+				NOT = {
+					has_variable = can_go_humanist
+				}
 			}
 			flag:politics_idea = {
 				NOT = {
@@ -2097,6 +2100,9 @@ embrace_idea_group = {
 			flag:humanist_idea = {
 				NOT = {
 					has_variable = can_go_humanist
+				}
+				NOT = {
+					has_variable = can_go_ethnocentrism
 				}
 			}
 			flag:syndicalism_idea = {

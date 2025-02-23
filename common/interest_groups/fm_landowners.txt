@@ -48,6 +48,15 @@
 					add_ideology = ideology_indian
 				}
 			}
+			else_if = {
+				limit = {
+					country_has_state_religion = rel:zoroastrian
+				}
+				ig:ig_landowners = {
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_avestan
+				}
+			}
 			# Roman Landowners
 			else_if = {
 				limit = {

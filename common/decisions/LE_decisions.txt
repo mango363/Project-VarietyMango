@@ -523,6 +523,6 @@ convert_to_isl = {
 		}
 	}
 	ai_chance = {
-		base = 0
+		base = 1
 	}
 }

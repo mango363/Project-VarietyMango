@@ -414,6 +414,9 @@ fm_aga.4 = {
 		add_journal_entry = {
 			type = je_aga_centr
 		}
+		ai_chance = {
+			base = 75
+		}
 	}
 	option = {
 		name = fm_aga.4.b
@@ -452,6 +455,9 @@ fm_aga.4 = {
 		add_journal_entry = {
 			type = je_aga_centr
 		}
+		ai_chance = {
+			base = 15
+		}
 	}
 	option = {
 		name = fm_aga.4.c
@@ -489,6 +495,9 @@ fm_aga.4 = {
 		}
 		add_journal_entry = {
 			type = je_aga_centr
+		}
+		ai_chance = {
+			base = 10
 		}
 	}
 }

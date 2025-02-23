@@ -837,6 +837,17 @@ boost_ethno_idea_effect = {
 					months = -1
 				}
 			}
+			if = {
+				limit = {
+					NOT = {
+						has_modifier = ethnocentrism_idea_4_mdf
+					}
+				}
+				add_modifier = {
+					name = ethnocentrism_idea_4_mdf
+					months = -1
+				}
+			}
 			idea_cost = yes
 		}
 	}
@@ -885,6 +896,17 @@ boost_ethno_idea_effect = {
 			change_variable = {
 				name = national_idea_pool
 				add = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_modifier = ethnocentrism_idea_6_mdf
+				}
+			}
+			add_modifier = {
+				name = ethnocentrism_idea_6_mdf
+				months = -1
 			}
 		}
 		if = {

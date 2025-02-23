@@ -163,6 +163,15 @@
 				add_ideology = ideology_buddhist_moralist
 			}
 		}
+		else_if = {
+			limit = {
+				country_has_state_religion = rel:zoroastrian
+			}
+			ig:ig_devout = {
+				remove_ideology = ideology_patriarchal
+				add_ideology = ideology_avestan
+			}
+		}
 		# Shinto Monks (Japan)
 		else_if = {
 			limit = {

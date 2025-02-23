@@ -2,7 +2,7 @@
 scientific_crop_rotation = {
 	# Unlocks Four-Course System PM on Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/dialectics.dds"
 	category = production
 	can_research = no
 	
@@ -18,7 +18,7 @@ scientific_crop_rotation = {
 mechanical_harvesting_systems = {
 	# Unlocks Mechanical Reapers PM on Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 	can_research = no
 	
@@ -34,7 +34,7 @@ mechanical_harvesting_systems = {
 hybrid_grain_cultivation = {
 	# Unlocks Hybrid Grains PM on Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
 	category = production
 	can_research = no
 	
@@ -50,7 +50,7 @@ hybrid_grain_cultivation = {
 motorized_irrigation_systems = {
 	# Unlocks Motorized Pumps PM on Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/threshing_machine.dds"
 	category = production
 	can_research = no
 	
@@ -66,7 +66,7 @@ motorized_irrigation_systems = {
 # Groceries
 mechanical_dough_preparation = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/goods_icons/unused/food.dds"
 	category = production
 	can_research = no
 
@@ -77,7 +77,7 @@ mechanical_dough_preparation = {
 
 pasteurization_techniques = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
 	category = production
 	can_research = no
 
@@ -88,7 +88,7 @@ pasteurization_techniques = {
 
 industrial_preservatives = {
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
 	category = production
 	can_research = no
 
@@ -99,7 +99,7 @@ industrial_preservatives = {
 
 automated_packaging_lines = {
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	texture = "gfx/interface/icons/invention_icons/conveyers.dds"
 	category = production
 	can_research = no
 
@@ -111,7 +111,7 @@ automated_packaging_lines = {
 # Logging
 hydraulic_logging_systems = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
     category = production
     can_research = no
 
@@ -122,7 +122,7 @@ hydraulic_logging_systems = {
 
 mechanical_band_saw_innovation = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/compression_ignition.dds"
     category = production
     can_research = no
 
@@ -133,7 +133,7 @@ mechanical_band_saw_innovation = {
 
 timber_preservation_science = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
     category = production
     can_research = no
 
@@ -144,7 +144,7 @@ timber_preservation_science = {
 
 mobile_forestry_machinery = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
     category = production
     can_research = no
 
@@ -156,7 +156,7 @@ mobile_forestry_machinery = {
 # Textile
 coal_tar_dye_processing = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/goods_icons/dye.dds"
     category = production
     can_research = no
 
@@ -167,7 +167,7 @@ coal_tar_dye_processing = {
 
 mechanical_pattern_grading = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/goods_icons/paper.dds"
     category = production
     can_research = no
 
@@ -178,7 +178,7 @@ mechanical_pattern_grading = {
 
 vulcanized_rubber_fasteners = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/art_silk.dds"
     category = production
     can_research = no
 
@@ -189,7 +189,7 @@ vulcanized_rubber_fasteners = {
 
 electrostatic_lint_control = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/concrete_fortifications.dds"
     category = production
     can_research = no
 
@@ -202,7 +202,7 @@ electrostatic_lint_control = {
 # Fishing
 pelagic_canning_processes = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
     category = production
     can_research = no
 
@@ -213,7 +213,7 @@ pelagic_canning_processes = {
 
 bycatch_utilization = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
     category = production
     can_research = no
 
@@ -224,7 +224,7 @@ bycatch_utilization = {
 
 hydroacoustic_navigation = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/telephone.dds"
     category = production
     can_research = no
 
@@ -237,7 +237,7 @@ hydroacoustic_navigation = {
 # Furniture
 thonet_bentwood_process = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/watertube_boiler.dds"
     category = production
     can_research = no
 
@@ -248,7 +248,7 @@ thonet_bentwood_process = {
 
 veneer_lamination_techniques = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/vulcanization.dds"
     category = production
     can_research = no
 
@@ -259,7 +259,7 @@ veneer_lamination_techniques = {
 
 synthetic_material_integration = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/art_silk.dds"
     category = production
     can_research = no
 
@@ -272,7 +272,7 @@ synthetic_material_integration = {
 # Paper
 mechanical_papermaking_automation = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/modern_financial_instruments.dds"
     category = production
     can_research = no
 
@@ -283,7 +283,7 @@ mechanical_papermaking_automation = {
 
 wood_pulp_refinement = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/mass_communication.dds"
     category = production
     can_research = no
 
@@ -294,7 +294,7 @@ wood_pulp_refinement = {
 
 industrial_byproduct_utilization = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/aniline.dds"
     category = production
     can_research = no
 
@@ -305,7 +305,7 @@ industrial_byproduct_utilization = {
 
 synthetic_additives = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/art_silk.dds"
     category = production
     can_research = no
 
@@ -318,7 +318,7 @@ synthetic_additives = {
 # Motor
 high_pressure_steam_engineering = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
     category = production
     can_research = no
 
@@ -329,7 +329,7 @@ high_pressure_steam_engineering = {
 
 continuous_production_flow = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
     category = production
     can_research = no
 
@@ -340,7 +340,7 @@ continuous_production_flow = {
 
 alloy_metallurgy = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rollers.dds"
     category = production
     can_research = no
 
@@ -351,7 +351,7 @@ alloy_metallurgy = {
 
 automated_assembly_systems = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/compression_ignition.dds"
     category = production
     can_research = no
 
@@ -364,7 +364,7 @@ automated_assembly_systems = {
 # Alcohol
 microbial_fermentation_control = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/aniline.dds"
     category = production
     can_research = no
 
@@ -375,7 +375,7 @@ microbial_fermentation_control = {
 
 temperature_controlled_aging = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
     category = production
     can_research = no
 
@@ -386,7 +386,7 @@ temperature_controlled_aging = {
 
 mechanized_harvesting_systems = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/threshing_machine.dds"
     category = production
     can_research = no
 
@@ -399,7 +399,7 @@ mechanized_harvesting_systems = {
 # Meat
 selective_livestock_breeding = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/behaviorism.dds"
     category = production
     can_research = no
 
@@ -410,7 +410,7 @@ selective_livestock_breeding = {
 
 industrial_refrigeration_techniques = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/flash_freezing.dds"
     category = production
     can_research = no
 
@@ -421,7 +421,7 @@ industrial_refrigeration_techniques = {
 
 chemical_meat_preservation = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
     category = production
     can_research = no
 
@@ -432,7 +432,7 @@ chemical_meat_preservation = {
 
 automated_meatpacking_systems = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/conveyers.dds"
     category = production
     can_research = no
 
@@ -445,7 +445,7 @@ automated_meatpacking_systems = {
 # Mining
 cornish_beam_pumping_systems = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/atmospheric_engine.dds"
     category = production
     can_research = no
 
@@ -456,7 +456,7 @@ cornish_beam_pumping_systems = {
 
 compressed_air_drill_networks = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/compression_ignition.dds"
     category = production
     can_research = no
 
@@ -467,7 +467,7 @@ compressed_air_drill_networks = {
 
 differential_flotation_process = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/steam_turbines.dds"
     category = production
     can_research = no
 
@@ -480,7 +480,7 @@ differential_flotation_process = {
 # Boats
 hull_caulking_techniques = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/screw_frigate.dds"
     category = production
     can_research = no
 
@@ -491,7 +491,7 @@ hull_caulking_techniques = {
 
 composite_hull_construction = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/drydock.dds"
     category = production
     can_research = no
 
@@ -502,7 +502,7 @@ composite_hull_construction = {
 
 torpedo_boat_development = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/self_propelled_torpedoes.dds"
     category = production
     can_research = no
 
@@ -513,7 +513,7 @@ torpedo_boat_development = {
 
 steam_turbine_propulsion = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/submarine.dds"
     category = production
     can_research = no
 
@@ -524,7 +524,7 @@ steam_turbine_propulsion = {
 
 welded_hull_prefabrication = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/floating_harbor.dds"
     category = production
     can_research = no
 
@@ -537,7 +537,7 @@ welded_hull_prefabrication = {
 # Glass
 cylinder_glass_process = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/automatic_bottle_blowers.dds"
     category = production
     can_research = no
 
@@ -548,7 +548,7 @@ cylinder_glass_process = {
 
 siemens_regenerative_furnace = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/open_hearth_process.dds"
     category = production
     can_research = no
 
@@ -559,7 +559,7 @@ siemens_regenerative_furnace = {
 
 automated_pressed_glass = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rollers.dds"
     category = production
     can_research = no
 
@@ -570,7 +570,7 @@ automated_pressed_glass = {
 
 float_glass_technique = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
     category = production
     can_research = no
 
@@ -583,7 +583,7 @@ float_glass_technique = {
 # Explosives
 smokeless_propellant_synthesis = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
     category = production
     can_research = no
 
@@ -594,7 +594,7 @@ smokeless_propellant_synthesis = {
 
 tnt_industrialization = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/dynamite.dds"
     category = production
     can_research = no
 
@@ -605,7 +605,7 @@ tnt_industrialization = {
 
 ammonium_nitrate_mass_production = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
     category = production
     can_research = no
 
@@ -618,7 +618,7 @@ ammonium_nitrate_mass_production = {
 # Silk
 mulberry_hybridization = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/sericulture.dds"
     category = production
     can_research = no
 
@@ -629,7 +629,7 @@ mulberry_hybridization = {
 
 synthetic_dye_synthesis = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/goods_icons/dye.dds"
     category = production
     can_research = no
 
@@ -640,7 +640,7 @@ synthetic_dye_synthesis = {
 
 mechanical_reeling_automation = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rollers.dds"
     category = production
     can_research = no
 
@@ -651,7 +651,7 @@ mechanical_reeling_automation = {
 
 rayon_production = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/art_silk.dds"
     category = production
     can_research = no
 
@@ -664,7 +664,7 @@ rayon_production = {
 # Steel
 basic_steel_refining = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/bessemer_process.dds"
     category = production
     can_research = no
 
@@ -675,7 +675,7 @@ basic_steel_refining = {
 
 alloy_steel_integration = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/open_hearth_process.dds"
     category = production
     can_research = no
 
@@ -686,7 +686,7 @@ alloy_steel_integration = {
 
 continuous_casting_process = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
     category = production
     can_research = no
 
@@ -699,7 +699,7 @@ continuous_casting_process = {
 # Tools
 steam_driven_mechanization = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
     category = production
     can_research = no
 
@@ -710,7 +710,7 @@ steam_driven_mechanization = {
 
 electroprecision_machining = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
     category = production
     can_research = no
 
@@ -721,7 +721,7 @@ electroprecision_machining = {
 
 high_speed_alloy_synthesis = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
     category = production
     can_research = no
 
@@ -735,7 +735,7 @@ high_speed_alloy_synthesis = {
 
 paper_cartridges_firearms = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/goods_icons/paper.dds"
     category = production
     can_research = no
 
@@ -746,7 +746,7 @@ paper_cartridges_firearms = {
 
 metallic_cartridge_casings = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/goods_icons/ammunition.dds"
     category = production
     can_research = no
 
@@ -757,7 +757,7 @@ metallic_cartridge_casings = {
 
 recoil_operated_mechanisms = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
     category = production
     can_research = no
 
@@ -768,7 +768,7 @@ recoil_operated_mechanisms = {
 
 composite_armor_plating = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
     category = production
     can_research = no
 
@@ -779,7 +779,7 @@ composite_armor_plating = {
 
 portable_automatic_firearms = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/repeaters.dds"
     category = production
     can_research = no
 
@@ -792,7 +792,7 @@ portable_automatic_firearms = {
 # Plantations
 selective_cultivation_techniques = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/enclosure.dds"
     category = production
     can_research = no
 
@@ -803,7 +803,7 @@ selective_cultivation_techniques = {
 
 steam_powered_presses = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/rollers.dds"
     category = production
     can_research = no
 
@@ -814,7 +814,7 @@ steam_powered_presses = {
 
 tropical_agronomy_studies = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/dialectics.dds"
     category = production
     can_research = no
 
@@ -825,7 +825,7 @@ tropical_agronomy_studies = {
 
 hydraulic_press_innovations = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/flash_freezing.dds"
     category = production
     can_research = no
 
@@ -836,7 +836,7 @@ hydraulic_press_innovations = {
 
 synthetic_alkaloid_extraction = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/steam_donkey.dds"
     category = production
     can_research = no
 
@@ -847,7 +847,7 @@ synthetic_alkaloid_extraction = {
 
 vacuum_sealing = {
     era = era_4
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
     category = production
     can_research = no
 
@@ -858,7 +858,7 @@ vacuum_sealing = {
 
 photoperiod_control = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
     category = production
     can_research = no
 
@@ -869,7 +869,7 @@ photoperiod_control = {
 
 mycorrhizal_inoculation = {
     era = era_5
-    texture = "gfx/interface/icons/invention_icons/academia.dds"
+    texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
     category = production
     can_research = no
 

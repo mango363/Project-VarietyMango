@@ -10,7 +10,7 @@ CHARACTERS = {
 			birth_date = 1785.7.20
 			dna = dna_mahmud_02
 			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			ideology = ideology_modernizer
 			traits = {
 				ambitious
 			}
@@ -23,7 +23,7 @@ CHARACTERS = {
 			heir = yes
 			birth_date = 1823.4.25
 			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			ideology = ideology_authoritarian
 			traits = {
 				trait_child
 			}

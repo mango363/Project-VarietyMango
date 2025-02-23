@@ -769,10 +769,10 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('russia_offer_circassia_recognition') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('revive_the_roman_empire') )]"
 						size = { 150 150 }
 
-						texture = "gfx\russia_offer_circassia_recognition.png"
+						texture = "gfx\revive_the_roman_empire.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -787,46 +787,46 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('british_raj_decision') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('revive_the_carolingian_empire') )]"
 						size = { 150 150 }
 
-						texture = "gfx\british_raj_decision.png"
+						texture = "gfx\revive_the_carolingian_empire.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('canada_unite_can') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('dec_stateof') )]"
 						size = { 150 150 }
 
-						texture = "gfx\canada_unite_can.png"
+						texture = "gfx\dec_stateof.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('canada_unite_gbr') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('grand_exhibition_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\canada_unite_gbr.png"
+						texture = "gfx\grand_exhibition_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('australia_unite_aus') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_three_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\australia_unite_aus.png"
+						texture = "gfx\RUI_three_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('australia_unite_gbr') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_two_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\australia_unite_gbr.png"
+						texture = "gfx\RUI_two_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -904,37 +904,37 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('france_retour_des_cendres') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_six_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\france_retour_des_cendres.png"
+						texture = "gfx\RUI_six_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('france_annex_savoy') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_five_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\france_annex_savoy.png"
+						texture = "gfx\RUI_five_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('sell_savoy') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_four_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\sell_savoy.png"
+						texture = "gfx\RUI_four_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('france_annex_luxembourg') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('RUI_one_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\france_annex_luxembourg.png"
+						texture = "gfx\RUI_one_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -976,10 +976,10 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('interest_in_hawaii') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision') )]"
 						size = { 150 150 }
 
-						texture = "gfx\interest_in_hawaii.png"
+						texture = "gfx\YUA_decision.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -1003,10 +1003,10 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('pressure_to_sell_berar_province') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision_two') )]"
 						size = { 150 150 }
 
-						texture = "gfx\pressure_to_sell_berar_province.png"
+						texture = "gfx\YUA_decision_two.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -1039,10 +1039,10 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('manifest_destiny') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision_three') )]"
 						size = { 150 150 }
 
-						texture = "gfx\manifest_destiny.png"
+						texture = "gfx\YUA_decision_three.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -1057,10 +1057,10 @@ types journal
 					}
 
 					icon = {
-						visible = "[ObjectsEqual( Decision.GetName, Localize('princely_state_decision') )]"
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision_three') )]"
 						size = { 150 150 }
 
-						texture = "gfx\princely_state_decision.png"
+						texture = "gfx\YUA_decision_three.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}
@@ -1106,6 +1106,51 @@ types journal
 						size = { 150 150 }
 
 						texture = "gfx\west_america_expedition.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}
+
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision_five') )]"
+						size = { 150 150 }
+
+						texture = "gfx\YUA_decision_five.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}
+
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('YUA_decision_four') )]"
+						size = { 150 150 }
+
+						texture = "gfx\YUA_decision_four.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}
+
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('KOR_decision_one') )]"
+						size = { 150 150 }
+
+						texture = "gfx\KOR_decision_one.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}
+
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('KOR_decision_two') )]"
+						size = { 150 150 }
+
+						texture = "gfx\KOR_decision_two.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}
+
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('convert_to_isl') )]"
+						size = { 150 150 }
+
+						texture = "gfx\convert_to_isl.png"
 						parentanchor = left|hcenter
 						widgetanchor = left|hcenter
 					}

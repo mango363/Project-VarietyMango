@@ -468,6 +468,10 @@ idea_5_tt_effects = {
 		}
 		flag:ethnocentrism_idea = {
 			#custom_label = ve_gecici_9
+			add_modifier = {
+				name = ethnocentrism_idea_4_mdf
+				months = -1
+			}
 			custom_tooltip = {
 				text = ethnocentrism_idea_5_tt
 			}
@@ -689,6 +693,10 @@ idea_7_tt_effects = {
 		}
 		flag:ethnocentrism_idea = {
 			#custom_label = ve_gecici_9
+			add_modifier = {
+				name = ethnocentrism_idea_6_mdf
+				months = -1
+			}
 			custom_tooltip = {
 				text = ethnocentrism_idea_7_tt
 			}

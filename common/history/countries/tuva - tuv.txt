@@ -1,6 +1,8 @@
 ﻿COUNTRIES = {
 	c:TUV = {
 		effect_starting_technology_tier_1_tech = yes
+		add_technology_researched = fractional_distillation
+		add_technology_researched = bessemer_process
 		
         set_ruling_interest_groups = {
         	ig_landowners

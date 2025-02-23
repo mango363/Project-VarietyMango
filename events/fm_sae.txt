@@ -143,6 +143,14 @@ fm_sae.3 = {
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	immediate = {
+		ig:ig_landowners = {
+			remove_ideology = ideology_avestan
+			add_ideology = ideology_patriarchal
+		}
+		ig:ig_devout = {
+			remove_ideology = ideology_avestan
+			add_ideology = ideology_patriarchal
+		}
 		change_tag = SOP
 		set_state_religion = rel:sunni
 		set_variable = {
