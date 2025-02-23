@@ -12596,6 +12596,19 @@ SC1 = { # Scotland
 		priority = 1
 	}
 	flag_definition = {
+		coa = SC1_parl
+		priority = 10
+		trigger = { 
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+	SC1_parl
+	flag_definition = {
 		coa = SCO_theocracy
 		subject_canton = SCO_theocracy
 		priority = 10
@@ -12678,4 +12691,22 @@ JP1 = { # Japan
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}	
+}
+
+FL1 = {	# Empire Flanders
+	flag_definition = {
+		coa = FL1
+		subject_canton = FL1
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FLA_subject			
+		priority = 1
+	}
+	flag_definition = {
+		coa = FL1_monarchy
+		subject_canton = FL1_monarchy
+		priority = 5
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
 }

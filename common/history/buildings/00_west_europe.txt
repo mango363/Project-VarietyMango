@@ -6543,32 +6543,6 @@
 		}
 	}
 	s:STATE_HANNOVER={
-		region_state:OLD={
-			create_building={
-				building="building_rye_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:OLD"
-						levels=2
-						region="STATE_HANNOVER"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:OLD"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}			
-		}
 		region_state:HEN={
 			create_building={
 				building="building_government_administration"

@@ -38,3 +38,6 @@ concept_sapainca = {
 	texture = "gfx/interface/icons/law_icons/autocracy.dds"
 	is_loading_tip = yes
 }
+concept_invention_progress = {
+	is_loading_tip = yes
+}

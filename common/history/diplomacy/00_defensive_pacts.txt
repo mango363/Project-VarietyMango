@@ -17,12 +17,7 @@
 			type = defensive_pact
 		}	
 	}
-	c:MZV ?= {
-		create_diplomatic_pact = {
-			country = c:LB1
-			type = defensive_pact
-		}	
-	}
+
 	c:PUR ?= {
 		create_diplomatic_pact = {
 			country = c:SAU          

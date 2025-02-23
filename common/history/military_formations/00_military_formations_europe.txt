@@ -864,23 +864,16 @@
 				count = 10
 			}
 			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MAZOVIA
+				count = 5
+			}
+			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_GREATER_POLAND
 				count = 10
 			}
 			save_scope_as = poland_army
-		}
-	}
-	c:PLK = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_poland
-			name = "Plockian Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MAZOVIA
-				count = 20
-			}
 		}
 	}
 	c:MZV = {
@@ -891,18 +884,6 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MAZOVIA
-				count = 20
-			}
-		}
-	}
-	c:LB1 = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_poland
-			name = "Lublin Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LESSER_POLAND
 				count = 20
 			}
 		}
@@ -928,6 +909,11 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_EAST_GALICIA
 				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LESSER_POLAND
+				count = 10
 			}
 		}
 	}

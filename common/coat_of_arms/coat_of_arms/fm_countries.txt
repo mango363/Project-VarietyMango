@@ -24144,17 +24144,7 @@ ORE = {
 		instance = { scale = { 1 1 } position = { 0.5 0.75 } }	
 	}
 }
-PLK = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow_light"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal_fifth.dds"
-		color1 = "red"
-		color2 = "blue"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
-	}
-}
 MZV = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -24177,17 +24167,7 @@ WRS = {
 		color2 = "red"
 	}
 }
-LB1 = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal_fifth.dds"
-		color1 = "red"
-		color2 = "yellow"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
-	}
-}
 KRK = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -27279,11 +27259,24 @@ MTY = {
 }
 
 SC1={ #albion
+	pattern = "pattern_border_of_2.dds"
+	color1 = "white"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_dragon_wales.dds"
+		color1 = "red"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 1.25 1.2 } position = { 0.5 0.52 } }		
+	}
+}
+SC1_parl = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	color2 = "white"
-	color3 = "green_dark"
-
+	color3 = "green"
+	
 	colored_emblem = {
 		texture = "ce_saltire.dds"
 		color1 = color2
@@ -27407,5 +27400,52 @@ JP1_theo = {
 	sub = {
 		parent = IPJ
 		instance = { scale = { 0.5 0.5 } offset = { 0.002 0.002 } }
+	}
+}
+
+FL1 = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "yellow"
+	color3 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+FL1_monarchy = {	# Empire Flanders
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_bend_dexter.dds"
+		color1 = color2
+		color2 = color2
+	}
+	
+	colored_emblem = {
+		texture = "ce_lion_rampant_batavian.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+		instance = { position = { 0.225 0.7 } scale = { 0.57 0.57 } }
+	}
+	colored_emblem = {
+		texture = "ce_fleur_quebec.dds"
+		color1 = "white"
+		instance = { position = { 0.1 0.11 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.9 0.89 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.5 0.5 } scale = { 0.2 0.2 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "black"
+		color2 = "azure"
+		color3 = "black"
+		instance = { position = { 0.775 0.3 }scale = { 0.6 0.6 } } 		
 	}
 }

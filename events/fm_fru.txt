@@ -64,6 +64,21 @@ fm_fru.2 = {
 			}
 		}
 		change_tag = FRE
+		if = {
+			limit = {
+				OR = {
+					c:BUD = {
+						is_subject_of = root
+					}
+					owns_entire_state_region = STATE_BURGUNDY
+				}
+			}
+			add_modifier = {
+				name = modifier_fru_bud
+				months = 120
+				is_decaying = yes
+			}
+		}
 	}
 	option = {
 		name = fm_fru.2.b
@@ -77,6 +92,21 @@ fm_fru.2 = {
 		ig:ig_armed_forces = {
 			leader = {
 				set_ideology = ideology:ideology_reformer
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					c:BUD = {
+						is_subject_of = root
+					}
+					owns_entire_state_region = STATE_BURGUNDY
+				}
+			}
+			 add_modifier = {
+				name = modifier_fru_bud
+				months = 120
+				is_decaying = yes
 			}
 		}
 	}

@@ -1,0 +1,9 @@
+category = {
+	id = "classical_category_00"
+	name = "99_pv"
+	tracks = {
+		naval_invasion
+		rometheme
+		maintheme
+	}
+}

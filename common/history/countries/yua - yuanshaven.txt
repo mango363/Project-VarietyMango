@@ -25,7 +25,7 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_private_health_insurance
 		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_no_police

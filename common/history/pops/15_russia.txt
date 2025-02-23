@@ -148,7 +148,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = { #Mazovia - DONE
-		region_state:PLK = {
+		region_state:WRS = {
 			create_pop = {
 				culture = polish
 				size = 570792
@@ -195,7 +195,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = { #LIUBLIN
-		region_state:LB1 = {
+		region_state:GAL = {
 			create_pop = {
 				culture = polish
 				size = 1057396

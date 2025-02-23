@@ -109,10 +109,6 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:OLD
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:BRE
 			type = puppet
 		}
@@ -167,7 +163,7 @@
 	c:DAI ?= {
 		create_diplomatic_pact = {
 			country = c:CAM
-			type = tributary
+			type = protectorate
 		}
 	}
 	c:ENG = {

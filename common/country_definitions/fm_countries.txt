@@ -20,18 +20,7 @@ ORE = {
 	}
 	capital = STATE_KURSK
 }
-PLK = {
-	color = { 105 56 63 }
 
-	country_type = recognized
-
-	tier = principality
-
-	cultures = {
-		polish
-	}
-	capital = STATE_MAZOVIA
-}
 MZV = {
 	color = { 237 104 104 }
 
@@ -56,18 +45,7 @@ WRS = {
 	}
 	capital = STATE_GREATER_POLAND
 }
-LB1 = {
-	color = { 150 33 33 }
 
-	country_type = recognized
-
-	tier = principality
-
-	cultures = {
-		polish
-	}
-	capital = STATE_LESSER_POLAND
-}
 KRK = {
 	color = { 242 58 58 }
 
@@ -633,7 +611,7 @@ CEU = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = empire
 	
 	cultures = { irish scottish welsh breton }
 	capital = STATE_LEINSTER
@@ -4916,7 +4894,7 @@ URA = {
 
 	tier = hegemony
 	
-	cultures = { north_german south_german north_german dutch flemish wallonian alemannic north_roman slovene french burgundian occitan breton francoprovencal }
+	cultures = { north_german south_german dutch flemish wallonian alemannic north_roman slovene french burgundian occitan breton francoprovencal }
 	capital = STATE_HOLLAND
 }
 
@@ -5032,7 +5010,6 @@ SLS = { # Silesia
 	cultures = { north_german }
 	religion = protestant
 	capital = STATE_SILESIA
-	is_named_from_capital = yes
 }
 
 FRN = { # Franconia
@@ -5495,4 +5472,15 @@ JP1 = {
 	cultures = { japanese ashkenazi sephardic }
 	religion = jewish
 	capital = STATE_KANSAI
+}
+
+FL1 = {
+	color = { 64 131 189 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	capital = STATE_FLANDERS
+	cultures = { flemish wallonian }
 }

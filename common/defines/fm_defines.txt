@@ -1,12 +1,13 @@
 NEconomy = {
 	SHIPPING_LANE_CONVOY_COST_SCALING = 0.05
+	TRADE_ROUTE_BUREAUCRACY_COST = 10
 	GOODS_DEFAULT_CONVOY_COST_MULTIPLIER = 0.5
 	OVERSEAS_INFRASTRUCTURE_CONVOY_COST_MULTIPLIER = 1
-	ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT = 0.15
-	TRADE_ROUTE_MAX_LEVEL = 150
+	ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT = 0.1
+	TRADE_ROUTE_MAX_LEVEL = 200
 	TRADE_ROUTE_MIN_TOTAL_IMPORTS = 1
 	TRADE_ROUTE_ECONOMY_OF_SCALE = 0.05
-	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 101
+	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 81
 	TRADE_ROUTE_AUTO_INCREASE_EMPLOYMENT_THRESHOLD = 0.1 	# If trade route has this much of its max staffing level employed, it can automatically increase its level
 	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level (means that trade routes can level up even when slightly decreasing overall revenue)
 	TRADE_ROUTE_AUTO_INCREASE_VERY_LOW_PRODUCTIVITY_THRESHOLD = 0.01 # If trade route's productivity is below this, always automatically decrease its level (regardless of total revenue)
@@ -37,7 +38,10 @@ NDiplomacy = {
 	INFAMY_THRESHOLD_NOTORIOUS = 80		# Above this, countries are considered notorious and get related penalties
 	INFAMY_THRESHOLD_PARIAH = 125			# Above this, countries are considered pariah and get related penalties
 	BASE_YEARLY_INFAMY_DECAY_RATE = 10
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 10
+	WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR = 8000
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 11
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 50 # Infamy population multiplier can't be higher than this, regardless of number of states affected
+	WAR_GOAL_INFAMY_DIPLO_PLAY_BACK_DOWN_REFUND = -1.00
 	WAR_GOAL_INFAMY_MAKE_PROTECTORATE = 2.5
 	WAR_GOAL_INFAMY_CONQUER_STATE = 3.5
 	WAR_GOAL_INFAMY_RETURN_STATE = 1.5
@@ -98,7 +102,7 @@ NCamera = {
 #	ZOOM_STEPS_MAX_TILT = { 89	89	89	89		89		89		89		89		89		89		89		89		89		89		89		89		}
 
 	#						0	1	2	3		4		5		6		7		8		9		10		11		12		13		14		15
-	ZOOM_STEPS 			= { 24	32	40	50		75		100		200		210		340		350		550		800 	1100	1500	2000	3000	}
+	ZOOM_STEPS 			= { 24	32	40	50		75		100		150		160		210		220		650		800 	1100	1500	2000	3000	}
 	ZOOM_STEPS_TILT 	= { 35	40	45	48.5	50		52.5	55 		60		65		70		75		80		80		85		85		85		} # TODO: Change Back before Main Merge
 	ZOOM_STEPS_MIN_TILT = { 35	35	35	35		35		38		40		40		45		50		50		50		50		50		50		50		}
 	ZOOM_STEPS_MAX_TILT = { 89	89	89	89		89		89		89		89		89		89		89		89		89		89		89		89		}

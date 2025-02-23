@@ -279,7 +279,7 @@ HLE = {
 		
 	}
 
-	required_states_fraction = 0.9
+	required_states_fraction = 0.8
 	
 	ai_will_do = { always = yes }
 
@@ -1274,4 +1274,26 @@ ISR = {
 	possible = {
 		has_technology_researched = nationalism
 	}
+}
+FL1 = {
+	states = {
+		STATE_HOLLAND
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FRENCH_LOW_COUNTRIES
+		STATE_ILE_DE_FRANCE
+		STATE_ORLEANS
+		STATE_NORMANDY
+		STATE_MAINE_ANJOU
+		STATE_POITOU
+		STATE_PICARDY
+	}
+
+	required_states_fraction = 0.8
+
+
+	
+	ai_will_do = { always = yes }
 }

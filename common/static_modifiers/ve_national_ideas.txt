@@ -42,7 +42,7 @@ gbr_idea_5 = {
 
 gbr_idea_6 = {
 	icon = gfx/interface/intelligensia.dds
-	state_infrastructure_mult = 0.15
+	state_infrastructure_from_population_add = 3
 }
 
 gbr_idea_7 = {
@@ -188,7 +188,7 @@ aus_idea_3 = {
 
 aus_idea_4 = {
 	icon = gfx/interface/intelligensia.dds
-	state_infrastructure_mult = 0.1
+	state_infrastructure_from_population_add = 3
 }
 
 aus_idea_5 = {
@@ -354,7 +354,7 @@ qng_idea_4 = {
 
 qng_idea_5 = {
 	icon = gfx/interface/intelligensia.dds
-	state_infrastructure_mult = 0.15
+	state_infrastructure_from_population_add = 5
 }
 
 qng_idea_6 = {
@@ -572,7 +572,7 @@ pul_idea_4 = {
 
 pul_idea_5 = {
 	icon = gfx/interface/intelligensia.dds
-	state_infrastructure_mult = 0.05
+	state_infrastructure_from_population_add = 4
 }
 
 pul_idea_6 = {
@@ -655,12 +655,12 @@ generic_idea_bonus = {
 
 generic_idea_1 = {
 	icon = gfx/interface/intelligensia.dds
-	country_tech_spread_add = 15
+	state_pop_qualifications_mult = 0.1
 }
 
 generic_idea_2 = {
 	icon = gfx/interface/intelligensia.dds
-	unit_army_defense_add = 7
+	unit_army_defense_add = 2
 	unit_morale_loss_mult = -0.1
 }
 

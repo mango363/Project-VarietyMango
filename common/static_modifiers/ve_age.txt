@@ -160,7 +160,7 @@ age_3_bonus_4 = {
 
 age_3_bonus_5 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	state_infrastructure_mult = 0.25
+	state_infrastructure_from_population_add = 6
 }
 
 age_3_bonus_6 = {

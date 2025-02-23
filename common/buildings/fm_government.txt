@@ -15,6 +15,7 @@ building_university = {
 		pmg_base_building_university
 		pmg_university_academia
 		pmg_principle_freedom_of_movement_3
+		pmg_research_funding
 	}
 
 	icon = "gfx/interface/icons/building_icons/building_university.dds"

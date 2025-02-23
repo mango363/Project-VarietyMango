@@ -48,12 +48,12 @@ base_values = {
 	
 	building_mobilization_cost_mult = 0.6
 	
-	building_economy_of_scale_level_cap_add = 20
+	building_economy_of_scale_level_cap_add = 70
 	
 	state_market_access_price_impact = 0.75
 	
-	country_company_throughput_bonus_add = 0.2
-	country_company_construction_efficiency_bonus_add = 0.3
+	country_company_throughput_bonus_add = 0.35
+	country_company_construction_efficiency_bonus_add = 0.15
 	
 	country_max_weekly_construction_progress_add = 10
 	

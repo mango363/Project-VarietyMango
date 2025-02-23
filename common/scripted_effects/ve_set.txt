@@ -538,10 +538,8 @@ set_national_idea = {
 				this = c:ODU
 				this = c:SAE
 				this = c:WRS
-				this = c:PLK
 				this = c:GAL
 				this = c:KRK
-				this = c:LB1
 				this = c:MZV
 				this = c:SAU
 				this = c:SAG
@@ -978,9 +976,7 @@ national_idea_traditions = {
 				AND = { exists = c:WRS this = c:WRS  }
 				AND = { exists = c:KRK this = c:KRK  }
 				AND = { exists = c:GAL this = c:GAL  }
-				AND = { exists = c:LB1 this = c:LB1  }
 				AND = { exists = c:MZV this = c:MZV  }
-				AND = { exists = c:PLK this = c:PLK  }
 			}
 		}
 		if = {

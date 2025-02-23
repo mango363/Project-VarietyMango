@@ -57,6 +57,9 @@
 					set_interest_group_name = ig_roman_landowners
 					remove_ideology = ideology_paternalistic
 					add_ideology = ideology_papal_paternalistic
+					set_ig_trait = ig_trait:ig_trait_noble_privileges
+					set_ig_trait = ig_trait:ig_trait_family_ties
+					set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 				}
 			}
 			# Ali'i
@@ -67,6 +70,9 @@
 				ig:ig_landowners = {
 					set_interest_group_name = ig_alii
 					add_ideology = ideology_loyalist
+					set_ig_trait = ig_trait:ig_trait_noble_privileges
+					set_ig_trait = ig_trait:ig_trait_family_ties
+					set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 				}
 			}
 			# Yangban Officials
@@ -76,6 +82,9 @@
 				}
 				ig:ig_landowners = {
 					set_interest_group_name = ig_yangban
+					set_ig_trait = ig_trait:ig_trait_noble_privileges
+					set_ig_trait = ig_trait:ig_trait_family_ties
+					set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 				}
 			}
 			# Pious Spanish Landowners
@@ -85,6 +94,9 @@
 				}
 				ig:ig_landowners = {
 					add_ideology = ideology_pious
+					set_ig_trait = ig_trait:ig_trait_noble_privileges
+					set_ig_trait = ig_trait:ig_trait_family_ties
+					set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 				}
 			}
 			# Aristocracy of Officials
@@ -94,6 +106,9 @@
 				}
 				ig:ig_landowners = {
 					set_interest_group_name = ig_aristocracy_of_officials
+					set_ig_trait = ig_trait:ig_trait_noble_privileges
+					set_ig_trait = ig_trait:ig_trait_family_ties
+					set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 				}
 			}
 			else = {

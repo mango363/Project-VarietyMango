@@ -6,7 +6,7 @@
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -178,7 +178,7 @@ missionary_power_500k = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -350,7 +350,7 @@ missionary_power_750k = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -514,7 +514,7 @@ missionary_power_1m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -678,7 +678,7 @@ missionary_power_5m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -850,7 +850,7 @@ missionary_power_10m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1022,7 +1022,7 @@ missionary_power_10mplus = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1214,7 +1214,7 @@ cultural_missionary_power_250k = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1370,7 +1370,7 @@ cultural_missionary_power_500k = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1526,7 +1526,7 @@ cultural_missionary_power_750k = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1682,7 +1682,7 @@ cultural_missionary_power_1m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1838,7 +1838,7 @@ cultural_missionary_power_5m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -1994,7 +1994,7 @@ cultural_missionary_power_10m = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {
@@ -2150,7 +2150,7 @@ cultural_missionary_power_10mplus = {
 				has_variable = ethnocentrism_idea_5_var
 			}
 		}
-		add = 0.25
+		add = 0.025
 	}
 	if = {
 		limit = {

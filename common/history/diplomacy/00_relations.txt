@@ -109,9 +109,7 @@
 		set_relations = { country = c:SWU value = 20 }
 		set_relations = { country = c:NOV value = 20 }
 	}
-	c:MZV ?= {
-		set_relations = { country = c:LB1 value = 50 }
-	}
+
 	c:BIZ ?= {
 		set_relations = { country = c:TOR value = -50 }
 		set_relations = { country = c:BUL value = -50 }
@@ -237,7 +235,6 @@
 	}
 	c:HEN ?= {
 		set_relations = {country = c:HAM value = 60 }
-		set_relations = {country = c:OLD value = 60 }
 		set_relations = {country = c:BRE value = 60 }
 		set_relations = {country = c:BRA value = 60 }
 		set_relations = {country = c:SCM value = 60 }

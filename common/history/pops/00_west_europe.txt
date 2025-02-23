@@ -1474,26 +1474,15 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:OLD = {
-			create_pop = {
-				culture = north_german
-				size = 219696
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 38000
-			}
-		}
 		region_state:HEN = {
 			create_pop = {
 				culture = north_german
-				size = 942208
+				size = 982208
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 195996
+				size = 295996
 			}
 			create_pop = {
 				culture = ashkenazi

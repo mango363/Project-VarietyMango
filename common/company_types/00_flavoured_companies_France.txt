@@ -401,13 +401,13 @@ company_HermesFreres = {
 					is_building_type = building_furniture_manufacturies
 					is_building_type = building_textile_mills
 				}
-				level >= 3
+				level >= 10
 			}
 		}
 	}
 	
 	prosperity_modifier = {
-		country_prestige_mult = 0.2
+		country_prestige_mult = 0.05
 	}
 
 	ai_weight = {

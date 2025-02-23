@@ -163,7 +163,7 @@ ai_strategy_unify_japan = {
 		always = no
 	}
 	undesirable_infamy_level = {
-		value = 80
+		value = 100
 	}
 	unacceptable_infamy_level = {
 		value = 120
@@ -192,7 +192,7 @@ ai_strategy_unify_japan = {
 					can_form_nation = JAE
 				}
 			}
-			add = 70
+			add = 130
 		}
 	}
 	building_group_weights = {

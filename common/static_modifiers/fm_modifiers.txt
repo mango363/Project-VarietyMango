@@ -384,7 +384,7 @@ modifier_yua_col_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_prestige_mult = -0.2
 	country_mass_migration_attraction_mult = 5
-	state_migration_quota_mult = 5
+	state_migration_quota_mult = 3
 	state_radicals_from_political_movements_mult = 0.3
 }
 modifier_yua_int = {
@@ -512,6 +512,14 @@ modifier_fru_two = {
 modifier_fru_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_tax_income_add = 5000
+}
+modifier_fru_bud = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_mult = -0.11
+	country_bureaucracy_mult = -0.11
+	state_tax_capacity_mult = -0.11
+	state_turmoil_effects_mult = 0.16
+	state_construction_mult = -0.11
 }
 modifier_dak_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds

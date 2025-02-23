@@ -32,7 +32,7 @@ widget = {
 		}
 
 		icon = {
-			texture = "gfx/interface/illustrations/frontend/menu_de.dds"
+			texture = "gfx/frontend/interface/illustrations/frontend/menu_de.dds"
 			size = { 100% 100% }
 			alwaystransparent = no
 		}

@@ -1251,6 +1251,7 @@ STATE_ARIZONA = {
     capped_resources = {
         bg_iron_mining = 21
         bg_logging = 2
+        bg_lead_mining = 18
     }
     resource = {
         type = "bg_gold_fields"

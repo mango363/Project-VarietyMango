@@ -1,0 +1,23 @@
+naval_invasion = {
+	music = "file:/music/naval_invasion.mp3"
+	name = "HOI4 Schizo Moment"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rometheme = {
+	music = "file:/music/rometheme.ogg"
+	name = "Karthago | Imperator: Rome OST"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+maintheme = {
+	music = "file:/music/maintheme.ogg"
+	name = "Kevin MacLeod | Hero Down"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}

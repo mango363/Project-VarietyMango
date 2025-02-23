@@ -5,3 +5,16 @@ money_amount_multiplier_fm = {
 	multiply = 1000
 	min = 100
 }
+
+fm_current_debt = {
+	value = credit
+	multiply = scaled_debt
+}
+fm_remaining_credit = {
+	value = credit
+	subtract = fm_current_debt
+}
+fm_transferable_currency = {
+	value = gold_reserves
+	add = fm_remaining_credit
+}

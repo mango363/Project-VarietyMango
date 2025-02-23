@@ -116,14 +116,7 @@ fm_na_flu.4 = {
 			months = 60
 		}
 
-		c:CUB = {
-			make_independant = yes
-		}
-
-		create_diplomatic_pact = {
-			country = c:CUB
-			type = puppet
-		}
+		annex_with_incorporation = c:CUB
 
 		if = {
 			limit = {

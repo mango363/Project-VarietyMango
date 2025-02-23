@@ -1,9 +1,5 @@
 ﻿l_english:
- 01_classical_music: "Classical Music (from Fulmi's Choice)"
- 02_national_themes_and_war_songs: "National Themes and War Songs (from Fulmi's Choice)"
- 03_folk_songs: "Folk Songs (from Fulmi's Choice)"
- 04_20th_century_music: "20th Century Radio (from Fulmi's Choice)"
- 05_soviet_music: "Soviet Songs (from Fulmi's Choice)"
+ 99_pv: "Project Variety's Finest"
 fm_aga.1.t: ""
 fm_aga.1.d: ""
 fm_aga.1.f: ""

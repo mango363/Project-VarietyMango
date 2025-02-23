@@ -34,7 +34,6 @@ POWER_BLOCS = {
 			principle = principle_vassalization_1
 			member = c:HAM
 			member = c:BRE
-			member = c:OLD
 			member = c:BRA
 			member = c:SCM
 			member = c:LIP

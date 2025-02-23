@@ -154,17 +154,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:PLK = {
-		random_list = {	
-			20 = { set_strategy = ai_strategy_resource_expansion }
-			80 = { set_strategy = ai_strategy_industrial_expansion }
-		}		
-		set_strategy = ai_strategy_unify_poland
-		random_list = {
-			50 = { set_strategy = ai_strategy_conservative_agenda }
-			50 = { set_strategy = ai_strategy_progressive_agenda }
-		}
-	}	
+
 	c:MZV = {
 		random_list = {	
 			20 = { set_strategy = ai_strategy_resource_expansion }
@@ -176,17 +166,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:LB1 = {
-		random_list = {	
-			20 = { set_strategy = ai_strategy_resource_expansion }
-			80 = { set_strategy = ai_strategy_industrial_expansion }
-		}		
-		set_strategy = ai_strategy_unify_poland
-		random_list = {
-			50 = { set_strategy = ai_strategy_conservative_agenda }
-			50 = { set_strategy = ai_strategy_progressive_agenda }
-		}
-	}	
+	
 	c:GAL = {
 		random_list = {	
 			20 = { set_strategy = ai_strategy_resource_expansion }

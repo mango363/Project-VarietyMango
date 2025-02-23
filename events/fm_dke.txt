@@ -79,6 +79,7 @@ fm_dke.3 = {
 	}
 	option = {
 		name = fm_dke.3.a
+		set_state_religion = rel:protestant
 		heir = {
 			change_character_religion = rel:protestant
 		}

@@ -940,7 +940,7 @@
 			goods = small_arms
 			level = 2
 			direction = import
-			target = c:PLK.market
+			target = c:WRS.market
 		}		
 	}
 	c:LIT ?= {
@@ -952,38 +952,19 @@
 		}
 	}
 	c:GAL ?= {
-		create_trade_route = {
-			goods = iron
-			level = 2
-			direction = import
-			target = c:LB1.market
-		}	
+
 		create_trade_route = {
 			goods = iron
 			level = 2
 			direction = import
 			target = c:KRK.market
-		}	
-		create_trade_route = {
-			goods = tools
-			level = 2
-			direction = import
-			target = c:LB1.market
-		}	
+		}		
 		create_trade_route = {
 			goods = tools
 			level = 2
 			direction = import
 			target = c:KRK.market
 		}			
-	}
-	c:PLK ?= {
-		create_trade_route = {
-			goods = iron
-			level = 3
-			direction = import
-			target = c:WRS.market
-		}					
 	}
 	c:CRI ?= {
 		create_trade_route = {

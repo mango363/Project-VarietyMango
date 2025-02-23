@@ -76,3 +76,157 @@ goods_output_radios_mult={
 		ai_value=0
 	}
 }
+
+country_invention_farms_add = {
+    decimals=2
+	color=good
+	percent=no
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_groceries_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_logging_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_textile_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_fishing_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_furniture_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_paper_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_motor_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_alcohol_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_meat_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_mining_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_boats_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_glass_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_plantations_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_explosives_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_silk_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_steel_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_tools_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_invention_military_add = {
+    decimals=2
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+

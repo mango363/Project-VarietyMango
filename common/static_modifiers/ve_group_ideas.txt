@@ -202,7 +202,7 @@ defensive_idea_1_mdf = {
 defensive_idea_2_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	battle_defense_owned_province_mult = 0.05
-	unit_defense_developed_mult = 0.15
+	unit_defense_developed_mult = 0.1
 }
 
 defensive_idea_3_mdf = {
@@ -213,7 +213,7 @@ defensive_idea_3_mdf = {
 
 defensive_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	battle_defense_owned_province_mult = 0.1
+	battle_defense_owned_province_mult = 0.05
 	unit_provinces_lost_mult = -0.15
 }
 
@@ -224,7 +224,7 @@ defensive_idea_5_mdf = {
 
 defensive_idea_6_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	unit_army_defense_add = 5
+	unit_army_defense_add = 3
 	country_military_goods_cost_mult = -0.05
 }
 
@@ -369,7 +369,7 @@ ethnocentrism_idea_2_mdf = {
 
 ethnocentrism_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_birth_rate_mult = 0.03
+	state_birth_rate_mult = 0.02
 }
 
 ethnocentrism_idea_4_mdf = {
@@ -397,7 +397,7 @@ ethnocentrism_idea_7_mdf = {
 
 humanist_idea_1_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	country_tech_spread_add = 15
+	state_infrastructure_from_population_add = 1
 }
 
 humanist_idea_2_mdf = {
@@ -419,8 +419,8 @@ humanist_idea_4_mdf = {
 
 humanist_idea_5_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_infrastructure_mult = 0.1
 	state_migration_pull_mult = 0.2
+	country_tech_spread_add = 15
 }
 
 humanist_idea_6_mdf = {
@@ -448,7 +448,7 @@ militarization_idea_2_mdf = {
 
 militarization_idea_3_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	building_training_rate_mult = 0.15
+	building_training_rate_mult = 0.1
 	country_military_wages_mult = -0.15
 }
 
@@ -472,7 +472,7 @@ militarization_idea_6_mdf = {
 
 militarization_idea_7_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	building_training_rate_mult = 0.2
+	building_training_rate_mult = 0.15
 	unit_supply_consumption_mult = -0.25
 	military_formation_mobilization_speed_mult = 0.2
 }
@@ -535,7 +535,7 @@ syndicalism_idea_3_mdf = {
 
 syndicalism_idea_4_mdf = {
 	icon = gfx/interface/icon_ideas.dds
-	state_birth_rate_mult = 0.03
+	state_birth_rate_mult = 0.01
 }
 
 syndicalism_idea_5_mdf = {
@@ -593,7 +593,7 @@ imperialist_idea_4_mdf = {
 imperialist_idea_5_mdf = {
 	icon = gfx/interface/icon_ideas.dds
 	unit_supply_consumption_mult = -0.05
-	unit_defense_elevated_mult = 0.15
+	unit_defense_elevated_mult = 0.1
 }
 
 imperialist_idea_6_mdf = {

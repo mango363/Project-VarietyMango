@@ -1,0 +1,33 @@
+﻿pmg_invention_building_mining_industry_coal = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        pm_cornish_beam_pumps_coal
+    }
+}
+
+pmg_invention_building_mining_industry_iron = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        pm_cornish_beam_pumps_iron
+        pm_pneumatic_drills_iron
+    }
+}
+
+pmg_invention_building_mining_industry_lead = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        pm_pneumatic_drills_lead
+        pm_flotation_lead
+    }
+}
+
+pmg_invention_building_mining_industry_sulfur = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        pm_flotation_sulfur
+    }
+}

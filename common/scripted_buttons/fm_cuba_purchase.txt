@@ -12,9 +12,10 @@
 			text = cuba_purchase_text
 			NOT = {
 				has_variable = variable_cuba
+			}
+			NOT = {
 				has_modifier = modifier_flu_no_cuba
 			}
-
 		}
 	}
 	effect = {
@@ -27,6 +28,7 @@
 
 		set_variable = {
 			name = variable_cuba
+			months = 36
 		}
 	}
 }

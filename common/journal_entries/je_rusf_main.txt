@@ -28,17 +28,6 @@ je_rusf_two = {
 				owns_entire_state_region = STATE_UFA
 				owns_entire_state_region = STATE_VYATKA
 			}
-			OR = {
-				c:POC = {
-					is_subject_of = ROOT
-				}
-				custom_tooltip = {
-					text = rusftext
-					NOT = {
-						exists = c:POC
-					}
-				}
-			}
 	}
 	on_complete = {
 		if = {
