@@ -1,4 +1,5 @@
-﻿texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
+﻿pm_no_organization = {
+texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
 	is_default = yes
 	building_modifiers = {
 		unscaled = {

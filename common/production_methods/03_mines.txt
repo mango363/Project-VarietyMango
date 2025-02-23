@@ -7,7 +7,7 @@
 			goods_input_tools_add = 5
 			
 			# output goods
-			goods_output_coal_add = 25
+			goods_output_coal_add = 20
 		}
 
 		level_scaled = {
@@ -36,7 +36,7 @@ pm_atmospheric_engine_pump_building_coal_mine = {
 			goods_input_tools_add = 10
 			
 			# output goods
-			goods_output_coal_add = 40
+			goods_output_coal_add = 35
 		}
 
 		level_scaled = {
@@ -67,7 +67,7 @@ pm_condensing_engine_pump_building_coal_mine = {
 			goods_input_tools_add = 15
 			
 			# output goods
-			goods_output_coal_add = 60
+			goods_output_coal_add = 50
 		}
 
 		level_scaled = {
@@ -99,7 +99,7 @@ pm_diesel_pump_building_coal_mine = {
 			goods_input_oil_add = 5
 			
 			# output goods
-			goods_output_coal_add = 90
+			goods_output_coal_add = 75
 		}
 
 		level_scaled = {
@@ -253,7 +253,7 @@ pm_atmospheric_engine_pump_building_iron_mine = {
 			goods_input_coal_add = 10
 			
 			# output goods
-			goods_output_iron_add = 40
+			goods_output_iron_add = 35
 		}
 
 		level_scaled = {
@@ -285,7 +285,7 @@ pm_condensing_engine_pump_building_iron_mine = {
 			goods_input_coal_add = 15
 			
 			# output goods
-			goods_output_iron_add = 60
+			goods_output_iron_add = 50
 		}
 
 		level_scaled = {
@@ -317,7 +317,7 @@ pm_diesel_pump_building_iron_mine = {
 			goods_input_oil_add = 5
 			
 			# output goods
-			goods_output_iron_add = 70
+			goods_output_iron_add = 60
 		}
 
 		level_scaled = {
@@ -479,7 +479,7 @@ pm_atmospheric_engine_pump_building_lead_mine = {
 			goods_input_coal_add = 10
 			
 			# output goods
-			goods_output_lead_add = 40
+			goods_output_lead_add = 35
 		}
 
 		level_scaled = {
@@ -510,7 +510,7 @@ pm_condensing_engine_pump_building_lead_mine = {
 			goods_input_coal_add = 15
 			
 			# output goods
-			goods_output_lead_add = 60
+			goods_output_lead_add = 50
 		}
 
 		level_scaled = {
@@ -541,7 +541,7 @@ pm_diesel_pump_building_lead_mine = {
 			goods_input_oil_add = 5
 			
 			# output goods
-			goods_output_lead_add = 70
+			goods_output_lead_add = 60
 		}
 
 		level_scaled = {
@@ -650,7 +650,7 @@ pm_atmospheric_engine_pump_building_sulfur_mine = {
 			goods_input_coal_add = 10
 			
 			# output goods
-			goods_output_sulfur_add = 40
+			goods_output_sulfur_add = 35
 		}
 
 		level_scaled = {
@@ -681,7 +681,7 @@ pm_condensing_engine_pump_building_sulfur_mine = {
 			goods_input_coal_add = 15
 			
 			# output goods
-			goods_output_sulfur_add = 60
+			goods_output_sulfur_add = 50
 		}
 
 		level_scaled = {
@@ -712,7 +712,7 @@ pm_diesel_pump_building_sulfur_mine = {
 			goods_input_oil_add = 5
 			
 			# output goods
-			goods_output_sulfur_add = 80
+			goods_output_sulfur_add = 70
 		}
 
 		level_scaled = {

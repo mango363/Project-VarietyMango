@@ -128,13 +128,6 @@ NOR = {
 	ai_will_do = { always = no }
 }
 
-DEN = {
-	use_culture_states = yes
-	
-	required_num_states = 2
-
-	ai_will_do = { always = no }
-}
 
 ICL = {
 	states = { STATE_ICELAND }
@@ -163,13 +156,6 @@ ASA = {
 	ai_will_do = { always = no }
 }
 
-LOU = {
-	states = { 
-		STATE_LOUISIANA
-	}
-
-	ai_will_do = { always = no }
-}
 
 AGJ = {
 	states = { 

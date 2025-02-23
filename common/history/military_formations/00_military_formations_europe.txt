@@ -21,12 +21,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_HOLLAND
-				count = 20
+				count = 25
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_GELRE
-				count = 20
+				count = 15
 			}
 			save_scope_as = dutch_army
 		}
@@ -37,7 +37,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_FRIESLAND
-				count = 15
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -110,7 +110,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_GOTALAND
-				count = 20
+				count = 15
 			}
 
 			save_scope_as = swed_army
@@ -122,7 +122,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_GOTALAND
-				count = 10
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -676,12 +676,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FLANDERS
-				count = 25
+				count = 20
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_FRENCH_LOW_COUNTRIES
-				count = 15
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
@@ -696,7 +696,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_FLANDERS
-				count = 10
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -1146,7 +1146,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_OSTROBOTHNIA
-				count = 25
+				count = 20
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
@@ -1167,7 +1167,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_OSTROBOTHNIA
-				count = 10
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate

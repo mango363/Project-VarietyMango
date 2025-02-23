@@ -85,7 +85,7 @@ fm_bohem.3 = {
 			}
 		}
 		ai_chance = {
-			base = 100
+			base = 60
 		}
 	}
 	option = {
@@ -102,6 +102,17 @@ fm_bohem.3 = {
 		}
 		hidden_effect = {
 			change_infamy = -36
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				trigger = { 
+					c:BAY = {
+						is_ai = yes
+					}
+				 }
+				add = 40
+			}
 		}
 	}
 }

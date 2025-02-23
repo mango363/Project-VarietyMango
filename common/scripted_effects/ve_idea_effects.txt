@@ -1,4 +1,10 @@
 boost_inno_idea_effect = {
+	remove_modifier = innovative_idea_1_mdf
+	remove_modifier = innovative_idea_2_mdf
+	remove_modifier = innovative_idea_3_mdf
+	remove_modifier = innovative_idea_4_mdf
+	remove_modifier = innovative_idea_5_mdf
+	remove_modifier = innovative_idea_6_mdf
 	if = {
 		limit = {
 			var:innovative_idea == 0
@@ -217,6 +223,12 @@ boost_inno_idea_effect = {
 }
 
 boost_eco_idea_effect = {
+	remove_modifier = economic_idea_1_mdf
+	remove_modifier = economic_idea_2_mdf
+	remove_modifier = economic_idea_3_mdf
+	remove_modifier = economic_idea_4_mdf
+	remove_modifier = economic_idea_5_mdf
+	remove_modifier = economic_idea_6_mdf
 	if = {
 		limit = {
 			var:economic_idea == 0
@@ -431,6 +443,12 @@ boost_eco_idea_effect = {
 }
 
 boost_adm_idea_effect = {
+	remove_modifier = administrative_idea_1_mdf
+	remove_modifier = administrative_idea_2_mdf
+	remove_modifier = administrative_idea_3_mdf
+	remove_modifier = administrative_idea_4_mdf
+	remove_modifier = administrative_idea_5_mdf
+	remove_modifier = administrative_idea_6_mdf
 	if = {
 		limit = {
 			var:administrative_idea == 0
@@ -645,6 +663,12 @@ boost_adm_idea_effect = {
 }
 
 boost_ethno_idea_effect = {
+	remove_modifier = ethnocentrism_idea_1_mdf
+	remove_modifier = ethnocentrism_idea_2_mdf
+	remove_modifier = ethnocentrism_idea_3_mdf
+	remove_modifier = ethnocentrism_idea_4_mdf
+	remove_modifier = ethnocentrism_idea_5_mdf
+	remove_modifier = ethnocentrism_idea_6_mdf
 	if = {
 		limit = {
 			var:ethnocentrism_idea == 0
@@ -894,6 +918,12 @@ boost_ethno_idea_effect = {
 }
 
 boost_pol_idea_effect = {
+	remove_modifier = politics_idea_1_mdf
+	remove_modifier = politics_idea_2_mdf
+	remove_modifier = politics_idea_3_mdf
+	remove_modifier = politics_idea_4_mdf
+	remove_modifier = politics_idea_5_mdf
+	remove_modifier = politics_idea_6_mdf
 	if = {
 		limit = {
 			var:politics_idea == 0
@@ -1108,6 +1138,12 @@ boost_pol_idea_effect = {
 }
 
 boost_dip_idea_effect = {
+	remove_modifier = diplomatic_idea_1_mdf
+	remove_modifier = diplomatic_idea_2_mdf
+	remove_modifier = diplomatic_idea_3_mdf
+	remove_modifier = diplomatic_idea_4_mdf
+	remove_modifier = diplomatic_idea_5_mdf
+	remove_modifier = diplomatic_idea_6_mdf
 	if = {
 		limit = {
 			var:diplomatic_idea == 0
@@ -1322,6 +1358,12 @@ boost_dip_idea_effect = {
 }
 
 boost_trade_idea_effect = {
+	remove_modifier = trade_idea_1_mdf
+	remove_modifier = trade_idea_2_mdf
+	remove_modifier = trade_idea_3_mdf
+	remove_modifier = trade_idea_4_mdf
+	remove_modifier = trade_idea_5_mdf
+	remove_modifier = trade_idea_6_mdf
 	if = {
 		limit = {
 			var:trade_idea == 0
@@ -1536,6 +1578,12 @@ boost_trade_idea_effect = {
 }
 
 boost_quali_idea_effect = {
+	remove_modifier = qualification_idea_1_mdf
+	remove_modifier = qualification_idea_2_mdf
+	remove_modifier = qualification_idea_3_mdf
+	remove_modifier = qualification_idea_4_mdf
+	remove_modifier = qualification_idea_5_mdf
+	remove_modifier = qualification_idea_6_mdf
 	if = {
 		limit = {
 			var:qualification_idea == 0
@@ -1750,6 +1798,12 @@ boost_quali_idea_effect = {
 }
 
 boost_hum_idea_effect = {
+	remove_modifier = humanist_idea_1_mdf
+	remove_modifier = humanist_idea_2_mdf
+	remove_modifier = humanist_idea_3_mdf
+	remove_modifier = humanist_idea_4_mdf
+	remove_modifier = humanist_idea_5_mdf
+	remove_modifier = humanist_idea_6_mdf
 	if = {
 		limit = {
 			var:humanist_idea == 0
@@ -1964,6 +2018,12 @@ boost_hum_idea_effect = {
 }
 
 boost_synd_idea_effect = {
+	remove_modifier = syndicalism_idea_1_mdf
+	remove_modifier = syndicalism_idea_2_mdf
+	remove_modifier = syndicalism_idea_3_mdf
+	remove_modifier = syndicalism_idea_4_mdf
+	remove_modifier = syndicalism_idea_5_mdf
+	remove_modifier = syndicalism_idea_6_mdf
 	if = {
 		limit = {
 			var:syndicalism_idea == 0
@@ -2178,6 +2238,12 @@ boost_synd_idea_effect = {
 }
 
 boost_off_idea_effect = {
+	remove_modifier = offensive_idea_1_mdf
+	remove_modifier = offensive_idea_2_mdf
+	remove_modifier = offensive_idea_3_mdf
+	remove_modifier = offensive_idea_4_mdf
+	remove_modifier = offensive_idea_5_mdf
+	remove_modifier = offensive_idea_6_mdf
 	if = {
 		limit = {
 			var:offensive_idea == 0
@@ -2392,6 +2458,12 @@ boost_off_idea_effect = {
 }
 
 boost_def_idea_effect = {
+	remove_modifier = defensive_idea_1_mdf
+	remove_modifier = defensive_idea_2_mdf
+	remove_modifier = defensive_idea_3_mdf
+	remove_modifier = defensive_idea_4_mdf
+	remove_modifier = defensive_idea_5_mdf
+	remove_modifier = defensive_idea_6_mdf
 	if = {
 		limit = {
 			var:defensive_idea == 0
@@ -2606,6 +2678,12 @@ boost_def_idea_effect = {
 }
 
 boost_nav_idea_effect = {
+	remove_modifier = naval_idea_1_mdf
+	remove_modifier = naval_idea_2_mdf
+	remove_modifier = naval_idea_3_mdf
+	remove_modifier = naval_idea_4_mdf
+	remove_modifier = naval_idea_5_mdf
+	remove_modifier = naval_idea_6_mdf
 	if = {
 		limit = {
 			var:naval_idea == 0
@@ -2820,6 +2898,12 @@ boost_nav_idea_effect = {
 }
 
 boost_mil_idea_effect = {
+	remove_modifier = militarization_idea_1_mdf
+	remove_modifier = militarization_idea_2_mdf
+	remove_modifier = militarization_idea_3_mdf
+	remove_modifier = militarization_idea_4_mdf
+	remove_modifier = militarization_idea_5_mdf
+	remove_modifier = militarization_idea_6_mdf
 	if = {
 		limit = {
 			var:militarization_idea == 0
@@ -3034,6 +3118,12 @@ boost_mil_idea_effect = {
 }
 
 boost_imp_idea_effect = {
+	remove_modifier = imperialist_idea_1_mdf
+	remove_modifier = imperialist_idea_2_mdf
+	remove_modifier = imperialist_idea_3_mdf
+	remove_modifier = imperialist_idea_4_mdf
+	remove_modifier = imperialist_idea_5_mdf
+	remove_modifier = imperialist_idea_6_mdf
 	if = {
 		limit = {
 			var:imperialist_idea == 0

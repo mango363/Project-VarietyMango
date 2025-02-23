@@ -27,7 +27,7 @@ pm_cornish_beam_pumps_iron = {
     building_modifiers = {
         workforce_scaled = {
 			goods_input_tools_add = 5
-			goods_input_coal_add = 10
+			goods_input_coal_add = 5
 			goods_output_iron_add = 35
         }
         level_scaled = {

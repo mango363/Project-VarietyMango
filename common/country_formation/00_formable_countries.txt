@@ -671,7 +671,6 @@ RHU = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = nationalism
 		NOR = {
 			c:LOT ?= this
 			c:PUM ?= this

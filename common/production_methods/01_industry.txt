@@ -1348,7 +1348,7 @@ pm_leblanc_process = {
 			goods_input_fertilizer_add = 20
 
 			# output goods
-			goods_output_explosives_add = 50
+			goods_output_explosives_add = 45
 		}
 		
 		level_scaled = {
@@ -1381,7 +1381,7 @@ pm_ammonia-soda_process = {
 			goods_input_paper_add = 10
 
 			# output goods
-			goods_output_explosives_add = 80
+			goods_output_explosives_add = 70
 		}
 
 		level_scaled = {
@@ -1414,7 +1414,7 @@ pm_vacuum_evaporation = {
 			goods_input_paper_add = 20
 
 			# output goods
-			goods_output_explosives_add = 110
+			goods_output_explosives_add = 95
 		}
 
 		level_scaled = {
@@ -1448,7 +1448,7 @@ pm_brine_electrolysis = {
 			goods_input_electricity_add = 20
 
 			# output goods
-			goods_output_explosives_add = 150
+			goods_output_explosives_add = 135
 		}
 
 		level_scaled = {
@@ -1479,7 +1479,7 @@ pm_dye_production = {
 			goods_input_fertilizer_add = 30
 
 			# output goods
-			goods_output_dye_add = 80
+			goods_output_dye_add = 70
 		}
 
 		level_scaled = {
@@ -1510,7 +1510,7 @@ pm_rayon = {
 
 			# output goods
 			goods_output_dye_add = -10
-			goods_output_silk_add = 30
+			goods_output_silk_add = 25
 		}
 
 		level_scaled = {
@@ -1537,7 +1537,7 @@ pm_blister_steel_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 65
+			goods_output_steel_add = 60
 		}
 
 		level_scaled = {
@@ -1569,7 +1569,7 @@ pm_bessemer_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 90
+			goods_output_steel_add = 80
 		}
 
 		level_scaled = {
@@ -1602,7 +1602,7 @@ pm_open_hearth_process = {
 			goods_input_coal_add = 30
 			
 			# output goods
-			goods_output_steel_add = 120
+			goods_output_steel_add = 105
 		}
 
 		level_scaled = {
@@ -1636,7 +1636,7 @@ pm_electric_arc_process = {
 			goods_input_electricity_add = 30
 			
 			# output goods
-			goods_output_steel_add = 150
+			goods_output_steel_add = 135
 		}
 
 		level_scaled = {
@@ -1716,7 +1716,7 @@ pm_steam_engines = {
 		workforce_scaled = {
 			goods_input_steel_add = 30
 			
-			goods_output_engines_add = 40
+			goods_output_engines_add = 35
 		}
 
 		level_scaled = {
@@ -1748,7 +1748,7 @@ pm_electric_engines = {
 			goods_input_electricity_add = 30
 			
 			# output goods
-			goods_output_engines_add = 80
+			goods_output_engines_add = 70
 		}
 
 		level_scaled = {
@@ -1782,7 +1782,7 @@ pm_diesel_engines = {
 			goods_input_oil_add = 50
 			
 			# output goods
-			goods_output_engines_add = 120
+			goods_output_engines_add = 105
 		}
 
 		level_scaled = {
@@ -1918,7 +1918,7 @@ pm_basic_shipbuilding = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 40
+			goods_input_wood_add = 45
 			goods_input_fabric_add = 20
 			
 			# output goods
@@ -1944,13 +1944,13 @@ pm_complex_shipbuilding = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 20
+			goods_input_wood_add = 25
 			goods_input_hardwood_add = 20
 			goods_input_fabric_add = 20
 			goods_input_engines_add = 5
 			
 			# output goods
-			goods_output_clippers_add = 70
+			goods_output_clippers_add = 65
 		}
 
 		level_scaled = {
@@ -1980,11 +1980,11 @@ pm_metal_shipbuilding = {
 		workforce_scaled = {
 			# input goods
 			goods_input_steel_add = 30
-			goods_input_coal_add = 10
+			goods_input_coal_add = 15
 			goods_input_engines_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 65
+			goods_output_steamers_add = 60
 		}
 
 		level_scaled = {
@@ -2018,7 +2018,7 @@ pm_arc_welding_shipbuilding = {
 			goods_input_engines_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 80
+			goods_output_steamers_add = 75
 		}
 
 		level_scaled = {
@@ -2098,10 +2098,10 @@ pm_military_shipbuilding_steam = {
 		workforce_scaled = {
 			#input goods
 			goods_input_steel_add = 40
-			goods_input_coal_add = 20
+			goods_input_coal_add = 25
 			goods_input_engines_add = 10
 			# output goods
-			goods_output_ironclads_add = 55
+			goods_output_ironclads_add = 50
 		}
 		level_scaled = {
 			# employment
@@ -2128,7 +2128,7 @@ pm_military_shipbuilding_steam_2 = {
 			goods_input_engines_add = 20
 
 			# output goods
-			goods_output_ironclads_add = 70
+			goods_output_ironclads_add = 60
 		}
 		level_scaled = {
 			# employment
@@ -2252,7 +2252,7 @@ pm_muskets = {
 			goods_input_hardwood_add = 10
 			
 			# output goods
-			goods_output_small_arms_add = 30
+			goods_output_small_arms_add = 25
 		}
 
 		level_scaled = {
@@ -2276,10 +2276,10 @@ pm_rifles = {
 			# input goods
 			goods_input_steel_add = 10
 			goods_input_hardwood_add = 10
-			goods_input_tools_add = 5
+			goods_input_tools_add = 10
 			
 			# output goods
-			goods_output_small_arms_add = 50
+			goods_output_small_arms_add = 45
 		}
 
 		level_scaled = {
@@ -2306,7 +2306,7 @@ pm_repeaters = {
 			goods_input_tools_add = 10
 			
 			# output goods
-			goods_output_small_arms_add = 70
+			goods_output_small_arms_add = 60
 		}
 
 		level_scaled = {
@@ -2335,7 +2335,7 @@ pm_bolt_action_rifles = {
 			goods_input_oil_add = 10
 			
 			# output goods
-			goods_output_small_arms_add = 100
+			goods_output_small_arms_add = 85
 		}
 
 		level_scaled = {
@@ -2524,7 +2524,7 @@ pm_percussion_caps = {
 			goods_input_lead_add = 20
 			
 			# output goods
-			goods_output_ammunition_add = 50
+			goods_output_ammunition_add = 45
 		}
 
 		level_scaled = {
@@ -2556,7 +2556,7 @@ pm_explosive_shells = {
 			goods_input_lead_add = 30
 			
 			# output goods
-			goods_output_ammunition_add = 90
+			goods_output_ammunition_add = 80
 		}
 
 		level_scaled = {

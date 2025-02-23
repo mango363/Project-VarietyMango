@@ -2182,12 +2182,51 @@ je_military_invention_progress = {
                         "scripted_bar_progress(invention_military_progress_bar)" >= 100
                     }
                 }
+
                 if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                has_technology_researched = paper_cartridges_firearms
+                            }
+                        }
+                    }
+                    add_technology_researched = paper_cartridges_firearms
+                    scope:journal_entry = {
+                        add_progress = {
+                            name = invention_military_progress_bar
+                            value = -100
+                        }
+                    }
+                }
+
+                else_if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                has_technology_researched = portable_automatic_firearms
+                            }
+                            has_technology_researched = paper_cartridges_firearms
+                        }
+                    }
+                    add_technology_researched = portable_automatic_firearms
+                    scope:journal_entry = {
+                        add_progress = {
+                            name = invention_military_progress_bar
+                            value = -100
+                        }
+                    }
+                }
+
+
+
+                else_if = {
                     limit = {
                         AND = {
                             NOT = {
                                 has_technology_researched = metallic_cartridge_casings
                             }
+                            has_technology_researched = portable_automatic_firearms
                         }
                     }
                     add_technology_researched = metallic_cartridge_casings
@@ -2238,28 +2277,10 @@ je_military_invention_progress = {
                 }
 
 
-                else_if = {
-                    limit = {
-                        AND = {
-                            NOT = {
-                                has_technology_researched = portable_automatic_firearms
-                            }
-                            has_technology_researched = composite_armor_plating
-                        }
-                    }
-                    add_technology_researched = portable_automatic_firearms
-                    scope:journal_entry = {
-                        add_progress = {
-                            name = invention_military_progress_bar
-                            value = -100
-                        }
-                    }
-                }
-
             }
         }
     }
     complete = {
-        has_technology_researched = portable_automatic_firearms
+        has_technology_researched = composite_armor_plating
     }
 }
