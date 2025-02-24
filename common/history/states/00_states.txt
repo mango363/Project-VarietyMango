@@ -7392,6 +7392,7 @@ STATES = {
 		
 		add_homeland = cu:inuit
 		add_homeland = cu:siberian
+		add_claim = c:KOC
 	}
 	s:STATE_NENETSIA = {
 		create_state = {
