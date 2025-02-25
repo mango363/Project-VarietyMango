@@ -1,13 +1,28 @@
 ﻿CHARACTERS = {
 	c:PUM ?= {
 		create_character = {
+			first_name = Frederick
+			last_name = von_Hohenzollern
+			historical = yes
+			female = no
+			ruler = yes
+			dna = dna_oldfritz
+			culture = cu:north_german
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			traits = {
+				ambitious
+			}
+		}
+		create_character = {
 			first_name = Sigismund
 			last_name = Greifen
 			historical = yes
 			female = no
-			ruler = yes
+			heir = yes
 			birth_date = 1805.1.11
-			culture = cu:north_roman
+			culture = cu:north_german
 			ig_leader = yes
 			interest_group = ig_armed_forces
 
