@@ -112,15 +112,15 @@ dna_oldfritz={
 			eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
 			eye_lashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
 			teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
-			coats={ "american_coats" 255 "all_coats" 0 }
+			coats={ "male_coat_american_01" 1 "all_coats" 0 }
 			medals={ "generic_medals" 142 "all_medals" 0 }
 			belts={ "all_belts" 0 "all_belts" 0 }
 			waistcoats={ "no_waistcoat" 0 "all_waistcoats" 0 }
 			top_layer={ "no_top_layer" 209 "all_top_layers" 0 }
 			necklaces={ "no_necklace" 0 "all_necklaces" 0 }
 			aiguillettes={ "no_aiguillettes" 0 "all_aiguillettes" 0 }
-			legwear={ "south_american_legwear" 0 "all_legwear" 0 }
-			headgear={ "european_admiral_headgear" 0 "all_headgear" 0 }
+			legwear={ "south_american_legwear" 1 "all_legwear" 0 }
+			headgear={ "bicorn_hat" 0 "all_headgear" 0 }
 		}
 	}
 	enabled = yes

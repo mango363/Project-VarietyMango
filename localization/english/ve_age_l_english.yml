@@ -75,3 +75,5 @@
  ve_golden_age_tt: "#Y Complete at least 5 age objectives"
  ve_age_obj_efct_tt: "#Y +2 Splendor per month if objective is completed"
  splendor_default_bonus: "Have at least 800 Splendor"
+
+ commander_rank_ruler_fallback:0 "$commander_rank_ruler$"

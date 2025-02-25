@@ -1,0 +1,23 @@
+CHARACTERS = {
+	c:PR1 = {
+		create_character = {
+			first_name = Frederick_II
+			last_name = von_Hohenzollern
+			historical = yes
+			female = no
+			ruler = yes
+			is_general = yes
+			dna = dna_oldfritz
+			culture = cu:north_german
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			commander_rank = default		# commander rank if this character would be a military commander
+			traits = {
+				ambitious
+				meticulous
+				basic_offensive_planner
+			}
+		}
+	}
+}

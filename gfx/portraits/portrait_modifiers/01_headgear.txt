@@ -530,6 +530,28 @@ headgear = {
         }
     }
 
+    european_bicorn_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_bicorn_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                european_clothes_trigger = yes
+                agitator_character_trigger = no
+                scope:character = {
+                    has_role = general
+                }
+            }
+        }
+    }
+
     european_admiral_headgear = {
         dna_modifiers = {
             accessory = {

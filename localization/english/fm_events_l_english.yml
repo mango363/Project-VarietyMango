@@ -946,7 +946,7 @@
   fm_fru_oc.1.b: "We do not have the time or the resources to fight to keep those lands, if the [GetCulture('occitan').GetName] people want independence, they shall have it."
 
   fm_sae.1.t: "The Sassanid Empire"
-  fm_sae.1.d: "Following the fall of the Sassanid Empire, remnants of the dynasty found themselves governing a small territory under Seljuk rule, but they eventually regained a significant foothold in Persia after the Seljuks' decline"
+  fm_sae.1.d: "Following the fall of the Sassanid Empire, remnants of the dynasty found themselves governing a small territory under Seljuk rule, but they eventually regained a significant foothold in Persia after the Seljuks's decline"
   fm_sae.1.f: "Despite this resurgence, the pervasive influence of Islam and the recent conversion of the Sassanid Emperor, [ROOT.GetCountry.GetRuler.GetFullName], posed significant challenges, triggering a profound crisis as the Empire struggled to reconcile its [GetReligion('zoroastrian').GetName] heritage with the rising spread of the new faith and its societal transformations."
   fm_sae.1.a: "Difficult times are ahead of us"
   fm_sae.2.t: "The End of the War"
