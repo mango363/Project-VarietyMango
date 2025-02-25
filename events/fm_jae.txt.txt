@@ -1,0 +1,343 @@
+namespace = fm_jae
+fm_jae.1 = { 
+	type = country_event
+	placement = ROOT
+	title = fm_jae.1.t
+	desc = fm_jae.1.d
+	flavor = fm_jae.1.f
+	duration = 3
+	event_image = {
+		video = "asia_farmers_market"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	trigger = {
+	}
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		if = {
+			limit = {
+				c:IPJ ?= this
+			}
+			trigger_event = {
+				id = fm_jae.2
+				days = 22
+			}
+		}
+		if = {
+			limit = {
+				c:ODU ?= this
+			}
+			trigger_event = {
+				id = fm_jae.3
+				days = 22
+			}
+		}
+		if = {
+			limit = {
+				c:SAU ?= this
+			}
+			trigger_event = {
+				id = fm_jae.4
+				days = 22
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					c:SAU ?= this
+					c:ODU ?= this
+					c:IPJ ?= this
+					c:TAK ?= this
+					c:TSU ?= this
+					c:SAB ?= this
+					c:KAW ?= this
+					c:TKT ?= this
+				}
+			}
+			trigger_event = {
+				id = fm_jae.5
+				days = 22
+			}
+		}
+	}
+	option = {
+		name = fm_jae.1.a
+		default_option = yes
+	}
+}
+fm_jae.2 = { #death emp
+	type = country_event
+	placement = ROOT
+	title = fm_jae.2.t
+	desc = fm_jae.2.d
+	flavor = fm_jae.2.f
+	duration = 1
+	event_image = {
+		video = "asia_confucianism_shinto"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		ruler = {
+			kill_character = yes
+		}
+	}
+	option = {
+		name = fm_jae.2.a
+		default_option = yes
+	}
+}
+fm_jae.3 = { #oda 
+	type = country_event
+	placement = ROOT
+	title = fm_jae.3.t
+	desc = fm_jae.3.d
+	flavor = fm_jae.3.f
+	duration = 1
+	event_image = {
+		video = "asia_confucianism_shinto"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		trigger_event = {
+			id = fm_jae.6
+			days = 10
+		}
+	}
+	option = {
+		name = fm_jae.3.a
+		default_option = yes
+	}
+}
+fm_jae.4 = { #sau
+	type = country_event
+	placement = ROOT
+	title = fm_jae.4.t
+	desc = fm_jae.4.d
+	flavor = fm_jae.4.f
+	duration = 1
+	event_image = {
+		video = "asia_confucianism_shinto"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		trigger_event = {
+			id = fm_jae.7
+			days = 11
+		}
+	}
+	option = {
+		name = fm_jae.4.a
+		default_option = yes
+	}
+}
+fm_jae.5 = { #gen
+	type = country_event
+	placement = ROOT
+	title = fm_jae.5.t
+	desc = fm_jae.5.d
+	flavor = fm_jae.5.f
+	duration = 1
+	event_image = {
+		video = "asia_confucianism_shinto"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		trigger_event = {
+			id = fm_jae.8
+			days = 11
+		}
+	}
+	option = {
+		name = fm_jae.5.a
+		default_option = yes
+	}
+}
+fm_jae.6 = { #oda annex
+	type = country_event
+	placement = ROOT
+	title = fm_jae.6.t
+	desc = fm_jae.6.d
+	flavor = fm_jae.6.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		annex_with_incorporation = c:IPJ
+	}
+	option = {
+		name = fm_jae.6.a
+		default_option = yes
+	}
+}
+fm_jae.7 = { #sauchaos
+	type = country_event
+	placement = ROOT
+	title = fm_jae.7.t
+	desc = fm_jae.7.d
+	flavor = fm_jae.7.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KYUSHU
+			}
+			save_scope_as = kyushus
+		}
+	}
+	option = {
+		name = fm_jae.7.a
+		default_option = yes
+		s:STATE_KYUSHU = {
+			add_claim = root
+		}
+	}
+}
+fm_jae.8 = { #gen sub
+	type = country_event
+	placement = ROOT
+	title = fm_jae.8.t
+	desc = fm_jae.8.d
+	flavor = fm_jae.8.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+	}
+	option = {
+		name = fm_jae.8.a
+		default_option = yes
+		change_relations = {
+			country = c:ODU
+			value = -30
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+	option = {
+		name = fm_jae.8.b
+		c:ODU = {
+			create_diplomatic_pact = {
+				country = root
+				type = vassal
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+fm_jae.9 = { #je in
+	type = country_event
+	placement = ROOT
+	title = fm_jae.9.t
+	desc = fm_jae.9.d
+	flavor = fm_jae.9.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+		ig:ig_landowners = {
+			set_interest_group_name = ig_daimyo
+		}
+		set_variable = {
+			name = jaep_var
+			value = 0
+		}
+	}
+	option = {
+		name = fm_jae.9.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_jaep_daimyo
+		}
+		add_journal_entry = {
+			type = je_jaep_army
+		}
+		add_journal_entry = {
+			type = je_jaep_diplomacy
+		}
+		add_journal_entry = {
+			type = je_jaep_economy
+		}
+	}
+}
+
+fm_jae.10 = { #no dai
+	type = country_event
+	placement = ROOT
+	title = fm_jae.10.t
+	desc = fm_jae.10.d
+	flavor = fm_jae.10.f
+	duration = 3
+	event_image = {
+		video = "ep1_printing_press"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/invention_icons/romanticism.dds"
+	immediate = {
+		sr:region_japan = {
+			save_scope_as = japan_region
+		}
+	}
+	option = {
+		name = fm_jae.10.a
+		default_option = yes
+		add_loyalists = {
+			value = 0.5
+			pop_type = academics
+		}
+		ig:ig_landowners = {
+			add_modifier = {
+				name = endofda
+				months = 120
+			}
+		}
+	}
+}
