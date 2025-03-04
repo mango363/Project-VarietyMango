@@ -19,6 +19,13 @@ building_gold_mine = {
 		pmg_steam_automation_building_gold_mine
 		pmg_train_automation_building_gold_mine
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -42,6 +49,7 @@ building_gold_fields = {
 	production_method_groups = {
 		pmg_base_building_gold_fields
 	}
+
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -64,6 +72,13 @@ building_coal_mine = {
 		pmg_steam_automation_building_coal_mine
 		pmg_train_automation_building_coal_mine
 		pmg_invention_building_mining_industry_coal
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
 	}
 	ownership_type = self
 
@@ -89,6 +104,13 @@ building_iron_mine = {
 		pmg_train_automation_building_iron_mine
 		pmg_invention_building_mining_industry_iron
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -112,6 +134,13 @@ building_lead_mine = {
 		pmg_train_automation_building_lead_mine
 		pmg_invention_building_mining_industry_lead
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -134,6 +163,13 @@ building_sulfur_mine = {
 		pmg_steam_automation_building_sulfur_mine
 		pmg_train_automation_building_sulfur_mine
 		pmg_invention_building_mining_industry_sulfur
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
 	}
 	ownership_type = self
 

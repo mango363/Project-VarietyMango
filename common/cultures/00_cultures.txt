@@ -2,6 +2,12 @@
 	color= rgb{ 62 77 100 }
 	religion = protestant
 	traits = { german_speaking european_heritage }
+	obsessions = {
+		tobacco
+		porcelain
+		meat
+	}
+
 	male_common_first_names={
 		Adelbert Adolf Albrecht Alexander Alfred August
 		Bernhard Burkhard Bruno		
@@ -123,6 +129,11 @@ south_german={
 	color= hsv{ 0.50 0.43 0.45 }
 	religion = catholic
 	traits = { german_speaking european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}
+
 	male_common_first_names={
 		Adolf Albrecht Alexander Alfons Alois Anton Arthur Albert Arnulf
 		Bernhard Benignus
@@ -339,6 +350,8 @@ dutch_colonial={
 	traits = { dutch_speaking american_settler european_heritage }
 	obsessions = {
 		spice
+		coffee
+		tobacco
 	}
 	male_common_first_names={
 		Dutch
@@ -594,6 +607,9 @@ dutch={
 	traits = { beneluxian_culture_group dutch_speaking european_heritage }
 	obsessions = {
 		spice
+		meat
+		coffee
+		tobacco
 	}
 	male_common_first_names={
 		Abraham
@@ -845,6 +861,13 @@ flemish={
 	color= rgb{ 43 141 172 }
 	religion = catholic
 	traits = { european_heritage dutch_speaking }
+	obsessions = {
+		spice
+		wine
+		meat
+		coffee
+	}
+
 	male_common_first_names={
 		Adolf
 		Adolphe
@@ -1116,6 +1139,14 @@ wallonian={
 	color= hsv{ 0.74 0.59 0.74 }
 	religion = catholic
 	traits = { beneluxian_culture_group francophone european_heritage }
+	obsessions = {
+		wine
+		meat
+		tea
+		fruit
+		coffee
+	}
+
 	male_common_first_names={
 		Albert
 		Alexandre
@@ -1491,6 +1522,12 @@ alemannic={
 	color= hsv{ 0.0 0.47 0.70 }
 	religion = protestant
 	traits = { german_speaking swiss european_heritage }
+	obsessions = {
+		liquor
+		coffee
+		tobacco
+	}
+
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
@@ -1578,7 +1615,10 @@ swedish={
 	religion = protestant
 	traits = { scandinavian_culture_group european_heritage }
 	obsessions = {
+		wine
 		liquor
+		meat
+		tobacco
 	}
 
 	male_common_first_names={
@@ -1697,6 +1737,11 @@ danish={
 	color= hsv{ 0 0.51 0.86 }
 	religion = protestant
 	traits = { scandinavian_culture_group norse european_heritage }
+	obsessions = {
+		liquor
+		meat
+		tobacco
+	}
 	male_common_first_names={
 		Aasmund
 		Aage
@@ -1846,6 +1891,8 @@ norwegian={
 	traits = { scandinavian_culture_group european_heritage }
 	obsessions = {
 		liquor
+		meat
+		tobacco
 	}
 	male_common_first_names={
 		Adrian Alfred Amund Anders Andreas Arne Arve August
@@ -2038,6 +2085,10 @@ icelandic={
 	color= hsv{ 0.74 0.46 0.58 }
 	religion = protestant
 	traits = { scandinavian_culture_group norse european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}
 	male_common_first_names={
 		Agnar
 		Bjorn_2
@@ -2111,6 +2162,12 @@ finnish={
 	color= hsv{ 0 0 0.86 }
 	religion = protestant
 	traits = { finnic scandinavian_culture_group european_heritage }
+	obsessions = {
+		liquor
+		meat
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Aatto
 		Abraham
@@ -2313,6 +2370,8 @@ british={ # "English" in localization
 	traits = { anglophone european_heritage }
 	
 	obsessions = {
+		coffee
+		spice
 		tea
 	}
 	
@@ -2453,6 +2512,12 @@ irish={
 	color= hsv{ 0.35 0.58 0.54 }
 	religion = catholic
 	traits = { celtic_people european_heritage }
+	obsessions = {
+		liquor
+		tobacco
+		fruit
+		meat
+	}
 	# could have anglophone but would make them non-discriminated in Britain
 	male_common_first_names={
 		Alexander
@@ -2758,6 +2823,9 @@ north_roman={
 	obsessions = {
 		wine
 		olive
+		meat
+		coffee
+		tobacco
 	}	
 	
 	male_common_first_names={
@@ -2839,6 +2907,8 @@ south_roman={
 	obsessions = {
 		wine
 		olive
+		coffee
+		meat
 	}	
 	
 	male_common_first_names={
@@ -2933,6 +3003,9 @@ greco_roman ={
 	obsessions = {
 		wine
 		olive
+		tobacco
+		coffee
+		tea
 	}	
 	
 	male_common_first_names = {
@@ -3213,6 +3286,12 @@ danubian = {
 		color= rgb{ 157 211 242 }
 		religion = orthodox
 		traits = { european_heritage }
+		obsessions = {
+			liquor
+			meat
+			coffee
+			tobacco
+		}	
 		male_common_first_names={
 			Alajos
 			Albert
@@ -3466,6 +3545,12 @@ moravian = {
 		color= rgb{ 204 170 57 }
 		religion = protestant
 		traits = { west_slavic european_heritage }
+		obsessions = {
+			liquor
+			meat
+			coffee
+			tobacco
+		}	
 		male_common_first_names = {
 			Abraham
 			Alexander
@@ -3736,6 +3821,9 @@ moravian = {
 		obsessions = {
 			wine
 			olive
+			meat
+			tobacco
+			coffee
 		}	
 		
 		male_common_first_names={
@@ -3818,6 +3906,9 @@ venetian={
 		wine
 		olive
 		spice
+		coffee
+		tobacco
+		meat
 	}	
 	
 	male_common_first_names={
@@ -3983,6 +4074,12 @@ maltese={
 	color= hsv{ 0.40 0.03 0.58 }
 	religion = catholic
 	traits = { italophone european_heritage }
+	obsessions = {
+		wine
+		olive
+		coffee
+		tea
+	}
 	male_common_first_names={
 		Alessandru
 		Beru
@@ -4183,6 +4280,9 @@ andalusian={
 
 	obsessions = {
 		olive
+		tobacco
+		meat
+		fruit
 	}	
 
 	male_common_first_names={
@@ -4367,6 +4467,10 @@ spanish={
 
 	obsessions = {
 		olive
+		wine
+		tobacco
+		coffee
+		meat
 	}	
 
 	male_common_first_names={
@@ -4551,6 +4655,8 @@ catalan={
 
 	obsessions = {
 		olive
+		wine
+		coffee
 	}
 
 	male_common_first_names={
@@ -4702,6 +4808,10 @@ portuguese={
 	obsessions = {
 		olive
 		spice
+		wine
+		tea
+		coffee
+		tobacco
 	}
 	male_common_first_names={
 		Abel
@@ -4910,6 +5020,9 @@ french={
 	
 	obsessions = {
 		wine
+		tobacco
+		coffee
+		meat
 	}
 	
 	male_common_first_names={
@@ -5028,6 +5141,7 @@ burgundian={
 	
 	obsessions = {
 		wine luxury_clothes luxury_furniture
+		coffee fine_art meat fruit spice
 	}
 	
 	male_common_first_names={
@@ -5150,6 +5264,9 @@ occitan={
 	obsessions = {
 		wine
 		olive
+		coffee
+		fruit
+
 	}
 
 	male_common_first_names={
@@ -5219,6 +5336,12 @@ breton={
 	color= hsv{ 0.16 0.39 0.95 }
 	religion = catholic
 	traits = { francophone celtic_people european_heritage }
+	obsessions = {
+		liquor
+		wine
+		tobacco
+		meat
+	}	
 	male_common_first_names={
 		Aimery
 		Alphonse
@@ -5312,6 +5435,11 @@ croat={
 	color= hsv{ 0.66 0.06 0.74 }
 	religion = catholic
 	traits = { jugoslav european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Andrija
 		Antun
@@ -5449,6 +5577,11 @@ serb={
 	color= hsv{ 0.97 0.26 0.58 }
 	religion = orthodox
 	traits = { jugoslav european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Alaksandar
 		Arsenije
@@ -5610,6 +5743,12 @@ bulgarian={
 	color= hsv{ 0.40 0.26 0.58 }
 	religion = orthodox
 	traits = { jugoslav european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+		olive
+	}	
 	male_common_first_names={
 		Aleksandar
 		Andrey
@@ -5739,6 +5878,9 @@ albanian={
 	traits = { albanian_language european_heritage }
 	obsessions = {
 		olive
+		tobacco
+		liquor
+		meat
 	}
 	male_common_first_names={
 		Ahmet
@@ -5884,6 +6026,11 @@ slovene={
 	color= rgb{ 159 174 96 }
 	religion = catholic
 	traits = { jugoslav european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Alenka
 		Alfonz
@@ -6031,6 +6178,11 @@ bosniak={
 	color= hsv{ 0.50 0.55 0.58 }
 	religion = orthodox
 	traits = { jugoslav european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Abdulvehhab
 		Adnan
@@ -6161,6 +6313,13 @@ romanian={
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = orthodox
 	traits = { romanian_culture_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+		olive
+		wine
+	}	
 	male_common_first_names={
 		Adrian Alexandru Andrei Anton Artur Atanasie
 		Bogdan
@@ -6239,6 +6398,10 @@ hungarian={
 	color= hsv{ 0.25 0.22 0.99 }
 	religion = catholic
 	traits = { hungarian_culture_group european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Alajos
 		Albert
@@ -6381,6 +6544,10 @@ polish={
 	color= hsv{ 0 0.22 0.5 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Adam
 		Aleksander
@@ -6533,6 +6700,11 @@ lithuanian={
 	color= hsv{ 0.42 0.48 0.83 }
 	religion = catholic
 	traits = { baltic_culture_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Adolfas
 		Aleksandras
@@ -6683,6 +6855,11 @@ czech={
 	color= hsv{ 0.66 0.32 0.99 }
 	religion = protestant
 	traits = { west_slavic european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Abraham
 		Alexander
@@ -6828,6 +7005,11 @@ slovak={
 	color= hsv{ 0.50 0.32 0.79 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Albin
 		Alexander
@@ -6970,6 +7152,7 @@ russian={
 	traits = { east_slavic european_heritage }
 	obsessions = {
 		liquor
+		meat
 	}
 	male_common_first_names={
 		Aleksandr Alexei Andrei Anton
@@ -7081,6 +7264,11 @@ byelorussian={
 	color= hsv{ 0.37 0.28 0.54 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}
+
 	male_common_first_names={
 		Alaksandr
 		Alexei
@@ -7174,6 +7362,11 @@ ukrainian={
 	color= hsv{ 0.16 0.32 0.62 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
+	obsessions = {
+		liquor
+		meat
+	}
+
 	male_common_first_names={
 		Alexei
 		Andrei
@@ -7327,6 +7520,11 @@ latvian={
 	color= hsv{ 0.96 0.59 0.63 }
 	religion = protestant
 	traits = { baltic_culture_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Aaron
 		Abrams
@@ -7475,6 +7673,11 @@ estonian={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = protestant
 	traits = { finnic baltic_culture_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Aadu
 		Alar
@@ -7628,6 +7831,8 @@ greek={
 	obsessions = {
 		wine
 		olive
+		meat
+		fruit
 	}	
 	
 	male_common_first_names = {
@@ -7739,6 +7944,11 @@ georgian={
 	color= hsv{ 0.33 0.26 0.43 }
 	religion = orthodox
 	traits = { caucasus_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Akaki
 		Alexander
@@ -7881,6 +8091,11 @@ armenian={
 	color= hsv{ 0.15 0.55 0.52 }
 	religion = oriental_orthodox
 	traits = { caucasus_group european_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour Atom Andranik Avetis
 		Barsegh Benyamin Boghos
@@ -8040,6 +8255,8 @@ turkish={
 	traits = { turkic middle_eastern_heritage }
 	obsessions = {
 		coffee
+		tea
+		olive
 	}
 	male_common_first_names={
 		Abdulhamid
@@ -8197,6 +8414,7 @@ azerbaijani={
 	traits = { caucasus_group turkic middle_eastern_heritage }
 	obsessions = {
 		spice
+		liquor
 	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
@@ -8242,6 +8460,11 @@ north_caucasian={
 	color= hsv{ 0.17 0.26 0.99 }
 	religion = sunni
 	traits = { caucasus_group middle_eastern_heritage }
+	obsessions = {
+		tobacco
+		liquor
+		meat
+	}	
 	male_common_first_names={
 		Aslan
 		Hamza
@@ -8290,6 +8513,11 @@ maghrebi={
 	color= hsv{ 0.32 0.58 0.30 }
 	traits = { arab_speaking middle_eastern_heritage }
 	religion = sunni
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Abd_Allah
 		Abd_al-Karim
@@ -8397,6 +8625,11 @@ marakh={
 	color= { 255  234  168 }
 	traits = { arab_speaking middle_eastern_heritage }
 	religion = sunni
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Abd_Allah
 		Abd_al-Karim
@@ -8505,6 +8738,8 @@ misri={
 	religion = sunni
 	obsessions = {
 		coffee
+		fruit
+		tea olive
 	}
 	traits = { arab_speaking middle_eastern_heritage }
 	male_common_first_names={
@@ -8611,6 +8846,8 @@ mashriqi={
 	traits = { arab_speaking middle_eastern_heritage }
 	obsessions = {
 		coffee
+		fruit
+		tea
 	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
@@ -8753,6 +8990,11 @@ berber={ # Amazigh
 	color= hsv{ 0.20 0.55 0.45 }
 	religion = sunni
 	traits = { arab_speaking middle_eastern_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Abd_al-Karim
 		Ahmed
@@ -8804,6 +9046,9 @@ phoenician={
 	obsessions = {
 		olive
 		spice
+		fruit
+		tobacco
+		coffee
 	}	
 	
 	male_common_first_names={
@@ -8980,6 +9225,11 @@ kirgiz={
 	color={ 62 73 41 }
 	religion = zoroastrian
 	traits = { iranian_turanian_culture_group central_asian_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
 		Artin Ramak Ardvan Ardafravash Isatvastra Andya Ardaviraf Dravasp Parbeen Abarja Farrokh Dadbandad 
@@ -9024,6 +9274,11 @@ tajik={
 	color={ 122 127 111 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Abbas
 		Abdolazim
@@ -9083,6 +9338,11 @@ uighur={
 	color=rgb{ 84 92 109 }
 	religion = zoroastrian
 	traits = { iranian_turanian_culture_group central_asian_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
 		Artin Ramak Ardvan Ardafravash Isatvastra Andya Ardaviraf Dravasp Parbeen Abarja Farrokh Dadbandad 
@@ -9315,6 +9575,11 @@ kurdish={
 	color= hsv{ 0.59 0.51 0.79 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
 		Artin Ramak Ardvan Ardafravash Isatvastra Andya Ardaviraf Dravasp Parbeen Abarja Farrokh Dadbandad 
@@ -9359,6 +9624,11 @@ tatar={
 	color= hsv{ 0.53 0.24 0.28 }
 	religion = sunni
 	traits = { turkic central_asian_heritage }
+	obsessions = {
+		coffee
+		fruit
+		tea
+	}
 	male_common_first_names={
 		Asaf
 		Baqi
@@ -9412,6 +9682,12 @@ mongol={
 	color= rgb{ 74 125 155 }
 	religion = gelugpa
 	traits = { north_asian_heritage mongol_language }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names={
 		Badamdorj
 		Balingiin
@@ -9467,6 +9743,12 @@ kalmyk={
 	color= rgb{ 250 182 3 }
 	religion = gelugpa
 	traits = { central_asian_heritage mongol_language }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names={
 		Badamdorj
 		Balingiin
@@ -9522,6 +9804,11 @@ siberian={
 	color= hsv{ 0.50 0.50 0.84 }
 	religion = animist
 	traits = { north_asian_heritage siberian_culture_group }
+	obsessions = {
+		liquor
+		fruit
+		meat
+	}
 	male_common_first_names={
 		Afanasiy
 		Aleksandr
@@ -9564,6 +9851,11 @@ yakut={
 	color= hsv{ 0.24 0.49 0.50 }
 	religion = animist
 	traits = { turkic north_asian_heritage siberian_culture_group }
+	obsessions = {
+		liquor
+		fruit
+		meat
+	}
 	male_common_first_names={
 		Aysen
 		Aytal
@@ -9602,6 +9894,7 @@ tibetan={
 	
 	obsessions = {
 		tea
+		fruit
 	}
 	
 	traits = { tibetan_language himalayan east_asian_heritage }
@@ -9649,6 +9942,12 @@ assamese={
 	color= hsv{ 0.58 0.28 0.61 }
 	religion = hindu
 	traits = { south_asian_heritage northeast_indian }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		spice
+	}
 	male_common_first_names={
 		Chandraka
 		Daman
@@ -9693,6 +9992,9 @@ bengali={
 
 	obsessions = {
 		spice
+		tea
+		fruit
+		liquor
 	}	
 	
 	male_common_first_names={
@@ -9741,6 +10043,13 @@ bihari={
 	traits = { south_asian_heritage indo_aryan_language }
 	obsessions = {
 		spice
+		tea
+		fruit
+	}
+	obsessions = {
+		spice
+		tea
+		fruit
 	}	
 	
 	male_common_first_names={
@@ -9787,7 +10096,9 @@ manipuri={
 	traits = { southeast_asian_heritage northeast_indian }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Bekendra
 		Chandrakirti
@@ -9835,8 +10146,10 @@ nepali={
 	traits = { himalayan south_asian_heritage }
 	
 	obsessions = {
+		spice
 		tea
-	}
+		fruit
+	}	
 	
 	male_common_first_names={
 		Amar
@@ -9894,7 +10207,9 @@ oriya={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Birakishoredeva
 		Dibvyasimhadeva
@@ -9934,6 +10249,11 @@ sinhala={
 	color= hsv{ 0.99 0.27 0.29 }
 	religion = theravada
 	traits = { south_asian_heritage indo_aryan_language  }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Anagarika
 		Kirtisri
@@ -9974,6 +10294,11 @@ avadhi={
 	color= hsv{ 0.10 0.44 0.35 }
 	religion = sunni
 	traits = { south_asian_heritage indo_aryan_language  }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -10016,7 +10341,9 @@ kanauji={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -10052,6 +10379,11 @@ panjabi={
 	color= hsv{ 0.08 0.10 0.74 }
 	religion = sikh
 	traits = { south_asian_heritage indo_aryan_language  }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Baba Banda Bhuma
 		Banda
@@ -10108,6 +10440,11 @@ kashmiri={
 	color= hsv{ 0.78 0.26 0.78 }
 	religion = sunni
 	traits = { south_asian_heritage indo_aryan_language  }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Abdullah
 		Atta
@@ -10155,7 +10492,9 @@ gujarati={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Anand
 		Balwantry
@@ -10203,7 +10542,9 @@ marathi={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Bajirao
 		Balaji
@@ -10266,7 +10607,9 @@ sindi={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
 		Artin Ramak Ardvan Ardafravash Isatvastra Andya Ardaviraf Dravasp Parbeen Abarja Farrokh Dadbandad 
@@ -10313,7 +10656,9 @@ rajput={
 	traits = { south_asian_heritage indo_aryan_language  }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Bhagwant
 		Bhai
@@ -10365,6 +10710,11 @@ kannada={
 	color= hsv{ 0.72 0.51 0.66 }
 	religion = sunni
 	traits = { south_asian_heritage dravidian }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Abbakka
 		Aliya
@@ -10418,7 +10768,9 @@ malayalam={
 	traits = { south_asian_heritage dravidian }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Ayilyam
 		Balarama
@@ -10461,7 +10813,9 @@ tamil={
 	traits = { south_asian_heritage dravidian }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Champakaraman
 		Chidambaram
@@ -10510,7 +10864,9 @@ telegu={
 	traits = { south_asian_heritage dravidian }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Alluri
 		Durgabai
@@ -10556,7 +10912,9 @@ vietnamese={
 	traits = { sinosphere southeast_asian_heritage }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Bui_An
 		Nguyen
@@ -10610,7 +10968,9 @@ khmer={
 	traits = { khmer_language southeast_asian_heritage }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Ang
 		Norodom
@@ -10656,7 +11016,9 @@ batak={
 	traits = { southeast_asian_heritage malay_culture }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -10709,7 +11071,9 @@ dayak={
 	traits = { southeast_asian_heritage malay_culture }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Daud
 		Haimie
@@ -10768,6 +11132,12 @@ malagasy={
 	color= hsv{ 0.35 0.26 0.64 }
 	religion = animist
 	traits = { malagasy_language african_heritage }
+	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Andriamanely
 		Andriantsirotso
@@ -10817,7 +11187,9 @@ filipino={
 	traits = { southeast_asian_heritage yamato malay_culture }
 	obsessions = {
 		spice
-	}
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -10995,8 +11367,12 @@ moro={
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Aliyud_Din
 		Shakirul_Lah
@@ -11091,8 +11467,12 @@ javan={
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Abul Abdurrahman Ahmad Amir Anom Arifin
 		Bambang
@@ -11149,8 +11529,12 @@ moluccan={
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Denny
 		Dominggus
@@ -11194,8 +11578,12 @@ thai={
 	religion = theravada
 	traits = { tai southeast_asian_heritage }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Chao Chulalongkorn Charoon
 		Kashemsri
@@ -11253,8 +11641,12 @@ mon={
 	religion = theravada
 	traits = { southeast_asian_heritage khmer_language }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Laik-Gi
 		Taksin
@@ -11288,8 +11680,12 @@ khmu={
 	religion = animist
 	traits = { southeast_asian_heritage khmer_language }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Anurutha
 		Chantha
@@ -11338,8 +11734,12 @@ lao={
 	religion = theravada
 	traits = { tai southeast_asian_heritage }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Anurutha
 		Chantha
@@ -11388,8 +11788,12 @@ shan={
 	religion = theravada
 	traits = { southeast_asian_heritage tai }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Hkam
 		Hkun
@@ -11444,8 +11848,12 @@ burmese={
 	religion = theravada
 	traits = { burmese_language southeast_asian_heritage }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Alaungphaya
 		Bodawphaya
@@ -11491,8 +11899,12 @@ kachin={
 	religion = animist
 	traits = { burmese_language southeast_asian_heritage }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Ding
 		Duwa
@@ -11535,8 +11947,12 @@ karen={
 	religion = theravada
 	traits = { burmese_language southeast_asian_heritage }
 	obsessions = {
+		coffee
+		tobacco
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Hkun
 		La
@@ -11583,6 +11999,12 @@ japanese={
 	color= hsv{ 0 0 90 }
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
+	obsessions = {
+		fish
+		tea
+		porcelain
+		fruit
+	}	
 	male_common_first_names={
 		Narioki
 		Aritomo
@@ -11775,6 +12197,12 @@ manchu={
 	color= rgb{ 233 207 84 }
 	religion = confucian
 	traits = { sinosphere north_asian_heritage }
+	obsessions = {
+		meat
+		tea
+		fruit
+		spice
+	}	
 	male_common_first_names={
 		Changlin
 		Deng
@@ -11853,8 +12281,11 @@ han={
 	traits = { sinosphere han_chinese east_asian_heritage }
 	obsessions = {
 		opium
+		meat
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Chen
 		Cheng
@@ -11933,6 +12364,13 @@ korean={
 	color= hsv{ 0.17 0.41 0.34 }
 	religion = confucian
 	traits = { korean_language east_asian_heritage }
+	obsessions = {
+		fish
+		meat
+		tea
+		fruit
+		spice
+	}	
 	male_common_first_names={
 		Bak Bong-haek
 		Chwa-chin
@@ -12016,6 +12454,13 @@ ainu={
 	color= hsv{ 0 0 0.5 }
 	religion = animist
 	traits = { ainu_language north_asian_heritage }
+	obsessions = {
+		opium
+		meat
+		tea
+		fruit
+		spice
+	}	
 	male_common_first_names={
 		Akihi
 		Apniainu
@@ -12198,8 +12643,12 @@ min={
 	religion = confucian
 	traits = { han_chinese east_asian_heritage }
 	obsessions = {
+		opium
+		fish
+		tea
+		fruit
 		spice
-	}
+	}	
 	male_common_first_names={
 		Bing
 		Chen
@@ -12318,6 +12767,10 @@ yi={
 	color= hsv{ 0.91 0.51 0.52 }
 	religion = animist
 	traits = { tibetan_language east_asian_heritage }
+	obsessions = {
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Chen
 		Cheng
@@ -12396,6 +12849,13 @@ yue={
 	color= hsv{ 0.80 0.36 0.39 }
 	religion = confucian
 	traits = { han_chinese east_asian_heritage}
+	obsessions = {
+		opium
+		fish
+		tea
+		fruit
+		spice
+	}	
 	male_common_first_names={
 		Chen
 		Cheng
@@ -12474,6 +12934,13 @@ polynesian={
 	color= hsv{ 0.73 0.49 0.65 }
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
+	obsessions = {
+		fish
+		meat
+		tea
+		fruit
+		spice
+	}	
 	male_common_first_names={
 		Finau
 		Havaiki
@@ -12530,6 +12997,10 @@ hawaiian={ #
 	color= hsv{ 0.29 0.26 0.60 }
 	religion = mahayana
 	traits = { polynesian_group indigenous_oceanic_heritage }
+	obsessions = {
+		tea
+		fruit
+	}	
 	male_noble_first_names = {
 		Alapa_imaloiki _Aikanaka
 		Eia
@@ -12655,6 +13126,12 @@ micronesian={
 	color= hsv{ 0.35 0.38 0.83 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage polynesian_group }
+	obsessions = {
+		fish
+		meat
+		tea
+		fruit
+	}	
 	male_common_first_names={
 		Aghurubw
 		Aweijeda
@@ -12709,6 +13186,10 @@ maori={
 	color= hsv{ 0.74 0.32 0.63 }
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
+	obsessions = {
+		fish
+		fruit
+	}	
 	male_common_first_names={
 		Auha
 		Koroki
@@ -12843,6 +13324,11 @@ wunambal={ # Aboriginal
 	color= { 122 158 196 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian nor_wor }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}	
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -12905,6 +13391,12 @@ gija={ # Aboriginal
 	color= { 50 91 135 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian gija_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+		porcelain
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -12967,6 +13459,11 @@ wadjari={ # Aboriginal
 	color= { 29 150 81 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13029,6 +13526,11 @@ nyungar={ # Aboriginal
 	color= { 10 128 32 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13091,6 +13593,11 @@ wati={ # Aboriginal
 	color= { 87 161 101 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13153,6 +13660,11 @@ ngandatha={ # Aboriginal
 	color= { 26 156 51 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian nyungar_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13215,6 +13727,11 @@ nauo={ # Aboriginal
 	color= { 110 35 47 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian thura_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13277,6 +13794,11 @@ kaurna={ # Aboriginal
 	color= { 176 9 36 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian thura_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13339,6 +13861,11 @@ gunaikurnai={ # Aboriginal
 	color= { 34 44 112 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian gaanay_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13402,6 +13929,12 @@ jagera={
 	color= { 186 94 7 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian yuggera_speaker }
+	obsessions = {
+		tea
+		fruit
+		fish
+		porcelain
+	}
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -13465,6 +13998,11 @@ zapotec={
 	color= hsv{ 0.32 0.29 0.78 }
 	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Citlalli
 		Citlalic
@@ -13537,6 +14075,11 @@ mayan={
 	color= hsv{ 0.69 0.08 0.55 }
 	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Ixchel
 		Kukulkan 
@@ -13628,6 +14171,11 @@ nahua={
 	color= hsv{ 0.47 0.29 0.38 }
 	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Ixchel
 		Kukulkan 
@@ -13710,6 +14258,11 @@ tarascan={
 	color= hsv{ 0.50 0.24 0.75 }
 	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Ixchel
 		Kukulkan 
@@ -13795,6 +14348,11 @@ quechua={
 	color= hsv{ 0.10 0.22 0.69 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Yáhuar Huácac
 		Huayna
@@ -13869,6 +14427,11 @@ guarani={
 	color= rgb{ 194 109 46 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Aniceto
 		Antonio
@@ -13965,6 +14528,11 @@ aimara={
 	color= hsv{ 0.02 0.57 0.74 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -14063,6 +14631,11 @@ amazonian={
 	color= hsv{ 0.38 0.58 0.59 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Anibal
 		Augusto
@@ -14156,6 +14729,11 @@ patagonian={
 	color=hsv{ 0.23 0.24 0.9 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Agustin
 		Antonio
@@ -14391,6 +14969,9 @@ inuit={
 	color= hsv{ 0.49 0.03 0.99 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
+	obsessions = {
+		fish
+	}
 	male_common_first_names={
 		Caubvick
 		David
@@ -14458,6 +15039,11 @@ mixtec={
 	color={ 150 80 70 }
 	religion = animist
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Agustin
 		Akbal
@@ -14604,7 +15190,11 @@ miskito = {
 	color={ 240 240 100 }
 	religion = animist
 	traits = { indigenous_american_heritage native_mesoamerican_culture_group }
-	
+	obsessions = {
+		fruit
+		fish
+		tobacco
+	}
 	male_common_first_names={
 		Alexander Albert
 		Bedford
@@ -14679,7 +15269,12 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	color={ 52 120 25 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
-	
+	obsessions = {
+		fruit
+		olive
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Antonio Aurelio
 		Brigido
@@ -15182,6 +15777,11 @@ central_american={
 	color= hsv{ 0.51 0.21 0.67 }
 	religion = protestant
 	traits = { celtic_people american_settler european_heritage }
+	obsessions = {
+		liquor
+		meat
+		tobacco
+	}
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
 		Benjamin
@@ -15300,6 +15900,12 @@ caribeno={
 	color= hsv { 0.9 0.4 0.47 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Alberto
 		Alejandro
@@ -15437,6 +16043,12 @@ north_andean={
 	color= hsv{ 0.20 0.35 0.41 }
 	religion = catholic
 	traits = { hispanophone american_settler european_heritage }
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Antonio
 		Camilo
@@ -15574,6 +16186,12 @@ south_andean={
 	color= hsv{ 0.45 0.15 0.61 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Adolfo Agustin Alejandro Andres Antonio Anibal
 		Bartolome Bernardo
@@ -15642,7 +16260,12 @@ peruvian = {
 	color= rgb{ 168 72 132 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Alejandro Adolfo Augusto Andres Aurelio A_ntero Angel Agustin Avelino
 		Benjamin_2 Benigno Belisario
@@ -15717,7 +16340,12 @@ bolivian = {
 	color= rgb{ 133 115 107 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Aniceto Adolfo Arturo Antonio Alfredo Alejandro AbdO_n Antenor Armando
 		Bautista Bartolome
@@ -15787,7 +16415,12 @@ ecuadorian = {
 	color= rgb{ 109 156 133 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Alberto Antonio Agustin Angel Aurelio Abelardo Alfredo Atanasio
 		Bartolome
@@ -15856,7 +16489,12 @@ chilean = {
 	color= rgb{ 183 62 40 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio Agustin AnI_bal Arturo Abraham Alfredo Alonso Anacleto Angel AbdO_n ArI_stides Alejandro
 		Bernardo Bartolome Belisario Bernardino
@@ -15930,7 +16568,12 @@ venezuelan={
 	color=rgb{ 67 48 175 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Andres Antonio Alejandro
 		Blas Buenaventura
@@ -16004,7 +16647,12 @@ argentine={
 	color=rgb{ 179 208 221 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Andres Agustin Alejo ArI_stides Alejandro Alberto Anselmo Alvaro
 		Bonifacio Bautista Benjamin_2 Bartolome
@@ -16072,7 +16720,12 @@ uruguayan={
 	color=rgb{ 213 210 187 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio Atanasio Alfredo Andres Agustin Angel
 		Bernardo Baltasar
@@ -16135,7 +16788,12 @@ paraguayan={
 	color=rgb{ 140 192 63 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio Adolfo Andres Alberto Abelardo
 		Bautista Bernardino Benigno Bonifacio
@@ -16203,7 +16861,12 @@ colombian={
 	color=rgb{ 47 78 185 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio AnI_bal Aquileo Agustin Ambrosio
 		Bartolome Buenaventura Benjamin_2
@@ -16272,6 +16935,12 @@ platinean={
 	color=rgb{ 88 99 133 }
 	religion = catholic
 	traits = { hispanophone american_settler european_heritage }
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Agustin Antonio Atanasio
 		Baltasar Bartolome Bernardino Bernardo
@@ -16363,6 +17032,8 @@ americano={
 	obsessions = {
 		wine
 		olive
+		coffee
+		tobacco
 	}
 	
 	male_common_first_names={
@@ -16444,6 +17115,9 @@ argentino={
 	obsessions = {
 		wine
 		olive
+		coffee
+		tobacco
+		meat
 	}
 	
 	male_common_first_names={
@@ -16521,6 +17195,12 @@ brazilian={
 	color= hsv{ 0.50 0.53 0.40 }
 	religion = catholic
 	traits = { lusophone american_settler european_heritage }
+	obsessions = {
+		olive
+		coffee
+		tobacco
+		spice
+	}
 	male_common_first_names={
 		Afonso
 		Antonio_3
@@ -16654,7 +17334,12 @@ sulista = {
 	color= hsv{ 0.50 0.40 0.53 }
 	religion = catholic
 	traits = { lusophone european_heritage }
-
+	obsessions = {
+		meat
+		spice
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		ApolinA_rio AparI_cio Artur AntA_o Alceu Antonio_3 AdA_o
 		Claudio_2 Carlos Candido Cipriano
@@ -16713,7 +17398,12 @@ nordestino = {
 	color= hsv{ 0.43 0.50 0.55 }
 	religion = catholic
 	traits = { lusophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Antero Agostinho Alexandre Antonio_3 AmE_rico Abelardo
 		Bernardo
@@ -16772,7 +17462,10 @@ amazonic = {
 	color= hsv{ 0.43 0.50 0.55 }
 	religion = catholic
 	traits = { lusophone european_heritage }
-
+	obsessions = {
+		meat
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio_3 AbraA_o AlcebI_ades Alberto Adriano Aldebaro AluI_sio
 		Bernardo Bruno Benedito
@@ -16827,7 +17520,12 @@ paulista = {
 	color= hsv{ 0.66 0.55 0.60 }
 	religion = catholic
 	traits = { lusophone european_heritage }
-
+	obsessions = {
+		meat
+		olive
+		spice
+		tobacco
+	}
 	male_common_first_names = {
 		Antonio_3 Ademar Agripino Agostinho Amador Augusto Afonso AmE_rico
 		Bento Bernardo Bartolomeu Balthazar
@@ -16892,6 +17590,10 @@ afro_american={
 	color= hsv{ 0.10 0.10 0.24 }
 	religion = protestant
 	traits = { african_heritage anglophone african_slave }
+	obsessions = {
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Albert Abraham Alexander Anthony Adam
 		Booker
@@ -16970,6 +17672,10 @@ afro_caribbean={
 	color= hsv{ 0.32 0.27 0.32 }
 	religion = protestant
 	traits = { african_heritage anglophone african_slave }
+	obsessions = {
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Anderson
 		Anselm
@@ -17074,6 +17780,11 @@ afro_caribeno={
 	color= hsv{ 0.33 0.45 0.32 }
 	religion = catholic
 	traits = { african_heritage hispanophone african_slave }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Antonio
 		Armando
@@ -17178,6 +17889,11 @@ afro_brazilian={
 	color= hsv{ 0.77 0.22 0.50 }
 	religion = catholic
 	traits = { african_heritage lusophone african_slave }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Afonso Aleixo Alexandre Andre Artur
 		Benedito
@@ -17256,6 +17972,12 @@ afro_antillean={
 	color= hsv{ 0.53 0.21 0.29 }
 	religion = catholic
 	traits = { african_heritage francophone african_slave }
+	obsessions = {
+		wine
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Alexis
 		Andre
@@ -17404,6 +18126,12 @@ akan={
 	color= hsv{ 0.70 0.43 0.47}
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
+
 	male_common_first_names={
 		Agyeman
 		Akyampon
@@ -17452,6 +18180,11 @@ bambara={
 	color= rgb{ 160 69 58 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Ben
 		Bina
@@ -17512,6 +18245,11 @@ bassa={
 	color= hsv{ 0.71 0.46 0.73 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names = {
 		Somayou
 		Zea
@@ -17537,6 +18275,11 @@ dyula={
 	color= hsv{ 0.64 0.36 0.7 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Al-Hajj
 		Famagan
@@ -17576,6 +18319,11 @@ edo={
 	color= hsv{ 0.63 0.32 0.6 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Adolo
 		Akenzua
@@ -17622,6 +18370,11 @@ ewe={
 	color= hsv{ 0.58 0.42 0.61 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Adika
 		Ametefe
@@ -17672,6 +18425,11 @@ fon={
 	color= hsv{ 0.05 0.45 0.73 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Adandozan
 		Agadja
@@ -17710,6 +18468,12 @@ fulbe={
 	color= hsv{ 0.54 0.52 0.53 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+		
+	}
 	male_common_first_names={
 		Abdullahi
 		Abubakar
@@ -17798,6 +18562,12 @@ hausa={
 	color= hsv{ 0.83 0.40 0.50 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+		tea
+	}
 	male_common_first_names={
 		Alhassan
 		Abdullah
@@ -17843,6 +18613,11 @@ ibibio={
 	color= hsv{ 0.27 0.26 0.61 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Agosi
 		Akpan
@@ -17897,6 +18672,11 @@ ibo={
 	color= hsv{ 0.72 0.55 0.75 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Anene
 		Azuka
@@ -17960,6 +18740,11 @@ kissi={
 	color= hsv{ 0.33 0.39 0.56 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Asana
 		Benya
@@ -18002,6 +18787,11 @@ kru={
 	color= hsv{ 0.38 0.56 0.78 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Borforh
 		Boryee
@@ -18055,6 +18845,11 @@ mande={
 	color= hsv{ 0.12 0.56 0.73 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Alhassani
 		Amara
@@ -18110,6 +18905,11 @@ bidan={
 	color= hsv{ 0.04 0.39 0.88 }
 	religion = sunni
 	traits = { arab_speaking west_african_culture_group middle_eastern_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Abbas
 		Abu
@@ -18172,6 +18972,11 @@ mossi={
 	color= hsv{ 0.84 0.43 0.80 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Alfa
 		Ali
@@ -18229,6 +19034,11 @@ senufo={
 	color= hsv{ 0.29 0.37 0.34 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Abdullahi
 		Aburahman
@@ -18280,6 +19090,11 @@ songhai={
 	color= hsv{ 0.94 0.50 0.55 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Atwa
 		Bassaru
@@ -18326,6 +19141,11 @@ tiv={
 	color= hsv{ 0.17 0.16 0.99 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Akawe
 		Gondo
@@ -18359,6 +19179,11 @@ tuareg={
 	color= hsv{ 0.60 0.62 0.84 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Abareybon
 		Ag_Mama
@@ -18400,6 +19225,11 @@ wolof={
 	color= hsv{ 0.56 0.19 0.40 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Al-Buri
 		Ali_Buri
@@ -18455,6 +19285,11 @@ yoruba={
 	color= hsv{ 0.98 0.38 0.94 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		coffee
+		tobacco
+	}
 	male_common_first_names={
 		Abisi
 		Adebo
@@ -18527,6 +19362,11 @@ bakongo={
 	color= hsv{ 0.28 0.29 0.60 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Garcia
 		Kenje
@@ -18573,6 +19413,11 @@ baguirmi={
 	color= hsv{ 0.36 0.45 0.75 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Abd_al-Rahman
 		Abdul
@@ -18617,6 +19462,11 @@ fang={
 	color= hsv{ 0.81 0.40 0.70 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -18689,6 +19539,11 @@ kanuri={
 	color= hsv{ 0.87 0.04 0.74 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Ahmad
 		Ali
@@ -18733,6 +19588,11 @@ luba={
 	color= hsv{ 0.90 0.18 0.54 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Ilunga
 		Kasongo
@@ -18776,6 +19636,11 @@ lunda={
 	color= hsv{ 0.77 0.35 0.73 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Cakasekene
 		Cikombe
@@ -18826,6 +19691,11 @@ mongo={
 	color= hsv{ 0.01 0.47 67 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -18900,6 +19770,11 @@ sara={
 	color= hsv{ 0.87 0.25 0.56 }
 	religion = animist
 	traits = { central_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Ikpiro
 		Mbomou
@@ -18932,6 +19807,11 @@ teda={
 	color= hsv{ 0.23 0.49 0.77 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Adham
 		Ahmad
@@ -18973,6 +19853,11 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 	color= rgb{ 227 194 96 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names = {
 		Bakar
 		Essomba
@@ -19023,6 +19908,11 @@ fluvian_bantu = { # DRC
 	color= hsv{ 0.95 0.29 0.30 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Banyingela
 		Banza
@@ -19069,6 +19959,11 @@ nilotic = {
 	color= hsv{ 0.88 0.35 0.64 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Adongo
 		Kimoi
@@ -19104,6 +19999,11 @@ amhara={
 	color= hsv{ 0.25 0.43 0.55 }
 	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Amare
 		Amha
@@ -19151,6 +20051,11 @@ afar={
 	color= hsv{ 0.94 0.46 0.77 }
 	religion = sunni
 	traits = { ethiopian east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Alimirah
 		Amda
@@ -19188,6 +20093,11 @@ azande={
 	color= hsv{ 0.58 0.49 0.58 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Bigomokero
 		Birhenjira
@@ -19223,6 +20133,11 @@ baganda={
 	color= hsv{ 0.55 0.17 0.73 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Jjunju
 		Kabulu
@@ -19282,6 +20197,11 @@ beja={
 	color= hsv{ 0.16 0.50 0.90 }
 	religion = sunni
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Adlan
 		Awkal
@@ -19328,6 +20248,11 @@ dinka={
 	color= hsv{ 0.63 0.46 0.96 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Abel
 		Akex
@@ -19378,6 +20303,11 @@ fur={
 	color= hsv{ 0.76 0.07 0.81 }
 	religion = sunni
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Abd_al-rahman
 		Abdallahi
@@ -19425,6 +20355,11 @@ kikuyu={
 	color= hsv{ 0.28 0.24 0.34 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Gacoki
 		Githinji
@@ -19504,6 +20439,11 @@ luo={
 	color=hsv{ 0.16 0.12 0.61 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Isingoma
 		Jaramobi
@@ -19545,6 +20485,11 @@ maasai={
 	color= hsv{ 0.97 0.37 0.52 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Kakenya
 		Kimnyole
@@ -19583,6 +20528,11 @@ nuer={
 	color= hsv{ 0.50 0.36 0.80 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Chol
 		Dei
@@ -19629,6 +20579,11 @@ nuba={
 	color= hsv{ 0.63 0.47 0.83 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Ajang
 		Akoc
@@ -19677,6 +20632,11 @@ oromo={
 	color= rgb{ 56 153 122 }
 	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+	}
 	male_common_first_names={
 		Abadula
 		Abdus
@@ -19725,6 +20685,12 @@ ruanda={
 	color= hsv{ 0.97 0.58 0.72 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		liquor
+	}
 	male_common_first_names={
 		Dukuzumuremyi
 		Gahiji
@@ -19771,6 +20737,12 @@ rundi={
 	color= hsv{ 0.33 0.43 0.73 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -19843,6 +20815,12 @@ sidama={
 	color= hsv{ 0.20 0.30 0.38 }
 	religion = sunni
 	traits = { ethiopian east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		liquor
+	}
 	male_common_first_names={
 		Aba
 		Beshi
@@ -19890,7 +20868,12 @@ somali={
 	color={ 0.97 0.7 0.78}
 	religion = sunni
 	traits = { arab_speaking east_african_culture_group african_heritage }
-
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Abdi Abdikarim Axmed Aul Aamir
 		Cismaan Cali Cusmaan Cabdulle Cabdiqani Cumar Cawad Cabdi
@@ -19947,6 +20930,12 @@ sudanese={
 	color= rgb{ 162 77 104 }
 	religion = sunni
 	traits = { arab_speaking east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Abbas
 		Abdallahi
@@ -19995,6 +20984,12 @@ sukuma={
 	color= hsv{ 0.43 0.37 0.65 }
 	religion = sunni
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20065,6 +21060,12 @@ swahili={
 	color= hsv{ 0.65 0.28 0.80 }
 	religion = sunni
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Ahmed
 		Amiri
@@ -20167,6 +21168,13 @@ tigray={
 	color={ 0.68 0.43 0.71 }
 	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Abraha
 		Abune
@@ -20214,6 +21222,13 @@ unyamwezi={
 	color= hsv{ 0.52 0.09 0.55 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20285,6 +21300,11 @@ lacustrine_bantu={ # Lake Victoria + Lake Tanganyika + Lake Malawi
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
 		spice
 	}
 	male_common_first_names={
@@ -20357,6 +21377,13 @@ chewa={
 	color= hsv{ 0.45 0.6 0.34 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20429,6 +21456,13 @@ herero={
 	color= hsv{ 0.27 0.46 0.70 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20507,6 +21541,13 @@ khoisan={
 	color= hsv{ 0.16 0.37 0.84 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Aruseb
 		Autshumato
@@ -20558,6 +21599,13 @@ lomwe={
 	color= hsv{ 0.19 0.55 0.86 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20628,6 +21676,13 @@ makua={
 	color= hsv{ 0.30 0.17 0.41 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20701,6 +21756,13 @@ nguni={
 	color= hsv{ 0.02 0.59 0.64 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Atepa
 		Chakoma
@@ -20772,6 +21834,13 @@ ovimbundu={
 	color= hsv{ 0.69 0.42 0.90 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Ciasungu
 		Cikunyu
@@ -20824,6 +21893,13 @@ sena={
 	color= rgb{ 221 206 86 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -20893,6 +21969,13 @@ shona={
 	color= hsv{ 0.21 0.56 0.36 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Banga
 		Chinouyazue
@@ -20945,6 +22028,13 @@ sotho={
 	color= hsv{ 0.56 0.46 0.69 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -21019,6 +22109,13 @@ tonga={
 	color= hsv{ 0.26 0.50 0.73 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -21090,6 +22187,13 @@ tswana={
 	color= rgb{ 192 123 31 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Baruti
 		Bathoen
@@ -21141,6 +22245,13 @@ xhosa={
 	color= hsv{ 0.60 0.38 0.51 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Mthuthuzeli
 		Nolizwe
@@ -21198,6 +22309,13 @@ yao={
 	color= hsv{ 0.98 0.59 0.64 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Chekandino
 		Chikumbu
@@ -21252,6 +22370,13 @@ zulu={
 	color= hsv{ 0.72 0.43 0.63 }
 	religion = animist
 	traits = { southern_african_culture_group bantu african_heritage }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Cetshwayo
 		Dabulamanzi
@@ -21317,6 +22442,13 @@ kavango_bantu={ # Angola + Namibia
 	color= hsv{ 0.1 0.29 0.60 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
+	obsessions = {
+		fruit
+		tea
+		tobacco
+		coffee
+		liquor
+	}
 	male_common_first_names={
 		Katuutire
 		Kongongolo
@@ -21585,7 +22717,11 @@ swedish_colonial={
 	religion = protestant
 	traits = { scandinavian_culture_group american_settler european_heritage }
 	obsessions = {
+		wine
 		liquor
+		meat
+		tobacco
+		coffee
 	}
 
 	male_common_first_names={
@@ -21704,6 +22840,12 @@ sorb={
 	color= hsv{ 0.63 0.17 0.5 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names={
 		Arnost
 		Alojs
@@ -21782,6 +22924,12 @@ tuvan={
 	color= rgb{ 140 185 206 }
 	religion = gelugpa
 	traits = { north_asian_heritage turkic mongol_language }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names={
 		Donduk
 		Salchak
@@ -21841,6 +22989,12 @@ corsican = {
 	color= hsv{ 0.49 0.51 0.84 }
 	religion = catholic
 	traits = { european_heritage francophone italophone }
+	obsessions = {
+		wine
+		fruit
+		olive
+		meat
+	}
 	male_common_first_names={
 		Joseph
 		Louis
@@ -22003,6 +23157,12 @@ yemenite={
 	color=hsv{ 0.34 0.38 0.58 }
 	religion = shiite
 	traits = { arab_speaking middle_eastern_heritage }
+	obsessions = {
+		tobacco
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names={
 		Abd_Allah
 		Abd_al-Karim
@@ -22102,6 +23262,12 @@ szekely = {
 	color = { 90 160 255 }
 	religion = catholic
 	traits = { hungarian_culture_group european_heritage }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+	}
 	male_common_first_names = {
 		Alajos
 		Albert
@@ -22244,6 +23410,14 @@ afro_amerikaans={
 	color= rgb{ 68 47 30 }
 	religion = protestant
 	traits = { african_heritage dutch_speaking african_slave }
+	obsessions = {
+		liquor
+		fruit
+		tea
+		meat
+		tobacco
+		coffee
+	}
 	male_common_first_names={
 		Abraham
 		Adolf
@@ -22494,6 +23668,11 @@ hindustani = {
 	color = { 123 123 233 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Aakash
 		Bhanwari
@@ -22578,6 +23757,11 @@ bundeli = {
 	color = { 123 222 123 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Adithya
 		Chhatrasal
@@ -22623,6 +23807,11 @@ pahari = {
 	color = { 255 182 193 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Anupam Anku
 		Dalip
@@ -22662,6 +23851,11 @@ gondi = {
 	color = { 123 123 123 }
 	religion = hindu
 	traits = { south_asian_heritage dravidian }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Ajanbahu
 		Bakht_Buland
@@ -22706,6 +23900,11 @@ bageli = {
 	color = { 123 123 123 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Atal
 		Harishankar
@@ -22747,6 +23946,11 @@ chhattisgarhi = {
 	color = { 122 22 232 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Bhupesh
 		Habib
@@ -22835,6 +24039,12 @@ deccani = {
 	color = { 233 222 129 }
 	religion = sunni
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+		tobacco
+	}
 	male_common_first_names = {
 		Amjad Ahmed Abdullah Aziz Awaz
 		Farhatullah
@@ -22887,6 +24097,12 @@ gujarati={
 	color= hsv{ 0.85 0.28 0.35 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+		tobacco
+	}
 	male_common_first_names={
 		Anand Amratlal Akshay
 		Balwantry Bharatsingh
@@ -22937,6 +24153,12 @@ tamil={
 	color= hsv{ 0.94 0.57 0.70 }
 	religion = hindu
 	traits = { south_asian_heritage dravidian }
+	obsessions = {
+		spice
+		tea
+		fruit
+		tobacco
+	}
 	male_common_first_names={
 		Champakaraman
 		Chidambaram
@@ -22988,6 +24210,11 @@ marathi= {
 	color= hsv{ 0.19 0.55 0.86 }
 	religion = hindu
 	traits = { south_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+	}
 	male_common_first_names = {
 		Bajirao
 		Balaji
@@ -23079,6 +24306,13 @@ pathan = {
 	color= hsv{ 0.76 0.34 0.60 }
 	religion = sunni
 	traits = { central_asian_heritage indo_aryan_language }
+	obsessions = {
+		spice
+		tea
+		fruit
+		tobacco
+		meat
+	}
 	male_common_first_names = {
 		Alif Abd_al-Quddus Abd_al-Rahman Abdallah Afzal Ahmad Akbar Akram Ayyub
 		Daud

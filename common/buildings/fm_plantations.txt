@@ -15,6 +15,13 @@
 		pmg_train_automation_building_vineyard_plantation
 		pmg_invention_building_alcohol_industry
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
@@ -37,6 +44,13 @@ building_silk_plantation = {
 		pmg_train_automation_building_silk_plantation
 		pmg_invention_building_silk_industry_silk_plantation
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
@@ -58,6 +72,13 @@ building_dye_plantation = {
 		pmg_base_building_dye_plantation
 		pmg_train_automation_building_dye_plantation
 		pmg_invention_building_silk_industry_dye_plantation
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
 	}
 	ownership_type = self
 
@@ -95,6 +116,13 @@ building_tea_plantation = {
 		pmg_train_automation_building_tea_plantation
 		pmg_invention_building_plantations_industry_tea
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
@@ -131,9 +159,15 @@ building_opium_plantation = {
 		pmg_train_automation_building_opium_plantation
 		pmg_invention_building_plantations_industry_opium
 	}
-	
 	can_build_government = {
-		owner = { NOT = { is_banning_goods = g:opium } }
+		owner = {
+			NOT = { 
+				OR = {
+					has_law = law_type:law_laissez_faire 
+					is_banning_goods = g:opium
+				}
+			}
+		}
 	}
 	can_build_private = {
 		owner = { NOT = { is_banning_goods = g:opium } }
@@ -174,6 +208,13 @@ building_coffee_plantation = {
 		pmg_train_automation_building_coffee_plantation
 		pmg_invention_building_plantations_industry_coffee
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
@@ -196,6 +237,13 @@ building_tobacco_plantation = {
 		pmg_train_automation_building_tobacco_plantation
 		pmg_invention_building_plantations_industry_tobacco
 	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
@@ -213,4 +261,100 @@ building_tobacco_plantation = {
 			add = 2000
 		}
 	}
+}
+building_cotton_plantation = {
+	building_group = bg_cotton_plantations
+	icon = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_cotton_plantation
+		pmg_train_automation_building_cotton_plantation
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					ROOT = { var:dictate_plantation_type = 4 }
+				}
+			}
+			add = 2000
+		}
+	}
+}
+building_sugar_plantation = {
+	building_group = bg_sugar_plantations
+	icon = "gfx/interface/icons/building_icons/sugar_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_sugar_plantation
+		pmg_train_automation_building_sugar_plantation
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+}
+
+building_banana_plantation = {
+	building_group = bg_banana_plantations
+	icon = "gfx/interface/icons/building_icons/banana_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_banana_plantation
+		pmg_train_automation_building_banana_plantation
+	}
+	can_build_government = {
+		owner = {
+			NOT = {
+				has_law = law_type:law_laissez_faire
+			}
+		}
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
 }
