@@ -46,6 +46,8 @@
  LOT_ADJ: "East Frankish"
  PUM: "Pomerania"
  PUM_ADJ: "Pommern"
+ PR1: "Prussia"
+ PR1_ADJ: "Prussian"
  FUN: "Finland"
  FUN_ADJ: "Finnish"
 
@@ -223,7 +225,7 @@
  RUI: "Federative Union of Russian Republics"
  RUI_ADJ: "Russian"
  dyn_rui_com: "Union of Soviet Socialist Republics"
- dyn_rui: "Kingdom of Russia"
+ dyn_rui: "Russian Empire"
  RUK: "Russian Republic of Kazan"
  RUK_ADJ: "Russian"
  dyn_fin_mon: "Kingdom of Finland"

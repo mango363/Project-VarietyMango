@@ -1176,6 +1176,17 @@ PAR = {
 	capital = STATE_EMILIA
 }
 
+PR1 = {
+	color = { 21 15 74 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_EAST_PRUSSIA
+}
+
 PUM = { 
 	color = { 21 45 133 }
 	

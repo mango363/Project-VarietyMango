@@ -1,0 +1,20 @@
+fm_napoleon = {
+    first_name = Napoleone
+    last_name = Buonaparte
+    historical = yes
+    culture = cu:russian
+    religion = catholic
+    interest_group = ig_armed_forces
+	is_general = yes
+    female = no
+    ideology = ideology_bonapartist
+    dna = dna_napoleon
+    birth_date = 1809.8.15
+    traits = {
+		ambitious
+        innovative
+        basic_artillery_commander
+        basic_offensive_planner
+        basic_defensive_strategist
+    }
+}

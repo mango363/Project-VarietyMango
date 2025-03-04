@@ -202,6 +202,9 @@
 	c:TOR ?= {
 		set_relations = { country = c:HAK value = 30 }
 	}
+	c:PR1 ?= {
+		set_relations = { country = c:PUM value = -50 }
+	}
 	c:DKE = {
 		set_relations = { country = c:SWU value = -30 }
 		set_relations = { country = c:LOT value = -50 }

@@ -7,9 +7,7 @@ transfer_currency = {
 	texture = "gfx/interface/icons/invention_icons/currency_standards.dds"
 	confirmation_sound = "event:/SFX/UI/MapInteraction/diplomatic_action_foreign_investment_agreement_request"
 
-	unlocking_technologies = {
-		central_banking
-	}
+
 	selectable = {
 		NOT = { is_country_type = decentralized }
 	}

@@ -85,7 +85,7 @@ munm_hs_mdf = {
 
 constantinople_hs_mdf = {
 	icon = gfx/interface/monument.dds
-	country_state_religion_wages_mult = 0.1
+	country_state_religion_wages_mult = 0.05
 	country_prestige_mult = 0.05
 	country_authority_mult = 0.05
 }

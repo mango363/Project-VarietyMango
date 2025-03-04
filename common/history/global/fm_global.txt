@@ -108,7 +108,7 @@ GLOBAL = {
 	c:BIZ ?= {
 		add_radicals = {
 			culture = cu:greek
-			value = 0.20
+			value = 0.15
 		}
 	}
 

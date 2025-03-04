@@ -1332,7 +1332,6 @@ ai_strategy_default = {
 							state_region = s:STATE_SINAI
 							state_region = s:STATE_HEDJAZ
 							state_region = s:STATE_HAIL
-							state_region = s:STATE_NEDJ
 							state_region = s:STATE_SISTAN
 							state_region = s:STATE_KERMAN
 							state_region = s:STATE_LARISTAN

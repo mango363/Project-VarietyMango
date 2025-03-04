@@ -35,6 +35,113 @@ headgear = {
         }
     }
 
+    historical_frederick = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_admiral_headgear
+                accessory = male_headgear_european_military_05
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 98000
+                scope:character ?= {
+                    OR = {
+                        has_template = frederick_the_great
+                        has_template = fm_napoleon
+                    }
+                }
+            }
+        }
+    }
+    historical_napking = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 99000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                    is_ruler = yes
+                    popularity > 99
+                }
+            }
+        }
+    }
+
+    papal_clothes_h = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_Catholic_headgear
+                accessory = male_headgear_european_religious_catholic_01
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                exists = scope:character
+                exists ?= c:PUP
+                scope:character = {
+                    ruler_clothes_trigger = yes
+                    christian_clothes_trigger = yes
+                    exists = home_country
+                    home_country ?= c:PUP
+                    home_country = {
+                        has_law = law_type:law_theocracy
+                    }
+                    is_female = no
+                }
+
+            }
+        }
+    }
+    papal_clothes_hh = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_Catholic_headgear
+                accessory = male_headgear_european_religious_catholic_01
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                exists = scope:character
+                exists ?= c:HSE
+                scope:character = {
+                    ruler_clothes_trigger = yes
+                    christian_clothes_trigger = yes
+                    exists = home_country
+                    home_country ?= c:HSE
+                    home_country = {
+                        has_law = law_type:law_theocracy
+                    }
+                    is_female = no
+                }
+
+            }
+        }
+    }
+
     ### AGITATORS ###
 
     european_agitator_headgear = {
@@ -1918,6 +2025,15 @@ headgear = {
                 european_clothes_pop_trigger = yes
                 middle_clothes_pop_trigger = yes
 
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 99000
+                scope:character ?= {
+                    has_template = dutchvan
+                }
             }
         }
     }

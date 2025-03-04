@@ -341,11 +341,11 @@ WES = {
 	ai_will_do = { always = no }
 }
 
-PRU = {
+PR1 = {
 	states = { 
 		STATE_WEST_PRUSSIA
 		STATE_EAST_PRUSSIA
-		STATE_BRANDENBURG
+		STATE_POSEN
 	}
 
 	required_num_states = 3
@@ -1108,11 +1108,6 @@ BEL = {
 	ai_will_do = { always = no }
 }
 
-POR = {
-	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
 
 BAD = {
 	states = {
@@ -1327,11 +1322,6 @@ OMA = {
 	ai_will_do = { always = no }
 }
 
-PER = {
-	use_culture_states = yes
-	required_num_states = 4
-	ai_will_do = { always = no }
-}
 
 JAB = {
 	states = {

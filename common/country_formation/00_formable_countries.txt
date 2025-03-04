@@ -300,6 +300,7 @@ HLE = {
 				c:MUN ?= this
 				c:HEN ?= this
 				c:CLN ?= this
+				c:PUM ?= this
 			}
 		}
 		has_technology_researched = pan-nationalism

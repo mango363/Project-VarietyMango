@@ -698,6 +698,9 @@ idea_7_tt_effects = {
 				months = -1
 			}
 			custom_tooltip = {
+				text = ethnocentrism_idea_5_tt
+			}
+			custom_tooltip = {
 				text = ethnocentrism_idea_7_tt
 			}
 		}

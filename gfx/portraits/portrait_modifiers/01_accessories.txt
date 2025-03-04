@@ -18,8 +18,54 @@
     #}
 
     ### HISTORICAL CHARACTER ACCESSORIES ###
+    historical_napoleon_stage_one = {
 
-    historical_reza_pahlavi_stage_one = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 40000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                }
+            }
+        }
+
+    }
+
+
+    historical_napoleon_stage_two = {
+
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_04
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 50000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                    popularity >= 30
+                }
+            }
+        }
+
+    }
+    historical_napoleon_stage_three = {
+
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -32,16 +78,40 @@
         weight = {
             base = 0
             modifier = {
-                add = 90000
+                add = 60000
                 scope:character ?= {
-                    has_template = PER_reza_pahlavi
-                    is_ruler = no
+                    has_template = fm_napoleon
+                    popularity >= 35
                 }
             }
         }
-    }
 
-    historical_reza_pahlavi_stage_two = {
+    }
+    historical_napoleon_stage_four = {
+
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_01
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 70000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                    popularity >= 60
+                }
+            }
+        }
+
+    }
+    historical_napoleon_stage_five = {
+
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -51,55 +121,26 @@
             }
         }
 
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = sashes
-                template = european_sashes_colours
-                accessory = male_sash_european_01_lightblue
-            }
-        }
-
         weight = {
             base = 0
             modifier = {
-                add = 90000
+                add = 80000
                 scope:character ?= {
-                    has_template = PER_reza_pahlavi
-                    is_ruler = yes
-                    owner ?= {
-                        NOT = { has_law = law_type:law_monarchy }
-                    }
+                    has_template = fm_napoleon
+                    popularity >= 90
                 }
             }
         }
-    }
 
-    historical_reza_pahlavi_stage_three = {
+    }
+    historical_napoleon_stage_five = {
+
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = medals
                 template = generic_medals
-                accessory = male_medals_generic_01_05 # no number of medals can adequately reflect the splendor of the Shahanshah
-            }
-        }
-
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = sashes
-                template = european_sashes_colours
-                accessory = male_sash_european_01_lightblue
-            }
-        }
-
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = necklaces
-                template = necklace_reza_shah_pahlavi
-                range = { 0 1 }
+                accessory = male_medals_generic_01_05
             }
         }
 
@@ -108,11 +149,75 @@
             modifier = {
                 add = 90000
                 scope:character ?= {
-                    has_template = PER_reza_pahlavi
+                    has_template = fm_napoleon
+                    popularity >= 90
                     is_ruler = yes
-                    owner ?= {
-                        has_law = law_type:law_monarchy
-                    }
+                }
+            }
+        }
+
+    }
+
+    historical_frederick_stage_one = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_04
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 70000
+                scope:character ?= {
+                    has_template = frederick_the_great
+                }
+            }
+        }
+    }
+
+    historical_frederick_stage_two = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_02
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 80000
+                scope:character ?= {
+                    has_template = frederick_the_great
+                    popularity >= 40
+                }
+            }
+        }
+    }
+
+    historical_frederick_stage_three = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_01
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 90000
+                scope:character ?= {
+                    has_template = frederick_the_great
+                    popularity >= 90
                 }
             }
         }

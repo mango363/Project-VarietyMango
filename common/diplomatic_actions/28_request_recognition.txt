@@ -18,7 +18,7 @@
 		}
 		custom_tooltip = {
 			text = DIPLO_ACTION_RELATIONS_AMICABLE_OR_GREATER
-			scope:target_country.relations:root > relations_threshold:amicable
+			scope:target_country.relations:root >= relations_threshold:amicable
 		}		
 		custom_tooltip = {
 			text = "REQUEST_RECOGNITION_ON_COOLDOWN"

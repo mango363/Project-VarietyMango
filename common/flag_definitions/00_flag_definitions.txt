@@ -7346,6 +7346,60 @@ PUL = { # Poland
 		}
 	}		
 }
+PR1 = { # PR1ssia
+	flag_definition = {
+		coa = PR1	
+		subject_canton = PR1
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = PR1_subject	
+		overlord_canton_scale = { 0.337 0.337 }			
+		priority = 1
+	}
+	flag_definition = {
+		coa = PR1_teutonic_order
+		subject_canton = PR1_teutonic_order
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		priority = 5		
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PR1_republic
+		subject_canton = PR1_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = PR1_absolute_monarchy
+		subject_canton = PR1_absolute_monarchy
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = PR1_subject	
+		overlord_canton_scale = { 0.337 0.337 }				
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = PR1_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = PR1_fascist
+		subject_canton = PR1_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}	
 
 PUM = { # Pommerania
 	flag_definition = {

@@ -1122,3 +1122,7 @@ modifier_bank_robbery_payments_fm = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_expenses_add = 1000
 }
+nap_mod1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	character_popularity_add = 5
+}

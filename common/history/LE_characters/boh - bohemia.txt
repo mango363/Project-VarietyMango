@@ -19,7 +19,7 @@
 				ambitious
 				meticulous
 				cruel
-				basic_offensive_planner
+				experienced_offensive_planner
 			}
 			on_created = {
 				set_variable = is_married

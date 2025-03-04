@@ -1,0 +1,109 @@
+namespace = fm_nap
+
+fm_nap.1 = { 
+	type = country_event
+	placement = ROOT
+
+	title = fm_nap.1.t
+	desc = fm_nap.1.d
+	flavor = fm_nap.1.f
+
+	duration = 3
+	event_image = {
+		video = "ep1_redcoats"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+
+	trigger = {
+		OR = {
+			country_army_unit_type_fraction = {
+				target = unit_type:combat_unit_type_cannon_artillery
+					value >= 0.01 
+			}
+			country_army_unit_type_fraction = {
+				target = unit_type:combat_unit_type_mobile_artillery
+					value >= 0.01 
+			}
+		}
+		is_at_war = yes
+		NOT = {
+			has_variable = fm_rusnap
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = fm_rusnap
+		}
+		create_character = {
+			template = fm_napoleon
+			on_created = {
+				set_variable = { name = memento_mori_immunity years = 20 }
+			}
+		}
+	}
+
+	option = {
+		name = fm_nap.1.a
+		default_option = yes
+		random_scope_character = {
+			limit = {
+				has_template = fm_napoleon
+			}
+			add_character_role = general
+		}
+	}
+	option = {
+		name = fm_nap.1.b
+	}
+}
+
+fm_nap.2 = { 
+	type = country_event
+	placement = ROOT
+
+	title = fm_nap.2.t
+	desc = fm_nap.2.d
+	flavor = fm_nap.2.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:nap_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_template = fm_napoleon
+			}
+			save_scope_as = nap_scope
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = fm_nap.2.a
+		scope:nap_scope = {
+			set_character_as_ruler = yes
+			add_trait = reckless
+			add_modifier = {
+				name = nap_mod1
+			}
+		}
+	}
+
+	option = {
+		name = fm_nap.2.b
+	}
+}

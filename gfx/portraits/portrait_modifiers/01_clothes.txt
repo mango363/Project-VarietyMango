@@ -28,6 +28,152 @@
         }
     }
 
+    historical_napoleon = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = european_coats
+                accessory = male_coat_european_08
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = brazilian_white_legwear
+                accessory = male_legwear_south_american_01_brazilian
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                accessory = male_aiguillettes_01
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = all_epaulettes
+                accessory = male_epaulettes_04
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 95000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                }
+            }
+        }
+    }
+
+    historical_napoleon_ruler = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = napoleon_iii_top_layer
+                accessory = male_top_layer_historical_napoleon_03
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = european_coats
+                accessory = male_coat_european_09
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear_colors
+                accessory = male_legwear_european_01_white
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                accessory = male_aiguillettes_01
+            }
+        }
+
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 99000
+                scope:character ?= {
+                    has_template = fm_napoleon
+                    is_ruler = yes
+                    popularity > 99
+                }
+            }
+        }
+    }
+
+    historical_frederick = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = american_coats
+                accessory = male_coat_american_06
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = south_american_legwear
+                accessory = male_legwear_south_american_01_low
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 99000
+                scope:character ?= {
+                    has_template = frederick_the_great
+                }
+            }
+        }
+    }
+
     default_clothes = {
         dna_modifiers = {
             accessory = {
@@ -4986,12 +5132,12 @@
             modifier = {
                 add = 10000
                 exists = scope:character
-                exists = c:PAP
+               exists ?= c:PUP
                 scope:character = {
                     ruler_clothes_trigger = yes
                     christian_clothes_trigger = yes
                     exists = home_country
-                    home_country = c:PAP
+                    home_country ?= c:PUP
                     home_country = {
                         has_law = law_type:law_theocracy
                     }
@@ -5001,6 +5147,37 @@
             }
         }
     }
+    papal_clothesh = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = pope_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                exists = scope:character
+                exists ?= c:HSE
+                scope:character = {
+                    ruler_clothes_trigger = yes
+                    christian_clothes_trigger = yes
+                    exists = home_country
+                    home_country ?= c:HSE
+                    home_country = {
+                        has_law = law_type:law_theocracy
+                    }
+                    is_female = no
+                }
+
+            }
+        }
+    }
+    
 
     #Pop Clothes
 

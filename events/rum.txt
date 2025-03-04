@@ -104,6 +104,9 @@ rum.2 = {
 		s:STATE_HUDAVENDIGAR = {
 			add_claim = ROOT
 		}
+		s:STATE_AYDIN = {
+			add_claim = ROOT
+		}
 	}
 	option = {
 		name = rum.2.b

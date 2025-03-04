@@ -660,7 +660,7 @@ ethnocentrism_idea_4_mdf = {
 	state_birth_rate_mult = 0.02
 	country_loyalism_increases_second_rate_citizen_mult = 0.2
 	country_loyalism_increases_full_acceptance_mult = 0.5
-	country_state_religion_wages_mult = 0.25
+	country_state_religion_wages_mult = -0.05
 }
 
 ethnocentrism_idea_5_mdf = {
@@ -671,7 +671,7 @@ ethnocentrism_idea_5_mdf = {
 	state_birth_rate_mult = 0.02
 	country_loyalism_increases_second_rate_citizen_mult = 0.2
 	country_loyalism_increases_full_acceptance_mult = 0.5
-	country_state_religion_wages_mult = 0.25
+	country_state_religion_wages_mult = -0.05
 	#Missionary Power
 }
 
@@ -683,7 +683,7 @@ ethnocentrism_idea_6_mdf = {
 	state_birth_rate_mult = 0.02
 	country_loyalism_increases_second_rate_citizen_mult = 0.2
 	country_loyalism_increases_full_acceptance_mult = 0.5
-	country_state_religion_wages_mult = 0.25
+	country_state_religion_wages_mult = -0.05
 	state_education_access_add = 0.1
 	state_pop_qualifications_mult = 0.05
 }
@@ -696,7 +696,7 @@ ethnocentrism_idea_7_mdf = {
 	state_birth_rate_mult = 0.02
 	country_loyalism_increases_second_rate_citizen_mult = 0.2
 	country_loyalism_increases_full_acceptance_mult = 0.5
-	country_state_religion_wages_mult = 0.25
+	country_state_religion_wages_mult = -0.05
 	state_education_access_add = 0.1
 	state_pop_qualifications_mult = 0.05
 	#adds missionary

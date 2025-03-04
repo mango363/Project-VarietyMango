@@ -62,3 +62,23 @@ el_urugu = {
 		literary
     }  
 }
+
+dutchvan = {
+    first_name = Dutch
+    last_name = van_der_linde
+    historical = yes
+    is_agitator = yes
+    birth_date = 1800.5.18
+    interest_group = ig_rural_folk
+    female = no
+    dna = dna_dutchvan
+    religion = rel:protestant
+    culture = cu:dutch_colonial
+    ideology = ideology_anarcho_capitalism
+    traits = {
+        ambitious
+        charismatic
+        bandit
+        cocaine_addiction
+    }
+}

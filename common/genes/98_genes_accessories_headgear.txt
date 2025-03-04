@@ -1144,7 +1144,7 @@
 				index = 69
 
 				male = {
-					#
+					1 = female_headgear_power_blocks_01
 				}
 
 				female =  {
