@@ -26,6 +26,9 @@ NEconomy = {
 	TRADE_CENTER_EXISTING_TRADE_ROUTES_FACTOR = -1  # When deciding trade center for a trade route, multiply the number of trade routes already associated with the state by this score
 
 	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 300000
+	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 1
+	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 0	
+
 }
 NDiplomacy = {
 	DEFAULT_TRUCE_MONTHS = 48
@@ -45,6 +48,7 @@ NDiplomacy = {
 	WAR_GOAL_INFAMY_MAKE_PROTECTORATE = 2.5
 	WAR_GOAL_INFAMY_CONQUER_STATE = 3.5
 	WAR_GOAL_INFAMY_RETURN_STATE = 1.5
+	SWAY_OFFER_WARGOAL_MANEUVERS_COST_REVOKE_CLAIM = 2.3
 }
 NWar = {
 	DEVASTATION_MAX = 100.0

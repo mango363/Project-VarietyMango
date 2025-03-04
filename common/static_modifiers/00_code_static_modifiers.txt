@@ -44,7 +44,7 @@ base_values = {
 	state_unincorporated_starting_wages_mult = -0.20
 	building_unincorporated_subsistence_output_mult = -0.20
 		
-	country_construction_add = 10
+	country_construction_add = 20
 	
 	building_mobilization_cost_mult = 0.6
 	
@@ -162,7 +162,7 @@ opposition_agitator_popularity = {
 in_default = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_throughput_add = -0.5
-	unit_offense_mult = -0.5
+	unit_offense_mult = -0.9
 	unit_defense_mult = -0.5
 }
 

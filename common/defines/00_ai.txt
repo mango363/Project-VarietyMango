@@ -320,7 +320,7 @@
 	DIPLO_PLAY_NEUTRALITY_FROM_TURMOIL = 100 # At 100% turmoil across the country (weighted by state population), add this amount of neutrality score
 	DIPLO_PLAY_NEUTRALITY_IN_SUBJECT_CONFLICT = -50 # If either side in the play is a subject, subtract this amount of neutrality score
 	DIPLO_PLAY_NEUTRALITY_IN_NATIVE_UPRISING = 50 # Added to neutrality score for native uprising type conflicts
-	DIPLO_PLAY_NEUTRALITY_FROM_ONGOING_CONFLICTS = 200 # If in a conflict where military strength compared to the enemy is equal to or above DIPLO_PLAY_FORCE_BALANCE_SCALE, add this amount of neutrality score
+	DIPLO_PLAY_NEUTRALITY_FROM_ONGOING_CONFLICTS = 250 # If in a conflict where military strength compared to the enemy is equal to or above DIPLO_PLAY_FORCE_BALANCE_SCALE, add this amount of neutrality score
 	DIPLO_PLAY_NEUTRALITY_FROM_LOWER_RANK = 5 # For each rank value difference between us and the lowest ranked participant in the play, if we're higher rank than them
 	DIPLO_PLAY_NEUTRALITY_FROM_NO_ARMY = 1000 # If we have no army at all, add this to neutrality score
 	DIPLO_PLAY_NEUTRALITY_WEAK_ARMY_FACTOR = 100 # Scaled by our relative forces compared to DIPLO_PLAY_WEAK_ARMY_THRESHOLD
@@ -330,9 +330,9 @@
 	# Sympathy above 0 is added directly to the willingness to join that side in the play
 	# Sympathy for a side can be below 0, but has no additional effect other than acting as a buffer against sympathy increases
 	DIPLO_PLAY_SYMPATHY_RANGE_MIN = 0.1 # The minimum range for the initial sympathy random roll (additions during play are fully random)
-	DIPLO_PLAY_SYMPATHY_RANGE_MAX = 1.0 # The maximum range for the initial sympathy random roll (additions during play are fully random)
+	DIPLO_PLAY_SYMPATHY_RANGE_MAX = 0.5 # The maximum range for the initial sympathy random roll (additions during play are fully random)
 	DIPLO_PLAY_SYMPATHY_BASE_INITIATOR = 20 # The base size of the random sympathy range for attacker in diplomatic play
-	DIPLO_PLAY_SYMPATHY_BASE_TARGET = 40 # The base size of the random sympathy range for defender in diplomatic play
+	DIPLO_PLAY_SYMPATHY_BASE_TARGET = 20 # The base size of the random sympathy range for defender in diplomatic play
 	DIPLO_PLAY_SYMPATHY_ENEMY_OF_SUBJECT_INITIATOR = -100 # Subtracted from sympathy range for enemies of our subjects if the enemy is the attacker
 	DIPLO_PLAY_SYMPATHY_ENEMY_OF_SUBJECT_TARGET = -50 # Subtracted from sympathy range for enemies of our subjects if the enemy is the defender
 	DIPLO_PLAY_SYMPATHY_ENEMY_OF_ALLY_INITIATOR = -100 # Subtracted from sympathy range for enemies of our allies if the enemy is the attacker

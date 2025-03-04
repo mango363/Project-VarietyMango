@@ -107,6 +107,10 @@ law_public_schools = {
 		law_state_religion
 		law_serfdom
 	}
+
+	modifier = {
+		country_institution_cost_institution_schools_mult = 0.3
+	}
 	
 	institution = institution_schools
 	institution_modifier = {
