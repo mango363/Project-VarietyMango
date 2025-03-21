@@ -1131,3 +1131,8 @@ ai_wargoal_are_blocked = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	country_authority_add = 0
 }
+
+modifier_subject = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_construction_mult = -0.2
+}

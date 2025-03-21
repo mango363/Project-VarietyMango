@@ -142,6 +142,7 @@
  modifier_occ_one: "Pope`s Bribe"
  modifier_stateof: "State of Emergency"
  modifier_stateof_ig: "State of Emergency"
+ modifier_subject: "Price of Subjugation"
 
  #Age Modifiers
  golden_age_mdf: "Golden Age"

@@ -33,6 +33,24 @@ on_monthly_pulse = {
 				remove_variable = prison_time_var
 			}
 		}
+		every_country = {
+			limit = {
+				is_subject = yes
+				NOT = {
+					has_modifier = modifier_subject
+				}
+			}
+			add_modifier = {
+				name = modifier_subject
+			}
+		}
+		every_country = {
+			limit = {
+				is_subject = no
+				has_modifier = modifier_subject
+			}
+			remove_modifier = modifier_subject
+		}
 
 
 		if = {
