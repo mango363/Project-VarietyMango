@@ -253,7 +253,7 @@ baal_aspect_6_mdf = {
 baal_aspect_7_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_infamy_decay_mult = 0.05
-	country_radicals_from_conquest_mult = -0.2
+	country_loyalists_from_legitimacy_mult = 0.15
 }
 
 baal_aspect_8_mdf = {
@@ -303,7 +303,7 @@ confucian_aspect_6_mdf = {
 confucian_aspect_7_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_infamy_generation_mult = -0.05
-	country_radicals_from_conquest_mult = -0.25
+	country_loyalists_from_legitimacy_mult = 0.2
 }
 
 confucian_aspect_8_mdf = {
@@ -356,7 +356,7 @@ zoro_aspect_6_mdf = {
 zoro_aspect_7_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_infamy_decay_mult = 0.05
-	country_radicals_from_conquest_mult = -0.2
+	country_loyalists_from_legitimacy_mult = 0.15
 }
 
 zoro_aspect_8_mdf = {
@@ -444,7 +444,7 @@ shia_aspect_3_mdf = {
 shia_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_diplomatic_play_maneuvers_add = 10
-	country_radicals_from_conquest_mult = -0.1
+	country_loyalists_from_legitimacy_mult = 0.1
 }
 
 shia_aspect_5_mdf = {
@@ -610,7 +610,7 @@ hindu_aspect_3_mdf = {
 hindu_aspect_4_mdf = {
 	icon = gfx/interface/catholic.dds
 	country_infamy_decay_mult = 0.1
-	country_radicals_from_conquest_mult = -0.1
+	country_loyalists_from_legitimacy_mult = 0.05
 }
 
 hindu_aspect_5_mdf = {

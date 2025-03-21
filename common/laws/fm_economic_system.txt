@@ -548,6 +548,7 @@ law_state_capitalism = {
 		country_bureaucrats_pol_str_mult = 0.25
 		building_nationalization_cost_mult = -0.75
 		building_nationalization_radicals_mult = -0.75
+		country_government_dividends_reinvestment_add = 0.3
 		country_government_dividends_efficiency_add = 0.5
 		country_max_companies_add = 20
 		

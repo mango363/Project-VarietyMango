@@ -464,7 +464,7 @@ sau_idea_4 = {
 
 sau_idea_5 = {
 	icon = gfx/interface/intelligensia.dds
-	country_radicals_from_conquest_mult = -0.15
+	country_loyalists_from_legitimacy_mult = 0.1
 }
 
 sau_idea_6 = {
