@@ -43,10 +43,5 @@
 		}
 	}
 
-	c:FLU ?= {
-		create_diplomatic_pact = {
-			country = c:FOU
-			type = defensive_pact
-		}
-	}
+
 }

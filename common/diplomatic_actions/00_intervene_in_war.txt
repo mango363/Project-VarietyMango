@@ -104,12 +104,12 @@ intervene_in_war = {
 					initiator_is = scope:target_country
 				}
 			}
-			change_infamy = 10
+			change_infamy = 40
 		}
 		
 		#THIS joins TARGET's wars
 		custom_tooltip = {
-			text = intervene_in_war.tt
+			text = intervene_in_war_tt
 		
 			#THIS joins the TARGET's war
 			every_diplomatic_play = {

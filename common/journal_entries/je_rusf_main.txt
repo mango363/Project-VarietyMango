@@ -29,11 +29,11 @@ je_rusf_two = {
 				owns_entire_state_region = STATE_VYATKA
 			}
 	}
-	on_monthly_pulse = {
-		events = {
-			fm_nap.1
-		}
-	}
+	#on_monthly_pulse = {
+		#events = {
+			#fm_nap.1
+		#}
+	#}
 	on_complete = {
 		if = {
 			limit = {

@@ -307,7 +307,7 @@ fm_cas.8 = {
 	option = {
 		name = fm_cas.8.a
 		default_option = yes
-		c:FLU = {
+		c:VNA = {
 			trigger_event = fm_na_flu.3
 		}
 	}
@@ -329,7 +329,7 @@ fm_cas.8 = {
 			}
 		}
 
-		c:FLU = {
+		c:VNA = {
 			trigger_event = fm_na_flu.4
 		}
 

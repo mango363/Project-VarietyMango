@@ -993,6 +993,7 @@ pm_rubber_grips = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+			goods_input_wood_add = 10
 			goods_input_rubber_add = 10
 			goods_input_steel_add = 35
 			
@@ -1252,7 +1253,7 @@ pm_artificial_fertilizers = {
 			goods_input_iron_add = 10
 
 			# output goods
-			goods_output_fertilizer_add = 90
+			goods_output_fertilizer_add = 60
 		}
 
 		level_scaled = {
@@ -1283,7 +1284,7 @@ pm_improved_fertilizer = {
 			goods_input_iron_add = 30
 
 			# output goods
-			goods_output_fertilizer_add = 140
+			goods_output_fertilizer_add = 90
 		}
 
 		level_scaled = {
@@ -1316,7 +1317,7 @@ pm_nitrogen_fixation = {
 			goods_input_iron_add = 30
 
 			# output goods
-			goods_output_fertilizer_add = 200
+			goods_output_fertilizer_add = 130
 		}
 
 		level_scaled = {
@@ -1922,7 +1923,7 @@ pm_basic_shipbuilding = {
 			goods_input_fabric_add = 20
 			
 			# output goods
-			goods_output_clippers_add = 35 
+			goods_output_clippers_add = 30 
 		}
 
 		level_scaled = {
@@ -1950,7 +1951,7 @@ pm_complex_shipbuilding = {
 			goods_input_engines_add = 5
 			
 			# output goods
-			goods_output_clippers_add = 65
+			goods_output_clippers_add = 55
 		}
 
 		level_scaled = {
@@ -1984,7 +1985,7 @@ pm_metal_shipbuilding = {
 			goods_input_engines_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 60
+			goods_output_steamers_add = 55
 		}
 
 		level_scaled = {
@@ -2018,7 +2019,7 @@ pm_arc_welding_shipbuilding = {
 			goods_input_engines_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 75
+			goods_output_steamers_add = 70
 		}
 
 		level_scaled = {
@@ -2047,7 +2048,7 @@ pm_military_shipbuilding_wooden = {
 			goods_input_fabric_add = 20
 			goods_input_iron_add = 10
 			# output goods
-			goods_output_manowars_add = 35
+			goods_output_manowars_add = 30
 		}
 	
 		level_scaled = {
@@ -2075,7 +2076,7 @@ pm_military_shipbuilding_wooden_2 = {
 			goods_input_engines_add = 5
 			goods_input_iron_add = 10
 			# output goods
-			goods_output_manowars_add = 45
+			goods_output_manowars_add = 40
 		}
 		level_scaled = {
 			# employment
@@ -2101,7 +2102,7 @@ pm_military_shipbuilding_steam = {
 			goods_input_coal_add = 25
 			goods_input_engines_add = 10
 			# output goods
-			goods_output_ironclads_add = 50
+			goods_output_ironclads_add = 45
 		}
 		level_scaled = {
 			# employment
@@ -2128,7 +2129,7 @@ pm_military_shipbuilding_steam_2 = {
 			goods_input_engines_add = 20
 
 			# output goods
-			goods_output_ironclads_add = 60
+			goods_output_ironclads_add = 55
 		}
 		level_scaled = {
 			# employment

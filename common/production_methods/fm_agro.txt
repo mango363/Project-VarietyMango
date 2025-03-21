@@ -59,7 +59,7 @@ pm_motorized_pumps = {
 			goods_output_grain_add = 75  # Maximized output  
 		}  
 		level_scaled = {  
-			building_employment_laborers_add = -2500  # Fully mechanized  
+			building_employment_laborers_add = -1500  # Fully mechanized  
 		}  
 	}  
 	state_modifiers = {  

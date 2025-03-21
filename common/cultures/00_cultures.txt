@@ -610,6 +610,9 @@ dutch={
 		meat
 		coffee
 		tobacco
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}
 	male_common_first_names={
 		Abraham
@@ -1619,6 +1622,9 @@ swedish={
 		liquor
 		meat
 		tobacco
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}
 
 	male_common_first_names={
@@ -1741,6 +1747,9 @@ danish={
 		liquor
 		meat
 		tobacco
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}
 	male_common_first_names={
 		Aasmund
@@ -2909,6 +2918,7 @@ south_roman={
 		olive
 		coffee
 		meat
+		fine_art
 	}	
 	
 	male_common_first_names={
@@ -3006,6 +3016,7 @@ greco_roman ={
 		tobacco
 		coffee
 		tea
+		fine_art
 	}	
 	
 	male_common_first_names = {
@@ -3907,8 +3918,9 @@ venetian={
 		olive
 		spice
 		coffee
-		tobacco
-		meat
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}	
 	
 	male_common_first_names={
@@ -4811,7 +4823,9 @@ portuguese={
 		wine
 		tea
 		coffee
-		tobacco
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}
 	male_common_first_names={
 		Abel
@@ -9078,6 +9092,9 @@ persian={
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	obsessions = {
 		spice
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}
 	male_common_first_names={
 		Advi Rashan Arsham Kourosh Aardburzin 
@@ -12370,6 +12387,9 @@ korean={
 		tea
 		fruit
 		spice
+		luxury_clothes
+		luxury_furniture
+		fine_art
 	}	
 	male_common_first_names={
 		Bak Bong-haek

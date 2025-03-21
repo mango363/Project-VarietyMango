@@ -3,20 +3,20 @@
 	group = je_group_historical_content
 	is_shown_when_inactive = {
 		exists = c:CUB
-		c:FLU ?= THIS
+		c:VNA ?= THIS
 	}
 	scripted_button = je_buy_cuba_button
 
 	possible = {
 		exists = c:CUB
-		c:FLU ?= THIS
+		c:VNA ?= THIS
 	}
 	complete = {
 		custom_tooltip = {
 			text = no_cub
 			OR = {
 				c:CUB = {
-					is_direct_subject_of = c:FLU
+					is_direct_subject_of = c:VNA
 				}
 				NOT = {
 					c:CUB = {

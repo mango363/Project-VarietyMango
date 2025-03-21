@@ -16,16 +16,16 @@ fm_vna.1 = {
 	option = {
 		name = fm_vna.1.a
 		default_option = yes
+		root = {
+			set_relations = {
+				country = c:VEN	
+				value = -50
+			}
+		}
 		s:STATE_BAHAMAS = {
 			add_claim = ROOT 
 		}
 		s:STATE_PUERTO_RICO = {
-			add_claim = ROOT 
-		}
-		s:STATE_FLORIDA = {
-			add_claim = ROOT 
-		}
-		s:STATE_GEORGIA = {
 			add_claim = ROOT 
 		}
 	}
@@ -63,6 +63,9 @@ fm_vna.2 = {
 		add_modifier = {
 			name = modifier_vna_one
 			months = 60
+		}
+		hidden_effect = {
+			remove_primary_culture = cu:venetian
 		}
 	}
 }

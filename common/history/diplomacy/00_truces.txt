@@ -41,12 +41,7 @@
 			months = 40
 		}
 	}	
-	c:SIA= {
-		create_bidirectional_truce = {
-			country = c:DAI
-			months = 36
-		}
-	}	
+
 	c:BOH = {
 		create_bidirectional_truce = {
 			country = c:BAY
@@ -67,7 +62,7 @@
 	}
 	c:MCG = {
 		create_bidirectional_truce = {
-			country = c:FLU
+			country = c:VNA
 			months = 8
 		}
 		create_bidirectional_truce = {

@@ -31,3 +31,12 @@ pmg_invention_building_mining_industry_sulfur = {
         pm_flotation_sulfur
     }
 }
+
+pmg_invention_building_mining_industry_gold = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        pm_cornish_beam_pumps_gold
+        pm_pneumatic_drills_gold
+    }
+}

@@ -547,6 +547,24 @@ je_fishing_invention_progress = {
                     }
                 }
 
+                else_if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                has_technology_researched = birkeland_eyde_process
+                            }
+                            has_technology_researched = bycatch_utilization
+                        }
+                    }
+                    add_technology_researched = birkeland_eyde_process
+                    scope:journal_entry = {
+                        add_progress = {
+                            name = invention_fishing_progress_bar
+                            value = -100
+                        }
+                    }
+                }
+
 
                 else_if = {
                     limit = {
@@ -554,7 +572,7 @@ je_fishing_invention_progress = {
                             NOT = {
                                 has_technology_researched = hydroacoustic_navigation
                             }
-                            has_technology_researched = bycatch_utilization
+                            has_technology_researched = birkeland_eyde_process
                         }
                     }
                     add_technology_researched = hydroacoustic_navigation

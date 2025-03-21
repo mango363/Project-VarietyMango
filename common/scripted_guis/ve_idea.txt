@@ -513,6 +513,117 @@ cancel_idea = {
 					balance_missionaries = yes
 					balance_cultural_missionaries = yes
 				}
+				remove_variable = can_go_humanist
+				remove_variable = humanist_idea_completed
+				set_variable = {
+					name = humanist_idea
+					value = 0
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_1_mdf
+					}
+					remove_modifier = humanist_idea_1_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_2_mdf
+					}
+					remove_modifier = humanist_idea_2_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_3_mdf
+					}
+					remove_modifier = humanist_idea_3_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_4_mdf
+					}
+					remove_modifier = humanist_idea_4_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_5_mdf
+					}
+					remove_modifier = humanist_idea_5_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_6_mdf
+					}
+					remove_modifier = humanist_idea_6_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = humanist_idea_7_mdf
+					}
+					remove_modifier = humanist_idea_7_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
 				cancel_national_idea_mdf = yes
 			}
 			flag:politics_idea = {
@@ -988,15 +1099,166 @@ cancel_idea = {
 				cancel_national_idea_mdf = yes
 			}
 			flag:humanist_idea = {
-				remove_variable = can_go_humanist
-				remove_variable = humanist_idea_completed
+				remove_variable = can_go_ethnocentrism
+				remove_variable = ethnocentrism_idea_completed
 				set_variable = {
-					name = humanist_idea
+					name = ethnocentrism_idea
 					value = 0
 				}
 				change_variable = {
 					name = idea_group_unlocked
 					subtract = 1
+				}
+				if = {
+					limit = {
+						has_modifier = ethnocentrism_idea_1_mdf
+					}
+					remove_modifier = ethnocentrism_idea_1_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = ethnocentrism_idea_2_mdf
+					}
+					remove_modifier = ethnocentrism_idea_2_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = ethnocentrism_idea_3_mdf
+					}
+					remove_modifier = ethnocentrism_idea_3_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = ethnocentrism_idea_4_mdf
+					}
+					remove_modifier = ethnocentrism_idea_4_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_variable = ethnocentrism_idea_5_var
+					}
+					remove_variable = ethnocentrism_idea_5_var
+					every_scope_state = {
+						limit = {
+							owner = ROOT
+							has_modifier = ve_missionary_mdf
+						}
+						remove_modifier = ve_missionary_mdf
+						add_modifier = {
+							name = ve_missionary_mdf
+							months = -1
+						}
+					}
+					every_scope_state = {
+						limit = {
+							owner = ROOT
+							has_modifier = ve_diffusionist_mdf
+						}
+						remove_modifier = ve_diffusionist_mdf
+						add_modifier = {
+							name = ve_diffusionist_mdf
+							months = -1
+						}
+					}
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_modifier = ethnocentrism_idea_6_mdf
+					}
+					remove_modifier = ethnocentrism_idea_6_mdf
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_variable = ethnocentrism_idea_7_var
+					}
+					remove_variable = ethnocentrism_idea_7_var
+					change_variable = {
+						name = avaible_missionaries
+						subtract = 2
+					}
+					change_variable = {
+						name = avaible_culture_missionaries
+						subtract = 2
+					}
+					change_variable = {
+						name = total_missionaries
+						subtract = 2
+					}
+					change_variable = {
+						name = total_culture_missionaries
+						subtract = 2
+					}
+					if = {
+						limit = {
+							var:national_idea_pool > 0
+						}
+						change_variable = {
+							name = national_idea_pool
+							subtract = 1
+						}
+					}
+					balance_missionaries = yes
+					balance_cultural_missionaries = yes
+				}
+				remove_variable = can_go_humanist
+				remove_variable = humanist_idea_completed
+				set_variable = {
+					name = humanist_idea
+					value = 0
 				}
 				if = {
 					limit = {

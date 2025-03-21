@@ -563,7 +563,7 @@ pm_fishing_research_funding = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_invention_fishing_add = 0.2
+			country_invention_fishing_add = 0.12
 
 			country_expenses_add = 512
 		}
@@ -572,6 +572,7 @@ pm_fishing_research_funding = {
 	building_modifiers = {
 		unscaled = {
 			goods_output_fish_add = 1.25
+			goods_output_fertilizer_add = 0.25
 		}
 	}
 }
@@ -582,7 +583,7 @@ pm_furniture_research_funding = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_invention_furniture_add = 0.15
+			country_invention_furniture_add = 0.1
 
 			country_expenses_add = 512
 		}
@@ -730,7 +731,7 @@ pm_boats_research_funding = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_invention_boats_add = 0.1
+			country_invention_boats_add = 0.15
 
 			country_expenses_add = 512
 		}
@@ -780,7 +781,7 @@ pm_plantations_research_funding = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_invention_plantations_add = 0.15
+			country_invention_plantations_add = 0.1
 
 			country_expenses_add = 512
 		}
@@ -789,6 +790,9 @@ pm_plantations_research_funding = {
 	building_modifiers = {
 		unscaled = {
 			goods_output_tea_add = 0.25
+			goods_output_fabric_add = 0.25
+			goods_output_fruit_add = 0.25
+			goods_output_sugar_add = 0.25
 			goods_output_opium_add = 0.25
 			goods_output_coffee_add = 0.25
 			goods_output_tobacco_add = 0.25

@@ -366,7 +366,7 @@ GDA = {
 USU = {
 	color = { 66  94  193 }
 	
-	country_type = decentralized
+	country_type = recognized
 	
 	tier = empire
 	
@@ -2740,16 +2740,7 @@ NOS = {
 	cultures = { central_american }
 }
 
-FLU = {
-	color = { 123 86  133 }
-	
-	country_type = colonial
-	
-	tier = grand_principality
-	
-	cultures = { americano }
-	capital = STATE_FLORIDA
-}
+
 
 AGA = {
 	color = { 128 111 41}
@@ -2867,12 +2858,12 @@ URU = {
 VNA = {
 	color = { 63 19 145 }
 	
-	country_type = unrecognized
+	country_type = colonial
 	
 	tier = grand_principality
 	
-	cultures = { americano }
-	capital = STATE_MIRANDA
+	cultures = { venetian americano }
+	capital = STATE_FLORIDA
 }
 
 GRV = {
@@ -2893,7 +2884,7 @@ ISR = {
 	
 	tier = kingdom
 	
-	cultures = { ashkenazi sephardic }
+	cultures = { ashkenazi sephardic japanese }
 	capital = STATE_PALESTINE
 }
 

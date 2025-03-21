@@ -9058,55 +9058,9 @@ VNA = { # Venezuela
 	flag_definition = {
 		coa = VNA
 		subject_canton = VNA
-	}
-	flag_definition = {
-		coa = VNA_monarchy
-		subject_canton = VNA_monarchy
-		priority = 10
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = VNA_dictatorship
-		subject_canton = VNA_dictatorship
-		priority = 15
-		trigger = { 
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = VNA_communist
-		subject_canton = VNA_communist
-		priority = 2000
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}				
+	}			
 }
 
-FLU = { # Florida
-	flag_definition = {
-		coa = FLU
-		subject_canton = FLU
-	}
-	flag_definition = {
-		coa = FLU_monarchy
-		subject_canton = FLU_monarchy
-		priority = 10
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = FLU_communist
-		subject_canton = FLU_communist
-		priority = 2000
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}				
-}
 
 WAL = { # Wallachia
 	flag_definition = {

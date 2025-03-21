@@ -623,7 +623,7 @@ gov_colonial_administration = {
 				top_overlord = { NOT = { is_country_type = colonial } }
 			}
 			AND = {
-				exists = c:FLU
+				exists = c:VNA
 				is_subject = yes
 				is_country_type = colonial
 				top_overlord = { NOT = { is_country_type = colonial } }

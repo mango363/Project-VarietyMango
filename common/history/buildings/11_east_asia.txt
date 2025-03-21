@@ -3167,12 +3167,12 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3183,7 +3183,7 @@
 				building="building_spice_plantation"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3194,7 +3194,7 @@
 				building="building_rice_farm"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3205,7 +3205,7 @@
 				building="building_opium_plantation"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3216,7 +3216,7 @@
 				building="building_tea_plantation"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3226,12 +3226,12 @@
 		}
 	}
 	s:STATE_ANNAM = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3242,7 +3242,7 @@
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3253,7 +3253,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3263,12 +3263,12 @@
 		}
 	}
 	s:STATE_MEKONG = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3279,7 +3279,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}
@@ -3290,7 +3290,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:DAI"
+						country="c:VOC"
 						levels=1
 					}
 				}

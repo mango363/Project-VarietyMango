@@ -124,30 +124,30 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:PR1 = {
-			create_pop = {
-				culture = north_german
-				size = 280455
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2200
-			}
-			create_pop = {
-				culture = polish
-				religion = protestant
-				size = 44000
-			}
-			create_pop = {
-				culture = polish
-				size = 158400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 8004
-			}
-		}
+		#region_state:PR1 = {
+		#	create_pop = {
+		#		culture = north_german
+		#		size = 280455
+		#	}
+		#	create_pop = {
+		#		culture = ashkenazi
+		#		size = 2200
+		#	}
+		#	create_pop = {
+		#		culture = polish
+		#		religion = protestant
+		#		size = 44000
+		#	}
+		#	create_pop = {
+		#		culture = polish
+		#		size = 158400
+		#	}
+		#	create_pop = {
+		#		culture = north_german
+		#		religion = catholic
+		#		size = 8004
+		#	}
+		#}
 		region_state:PUM = {
 			create_pop = {
 				culture = north_german
@@ -174,33 +174,33 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:PR1 = {
-			create_pop = {
-				culture = north_german
-				size = 467555
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2600
-			}
-			create_pop = {
-				culture = lithuanian
-				size = 87196
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 41200
-			}
-			create_pop = {
-				culture = polish
-				size = 28000
-			}
-		}
+		#region_state:PR1 = {
+		#	create_pop = {
+		#		culture = north_german
+		#		size = 467555
+		#	}
+		#	create_pop = {
+		#		culture = ashkenazi
+		#		size = 2600
+		#	}
+		#	create_pop = {
+		#		culture = lithuanian
+		#		size = 87196
+		#	}
+		#	create_pop = {
+		#		culture = north_german
+		#		religion = catholic
+		#		size = 41200
+		#	}
+		#	create_pop = {
+		#		culture = polish
+		#		size = 28000
+		#	}
+		#}
 		region_state:PUM = {
 			create_pop = {
 				culture = north_german
-				size = 139655
+				size = 539655
 			}
 			create_pop = {
 				culture = ashkenazi

@@ -1043,7 +1043,7 @@ GLI = {
 
 ISR = {
 	states = {
-		STATE_PALESTINE
+		STATE_LOURENCO_MARQUES
 	}
 
 	ai_will_do = { always = no }
@@ -1052,6 +1052,7 @@ ISR = {
 		has_technology_researched = nationalism
 	}
 }
+
 
 PAL = {
 	states = {

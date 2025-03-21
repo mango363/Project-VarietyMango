@@ -26,9 +26,30 @@
 		}
 		remove_variable = progress_fra
 		hidden_effect = {
-		annex_with_incorporation = c:POI
-		annex_with_incorporation = c:ORL
-		annex_with_incorporation = c:ANJ		
+			if = {
+				limit = { 
+					c:POI = {
+						is_subject_of = root
+					}
+				}
+				annex_with_incorporation = c:POI
+			}
+			if = {
+				limit = { 
+					c:ORL = {
+						is_subject_of = root
+					}
+				}
+				annex_with_incorporation = c:ORL
+			}
+			if = {
+				limit = { 
+					c:ANJ = {
+						is_subject_of = root
+					}
+				}
+				annex_with_incorporation = c:ANJ
+			}		
 		}
 
 	}

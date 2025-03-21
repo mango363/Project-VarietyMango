@@ -549,6 +549,7 @@ modifier_dak_three = {
 modifier_vna_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 0.1
+	country_prestige_add = 25
 }
 modifier_ind_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds

@@ -787,23 +787,23 @@
 			}
 		}
 	}
-	c:PR1 = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_poland
-			name = "1st Prussian Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_WEST_PRUSSIA
-				count = 15
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_WEST_PRUSSIA
-				count = 15
-			}
-		}
-	}
+	#c:PR1 = {
+	#	create_military_formation = {
+	#		type = army
+	#		hq_region = sr:region_poland
+	#		name = "1st Prussian Army"
+	#		combat_unit = {
+	#			type = unit_type:combat_unit_type_line_infantry
+	#			state_region = s:STATE_WEST_PRUSSIA
+	#			count = 15
+	#		}
+	#		combat_unit = {
+	#			type = unit_type:combat_unit_type_mobile_artillery
+	#			state_region = s:STATE_WEST_PRUSSIA
+	#			count = 15
+	#		}
+	#	}
+	#}
 	c:FRU = {
 		create_military_formation = {
 			type = army
@@ -1111,7 +1111,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_africa
-			name = "Carthagenian Army"
+			name = "carthaginian Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SICILY
@@ -1127,7 +1127,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_north_africa
-			name = "Carthagenian Navy"
+			name = "carthaginian Navy"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_SICILY

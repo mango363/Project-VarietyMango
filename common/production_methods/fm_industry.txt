@@ -320,6 +320,23 @@ pm_fishmeal_rendering = {
     }
 }
 
+early_nitrogen_fixation = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {birkeland_eyde_process}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_sulfur_add = 15 
+            goods_input_coal_add = 10
+            goods_output_fertilizer_add = 100
+        }
+        level_scaled = {
+            building_employment_machinists_add = 250
+            building_employment_engineers_add = 50   
+        }
+    }
+}
+
 pm_echo_sounding_trawlers = {
     texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
     unlocking_technologies = {hydroacoustic_navigation}
@@ -351,8 +368,8 @@ pm_steam_bent_furniture = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_wood_add = -10
-            goods_input_coal_add = 5
+            goods_input_wood_add = 5
+            goods_input_coal_add = 1
 
             goods_output_furniture_add = 40
 
@@ -381,10 +398,10 @@ pm_decorative_veneer_furnishings = {
         workforce_scaled = {
             #-10 Fabric (reduced upholstery needs)
             goods_input_fabric_add = -5
-            goods_input_wood_add = -10
+            goods_input_wood_add = 5
 
             #+5 Dye (stained veneers for aesthetics)
-            goods_input_dye_add = 5
+            goods_input_dye_add = 2
         
             #+5 Tools (precision cutting)
             goods_input_tools_add = 5
@@ -405,7 +422,7 @@ pm_bakelite_and_composite_furniture = {
     building_modifiers = {
         workforce_scaled = {
             #-20 Wood
-            goods_input_wood_add = -20
+            goods_input_wood_add = 10
 
             #+10 Oil (plastic/resin components)
             goods_input_oil_add = 1
@@ -681,7 +698,7 @@ pm_centralized_abattoirs = {
             goods_output_meat_add = 50
         }
         level_scaled = {
-            building_employment_laborers_add = -1200
+            building_employment_laborers_add = -700
             building_employment_engineers_add = 50  # Refrigeration technicians
         }
     }
@@ -722,7 +739,7 @@ pm_conveyor_butchering = {
             goods_output_fertilizer_add = 15
         }
         level_scaled = {
-            building_employment_laborers_add = -2000
+            building_employment_laborers_add = -1000
             building_employment_engineers_add = 100
         }
     }
@@ -1198,8 +1215,8 @@ pm_tungsten_carbide_tools = {
             goods_output_tools_add = 150
         }
         level_scaled = {
-            building_employment_laborers_add = -2000
-            building_employment_engineers_add = 500
+            building_employment_laborers_add = -1000
+            building_employment_engineers_add = 300
         }
     }
 }
@@ -1319,6 +1336,40 @@ pm_clonal_propagation = {
     }
 }
 
+pm_clonal_propagation_cotton = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {selective_cultivation_techniques}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+
+            goods_output_fabric_add = 30
+        }
+        level_scaled = {
+            building_employment_farmers_add = 1000
+            building_employment_laborers_add = -1000
+        }
+    }
+}
+
+pm_clonal_propagation_banana = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {selective_cultivation_techniques}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+
+            goods_output_fruit_add = 30
+        }
+        level_scaled = {
+            building_employment_farmers_add = 1000
+            building_employment_laborers_add = -1000
+        }
+    }
+}
+
 pm_mechanical_resin_extraction = {
     texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
     unlocking_technologies = {steam_powered_presses}
@@ -1363,10 +1414,26 @@ pm_steam_cured_leaves = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_coal_add = 5
-            goods_input_glass_add = 5
+            goods_input_coal_add = 2
+            goods_input_glass_add = 3
 
             goods_output_tobacco_add = 40
+        }
+        level_scaled = {
+            building_employment_machinists_add = 250
+        }
+    }
+}
+pm_steam_cured_leaves_sugar = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {hydraulic_press_innovations}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 2
+            goods_input_glass_add = 3
+
+            goods_output_sugar_add = 40
         }
         level_scaled = {
             building_employment_machinists_add = 250
@@ -1423,6 +1490,23 @@ pm_electric_grow_lamps = {
     }
 }
 
+pm_electric_grow_lamps_sugar = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {photoperiod_control}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_glass_add = 5
+
+            goods_output_sugar_add = 80
+        }
+        level_scaled = {
+            building_employment_engineers_add = 200
+        }
+    }
+}
+
 pm_bioaugmented_cultivation = {
     texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
     unlocking_technologies = {mycorrhizal_inoculation}
@@ -1432,6 +1516,32 @@ pm_bioaugmented_cultivation = {
             goods_input_fertilizer_add = 10
 
             goods_output_tea_add = 60
+        }
+    }
+}
+
+pm_bioaugmented_cultivation_cotton = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {mycorrhizal_inoculation}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fertilizer_add = 10
+
+            goods_output_fabric_add = 60
+        }
+    }
+}
+
+pm_bioaugmented_cultivation_banana = {
+    texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+    unlocking_technologies = {mycorrhizal_inoculation}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fertilizer_add = 10
+
+            goods_output_fruit_add = 60
         }
     }
 }

@@ -54,6 +54,13 @@ pmg_invention_building_fishing_industry = {
     }
 }
 
+pmg_invention_building_fertilizer_industry = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_invention
+        early_nitrogen_fixation
+    }
+}
 
 pmg_invention_building_furniture_industry = {
     texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"

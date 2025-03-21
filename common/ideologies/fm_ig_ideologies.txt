@@ -42,6 +42,7 @@ ideology_paternalistic = {
 		law_laissez_faire = disapprove
 		law_cooperative_ownership = strongly_disapprove
 		law_command_economy = strongly_disapprove
+		law_state_capitalism = strongly_disapprove
 	}
 	
 	lawgroup_trade_policy = {		
@@ -83,6 +84,7 @@ ideology_inca_paternalistic = {
 		law_laissez_faire = strongly_disapprove
 		law_cooperative_ownership = strongly_disapprove
 		law_command_economy = strongly_approve
+		law_state_capitalism = strongly_disapprove
 	}
 	lawgroup_land_reform = {
 		law_serfdom = disapprove

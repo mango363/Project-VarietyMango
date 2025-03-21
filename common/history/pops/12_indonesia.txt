@@ -13,14 +13,14 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:BRU = {
+		region_state:VOC = {
 			create_pop = {
 				culture = dayak
 				size = 75000
 			}
 			create_pop = {
 				culture = dayak
-				religion = sunni
+				religion = protestant
 				size = 12000
 			}
 			create_pop = {
@@ -36,49 +36,9 @@
 				culture = bornean
 				size = 100196
 			}
-		}
-		region_state:VOC = {
-			create_pop = {
-				culture = dayak
-				size = 14000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 6000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = dayak
-				size = 2000
-			}
-			create_pop = {
-				culture = bornean
-				size = 15200
-			}
 			create_pop = {
 				culture = dutch
-				size = 400
-			}
-		}
-		region_state:BRU = {
-			create_pop = {
-				culture = dayak
-				size = 7000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = dayak
-				size = 300
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 4000
-			}
-			create_pop = {
-				culture = bornean
-				size = 1000
+				size = 6900
 			}
 		}
 	}
@@ -188,7 +148,7 @@
 				size = 800
 			}
 		}
-		region_state:BRU = {
+		region_state:VOC = {
 			create_pop = {
 				culture = dayak
 				size = 42000
@@ -199,7 +159,7 @@
 			}
 			create_pop = {
 				culture = dayak
-				religion = sunni
+				religion = protestant
 				size = 16000
 			}
 			create_pop = {
@@ -393,7 +353,7 @@
 			}
 			create_pop = {
 				culture = batak
-				religion = sunni
+				religion = zoroastrian
 				size = 6388
 			}
 			create_pop = {
@@ -584,7 +544,7 @@
 			}
 			create_pop = {
 				culture = melanesian
-				religion = sunni
+				religion = zoroastrian
 				size = 20000
 			}
 			create_pop = {
@@ -598,12 +558,12 @@
 			}
 			create_pop = {
 				culture = melanesian
-				religion = catholic
+				religion = protestant
 				size = 8000
 			}
 			create_pop = {
 				culture = moluccan
-				religion = catholic
+				religion = protestant
 				size = 3996
 			}
 		}

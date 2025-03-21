@@ -70,31 +70,18 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:BRU = {
+		region_state:VOC = {
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:BRU"
+						country="c:VOC"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:BRU"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-		}
-		region_state:VOC = {
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
@@ -229,12 +216,12 @@
 		}
 	}
 	s:STATE_EAST_BORNEO = {
-		region_state:BRU = {
+		region_state:VOC = {
 			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:BRU"
+						country="c:VOC"
 						levels=10
 					}
 				}

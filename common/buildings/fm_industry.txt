@@ -20,8 +20,12 @@
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -52,8 +56,12 @@ building_textile_mills = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -84,8 +92,12 @@ building_furniture_manufacturies = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -116,8 +128,12 @@ building_paper_mills = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -146,8 +162,12 @@ building_motor_industry = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -186,8 +206,12 @@ building_shipyards = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -219,8 +243,12 @@ building_military_shipyards = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -253,8 +281,12 @@ building_glassworks = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -295,8 +327,12 @@ building_explosives_factory = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self
@@ -322,8 +358,12 @@ building_synthetics_plants = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -364,8 +404,12 @@ building_steel_mills = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -407,8 +451,12 @@ building_tooling_workshops = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -440,8 +488,12 @@ building_arms_industry = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -471,8 +523,12 @@ building_munition_plants = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -513,8 +569,12 @@ building_war_machine_industry = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -547,12 +607,17 @@ building_chemical_plants = {
 
 	production_method_groups = {
 		pmg_fertilizer_production
+		pmg_invention_building_fertilizer_industry
 	}
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 
@@ -592,8 +657,12 @@ building_artillery_foundries = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	
@@ -619,8 +688,12 @@ building_electrics_industry = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	

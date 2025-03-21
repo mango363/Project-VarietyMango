@@ -4,13 +4,13 @@
 			goods = olive
 			level = 6
 			direction = import
-			target = c:FLU.market
+			target = c:VNA.market
 		}		
 		create_trade_route = {
 			goods = dye
 			level = 6
 			direction = import
-			target = c:FLU.market
+			target = c:VNA.market
 		}	
 	}
 	c:ARM ?= {
@@ -199,19 +199,17 @@
 	}
 	c:VNA ?= {
 		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:CUL.market
-		}		
-	}
-	c:FLU ?= {
-		create_trade_route = {
 			goods = manowars
 			level = 2
 			direction = import
 			target = c:SWU.market
 		}	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:CUL.market
+		}
 		create_trade_route = {
 			goods = wine
 			level = 6

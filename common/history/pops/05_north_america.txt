@@ -414,10 +414,14 @@
 				size = 600000
 			}
 		}
-		region_state:FLU = {
+		region_state:VNA = {
 			create_pop = {
 				culture = americano
 				size = 129765
+			}
+			create_pop = {
+				culture = venetian
+				size = 765
 			}
 			create_pop = {
 				culture = na_muscogee
@@ -430,15 +434,23 @@
 		}
 	}
 	s:STATE_FLORIDA = {
-		region_state:FLU = {
-
+		region_state:VNA = {
+			create_pop = {
+				culture = venetian
+				size = 15765
+			}
 			create_pop = {
 				culture = americano
-				size = 1845322
+				size = 1545322
 			}
 			create_pop = {
 				culture = afro_caraibico
+				pop_type = slaves
 				size = 415000
+			}
+			create_pop = {
+				culture = afro_caraibico
+				size = 43000
 			}
 			create_pop = {
 				culture = na_muscogee

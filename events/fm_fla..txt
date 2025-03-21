@@ -52,3 +52,111 @@ fm_fla.1 = {
 		}
 	}
 }
+
+fm_fla.2 = {
+	type = country_event
+	placement = root
+	title = fm_fla.2.t
+	desc = fm_fla.2.d
+	flavor = fm_fla.2.f
+	duration = 3
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	immediate = {
+	}
+	option = {
+		name = fm_fla.2.a
+		default_option = yes
+		add_loyalists = {
+			culture = cu:flemish
+			value = 0.2
+		}
+		add_loyalists = {
+			culture = cu:wallonian
+			value = 0.2
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_HOLLAND
+				}
+			}
+			S:STATE_HOLLAND = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_GELRE
+				}
+			}
+			S:STATE_GELRE = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_FRIESLAND
+				}
+			}
+			S:STATE_FRIESLAND = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_ILE_DE_FRANCE
+				}
+			}
+			S:STATE_ILE_DE_FRANCE = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_NORMANDY
+				}
+			}
+			S:STATE_NORMANDY = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_ORLEANS
+				}
+			}
+			S:STATE_ORLEANS = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_MAINE_ANJOU
+				}
+			}
+			S:STATE_MAINE_ANJOU = {
+				add_claim = root
+			}
+		}
+		if = {
+			limit = { 
+				NOT = {
+					owns_entire_state_region = STATE_POITOU
+				}
+			}
+			S:STATE_POITOU = {
+				add_claim = root
+			}
+		}
+	}
+}

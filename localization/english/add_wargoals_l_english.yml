@@ -130,3 +130,7 @@
  setting_ai_wargoals_allowed_desc:0 "The AI is allowed to add wargoals during wars"
  setting_ai_wargoals_blocked:0 "Not Allowed"
  setting_ai_wargoals_blocked_desc:0 "The AI will not add wargoals during wars"
+ intervene_in_war: "Intervene in War"
+ intervene_in_war_desc: "Intervene in War"
+ intervene_in_war_tt: "Intervene in War"
+ DIPLO_ACTION_RELATIONS_NEUTRAL_OR_GREATER: "$DIPLO_ACTION_RELATIONS$ are equal or above $relations_neutral$"

@@ -7,17 +7,13 @@
 
 	c:FOU = {
 		set_relations = { country = c:AMC value = 50 }
-		set_relations = { country = c:FLU value = 50 }
+
 
 		set_relations = { country = c:MCG value = -10 }
 		set_relations = { country = c:IQS value = -50 }
 	}
 
-	c:FLU = {
-		set_relations = { country = c:FOU value = 50 }
 
-		set_relations = { country = c:MCG value = -50 }
-	}
 
 	c:IQS = {
 		set_relations = { country = c:AMC value = -80 }
@@ -35,7 +31,7 @@
 
 	c:MCG = {
 		set_relations = { country = c:FOU value = -30 }
-		set_relations = { country = c:FLU value = -80 }
+		set_relations = { country = c:VNA value = -80 }
 		set_relations = { country = c:LOI value = -40 }
 
 		set_relations = { country = c:IQS value = 40 }

@@ -1,35 +1,5 @@
 ﻿MILITARY_FORMATIONS = {
-	c:FLU = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_dixie
-			name = "Esercito di Difesa" 
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_FLORIDA
-				count = 15
-			}
-
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_FLORIDA
-				count = 15
-			}
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_dixie
-			name = "Flotta della Repubblica"
-
-			combat_unit = { 
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_FLORIDA
-				count = 5
-			}
-		}
-	}
 
 	c:AGA = {
 		create_military_formation = {
@@ -351,30 +321,58 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_gran_colombia
-			name = "Esercito di Veneziana"
+			name = "Esercito di Nuova Venezia"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MIRANDA
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MIRANDA
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BOLIVAR
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GUAYANA
-				count = 10
+				count = 5
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = "Esercito di Difesa" 
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FLORIDA
+				count = 5
+			}
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_FLORIDA
+				count = 5
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_dixie
+			name = "Flotta delle Antille"
+
+			combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_FLORIDA
+				count = 5
+			}
+			combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_MIRANDA
+				count = 5
 			}
 		}
 	}

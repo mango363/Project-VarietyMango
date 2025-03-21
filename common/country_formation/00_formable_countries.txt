@@ -540,7 +540,6 @@ RUH = {
 		STATE_PSKOV
 		STATE_TVER
 		STATE_YAROSLAVL
-		STATE_VITEBSK
 		STATE_SMOLENSK
 		STATE_MOSCOW
 		STATE_BREST
@@ -561,7 +560,7 @@ RUH = {
 		STATE_TAURIDA
 	}
 
-	required_states_fraction = 0.8
+	required_states_fraction = 0.75
 
 	possible = {
 		has_technology_researched = pan-nationalism
@@ -756,7 +755,7 @@ BLH = {
 	ai_will_do = { always = yes }
 	
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = nationalism
 	}
 }
 
@@ -1266,13 +1265,14 @@ SC2 = {
 
 ISR = {
 	states = {
-		STATE_PALESTINE
+		STATE_LOURENCO_MARQUES
 	}
 
 	ai_will_do = { always = no }
 
 	possible = {
 		has_technology_researched = nationalism
+		country_has_state_religion = rel:jewish
 	}
 }
 FL1 = {
@@ -1291,7 +1291,7 @@ FL1 = {
 		STATE_PICARDY
 	}
 
-	required_states_fraction = 0.8
+	required_states_fraction = 0.75
 
 
 	

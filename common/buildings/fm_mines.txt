@@ -18,12 +18,17 @@ building_gold_mine = {
 		pmg_explosives_building_gold_mine
 		pmg_steam_automation_building_gold_mine
 		pmg_train_automation_building_gold_mine
+		pmg_invention_building_mining_industry_gold
 	}
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self
@@ -76,8 +81,12 @@ building_coal_mine = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self
@@ -107,8 +116,12 @@ building_iron_mine = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self
@@ -137,8 +150,12 @@ building_lead_mine = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self
@@ -167,8 +184,12 @@ building_sulfur_mine = {
 	can_build_government = {
 		owner = {
 			NOT = {
-				has_law = law_type:law_laissez_faire
+				OR = {
+					has_law = law_type:law_laissez_faire
+					has_law = law_type:law_state_capitalism
+				}
 			}
+
 		}
 	}
 	ownership_type = self

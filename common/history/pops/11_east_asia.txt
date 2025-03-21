@@ -643,7 +643,7 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_pop = {
 				culture = vietnamese
 				size = 1241220
@@ -654,12 +654,12 @@
 			}
 			create_pop = {
 				culture = vietnamese
-				religion = 	confucian
+				religion = 	protestant
 				size = 228000
 			}
 			create_pop = {
-				culture = min
-				size = 16000
+				culture = dutch
+				size = 11000
 			}
 			create_pop = {
 				culture = vietnamese
@@ -669,18 +669,18 @@
 		}
 	}
 	s:STATE_ANNAM = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_pop = {
 				culture = vietnamese
 				size = 2040333
 			}
 			create_pop = {
-				culture = yue
-				size = 31996
+				culture = dutch
+				size = 1996
 			}
 			create_pop = {
 				culture = vietnamese
-				religion = catholic
+				religion = protestant
 				size = 216000
 			}
 			create_pop = {
@@ -691,7 +691,7 @@
 		}
 	}
 	s:STATE_MEKONG = {
-		region_state:DAI = {
+		region_state:VOC = {
 			create_pop = {
 				culture = vietnamese
 				size = 1152396
@@ -707,11 +707,11 @@
 			}
 			create_pop = {
 				culture = vietnamese
-				religion = catholic
+				religion = protestant
 				size = 116400
 			}
 			create_pop = {
-				culture = yue
+				culture = dutch
 				size = 16000
 			}
 			create_pop = {

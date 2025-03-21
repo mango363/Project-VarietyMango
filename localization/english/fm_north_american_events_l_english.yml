@@ -22,12 +22,12 @@
  fm_na_one.1.a: "[SCOPE.sCharacter('armed_forces_leader').GetFullName] gains Authoritarian"
 
  # Castile
- fm_cas.8.t: "A $FLU_ADJ$ Offer"
- fm_cas.8.d: "$FLU$, a former colony of Venice, has offered to purchase $CUB$."
- fm_cas.8.f: "$FLU$ is only just getting its footing and wishes to create closer ties to us.\n\nThey have offered to purchase $CUB$ from us for a reasonable price."
+ fm_cas.8.t: "A $VEN_ADJ$ Offer"
+ fm_cas.8.d: "$VNA$, a semi-independent company of Venice, has offered to purchase $CUB$."
+ fm_cas.8.f: "$VNA$ is only just getting its footing and wishes to create closer ties to us.\n\nThey have offered to purchase $CUB$ from us for a reasonable price."
  fm_cas.8.a: "Reject this ridiculous offer!"
  fm_cas.8.b: "Closer ties will make us both stronger"
- fm_cas.8.holy: "$FLU$ will have a stronger Catholic Church for some time"
+ fm_cas.8.holy: "$VNA$ will have a stronger Catholic Church for some time"
 
  # Florida
  fm_na_flu.3.t: "Rejection!"

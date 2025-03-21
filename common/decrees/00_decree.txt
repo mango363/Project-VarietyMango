@@ -572,57 +572,26 @@ decree_encourage_resource_industry = {
 	}
 }
 
-decree_encourage_private_inv = {
-	texture = "gfx/interface/icons/decree/privi.dds"
-	unlocking_technologies = {
-		manufacturies
-	}
-	country_trigger = {
-		owner = {
-			NOT = {
-				has_law = law_type:law_traditionalism
-			}
-			gdp < 50000000
-		}
-		owner = {
-			is_player = yes
-		}
-	}
-	state_trigger = {
-		NOT = {
-			has_decree = decree_industrialize
-		}
-	}
-	modifier = {
-		state_tax_waste_add = 0.3
-		state_aristocrats_investment_pool_efficiency_mult = 0.15	
-		state_capitalists_investment_pool_efficiency_mult = 0.3
-		state_shopkeepers_investment_pool_efficiency_mult = 0.5
-		state_farmers_investment_pool_efficiency_mult = 0.5	
-		state_clergymen_investment_pool_efficiency_mult = 0.5	
-		state_farmers_investment_pool_efficiency_mult = 0.25
-	}
-	cost = 150
-}
-
 decree_industrialize = {
 	texture = "gfx/interface/icons/decree/cons.dds"
 	unlocking_technologies = {
 		manufacturies
 	}
-	valid = {
-		owner = {
-			gdp < 50000000
-		}
-		owner = {
-			is_player = yes
-		}
+	state_trigger = {
 		NOR = {
 			has_decree = decree_emergency_relief
 			has_decree = decree_greener_grass_campaign
 			has_decree = decree_promote_social_mobility
 			has_decree = decree_workplace_saf
 			has_decree = decree_encourage_private_inv
+		}
+		owner = {
+			gdp < 50000000
+		}
+	}
+	valid = {
+		owner = {
+			is_player = yes
 		}
 	}
 	modifier = {

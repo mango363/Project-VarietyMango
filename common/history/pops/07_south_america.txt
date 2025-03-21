@@ -63,7 +63,11 @@ POPS = {
 		region_state:VNA = {
 			create_pop = {
 				culture = americano
-				size = 182000
+				size = 112000
+			}
+			create_pop = {
+				culture = venetian
+				size = 2000
 			}
 			create_pop = {
 				culture = afro_caraibico
@@ -76,7 +80,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 8000
+				size = 88000
 			}
 		}
 	}
@@ -109,7 +113,11 @@ POPS = {
 		region_state:VNA = {
 			create_pop = {
 				culture = americano
-				size = 1466908
+				size = 866908
+			}
+			create_pop = {
+				culture = venetian
+				size = 22000
 			}
 			create_pop = {
 				culture = afro_caraibico
@@ -121,6 +129,10 @@ POPS = {
 				size = 24004
 			}
 			create_pop = {
+				culture = amazonian
+				size = 366908
+			}
+			create_pop = {
 				culture = north_andean
 				size = 54908
 			}
@@ -130,7 +142,11 @@ POPS = {
 		region_state:VNA = {
 			create_pop = {
 				culture = americano
-				size = 1244392
+				size = 744392
+			}
+			create_pop = {
+				culture = venetian
+				size = 5000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -144,7 +160,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 28000
+				size = 528000
 			}
 		}
 	}

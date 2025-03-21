@@ -62,7 +62,7 @@ je_lom_rome_reason: "Even though centuries of division have split italian and ro
 
 je_venice_main: "Hub of all Trades"
 je_venice_main_reason: "With the spreading of industrialization all across Europe and the increasing necessity of raw resources, our once glorious merchantile republic has the opportunity to become the most significant port of Europe, but in order to achieve that we must monopolize most of the trade routes that come into Europe."
-je_venice_main_goal: "7 Journal Entries have been completed."
+je_venice_main_goal: "6 Journal Entries have been completed."
 je_venice_main_r: "Hegemon of the Trade"
 je_venice_main_r_reason: "Now that we have gained the status of hegemon of the trade, we must do everything in our power to defend it, or we will lose everything we fought for."
 
@@ -288,13 +288,8 @@ je_dakota_tribes_cru_desc: ""
 je_dakota_tribes_sio: "Send Gifts to the Siouan Tribes"
 je_dakota_tribes_sio_desc: ""
 
-je_grv_VNA: "Towards Gran Venezia"
-je_grv_VNA_reason: "After gaining their independence, the [GetCulture('americano').GetName] people lived scattered across multiple countries.\nIt is our duty to unify our people, and while we will need to wage war against Venice for the #bold Bahamas#! and #bold Porto Ricco#!, if we can manage to subjugate #bold Florida#! and keep good relations with them, we will be able to annex their lands peacefully."
-no_ex_flo: "Florida does not exist"
-
-je_grv_FLU: "Towards Gran Venezia"
-je_grv_FLU_reason: "After gaining their independence, the [GetCulture('americano').GetName] people lived scattered across multiple countries.\nIt is our duty to unify our people, and while we will need to wage war against Venice for the #bold Bahamas#! and #bold Porto Ricco#!, if we can manage to subjugate #bold Veneziana#! and keep good relations with them, we will be able to annex their lands peacefully."
-no_ex_vna: "Veneziana does not exist"
+je_grv_VNA: "Towards Independence"
+je_grv_VNA_reason: "#V All countries in America, with the exception of the us and New Holland, have recently attained independence.\nIn light of the growing wave of nationalism throughout the region, there has been an increasing demand among the populace for independence from Venice.#!"
 
 je_kurdistan: "The Lands of the Kurds"
 je_kurdistan_reason: "The kurdish people have tried to from a nation for centuries, but they have always been violently repressed by the empires that dominated them.\nTheir dream has never died, and therefore if we want to stop them from revolting, we must keep the turmoil low in their regions."

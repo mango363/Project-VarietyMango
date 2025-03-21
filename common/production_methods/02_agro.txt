@@ -3,7 +3,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			goods_output_grain_add = 15
+			goods_output_grain_add = 13
 		}
 
 		level_scaled = {
@@ -26,7 +26,7 @@ pm_soil_enriching_farming = {
 			goods_input_fertilizer_add = 5				
 			
 			# output goods													
-			goods_output_grain_add = 25
+			goods_output_grain_add = 20
 		}
 
 		level_scaled = {
@@ -56,7 +56,7 @@ pm_fertilization = {
 			goods_input_fertilizer_add = 10				
 			
 			# output goods												   
-			goods_output_grain_add = 40
+			goods_output_grain_add = 35
 		}
 
 		level_scaled = {
@@ -257,7 +257,7 @@ pm_soil_enriching_farming_building_rice_farm = {
 			goods_input_fertilizer_add = 10		
 			
 			# output goods													
-			goods_output_grain_add = 60		
+			goods_output_grain_add = 55		
 		}
 
 		level_scaled = {
@@ -281,7 +281,7 @@ pm_fertilization_building_rice_farm = {
 			goods_input_fertilizer_add = 20				
 			
 			# output goods												   
-			goods_output_grain_add = 90
+			goods_output_grain_add = 80
 		}
 
 		level_scaled = {
@@ -303,7 +303,7 @@ pm_chemical_fertilizer_building_rice_farm = {
 			goods_input_fertilizer_add = 30			
 			
 			# output goods												   
-			goods_output_grain_add = 140	
+			goods_output_grain_add = 125	
 		}
 
 		level_scaled = {

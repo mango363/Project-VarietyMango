@@ -58,7 +58,7 @@ age_1_bonus_9 = {
 
 age_1_bonus_10 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_radicals_from_conquest_mult = -0.95
+	state_lower_strata_expected_sol_add = -1.5
 }
 
 age_1_bonus_11 = {

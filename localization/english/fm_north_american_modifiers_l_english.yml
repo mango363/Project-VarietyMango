@@ -3,4 +3,4 @@
  modifier_cas_cuba: "$CUB_ADJ$ Purchase"
  modifier_flu_cuba: "$CUB_ADJ$ Purchase"
  modifier_flu_holy: "Closer relations with the Catholic Church in $CAS$"
- modifier_flu_no_cuba: "$CAS$ recently rejected the $FLU_ADJ$ offer to purchase $CUB$"
+ modifier_flu_no_cuba: "$CAS$ recently rejected the $VEN_ADJ$ offer to purchase $CUB$"

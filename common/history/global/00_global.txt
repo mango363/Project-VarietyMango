@@ -174,7 +174,7 @@ GLOBAL = {
 
 	c:LLO ?= {
 		add_radicals = {
-			value = 0.15
+			value = 0.05
 		}
 	}
 

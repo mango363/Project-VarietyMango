@@ -11,10 +11,6 @@
 			type = guarantee_independence
 		}	
 		create_diplomatic_pact = {
-			country = c:FLU
-			type = guarantee_independence
-		}
-		create_diplomatic_pact = {
 			country = c:HSE
 			type = guarantee_independence
 		}

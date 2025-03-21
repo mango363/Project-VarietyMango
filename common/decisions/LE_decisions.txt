@@ -521,6 +521,14 @@ convert_to_isl = {
 		ruler = {
 			change_character_religion = rel:sunni
 		}
+		ig:ig_devout = {
+			leader = {
+				change_character_religion = rel:sunni
+			}
+			set_ig_trait = ig_trait:ig_trait_sharia
+			set_ig_trait = ig_trait:ig_trait_da_wat
+			set_interest_group_name = ig_sunni_madrasahs
+		}
 	}
 	ai_chance = {
 		base = 1

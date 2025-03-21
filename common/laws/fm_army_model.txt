@@ -78,7 +78,7 @@ law_professional_army = {
 		country_soldiers_pol_str_mult = 0.50
 		state_building_barracks_max_level_add = 150
 		state_building_conscription_center_max_level_add = 50
-		unit_experience_gain_mult = 1.0
+		unit_experience_gain_mult = 2.0
 	}
 
 	can_impose = {

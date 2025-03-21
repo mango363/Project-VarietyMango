@@ -1921,6 +1921,14 @@ on_country_formed = {
 				popup = yes
 			}
 		}
+		else_if = {
+			limit = {
+				c:FL1 ?= ROOT
+			}
+			trigger_event = {
+				id = fm_fla.2
+			}
+		}
 		else = {
 			trigger_event = {
 				id = formation.17
