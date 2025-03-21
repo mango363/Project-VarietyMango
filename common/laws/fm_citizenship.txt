@@ -343,7 +343,8 @@ law_multicultural = {
 	}
 	
 	unlocking_technologies = {
-		psychoanalysis
+		human_rights
+
 	}
 	
 	on_enact = {
