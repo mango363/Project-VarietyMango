@@ -270,7 +270,6 @@ pm_dust_prevention_systems = {
             goods_output_luxury_clothes_add = 30
         }
         level_scaled = {
-            building_laborers_mortality_mult = -0.2 # Safer mills
             building_employment_engineers_add = 100
         }
     }

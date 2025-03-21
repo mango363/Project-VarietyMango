@@ -34,7 +34,7 @@ GLOBAL = {
 	c:NED = {
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -5.0
+			multiply = -2.0
 		}
 		add_radicals = {
 			value = 0.10
