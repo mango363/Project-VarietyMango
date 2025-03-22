@@ -59,6 +59,12 @@ pm_cornish_beam_pumps_gold = {
         }
     }
 
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 600
+		}
+	}
+
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 6
@@ -82,6 +88,12 @@ pm_pneumatic_drills_gold = {
 			building_employment_engineers_add = 50
         }
     }
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 900
+		}
+	}
 
 	state_modifiers = {
 		workforce_scaled = {
