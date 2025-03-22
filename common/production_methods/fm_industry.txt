@@ -250,7 +250,7 @@ pm_rubberized_clothing = {
             goods_input_rubber_add = 5        # From Plantations/Explosives
             goods_input_sulfur_add = 5         # From Mining
             goods_output_luxury_clothes_add = 50 
-            goods_output_clothes_add = -20     # Shift to premium
+            goods_output_clothes_add = -10     # Shift to premium
         }
         level_scaled = {
             military_formation_mobilization_speed_mult = 0.1 # Elastic in uniforms
@@ -370,7 +370,7 @@ pm_steam_bent_furniture = {
             goods_input_wood_add = 5
             goods_input_coal_add = 1
 
-            goods_output_furniture_add = 40
+            goods_output_furniture_add = 50
 
             
         }

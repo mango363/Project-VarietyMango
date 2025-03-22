@@ -58,7 +58,7 @@ pm_baking_powder = {
 			goods_input_sugar_add = 35		# x30 =  900
 
 			# output goods
-			goods_output_groceries_add = 110	# x30 = 3600
+			goods_output_groceries_add = 90	# x30 = 3600
 		}
 
 		level_scaled = {
@@ -280,7 +280,7 @@ pm_handsewn_clothes = {
 			goods_input_fabric_add = 40		# x20 =  800
 			
 			# output goods
-			goods_output_clothes_add = 40	# x30 = 1350
+			goods_output_clothes_add = 35	# x30 = 1350
 		}
 
 		level_scaled = {
@@ -303,7 +303,7 @@ pm_dye_workshops = {
 			goods_input_dye_add = 5			# x40 =  200
 			
 			# output goods
-			goods_output_clothes_add = 55	# x30 = 1800
+			goods_output_clothes_add = 50	# x30 = 1800
 		}
 
 		level_scaled = {
@@ -330,7 +330,7 @@ pm_sewing_machines = {
 			goods_input_tools_add = 5		# x40 =  200
 			
 			# output goods
-			goods_output_clothes_add = 90	# x30 = 3000
+			goods_output_clothes_add = 70	# x30 = 3000
 		}
 
 		level_scaled = {
@@ -359,7 +359,7 @@ pm_electric_sewing_machines = {
 			goods_input_electricity_add = 10
 			
 			# output goods
-			goods_output_clothes_add = 125
+			goods_output_clothes_add = 100
 		}
 
 		level_scaled = {
@@ -521,7 +521,7 @@ pm_lathe = {
 			goods_input_tools_add = 5
 			
 			# output goods
-			goods_output_furniture_add = 60
+			goods_output_furniture_add = 50
 		}
 
 		level_scaled = {
@@ -555,7 +555,7 @@ pm_mechanized_workshops = {
 			goods_input_tools_add = 10
 			
 			# output goods
-			goods_output_furniture_add = 100
+			goods_output_furniture_add = 85
 		}
 
 		level_scaled = {
