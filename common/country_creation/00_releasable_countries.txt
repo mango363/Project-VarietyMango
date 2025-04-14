@@ -577,13 +577,6 @@ QUE = {
 	ai_will_do = { always = no }
 }
 
-NBS = {
-	provinces = {
-		xC91FD7 xEE2FFF x5A0CA8 x71A015 x326F36 xF01C37 x70A0CE x484A09 x082153 x62FC6A xDE0FD5 xBB0F05 x7040C0 x4D9EEE x8ED253 xD090A6 x20CF66 x66DFE7 x493CD4 x740012 x8E553E x70C040
-	}
-
-	ai_will_do = { always = no }
-}
 
 AST = {
 	use_culture_states = yes
@@ -1874,11 +1867,6 @@ SEL = {
 
 PRK = {
 	provinces = { xAA2287 x78EF92 xCF3E8D xD8E596 xE87C53 }
-	ai_will_do = { always = no }
-}
-
-SUL = {
-	provinces = { x0180F0 x99D030 }
 	ai_will_do = { always = no }
 }
 

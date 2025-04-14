@@ -407,6 +407,27 @@
 					add = 20
 				}
 			}
+			add = {
+				desc = "hassub"
+				if = {
+					limit = { 
+						scope:actor = {
+							has_modifier = fm_fa5
+						}
+					}
+					value = 50
+				}	
+				else_if = {
+					limit = { 
+						scope:actor = {
+							NOT = {
+								has_modifier = fm_fa5
+							}
+						}
+					}
+					value = 0
+				}	
+			}	
 		}
 		
 		will_propose = {  

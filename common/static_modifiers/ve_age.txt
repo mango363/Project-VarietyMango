@@ -63,7 +63,7 @@ age_1_bonus_10 = {
 
 age_1_bonus_11 = {
 	icon = gfx/interface/icon_splendor_tiny.dds
-	country_infamy_decay_mult = 0.25
+	country_infamy_decay_mult = 0.5
 }
 
 age_2_bonus_1 = {

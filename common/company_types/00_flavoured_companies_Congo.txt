@@ -139,63 +139,6 @@ company_KatangaMines = {
 	}	
 }
 
-# Banque du Congo Belge
-company_CongoBank = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/CongoBank.png"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_light.dds"
-	
-	building_types = {  
-		building_financial_district
-		building_paper_mills
-		building_lead_mine
-		building_gold_mine
-		building_dye_plantation
-		building_sugar_plantation
-		building_coffee_plantation
-	}
-
-	potential = {
-		has_interest_marker_in_region = region_congo
-	}
-	
-	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_BAS_CONGO
-			}
-		}
-	}	
-	
-	possible = {
-		any_scope_state = {
-			state_region = s:STATE_BAS_CONGO
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_financial_district
-				level >= 20
-			}
-		}
-		has_technology_researched = investment_banks
-	}
-	
-	prosperity_modifier = {		
-		country_institution_colonial_affairs_max_investment_add = 1
-		
-        country_private_construction_allocation_mult = 0.1		
-		
-		state_farmers_investment_pool_contribution_add = 0.015
-		state_shopkeepers_investment_pool_contribution_add = 0.015 
-		state_clergymen_investment_pool_contribution_add = 0.04
-		state_aristocrats_investment_pool_contribution_add = 0.05
-		state_capitalists_investment_pool_contribution_add = 0.065 
-		
-		building_nationalization_investment_return_add = 0.05
-		country_government_dividends_reinvestment_add = 0.05
-		country_government_dividends_efficiency_add = 0.05
-		
-		country_max_companies_add = 1
-	}	
-}
 
 # Feronia
 company_Feronia = {

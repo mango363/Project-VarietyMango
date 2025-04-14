@@ -2747,7 +2747,7 @@ AGA = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = hegemony
 	
 	cultures = { argentino platinean brazilian }
 	capital = STATE_BUENOS_AIRES
@@ -4386,7 +4386,7 @@ GNG = { #Guangxi
 	color = { 133 56 8 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { han yue zhuang}
+	cultures = { han yue }
 	capital = STATE_GUANGXI
 }
 

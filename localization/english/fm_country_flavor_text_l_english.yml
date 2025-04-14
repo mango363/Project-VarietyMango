@@ -25,6 +25,8 @@ pm_cannery_oil: "Preservation in Oil"
  dutch_speaking: "Dutch Speaking"
  building_group_bg_olive_plantations_throughput_add: "Olive Plantation [concept_throughput]"
  building_group_bg_olive_plantations_throughput_add_desc: "A bonus or penalty to both input and output of Olive Plantations"
+ building_research_center: "Research Center"
+ building_research_center_lens_option: "Expand $building_building_research_center$"
 
 pm_spice_conservation: "Conservation with Spices"
   spice: "Spices"

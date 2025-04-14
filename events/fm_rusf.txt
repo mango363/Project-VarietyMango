@@ -66,9 +66,6 @@ fm_rusf.2 = {
 			s:STATE_TARTARIA = {
 				add_claim = c:RUI
 			}
-			s:STATE_MOSCOW = {
-				add_claim = c:RUI
-			}
 			s:STATE_GALICH = {
 				add_claim = c:RUI
 			}
@@ -81,19 +78,7 @@ fm_rusf.2 = {
 			s:STATE_TAMBOV = {
 				add_claim = c:RUI
 			}
-			s:STATE_RYAZAN = {
-				add_claim = c:RUI
-			}
 			s:STATE_YAROSLAVL = {
-				add_claim = c:RUI
-			}
-			s:STATE_TVER = {
-				add_claim = c:RUI
-			}
-			s:STATE_NOVGOROD = {
-				add_claim = c:RUI
-			}
-			s:STATE_INGRIA = {
 				add_claim = c:RUI
 			}
 			s:STATE_SURGUT = {

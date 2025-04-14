@@ -129,11 +129,8 @@ je_sae_zoro = {
 			}
 			set_missionary_cultural_missionary = yes
 			set_point_system = yes
-			set_idea_buttons = yes
-			set_ideas = yes
-			set_national_idea = yes
 			religion_passive_bonuses = yes
-			national_idea_traditions = yes
+
 			ve_holy_site_effects = yes
 		}
 	}

@@ -44,7 +44,7 @@
 			any_scope_state = {
 					owner = ROOT
 					is_incorporated = yes
-					turmoil >= 0.35
+					turmoil >= 0.5
 			}
 			NOT = {
 				has_law = law_type:law_monarchy

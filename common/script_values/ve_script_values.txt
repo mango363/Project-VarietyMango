@@ -2,9 +2,7 @@
 	add = var:piety_bar_point
 }
 
-idea_point_value = {
-	add = var:idea_point_pool
-}
+
 
 culture_reform_point_value = {
 	add = var:culture_reform_point
@@ -820,56 +818,42 @@ monthly_culture_reform_point = {
 	}
 }
 
-monthly_idea_points = {
+monthly_milexp_points = {
 	if = {
 		limit = {
-			is_ai = no
+			is_ai = yes
 		}
-		add = 13		#1560 for 10 years.
+		add = 5		
 	}
 	else = {
 		if = {
 			limit = {
-				has_global_variable = ve_easy
+				is_ai = no
 			}
-			add = 10			#1200 for 10 years.
-		}
-		else_if = {
-			limit = {
-				has_global_variable = ve_medium
-			}
-			add = 13			#1560 for 10 years.
-		}
-		else_if = {
-			limit = {
-				has_global_variable = ve_hard
-			}
-			add = 16			#1920 for 10 years.
+			add = 4			
 		}
 	}
 	if = {
 		limit = {
-			literacy_rate <= 0.25
-		}
-		add = 1
-	}
-	else_if = {
-		limit = {
-			literacy_rate <= 0.5
+			owner = {
+				military_wage_level = high
+			}
 		}
 		add = 2
 	}
-	else_if = {
+	if = {
 		limit = {
-			literacy_rate <= 0.75
-		}
-		add = 3
-	}
-	else_if = {
-		limit = {
-			literacy_rate <= 1
+			owner = {
+				military_wage_level = very_high
+			}
 		}
 		add = 4
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_professional_army
+		}
+		add = 3
 	}
 }
 

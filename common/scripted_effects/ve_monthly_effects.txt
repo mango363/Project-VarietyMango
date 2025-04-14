@@ -4,8 +4,8 @@ ve_monthly_points = {
 		add = monthly_piety_points
 	}
 	change_variable = {
-		name = idea_point_pool
-		add = monthly_idea_points
+		name = var_mil_exp
+		add = monthly_milexp_points
 	}
 	change_variable = {
 		name = culture_reform_point

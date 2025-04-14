@@ -17,47 +17,25 @@ dev.1 = {
 		if = {
 			limit = {
 				NOT = {
-					has_variable = idea_point_pool
+					has_variable = var_mil_exp
 				}
 			}
 			set_variable = {
-				name = idea_point_pool
+				name = var_mil_exp
 				value = 0
 			}
 		}
 		if = {
 			limit = {
-				idea_point_value < 999
+				var:var_mil_exp < 999
 			}
 			change_variable = {
-				name = idea_point_pool
+				name = var_mil_exp
 				add = 300
 			}
 		}
 	}
-	option = {
-		name = dev.1.b
-		if = {
-			limit = {
-				NOT = {
-					has_variable = idea_point_pool
-				}
-			}
-			set_variable = {
-				name = idea_point_pool
-				value = 0
-			}
-		}
-		if = {
-			limit = {
-				idea_point_value > 0
-			}
-			change_variable = {
-				name = idea_point_pool
-				subtract = 300
-			}
-		}
-	}
+
 	option = {
 		name = dev.1.c
 		if = {
@@ -287,8 +265,6 @@ dev.2 = {
 	option = {
 		name = dev.2.c
 		ve_holy_site_effects = yes
-		# ve_ai_boost_idea = yes
-		# ve_ai_choose_idea = yes
 		# ve_ai_uses_religion = yes
 		# ve_ai_uses_culture = yes
 		# ve_ai_uses_age_bonuses = yes
@@ -418,11 +394,8 @@ dev.4 = { #For released countries
 			}
 			set_missionary_cultural_missionary = yes
 			set_point_system = yes
-			set_idea_buttons = yes
-			set_ideas = yes
-			set_national_idea = yes
 			religion_passive_bonuses = yes
-			national_idea_traditions = yes
+
 		}
 	}
 	option = {
@@ -884,16 +857,13 @@ dev.8 = {
 	}
 	immediate = {
 		change_global_variable = {
-			name = idea_point_value_pool
-			add = 13
+			name = var_mil_exp_pool
+			add = 10
 		}
 		change_global_variable = {
 			name = culture_point_value_pool
 			add = 7
 		}
-	}
-	option = {
-		name = dev.2.c
 	}
 }
 dev.9 = {
@@ -912,7 +882,6 @@ dev.9 = {
 	hidden = yes
 	immediate = {
 		ve_monthly_points = yes
-		ve_idea_cap_effects = yes
 		ve_holy_site_effects = yes
 		prevent_annex_foreign_missionary = yes
 		prevent_annex_foreign_cultural_missionary = yes
@@ -922,13 +891,11 @@ dev.9 = {
 			#For AI
 			limit = {
 				is_ai = yes
-				has_game_rule = yes_ai_ideas
 			}
-			ve_ai_choose_idea = yes
-			ve_ai_boost_idea = yes
 			ve_ai_uses_religion = yes
 			ve_ai_uses_culture = yes
 			ve_ai_uses_age_bonuses = yes
+			fm_ai_chooses_policy = yes
 		}
 		if = {
 			#For Released and Civil War Countries
@@ -939,8 +906,8 @@ dev.9 = {
 			}
 			set_variable = ve_1936_countries
 			set_variable = {
-				name = idea_point_pool
-				value = global_var:idea_point_value_pool
+				name = var_mil_exp
+				value = global_var:var_mil_exp_pool
 			}
 			set_variable = {
 				name = culture_reform_point

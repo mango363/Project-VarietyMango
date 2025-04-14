@@ -36,8 +36,6 @@
 		trigger_event = {
 			id = fm_fru.1
 		}
-		set_variable = {
-			name = idea_fru
-		}
+
 	}
 }

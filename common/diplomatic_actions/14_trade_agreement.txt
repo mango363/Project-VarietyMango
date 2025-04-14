@@ -193,7 +193,7 @@
 			add = {
 				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
 				value = -100
-			}			
+			}	
 			
 			if = {
 				limit = { 
@@ -336,6 +336,27 @@
 					value = 50
 				}				
 			}
+			add = {
+				desc = "hasmerc"
+				if = {
+					limit = { 
+						scope:actor = {
+							has_modifier = fm_fa2
+						}
+					}
+					value = 100
+				}	
+				else_if = {
+					limit = { 
+						scope:actor = {
+							NOT = {
+								has_modifier = fm_fa2
+							}
+						}
+					}
+					value = 0
+				}	
+			}	
 			
 			add = {
 				desc = "DIPLOMATIC_ACCEPTANCE_INFAMY"

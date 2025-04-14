@@ -477,16 +477,6 @@ demand_state = {
 				add = 0.1
 			}
 			
-			if = {
-				limit = {
-					OR = {
-						c:BIC ?= this
-						c:DEI ?= this
-						is_african_subject = yes
-					}
-				}
-				add = 0.2
-			}
 		}
 		
 		will_propose_with_states = {

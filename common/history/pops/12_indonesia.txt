@@ -577,47 +577,26 @@
 			}
 			create_pop = {
 				culture = filipino
-				size = 235800
+				size = 635800
 			}
 			create_pop = {
 				culture = filipino
 				religion = animist
-				size = 18400
+				size = 38400
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = filipino
 				religion = animist
-				size = 20208
+				size = 30208
 			}
 			create_pop = {
 				culture = bornean
-				size = 24053
+				size = 54053
 			}
 			create_pop = {
-				culture = spanish
+				culture = japanese
 				size = 604
-			}
-		}
-		region_state:MGD = {
-			create_pop = {
-				culture = filipino
-				size = 350800
-			}
-			create_pop = {
-				culture = filipino
-				religion = animist
-				size = 20311
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = filipino
-				religion = animist
-				size = 10000
-			}
-			create_pop = {
-				culture = bornean
-				size = 20004
 			}
 		}
 		region_state:SUL = {

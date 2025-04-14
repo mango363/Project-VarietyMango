@@ -2265,7 +2265,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2359,7 +2359,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -2517,7 +2517,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2598,7 +2598,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_simple_farming" }
+				activate_production_methods={ "pm_tools_disabled" "pm_simple_farming" "pm_citrus_orchards"}
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -2894,7 +2894,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards"}
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -2964,7 +2964,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards"}
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3111,7 +3111,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3214,7 +3214,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3306,7 +3306,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3431,7 +3431,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3512,7 +3512,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
 		}
 	}
@@ -3549,7 +3549,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3608,7 +3608,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -3799,7 +3799,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3858,7 +3858,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -5195,7 +5195,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -5258,7 +5258,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_textile_mills"
@@ -5985,7 +5985,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={  "pm_no_secondary" "pm_tools_disabled" "pm_soil_enriching_farming" }
+				activate_production_methods={  "pm_citrus_orchards" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -6177,7 +6177,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -6468,7 +6468,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 		}
 	}

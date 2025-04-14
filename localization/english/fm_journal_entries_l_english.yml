@@ -577,7 +577,7 @@ je_bud_main_reason: "The Grand Duchy of [ROOT.GetCountry.GetName] has been a vas
  yessamu: "The Emperor has chosen to preserve the Samurai class"
  je_jaep_main: "Modernizing Japan"
  je_jaep_main_reason: "#V With Japan's unification achieved, the focus now shifts to the critical process of modernization, which must include the abolition of the [concept_daimyo] system to prevent regional fragmentation.\nDisbanding feudal structures will promote national unity and facilitate the establishment of centralized governance.\nTo further this agenda, the new government will need to implement reforms across various sectors, such as education, infrastructure, and industry, ensuring that citizens feel a sense of belonging and loyalty to a modern [GetCulture('japanese').GetName] identity rather than to individual domains. This comprehensive approach will lay the groundwork for a prosperous and cohesive nation.#!"
- je_jaep_main_goal: "Complete 3 Japan [Concept('concept_journal_entry', '$concept_journal_entries$')]"
+ je_jaep_main_goal: "Complete all Japan [Concept('concept_journal_entry', '$concept_journal_entries$')]"
  je_jaep_economy: "Japan: Industrialize Japan"
  je_jaep_economy_reason: "#V Japan must modernize its industry to compete with nations that seek to control and exploit us."
  je_jaep_army: "Japan: Retire the Samurai"

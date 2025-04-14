@@ -1,165 +1,303 @@
-﻿national_idea_mdf = {
+﻿reset_foreign_policy = {
+	if = {
+		limit = { 
+			has_modifier = fm_fa1
+		}
+		remove_modifier = fm_fa1
+	}
 	if = {
 		limit = {
-			has_variable = idea_eng
+			has_variable = foreign_affairs1
 		}
-		british_ideas = yes
+		remove_variable = foreign_affairs1
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = fm_fa2
+		}
+		remove_modifier = fm_fa2
+	}
+	if = {
 		limit = {
-			has_variable = idea_fru
+			has_variable = foreign_affairs2
 		}
-		french_ideas = yes
+		remove_variable = foreign_affairs2
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = fm_fa3
+		}
+		remove_modifier = fm_fa3
+	}
+	if = {
 		limit = {
-			has_variable = idea_lot
+			has_variable = foreign_affairs3
 		}
-		german_ideas = yes
+		remove_variable = foreign_affairs3
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = fm_fa4
+		}
+		remove_modifier = fm_fa4
+	}
+	if = {
 		limit = {
-			has_variable = idea_boh
+			has_variable = foreign_affairs4
 		}
-		austrian_ideas = yes
+		remove_variable = foreign_affairs4
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = fm_fa5
+		}
+		remove_modifier = fm_fa5
+	}
+	if = {
 		limit = {
-			has_variable = idea_kar
+			has_variable = foreign_affairs5
 		}
-		russian_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_sae
-		}
-		turkish_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_kor
-		}
-		chinese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_jap
-		}
-		japanese_ideas = yes
-		
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_pul
-		}
-		polish_ideas = yes
-		
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_japgen
-		}
-		japgenanese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_sau
-		}
-		sauanese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_amc
-		}
-		american_ideas = yes
-	}
-	else = {
-		generic_ideas = yes
+		remove_variable = foreign_affairs5
 	}
 }
 
-cancel_national_idea_mdf = {
+
+reset_internal_policy = {
+	if = {
+		limit = { 
+			has_modifier = ip1
+		}
+		remove_modifier = ip1
+	}
 	if = {
 		limit = {
-			has_variable = idea_eng
+			has_variable = internal1
 		}
-		cancel_british_ideas = yes
+		remove_variable = internal1
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = ip2
+		}
+		remove_modifier = ip2
+	}
+	if = {
 		limit = {
-			has_variable = idea_fru
+			has_variable = internal2
 		}
-		cancel_french_ideas = yes
+		remove_variable = internal2
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = ip3
+		}
+		remove_modifier = ip3
+	}
+	if = {
 		limit = {
-			has_variable = idea_lot
+			has_variable = internal3
 		}
-		cancel_german_ideas = yes
+		remove_variable = internal3
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = ip4
+		}
+		remove_modifier = ip4
+	}
+	if = {
 		limit = {
-			has_variable = idea_boh
+			has_variable = internal4
 		}
-		cancel_austrian_ideas = yes
+		remove_variable = internal4
 	}
-	else_if = {
+	if = {
+		limit = { 
+			has_modifier = ip5
+		}
+		remove_modifier = ip5
+	}
+	if = {
 		limit = {
-			has_variable = idea_kar
+			has_variable = internal5
 		}
-		cancel_russian_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_sae
-		}
-		cancel_turkish_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_kor
-		}
-		cancel_chinese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_jap
-		}
-		cancel_japanese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_pul
-		}
-		cancel_polish_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_japgen
-		}
-		cancel_japgenanese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_sau
-		}
-		cancel_sauanese_ideas = yes
-	}
-	else_if = {
-		limit = {
-			has_variable = idea_amc
-		}
-		cancel_american_ideas = yes
-	}
-	else = {
-		cancel_generic_ideas = yes
+		remove_variable = internal5
 	}
 }
 
-idea_cost = {
+reset_administration_policy = {
+	if = {
+		limit = { 
+			has_modifier = fadm1
+		}
+		remove_modifier = fadm1
+	}
+	if = {
+		limit = {
+			has_variable = administration1
+		}
+		remove_variable = administration1
+	}
+	if = {
+		limit = { 
+			has_modifier = fadm2
+		}
+		remove_modifier = fadm2
+	}
+	if = {
+		limit = {
+			has_variable = administration2
+		}
+		remove_variable = administration2
+	}
+	if = {
+		limit = { 
+			has_modifier = fadm3
+		}
+		remove_modifier = fadm3
+	}
+	if = {
+		limit = {
+			has_variable = administration3
+		}
+		remove_variable = administration3
+	}
+	if = {
+		limit = { 
+			has_modifier = fadm4
+		}
+		remove_modifier = fadm4
+	}
+	if = {
+		limit = {
+			has_variable = administration4
+		}
+		remove_variable = administration4
+	}
+	if = {
+		limit = { 
+			has_modifier = fadm5
+		}
+		remove_modifier = fadm5
+	}
+	if = {
+		limit = {
+			has_variable = administration5
+		}
+		remove_variable = administration5
+	}
+}
+
+
+reset_economic_policy = {
+	if = {
+		limit = { 
+			has_modifier = economic1
+		}
+		remove_modifier = economic1
+	}
+	if = {
+		limit = {
+			has_variable = economic1
+		}
+		remove_variable = economic1
+	}
+	if = {
+		limit = { 
+			has_modifier = economic2
+		}
+		remove_modifier = economic2
+	}
+	if = {
+		limit = {
+			has_variable = economic2
+		}
+		remove_variable = economic2
+	}
+	if = {
+		limit = { 
+			has_modifier = economic3
+		}
+		remove_modifier = economic3
+	}
+	if = {
+		limit = {
+			has_variable = economic3
+		}
+		remove_variable = economic3
+	}
+	if = {
+		limit = { 
+			has_modifier = economic4
+		}
+		remove_modifier = economic4
+	}
+	if = {
+		limit = {
+			has_variable = economic4
+		}
+		remove_variable = economic4
+	}
+	if = {
+		limit = { 
+			has_modifier = wareco3
+		}
+		remove_modifier = wareco3
+	}
+	if = {
+		limit = {
+			has_variable = economic5
+		}
+		remove_variable = economic5
+	}
+if = {
+		limit = { 
+			has_modifier = economic6
+		}
+		remove_modifier = economic6
+	}
+	if = {
+		limit = {
+			has_variable = economic6
+		}
+		remove_variable = economic6
+	}
+if = {
+		limit = { 
+			has_modifier = economic7
+		}
+		remove_modifier = economic7
+		}
+	if = {
+		limit = {
+			has_variable = economic7
+		}
+		remove_variable = economic7
+	}
+}
+
+milexp_cost_small = {
 	change_variable = {
-		name = idea_point_pool
+		name = var_mil_exp
 		subtract = 300
+	}
+}
+milexp_cost_medium = {
+	change_variable = {
+		name = var_mil_exp
+		subtract = 500
+	}
+}
+milexp_cost_high = {
+	change_variable = {
+		name = var_mil_exp
+		subtract = 800
+	}
+}
+milexp_cost_very_high = {
+	change_variable = {
+		name = var_mil_exp
+		subtract = 1200
 	}
 }
 
@@ -573,7 +711,7 @@ ve_law_change_effects = {
 	if = {
 		limit = {
 			NOT = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		if = {
@@ -678,7 +816,7 @@ ve_law_change_effects = {
 	}
 	else_if = {
 		limit = {
-			has_variable = ethnocentrism_idea_5_var
+			has_variable = internal3
 		}
 		if = {
 			limit = {

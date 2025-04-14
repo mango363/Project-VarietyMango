@@ -1013,7 +1013,7 @@
 		region_state:YON = {
 			create_pop = {
 				culture = japanese
-				size = 412044
+				size = 612044
 			}
 			create_pop = {
 				culture = japanese
@@ -1024,7 +1024,7 @@
 		region_state:KUB = {
 			create_pop = {
 				culture = japanese
-				size = 775188
+				size = 975188
 			}
 			create_pop = {
 				culture = japanese
@@ -1035,7 +1035,7 @@
 		region_state:SEN = {
 			create_pop = {
 				culture = japanese
-				size = 355958
+				size = 555958
 			}
 			create_pop = {
 				culture = japanese
@@ -1046,7 +1046,7 @@
 		region_state:AIZ = {
 			create_pop = {
 				culture = japanese
-				size = 774212
+				size = 974212
 			}
 			create_pop = {
 				culture = japanese
@@ -1057,7 +1057,7 @@
 		region_state:MER = {
 			create_pop = {
 				culture = japanese
-				size = 412634
+				size = 612634
 			}
 			create_pop = {
 				culture = japanese
@@ -1068,7 +1068,7 @@
 		region_state:HIR = {
 			create_pop = {
 				culture = japanese
-				size = 105943
+				size = 205943
 			}
 			create_pop = {
 				culture = japanese
@@ -1081,7 +1081,7 @@
 		region_state:NUM = {
 			create_pop = {
 				culture = japanese
-				size = 1503243
+				size = 1703243
 			}
 			create_pop = {
 				culture = japanese
@@ -1092,7 +1092,7 @@
 		region_state:KOF = {
 			create_pop = {
 				culture = japanese
-				size = 1022384
+				size = 1122384
 			}
 			create_pop = {
 				culture = japanese
@@ -1103,7 +1103,7 @@
 		region_state:JOZ = {
 			create_pop = {
 				culture = japanese
-				size = 290546
+				size = 390546
 			}
 			create_pop = {
 				culture = japanese
@@ -1114,7 +1114,7 @@
 		region_state:ODA = {
 			create_pop = {
 				culture = japanese
-				size = 794958
+				size = 994958
 			}
 			create_pop = {
 				culture = japanese
@@ -1125,7 +1125,7 @@
 		region_state:MTO = {
 			create_pop = {
 				culture = japanese
-				size = 383721
+				size = 483721
 			}
 			create_pop = {
 				culture = japanese
@@ -1136,7 +1136,7 @@
 		region_state:UTS = {
 			create_pop = {
 				culture = japanese
-				size = 320394
+				size = 420394
 			}
 			create_pop = {
 				culture = japanese
@@ -1149,7 +1149,7 @@
 		region_state:KAW = {
 			create_pop = {
 				culture = japanese
-				size = 639222
+				size = 739222
 			}
 			create_pop = {
 				culture = japanese
@@ -1160,7 +1160,7 @@
 		region_state:TKA = {
 			create_pop = {
 				culture = japanese
-				size = 655032
+				size = 755032
 			}
 			create_pop = {
 				culture = japanese
@@ -1171,7 +1171,7 @@
 		region_state:MTS = {
 			create_pop = {
 				culture = japanese
-				size = 302999
+				size = 402999
 			}
 			create_pop = {
 				culture = japanese
@@ -1187,13 +1187,13 @@
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 288943
+				size = 388943
 			}
 		}
 		region_state:SAB = {
 			create_pop = {
 				culture = japanese
-				size = 306292
+				size = 406292
 			}
 			create_pop = {
 				culture = japanese
@@ -1205,7 +1205,7 @@
 		region_state:YON = {
 			create_pop = {
 				culture = japanese
-				size = 133589
+				size = 233589
 			}
 			create_pop = {
 				culture = japanese
@@ -1216,7 +1216,7 @@
 		region_state:NAA = {
 			create_pop = {
 				culture = japanese
-				size = 679435
+				size = 779435
 			}
 			create_pop = {
 				culture = japanese
@@ -1227,7 +1227,7 @@
 		region_state:ODA = {
 			create_pop = {
 				culture = japanese
-				size = 296584
+				size = 396584
 			}
 			create_pop = {
 				culture = japanese
@@ -1238,7 +1238,7 @@
 		region_state:OKA = {
 			create_pop = {
 				culture = japanese
-				size = 626854
+				size = 726854
 			}
 			create_pop = {
 				culture = japanese
@@ -1249,7 +1249,7 @@
 		region_state:KKW = {
 			create_pop = {
 				culture = japanese
-				size = 288675
+				size = 388675
 			}
 			create_pop = {
 				culture = japanese
@@ -1260,7 +1260,7 @@
 		region_state:SUN = {
 			create_pop = {
 				culture = japanese
-				size = 299054
+				size = 399054
 			}
 			create_pop = {
 				culture = japanese
@@ -1273,7 +1273,7 @@
 		region_state:WAK = {
 			create_pop = {
 				culture = japanese
-				size = 504922
+				size = 604922
 			}
 			create_pop = {
 				culture = japanese
@@ -1295,7 +1295,7 @@
 		region_state:TKT = {
 			create_pop = {
 				culture = japanese
-				size = 501948
+				size = 601948
 			}
 			create_pop = {
 				culture = japanese
@@ -1306,7 +1306,7 @@
 		region_state:ODU = {
 			create_pop = {
 				culture = japanese
-				size = 2839219
+				size = 2939219
 			}
 			create_pop = {
 				culture = japanese
@@ -1317,7 +1317,7 @@
 		region_state:TSU = {
 			create_pop = {
 				culture = japanese
-				size = 498176
+				size = 598176
 			}
 			create_pop = {
 				culture = japanese
@@ -1341,7 +1341,7 @@
 		region_state:SAU = {
 			create_pop = {
 				culture = japanese
-				size = 2370167
+				size = 2470167
 			}
 			create_pop = {
 				culture = micronesian
@@ -1350,7 +1350,7 @@
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 767036
+				size = 467036
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -1361,7 +1361,7 @@
 			create_pop = {
 				culture = japanese
 				religion = catholic
-				size = 470167
+				size = 570167
 			}
 			create_pop = {
 				culture = japanese
@@ -1393,7 +1393,7 @@
 		region_state:CUH = {
 			create_pop = {
 				culture = japanese
-				size = 301444
+				size = 401444
 			}
 			create_pop = {
 				culture = japanese
@@ -1404,7 +1404,7 @@
 		region_state:TWA = {
 			create_pop = {
 				culture = japanese
-				size = 280943
+				size = 380943
 			}
 			create_pop = {
 				culture = japanese
@@ -1415,7 +1415,7 @@
 		region_state:MTE = {
 			create_pop = {
 				culture = japanese
-				size = 250394
+				size = 350394
 			}
 			create_pop = {
 				culture = japanese
@@ -1426,7 +1426,7 @@
 		region_state:TTT = {
 			create_pop = {
 				culture = japanese
-				size = 275594
+				size = 375594
 			}
 			create_pop = {
 				culture = japanese
@@ -1437,7 +1437,7 @@
 		region_state:HHI = {
 			create_pop = {
 				culture = japanese
-				size = 859643
+				size = 959643
 			}
 			create_pop = {
 				culture = japanese
@@ -1461,7 +1461,7 @@
 		region_state:TOS = {
 			create_pop = {
 				culture = japanese
-				size = 503495
+				size = 603495
 			}
 			create_pop = {
 				culture = japanese
@@ -1472,7 +1472,7 @@
 		region_state:TOK = {
 			create_pop = {
 				culture = japanese
-				size = 509384
+				size = 609384
 			}
 			create_pop = {
 				culture = japanese

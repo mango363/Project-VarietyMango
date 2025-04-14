@@ -12017,10 +12017,8 @@ japanese={
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
 	obsessions = {
-		fish
 		tea
 		porcelain
-		fruit
 	}	
 	male_common_first_names={
 		Narioki
@@ -12300,7 +12298,6 @@ han={
 		opium
 		meat
 		tea
-		fruit
 		spice
 	}	
 	male_common_first_names={
@@ -12382,7 +12379,6 @@ korean={
 	religion = confucian
 	traits = { korean_language east_asian_heritage }
 	obsessions = {
-		fish
 		meat
 		tea
 		fruit
@@ -12664,7 +12660,7 @@ min={
 	traits = { han_chinese east_asian_heritage }
 	obsessions = {
 		opium
-		fish
+		
 		tea
 		fruit
 		spice
@@ -12871,7 +12867,7 @@ yue={
 	traits = { han_chinese east_asian_heritage}
 	obsessions = {
 		opium
-		fish
+		
 		tea
 		fruit
 		spice
@@ -12955,7 +12951,7 @@ polynesian={
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	obsessions = {
-		fish
+		
 		meat
 		tea
 		fruit
@@ -13147,7 +13143,7 @@ micronesian={
 	religion = animist
 	traits = { indigenous_oceanic_heritage polynesian_group }
 	obsessions = {
-		fish
+		
 		meat
 		tea
 		fruit
@@ -13207,7 +13203,7 @@ maori={
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	obsessions = {
-		fish
+		
 		fruit
 	}	
 	male_common_first_names={
@@ -13347,7 +13343,7 @@ wunambal={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}	
 	male_common_first_names={
 		Bennelong
@@ -13414,7 +13410,7 @@ gija={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 		porcelain
 	}
 	male_common_first_names={
@@ -13482,7 +13478,7 @@ wadjari={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13549,7 +13545,7 @@ nyungar={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13616,7 +13612,7 @@ wati={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13683,7 +13679,7 @@ ngandatha={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13750,7 +13746,7 @@ nauo={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13817,7 +13813,7 @@ kaurna={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13884,7 +13880,7 @@ gunaikurnai={ # Aboriginal
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 	}
 	male_common_first_names={
 		Bennelong
@@ -13952,7 +13948,7 @@ jagera={
 	obsessions = {
 		tea
 		fruit
-		fish
+		
 		porcelain
 	}
 	male_common_first_names={
@@ -14020,7 +14016,7 @@ zapotec={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14097,7 +14093,7 @@ mayan={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14193,7 +14189,7 @@ nahua={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14280,7 +14276,7 @@ tarascan={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14370,7 +14366,7 @@ quechua={
 	traits = { indigenous_american_heritage south_american_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14449,7 +14445,7 @@ guarani={
 	traits = { indigenous_american_heritage south_american_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14550,7 +14546,7 @@ aimara={
 	traits = { indigenous_american_heritage south_american_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14653,7 +14649,7 @@ amazonian={
 	traits = { indigenous_american_heritage south_american_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14751,7 +14747,7 @@ patagonian={
 	traits = { indigenous_american_heritage south_american_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -14990,7 +14986,7 @@ inuit={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	obsessions = {
-		fish
+		
 	}
 	male_common_first_names={
 		Caubvick
@@ -15061,7 +15057,7 @@ mixtec={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={
@@ -15212,7 +15208,7 @@ miskito = {
 	traits = { indigenous_american_heritage native_mesoamerican_culture_group }
 	obsessions = {
 		fruit
-		fish
+		
 		tobacco
 	}
 	male_common_first_names={

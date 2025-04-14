@@ -1,50 +1,365 @@
 ﻿l_english:
  99_pv: "Project Variety's Finest"
-fm_aga.1.t: ""
-fm_aga.1.d: ""
-fm_aga.1.f: ""
-fm_aga.1.a: ""
-fm_aga.2.t: ""
-fm_aga.2.d: ""
-fm_aga.2.f: ""
-fm_aga.2.a: ""
-fm_aga.3.t: ""
-fm_aga.3.d: ""
-fm_aga.3.f: ""
-fm_aga.3.a: ""
-fm_aga.4.t: ""
-fm_aga.4.d: ""
-fm_aga.4.f: ""
-fm_aga.4.a: ""
-fm_aga.5.t: ""
-fm_aga.5.d: ""
-fm_aga.5.f: ""
-fm_aga.5.a: ""
-fm_aga.6.t: ""
-fm_aga.6.d: ""
-fm_aga.6.f: ""
-fm_aga.6.a: ""
-fm_aga.7.t: ""
-fm_aga.7.d: ""
-fm_aga.7.f: ""
-fm_aga.7.a: ""
-fm_aga.8.t: ""
-fm_aga.8.d: ""
-fm_aga.8.f: ""
-fm_aga.8.a: ""
-fm_aga.9.t: ""
-fm_aga.9.d: ""
-fm_aga.9.f: ""
-fm_aga.9.a: ""
-fm_aga.10.t: ""
-fm_aga.10.d: ""
-fm_aga.10.f: ""
-fm_aga.10.a: ""
-fm_aga.11.t: ""
-fm_aga.11.d: ""
-fm_aga.11.f: ""
-fm_aga.11.a: ""
-fm_aga.12.t: ""
-fm_aga.12.d: ""
-fm_aga.12.f: ""
-fm_aga.12.a: ""
+bresearch.1.d: ""
+bresearch.1.f: ""
+bresearch.1.a: ""
+bresearch.2.t: ""
+bresearch.2.d: ""
+bresearch.2.f: ""
+bresearch.2.a: ""
+bresearch.3.t: ""
+bresearch.3.d: ""
+bresearch.3.f: ""
+bresearch.3.a: ""
+bresearch.4.t: ""
+bresearch.4.d: ""
+bresearch.4.f: ""
+bresearch.4.a: ""
+bresearch.5.t: ""
+bresearch.5.d: ""
+bresearch.5.f: ""
+bresearch.5.a: ""
+bresearch.6.t: ""
+bresearch.6.d: ""
+bresearch.6.f: ""
+bresearch.6.a: ""
+bresearch.7.t: ""
+bresearch.7.d: ""
+bresearch.7.f: ""
+bresearch.7.a: ""
+bresearch.8.t: ""
+bresearch.8.d: ""
+bresearch.8.f: ""
+bresearch.8.a: ""
+bresearch.9.t: ""
+bresearch.9.d: ""
+bresearch.9.f: ""
+bresearch.9.a: ""
+bresearch.10.t: ""
+bresearch.10.d: ""
+bresearch.10.f: ""
+bresearch.10.a: ""
+bresearch.11.t: ""
+bresearch.11.d: ""
+bresearch.11.f: ""
+bresearch.11.a: ""
+bresearch.12.t: ""
+bresearch.12.d: ""
+bresearch.12.f: ""
+bresearch.12.a: ""
+cavfoc_effect = {
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_1_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_1_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_2_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_2_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_3_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_3_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_4_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_4_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_5_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_5_mdf2
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_6_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_6_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = cavfoc_7_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = cavfoc_7_mdf2
+		}
+	}
+}
+waroff_effect = {
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_1_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_1_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_2_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_2_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_3_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_3_mdf2
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_4_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_4_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_5_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_5_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_6_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_6_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = waroff_7_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = waroff_7_mdf2
+		}
+	}
+}
+supfir_effect = {
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_1_mdf1
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_1_mdf1
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_2_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_2_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_3_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_3_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_4_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_4_mdf2
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_5_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_5_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_6_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_6_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = supfir_7_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = supfir_7_mdf
+		}
+	}
+}
+strnum_effect = {
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_1_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_1_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_2_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_2_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_3_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_3_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_4_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_4_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_5_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_5_mdf
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_6_mdf2
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_6_mdf2
+		}
+	}
+	if = {
+		limit = { 
+      has_variable = strnum
+			var:var_mil_exp >= 500
+			NOT = {
+				has_modifier = strnum_7_mdf
+			}
+			milexp_cost_medium = yes
+			add_modifier = strnum_7_mdf
+		}
+	}
+}

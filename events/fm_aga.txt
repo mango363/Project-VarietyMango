@@ -71,11 +71,8 @@ fm_aga.2 = {
 				set_missionary_cultural_missionary = yes
 				ve_law_change_effects = yes
 				set_point_system = yes
-				set_idea_buttons = yes
-				set_ideas = yes
-				set_national_idea = yes
 				religion_passive_bonuses = yes
-				national_idea_traditions = yes
+	
 				ve_holy_site_effects = yes
 			}
 		}
@@ -113,11 +110,8 @@ fm_aga.2 = {
 				set_missionary_cultural_missionary = yes
 				ve_law_change_effects = yes
 				set_point_system = yes
-				set_idea_buttons = yes
-				set_ideas = yes
-				set_national_idea = yes
 				religion_passive_bonuses = yes
-				national_idea_traditions = yes
+
 				ve_holy_site_effects = yes
 			}
 		}
@@ -155,11 +149,8 @@ fm_aga.2 = {
 				set_missionary_cultural_missionary = yes
 				ve_law_change_effects = yes
 				set_point_system = yes
-				set_idea_buttons = yes
-				set_ideas = yes
-				set_national_idea = yes
 				religion_passive_bonuses = yes
-				national_idea_traditions = yes
+	
 				ve_holy_site_effects = yes
 			}
 		}

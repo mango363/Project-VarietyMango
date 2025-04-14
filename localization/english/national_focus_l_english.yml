@@ -19,8 +19,7 @@
  decree_enlistment_efforts_desc:1 "Incentivizing recruitment and training of local troops through financial incentives and preferential treatment"
  decree_violent_suppression: "Violent Suppression"
  decree_violent_suppression_desc: "Use the nation's national guard to control the angry mobs"
- decree_industrialize: "Industrialize at Any Cost"
- decree_industrialize_desc: "Greatly increases the industrialization efforts in the region at a high human cost"
+
  decree_encourage_private_inv: "Encourage Private Investments"
  decree_encourage_private_inv_desc: "Reduce the taxation in the region to encourage private investments"
  decree_workplace_saf: "Enforce Workplace Safety Measures"

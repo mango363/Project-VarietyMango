@@ -4823,15 +4823,11 @@ STATES = {
 	s:STATE_MINDANAO = {
 		create_state = {
 			country = c:PHI
-			owned_provinces = { x2D5E65 x988CCA xCAFE73 xC3EC2D x7B364D xBC5002 }
+			owned_provinces = { x2D5E65 x988CCA xCAFE73 xC3EC2D x7B364D xBC5002 x62D16D xAA1CA3 x4C67A7 x355FBE x678557 xE90347 x585200 xE804B7 xF0014A }
 		}
 		create_state = {
 			country = c:SUL
 			owned_provinces = { x0180F0 x99D030 }
-		}
-		create_state = {
-			country = c:MGD
-			owned_provinces = { x62D16D xAA1CA3 x4C67A7 x355FBE x678557 xE90347 x585200 xE804B7 xF0014A }
 		}
 		
 		add_homeland = cu:filipino

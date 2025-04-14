@@ -299,7 +299,7 @@ je_german_conf = {
 		owns_entire_state_region = STATE_NORTH_RHINE
 		owns_entire_state_region = STATE_FRANCONIA
 		owns_entire_state_region = STATE_BAVARIA
-		has_technology_researched = pan-nationalism
+		has_technology_researched = nationalism
 	}
 	on_complete = {
 		change_tag = GRO

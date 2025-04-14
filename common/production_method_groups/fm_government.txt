@@ -3,7 +3,6 @@
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_no_research_funding
 		pm_farms_research_funding
 		pm_groceries_research_funding
 		pm_logging_research_funding
@@ -24,4 +23,5 @@
 		pm_tools_research_funding
 		pm_military_research_funding
 	}
+	ai_selection = most_profitable	
 }

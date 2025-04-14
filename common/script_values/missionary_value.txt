@@ -3,7 +3,7 @@
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -104,14 +104,7 @@
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -175,7 +168,7 @@ missionary_power_500k = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -276,14 +269,7 @@ missionary_power_500k = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -347,7 +333,7 @@ missionary_power_750k = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -440,14 +426,7 @@ missionary_power_750k = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -511,7 +490,7 @@ missionary_power_1m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -604,14 +583,7 @@ missionary_power_1m = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -675,7 +647,7 @@ missionary_power_5m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -776,14 +748,7 @@ missionary_power_5m = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -847,7 +812,7 @@ missionary_power_10m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -948,14 +913,7 @@ missionary_power_10m = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1019,7 +977,7 @@ missionary_power_10mplus = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1120,14 +1078,7 @@ missionary_power_10mplus = {
 		}
 		add = 0.001
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1211,7 +1162,7 @@ cultural_missionary_power_250k = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1224,14 +1175,7 @@ cultural_missionary_power_250k = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1367,7 +1311,7 @@ cultural_missionary_power_500k = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1380,14 +1324,7 @@ cultural_missionary_power_500k = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1523,7 +1460,7 @@ cultural_missionary_power_750k = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1536,14 +1473,7 @@ cultural_missionary_power_750k = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1679,7 +1609,7 @@ cultural_missionary_power_1m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1692,14 +1622,7 @@ cultural_missionary_power_1m = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1835,7 +1758,7 @@ cultural_missionary_power_5m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -1848,14 +1771,7 @@ cultural_missionary_power_5m = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -1991,7 +1907,7 @@ cultural_missionary_power_10m = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -2004,14 +1920,7 @@ cultural_missionary_power_10m = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {
@@ -2147,7 +2056,7 @@ cultural_missionary_power_10mplus = {
 	if = {
 		limit = {
 			owner = {
-				has_variable = ethnocentrism_idea_5_var
+				has_variable = internal3
 			}
 		}
 		add = 0.025
@@ -2160,14 +2069,7 @@ cultural_missionary_power_10mplus = {
 		}
 		add = 0.007
 	}
-	if = {
-		limit = {
-			owner = {
-				has_modifier = ethnocentrism_idea_2_mdf
-			}
-		}
-		add = 0.0025
-	}
+	
 	if = {
 		limit = {
 			owner = {

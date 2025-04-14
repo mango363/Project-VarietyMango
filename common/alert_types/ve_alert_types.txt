@@ -1,12 +1,4 @@
-﻿can_unlock_ideas = {
-	script_context = player_country
-	texture = "gfx/interface/intelligensia.dds"
-	valid = {
-		idea_cost_trigger = yes
-		var:national_idea_pool < 56
-	}
-	type = alert
-}
+﻿
 
 max_piety = {
 	script_context = player_country

@@ -1,452 +1,528 @@
-ve_ai_choose_idea = {
+fm_ai_chooses_policy = {
 	if = {
-		limit = {
+		limit = { 
 			NOT = {
-				var:idea_group_cap == var:idea_group_unlocked
+				has_variable = policy_taken
 			}
 		}
 		random_list = {
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_innovative
-						}
-					}
-					set_variable = can_go_innovative
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = innovative_idea
-						value = 0
-					}
+				reset_economic_policy = yes
+				set_variable = {
+				name = policy_taken
+				days = 1450
 				}
-			}
-			40 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_economic
-						}
-					}
-					set_variable = can_go_economic
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = economic_idea
-						value = 0
-					}
+				add_modifier = {
+				name = economic1
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_administrative
-						}
-					}
-					set_variable = can_go_administrative
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = administrative_idea
-						value = 0
-					}
+				reset_economic_policy = yes
+				set_variable = {
+				name = policy_taken
+				days = 1450
+				}
+				add_modifier = {
+				name = economic2
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_ethnocentrism
-						}
-					}
-					set_variable = can_go_ethnocentrism
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = ethnocentrism_idea
-						value = 0
-					}
+				reset_economic_policy = yes
+				set_variable = {
+				name = policy_taken
+				days = 1450
 				}
-			}
-			10 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_politics
-						}
-					}
-					set_variable = can_go_politics
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = politics_idea
-						value = 0
-					}
+				add_modifier = {
+				name = economic3
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_diplomatic
-						}
-					}
-					set_variable = can_go_diplomatic
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = diplomatic_idea
-						value = 0
-					}
+				reset_economic_policy = yes
+				set_variable = {
+				name = policy_taken
+				days = 1450
+				}
+				add_modifier = {
+				name = economic6
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_trade
-						}
-					}
-					set_variable = can_go_trade
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = trade_idea
-						value = 0
-					}
+				reset_administration_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
 				}
-			}
-			15 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_qualification
-						}
-					}
-					set_variable = can_go_qualification
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = qualification_idea
-						value = 0
-					}
+				add_modifier = {
+					name = fadm1
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_humanist
-						}
-					}
-					set_variable = can_go_humanist
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = humanist_idea
-						value = 0
-					}
+				reset_administration_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
 				}
-			}
-			60 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_syndicalism
-						}
-					}
-					set_variable = can_go_syndicalism
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = syndicalism_idea
-						value = 0
-					}
-				}
-			}
-			50 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_offensive
-						}
-					}
-					set_variable = can_go_offensive
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = offensive_idea
-						value = 0
-					}
-				}
-			}
-			50 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_defensive
-						}
-					}
-					set_variable = can_go_defensive
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = defensive_idea
-						value = 0
-					}
-				}
-			}
-			4 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_naval
-						}
-					}
-					set_variable = can_go_naval
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = naval_idea
-						value = 0
-					}
+				add_modifier = {
+					name = fadm2
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_militarization
-						}
-					}
-					set_variable = can_go_militarization
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = militarization_idea
-						value = 0
-					}
+				reset_administration_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fadm3
 				}
 			}
 			7 = {
-				if = {
-					limit = {
-						NOT = {
-							has_variable = can_go_imperialist
-						}
-					}
-					set_variable = can_go_imperialist
-					change_variable = {
-						name = idea_group_unlocked
-						add = 1
-					}
-					set_variable = {
-						name = imperialist_idea
-						value = 0
-					}
+				reset_administration_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fadm4
+				}
+			}
+			7 = {
+				reset_internal_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = ip1
+				}
+			}
+			7 = {
+				reset_internal_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = ip3
+				}
+			}
+			7 = {
+				reset_internal_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = ip4
+				}
+			}
+			7 = {
+				reset_internal_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = ip5
+				}
+			}
+			7 = {
+				reset_foreign_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fm_fa1
+				}
+			}
+			7 = {
+				reset_foreign_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fm_fa2
+				}
+			}
+			7 = {
+				reset_foreign_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fm_fa3
+				}
+			}
+			7 = {
+				reset_foreign_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fm_fa4
+				}
+			}
+			7 = {
+				reset_foreign_policy = yes
+				set_variable = {
+					name = policy_taken
+					days = 1450
+				}
+				add_modifier = {
+					name = fm_fa5
 				}
 			}
 		}
 	}
 }
-
-ve_ai_boost_idea = {
+fm_ai_chooses_doctrine = {
 	if = {
 		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_innovative
-			NOT = {
-				has_variable = innovative_idea_completed
+			NOR = {
+				has_variable = cavfoc
+				has_variable = strnum
+				has_variable = supfir
+				has_variable = waroff
 			}
-		}
-		boost_inno_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_economic
-			NOT = {
-				has_variable = economic_idea_completed
+		 }
+		 random_list = {
+			7 = {
+				set_variable = {
+					name = cavfoc
+				}
 			}
-		}
-		boost_eco_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_administrative
-			NOT = {
-				has_variable = administrative_idea_completed
+			7 = {
+				set_variable = {
+					name = strnum
+				}
 			}
-		}
-		boost_adm_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_ethnocentrism
-			NOT = {
-				has_variable = ethnocentrism_idea_completed
+			7 = {
+				set_variable = {
+					name = supfir
+				}
 			}
-		}
-		boost_ethno_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_politics
-			NOT = {
-				has_variable = politics_idea_completed
+			2 = {
+				set_variable = {
+					name = waroff
+				}
 			}
-		}
-		boost_pol_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_diplomatic
-			NOT = {
-				has_variable = diplomatic_idea_completed
-			}
-		}
-		boost_dip_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_trade
-			NOT = {
-				has_variable = trade_idea_completed
-			}
-		}
-		boost_trade_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_qualification
-			NOT = {
-				has_variable = qualification_idea_completed
-			}
-		}
-		boost_quali_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_humanist
-			NOT = {
-				has_variable = humanist_idea_completed
-			}
-		}
-		boost_hum_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_syndicalism
-			NOT = {
-				has_variable = syndicalism_idea_completed
-			}
-		}
-		boost_synd_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_offensive
-			NOT = {
-				has_variable = offensive_idea_completed
-			}
-		}
-		boost_off_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_defensive
-			NOT = {
-				has_variable = defensive_idea_completed
-			}
-		}
-		boost_def_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_naval
-			NOT = {
-				has_variable = naval_idea_completed
-			}
-		}
-		boost_nav_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_militarization
-			NOT = {
-				has_variable = militarization_idea_completed
-			}
-		}
-		boost_mil_idea_effect = yes
-		national_idea_mdf = yes
-	}
-	if = {
-		limit = {
-			idea_cost_trigger = yes
-			has_variable = can_go_imperialist
-			NOT = {
-				has_variable = imperialist_idea_completed
-			}
-		}
-		boost_imp_idea_effect = yes
-		national_idea_mdf = yes
+		 }
 	}
 }
+fm_ai_boost_doctrine = {
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_1_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_1_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_2_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_2_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_3_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_3_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_4_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_4_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_5_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_5_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_6_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_6_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = cavfoc
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = cavfoc_7_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = cavfoc_7_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_1_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_1_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_2_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_2_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_3_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_3_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_4_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_4_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_5_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_5_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_6_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_6_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = waroff
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = waroff_7_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = waroff_7_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_1_mdf1
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_1_mdf1
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_2_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_2_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_3_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_3_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_4_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_4_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_5_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_5_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_6_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_6_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = supfir
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = supfir_7_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = supfir_7_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_1_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_1_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_2_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_2_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_3_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_3_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_4_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_4_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_5_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_5_mdf
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_6_mdf2
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_6_mdf2
+			}
+		}
+		if = {
+			limit = { 
+		  has_variable = strnum
+				var:var_mil_exp >= 500
+				NOT = {
+					has_modifier = strnum_7_mdf
+				}
+				milexp_cost_medium = yes
+				add_modifier = strnum_7_mdf
+			}
+		}
+	}
 
 ve_ai_uses_religion = {
 	if = {

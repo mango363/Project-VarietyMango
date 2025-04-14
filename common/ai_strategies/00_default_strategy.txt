@@ -2532,7 +2532,14 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 20
+		value = 5
+
+		if = { 
+			limit = {
+				can_reach_target_country = yes
+			}
+			add = 20
+		}
 
 		# More fighting between unrecognized powers
 		if = {

@@ -83,7 +83,7 @@ decree_violent_suppression = {
 	}
 	modifier = {
 		state_turmoil_effects_mult = -0.5
-		state_mortality_turmoil_mult = 0.02
+		state_mortality_turmoil_mult = 0.03
 	}
 	cost = 100
 	ai_weight = {
@@ -153,9 +153,7 @@ decree_emergency_relief = {
 				}	
 			}
 		}
-		NOT = {
-			has_decree = decree_industrialize
-		}
+
 	}
 
 	cost = 50
@@ -189,9 +187,7 @@ decree_workplace_saf = {
 		labor_movement
 	}
 	state_trigger = {
-		NOT = {
-			has_decree = decree_industrialize
-		}
+
 	}
 	modifier = {
 		state_pollution_reduction_health_mult = -0.05
@@ -234,9 +230,7 @@ decree_workplace_saf = {
 decree_promote_social_mobility = {
 	texture = "gfx/interface/icons/decree/decree_promote_social_mobility.dds"
 	state_trigger = {
-		NOT = {
-			has_decree = decree_industrialize
-		}
+
 
 	}
 	modifier = {
@@ -572,58 +566,15 @@ decree_encourage_resource_industry = {
 	}
 }
 
-decree_industrialize = {
-	texture = "gfx/interface/icons/decree/cons.dds"
-	unlocking_technologies = {
-		manufacturies
-	}
-	state_trigger = {
-		NOR = {
-			has_decree = decree_emergency_relief
-			has_decree = decree_greener_grass_campaign
-			has_decree = decree_promote_social_mobility
-			has_decree = decree_workplace_saf
-			has_decree = decree_encourage_private_inv
-		}
-		owner = {
-			gdp < 50000000
-		}
-	}
-	valid = {
-		owner = {
-			is_player = yes
-		}
-	}
-	modifier = {
-		state_construction_mult = 0.35
-		state_migration_pull_mult = -0.2
-		building_subsistence_output_mult = -0.1
-		state_peasants_mortality_mult = 0.09
-		state_laborers_mortality_mult = 0.15
-		state_machinists_mortality_mult = 0.15
-		state_farmers_mortality_mult = 0.15
-		state_slaves_mortality_mult = 0.25
-		state_pop_qualifications_mult = -0.1
-		state_education_access_add = -0.15
-		state_lower_strata_expected_sol_add = 1
-		state_radicals_from_political_movements_mult = 0.20
-		building_minimum_wage_mult = -0.1
-		building_working_conditions_mult = 0.1
-	}
-	cost = 200
-}
-
 decree_greener_grass_campaign = {
 	texture = "gfx/interface/icons/decree/decree_greener_grass_campaign.dds"
 	state_trigger = {
 		is_isolated_from_market = no
-		NOT = {
-			has_decree = decree_industrialize
-		}
+
 	}
 	modifier = {
-		state_migration_pull_add = 20
-		state_migration_pull_mult = 0.25
+		state_migration_pull_add = 10
+		state_migration_pull_mult = 0.2
 	}
 	unlocking_technologies = {
 		romanticism
@@ -681,8 +632,8 @@ decree_greener_grass_campaign = {
 decree_enlistment_efforts = {
 	texture = "gfx/interface/icons/decree/decree_enlistment_efforts.dds"
 	modifier = {
-		state_conscription_rate_add = 0.05
-		building_training_rate_mult = 0.25
+		state_conscription_rate_add = 0.02
+		building_training_rate_mult = 0.2
 	}
 	unlocking_technologies = {
 		mandatory_service

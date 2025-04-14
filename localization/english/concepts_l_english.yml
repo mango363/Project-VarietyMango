@@ -597,6 +597,10 @@
   concept_court_intrigue: "Court Intrigue"
   concept_court_intrigue_short: "Intrigue"
   concept_court_intrigue_desc: "$concept_court_intrigue$ represents the progress various plots to overthrow the [Concept('concept_ruler','$RULER_TITLE_MAHARAJA$')]. $concept_court_intrigue_short$ is tracked in the #b $je_sikh_sovereignty$#! [concept_journal_entry]. If $concept_court_intrigue_short$ reaches #v 100%#!, the $RULER_TITLE_MAHARAJA$ will be assassinated, and a new candidate enthroned.\n\n#title $concept_court_intrigue$ can be affected by the following conditions:#!\n• [GetCharacterTrait('ambitious').GetName] or [GetCharacterTrait('ruthless').GetName] [Concept('concept_leader', '$concept_leaders$')]\n• [concept_ruler] [concept_popularity]\n• [concept_legitimacy]\n• The [concept_clout] of the $concept_ruler_possessive$ [concept_interest_group]\n• Events and other conditions"
+ # Sikh Empire Content
+ je_sikh_sovereignty: "Sikh Sovereignty"
+ je_sikh_sovereignty_reason:1 "These are the early days of our newly established dynasty. Our burgeoning kingdom has enjoyed great success in the years since the #bold Sher-e-Punjab#! conquered the former Mughal imperial capital.\n\nIt is critical at this time that we protect our territory from outside aggression and honor the tenets of our [GetReligion('sikh').GetName] faith. May the legacy of this dynasty be long-lasting!\n\n#b [concept_empire_stability] and [concept_court_intrigue]#!\nThe [ROOT.GetCountry.GetNameNoFormatting] faces more than just external threats. Forces within our court may conspire to overthrow our [concept_ruler] in favor of their preferred candidate. If our #b $sikh_empire_intrigue_bar$#! reaches #v 100%#!, our [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] ($concept_ruler$) will be assassinated, #b $sikh_empire_progress_bar$#! will be #bold reset#! to #v 0#!, $concept_court_intrigue_short$ will decrease, and a new candidate will be enthroned."
+ je_sikh_sovereignty_complete:1 "[concept_empire_stability] has reached #v 100%#!"
 
 
  concept_interest_group: "Interest Group"
@@ -2212,3 +2216,5 @@ concept_religious: "Religious"
 
  gov_cannot_build_economic_buildings_bool: "Disables the ability of the government to build economic buildings"
  gov_cannot_build_economic_buildings_bool_desc: "Disables the ability of the government to build economic buildings.\nGovernment funded construction will only be able to build [Concept('concept_government_building', '$concept_government_buildings$')], [Concept('concept_monument', '$concept_monuments$')], [GetBuildingType('building_university').GetName], [GetBuildingType('building_arts_academy').GetName], [GetBuildingType('building_power_plant').GetName], [GetBuildingType('building_port').GetName], [GetBuildingType('building_railway').GetName], [GetBuildingType('building_construction_sector').GetName], [GetBuildingType('building_skyscraper').GetName], [GetBuildingType('building_barracks').GetName] and [GetBuildingType('building_naval_base').GetName]."
+
+ milexp_cost_small_cost: "Have at least 300 War Experience"

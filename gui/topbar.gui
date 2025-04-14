@@ -259,7 +259,7 @@ types topbar_components
 					tooltip = "[GetPlayer.GetCustom('idea_points_cus_loc')]"
 					icon = {
 						size = { @secondary_icon_size @secondary_icon_size }
-						texture = "gfx/interface/icon_ideas.dds"
+						texture = "gfx/interface/icons/lens_toolbar_icons/military_lens_button.dds"
 						parentanchor = vcenter
 					}
 

@@ -13,14 +13,6 @@ fm_wareco.1 = {
 	icon = "gfx/interface/icons/goods_icons/small_arms.dds"
 	trigger = {
 	}
-	immediate = {
-		set_variable = {
-			name = vareco
-		}
-		add_modifier = {
-			name = wareco1
-		}
-	}
 	option = {
 		name = fm_wareco.1.a
 		default_option = yes
@@ -28,14 +20,9 @@ fm_wareco.1 = {
 			text = warecohelp
 		}
 		hidden_effect = {
-			if = {
-				limit = {
-					has_variable = vareco
-				 }
-				 trigger_event = {
-					id = fm_wareco.3
-					days = 65
-				}
+			trigger_event = {
+				id = fm_wareco.3
+				days = 65
 			}
 		}
 	}
@@ -76,32 +63,17 @@ fm_wareco.3 = {
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
-	trigger = {
-		has_variable = vareco
-	}
-	immediate = {
-	}
 	option = {
 		name = fm_wareco.3.a
 		default_option = yes
-		if = {
-			limit = {
-				has_variable = vareco
-			 }
-			remove_modifier = wareco1
+		remove_modifier = wareco1
 			add_modifier = {
 				name = wareco2
 			}
-		}
 		hidden_effect = {
-			if = {
-				limit = {
-					has_variable = vareco
-				 }
-				 trigger_event = {
-					id = fm_wareco.4
-					days = 205
-				}
+			trigger_event = {
+				id = fm_wareco.4
+				days = 205
 			}
 		}
 	}
@@ -118,22 +90,12 @@ fm_wareco.4 = {
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/invention_icons/manufacturies.dds"
-	trigger = {
-		has_variable = vareco
-	}
-	immediate = {
-	}
 	option = {
 		name = fm_wareco.4.a
 		default_option = yes
-		if = {
-			limit = {
-				has_variable = vareco
-			 }
-			 remove_modifier = wareco2
-			 add_modifier = {
-				name = wareco3
-			}
-		}
+		remove_modifier = wareco2
+		add_modifier = {
+		   name = wareco3
+	   }
 	}
 }

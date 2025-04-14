@@ -740,7 +740,14 @@ types journal
 				widget = {
 					parentanchor = left|vcenter
 					size = { 500 150 }	
-										
+					icon = {
+						visible = "[ObjectsEqual( Decision.GetName, Localize('research_decision') )]"
+						size = { 150 150 }
+
+						texture = "gfx\research_decision.png"
+						parentanchor = left|hcenter
+						widgetanchor = left|hcenter
+					}	
 					icon = {
 						visible = "[ObjectsEqual( Decision.GetName, Localize('revive_olympic_games_decision') )]"
 						size = { 150 150 }

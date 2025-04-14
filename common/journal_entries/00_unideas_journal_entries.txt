@@ -2,7 +2,7 @@
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_farms_research_funding
             }
         }
@@ -11,7 +11,7 @@
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_farms_research_funding
             }
         }
@@ -119,7 +119,7 @@ je_groceries_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_groceries_research_funding
             }
         }
@@ -128,7 +128,7 @@ je_groceries_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_groceries_research_funding
             }
         }
@@ -234,7 +234,7 @@ je_logging_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_logging_research_funding
             }
         }
@@ -243,7 +243,7 @@ je_logging_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_logging_research_funding
             }
         }
@@ -355,7 +355,7 @@ je_textile_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_textile_research_funding
             }
         }
@@ -364,7 +364,7 @@ je_textile_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_textile_research_funding
             }
         }
@@ -476,7 +476,7 @@ je_fishing_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_fishing_research_funding
             }
         }
@@ -485,7 +485,7 @@ je_fishing_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_fishing_research_funding
             }
         }
@@ -596,7 +596,7 @@ je_furniture_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_furniture_research_funding
             }
         }
@@ -605,7 +605,7 @@ je_furniture_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_furniture_research_funding
             }
         }
@@ -698,7 +698,7 @@ je_paper_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_paper_research_funding
             }
         }
@@ -707,7 +707,7 @@ je_paper_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_paper_research_funding
             }
         }
@@ -820,7 +820,7 @@ je_motor_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_motor_research_funding
             }
         }
@@ -829,7 +829,7 @@ je_motor_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_motor_research_funding
             }
         }
@@ -942,7 +942,7 @@ je_alcohol_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_alcohol_research_funding
             }
         }
@@ -951,7 +951,7 @@ je_alcohol_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_alcohol_research_funding
             }
         }
@@ -1046,7 +1046,7 @@ je_meat_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_meat_research_funding
             }
         }
@@ -1055,7 +1055,7 @@ je_meat_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_meat_research_funding
             }
         }
@@ -1168,7 +1168,7 @@ je_mining_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_mining_research_funding
             }
         }
@@ -1177,7 +1177,7 @@ je_mining_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_mining_research_funding
             }
         }
@@ -1271,7 +1271,7 @@ je_boats_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_boats_research_funding
             }
         }
@@ -1280,7 +1280,7 @@ je_boats_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_boats_research_funding
             }
         }
@@ -1413,7 +1413,7 @@ je_glass_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_glass_research_funding
             }
         }
@@ -1422,7 +1422,7 @@ je_glass_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_glass_research_funding
             }
         }
@@ -1535,7 +1535,7 @@ je_plantations_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_plantations_research_funding
             }
         }
@@ -1544,7 +1544,7 @@ je_plantations_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_plantations_research_funding
             }
         }
@@ -1733,7 +1733,7 @@ je_explosives_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_explosives_research_funding
             }
         }
@@ -1742,7 +1742,7 @@ je_explosives_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_explosives_research_funding
             }
         }
@@ -1836,7 +1836,7 @@ je_silk_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_silk_research_funding
             }
         }
@@ -1845,7 +1845,7 @@ je_silk_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_silk_research_funding
             }
         }
@@ -1958,7 +1958,7 @@ je_steel_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_steel_research_funding
             }
         }
@@ -1967,7 +1967,7 @@ je_steel_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_steel_research_funding
             }
         }
@@ -2061,7 +2061,7 @@ je_tools_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_tools_research_funding
             }
         }
@@ -2070,7 +2070,7 @@ je_tools_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_tools_research_funding
             }
         }
@@ -2164,7 +2164,7 @@ je_military_invention_progress = {
     is_shown_when_inactive = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_military_research_funding
             }
         }
@@ -2173,7 +2173,7 @@ je_military_invention_progress = {
     possible = {
         any_scope_state = {
             any_scope_building = {
-                is_building_type = building_university
+                is_building_type = building_research_center
                 has_active_production_method = pm_military_research_funding
             }
         }
