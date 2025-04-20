@@ -27,4 +27,3 @@ modifier_catching_up_to_white_men:0 "Reverse Engineering Mechanisms of White Men
  offer_union_action_notification_desc:0 "We have formed a Unification agreement with [INITIATOR_COUNTRY.GetName]."
  offer_union_desc:0 "Establishes a Unification agreement between two Countries."
  offer_union_pact_desc:0 "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] and [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] have a unification agreement."
-
